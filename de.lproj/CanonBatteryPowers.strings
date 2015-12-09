@@ -1,0 +1,11 @@
+/* 
+  This file contains translations for the battery levels provided 
+  by Canon cameras. The values must match the wording used by the
+  camera (if provided) when set to this language.
+*/
+
+"EOSBatteryPowerLevelFull" = "4/4";
+"EOSBatteryPowerLevelThreeQuarters" = "3/4";
+"EOSBatteryPowerLevelHalf" = "2/4";
+"EOSBatteryPowerLevelOneQuarter" = "1/4";
+"EOSBatteryPowerLevelEmpty" = "0/4";

@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "CAMERA'S PHOTOS"; ObjectID = "1fY-tn-bEP"; */
+"1fY-tn-bEP.text" = "CAMERA'S PHOTOS";
+
+/* Class = "UILabel"; text = "DOWNLOADED PHOTOS"; ObjectID = "Fb7-Gz-dPj"; */
+"Fb7-Gz-dPj.text" = "DOWNLOADED PHOTOS";
+
+/* Class = "UILabel"; text = "Tap a downloaded photo to view it fullscreen."; ObjectID = "UAs-fX-2kj"; */
+"UAs-fX-2kj.text" = "Tap a downloaded photo to view it fullscreen.";
+
+/* Class = "UILabel"; text = "Tap a download button to download a photo to your iPad."; ObjectID = "f6s-OQ-5ad"; */
+"f6s-OQ-5ad.text" = "Tap a download button to download a photo to your iPad.";

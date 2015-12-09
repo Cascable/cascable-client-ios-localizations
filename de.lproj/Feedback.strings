@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "By far our most frequent question involves problems with connecting to a camera. \n\nIf you're having trouble with this, please read through the Camera Connection help page — following the troubleshooting steps there will fix your problems in the vast majority of cases."; ObjectID = "4u3-lC-IXA"; */
+"4u3-lC-IXA.text" = "By far our most frequent question involves problems with connecting to a camera. \n\nIf you're having trouble with this, please read through the Camera Connection help page — following the troubleshooting steps there will fix your problems in the vast majority of cases.";
+
+/* Class = "UIButton"; normalTitle = "@CascableApp"; ObjectID = "5gZ-dT-9QR"; */
+"5gZ-dT-9QR.normalTitle" = "@CascableApp";
+
+/* Class = "UILabel"; text = "by email for\nprivate feedback"; ObjectID = "OtA-KQ-yKs"; */
+"OtA-KQ-yKs.text" = "by email for\nprivate feedback";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "Pbr-6h-fAr"; */
+"Pbr-6h-fAr.title" = "Done";
+
+/* Class = "UIButton"; normalTitle = "View Camera Connection Help Page"; ObjectID = "RaN-an-Scb"; */
+"RaN-an-Scb.normalTitle" = "View Camera Connection Help Page";
+
+/* Class = "UILabel"; text = "on Twitter for\nquick feedback"; ObjectID = "U4f-wL-hRP"; */
+"U4f-wL-hRP.text" = "on Twitter for\nquick feedback";
+
+/* Class = "UILabel"; text = "Feedback"; ObjectID = "YXG-Ah-Rdx"; */
+"YXG-Ah-Rdx.text" = "Feedback";
+
+/* Class = "UIViewController"; title = "Feedback"; ObjectID = "bmc-L7-UCt"; */
+"bmc-L7-UCt.title" = "Feedback";
+
+/* Class = "UINavigationItem"; title = "Feedback"; ObjectID = "fIZ-vY-XL9"; */
+"fIZ-vY-XL9.title" = "Feedback";
+
+/* Class = "UIButton"; normalTitle = "hi@cascable.se"; ObjectID = "iMf-cK-vRk"; */
+"iMf-cK-vRk.normalTitle" = "hi@cascable.se";
+
+/* Class = "UILabel"; text = "Cascable is made by a small company in the Swedish countryside, just south of Stockholm. We pride ourselves in making software that is a joy to use and puts the user first.\n\nFeedback is welcome! We do read every email, but are not able to respond to them all. Thank you for understanding."; ObjectID = "mNv-Ln-jFW"; */
+"mNv-Ln-jFW.text" = "Cascable is made by a small company in the Swedish countryside, just south of Stockholm. We pride ourselves in making software that is a joy to use and puts the user first.\n\nFeedback is welcome! We do read every email, but are not able to respond to them all. Thank you for understanding.";
+
+/* Class = "UILabel"; text = "I can't connect to my camera!"; ObjectID = "nPq-gm-2Q8"; */
+"nPq-gm-2Q8.text" = "I can't connect to my camera!";
+
+/* Class = "UILabel"; text = "FAQ"; ObjectID = "tN9-gX-wOq"; */
+"tN9-gX-wOq.text" = "FAQ";
