@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="15A244d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZN2-am-Zmm">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-UltraLight</string>
+            <string>HelveticaNeue-Light</string>
+            <string>HelveticaNeue-Light</string>
+            <string>HelveticaNeue-Light</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-UltraLight</string>
+            <string>HelveticaNeue-Light</string>
+            <string>HelveticaNeue-Light</string>
+            <string>HelveticaNeue-UltraLight</string>
+            <string>HelveticaNeue-Light</string>
+            <string>HelveticaNeue-Light</string>
+            <string>HelveticaNeue-Light</string>
+            <string>HelveticaNeue-UltraLight</string>
+            <string>HelveticaNeue-Light</string>
+            <string>HelveticaNeue-Light</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="9Fx-1V-e4Z">
+            <objects>
+                <navigationController modalPresentationStyle="pageSheet" navigationBarHidden="YES" id="ZN2-am-Zmm" sceneMemberID="viewController">
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Nbj-pM-e9b">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="G3P-g9-PCa" kind="relationship" relationship="rootViewController" id="wgD-4D-jAI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2pL-xg-Pre" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130" y="-577"/>
+        </scene>
+        <!--Welcome-->
+        <scene sceneID="zK8-pb-TWa">
+            <objects>
+                <viewController title="Welcome" modalPresentationStyle="formSheet" id="G3P-g9-PCa" customClass="CBLFirstWelcomeFirstRunViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lvH-E3-Qq3"/>
+                        <viewControllerLayoutGuide type="bottom" id="g9B-sW-tIS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Kf-n0-sLc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's new in Cascable?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3x-YS-zoX">
+                                <rect key="frame" x="117" y="250" width="365.5" height="41.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="36"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="26"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank you for updating to Cascable 1.1. This is the first feature update to Cascable, and contains some great new tools." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e51-oR-xjz">
+                                <rect key="frame" x="53" y="321" width="495" height="40.5"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="495" id="aYW-Lz-eal">
+                                        <variation key="widthClass=compact" constant="260"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                </variation>
+                            </label>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AboutIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Y9H-Or-uKy">
+                                <rect key="frame" x="225" y="80" width="150" height="150"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="FAY-yF-wk6">
+                                        <variation key="widthClass=compact" constant="125"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" secondItem="Y9H-Or-uKy" secondAttribute="height" multiplier="1:1" id="T6q-vc-55n"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap &quot;Get Started&quot; to see a quick tour of the new features." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hay-5R-Q3N">
+                                <rect key="frame" x="53" y="401" width="495" height="20.5"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="495" id="tWd-WM-H4W">
+                                        <variation key="widthClass=compact" constant="260"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                </variation>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXi-v8-9jx">
+                                <rect key="frame" x="211" y="455" width="178" height="105"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wr9-Wd-JN8" customClass="CBLPillButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="178" height="42"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="178" id="Q63-MR-0sq"/>
+                                            <constraint firstAttribute="height" constant="42" id="dfM-ee-gUm">
+                                                <variation key="widthClass=compact" constant="36"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Get Started  →">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                        </variation>
+                                        <connections>
+                                            <segue destination="3Hm-m9-Uay" kind="show" id="ilS-Yr-AIL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NP-z9-ZaH">
+                                        <rect key="frame" x="56" y="62" width="66" height="33"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Skip Tour">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="closeFirstRun:" destination="G3P-g9-PCa" eventType="touchUpInside" id="qbS-yO-MHa"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="9NP-z9-ZaH" secondAttribute="bottom" constant="10" id="6ug-Ik-Ijy"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wr9-Wd-JN8" secondAttribute="trailing" id="8Rq-eN-LmL"/>
+                                    <constraint firstAttribute="centerX" secondItem="Wr9-Wd-JN8" secondAttribute="centerX" id="9y1-ka-O4R"/>
+                                    <constraint firstItem="Wr9-Wd-JN8" firstAttribute="top" secondItem="aXi-v8-9jx" secondAttribute="top" id="Tgy-XH-z9h"/>
+                                    <constraint firstItem="Wr9-Wd-JN8" firstAttribute="leading" secondItem="aXi-v8-9jx" secondAttribute="leading" id="jcC-zE-naS"/>
+                                    <constraint firstItem="9NP-z9-ZaH" firstAttribute="top" secondItem="Wr9-Wd-JN8" secondAttribute="bottom" constant="20" id="mYI-L7-cSp">
+                                        <variation key="widthClass=compact" constant="10"/>
+                                    </constraint>
+                                    <constraint firstAttribute="centerX" secondItem="9NP-z9-ZaH" secondAttribute="centerX" id="wfB-AV-ijV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Y9H-Or-uKy" firstAttribute="width" secondItem="Y9H-Or-uKy" secondAttribute="height" multiplier="1:1" id="2Gc-QH-DQ6"/>
+                            <constraint firstItem="Y9H-Or-uKy" firstAttribute="top" secondItem="lvH-E3-Qq3" secondAttribute="bottom" constant="80" id="6Gx-ce-zv4">
+                                <variation key="widthClass=compact" constant="40"/>
+                            </constraint>
+                            <constraint firstItem="hay-5R-Q3N" firstAttribute="top" secondItem="e51-oR-xjz" secondAttribute="bottom" constant="40" id="99D-Tv-Zjd">
+                                <variation key="widthClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="g9B-sW-tIS" firstAttribute="top" secondItem="aXi-v8-9jx" secondAttribute="bottom" constant="40" id="H08-wc-tCO">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstAttribute="centerX" secondItem="Y9H-Or-uKy" secondAttribute="centerX" id="Usg-wv-Sn5"/>
+                            <constraint firstAttribute="centerX" secondItem="e51-oR-xjz" secondAttribute="centerX" id="WPn-fi-cpH"/>
+                            <constraint firstAttribute="centerX" secondItem="hay-5R-Q3N" secondAttribute="centerX" id="XI9-iq-UcE"/>
+                            <constraint firstAttribute="centerX" secondItem="l3x-YS-zoX" secondAttribute="centerX" id="XoP-Ls-G9W"/>
+                            <constraint firstAttribute="centerX" secondItem="aXi-v8-9jx" secondAttribute="centerX" id="suR-NW-9Ao"/>
+                            <constraint firstItem="l3x-YS-zoX" firstAttribute="top" secondItem="Y9H-Or-uKy" secondAttribute="bottom" constant="20" id="tdj-ef-JnL"/>
+                            <constraint firstItem="e51-oR-xjz" firstAttribute="top" secondItem="l3x-YS-zoX" secondAttribute="bottom" constant="30" id="yBF-0p-eW6">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="qHR-UW-jcB"/>
+                    <connections>
+                        <outlet property="iconImageView" destination="Y9H-Or-uKy" id="wQu-3s-H4p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b0S-TM-LeV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130" y="333"/>
+        </scene>
+        <!--Shutter Robot-->
+        <scene sceneID="NKo-8z-P4m">
+            <objects>
+                <viewController id="3Hm-m9-Uay" userLabel="Shutter Robot" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lDM-b8-0gP"/>
+                        <viewControllerLayoutGuide type="bottom" id="ruE-rJ-ePT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="662-TK-s3R">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ShutterRobotScreenshot" translatesAutoresizingMaskIntoConstraints="NO" id="EUJ-oD-u7z">
+                                <rect key="frame" x="394" y="385" width="236" height="241"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shutter Robot" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ZC-Bh-GeY">
+                                <rect key="frame" x="412" y="40" width="200.5" height="41.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="36"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="26"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEU-Kg-jDC">
+                                <rect key="frame" x="264" y="101" width="495" height="120.5"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="495" id="5Co-iV-ImL">
+                                        <variation key="widthClass=compact" constant="260"/>
+                                    </constraint>
+                                </constraints>
+                                <string key="text">Shutter Robot provides tools for automating complex shutter work, and includes modules for a timer, an intervalometer, a bulb timer and exposure bracketing.
+
+Using Shutter Robot, timelapses and HDR photography are a breeze.</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                    <rect key="frame" x="29" y="60" width="260" height="107.5"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGq-qj-Wb6" customClass="CBLPillButton">
+                                <rect key="frame" x="437" y="676" width="150" height="42"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="JMY-kJ-PI7"/>
+                                    <constraint firstAttribute="height" constant="42" id="f6I-FD-Kn4">
+                                        <variation key="widthClass=compact" constant="36"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Continue →">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="64p-sF-5MF" kind="show" id="mAb-28-KVT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zEU-Kg-jDC" firstAttribute="top" secondItem="1ZC-Bh-GeY" secondAttribute="bottom" constant="20" id="4L9-oJ-QLp">
+                                <variation key="widthClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstAttribute="centerX" secondItem="EUJ-oD-u7z" secondAttribute="centerX" id="AbW-1D-sDa"/>
+                            <constraint firstItem="cGq-qj-Wb6" firstAttribute="centerX" secondItem="662-TK-s3R" secondAttribute="centerX" id="Ozs-uJ-JGB"/>
+                            <constraint firstAttribute="centerX" secondItem="1ZC-Bh-GeY" secondAttribute="centerX" id="PvZ-xx-HIA"/>
+                            <constraint firstItem="cGq-qj-Wb6" firstAttribute="top" secondItem="EUJ-oD-u7z" secondAttribute="bottom" constant="50" id="eWn-hJ-4yL">
+                                <variation key="widthClass=compact" constant="-25"/>
+                            </constraint>
+                            <constraint firstAttribute="bottomMargin" secondItem="cGq-qj-Wb6" secondAttribute="bottom" constant="50" id="gab-To-oXc">
+                                <variation key="widthClass=compact" constant="30"/>
+                            </constraint>
+                            <constraint firstAttribute="centerX" secondItem="zEU-Kg-jDC" secondAttribute="centerX" id="iKz-pK-VtT"/>
+                            <constraint firstItem="1ZC-Bh-GeY" firstAttribute="top" secondItem="lDM-b8-0gP" secondAttribute="bottom" constant="40" id="rbd-wt-mmz">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <segue destination="hLI-x9-vXs" kind="unwind" identifier="unwindToStart" unwindAction="unwindToStart:" id="T5K-ES-Jx0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YwB-Tw-paF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="hLI-x9-vXs" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1264" y="333"/>
+        </scene>
+        <!--Batch Copy & Delete-->
+        <scene sceneID="moS-a2-mDP">
+            <objects>
+                <viewController id="64p-sF-5MF" userLabel="Batch Copy &amp; Delete" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xgq-bs-wCO"/>
+                        <viewControllerLayoutGuide type="bottom" id="3fB-Y3-N5L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dBV-Em-l5e">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QuickSelectScreenshot" translatesAutoresizingMaskIntoConstraints="NO" id="pUw-31-l2X">
+                                <rect key="frame" x="393" y="373" width="236" height="233"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Batch Copy &amp; Delete" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KgJ-Oy-9xx">
+                                <rect key="frame" x="361" y="40" width="303" height="41.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="36"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="26"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When working with files on your camera, you can now tap &quot;Select&quot; to select multiple files at once for copying or deletion." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avd-i8-4VS">
+                                <rect key="frame" x="264" y="101" width="495" height="40.5"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="495" id="DKp-AE-woS">
+                                        <variation key="widthClass=compact" constant="280"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quick Select adds powerful filters. Want to copy all of the JPEG files you took today? No problem!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NiC-RM-rQE">
+                                <rect key="frame" x="264" y="152" width="495" height="40.5"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="495" id="ygN-2b-gdJ">
+                                        <variation key="widthClass=compact" constant="280"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7QS-WU-wUI" customClass="CBLPillButton">
+                                <rect key="frame" x="437" y="676" width="150" height="42"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="0wO-tH-Xqw"/>
+                                    <constraint firstAttribute="height" constant="42" id="Ev4-Mu-znH">
+                                        <variation key="widthClass=compact" constant="36"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Continue →">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="VTa-aR-8qN" kind="show" identifier="enableNotificationsComplete" id="Q3d-zX-Pfe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="avd-i8-4VS" firstAttribute="top" secondItem="KgJ-Oy-9xx" secondAttribute="bottom" constant="20" id="EXU-Op-byH"/>
+                            <constraint firstItem="7QS-WU-wUI" firstAttribute="top" secondItem="pUw-31-l2X" secondAttribute="bottom" constant="70" id="Gur-Mx-Wkd">
+                                <variation key="widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstAttribute="centerX" secondItem="NiC-RM-rQE" secondAttribute="centerX" id="JiS-Vq-YDH"/>
+                            <constraint firstAttribute="centerX" secondItem="avd-i8-4VS" secondAttribute="centerX" id="KXq-bY-MV0"/>
+                            <constraint firstAttribute="centerX" secondItem="pUw-31-l2X" secondAttribute="centerX" constant="1" id="MPF-le-yRD"/>
+                            <constraint firstItem="3fB-Y3-N5L" firstAttribute="top" secondItem="7QS-WU-wUI" secondAttribute="bottom" constant="50" id="UgI-TP-N9A">
+                                <variation key="widthClass=compact" constant="30"/>
+                            </constraint>
+                            <constraint firstItem="NiC-RM-rQE" firstAttribute="top" secondItem="avd-i8-4VS" secondAttribute="bottom" constant="10" id="rn8-Rc-JKE"/>
+                            <constraint firstAttribute="centerX" secondItem="KgJ-Oy-9xx" secondAttribute="centerX" id="sEn-gM-vAt"/>
+                            <constraint firstAttribute="centerX" secondItem="7QS-WU-wUI" secondAttribute="centerX" id="zDV-YI-Bk3"/>
+                            <constraint firstItem="KgJ-Oy-9xx" firstAttribute="top" secondItem="Xgq-bs-wCO" secondAttribute="bottom" constant="40" id="ziL-iz-oOd">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K2b-iP-bza" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2418" y="333"/>
+        </scene>
+        <!--All Done!-->
+        <scene sceneID="C8t-5W-jzu">
+            <objects>
+                <viewController id="VTa-aR-8qN" userLabel="All Done!" customClass="CBLFirstRunViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ali-l2-KYT"/>
+                        <viewControllerLayoutGuide type="bottom" id="aCQ-ds-IBJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fYB-Ly-Fqq">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="…and much more!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkA-ou-F8n">
+                                <rect key="frame" x="376" y="40" width="273.5" height="41.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="36"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="26"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Bs-PF-Jvn">
+                                <rect key="frame" x="264" y="121" width="495.5" height="80.5"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="495" id="6M5-DT-2MP">
+                                        <variation key="widthClass=compact" constant="280"/>
+                                    </constraint>
+                                </constraints>
+                                <string key="text">Cascable 1.1 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.
+
+Enjoy!</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTH-Fo-vxd" customClass="CBLPillButton">
+                                <rect key="frame" x="387" y="676" width="250" height="42"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="18I-El-H2O">
+                                        <variation key="widthClass=compact" constant="180"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="42" id="lbD-JQ-Nn6">
+                                        <variation key="widthClass=compact" constant="36"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Start Using Cascable">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                </variation>
+                                <connections>
+                                    <action selector="closeFirstRun:" destination="VTa-aR-8qN" eventType="touchUpInside" id="Lo5-PJ-KoV"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xam-AS-gEy">
+                                <rect key="frame" x="412" y="241" width="200" height="394.5"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HappyFace" translatesAutoresizingMaskIntoConstraints="NO" id="yyu-l4-Seq">
+                                        <rect key="frame" x="0.0" y="124" width="200" height="146"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HappyFaceiPhone" translatesAutoresizingMaskIntoConstraints="NO" id="WA0-Wd-mvy">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <animations/>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerY" secondItem="yyu-l4-Seq" secondAttribute="centerY" id="Agn-kp-mlx"/>
+                                    <constraint firstAttribute="trailing" secondItem="WA0-Wd-mvy" secondAttribute="trailing" id="IQT-YO-6Ww"/>
+                                    <constraint firstAttribute="centerY" secondItem="WA0-Wd-mvy" secondAttribute="centerY" id="IdN-NN-yGr"/>
+                                    <constraint firstItem="yyu-l4-Seq" firstAttribute="leading" secondItem="Xam-AS-gEy" secondAttribute="leading" id="Jxb-A0-7fn"/>
+                                    <constraint firstItem="WA0-Wd-mvy" firstAttribute="leading" secondItem="Xam-AS-gEy" secondAttribute="leading" id="fox-fe-wg6"/>
+                                    <constraint firstAttribute="trailing" secondItem="yyu-l4-Seq" secondAttribute="trailing" id="iFj-Pz-cSj"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="WA0-Wd-mvy"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <exclude reference="IQT-YO-6Ww"/>
+                                        <exclude reference="IdN-NN-yGr"/>
+                                        <exclude reference="fox-fe-wg6"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="subviews">
+                                        <exclude reference="yyu-l4-Seq"/>
+                                        <include reference="WA0-Wd-mvy"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <include reference="IQT-YO-6Ww"/>
+                                        <include reference="IdN-NN-yGr"/>
+                                        <include reference="fox-fe-wg6"/>
+                                        <exclude reference="Agn-kp-mlx"/>
+                                        <exclude reference="Jxb-A0-7fn"/>
+                                        <exclude reference="iFj-Pz-cSj"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9Bs-PF-Jvn" firstAttribute="top" secondItem="DkA-ou-F8n" secondAttribute="bottom" constant="40" id="1Oq-EQ-Yjw">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="Xam-AS-gEy" firstAttribute="top" secondItem="9Bs-PF-Jvn" secondAttribute="bottom" constant="40" id="9c5-Fm-5sQ">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstAttribute="centerX" secondItem="Xam-AS-gEy" secondAttribute="centerX" id="Fbo-yr-0j5"/>
+                            <constraint firstAttribute="centerX" secondItem="9Bs-PF-Jvn" secondAttribute="centerX" id="LBq-RW-tay"/>
+                            <constraint firstItem="aCQ-ds-IBJ" firstAttribute="top" secondItem="gTH-Fo-vxd" secondAttribute="bottom" constant="50" id="QhR-0N-ZnT">
+                                <variation key="widthClass=compact" constant="30"/>
+                            </constraint>
+                            <constraint firstItem="DkA-ou-F8n" firstAttribute="top" secondItem="Ali-l2-KYT" secondAttribute="bottom" constant="40" id="bdH-uy-cB6">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstAttribute="centerX" secondItem="DkA-ou-F8n" secondAttribute="centerX" id="kaI-9D-qQ8"/>
+                            <constraint firstAttribute="centerX" secondItem="gTH-Fo-vxd" secondAttribute="centerX" id="qY7-Rf-2My"/>
+                            <constraint firstItem="gTH-Fo-vxd" firstAttribute="top" secondItem="Xam-AS-gEy" secondAttribute="bottom" constant="40" id="wWq-bJ-233">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eqh-Pz-nes" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3612" y="333"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AboutIcon" width="150" height="150"/>
+        <image name="HappyFace" width="200" height="146"/>
+        <image name="HappyFaceiPhone" width="120" height="88"/>
+        <image name="QuickSelectScreenshot" width="236" height="233"/>
+        <image name="ShutterRobotScreenshot" width="236" height="241"/>
+    </resources>
+</document>

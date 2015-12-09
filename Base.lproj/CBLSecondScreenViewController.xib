@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CBLSecondScreenViewController">
+            <connections>
+                <outlet property="imageView" destination="Ddj-dA-rzd" id="NYN-rM-7RV"/>
+                <outlet property="noImagesContainer" destination="9sN-8i-Azu" id="NNT-7t-FCI"/>
+                <outlet property="noImagesIcon" destination="bVI-Ri-8xl" id="8cl-et-KYv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="814" height="612"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ddj-dA-rzd">
+                    <rect key="frame" x="0.0" y="0.0" width="814" height="612"/>
+                </imageView>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9sN-8i-Azu">
+                    <rect key="frame" x="188" y="169" width="439" height="275"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Files" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NCa-Dz-Nxn">
+                            <rect key="frame" x="152" y="180" width="135" height="46"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AboutIcon" translatesAutoresizingMaskIntoConstraints="NO" id="bVI-Ri-8xl">
+                            <rect key="frame" x="144" y="20" width="150" height="150"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="150" id="4gc-pd-2o6"/>
+                                <constraint firstAttribute="width" secondItem="bVI-Ri-8xl" secondAttribute="height" multiplier="1:1" id="vE1-bd-nMR"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Download files from your camera to view them here." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SG1-Vm-tKC">
+                            <rect key="frame" x="20" y="234" width="399" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="centerX" secondItem="SG1-Vm-tKC" secondAttribute="centerX" id="0Wv-MB-PY9"/>
+                        <constraint firstItem="SG1-Vm-tKC" firstAttribute="top" secondItem="NCa-Dz-Nxn" secondAttribute="bottom" constant="8" id="Bt0-UT-H6S"/>
+                        <constraint firstItem="NCa-Dz-Nxn" firstAttribute="top" secondItem="bVI-Ri-8xl" secondAttribute="bottom" constant="10" id="Cu4-ht-mqt"/>
+                        <constraint firstItem="bVI-Ri-8xl" firstAttribute="top" secondItem="9sN-8i-Azu" secondAttribute="top" constant="20" id="Nxh-Ua-KWa"/>
+                        <constraint firstItem="SG1-Vm-tKC" firstAttribute="leading" secondItem="9sN-8i-Azu" secondAttribute="leading" constant="20" id="QrO-jo-dhD"/>
+                        <constraint firstAttribute="bottom" secondItem="SG1-Vm-tKC" secondAttribute="bottom" constant="20" id="XLf-Vz-Ym8"/>
+                        <constraint firstAttribute="trailing" secondItem="SG1-Vm-tKC" secondAttribute="trailing" constant="20" id="dTr-Yg-Y43"/>
+                        <constraint firstAttribute="centerX" secondItem="NCa-Dz-Nxn" secondAttribute="centerX" id="g7q-gk-02y"/>
+                        <constraint firstAttribute="centerX" secondItem="bVI-Ri-8xl" secondAttribute="centerX" id="xb6-QF-tTo"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Ddj-dA-rzd" secondAttribute="trailing" id="G7n-QF-Mod"/>
+                <constraint firstAttribute="centerX" secondItem="9sN-8i-Azu" secondAttribute="centerX" id="a3T-Yl-So5"/>
+                <constraint firstAttribute="bottom" secondItem="Ddj-dA-rzd" secondAttribute="bottom" id="eUw-dS-JSu"/>
+                <constraint firstItem="Ddj-dA-rzd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="efY-cT-bAZ"/>
+                <constraint firstAttribute="centerY" secondItem="9sN-8i-Azu" secondAttribute="centerY" id="l2F-2p-FEa"/>
+                <constraint firstItem="Ddj-dA-rzd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="szm-0n-FqC"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="400" y="366"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AboutIcon" width="150" height="150"/>
+    </resources>
+</document>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8164.2" systemVersion="15A226f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CBLPrettyAlertProgressViewController">
+            <connections>
+                <outlet property="labelView" destination="v5C-2X-CsT" id="avt-qX-xIl"/>
+                <outlet property="progressBar" destination="Qkz-mJ-Fkd" id="iAK-gf-uJi"/>
+                <outlet property="spinner" destination="cCy-sD-XQx" id="fmh-G7-Qgv"/>
+                <outlet property="tick" destination="H3a-pr-qbA" id="f2N-Qx-D7D"/>
+                <outlet property="view" destination="0gP-Q7-Hxn" id="BPH-4Z-WJC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="0gP-Q7-Hxn">
+            <rect key="frame" x="0.0" y="0.0" width="376" height="302"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H3a-pr-qbA" customClass="CBLSelectionIndicatorView">
+                    <rect key="frame" x="138" y="80.5" width="100" height="100"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Cx2-oS-Fms">
+                            <variation key="widthClass=compact" constant="50"/>
+                        </constraint>
+                        <constraint firstAttribute="width" constant="100" id="hFH-9k-J4q">
+                            <variation key="widthClass=compact" constant="50"/>
+                        </constraint>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="selected" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderThickness">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="cCy-sD-XQx">
+                    <rect key="frame" x="170" y="122.5" width="37" height="37"/>
+                    <animations/>
+                    <color key="color" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </activityIndicatorView>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Qkz-mJ-Fkd">
+                    <rect key="frame" x="113" y="189.5" width="150" height="2"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="cdz-N7-Bo5"/>
+                    </constraints>
+                </progressView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 protected or copying file was skipped." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v5C-2X-CsT">
+                    <rect key="frame" x="18" y="201.5" width="340" height="20.5"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="340" id="Jvz-d6-re9">
+                            <variation key="heightClass=regular-widthClass=compact" constant="260"/>
+                        </constraint>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="widthClass=compact">
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    </variation>
+                </label>
+            </subviews>
+            <animations/>
+            <constraints>
+                <constraint firstItem="Qkz-mJ-Fkd" firstAttribute="top" secondItem="cCy-sD-XQx" secondAttribute="bottom" constant="30" id="6O5-t9-bZa">
+                    <variation key="widthClass=compact" constant="10"/>
+                </constraint>
+                <constraint firstItem="H3a-pr-qbA" firstAttribute="centerX" secondItem="cCy-sD-XQx" secondAttribute="centerX" id="AZ6-g2-pBn"/>
+                <constraint firstItem="cCy-sD-XQx" firstAttribute="centerX" secondItem="0gP-Q7-Hxn" secondAttribute="centerX" id="Hj7-fF-VNx"/>
+                <constraint firstItem="cCy-sD-XQx" firstAttribute="centerY" secondItem="0gP-Q7-Hxn" secondAttribute="centerY" constant="-10" id="PCy-OI-YCT">
+                    <variation key="widthClass=compact" constant="-15"/>
+                </constraint>
+                <constraint firstItem="v5C-2X-CsT" firstAttribute="top" secondItem="Qkz-mJ-Fkd" secondAttribute="bottom" constant="10" id="Vsy-KP-KDm"/>
+                <constraint firstItem="v5C-2X-CsT" firstAttribute="centerX" secondItem="0gP-Q7-Hxn" secondAttribute="centerX" id="XcM-Qj-VwH"/>
+                <constraint firstItem="H3a-pr-qbA" firstAttribute="centerY" secondItem="cCy-sD-XQx" secondAttribute="centerY" constant="-10" id="gqZ-0B-uXA">
+                    <variation key="widthClass=compact" constant="0.0"/>
+                </constraint>
+                <constraint firstItem="Qkz-mJ-Fkd" firstAttribute="centerX" secondItem="0gP-Q7-Hxn" secondAttribute="centerX" id="wDh-kc-FoI"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="3" y="-177"/>
+        </view>
+    </objects>
+</document>

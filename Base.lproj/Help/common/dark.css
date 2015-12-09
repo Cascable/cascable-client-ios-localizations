@@ -1,0 +1,16 @@
+body {
+	background: rgb(26, 26, 26);
+	color: white;
+}
+
+hr {
+    background-image: -webkit-linear-gradient(left, rgba(200,200,200,0), rgba(200,200,200,0.75), rgba(200,200,200,0)); 
+}
+
+a {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
