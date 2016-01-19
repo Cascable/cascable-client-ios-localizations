@@ -4,5 +4,5 @@
   camera (if provided) when set to this language.
 */
 
-"EOSFocusModeAF" = "MF";
+"EOSFocusModeMF" = "MF";
 "EOSFocusModeAF" = "AF";
