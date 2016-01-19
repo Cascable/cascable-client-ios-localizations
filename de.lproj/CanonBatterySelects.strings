@@ -4,5 +4,5 @@
   camera (if provided) when set to this language.
 */
 
-"EOSBatterySelectBatteryPower" = "Battery Power";
-"EOSBatterySelectMainsPower" = "Mains Power";
+"EOSBatterySelectBatteryPower" = "Batteriebetrieb";
+"EOSBatterySelectMainsPower" = "Netzversorgung";

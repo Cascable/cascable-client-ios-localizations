@@ -4,5 +4,5 @@
   camera (if provided) when set to this language.
 */
 
-"EOSMirrorLockupDisabled" = "Disabled";
-"EOSMirrorLockupEnabled" = "Enabled";
+"EOSMirrorLockupDisabled" = "Deaktiviert";
+"EOSMirrorLockupEnabled" = "Aktiviert";
