@@ -393,7 +393,7 @@
 "FirstRunRemoteTitle" = "Fernbedienung";
 
 /* Subtitle for the remote control section of the tutorial. */
-"FirstRunRemoteSubTitle" = "In der Fernbedienungsansicht können Sie Ihre Kamera steuern. \nJe nach Funktionsumfang Ihrer Kamera sind die erweiterten Funktionen in der Symbolleiste zu finden.";
+"FirstRunRemoteSubTitle" = "In der Fernbedienungsansicht können Sie Ihre Kamera steuern. Je nach Funktionsumfang Ihrer Kamera sind die erweiterten Funktionen in der Symbolleiste zu finden.";
 
 /* Title for the photos section of the tutorial. */
 "FirstRunPhotosTitle" = "Fotos";

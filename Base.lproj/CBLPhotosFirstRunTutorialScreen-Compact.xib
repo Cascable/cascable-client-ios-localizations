@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8173.3" systemVersion="15A263e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CBLPhotosFirstRunTutorialScreen">
@@ -25,28 +25,25 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view userInteractionEnabled="NO" contentMode="scaleToFill" id="Qep-GX-nuS" userLabel="Download Label Container">
-            <rect key="frame" x="0.0" y="0.0" width="170" height="124"/>
+            <rect key="frame" x="0.0" y="0.0" width="200" height="124"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gUA-ct-HoH" customClass="CBLRoundedBackgroundView">
-                    <rect key="frame" x="0.0" y="47" width="170" height="77"/>
+                    <rect key="frame" x="0.0" y="47" width="200" height="77"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAMERA'S PHOTOS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fY-tn-bEP">
-                            <rect key="frame" x="12" y="12" width="127" height="16"/>
-                            <animations/>
+                            <rect key="frame" x="12" y="12" width="127.5" height="16"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap a download button to download a photo." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6s-OQ-5ad">
-                            <rect key="frame" x="12" y="36" width="145.5" height="29"/>
-                            <animations/>
+                            <rect key="frame" x="12" y="36" width="176" height="29"/>
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <animations/>
                     <color key="backgroundColor" white="0.0" alpha="0.69999999999999996" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="f6s-OQ-5ad" secondAttribute="trailing" constant="12" id="4yq-nf-n2h"/>
@@ -55,7 +52,7 @@
                         <constraint firstItem="1fY-tn-bEP" firstAttribute="leading" secondItem="gUA-ct-HoH" secondAttribute="leading" constant="12" id="EoU-8f-J4Q"/>
                         <constraint firstItem="f6s-OQ-5ad" firstAttribute="top" secondItem="1fY-tn-bEP" secondAttribute="bottom" constant="8" id="Gql-zn-Otm"/>
                         <constraint firstAttribute="bottom" secondItem="f6s-OQ-5ad" secondAttribute="bottom" constant="12" id="K4I-vc-6ib"/>
-                        <constraint firstAttribute="width" constant="170" id="aCc-A6-CMr"/>
+                        <constraint firstAttribute="width" constant="200" id="aCc-A6-CMr"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -65,7 +62,6 @@
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sbx-Pw-f3c" customClass="CBLArcView">
                     <rect key="frame" x="153" y="0.0" width="9" height="43"/>
-                    <animations/>
                     <constraints>
                         <constraint firstAttribute="height" constant="43" id="npZ-aQ-CCA"/>
                         <constraint firstAttribute="width" constant="9" id="wwX-4m-fDi"/>
@@ -80,7 +76,6 @@
                     </userDefinedRuntimeAttributes>
                 </view>
             </subviews>
-            <animations/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="gUA-ct-HoH" secondAttribute="trailing" id="3in-Tp-ReX"/>
                 <constraint firstItem="Sbx-Pw-f3c" firstAttribute="leading" secondItem="Qep-GX-nuS" secondAttribute="leading" constant="153.5" id="En2-Pe-PpA"/>
@@ -98,7 +93,6 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PmE-lX-e8c" customClass="CBLArcView">
                     <rect key="frame" x="24" y="0.0" width="30" height="90"/>
-                    <animations/>
                     <constraints>
                         <constraint firstAttribute="height" constant="90" id="Qwc-2b-QSa"/>
                         <constraint firstAttribute="width" constant="30" id="lUs-N9-lvw"/>
@@ -113,27 +107,24 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9PL-pe-LWV" customClass="CBLRoundedBackgroundView">
-                    <rect key="frame" x="12" y="94" width="180" height="77"/>
+                    <rect key="frame" x="2" y="94" width="190" height="77"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOWNLOADED PHOTOS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fb7-Gz-dPj">
                             <rect key="frame" x="12" y="12" width="155.5" height="16"/>
-                            <animations/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap a downloaded photo to view it fullscreen." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAs-fX-2kj">
-                            <rect key="frame" x="12" y="36" width="156" height="29"/>
-                            <animations/>
+                            <rect key="frame" x="12" y="36" width="166" height="29"/>
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <animations/>
                     <color key="backgroundColor" white="0.0" alpha="0.69999999999999996" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="180" id="5bX-o2-Cyl"/>
+                        <constraint firstAttribute="width" constant="190" id="5bX-o2-Cyl"/>
                         <constraint firstItem="Fb7-Gz-dPj" firstAttribute="top" secondItem="9PL-pe-LWV" secondAttribute="top" constant="12" id="Htj-f7-NWl"/>
                         <constraint firstItem="UAs-fX-2kj" firstAttribute="top" secondItem="Fb7-Gz-dPj" secondAttribute="bottom" constant="8" id="LWh-Jk-NCt"/>
                         <constraint firstItem="Fb7-Gz-dPj" firstAttribute="leading" secondItem="9PL-pe-LWV" secondAttribute="leading" constant="12" id="WY5-f5-1zG"/>
@@ -148,7 +139,6 @@
                     </userDefinedRuntimeAttributes>
                 </view>
             </subviews>
-            <animations/>
             <constraints>
                 <constraint firstItem="PmE-lX-e8c" firstAttribute="leading" secondItem="v35-72-YnS" secondAttribute="leading" constant="24" id="3UR-CS-Fdt"/>
                 <constraint firstAttribute="bottom" secondItem="9PL-pe-LWV" secondAttribute="bottom" id="84m-Zt-iRK"/>
@@ -169,7 +159,6 @@
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sfu-bn-yty" userLabel="Divider" customClass="CBLHairlineDividerView">
                             <rect key="frame" x="0.0" y="31" width="164" height="1"/>
-                            <animations/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="1" id="IWU-kW-Nqe"/>
                             </constraints>
@@ -179,13 +168,11 @@
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tR-aa-fgU">
                             <rect key="frame" x="60.5" y="9" width="42.5" height="14.5"/>
-                            <animations/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <animations/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="centerX" secondItem="3tR-aa-fgU" secondAttribute="centerX" id="4Jv-YC-R6N"/>
@@ -197,7 +184,6 @@
                     </constraints>
                 </view>
             </subviews>
-            <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="9Lp-HK-bDh" firstAttribute="top" secondItem="wxK-of-UnZ" secondAttribute="top" id="j1M-vY-Adb"/>
@@ -216,7 +202,6 @@
             <subviews>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" style="grouped" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="PSN-il-las">
                     <rect key="frame" x="0.0" y="0.0" width="164" height="262"/>
-                    <animations/>
                     <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="164" id="NVI-4m-hUz"/>
@@ -228,7 +213,6 @@
                 </tableView>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="eMq-TH-ADq">
                     <rect key="frame" x="164" y="0.0" width="164" height="262"/>
-                    <animations/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="LVm-p4-hdu">
                         <size key="itemSize" width="40" height="40"/>
@@ -242,7 +226,6 @@
                     </connections>
                 </collectionView>
             </subviews>
-            <animations/>
             <constraints>
                 <constraint firstItem="eMq-TH-ADq" firstAttribute="leading" secondItem="PSN-il-las" secondAttribute="trailing" id="5vY-Qo-UXs"/>
                 <constraint firstAttribute="bottom" secondItem="PSN-il-las" secondAttribute="bottom" id="CTM-hE-POP"/>
