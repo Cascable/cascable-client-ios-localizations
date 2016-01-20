@@ -6,10 +6,10 @@
 "3tR-aa-fgU.text" = "Fotos";
 
 /* Class = "UILabel"; text = "DOWNLOADED PHOTOS"; ObjectID = "Fb7-Gz-dPj"; */
-"Fb7-Gz-dPj.text" = "HERUNTERGELADENE FOTOS";
+"Fb7-Gz-dPj.text" = "GELADENE FOTOS";
 
 /* Class = "UILabel"; text = "Tap a downloaded photo to view it fullscreen."; ObjectID = "UAs-fX-2kj"; */
-"UAs-fX-2kj.text" = "Tippen Sie auf ein heruntergeladenes Foto, um es im Vollbild zu sehen.";
+"UAs-fX-2kj.text" = "Tippen Sie auf ein geladenes Foto für Ansicht im Vollbild.";
 
 /* Class = "UILabel"; text = "Tap a download button to download a photo."; ObjectID = "f6s-OQ-5ad"; */
 "f6s-OQ-5ad.text" = "Tippen Sie auf Herunterladen, um ein Foto herunterzuladen.";

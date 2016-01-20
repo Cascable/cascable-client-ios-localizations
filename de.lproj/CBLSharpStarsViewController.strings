@@ -36,7 +36,7 @@
 "vy8-1J-IJE.text" = "Beispieltitel";
 
 /* Class = "UINavigationItem"; title = "Save Preset"; ObjectID = "wTX-HU-EgX"; */
-"wTX-HU-EgX.title" = "Voreinstellung sichern";
+"wTX-HU-EgX.title" = "Preset sichern";
 
 /* Class = "UILabel"; text = "Maximum Shutter Speed"; ObjectID = "xZ0-OY-bfb"; */
 "xZ0-OY-bfb.text" = "Maximale Verschlussgeschwindigkeit";

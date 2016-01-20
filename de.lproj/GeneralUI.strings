@@ -3,7 +3,7 @@
 // ------------------------------------------------------------
 
 /* Formatter for neutral density filter strength. Ex: 'ND 0,3 (1 stop)'. */
-"NDFormatter" = "ND %@ (%@ Schritt)";
+"NDFormatter" = "ND %@ (%@ Stufe)";
 
 /* Formatter for neutral density filter strength. Ex: 'ND 0,9 (3 stops)'. */
 "NDFormatterPlural" = "ND %@ (%@ Stufen)";
@@ -354,7 +354,7 @@
 "ShowWhatsNewTitle" = "Was ist neu in Cascable?";
 
 /* Title of the 'Remote Mode' help page button in the help menu. */
-"RemoteModeHelpPageName" = "Fernbedienungmodus";
+"RemoteModeHelpPageName" = "Fernbedienungsmodus";
 
 /* Title of the 'Shutter Robot' help page button in the help menu. */
 "ShutterRobotHelpPageName" = "Shutter Robot";
@@ -387,13 +387,13 @@
 "MoreInformationTitle" = "Details …";
 
 /* 'SLIDE FOR SHUTTER' title in remote control tutorial. Should be in capitals. */
-"FirstRunShutterLabelTitle" = "STREICHEN FÜR VERSCHLUSS";
+"FirstRunShutterLabelTitle" = "STREICHEN";
 
 /* Title for the remote control section of the tutorial. */
 "FirstRunRemoteTitle" = "Fernbedienung";
 
 /* Subtitle for the remote control section of the tutorial. */
-"FirstRunRemoteSubTitle" = "In der Fernbedienungsansicht können Sie Ihre Kamera steuern. Je nach Funktionsumfang Ihrer Kamera sind die erweiterten Funktionen in der Symbolleiste zu finden.";
+"FirstRunRemoteSubTitle" = "In der Fernbedienungsansicht können Sie Ihre Kamera steuern. \nJe nach Funktionsumfang Ihrer Kamera sind die erweiterten Funktionen in der Symbolleiste zu finden.";
 
 /* Title for the photos section of the tutorial. */
 "FirstRunPhotosTitle" = "Fotos";
@@ -411,7 +411,7 @@
 "FirstRunCalculationsSubTitle" = "In der Berechnungen-Ansicht finden Sie hilfreiche Tools für Situationen mit schwieriger Belichtungssituation. Das Beispiel unten zeigt den Rechner für Neutraldichtefilter.";
 
 /* Short subtitle for the calculations section of the tutorial. */
-"FirstRunCalculationsSubTitleShort" = "In der Berechnungen-Ansicht finden Sie hilfreiche Tools für Situationen mit schwieriger Belichtungssituation.";
+"FirstRunCalculationsSubTitleShort" = "In der Berechnungen-Ansicht finden Sie hilfreiche Tools für schwierige Belichtungssituation.";
 
 // ------------------------------------------------------------
 //     Settings
@@ -425,7 +425,7 @@
 "GeneralSettingsTitle" = "Allgemein";
 
 /* Title for the 'Remote Mode' section of settings. */
-"RemoteModeSettingsTitle" = "Fernbedienungmodus";
+"RemoteModeSettingsTitle" = "Fernbedienungsmodus";
 
 /* Title for the 'Always Show Shooting Mode' setting. */
 "AlwaysShowAEModeSettingTitle" = "Aufnahmemodus immer anzeigen";
@@ -633,7 +633,7 @@
 "ShutterRobotEngageTitle" = "Einschalten";
 
 /* Title for 'disengaging' the shutter robot. */
-"ShutterRobotDisengageTitle" = "Disengage";
+"ShutterRobotDisengageTitle" = "Ausschalten";
 
 /* Description text for 'engaging' the shutter robot. */
 "ShutterRobotEngageFooter" = "Sobald Shutter Robot aktiviert ist, können Sie zur Fernbedienung zurückkehren und Ihre Aufnahme einrichten. Tippen Sie auf das Verschluss-Icon, um den Robot zu starten.";
@@ -672,7 +672,7 @@
 "IntervalometerRobotTitle" = "Intervalometer";
 
 /* Subtitle of the 'Intervalometer' shutter robot module. */
-"IntervalometerRobotSubTitle" = "Ein wiederholter Timer zur Aufnahme von Zeitraffern.";
+"IntervalometerRobotSubTitle" = "Ein wiederholter Timer für Zeitraffer.";
 
 /* Title of the 'Interval' setting of the intervalometer module. */
 "IntervalometerRobotIntervalTitle" = "Intervall";
@@ -696,7 +696,7 @@
 "IntervalometerRobotDisengageMethodNoneTitle" = "Manuell";
 
 /* Title of the 'After a fixed number of shots' stop setting. */
-"IntervalometerRobotDisengageMethodFixedShotsTitle" = "Nach einer festgelegten Anzahl an Fotos";
+"IntervalometerRobotDisengageMethodFixedShotsTitle" = "Nach einer Anzahl an Fotos";
 
 /* Title of the 'After a fixed amount of time' stop setting. */
 "IntervalometerRobotDisengageMethodDurationTitle" = "Nach einer festgelegten Zeit";
@@ -712,10 +712,10 @@
 "BracketingRobotSubTitle" = "Nehmen Sie mit mehreren Belichtungen gleichzeitig auf.";
 
 /* Title of the 'Range' bracketing setting. */
-"BracketingRobotRangePropertyTitle" = "Reichweite";
+"BracketingRobotRangePropertyTitle" = "Bereich";
 
 /* Title of the 'Increment' bracketing setting. */
-"BracketingRobotIncrementPropertyTitle" = "Erhöhen";
+"BracketingRobotIncrementPropertyTitle" = "Schrittweite";
 
 /* Formatter for the 'range' bracketing setting. Ex: '± 1 stop'. */
 "BracketingRobotRangeTitlePlusMinusStops" = "± %@ Stufe";
@@ -724,13 +724,13 @@
 "BracketingRobotRangeTitlePlusMinusStops_Plural" = "± %@ Stufen";
 
 /* Title of the '1/3 of a stop' bracketing interval setting. */
-"BracketingRobotStopOneThirdIntervalTitle" = "⅓ Schritt";
+"BracketingRobotStopOneThirdIntervalTitle" = "⅓ Stufe";
 
 /* Title of the '1/2 of a stop' bracketing interval setting. */
-"BracketingRobotStopOneHalfIntervalTitle" = "½ Schritt";
+"BracketingRobotStopOneHalfIntervalTitle" = "½ Stufe";
 
 /* Title of the 'One stop' bracketing interval setting. */
-"BracketingRobotStopWholeStopIntervalTitle" = "Ein Schritt";
+"BracketingRobotStopWholeStopIntervalTitle" = "Eine Stufe";
 
 // ------------------------------------------------------------
 //     Shutter Robot: Configuration
@@ -807,7 +807,7 @@
 "ShutterRobotConfigurationIncompatibleBracketModeDescription" = "Shutter Robot funktioniert nicht, wenn das kameraeigene Belichtungs-Bracketing aktiviert ist.\n\nDeaktivieren Sie das Belichtungs-Bracketing der Kamera, um Shutter Robot nutzen zu können.";
 
 /* Title for a problem caused by the camera's shutter speed not being set to bulb. */
-"ShutterRobotConfigurationNeedsBulbTitle" = "Kamera nicht in Langzeitbel.";
+"ShutterRobotConfigurationNeedsBulbTitle" = "Kam. n. in Langzeitbel.";
 
 /* Description for a problem caused by the camera's shutter speed not being set to bulb. Ex: 'Bulb Timer requires the camera…'. */
 "ShutterRobotConfigurationNeedsBulbDescription" = "%@ erfordert den „Bulb“ oder „B“ Modus.\n\nBesitzt Ihre Kamera ein „B“ auf dem Modus-Wahlrad, drehen Sie das Modus-Wahlrad auf diese Position. Anderenfalls drehen Sie das Modus-Wahlrad auf Position „M“ und stellen Sie die Verschlusszeit auf „Bulb“ ein.";
