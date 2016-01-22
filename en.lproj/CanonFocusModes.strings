@@ -1,0 +1,8 @@
+/* 
+  This file contains translations for the autofocus modes provided 
+  by Canon cameras. The values must match the wording used by the
+  camera (if provided) when set to this language.
+*/
+
+"EOSFocusModeMF" = "MF";
+"EOSFocusModeAF" = "AF";

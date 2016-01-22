@@ -1,0 +1,9 @@
+/* 
+  This file contains translations for the mirror lockup stages provided 
+  by Canon cameras. The values must match the wording used by the
+  camera (if provided) when set to this language.
+*/
+
+"EOSMirrorLockupStageDisabled" = "MLU Disabled";
+"EOSMirrorLockupStageReady" = "Ready";
+"EOSMirrorLockupStageMirrorUpBeforeShot" = "Mirror Up";
