@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="15A263e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bax-7y-uHp">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bax-7y-uHp">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -31,14 +31,12 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXG-Ah-Rdx">
                                                 <rect key="frame" x="290" y="30" width="187" height="53"/>
-                                                <animations/>
                                                 <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="44"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNv-Ln-jFW">
                                                 <rect key="frame" x="30" y="110" width="707.5" height="101.5"/>
-                                                <animations/>
                                                 <string key="text">Cascable is made by a small company in the Swedish countryside, just south of Stockholm. We pride ourselves in making software that is a joy to use and puts the user first.
 
 Feedback is welcome! We do read every email, but are not able to respond to them all. Thank you for understanding.</string>
@@ -54,7 +52,6 @@ Feedback is welcome! We do read every email, but are not able to respond to them
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gZ-dT-9QR">
                                                         <rect key="frame" x="0.0" y="41" width="107" height="30"/>
-                                                        <animations/>
                                                         <state key="normal" title="@CascableApp">
                                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
@@ -67,7 +64,6 @@ Feedback is welcome! We do read every email, but are not able to respond to them
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4f-wL-hRP">
                                                         <rect key="frame" x="3" y="69" width="101.5" height="31.5"/>
-                                                        <animations/>
                                                         <string key="text">on Twitter for
 quick feedback</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -76,7 +72,6 @@ quick feedback</string>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ri-hR-lIX">
                                                         <rect key="frame" x="32" y="0.0" width="44" height="44"/>
-                                                        <animations/>
                                                         <state key="normal" image="TwitterLogo">
                                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
@@ -86,7 +81,6 @@ quick feedback</string>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wrL-wb-cT7">
                                                         <rect key="frame" x="193" y="0.0" width="44" height="44"/>
-                                                        <animations/>
                                                         <state key="normal" image="EmailLogo">
                                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
@@ -96,7 +90,6 @@ quick feedback</string>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMf-cK-vRk">
                                                         <rect key="frame" x="162" y="41" width="107" height="30"/>
-                                                        <animations/>
                                                         <state key="normal" title="hi@cascable.se">
                                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
@@ -109,7 +102,6 @@ quick feedback</string>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OtA-KQ-yKs">
                                                         <rect key="frame" x="165" y="69" width="101.5" height="31.5"/>
-                                                        <animations/>
                                                         <string key="text">by email for
 private feedback</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -118,13 +110,11 @@ private feedback</string>
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iiK-AY-dlg" customClass="CBLHairlineDividerView">
                                                         <rect key="frame" x="134" y="25" width="1" height="51"/>
-                                                        <animations/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="1" id="gCP-MJ-uel"/>
                                                         </constraints>
                                                     </view>
                                                 </subviews>
-                                                <animations/>
                                                 <constraints>
                                                     <constraint firstItem="5gZ-dT-9QR" firstAttribute="top" secondItem="7ri-hR-lIX" secondAttribute="bottom" constant="-3" id="0Kj-Bo-4Sk"/>
                                                     <constraint firstItem="7ri-hR-lIX" firstAttribute="top" secondItem="UJe-QY-DSd" secondAttribute="top" id="CZ9-CC-4Qt"/>
@@ -150,7 +140,6 @@ private feedback</string>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FAQ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tN9-gX-wOq">
                                                 <rect key="frame" x="364" y="392" width="39" height="24"/>
-                                                <animations/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -158,9 +147,8 @@ private feedback</string>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 </variation>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I can't connect to my camera!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nPq-gm-2Q8">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I can't connect to my camera!" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nPq-gm-2Q8">
                                                 <rect key="frame" x="30" y="426" width="235" height="20.5"/>
-                                                <animations/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -170,7 +158,6 @@ private feedback</string>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4u3-lC-IXA">
                                                 <rect key="frame" x="30" y="456" width="707" height="81.5"/>
-                                                <animations/>
                                                 <string key="text">By far our most frequent question involves problems with connecting to a camera. 
 
 If you're having trouble with this, please read through the Camera Connection help page — following the troubleshooting steps there will fix your problems in the vast majority of cases.</string>
@@ -183,7 +170,6 @@ If you're having trouble with this, please read through the Camera Connection he
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RaN-an-Scb">
                                                 <rect key="frame" x="260" y="558" width="247" height="30"/>
-                                                <animations/>
                                                 <state key="normal" title="View Camera Connection Help Page">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -192,7 +178,6 @@ If you're having trouble with this, please read through the Camera Connection he
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="centerX" secondItem="UJe-QY-DSd" secondAttribute="centerX" id="0hS-Sn-Go4"/>
                                             <constraint firstItem="mNv-Ln-jFW" firstAttribute="leading" secondItem="4u3-lC-IXA" secondAttribute="leading" id="158-TE-sEX"/>
@@ -210,19 +195,27 @@ If you're having trouble with this, please read through the Camera Connection he
                                             <constraint firstItem="nPq-gm-2Q8" firstAttribute="top" secondItem="tN9-gX-wOq" secondAttribute="bottom" constant="10" id="a5E-In-sZ2"/>
                                             <constraint firstItem="4u3-lC-IXA" firstAttribute="top" secondItem="nPq-gm-2Q8" secondAttribute="bottom" constant="10" id="ceb-sv-13p"/>
                                             <constraint firstItem="RaN-an-Scb" firstAttribute="top" secondItem="4u3-lC-IXA" secondAttribute="bottom" constant="20" id="dGT-jc-1EU"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nPq-gm-2Q8" secondAttribute="trailing" constant="30" id="e0I-dJ-eXV"/>
                                             <constraint firstAttribute="centerX" secondItem="tN9-gX-wOq" secondAttribute="centerX" id="mj6-CR-Rhm"/>
                                             <constraint firstAttribute="width" constant="768" placeholder="YES" id="p3t-8L-zye"/>
                                             <constraint firstItem="nPq-gm-2Q8" firstAttribute="leading" secondItem="4u3-lC-IXA" secondAttribute="leading" id="tHT-76-BUC"/>
                                             <constraint firstAttribute="centerX" secondItem="4u3-lC-IXA" secondAttribute="centerX" id="wUf-H9-gAs"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="e0I-dJ-eXV"/>
+                                            </mask>
+                                        </variation>
                                         <variation key="widthClass=compact">
                                             <mask key="subviews">
                                                 <exclude reference="YXG-Ah-Rdx"/>
                                             </mask>
+                                            <mask key="constraints">
+                                                <include reference="e0I-dJ-eXV"/>
+                                            </mask>
                                         </variation>
                                     </view>
                                 </subviews>
-                                <animations/>
                                 <constraints>
                                     <constraint firstItem="z9N-Zn-peE" firstAttribute="leading" secondItem="XlA-yb-NCe" secondAttribute="leading" id="73f-gb-6wv"/>
                                     <constraint firstItem="z9N-Zn-peE" firstAttribute="top" secondItem="XlA-yb-NCe" secondAttribute="top" id="A38-ZZ-6w1"/>
@@ -231,7 +224,6 @@ If you're having trouble with this, please read through the Camera Connection he
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="XlA-yb-NCe" secondAttribute="trailing" id="ihc-Rf-9NI"/>
@@ -267,7 +259,6 @@ If you're having trouble with this, please read through the Camera Connection he
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="YkC-6c-c7Q">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <connections>
                         <segue destination="bmc-L7-UCt" kind="relationship" relationship="rootViewController" id="hJ6-qq-0cI"/>

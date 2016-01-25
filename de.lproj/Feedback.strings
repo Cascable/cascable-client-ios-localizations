@@ -1,21 +1,21 @@
 
 /* Class = "UILabel"; text = "By far our most frequent question involves problems with connecting to a camera. \n\nIf you're having trouble with this, please read through the Camera Connection help page — following the troubleshooting steps there will fix your problems in the vast majority of cases."; ObjectID = "4u3-lC-IXA"; */
-"4u3-lC-IXA.text" = "By far our most frequent question involves problems with connecting to a camera. \n\nIf you're having trouble with this, please read through the Camera Connection help page — following the troubleshooting steps there will fix your problems in the vast majority of cases.";
+"4u3-lC-IXA.text" = "Die meisten Anfragen bekommen wir zu Problemen beim Verbinden einer Kamera.\n\nSollten Sie damit ebenfalls Probleme haben, lesen Sie bitte die Hilfeseite zum Verbinden mit Kameras und folgen Sie den Schritten zur Fehlerbehebung. Dies sollte die Probleme in den meisten Fällen beheben.";
 
 /* Class = "UIButton"; normalTitle = "@CascableApp"; ObjectID = "5gZ-dT-9QR"; */
 "5gZ-dT-9QR.normalTitle" = "@CascableApp";
 
 /* Class = "UILabel"; text = "by email for\nprivate feedback"; ObjectID = "OtA-KQ-yKs"; */
-"OtA-KQ-yKs.text" = "by email for\nprivate feedback";
+"OtA-KQ-yKs.text" = "per E-Mail für\nprivates Feedback";
 
 /* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "Pbr-6h-fAr"; */
-"Pbr-6h-fAr.title" = "Done";
+"Pbr-6h-fAr.title" = "Fertig";
 
 /* Class = "UIButton"; normalTitle = "View Camera Connection Help Page"; ObjectID = "RaN-an-Scb"; */
-"RaN-an-Scb.normalTitle" = "View Camera Connection Help Page";
+"RaN-an-Scb.normalTitle" = "Hilfe zum Verbinden von Kameras öffnen";
 
 /* Class = "UILabel"; text = "on Twitter for\nquick feedback"; ObjectID = "U4f-wL-hRP"; */
-"U4f-wL-hRP.text" = "on Twitter for\nquick feedback";
+"U4f-wL-hRP.text" = "auf Twitter für\nschnelles Feedback";
 
 /* Class = "UILabel"; text = "Feedback"; ObjectID = "YXG-Ah-Rdx"; */
 "YXG-Ah-Rdx.text" = "Feedback";
@@ -30,10 +30,10 @@
 "iMf-cK-vRk.normalTitle" = "hi@cascable.se";
 
 /* Class = "UILabel"; text = "Cascable is made by a small company in the Swedish countryside, just south of Stockholm. We pride ourselves in making software that is a joy to use and puts the user first.\n\nFeedback is welcome! We do read every email, but are not able to respond to them all. Thank you for understanding."; ObjectID = "mNv-Ln-jFW"; */
-"mNv-Ln-jFW.text" = "Cascable is made by a small company in the Swedish countryside, just south of Stockholm. We pride ourselves in making software that is a joy to use and puts the user first.\n\nFeedback is welcome! We do read every email, but are not able to respond to them all. Thank you for understanding.";
+"mNv-Ln-jFW.text" = "Cascable kommt von einer kleinen Softwareschmiede in Schweden, südlich von Stockholm. Es ist unser Ziel, Software zu schreiben, deren Nutzung eine Freude ist und den Nutzer in den Mittelpunkt rückt.\n\nIhr Feedback ist uns wichtig! Wir lesen jede E-Mail, können jedoch nicht immer alles beantworten. Danke für Ihr Verständnis.";
 
 /* Class = "UILabel"; text = "I can't connect to my camera!"; ObjectID = "nPq-gm-2Q8"; */
-"nPq-gm-2Q8.text" = "I can't connect to my camera!";
+"nPq-gm-2Q8.text" = "Ich kann keine Verbindung zu meiner Kamera herstellen!";
 
 /* Class = "UILabel"; text = "FAQ"; ObjectID = "tN9-gX-wOq"; */
 "tN9-gX-wOq.text" = "FAQ";

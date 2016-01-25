@@ -4,5 +4,5 @@
   camera (if provided) when set to this language.
 */
 
-"EOSBracketModeDisabled" = "Bracketing Disabled";
-"EOSBracketModeEnabled" = "Bracketing Enabled";
+"EOSBracketModeDisabled" = "Bracket deaktiviert";
+"EOSBracketModeEnabled" = "Bracketing aktiviert";

@@ -4,6 +4,6 @@
   camera (if provided) when set to this language.
 */
 
-"EOSMirrorLockupStageDisabled" = "MLU Disabled";
-"EOSMirrorLockupStageReady" = "Ready";
-"EOSMirrorLockupStageMirrorUpBeforeShot" = "Mirror Up";
+"EOSMirrorLockupStageDisabled" = "MLU deaktiviert";
+"EOSMirrorLockupStageReady" = "Bereit";
+"EOSMirrorLockupStageMirrorUpBeforeShot" = "Spiegel hoch";

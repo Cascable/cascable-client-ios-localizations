@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8187.4" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZN2-am-Zmm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZN2-am-Zmm">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
@@ -16,15 +16,15 @@
             <string>HelveticaNeue-UltraLight</string>
             <string>HelveticaNeue-Light</string>
             <string>HelveticaNeue-Light</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Light</string>
+            <string>HelveticaNeue-Light</string>
             <string>HelveticaNeue-UltraLight</string>
             <string>HelveticaNeue-Light</string>
             <string>HelveticaNeue-Light</string>
             <string>HelveticaNeue-Light</string>
             <string>HelveticaNeue-Thin</string>
             <string>HelveticaNeue-UltraLight</string>
-            <string>HelveticaNeue-Light</string>
-            <string>HelveticaNeue-Light</string>
-            <string>HelveticaNeue-Thin</string>
             <string>HelveticaNeue-Light</string>
             <string>HelveticaNeue-Light</string>
         </mutableArray>
@@ -39,7 +39,6 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Nbj-pM-e9b">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <connections>
                         <segue destination="G3P-g9-PCa" kind="relationship" relationship="rootViewController" id="wgD-4D-jAI"/>
@@ -63,7 +62,6 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Cascable" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3x-YS-zoX">
                                 <rect key="frame" x="140" y="250" width="319.5" height="41.5"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -73,7 +71,6 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e51-oR-xjz">
                                 <rect key="frame" x="53" y="321" width="495" height="60.5"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="aYW-Lz-eal">
                                         <variation key="widthClass=compact" constant="260"/>
@@ -89,7 +86,6 @@
                             </label>
                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AboutIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Y9H-Or-uKy">
                                 <rect key="frame" x="225" y="80" width="150" height="150"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="FAY-yF-wk6">
                                         <variation key="widthClass=compact" constant="125"/>
@@ -99,7 +95,6 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First, let's take a quick tour of Cascable's main functions. You can take a tour again at any time from the Help menu." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hay-5R-Q3N">
                                 <rect key="frame" x="53" y="421" width="495" height="40.5"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="tWd-WM-H4W">
                                         <variation key="widthClass=compact" constant="260"/>
@@ -117,7 +112,6 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wr9-Wd-JN8" customClass="CBLPillButton">
                                         <rect key="frame" x="0.0" y="0.0" width="178" height="42"/>
-                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="178" id="Q63-MR-0sq"/>
                                             <constraint firstAttribute="height" constant="42" id="dfM-ee-gUm">
@@ -137,7 +131,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NP-z9-ZaH">
                                         <rect key="frame" x="56" y="62" width="66" height="33"/>
-                                        <animations/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                         <state key="normal" title="Skip Tour">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -150,7 +143,6 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="9NP-z9-ZaH" secondAttribute="bottom" constant="10" id="6ug-Ik-Ijy"/>
@@ -165,7 +157,6 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Y9H-Or-uKy" firstAttribute="width" secondItem="Y9H-Or-uKy" secondAttribute="height" multiplier="1:1" id="2Gc-QH-DQ6"/>
@@ -211,12 +202,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DeviceWireframe" translatesAutoresizingMaskIntoConstraints="NO" id="tJj-J2-8o4">
-                                <rect key="frame" x="5" y="183" width="590" height="416"/>
-                                <animations/>
+                                <rect key="frame" x="5" y="193" width="590" height="416"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Screen Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ZC-Bh-GeY">
                                 <rect key="frame" x="217" y="40" width="166.5" height="41.5"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -225,8 +214,7 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QJ5-aQ-aEr" customClass="CBLPillButton">
-                                <rect key="frame" x="400" y="639" width="150" height="42"/>
-                                <animations/>
+                                <rect key="frame" x="400" y="649" width="150" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="tRP-BA-TN4">
                                         <variation key="widthClass=compact" constant="36"/>
@@ -245,15 +233,13 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O1b-xf-eaa" userLabel="Screen">
-                                <rect key="frame" x="61" y="211" width="479" height="360"/>
-                                <animations/>
+                                <rect key="frame" x="61" y="221" width="479" height="360"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEU-Kg-jDC">
-                                <rect key="frame" x="-25" y="101" width="650" height="42"/>
-                                <animations/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEU-Kg-jDC">
+                                <rect key="frame" x="-50" y="101" width="700" height="42"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="650" id="5Co-iV-ImL">
+                                    <constraint firstAttribute="width" constant="700" id="5Co-iV-ImL">
                                         <variation key="widthClass=compact" constant="280"/>
                                     </constraint>
                                     <constraint firstAttribute="height" constant="42" id="r8H-N6-Cbz">
@@ -270,8 +256,7 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHQ-iV-3KP">
-                                <rect key="frame" x="50" y="643.5" width="150" height="33"/>
-                                <animations/>
+                                <rect key="frame" x="50" y="653.5" width="150" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="← Previous">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -285,7 +270,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eqe-9D-ewq" customClass="CBLPillButton">
                                 <rect key="frame" x="635" y="370" width="75" height="42"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="BE6-vw-SBl">
                                         <variation key="widthClass=compact" constant="36"/>
@@ -317,7 +301,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6z-db-tNJ" customClass="CBLPillButton">
                                 <rect key="frame" x="635" y="370" width="75" height="42"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="hE8-2l-kf6">
                                         <variation key="widthClass=compact" constant="36"/>
@@ -348,7 +331,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="QJ5-aQ-aEr" firstAttribute="width" secondItem="mHQ-iV-3KP" secondAttribute="width" id="073-1G-n4J"/>
@@ -364,7 +346,7 @@
                                 <variation key="widthClass=compact" constant="13"/>
                             </constraint>
                             <constraint firstAttribute="centerX" secondItem="1ZC-Bh-GeY" secondAttribute="centerX" id="PvZ-xx-HIA"/>
-                            <constraint firstItem="tJj-J2-8o4" firstAttribute="top" secondItem="zEU-Kg-jDC" secondAttribute="bottom" constant="40" id="RxL-rS-8G1">
+                            <constraint firstItem="tJj-J2-8o4" firstAttribute="top" secondItem="zEU-Kg-jDC" secondAttribute="bottom" constant="50" id="RxL-rS-8G1">
                                 <variation key="widthClass=compact" constant="20"/>
                             </constraint>
                             <constraint firstItem="O1b-xf-eaa" firstAttribute="trailing" secondItem="tJj-J2-8o4" secondAttribute="trailing" constant="-55" id="UXN-Qj-cXj">
@@ -394,9 +376,9 @@
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="kq8-v4-owX"/>
-                                <exclude reference="kCS-ku-vRP"/>
                                 <exclude reference="Opi-w8-sNV"/>
                                 <exclude reference="VJa-De-MLi"/>
+                                <exclude reference="kCS-ku-vRP"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -406,9 +388,9 @@
                             </mask>
                             <mask key="constraints">
                                 <include reference="kq8-v4-owX"/>
-                                <include reference="kCS-ku-vRP"/>
                                 <include reference="Opi-w8-sNV"/>
                                 <include reference="VJa-De-MLi"/>
+                                <include reference="kCS-ku-vRP"/>
                             </mask>
                         </variation>
                     </view>
@@ -440,7 +422,6 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notifications" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KgJ-Oy-9xx">
                                 <rect key="frame" x="215" y="40" width="169.5" height="41.5"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -450,7 +431,6 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avd-i8-4VS">
                                 <rect key="frame" x="52.5" y="101.5" width="495" height="60.5"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="DKp-AE-woS">
                                         <variation key="widthClass=compact" constant="260"/>
@@ -466,7 +446,6 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you like, Cascable can notify you when it has to disconnect from your camera in the background." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NiC-RM-rQE">
                                 <rect key="frame" x="52.5" y="171.5" width="495" height="40.5"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="ygN-2b-gdJ">
                                         <variation key="widthClass=compact" constant="260"/>
@@ -481,7 +460,6 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZE-IP-z7j" customClass="CBLPillButton">
                                 <rect key="frame" x="145" y="455" width="310" height="42"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="310" id="8jy-Yq-EtB">
                                         <variation key="widthClass=compact" constant="250"/>
@@ -503,7 +481,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7QS-WU-wUI">
                                 <rect key="frame" x="213.5" y="517" width="173" height="33"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Don't Show Notifications">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -520,10 +497,8 @@
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CameraDisconnectedFace" translatesAutoresizingMaskIntoConstraints="NO" id="vkM-xe-Hlj">
                                         <rect key="frame" x="0.0" y="59.5" width="203" height="149"/>
-                                        <animations/>
                                     </imageView>
                                 </subviews>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="vkM-xe-Hlj" secondAttribute="trailing" id="2Gf-w7-mqj"/>
@@ -556,14 +531,11 @@
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CameraDisconnectedFace" translatesAutoresizingMaskIntoConstraints="NO" id="L1B-9C-jkr">
                                         <rect key="frame" x="0.0" y="52" width="203" height="149"/>
-                                        <animations/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FirstRunNotificationBubbleiPad" translatesAutoresizingMaskIntoConstraints="NO" id="GRa-Ro-mY1">
                                         <rect key="frame" x="188" y="0.0" width="201" height="66"/>
-                                        <animations/>
                                     </imageView>
                                 </subviews>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="GRa-Ro-mY1" secondAttribute="trailing" id="2Fc-kk-UAW"/>
                                     <constraint firstItem="GRa-Ro-mY1" firstAttribute="top" secondItem="KJo-am-W8D" secondAttribute="top" id="6yQ-Lq-aMD"/>
@@ -588,7 +560,6 @@
                                 </variation>
                             </view>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="tbi-hu-nJ8" firstAttribute="top" secondItem="NiC-RM-rQE" secondAttribute="bottom" constant="20" id="89t-cM-Yzx"/>
@@ -656,7 +627,6 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Done!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkA-ou-F8n">
                                 <rect key="frame" x="238" y="40" width="125" height="41.5"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -666,7 +636,6 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Bs-PF-Jvn">
                                 <rect key="frame" x="52" y="121" width="495.5" height="60.5"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="6M5-DT-2MP">
                                         <variation key="widthClass=compact" constant="280"/>
@@ -684,7 +653,6 @@ Enjoy!</string>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTH-Fo-vxd" customClass="CBLPillButton">
                                 <rect key="frame" x="175" y="478" width="250" height="42"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="18I-El-H2O">
                                         <variation key="widthClass=compact" constant="180"/>
@@ -709,14 +677,11 @@ Enjoy!</string>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HappyFace" translatesAutoresizingMaskIntoConstraints="NO" id="yyu-l4-Seq">
                                         <rect key="frame" x="0.0" y="35" width="200" height="146"/>
-                                        <animations/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HappyFace" translatesAutoresizingMaskIntoConstraints="NO" id="WA0-Wd-mvy">
                                         <rect key="frame" x="0.0" y="103.5" width="200" height="146"/>
-                                        <animations/>
                                     </imageView>
                                 </subviews>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="centerY" secondItem="yyu-l4-Seq" secondAttribute="centerY" id="Agn-kp-mlx"/>
@@ -752,7 +717,6 @@ Enjoy!</string>
                                 </variation>
                             </view>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="9Bs-PF-Jvn" firstAttribute="top" secondItem="DkA-ou-F8n" secondAttribute="bottom" constant="40" id="1Oq-EQ-Yjw">

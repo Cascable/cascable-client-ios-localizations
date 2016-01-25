@@ -1,60 +1,60 @@
 
 /* Class = "UILabel"; text = "Screen Title"; ObjectID = "1ZC-Bh-GeY"; */
-"1ZC-Bh-GeY.text" = "Screen Title";
+"1ZC-Bh-GeY.text" = "Bildschirm-Titel";
 
 /* Class = "UIButton"; normalTitle = "Don't Show Notifications"; ObjectID = "7QS-WU-wUI"; */
-"7QS-WU-wUI.normalTitle" = "Don't Show Notifications";
+"7QS-WU-wUI.normalTitle" = "Keine Mitteilungen anzeigen";
 
 /* Class = "UILabel"; text = "You're all ready to connect to your camera and start shooting. \n\nEnjoy!"; ObjectID = "9Bs-PF-Jvn"; */
-"9Bs-PF-Jvn.text" = "You're all ready to connect to your camera and start shooting. \n\nEnjoy!";
+"9Bs-PF-Jvn.text" = "Sie können sich nun mit der Kamera verbinden und loslegen.\n\nViel Spaß!";
 
 /* Class = "UIButton"; normalTitle = "Skip Tour"; ObjectID = "9NP-z9-ZaH"; */
-"9NP-z9-ZaH.normalTitle" = "Skip Tour";
+"9NP-z9-ZaH.normalTitle" = "Einführung überspringen";
 
 /* Class = "UILabel"; text = "All Done!"; ObjectID = "DkA-ou-F8n"; */
-"DkA-ou-F8n.text" = "All Done!";
+"DkA-ou-F8n.text" = "Fertig!";
 
 /* Class = "UIButton"; normalTitle = "→"; ObjectID = "Eqe-9D-ewq"; */
 "Eqe-9D-ewq.normalTitle" = "→";
 
 /* Class = "UIViewController"; title = "Welcome"; ObjectID = "G3P-g9-PCa"; */
-"G3P-g9-PCa.title" = "Welcome";
+"G3P-g9-PCa.title" = "Willkommen";
 
 /* Class = "UILabel"; text = "Notifications"; ObjectID = "KgJ-Oy-9xx"; */
-"KgJ-Oy-9xx.text" = "Notifications";
+"KgJ-Oy-9xx.text" = "Mitteilungen";
 
 /* Class = "UILabel"; text = "If you like, Cascable can notify you when it has to disconnect from your camera in the background."; ObjectID = "NiC-RM-rQE"; */
-"NiC-RM-rQE.text" = "If you like, Cascable can notify you when it has to disconnect from your camera in the background.";
+"NiC-RM-rQE.text" = "Wenn Sie möchten, kann Cascable Ihnen mitteilen, wenn die Verbindung zur Kamera abbricht.";
 
 /* Class = "UIButton"; normalTitle = " Continue →"; ObjectID = "QJ5-aQ-aEr"; */
-"QJ5-aQ-aEr.normalTitle" = " Continue →";
+"QJ5-aQ-aEr.normalTitle" = " Weiter →";
 
 /* Class = "UIButton"; normalTitle = "Get Started  →"; ObjectID = "Wr9-Wd-JN8"; */
-"Wr9-Wd-JN8.normalTitle" = "Get Started  →";
+"Wr9-Wd-JN8.normalTitle" = "Loslegen  →";
 
 /* Class = "UILabel"; text = "Cascable will maintain a connection to your camera when you're using other apps. However, it might have to disconnect after a long period of time."; ObjectID = "avd-i8-4VS"; */
-"avd-i8-4VS.text" = "Cascable will maintain a connection to your camera when you're using other apps. However, it might have to disconnect after a long period of time.";
+"avd-i8-4VS.text" = "Cascable versucht, die Verbindung zur Kamera zu erhalten, wenn Sie andere Apps nutzen. Nach längerer Zeit kann die Verbindung jedoch unterbrochen werden.";
 
 /* Class = "UIButton"; normalTitle = "←"; ObjectID = "d6z-db-tNJ"; */
 "d6z-db-tNJ.normalTitle" = "←";
 
 /* Class = "UILabel"; text = "Cascable is your photography assistant. To get you started, we'll explain the basics and ask you some questions on how you'd like to use Cascable."; ObjectID = "e51-oR-xjz"; */
-"e51-oR-xjz.text" = "Cascable is your photography assistant. To get you started, we'll explain the basics and ask you some questions on how you'd like to use Cascable.";
+"e51-oR-xjz.text" = "Cascable ist Ihr persönlicher Foto-Assistent. Wir erklären Ihnen zunächst die Grundlagen und stellen ein paar Fragen zur gewünschten Nutzung von Cascable.";
 
 /* Class = "UIButton"; normalTitle = "Start Using Cascable"; ObjectID = "gTH-Fo-vxd"; */
-"gTH-Fo-vxd.normalTitle" = "Start Using Cascable";
+"gTH-Fo-vxd.normalTitle" = "Cascable nutzen";
 
 /* Class = "UILabel"; text = "First, let's take a quick tour of Cascable's main functions. You can take a tour again at any time from the Help menu."; ObjectID = "hay-5R-Q3N"; */
-"hay-5R-Q3N.text" = "First, let's take a quick tour of Cascable's main functions. You can take a tour again at any time from the Help menu.";
+"hay-5R-Q3N.text" = "Lassen Sie uns zunächst eine schnelle Tour der wichtigsten Funktionen von Cascable machen. Sie können diese Einführung auch später über das Hauptmenü aufrufen.";
 
 /* Class = "UILabel"; text = "Welcome to Cascable"; ObjectID = "l3x-YS-zoX"; */
-"l3x-YS-zoX.text" = "Welcome to Cascable";
+"l3x-YS-zoX.text" = "Willkommen bei Cascable";
 
 /* Class = "UIButton"; normalTitle = "← Previous"; ObjectID = "mHQ-iV-3KP"; */
-"mHQ-iV-3KP.normalTitle" = "← Previous";
+"mHQ-iV-3KP.normalTitle" = "← Zurück";
 
 /* Class = "UILabel"; text = "Up to two lines of description for the currently displayed screen.\n(Line 2)"; ObjectID = "zEU-Kg-jDC"; */
-"zEU-Kg-jDC.text" = "Up to two lines of description for the currently displayed screen.\n(Line 2)";
+"zEU-Kg-jDC.text" = "Bis zu zwei Zeilen Beschreibung für das aktuelle Bild.\n(Zeile 2)";
 
 /* Class = "UIButton"; normalTitle = "Show Disconnection Notifications"; ObjectID = "zZE-IP-z7j"; */
-"zZE-IP-z7j.normalTitle" = "Show Disconnection Notifications";
+"zZE-IP-z7j.normalTitle" = "Mitteilungen anzeigen";
