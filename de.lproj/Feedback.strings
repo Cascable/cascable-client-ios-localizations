@@ -12,7 +12,7 @@
 "Pbr-6h-fAr.title" = "Fertig";
 
 /* Class = "UIButton"; normalTitle = "View Camera Connection Help Page"; ObjectID = "RaN-an-Scb"; */
-"RaN-an-Scb.normalTitle" = "Hilfeseite zum Verbinden von Kameras anzeigen";
+"RaN-an-Scb.normalTitle" = "Hilfe zum Verbinden von Kameras öffnen";
 
 /* Class = "UILabel"; text = "on Twitter for\nquick feedback"; ObjectID = "U4f-wL-hRP"; */
 "U4f-wL-hRP.text" = "auf Twitter für\nschnelles Feedback";

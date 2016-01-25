@@ -24,7 +24,7 @@
 "NWL-Ln-TxG.text" = "Produzent";
 
 /* Class = "UILabel"; text = "Moral \"Support\""; ObjectID = "RMZ-Em-0AF"; */
-"RMZ-Em-0AF.text" = "Moralische „Unterstützung“";
+"RMZ-Em-0AF.text" = "„Unterstützung“";
 
 /* Class = "UILabel"; text = "© 2015 Cascable AB\nMade in Sweden"; ObjectID = "UIk-sQ-QCT"; */
 "UIk-sQ-QCT.text" = "© 2015 Cascable AB\nMade in Sweden";
@@ -42,7 +42,7 @@
 "bmc-L7-UCt.title" = "Über Cascable";
 
 /* Class = "UILabel"; text = "Writer & Director"; ObjectID = "h2Y-KU-2Ia"; */
-"h2Y-KU-2Ia.text" = "Autor & Geschäftsführer";
+"h2Y-KU-2Ia.text" = "Geschäftsführer";
 
 /* Class = "UILabel"; text = "The PDCo"; ObjectID = "i1M-J1-8hM"; */
 "i1M-J1-8hM.text" = "The PDCo";
