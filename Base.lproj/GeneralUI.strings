@@ -152,6 +152,9 @@
 /* Label for files that are protected from deletion. */
 "FileProtectedTitle" = "Protected";
 
+/* Label for files that can't be deleted due to unavailable functionality. */
+"FileDeleteUnavailableTitle" = "Unavailable";
+
 /* 'Delete File' warning dialog title. */
 "DeleteTitle" = "Delete File";
 
@@ -181,6 +184,12 @@
 
 /* 'Cannot delete protected files' alert description. Ex: 'The file "IMG_0001.JPG" is protected…'. */
 "DeleteProtectedFileWarningDescription" = "The file \"%@\" is protected and cannot be deleted. You can remove the protection using your camera.";
+
+/* 'Camera doesn't support deleting files' alert title. */
+"DeleteFilesUnsupportedWarningTitle" = "Cannot Delete Files";
+
+/* 'Camera doesn't support deleting files' alert description. */
+"DeleteFilesUnsupportedWarningDescription" = "Files cannot be deleted because this camera does not support deletion via apps. You can delete the file using your camera.";
 
 /* 'Cannot delete file' alert title. */
 "DeleteProtectedOrDownloadingFileWarningTitle" = "Cannot Delete File";
