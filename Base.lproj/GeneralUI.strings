@@ -910,6 +910,12 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 /* Description of the alert informing the user that the camera pairing was cancelled on-camera. */
 "PairingCancelledMessage" = "Pairing was cancelled by the camera. Pairing must be confirmed on the camera's screen to succeed.";
 
+/* Title of the alert informing the user that the camera needs a software update before it can be connected to. */
+"CameraNeedsUpdateTitle" = "Camera Needs Update";
+
+/* Description of the alert informing the user that the camera needs a software update before it can be connected to. */
+"CameraNeedsUpdateMessage" = "This camera is not up-to-date enough to allow Cascable to connect.\n\nIf you are connecting to a Sony, please update the \"Smart Remote\" app on your camera, otherwise consult your camera's manufacturer for instructions on how to update its software.";
+
 /* Title displayed in the main app UI while a camera is connecting. */
 "ConnectingTitle" = "Connecting…";
 
