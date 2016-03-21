@@ -613,6 +613,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Title of the 'Horizontal Line' option of the grid. Ex: '3 Horizontal Lines'. */
 "GridHorizontalLinesRowTitle_Plural" = "%@ Horizontal Lines";
 
+/* Title of the focusing popup. */
+"FocusConfigurationTitle" = "Focusing";
+
 /* Title of the focusing popup when the camera is in manual focus mode. */
 "MFConfigurationTitle" = "Manual Focusing";
 
