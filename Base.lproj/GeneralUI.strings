@@ -96,6 +96,12 @@
 /* Subtitle of the files mode warning that no files are on the camera's SD card. */
 "NoFilesAvailableDescription" = "Your camera doesn't seem to have any files on it. Get shooting!";
 
+/* Title of the files mode warning that the camera doesn't allow file access. */
+"NoFileTransferSupportTitle" = "File Access Not Supported";
+
+/* Subtitle of the files mode warning that the camera doesn't allow file access. */
+"NoFileTransferSupportDescription" = "Your camera doesn't allow storage access to apps.";
+
 /* Title of the files mode warning that there is no memory card in the connected camera. */
 "NoMemoryCardAvailableTitle" = "No Memory Card";
 
