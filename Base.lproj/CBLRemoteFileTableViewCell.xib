@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="15A235d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
@@ -16,14 +17,12 @@
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XCn-7v-Qdc">
                         <rect key="frame" x="10" y="5" width="89" height="59"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="XCn-7v-Qdc" secondAttribute="height" multiplier="3:2" id="rvo-h5-Sg8"/>
                         </constraints>
                     </imageView>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFi-6G-gGN">
                         <rect key="frame" x="385" y="21" width="25" height="28"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="height" constant="28" id="Qhh-7e-yqB"/>
                             <constraint firstAttribute="width" constant="25" id="Rn2-ym-ZfD"/>
@@ -35,7 +34,6 @@
                     </button>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ZN-Cp-mIM" customClass="MRActivityIndicatorView">
                         <rect key="frame" x="386" y="23" width="24" height="24"/>
-                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="24" id="mPp-5t-jq1"/>
@@ -44,7 +42,6 @@
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o75-fh-L13" customClass="MRCircularProgressView">
                         <rect key="frame" x="386" y="23" width="24" height="24"/>
-                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="24" id="cMP-Jk-IFQ"/>
@@ -53,7 +50,6 @@
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hZC-CM-VP3" customClass="MRCheckmarkIconView">
                         <rect key="frame" x="386" y="23" width="24" height="24"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="height" constant="24" id="2Gg-st-PE3"/>
                             <constraint firstAttribute="width" constant="24" id="eZG-IH-sBp"/>
@@ -61,31 +57,26 @@
                     </view>
                     <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="qJw-Ro-dhU">
                         <rect key="frame" x="44" y="25" width="20" height="20"/>
-                        <animations/>
                     </activityIndicatorView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EvR-pX-f0F" userLabel="Label Container">
                         <rect key="frame" x="109" y="14" width="261" height="40.5"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IMG_12345.JPG" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8W-yQ-v9z">
-                                <rect key="frame" x="0.0" y="0.0" width="126.5" height="20.5"/>
-                                <animations/>
+                                <rect key="frame" x="0.0" y="0.0" width="120.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YVF-hY-jcZ">
                                 <rect key="frame" x="0.0" y="22" width="261" height="18"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PadlockSmall" translatesAutoresizingMaskIntoConstraints="NO" id="z1J-nx-pG2">
-                                <rect key="frame" x="132" y="3.5" width="12" height="12"/>
-                                <animations/>
+                                <rect key="frame" x="126.5" y="3" width="12" height="12"/>
                             </imageView>
                         </subviews>
-                        <animations/>
                         <constraints>
                             <constraint firstItem="h8W-yQ-v9z" firstAttribute="leading" secondItem="EvR-pX-f0F" secondAttribute="leading" id="5Vo-26-gbS"/>
                             <constraint firstItem="YVF-hY-jcZ" firstAttribute="top" secondItem="h8W-yQ-v9z" secondAttribute="bottom" constant="2" id="Foy-QF-5fY"/>
@@ -99,7 +90,6 @@
                         </constraints>
                     </view>
                 </subviews>
-                <animations/>
                 <constraints>
                     <constraint firstItem="XCn-7v-Qdc" firstAttribute="centerX" secondItem="qJw-Ro-dhU" secondAttribute="centerX" id="3xR-rI-tMF"/>
                     <constraint firstAttribute="trailing" secondItem="hZC-CM-VP3" secondAttribute="trailing" constant="20" id="7x8-tQ-B63"/>
@@ -119,7 +109,6 @@
                     <constraint firstItem="XCn-7v-Qdc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="xp2-oy-8fw"/>
                 </constraints>
             </tableViewCellContentView>
-            <animations/>
             <connections>
                 <outlet property="accessoryButtonTrailingConstraint" destination="7x8-tQ-B63" id="eaL-pB-V9k"/>
                 <outlet property="checkmarkView" destination="hZC-CM-VP3" id="PBx-ZW-1En"/>
