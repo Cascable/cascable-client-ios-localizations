@@ -1,0 +1,6 @@
+{
+    "title" : "Shutter Robot",
+    "id": "se.cascable.client.help.shutter-robot",
+    "icon": "shutter-robot.png",
+    "category": "Remote Mode"
+}
