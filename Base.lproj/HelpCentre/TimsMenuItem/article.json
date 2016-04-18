@@ -1,0 +1,6 @@
+{
+    "title" : "Tim's Menu",
+    "id": "se.cascable.client.help.tims-menu-item",
+    "icon": "files-mode.png",
+    "category": "se.cascable.client.help.category.tims-menu-item"
+}
