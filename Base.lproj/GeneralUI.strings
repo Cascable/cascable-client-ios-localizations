@@ -356,6 +356,25 @@ To save files to your camera roll, you must allow Cascable access to Photos in t
 "ApplyFilterTitle" = "Apply";
 
 // ------------------------------------------------------------
+//     Files Mode: Metadata
+// ------------------------------------------------------------
+
+/* ISO formatter - e.g., "ISO 100" */
+"ISOMetadataFormatter" = "ISO %@";
+
+/* Shutter speed formatter - e.g., "1/200 s" */
+"ShutterSpeedMetadataFormatter" = "%@ s";
+
+/* Aperture formatter - e.g., "ƒ/2.8" */
+"ApertureMetadataFormatter" = "ƒ/%@";
+
+/* Focal length formatter - e.g., "40 mm" */
+"FocalLengthFormatter" = "%@ mm";
+
+/* Text to use when metadata is unavailable. */
+"NoMetadataFiller" = "--";
+
+// ------------------------------------------------------------
 //     Help and First Run
 // ------------------------------------------------------------
 
