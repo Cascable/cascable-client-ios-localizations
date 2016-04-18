@@ -53,7 +53,7 @@
                             </userDefinedRuntimeAttributes>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="7KM-Ed-iLW" secondAttribute="trailing" id="064-oT-iMx"/>
                         <constraint firstItem="7KM-Ed-iLW" firstAttribute="leading" secondItem="Dto-i2-vPI" secondAttribute="leading" id="8Nk-BS-3Z3"/>

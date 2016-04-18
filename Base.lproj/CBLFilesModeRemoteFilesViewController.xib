@@ -54,7 +54,7 @@
                             </userDefinedRuntimeAttributes>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="QmX-o6-jkQ" secondAttribute="bottom" id="4R0-TM-iJw"/>
                         <constraint firstAttribute="height" constant="44" id="4uB-wy-7f6"/>
@@ -109,7 +109,7 @@
             <nil key="simulatedBottomBarMetrics"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
             <splitViewMasterSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="155" y="82"/>
+            <point key="canvasLocation" x="482" y="64"/>
         </view>
         <view contentMode="scaleToFill" id="DZk-aK-11K" userLabel="Unavailable View">
             <rect key="frame" x="0.0" y="0.0" width="569" height="410"/>
