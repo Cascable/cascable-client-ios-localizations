@@ -271,6 +271,21 @@ Made in Sweden</string>
                         <outlet property="scrollView" destination="XlA-yb-NCe" id="19R-Cw-Jh7"/>
                         <outlet property="titleTopConstraint" destination="48a-MD-Mkn" id="FbG-OR-yEl"/>
                         <outlet property="versionLabel" destination="MNI-Tc-mVv" id="cFg-Vy-Xyx"/>
+                        <outletCollection property="headerLabels" destination="YXG-Ah-Rdx" id="cQg-Rj-xgN"/>
+                        <outletCollection property="headerLabels" destination="tN9-gX-wOq" id="HTq-Kz-eml"/>
+                        <outletCollection property="headerLabels" destination="h2Y-KU-2Ia" id="ges-m3-5JE"/>
+                        <outletCollection property="headerLabels" destination="NWL-Ln-TxG" id="G3N-sA-atq"/>
+                        <outletCollection property="headerLabels" destination="RMZ-Em-0AF" id="3hn-p4-8TU"/>
+                        <outletCollection property="headerLabels" destination="UUO-fb-CL6" id="az3-Og-SdD"/>
+                        <outletCollection property="headerLabels" destination="9f0-nD-Tyq" id="oD3-UG-dck"/>
+                        <outletCollection property="normalLabels" destination="mNv-Ln-jFW" id="7S8-PX-x70"/>
+                        <outletCollection property="normalLabels" destination="yGE-mC-BfR" id="ZG8-WC-NKg"/>
+                        <outletCollection property="normalLabels" destination="4yB-gK-9vM" id="xM7-bp-YAA"/>
+                        <outletCollection property="normalLabels" destination="3uN-za-CPl" id="RKN-xc-034"/>
+                        <outletCollection property="normalLabels" destination="i1M-J1-8hM" id="ig7-2H-fwX"/>
+                        <outletCollection property="normalLabels" destination="6Kk-xx-hBU" id="0H7-Xl-jKV"/>
+                        <outletCollection property="greyLabels" destination="MNI-Tc-mVv" id="lhh-wp-83F"/>
+                        <outletCollection property="greyLabels" destination="UIk-sQ-QCT" id="NJa-gm-RIw"/>
                         <segue destination="7z8-dI-Lke" kind="show" identifier="showSecretMenu" id="TuK-SS-9fY"/>
                     </connections>
                 </viewController>

@@ -250,6 +250,16 @@ If you're having trouble with this, please read through the Camera Connection he
                         <outlet property="feedbackTitleLabel" destination="YXG-Ah-Rdx" id="yrJ-Pd-KJT"/>
                         <outlet property="firstParagraphTopConstraint" destination="HI5-aG-2It" id="8ZS-Gv-1xz"/>
                         <outlet property="scrollView" destination="XlA-yb-NCe" id="19R-Cw-Jh7"/>
+                        <outletCollection property="headerLabels" destination="YXG-Ah-Rdx" id="eiL-Eu-ifW"/>
+                        <outletCollection property="headerLabels" destination="tN9-gX-wOq" id="De3-f8-oZa"/>
+                        <outletCollection property="headerLabels" destination="nPq-gm-2Q8" id="1Fv-D1-jh8"/>
+                        <outletCollection property="normalLabels" destination="mNv-Ln-jFW" id="8aY-1x-bSC"/>
+                        <outletCollection property="normalLabels" destination="4u3-lC-IXA" id="ES4-KH-lCH"/>
+                        <outletCollection property="greyLabels" destination="U4f-wL-hRP" id="pDg-4U-IiC"/>
+                        <outletCollection property="greyLabels" destination="OtA-KQ-yKs" id="e5M-aJ-Eui"/>
+                        <outletCollection property="buttons" destination="wrL-wb-cT7" id="SFZ-3k-Ufn"/>
+                        <outletCollection property="buttons" destination="7ri-hR-lIX" id="bxe-5x-n8F"/>
+                        <outletCollection property="buttons" destination="RaN-an-Scb" id="dmr-XK-IZd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k1v-X8-CCi" userLabel="First Responder" sceneMemberID="firstResponder"/>
