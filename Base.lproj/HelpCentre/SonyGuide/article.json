@@ -2,5 +2,6 @@
     "title" : "Sony Connection Guide",
     "id": "se.cascable.client.help.sony-connection",
     "icon": "camera-connection.png",
-    "category": "se.cascable.client.help.category.getting-connected"
+    "category": "se.cascable.client.help.category.getting-connected",
+    "sort-hint": 2
 }

@@ -2,5 +2,6 @@
     "title" : "Camera Connection",
     "id": "se.cascable.client.help.camera-connection",
     "icon": "camera-connection.png",
-    "category": "se.cascable.client.help.category.getting-connected"
+    "category": "se.cascable.client.help.category.getting-connected",
+    "sort-hint": 1
 }
