@@ -39,8 +39,8 @@ function showPageWithIdentifier(identifier) {
 	window.webkit.messageHandlers.navigateToArticleWithId.postMessage(identifier);
 }
 
-function toggleVisibility(id) {
-	var e = document.getElementById(id);
+function toggleVisibility(identifier) {
+	var e = document.getElementById(identifier);
 	if (e.style.display == 'block'){
 		e.style.display = 'none';
 	}
