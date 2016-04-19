@@ -34,3 +34,7 @@ function goDark() {
 	changeCSS("../common/dark.css", 1);
 	changeImages("dark");
 }
+
+function showPageWithIdentifier(identifier) {
+	window.webkit.messageHandlers.navigateToArticleWithId.postMessage(identifier);
+}
