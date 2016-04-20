@@ -3,5 +3,5 @@
     "id": "se.cascable.client.help.sony-connection",
     "icon": "camera-connection.png",
     "category": "se.cascable.client.help.category.getting-connected",
-    "sort-hint": 2
+    "sort-hint": 4
 }
