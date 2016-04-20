@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8187.4" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RGR-sL-0NK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RGR-sL-0NK">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--Root View Controller-->
@@ -22,7 +22,6 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ix7-ef-dl6" userLabel="Compact Calculations Button">
                                         <rect key="frame" x="0.0" y="5" width="29" height="23"/>
-                                        <animations/>
                                         <state key="normal" image="CalculationsModeToolbarIcon">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -32,7 +31,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xve-Am-xCF" userLabel="Compact Files Button">
                                         <rect key="frame" x="37" y="6" width="29" height="22"/>
-                                        <animations/>
                                         <state key="normal" image="FilesModeToolbarIcon">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -42,14 +40,12 @@
                                     </button>
                                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="skm-Vu-m0p" userLabel="Connection Indiciator Container">
                                         <rect key="frame" x="10" y="0.0" width="200" height="40"/>
-                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" placeholder="YES" id="094-Wn-QES"/>
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WoX-km-S7R" userLabel="Help Button">
                                         <rect key="frame" x="550" y="4" width="30" height="32"/>
-                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="30" id="g24-ez-IBY"/>
                                         </constraints>
@@ -62,7 +58,6 @@
                                     </button>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="CUI-Mo-Mn2">
                                         <rect key="frame" x="240" y="6" width="121" height="29"/>
-                                        <animations/>
                                         <segments>
                                             <segment title="First"/>
                                             <segment title="Second"/>
@@ -72,7 +67,6 @@
                                         </connections>
                                     </segmentedControl>
                                 </subviews>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="CUI-Mo-Mn2" firstAttribute="centerY" secondItem="oGQ-bk-v8S" secondAttribute="centerY" id="86M-Ol-bG2"/>
@@ -138,7 +132,6 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ija-rf-a7A" customClass="CBLHairlineDividerView">
                                 <rect key="frame" x="0.0" y="60" width="600" height="1"/>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="c98-ay-bgp"/>
@@ -146,11 +139,9 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="01F-rj-SDu" userLabel="Mode Container View">
                                 <rect key="frame" x="0.0" y="61" width="600" height="539"/>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="X4M-TW-MIc" firstAttribute="top" secondItem="01F-rj-SDu" secondAttribute="bottom" id="KsN-cf-Rz3"/>

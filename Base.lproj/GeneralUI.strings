@@ -127,6 +127,18 @@
 /* The title of the fullscreen image view, including a count and a name. Ex: '1 of 12 — IMG_0001.JPG'. */
 "FullScreenImagePreviewTitle" = "%@ of %@ — %@";
 
+/* The footer of the device image view, including item count. Ex: '1 item'. */
+"DeviceSpaceOnlyFormatter" = "%@ item";
+
+/* The footer of the device image view, including item count. Ex: '2 items'. */
+"DeviceSpaceOnlyFormatter_Plural" = "%@ items";
+
+/* The footer of the device image view, including shots available. Ex: '1 shot available'. */
+"DeviceShotsOnlyFormatter" = "%@ shot available";
+
+/* The footer of the device image view, including shots available. Ex: '2 shots available'. */
+"DeviceShotsOnlyFormatter_Plural" = "%@ shots available";
+
 /* The footer of the device image view, including item count and space available. Ex: '1 item, 23.05 Gb available'. */
 "DeviceSpaceFormatter" = "%@ item, %@ available";
 
@@ -158,6 +170,9 @@
 /* Label for files that are protected from deletion. */
 "FileProtectedTitle" = "Protected";
 
+/* Label for files that can't be deleted due to unavailable functionality. */
+"FileDeleteUnavailableTitle" = "Unavailable";
+
 /* 'Delete File' warning dialog title. */
 "DeleteTitle" = "Delete File";
 
@@ -187,6 +202,12 @@
 
 /* 'Cannot delete protected files' alert description. Ex: 'The file "IMG_0001.JPG" is protected…'. */
 "DeleteProtectedFileWarningDescription" = "The file \"%@\" is protected and cannot be deleted. You can remove the protection using your camera.";
+
+/* 'Camera doesn't support deleting files' alert title. */
+"DeleteFilesUnsupportedWarningTitle" = "Cannot Delete Files";
+
+/* 'Camera doesn't support deleting files' alert description. */
+"DeleteFilesUnsupportedWarningDescription" = "Files cannot be deleted because this camera does not support deletion via apps. You can delete the file using your camera.";
 
 /* 'Cannot delete file' alert title. */
 "DeleteProtectedOrDownloadingFileWarningTitle" = "Cannot Delete File";
@@ -333,6 +354,25 @@ To save files to your camera roll, you must allow Cascable access to Photos in t
 
 /* 'Apply Filter' button title. */
 "ApplyFilterTitle" = "Apply";
+
+// ------------------------------------------------------------
+//     Files Mode: Metadata
+// ------------------------------------------------------------
+
+/* ISO formatter - e.g., "ISO 100" */
+"ISOMetadataFormatter" = "ISO %@";
+
+/* Shutter speed formatter - e.g., "1/200 s" */
+"ShutterSpeedMetadataFormatter" = "%@ s";
+
+/* Aperture formatter - e.g., "ƒ/2.8" */
+"ApertureMetadataFormatter" = "ƒ/%@";
+
+/* Focal length formatter - e.g., "40 mm" */
+"FocalLengthFormatter" = "%@ mm";
+
+/* Text to use when metadata is unavailable. */
+"NoMetadataFiller" = "--";
 
 // ------------------------------------------------------------
 //     Help and First Run
@@ -499,6 +539,9 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Format for version information. Ex: 'Version 1.2.1 (670)'. */
 "VersionFormatter" = "Version %@ (%@)";
 
+/* Format for CascableCore version information. Ex: 'Version 1.2.1 (670)'. */
+"CascableCoreVersionFormatter" = "CascableCore %@ (%@, %@)";
+
 // ------------------------------------------------------------
 //     Managing Selection
 // ------------------------------------------------------------
@@ -574,6 +617,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Title of the 'Overlays' popup. */
 "OverlaysPopupTitle" = "Overlays";
 
+/* Title of the 'Camera Settings' popup. */
+"CameraSettingsPopupTitle" = "Camera Settings";
+
 /* Title of the 'Histogram' section of the overlays popup. */
 "HistogramSectionTitle" = "Histogram";
 
@@ -597,6 +643,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 
 /* Title of the 'Horizontal Line' option of the grid. Ex: '3 Horizontal Lines'. */
 "GridHorizontalLinesRowTitle_Plural" = "%@ Horizontal Lines";
+
+/* Title of the focusing popup. */
+"FocusConfigurationTitle" = "Focusing";
 
 /* Title of the focusing popup when the camera is in manual focus mode. */
 "MFConfigurationTitle" = "Manual Focusing";
@@ -906,6 +955,12 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 
 /* Description of the alert informing the user that the camera pairing was cancelled on-camera. */
 "PairingCancelledMessage" = "Pairing was cancelled by the camera. Pairing must be confirmed on the camera's screen to succeed.";
+
+/* Title of the alert informing the user that the camera needs a software update before it can be connected to. */
+"CameraNeedsUpdateTitle" = "Camera Needs Update";
+
+/* Description of the alert informing the user that the camera needs a software update before it can be connected to. */
+"CameraNeedsUpdateMessage" = "This camera is not up-to-date enough to allow Cascable to connect.\n\nIf you are connecting to a Sony, please update the \"Smart Remote\" app on your camera, otherwise consult your camera's manufacturer for instructions on how to update its software.";
 
 /* Title displayed in the main app UI while a camera is connecting. */
 "ConnectingTitle" = "Connecting…";

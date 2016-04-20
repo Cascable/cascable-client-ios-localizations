@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="8187.4" systemVersion="15A263e" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CBLFilesModeImageCell"/>
@@ -16,7 +16,6 @@
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ngc-5B-HL3">
                         <rect key="frame" x="0.0" y="0.0" width="243" height="214"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="1" id="Rid-Rf-epd"/>
                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="YiI-Gz-DIB"/>
@@ -24,7 +23,6 @@
                     </imageView>
                     <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w3x-b7-CFB" customClass="CBLSelectionIndicatorView">
                         <rect key="frame" x="209" y="180" width="24" height="24"/>
-                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="24" id="TJV-zo-sKW"/>
@@ -32,10 +30,8 @@
                         </constraints>
                     </view>
                 </subviews>
-                <animations/>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
-            <animations/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="ngc-5B-HL3" secondAttribute="bottom" id="5ba-uJ-2gL"/>
                 <constraint firstAttribute="bottom" secondItem="w3x-b7-CFB" secondAttribute="bottom" constant="10" id="7QB-bc-TDa"/>
@@ -48,6 +44,7 @@
             <connections>
                 <outlet property="imageView" destination="ngc-5B-HL3" id="10o-wQ-DuB"/>
                 <outlet property="selectedTickView" destination="w3x-b7-CFB" id="emv-YF-vK8"/>
+                <outlet property="tickViewTrailingConstraint" destination="U7b-iL-WV2" id="5LD-Cv-t48"/>
             </connections>
             <point key="canvasLocation" x="334.5" y="305"/>
         </collectionViewCell>

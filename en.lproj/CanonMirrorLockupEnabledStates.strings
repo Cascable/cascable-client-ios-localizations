@@ -1,8 +1,0 @@
-/* 
-  This file contains translations for the mirror lockup states provided 
-  by Canon cameras. The values must match the wording used by the
-  camera (if provided) when set to this language.
-*/
-
-"EOSMirrorLockupDisabled" = "Disabled";
-"EOSMirrorLockupEnabled" = "Enabled";
