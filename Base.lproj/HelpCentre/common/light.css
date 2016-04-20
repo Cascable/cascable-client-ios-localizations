@@ -1,5 +1,5 @@
 body {
-	background: rgba(247, 247, 247, 1);
+	background: rgba(255, 255, 255, 1);
 }
 
 hr {
@@ -12,4 +12,10 @@ a {
 
 a:visited {
 	color: #0dac5e;
+}
+
+.figure-box{
+	border: 1px solid #eeeeee;
+	background-color: #fafafa;
+	
 }

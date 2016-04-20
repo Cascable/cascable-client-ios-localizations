@@ -38,3 +38,13 @@ function goDark() {
 function showPageWithIdentifier(identifier) {
 	window.webkit.messageHandlers.navigateToArticleWithId.postMessage(identifier);
 }
+
+function toggleVisibility(identifier) {
+	var e = document.getElementById(identifier);
+	if (e.style.display == 'block'){
+		e.style.display = 'none';
+	}
+	else {
+		e.style.display = 'block';
+	}
+}
