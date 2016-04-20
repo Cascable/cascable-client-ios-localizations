@@ -539,6 +539,9 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Format for version information. Ex: 'Version 1.2.1 (670)'. */
 "VersionFormatter" = "Version %@ (%@)";
 
+/* Format for CascableCore version information. Ex: 'Version 1.2.1 (670)'. */
+"CascableCoreVersionFormatter" = "CascableCore %@ (%@, %@)";
+
 // ------------------------------------------------------------
 //     Managing Selection
 // ------------------------------------------------------------
