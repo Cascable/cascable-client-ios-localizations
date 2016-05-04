@@ -19,7 +19,9 @@
                 <outlet property="resultLine" destination="3bQ-Xo-YMK" id="Sli-iy-YzR"/>
                 <outlet property="savePresetBottomRangeLabel" destination="Isi-s1-pJX" id="H2u-Sx-79f"/>
                 <outlet property="savePresetNameField" destination="vy8-1J-IJE" id="ZHh-8M-j5y"/>
+                <outlet property="savePresetRangeLabel" destination="3Yz-Hd-GWD" id="9Ph-p9-k77"/>
                 <outlet property="savePresetRangeSlider" destination="3NT-Lx-TJZ" id="yXz-z3-OCW"/>
+                <outlet property="savePresetTitleLabel" destination="QWj-nk-d1j" id="PYq-vz-C94"/>
                 <outlet property="savePresetTopRangeLabel" destination="mkC-NF-oOi" id="FoL-yI-8cS"/>
                 <outlet property="savePresetViewController" destination="RHM-kz-Z9r" id="dlD-O1-eUp"/>
                 <outlet property="sensorSizeLabel" destination="3Ib-6d-AmX" id="ico-Pp-ama"/>
