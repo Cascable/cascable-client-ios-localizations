@@ -190,6 +190,7 @@
                         <outlet property="compactWidthCalculationsButton" destination="Ix7-ef-dl6" id="XD4-w6-Nv8"/>
                         <outlet property="compactWidthFilesButton" destination="xve-Am-xCF" id="D9l-sg-4e7"/>
                         <outlet property="connectionIndicatorContainer" destination="skm-Vu-m0p" id="iKO-e1-CTX"/>
+                        <outlet property="divider" destination="Ija-rf-a7A" id="h7j-u3-6pI"/>
                         <outlet property="helpButton" destination="WoX-km-S7R" id="Khc-X3-fY2"/>
                         <outlet property="modeContainer" destination="01F-rj-SDu" id="ipf-0B-thP"/>
                         <outlet property="regularWidthModeSwitcher" destination="CUI-Mo-Mn2" id="M07-Rz-57Y"/>

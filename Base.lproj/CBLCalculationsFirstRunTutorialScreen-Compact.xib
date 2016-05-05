@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8173.3" systemVersion="15A263e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CBLCalculationsFirstRunTutorialScreen">
@@ -11,6 +11,7 @@
                 <outlet property="calculationLabel" destination="yIq-49-5dS" id="tXC-Rq-eZ1"/>
                 <outlet property="calculationLabelArcView" destination="Kbv-Dn-D6c" id="bwd-Tj-BFp"/>
                 <outlet property="calculationLabelContainer" destination="dyO-wO-JcE" id="I2q-6A-m3f"/>
+                <outlet property="hairlineDivider" destination="LKj-jG-NYe" id="fNT-7G-aKY"/>
                 <outlet property="originalShutterSpeedLabel" destination="l7x-TD-bGz" id="5hD-bi-D2c"/>
                 <outlet property="originalShutterSpeedSlider" destination="3Ib-fO-ltj" id="w8S-Sb-B26"/>
                 <outlet property="resultLabel" destination="XPv-dt-CSS" id="iMY-xZ-CkK"/>
@@ -34,7 +35,6 @@
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LKj-jG-NYe" userLabel="Divider" customClass="CBLHairlineDividerView">
                             <rect key="frame" x="0.0" y="31" width="164" height="1"/>
-                            <animations/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="1" id="Qi4-Vm-14X"/>
                             </constraints>
@@ -44,13 +44,11 @@
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Neutral Density Filter" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vot-Kq-Eyc">
                             <rect key="frame" x="18" y="9.5" width="128.5" height="14.5"/>
-                            <animations/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <animations/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="centerY" secondItem="Vot-Kq-Eyc" secondAttribute="centerY" id="F6K-qi-s3a"/>
@@ -66,49 +64,42 @@
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Initial Shutter Speed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57b-fj-jmh">
                             <rect key="frame" x="10" y="10" width="123" height="16"/>
-                            <animations/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="3Ib-fO-ltj">
                             <rect key="frame" x="8" y="30" width="148" height="31"/>
-                            <animations/>
                             <connections>
                                 <action selector="originalShutterSpeedUpdated:" destination="-1" eventType="valueChanged" id="q8h-EN-Fny"/>
                             </connections>
                         </slider>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30 seconds" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7x-TD-bGz">
                             <rect key="frame" x="10" y="60" width="71" height="16"/>
-                            <animations/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filter Density" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0o-UZ-Xaa">
                             <rect key="frame" x="10" y="91" width="80" height="16"/>
-                            <animations/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="fyC-bE-kqP">
                             <rect key="frame" x="8" y="111" width="148" height="31"/>
-                            <animations/>
                             <connections>
                                 <action selector="filterDensityChanged:" destination="-1" eventType="valueChanged" id="8q6-Mr-ast"/>
                             </connections>
                         </slider>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ND 0,3 (1 stop)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHy-nJ-yaO">
                             <rect key="frame" x="10" y="141" width="91" height="16"/>
-                            <animations/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zRw-c3-Awt" customClass="CBLHairlineDividerView">
                             <rect key="frame" x="32" y="177" width="100" height="1"/>
-                            <animations/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="100" id="SjW-mW-iRL"/>
                                 <constraint firstAttribute="height" constant="1" id="aSz-JA-Sab"/>
@@ -116,20 +107,17 @@
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shutter Speed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xPz-rb-8aw">
                             <rect key="frame" x="38" y="198" width="87.5" height="16"/>
-                            <animations/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30 seconds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPv-dt-CSS">
                             <rect key="frame" x="29.5" y="217" width="106" height="24"/>
-                            <animations/>
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <animations/>
                     <color key="backgroundColor" red="0.97086095328282829" green="0.97086095328282829" blue="0.97086095328282829" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstItem="fyC-bE-kqP" firstAttribute="leading" secondItem="QHy-nJ-yaO" secondAttribute="leading" id="33O-8p-WET"/>
@@ -155,7 +143,6 @@
                     </constraints>
                 </view>
             </subviews>
-            <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="zig-ea-aDm" firstAttribute="top" secondItem="soW-bI-KwL" secondAttribute="bottom" id="2iy-O0-u0F"/>
@@ -171,7 +158,7 @@
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="235" y="394"/>
+            <point key="canvasLocation" x="393" y="311"/>
         </view>
         <view userInteractionEnabled="NO" contentMode="scaleToFill" id="dyO-wO-JcE" userLabel="Calculation Label Container">
             <rect key="frame" x="0.0" y="0.0" width="202" height="131"/>
@@ -182,20 +169,17 @@
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CALCULATION SLIDERS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QxT-jx-Wlj">
                             <rect key="frame" x="12" y="12" width="153.5" height="16"/>
-                            <animations/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drag the sliders to adjust the calculation in real time. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPm-r6-hve">
                             <rect key="frame" x="12" y="36" width="177.5" height="29"/>
-                            <animations/>
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <animations/>
                     <color key="backgroundColor" white="0.0" alpha="0.69999999999999996" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="QxT-jx-Wlj" firstAttribute="top" secondItem="yIq-49-5dS" secondAttribute="top" constant="12" id="6ov-wp-fw1"/>
@@ -214,7 +198,6 @@
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kbv-Dn-D6c" customClass="CBLArcView">
                     <rect key="frame" x="30" y="81" width="25" height="50"/>
-                    <animations/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="74a-XZ-Yzi"/>
                         <constraint firstAttribute="width" constant="25" id="sxF-KU-qmQ"/>
@@ -228,7 +211,6 @@
                     </userDefinedRuntimeAttributes>
                 </view>
             </subviews>
-            <animations/>
             <constraints>
                 <constraint firstItem="yIq-49-5dS" firstAttribute="top" secondItem="dyO-wO-JcE" secondAttribute="top" id="5X3-OB-rf7"/>
                 <constraint firstItem="Kbv-Dn-D6c" firstAttribute="top" secondItem="yIq-49-5dS" secondAttribute="bottom" constant="4" id="A6n-X0-LAP"/>

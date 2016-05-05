@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -14,6 +14,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CBLFilesModeRemoteFilesViewController">
             <connections>
+                <outlet property="bottomDivider" destination="bkq-c9-rUZ" id="8FG-Wq-Dxl"/>
                 <outlet property="cameraSpaceLabel" destination="1wn-EK-wjk" id="CbS-Re-PXx"/>
                 <outlet property="deleteButton" destination="xgq-ad-2tx" id="Cfv-Xt-BhY"/>
                 <outlet property="downloadButton" destination="Xts-uO-uL1" id="Grf-lt-ODh"/>
@@ -26,6 +27,7 @@
                 <outlet property="toggleSelectionButton" destination="4ux-iN-v8B" id="X0S-oP-ejd"/>
                 <outlet property="toolbarContainerTopConstraint" destination="fRC-Qo-fQd" id="Gvx-q6-Xco"/>
                 <outlet property="toolbarContainerView" destination="345-KN-oMi" id="Bbe-Jx-qHY"/>
+                <outlet property="topDivider" destination="QmX-o6-jkQ" id="peh-Va-pJv"/>
                 <outlet property="unavailableDescriptionLabel" destination="tOV-lH-2UK" id="mak-Fu-dHh"/>
                 <outlet property="unavailableImage" destination="htt-HP-zU4" id="DAY-DE-bdL"/>
                 <outlet property="unavailableMoreInfoButton" destination="D6x-a6-aTh" id="s4o-cW-MAX"/>

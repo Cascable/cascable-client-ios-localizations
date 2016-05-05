@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8173.3" systemVersion="15A244d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="HelveticaNeue.ttc">
@@ -29,7 +29,6 @@
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="A Succinct Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o0j-tX-rrc">
                             <rect key="frame" x="120" y="30" width="179.5" height="29"/>
-                            <animations/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
@@ -39,7 +38,6 @@
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J54-iF-6BW">
                             <rect key="frame" x="40" y="79" width="340" height="61"/>
-                            <animations/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="340" id="m89-2R-5qa">
                                     <variation key="heightClass=regular-widthClass=compact" constant="260"/>
@@ -56,14 +54,12 @@
                         </label>
                         <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="PairingFace" translatesAutoresizingMaskIntoConstraints="NO" id="fxZ-VU-7IQ">
                             <rect key="frame" x="110" y="170" width="200" height="203"/>
-                            <animations/>
                             <variation key="widthClass=compact" misplaced="YES">
                                 <rect key="frame" x="50" y="125" width="200" height="203"/>
                             </variation>
                         </imageView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xBR-nG-Cwb" userLabel="Divider" customClass="CBLHairlineDividerView">
                             <rect key="frame" x="0.0" y="403" width="420" height="1"/>
-                            <animations/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="1" id="DxT-il-dJ5"/>
                             </constraints>
@@ -73,13 +69,11 @@
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eDR-ar-kpz" userLabel="Button Container">
                             <rect key="frame" x="0.0" y="404" width="420" height="50"/>
-                            <animations/>
                             <variation key="widthClass=compact" misplaced="YES">
                                 <rect key="frame" x="0.0" y="349" width="300" height="44"/>
                             </variation>
                         </view>
                     </subviews>
-                    <animations/>
                     <color key="backgroundColor" white="1" alpha="0.95000000000000007" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="xBR-nG-Cwb" firstAttribute="top" secondItem="fxZ-VU-7IQ" secondAttribute="bottom" constant="30" id="6kq-rJ-j9O">
@@ -123,7 +117,6 @@
                     </variation>
                 </view>
             </subviews>
-            <animations/>
             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ANG-9r-LqL"/>

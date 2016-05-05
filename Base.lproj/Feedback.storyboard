@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bmc-L7-UCt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bmc-L7-UCt">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -30,7 +30,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z9N-Zn-peE" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="768" height="618.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXG-Ah-Rdx">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXG-Ah-Rdx">
                                                 <rect key="frame" x="290" y="30" width="187" height="53"/>
                                                 <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="44"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -247,6 +247,7 @@ If you're having trouble with this, please read through the Camera Connection he
                     <size key="freeformSize" width="768" height="1024"/>
                     <connections>
                         <outlet property="contentView" destination="z9N-Zn-peE" id="k0b-Xb-mtP"/>
+                        <outlet property="divider" destination="iiK-AY-dlg" id="SJG-rZ-CTg"/>
                         <outlet property="feedbackTitleLabel" destination="YXG-Ah-Rdx" id="yrJ-Pd-KJT"/>
                         <outlet property="firstParagraphTopConstraint" destination="HI5-aG-2It" id="8ZS-Gv-1xz"/>
                         <outlet property="scrollView" destination="XlA-yb-NCe" id="19R-Cw-Jh7"/>
