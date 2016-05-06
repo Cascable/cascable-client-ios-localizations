@@ -1,6 +1,6 @@
 body {
-	background: rgb(26, 26, 26);
-	color: white;
+	background: rgb(34, 34, 34);
+	color: rgb(235, 235, 235);
 }
 
 hr {
@@ -8,11 +8,11 @@ hr {
 }
 
 a {
-	color: white;
+	color: rgb(245, 245, 245);
 }
 
 a:visited {
-	color: white;
+	color: rgb(245, 245, 245);
 }
 
 .figure-box{
