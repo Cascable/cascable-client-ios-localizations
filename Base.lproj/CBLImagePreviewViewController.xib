@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CBLImagePreviewViewController">
             <connections>
+                <outlet property="histogramContainer" destination="8YS-Bl-Flf" id="DBO-rB-Ady"/>
+                <outlet property="histogramView" destination="QVL-OY-mH0" id="9vk-CY-lIN"/>
                 <outlet property="scrollView" destination="baP-Cs-Hnj" id="KRJ-8a-z1v"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -22,12 +24,47 @@
                         <outlet property="delegate" destination="-1" id="NlD-af-x7e"/>
                     </connections>
                 </scrollView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8YS-Bl-Flf" userLabel="Histogram Container">
+                    <rect key="frame" x="320" y="105" width="240" height="128"/>
+                    <subviews>
+                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L5f-X7-eRD">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Tg7-85-NIN">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QVL-OY-mH0" customClass="HistogramView" customModule="Cascable" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="20" width="220" height="98"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="QVL-OY-mH0" firstAttribute="top" secondItem="Tg7-85-NIN" secondAttribute="top" constant="20" id="Od4-aq-C9Y"/>
+                                    <constraint firstAttribute="trailing" secondItem="QVL-OY-mH0" secondAttribute="trailing" constant="10" id="PI7-k1-CoD"/>
+                                    <constraint firstAttribute="bottom" secondItem="QVL-OY-mH0" secondAttribute="bottom" constant="10" id="VAu-Kb-Gs7"/>
+                                    <constraint firstItem="QVL-OY-mH0" firstAttribute="leading" secondItem="Tg7-85-NIN" secondAttribute="leading" constant="10" id="wwP-U9-erJ"/>
+                                </constraints>
+                            </view>
+                            <blurEffect style="dark"/>
+                        </visualEffectView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="UKa-Ja-L2o"/>
+                        <constraint firstItem="L5f-X7-eRD" firstAttribute="leading" secondItem="8YS-Bl-Flf" secondAttribute="leading" id="XpU-Wl-JXh"/>
+                        <constraint firstAttribute="width" secondItem="8YS-Bl-Flf" secondAttribute="height" multiplier="15:8" id="exh-JL-1c8"/>
+                        <constraint firstAttribute="bottom" secondItem="L5f-X7-eRD" secondAttribute="bottom" id="fKr-MR-fOo"/>
+                        <constraint firstItem="L5f-X7-eRD" firstAttribute="top" secondItem="8YS-Bl-Flf" secondAttribute="top" id="hC1-4d-nNE"/>
+                        <constraint firstAttribute="trailing" secondItem="L5f-X7-eRD" secondAttribute="trailing" id="tsr-Ut-IP9"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="baP-Cs-Hnj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="05e-j4-5XM"/>
                 <constraint firstAttribute="trailing" secondItem="baP-Cs-Hnj" secondAttribute="trailing" id="0YE-Ua-H69"/>
+                <constraint firstAttribute="trailing" secondItem="8YS-Bl-Flf" secondAttribute="trailing" constant="40" id="3wX-6S-Wd4"/>
                 <constraint firstAttribute="bottom" secondItem="baP-Cs-Hnj" secondAttribute="bottom" id="4ll-K5-EtZ"/>
+                <constraint firstItem="8YS-Bl-Flf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="105" id="P18-lT-MP4"/>
                 <constraint firstItem="baP-Cs-Hnj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="R4M-i4-mwh"/>
             </constraints>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
