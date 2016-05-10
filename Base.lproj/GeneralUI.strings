@@ -508,6 +508,27 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Title for 'Open Settings App' button. */
 "SwitchToiOSSettingAppTitle" = "Open Settings App";
 
+/* Title for 'Use Custom Themes?' dialog. */
+"UseCustomThemeConfirmationTitle" = "Use Custom Themes?";
+
+/* Description text for 'Use Custom Themes?' dialog. */
+"UseCustomThemeConfirmationDecription" = "This will replace Cascable's default color schemes with those contained in the file \"%@\".\n\nYou can revert back to the default colors in Cascable's settings.";
+
+/* Confirm button title for 'Use Custom Themes?' dialog. */
+"UseCustomThemeButtonTitle" = "Use Themes";
+
+/* Title for 'Remove Custom Themes?' dialog. */
+"RemoveCustomThemeConfirmationTitle" = "Remove Custom Themes?";
+
+/* Description text for 'Remove Custom Themes?' dialog. */
+"RemoveCustomThemeConfirmationDecription" = "This will reset Cascable's color schemes back to their defaults.";
+
+/* Confirm button title for 'Remove Custom Themes?' dialog. */
+"RemoveCustomThemeButtonTitle" = "Remove Themes";
+
+/* Title of button in settings to remove custom themes. */
+"RemoveCustomThemeRowTitle" = "Remove Custom Themes";
+
 // ------------------------------------------------------------
 //     General
 // ------------------------------------------------------------
