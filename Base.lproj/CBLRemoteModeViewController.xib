@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
@@ -12,7 +11,8 @@
                 <outlet property="aeModeView" destination="IiJ-KF-54G" id="ke9-Cs-8f0"/>
                 <outlet property="dofButton" destination="Ybn-Eh-a4x" id="LMK-yw-QVO"/>
                 <outlet property="histogramContainer" destination="mta-uW-HNn" id="Wf4-aY-kJy"/>
-                <outlet property="histogramView" destination="YNs-qT-xnh" id="FvH-WC-Ly5"/>
+                <outlet property="histogramEffectView" destination="p2a-Hp-Nn5" id="eIy-xk-IYD"/>
+                <outlet property="histogramView" destination="6Yo-GO-dW2" id="SFZ-ai-Uhk"/>
                 <outlet property="liveViewContainer" destination="2" id="uMu-Wj-5ys"/>
                 <outlet property="regularSizeExposureControls" destination="0JS-PQ-jZg" id="mOj-tb-SJC"/>
                 <outlet property="shutterBottomConstraint" destination="Z2a-Em-hdJ" id="nU8-fe-f1f"/>
@@ -116,25 +116,36 @@
                         <view hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mta-uW-HNn" userLabel="Histogram Container">
                             <rect key="frame" x="304" y="30" width="256" height="100"/>
                             <subviews>
-                                <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YNs-qT-xnh" userLabel="Histogram View">
+                                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p2a-Hp-Nn5">
                                     <rect key="frame" x="0.0" y="0.0" width="256" height="100"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="256" id="0Cl-DX-csb">
-                                            <variation key="heightClass=compact" constant="128"/>
-                                            <variation key="widthClass=compact" constant="128"/>
-                                        </constraint>
-                                        <constraint firstAttribute="height" constant="100" id="IR6-hF-Zq9">
-                                            <variation key="heightClass=compact" constant="50"/>
-                                            <variation key="widthClass=compact" constant="50"/>
-                                        </constraint>
-                                    </constraints>
-                                </view>
+                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="mwu-YC-OPl">
+                                        <rect key="frame" x="0.0" y="0.0" width="256" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Yo-GO-dW2" customClass="HistogramView" customModule="Cascable" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="256" height="100"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="6Yo-GO-dW2" secondAttribute="bottom" id="skC-Q1-WbH"/>
+                                            <constraint firstAttribute="trailing" secondItem="6Yo-GO-dW2" secondAttribute="trailing" id="u4Z-1g-exq"/>
+                                            <constraint firstItem="6Yo-GO-dW2" firstAttribute="leading" secondItem="mwu-YC-OPl" secondAttribute="leading" id="v1d-NF-rMO"/>
+                                            <constraint firstItem="6Yo-GO-dW2" firstAttribute="top" secondItem="mwu-YC-OPl" secondAttribute="top" id="vLE-v2-CEr"/>
+                                        </constraints>
+                                    </view>
+                                    <blurEffect style="light"/>
+                                </visualEffectView>
                             </subviews>
                             <constraints>
-                                <constraint firstItem="YNs-qT-xnh" firstAttribute="leading" secondItem="mta-uW-HNn" secondAttribute="leading" id="OTQ-25-FC5"/>
-                                <constraint firstAttribute="trailing" secondItem="YNs-qT-xnh" secondAttribute="trailing" id="e1c-MS-AwZ"/>
-                                <constraint firstItem="YNs-qT-xnh" firstAttribute="top" secondItem="mta-uW-HNn" secondAttribute="top" id="l1r-eD-qwa"/>
-                                <constraint firstAttribute="bottom" secondItem="YNs-qT-xnh" secondAttribute="bottom" id="tQa-lt-uoY"/>
+                                <constraint firstItem="p2a-Hp-Nn5" firstAttribute="top" secondItem="mta-uW-HNn" secondAttribute="top" id="3b8-Dd-drp"/>
+                                <constraint firstAttribute="width" constant="256" id="FqJ-xr-OA5">
+                                    <variation key="heightClass=compact" constant="128"/>
+                                    <variation key="widthClass=compact" constant="128"/>
+                                </constraint>
+                                <constraint firstAttribute="bottom" secondItem="p2a-Hp-Nn5" secondAttribute="bottom" id="Tv1-jS-nLs"/>
+                                <constraint firstItem="p2a-Hp-Nn5" firstAttribute="leading" secondItem="mta-uW-HNn" secondAttribute="leading" id="hsL-qu-0PC"/>
+                                <constraint firstAttribute="trailing" secondItem="p2a-Hp-Nn5" secondAttribute="trailing" id="pIx-Uq-Cow"/>
+                                <constraint firstAttribute="width" secondItem="mta-uW-HNn" secondAttribute="height" multiplier="64:25" id="tmi-8d-uHP"/>
                             </constraints>
                         </view>
                     </subviews>
@@ -207,7 +218,7 @@
                     <variation key="heightClass=regular-widthClass=regular" constant="40"/>
                 </constraint>
             </constraints>
-            <point key="canvasLocation" x="958" y="812"/>
+            <point key="canvasLocation" x="625" y="741"/>
         </view>
     </objects>
 </document>
