@@ -628,6 +628,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* 'Start Live View' button title. */
 "StartLiveViewTitle" = "Start Live View";
 
+/* Title of the screen that pops up when previewing an image. */
+"ShotPreviewTitle" = "Image Preview";
+
 // ------------------------------------------------------------
 //     Remote Control: Popups and Controls
 // ------------------------------------------------------------
