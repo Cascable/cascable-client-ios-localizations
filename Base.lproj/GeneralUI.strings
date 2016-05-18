@@ -485,6 +485,24 @@ To save files to your camera roll, you must allow Cascable access to Photos in t
 /* Title for the 'Night Mode' setting. */
 "NightModeSettingTitle" = "Night Mode";
 
+/* Title for the settings section for reviewing photos. */
+"ReviewSettingsTitle" = "Photo Review";
+
+/* Title for the 'Review Photos After Shooting' setting. */
+"ReviewPhotosAfterShootingTitle" = "Review Shot Photos";
+
+/* Section title for the 'Automatically Dismiss' section of 'Review Photos After Shooting' */
+"AutoDismissPhotoReviewSectionTitle" = "Automatically Dismiss";
+
+/* Section footer for the 'Automatically Dismiss' section of 'Review Photos After Shooting' */
+"AutoDismissPhotoReviewSectionFooter" = "Tapping or zooming the photo being reviewed will cancel automatic dismissal for that photo.";
+
+/* Titles for the various auto-dismiss options for photo review. */
+"AutoDismissPhotoReviewSetting0Title" = "Manually";
+"AutoDismissPhotoReviewSetting2Title" = "After 2 seconds";
+"AutoDismissPhotoReviewSetting4Title" = "After 4 seconds";
+"AutoDismissPhotoReviewSetting8Title" = "After 8 seconds";
+
 /* Title for the 'Stop Live View On Idle' setting. */
 "DisableLiveViewOnInActivitySettingTitle" = "Stop Live View on Idle";
 
