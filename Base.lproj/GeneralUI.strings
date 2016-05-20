@@ -120,6 +120,12 @@
 /* Title of the 'device' segment of the control to switch between device and on-camera files. Ex: 'On This iPad'. */
 "iPhoneOnDeviceSegmentTitle" = "On This %@";
 
+/* Title of the image preview button to copy the photo to this device. */
+"CopyToDeviceTitle" = "Copy To This %@";
+
+/* Title of the image preview button to stop copying the photo to this device. */
+"StopCopyingTitle" = "Stop Copying";
+
 // ------------------------------------------------------------
 //     Files Mode: Information Labels
 // ------------------------------------------------------------
@@ -175,6 +181,9 @@
 
 /* 'Delete File' warning dialog title. */
 "DeleteTitle" = "Delete File";
+
+/* 'Delete From Camera' warning dialog title. */
+"DeleteFromCameraTitle" = "Delete From Camera";
 
 /* 'Delete File' warning dialog title. Ex: 'Delete 12 Files'. */
 "DeleteTitle_Plural" = "Delete %@ Files";
