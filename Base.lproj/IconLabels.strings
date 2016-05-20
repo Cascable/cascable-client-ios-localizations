@@ -1,0 +1,25 @@
+/* 
+  IconLabels.strings
+  Cascable
+
+  Created by Daniel Kennett on 20/05/16.
+  Copyright © 2016 Cascable AB. All rights reserved.
+*/
+
+"OlympusSilentDriveModeLabel" = "♥︎︎";
+"OlympusLowVibrationDriveModeLabel" = "♦︎";
+"OlympusCustomTimerDriveModeLabel" = "C";
+
+"SonyBurstDriveModeLabel" = "B";
+"SonySpeedPriorityDriveModeLabel" = "H+";
+"SonyMotionShotDriveModeLabel" = "M";
+
+"BlankDriveModeLabel" = "";
+"GenericSilentDriveModeLabel" = "S";
+"GenericLowSpeedDriveModeLabel" = "L";
+"GenericMediumSpeedDriveModeLabel" = "M";
+"GenericHighSpeedDriveModeLabel" = "H";
+
+"GenericTenSecondDriveModeLabel" = "10";
+"GenericTwelveSecondDriveModeLabel" = "12";
+"GenericTwoSecondDriveModeLabel" = "2";
