@@ -169,6 +169,39 @@
 /* Compact footer of the device view, including number of items selected. Ex: '1 of 12 items selected'. */
 "ItemsSelectedFormatter_Plural" = "%@ of %@ items selected";
 
+/* Label to show the photo is a RAW+JPEG pair. */
+"RAWPlusJPEGFileTypeLabel" = "RAW+JPEG";
+
+/* Label to show the photo is a JPEG file. */
+"JPEGFileTypeLabel" = "JPEG";
+
+/* Label to show the photo is a RAW file. */
+"RAWFileTypeLabel" = "RAW";
+
+/* Alert prompt when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyPromptTitle" = "Multiple Files To Copy";
+
+/* Alert message when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyPromptMessage" = "This photo has multiple image files. What would you like to copy?";
+
+/* Alert message when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyPromptMessage_Plural" = "These photos have multiple image files per photo. What would you like to copy?";
+
+/* "Copy RAW file" response when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyRAWFileButtonTitle" = "Copy RAW File";
+
+/* "Copy RAW files" response when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyRAWFileButtonTitle_Plural" = "Copy RAW Files";
+
+/* "Copy JPEG file" response when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyJPEGFileButtonTitle" = "Copy JPEG File";
+
+/* "Copy JPEG files" response when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyJPEGFileButtonTitle_Plural" = "Copy JPEG Files";
+
+/* "Copy both" response when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyBothFilesButtonTitle" = "Copy Both";
+
 // ------------------------------------------------------------
 //     Files Mode: Deletion
 // ------------------------------------------------------------
