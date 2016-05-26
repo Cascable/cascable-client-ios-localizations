@@ -519,7 +519,10 @@ To save files to your camera roll, you must allow Cascable access to Photos in t
 "GeneralSettingsTitle" = "General";
 
 /* Title for the 'Remote Mode' section of settings. */
-"RemoteModeSettingsTitle" = "Remote Mode";
+"RemoteModeSettingsTitle" = "Remote Control";
+
+/* Title for the "File Handling" section of settings. */
+"FilesModeSettingsTitle" = "File Handling";
 
 /* Title for the 'Always Show Shooting Mode' setting. */
 "AlwaysShowAEModeSettingTitle" = "Always Show Shooting Mode";
@@ -544,6 +547,21 @@ To save files to your camera roll, you must allow Cascable access to Photos in t
 "AutoDismissPhotoReviewSetting2Title" = "After 2 seconds";
 "AutoDismissPhotoReviewSetting4Title" = "After 4 seconds";
 "AutoDismissPhotoReviewSetting8Title" = "After 8 seconds";
+
+/* The title of 'When Copying RAW+JPEG…' settings section. */
+"MultiVariantCopySettingsTitle" = "RAW+JPEG";
+
+/* The header text of the 'When Copying RAW+JPEG…' settings section */
+"MultiVariantCopySettingsHeader" = "When Copying RAW+JPEG Photos";
+
+/* The footer text of the 'When Copying RAW+JPEG…' settings section */
+"MultiVariantCopySettingsFooter" = "If you choose to copy one file from a RAW+JPEG pair, Cascable will always let you download the other file later.";
+
+/* Titles for the various file downloading options. */
+"MultiVariantDownloadChoice0Title" = "Ask Each Time";
+"MultiVariantDownloadChoice1Title" = "Copy RAW File";
+"MultiVariantDownloadChoice2Title" = "Copy JPEG File";
+"MultiVariantDownloadChoice3Title" = "Copy Both Files";
 
 /* Title for the 'Stop Live View On Idle' setting. */
 "DisableLiveViewOnInActivitySettingTitle" = "Stop Live View on Idle";
