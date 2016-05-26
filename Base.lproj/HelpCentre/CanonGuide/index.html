@@ -9,40 +9,93 @@
 </head>
 <body>
 
-<p>Typically, when connecting your camera to Cascable, all you need to do is follow your camera's instructions for connecting to its app over WiFi or a wired network. However, when it's time to launch your camera's app you instead launch Cascable.</p>
+<h3>Before We Start</h3>
+
+<ol>
+	<li>Make sure your camera is <a href="#" onclick='showPageWithIdentifier("se.cascable.client.help.supported-cameras");'>supported by Cascable</a>.</li>
+	<li>Check that your camera&rsquo;s firmware is up-to-date.</li>
+	<li>Check that Cascable is up-to-date.</li>
+</ol>
+
+<hr>
+
+<h3>How It Should Work: The First Connection</h3>
+<p>First, set up your camera&rsquo;s WiFi connection as you&srquo;d like to use it, 
+	following the instructions in the camera&srquo;s user guide. Typically, you 
+	will choose whether to connect to an existing network or create a new 
+	one from the camera.</p>
+<div class="figure-box"><strong>Note:</strong> If your camera has separate options for connecting 
+	to a desktop computer or a smartphone, choose whichever one is best for you — 
+	Cascable supports either.</div>
+
+<p>Your camera will then instruct you to launch the app to connect to. At this step, 
+	ensure your iOS device is connected to the same network as your camera, then 
+	launch Cascable.</p>
+
+<p>If Cascable is set to connect automatically, the app should find the camera 
+	after a few moments and connect to it. If not, tap the <strong>Connection Indicator</strong> 
+	at the top of the screen, then tap <strong>Connect</strong> next to the name of your camera.</p>
+
+<p>For the first connection, your camera needs to be <em>paired</em> with the connecting app. 
+	If this is the case, Cascable will show this dialog:</p>
+	
+<div class="figure-box">
+	<img class="retina" src="pairing.png" alt="Pairing Dialog">
+	<br/><em>Cascable&rsquo;s pairing dialog.</em>
+</div>
+
+<p>To continue, look at your camera and follow the instructions. Canon cameras will ask 
+	you to confirm which images are available to the connecting app. Once you&rsquo;ve made 
+	your choice, Cascable will dismiss the dialog automatically and continue connecting.</p>
+
+<p>That&rsquo;s it — you&rsquo;re connected!</p>
+
+<hr>
+
+<h3>How It Should Work: Subsequent Connections</h3>
+<p>After the camera has been set up and paired, connection is much simpler.</p>
+
+<p>First, turn on your camera and switch on WiFi. Depending on your camera model, 
+	you can have WiFi turn on automatically with the camera if you wish.</p>
+
+<p>Next, ensure your iOS device is on the same WiFi network as your camera, 
+	then launch Cascable. If Cascable is set to connect automatically, it 
+	should find the camera after a few moments and automatically connect. 
+	If not, tap the <strong>Connection Indicator</strong> at the top of the screen, 
+	then tap <strong>Connect</strong> next to the name of your camera.</p>
+
+<p>That&rsquo;s it — you&rsquo;re connected!</p>
 
 <hr>
 
 <h3>Basic Troubleshooting</h3>
 
-<p>If you're having trouble getting Cascable connected to your camera, follow these steps:</p>
+<p>If you&rsquo;re having trouble getting Cascable connected to your camera, follow these steps:</p>
 
 <ol>
-<li>Make sure your camera is <a href="#" onclick='showPageWithIdentifier("se.cascable.client.help.supported-cameras");'>supported by Cascable</a>.</li>
-<li>Make sure both your camera and Cascable are up-to-date.</li>
-<li>Make sure there are no other "competing" applications running on your network, such as Canon's EOS Utility.</li>
+<li>Make sure there are no other &ldquo;competing&rdquo; applications running on your network, such as Canon&rsquo;s EOS Utility.</li>
 <li>Turn your camera off, wait a few seconds, then switch it back on again.</li>
-<li>Make sure your camera and iOS device are connected to the same network, or that your iOS device is connected to the camera's own WiFi network.</li>
+<li>Make sure your camera and iOS device are connected to the same network, or that your iOS device is connected to the camera&rsquo;s own WiFi network.</li>
 </ol>
 
 <hr>
 
 <h3>Advanced Troubleshooting</h3>
 
-<p>If you're still having trouble getting Cascable connected to your camera, or Cascable can see your camera but has intermittent trouble connecting to it, try the following.
+<p>If you&rsquo;re still having trouble getting Cascable connected to your camera, or Cascable can see your camera but has intermittent trouble connecting to it, try the following.
 
 Third-party software can conflict with Cascable by automatically connecting to nearby cameras. Typically, when this happens Cascable will be able to see the camera but will hang when trying to connect to it. In particular:</li>
 <ul>
-	<li><strong>Canon EOS Utility</strong> will attempt to automatically connect to your camera if the <img class="retina" src="eos-utility.png" alt="EOS Utility"> icon is present on your Mac's menu bar or PC's task tray. Click the icon and choose <strong>Quit</strong> to exit the program.</li>
+	<li><strong>Canon EOS Utility</strong> will attempt to automatically connect to your camera if the <img class="retina" src="eos-utility.png" alt="EOS Utility"> icon is present on your Mac&rsquo;s menu bar or PC&rsquo;s task tray. Click the icon and choose <strong>Quit</strong> to exit the program.</li>
 	
-	<li><strong>Adobe Lightroom</strong> will attempt to automatically connect to your camera. To stop it, choose <strong>Plug-in Manager…</strong> from Lightroom's <strong>File</strong> menu and disable the <strong>Canon Tether Plugin</strong>.</li>
+	<li><strong>Adobe Lightroom</strong> will attempt to automatically connect to your camera. To stop it, choose <strong>Plug-in Manager…</strong> from Lightroom&rsquo;s <strong>File</strong> menu and disable the <strong>Canon Tether Plugin</strong>.</li>
 </ul>
 
 <hr>
 
 <h3>Still Stuck?</h3>
 
-<p>If you're still stuck, head over to the <a href="http://cascable.se">Cascable Website</a> and we'll help you out.</p>
+<p>If you&rsquo;re still stuck, head over to the <a href="http://cascable.se">Cascable Website</a> and we&rsquo;ll help you out.</p>
 
 </body>
 </html>
