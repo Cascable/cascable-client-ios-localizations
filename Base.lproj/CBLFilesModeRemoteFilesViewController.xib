@@ -29,6 +29,7 @@
                 <outlet property="topDivider" destination="QmX-o6-jkQ" id="peh-Va-pJv"/>
                 <outlet property="unavailableDescriptionLabel" destination="tOV-lH-2UK" id="mak-Fu-dHh"/>
                 <outlet property="unavailableImage" destination="htt-HP-zU4" id="DAY-DE-bdL"/>
+                <outlet property="unavailableLoadingSpinner" destination="cQn-4V-bNU" id="9Eu-pr-JAa"/>
                 <outlet property="unavailableMoreInfoButton" destination="D6x-a6-aTh" id="s4o-cW-MAX"/>
                 <outlet property="unavailableTitle" destination="2Dx-lr-knx" id="nis-T2-QyV"/>
                 <outlet property="unavailableView" destination="DZk-aK-11K" id="AUu-0S-1pN"/>
@@ -149,6 +150,10 @@
                 <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NoSDCardFace" translatesAutoresizingMaskIntoConstraints="NO" id="htt-HP-zU4">
                     <rect key="frame" x="221" y="19" width="128" height="168"/>
                 </imageView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="cQn-4V-bNU">
+                    <rect key="frame" x="266" y="186" width="37" height="37"/>
+                    <color key="color" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
+                </activityIndicatorView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
@@ -160,11 +165,13 @@
                 <constraint firstAttribute="centerX" secondItem="tOV-lH-2UK" secondAttribute="centerX" id="iC0-18-92d"/>
                 <constraint firstAttribute="centerX" secondItem="2Dx-lr-knx" secondAttribute="centerX" id="kjz-SU-ewF"/>
                 <constraint firstAttribute="centerY" secondItem="2Dx-lr-knx" secondAttribute="centerY" constant="-20" id="mO8-WN-BLD"/>
+                <constraint firstItem="cQn-4V-bNU" firstAttribute="centerX" secondItem="DZk-aK-11K" secondAttribute="centerX" id="uDg-4p-YRR"/>
                 <constraint firstAttribute="centerX" secondItem="D6x-a6-aTh" secondAttribute="centerX" id="uGa-7S-5EA"/>
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tOV-lH-2UK" secondAttribute="trailing" constant="20" id="zV7-9h-BWc"/>
+                <constraint firstItem="cQn-4V-bNU" firstAttribute="centerY" secondItem="DZk-aK-11K" secondAttribute="centerY" id="zXU-2T-wBL"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="223.5" y="-28"/>
+            <point key="canvasLocation" x="322.5" y="36"/>
         </view>
         <view contentMode="scaleToFill" id="uSP-AC-tCW" userLabel="Toolbar Container">
             <rect key="frame" x="0.0" y="0.0" width="600" height="66"/>
