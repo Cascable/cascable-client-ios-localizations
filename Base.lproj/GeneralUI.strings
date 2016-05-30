@@ -157,6 +157,18 @@
 /* The footer of the device image view, including item count, items copying and space available. Ex: '3 items (2 copying), 23.05 Gb available'. */
 "DeviceSpaceWithDownloadingFormatter_Plural" = "%@ items (%@ copying), %@ available";
 
+/* The footer of the device image view, including filtered item count, items available and space available. Ex: '1 of 1 item, 23.05 Gb available'. */
+"DeviceSpaceWithFilteredFormatter" = "%@ of %@ item, %@ available";
+
+/* The footer of the device image view, including filtered item count, items available and space available. Ex: '1 of 2 items, 23.05 Gb available'. */
+"DeviceSpaceWithFilteredFormatter_Plural" = "%@ of %@ items, %@ available";
+
+/* The footer of the device image view, including filtered item count, items available, items copying and space available. Ex: '1 of 1 item (1 copying), 23.05 Gb available'. */
+"DeviceSpaceWithFilteredAndDownloadingFormatter" = "%@ of %@ item (%@ copying), %@ available";
+
+/* The footer of the device image view, including filtered item count, items available, items copying and space available. Ex: '1 of 3 items (2 copying), 23.05 Gb available'. */
+"DeviceSpaceWithFilteredAndDownloadingFormatter_Plural" = "%@ of %@ items (%@ copying), %@ available";
+
 /* Compact footer of the device view, including number of items being copied. Ex: 'Copying 1 of 1 item'. */
 "CopyingXofYFormatter" = "Copying %@ of %@ item";
 
@@ -397,6 +409,9 @@ To save files to your camera roll, you must allow Cascable access to Photos in t
 /* 'Apply Filter' button title. */
 "ApplyFilterTitle" = "Apply";
 
+/* 'Date Range' popup title. */
+"DateRangePopupTitle" = "Choose Dates";
+
 // ------------------------------------------------------------
 //     Files Mode: Metadata
 // ------------------------------------------------------------
@@ -634,6 +649,9 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 
 /* Title for 'Close' buttons. */
 "CloseTitle" = "Close";
+
+/* Title for 'Reset' buttons. */
+"ResetTitle" = "Reset";
 
 /* Format for version information. Ex: 'Version 1.2.1 (670)'. */
 "VersionFormatter" = "Version %@ (%@)";

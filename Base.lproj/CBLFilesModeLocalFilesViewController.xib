@@ -16,6 +16,7 @@
                 <outlet property="bottomDivider" destination="9VA-M1-e28" id="qqR-E2-5YJ"/>
                 <outlet property="collectionView" destination="zEN-6i-mZM" id="zfa-RN-F43"/>
                 <outlet property="deleteButton" destination="fhA-Ss-JZ8" id="n86-9j-dqr"/>
+                <outlet property="filterContainerVerticalPositioningConstraint" destination="aaP-qG-SwX" id="ZmZ-W8-nHS"/>
                 <outlet property="headerLabel" destination="Jml-Vh-erz" id="Npv-am-LU4"/>
                 <outlet property="localDeviceSpaceLabel" destination="Rgf-cC-PAf" id="aHT-g3-KdK"/>
                 <outlet property="noFilesAvailableButton" destination="DCJ-BB-75U" id="haU-uS-j2S"/>
@@ -24,10 +25,13 @@
                 <outlet property="noFilesAvailableSpinner" destination="s3m-FN-2oN" id="auv-5Q-Gv2"/>
                 <outlet property="noFilesAvailableTitle" destination="LIP-G5-0fu" id="dFo-Ah-mVT"/>
                 <outlet property="noFilesAvailableView" destination="6gz-Tn-roi" id="MyY-Ux-dqA"/>
+                <outlet property="predicateEditorContainer" destination="biV-56-GE9" id="gby-Gi-xd6"/>
+                <outlet property="predicateEditorDivider" destination="zBx-Mr-Ryv" id="DE1-0y-j3e"/>
                 <outlet property="selectAllButton" destination="Usv-6Q-HGG" id="beC-Gs-gVC"/>
                 <outlet property="selectButtonTrailingConstraint" destination="qhR-b6-gQa" id="sDb-P8-Aee"/>
                 <outlet property="selectionToolbarView" destination="mRO-h4-Plr" id="1pJ-MI-CYd"/>
                 <outlet property="shareButton" destination="8UE-zJ-ahU" id="1er-R9-xiV"/>
+                <outlet property="toggleFiltersButton" destination="Vp7-SD-qhx" id="5fo-Jj-yNf"/>
                 <outlet property="toggleSelectionButton" destination="lTb-5Y-jac" id="cGe-wr-9pK"/>
                 <outlet property="toolbarContainerTopConstraint" destination="m2n-pO-OWv" id="dpX-Gj-EJ6"/>
                 <outlet property="toolbarContainerView" destination="Dto-i2-vPI" id="v3g-5s-zVs"/>
@@ -42,6 +46,26 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="biV-56-GE9" userLabel="Predicate Container">
+                    <rect key="frame" x="0.0" y="44" width="600" height="50"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zBx-Mr-Ryv" customClass="CBLHairlineDividerView">
+                            <rect key="frame" x="0.0" y="49" width="600" height="1"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="7Ej-Wc-hWu"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="topLeft" value="NO"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" placeholder="YES" id="SGS-5S-jpq"/>
+                        <constraint firstItem="zBx-Mr-Ryv" firstAttribute="leading" secondItem="biV-56-GE9" secondAttribute="leading" id="pnz-PF-Reu"/>
+                        <constraint firstAttribute="trailing" secondItem="zBx-Mr-Ryv" secondAttribute="trailing" id="qpF-vQ-X4q"/>
+                        <constraint firstAttribute="bottom" secondItem="zBx-Mr-Ryv" secondAttribute="bottom" id="tmm-Om-0NM"/>
+                    </constraints>
+                </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dto-i2-vPI" userLabel="Toolbar Container">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                     <subviews>
@@ -79,7 +103,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="zEN-6i-mZM">
-                    <rect key="frame" x="0.0" y="44" width="600" height="520"/>
+                    <rect key="frame" x="0.0" y="94" width="600" height="470"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fIp-oq-Alk">
                         <size key="itemSize" width="50" height="50"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -100,12 +124,15 @@
                 <constraint firstItem="9VA-M1-e28" firstAttribute="top" secondItem="zEN-6i-mZM" secondAttribute="bottom" id="6mg-pP-6Z2"/>
                 <constraint firstAttribute="trailing" secondItem="zEN-6i-mZM" secondAttribute="trailing" id="9x4-OG-imw"/>
                 <constraint firstItem="zEN-6i-mZM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="N7U-Tg-SMg"/>
-                <constraint firstItem="zEN-6i-mZM" firstAttribute="top" secondItem="Dto-i2-vPI" secondAttribute="bottom" id="YmZ-9k-u1z"/>
+                <constraint firstItem="biV-56-GE9" firstAttribute="top" secondItem="Dto-i2-vPI" secondAttribute="bottom" id="aaP-qG-SwX"/>
+                <constraint firstItem="zEN-6i-mZM" firstAttribute="top" secondItem="biV-56-GE9" secondAttribute="bottom" id="aag-Zn-AnU"/>
                 <constraint firstAttribute="centerX" secondItem="Rgf-cC-PAf" secondAttribute="centerX" id="iVT-lb-h6z"/>
                 <constraint firstItem="9VA-M1-e28" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="kB7-od-mYQ"/>
                 <constraint firstAttribute="trailing" secondItem="Dto-i2-vPI" secondAttribute="trailing" id="lqU-vU-ZzJ"/>
                 <constraint firstItem="Dto-i2-vPI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="m2n-pO-OWv"/>
                 <constraint firstAttribute="trailing" secondItem="9VA-M1-e28" secondAttribute="trailing" id="vMz-jD-6Gp"/>
+                <constraint firstAttribute="trailing" secondItem="biV-56-GE9" secondAttribute="trailing" id="vWj-h4-8sq"/>
+                <constraint firstItem="biV-56-GE9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wMg-ls-yuj"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <nil key="simulatedTopBarMetrics"/>
@@ -118,7 +145,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you download photos from your camera, they will be available here even if your camera is not connected." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yug-c9-d90">
-                    <rect key="frame" x="24" y="253.5" width="697" height="40.5"/>
+                    <rect key="frame" x="24" y="253" width="697" height="40.5"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
@@ -130,7 +157,7 @@
                     </variation>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCJ-BB-75U">
-                    <rect key="frame" x="309" y="304.5" width="129" height="30"/>
+                    <rect key="frame" x="309" y="304" width="129" height="30"/>
                     <state key="normal" title="More Information…">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -142,7 +169,7 @@
                     </connections>
                 </button>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Files Available" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="441" translatesAutoresizingMaskIntoConstraints="NO" id="LIP-G5-0fu">
-                    <rect key="frame" x="153" y="207.5" width="441" height="35.5"/>
+                    <rect key="frame" x="153" y="207" width="441" height="35.5"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="441" id="CHC-Qx-bvH"/>
                     </constraints>
@@ -163,7 +190,7 @@
                     </variation>
                 </imageView>
                 <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="s3m-FN-2oN">
-                    <rect key="frame" x="354.5" y="186.5" width="37" height="37"/>
+                    <rect key="frame" x="354" y="186" width="37" height="37"/>
                     <color key="color" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
                 </activityIndicatorView>
             </subviews>
@@ -183,7 +210,7 @@
                 <constraint firstAttribute="centerX" secondItem="DCJ-BB-75U" secondAttribute="centerX" id="vyU-Pm-gXp"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="-3" y="-136"/>
+            <point key="canvasLocation" x="307" y="-252"/>
         </view>
         <view contentMode="scaleToFill" id="mRO-h4-Plr" userLabel="Toolbar Container">
             <rect key="frame" x="0.0" y="0.0" width="600" height="66"/>
@@ -234,6 +261,16 @@
                         <action selector="shareSelectedItems:" destination="-1" eventType="touchUpInside" id="dIv-8m-kKb"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vp7-SD-qhx" customClass="CBLTintableBackgroundButton">
+                    <rect key="frame" x="20" y="17" width="32" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="32" id="8vB-3K-fWg"/>
+                        <constraint firstAttribute="height" constant="32" id="tsM-ra-6L8"/>
+                    </constraints>
+                    <connections>
+                        <action selector="toggleFilterMode:" destination="-1" eventType="touchUpInside" id="t7m-s3-Mvh"/>
+                    </connections>
+                </button>
             </subviews>
             <constraints>
                 <constraint firstItem="fhA-Ss-JZ8" firstAttribute="leading" secondItem="mRO-h4-Plr" secondAttribute="leading" constant="20" id="0UW-qa-UIi">
@@ -243,15 +280,17 @@
                 <constraint firstItem="lTb-5Y-jac" firstAttribute="leading" secondItem="Usv-6Q-HGG" secondAttribute="trailing" constant="14" id="8Tl-gA-WnN"/>
                 <constraint firstItem="8UE-zJ-ahU" firstAttribute="leading" secondItem="fhA-Ss-JZ8" secondAttribute="trailing" constant="20" id="cVv-Z8-vyi"/>
                 <constraint firstAttribute="centerY" secondItem="Jml-Vh-erz" secondAttribute="centerY" id="fuv-zp-XXI"/>
+                <constraint firstItem="Vp7-SD-qhx" firstAttribute="centerY" secondItem="mRO-h4-Plr" secondAttribute="centerY" id="hd9-Tm-UcL"/>
                 <constraint firstItem="8UE-zJ-ahU" firstAttribute="centerY" secondItem="fhA-Ss-JZ8" secondAttribute="centerY" id="mDx-Ni-MLQ"/>
                 <constraint firstAttribute="trailing" secondItem="lTb-5Y-jac" secondAttribute="trailing" constant="12" id="qhR-b6-gQa"/>
                 <constraint firstAttribute="centerY" secondItem="fhA-Ss-JZ8" secondAttribute="centerY" id="r6T-ih-P43"/>
                 <constraint firstAttribute="centerY" secondItem="lTb-5Y-jac" secondAttribute="centerY" id="sW6-i5-MU4"/>
                 <constraint firstAttribute="centerX" secondItem="Jml-Vh-erz" secondAttribute="centerX" id="vqt-qg-h82"/>
+                <constraint firstItem="Vp7-SD-qhx" firstAttribute="leading" secondItem="mRO-h4-Plr" secondAttribute="leading" constant="20" id="wuk-aC-u0E"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="71" y="-495"/>
+            <point key="canvasLocation" x="284" y="-470"/>
         </view>
     </objects>
     <resources>
