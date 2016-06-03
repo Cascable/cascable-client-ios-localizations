@@ -88,6 +88,9 @@
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="h8W-yQ-v9z" secondAttribute="trailing" id="tkF-fq-D0v"/>
                         </constraints>
                     </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m7r-2Q-din" customClass="ProFeatureButton" customModule="Cascable" customModuleProvider="target">
+                        <rect key="frame" x="380" y="20" width="30" height="30"/>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstItem="xFi-6G-gGN" firstAttribute="leading" secondItem="cng-f0-Ybv" secondAttribute="trailing" constant="10" id="00K-rS-4HH"/>
@@ -95,7 +98,9 @@
                     <constraint firstAttribute="centerY" secondItem="EvR-pX-f0F" secondAttribute="centerY" id="EYT-c4-hdi"/>
                     <constraint firstAttribute="bottom" secondItem="XCn-7v-Qdc" secondAttribute="bottom" constant="5" id="EZs-9j-TAq"/>
                     <constraint firstAttribute="centerY" secondItem="xFi-6G-gGN" secondAttribute="centerY" id="FvN-Kq-cYT"/>
+                    <constraint firstItem="m7r-2Q-din" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="M7z-En-3jO"/>
                     <constraint firstItem="2ZN-Cp-mIM" firstAttribute="top" secondItem="o75-fh-L13" secondAttribute="top" id="MPF-II-HVr"/>
+                    <constraint firstAttribute="trailing" secondItem="m7r-2Q-din" secondAttribute="trailing" constant="20" id="PWv-ZA-DpA"/>
                     <constraint firstItem="cng-f0-Ybv" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Ueu-Df-Gkd"/>
                     <constraint firstItem="XCn-7v-Qdc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="XaL-6b-0ov"/>
                     <constraint firstItem="2ZN-Cp-mIM" firstAttribute="leading" secondItem="o75-fh-L13" secondAttribute="leading" id="aNx-0z-gEU"/>
@@ -116,6 +121,7 @@
                 <outlet property="downloadProgressView" destination="o75-fh-L13" id="LwV-xH-L9q"/>
                 <outlet property="imageToTextHorizontalSpaceConstraint" destination="jHR-Fr-ZQl" id="eD8-Ko-ScO"/>
                 <outlet property="padlockImageView" destination="z1J-nx-pG2" id="wIL-7G-oxZ"/>
+                <outlet property="proButton" destination="m7r-2Q-din" id="Zhk-ce-GgI"/>
                 <outlet property="queuedIndicatorView" destination="2ZN-Cp-mIM" id="tsH-aW-gIH"/>
                 <outlet property="subTitleLabel" destination="YVF-hY-jcZ" id="sMI-qd-F4T"/>
                 <outlet property="thumbnailView" destination="XCn-7v-Qdc" id="nM8-KC-Mik"/>
@@ -123,7 +129,7 @@
                 <outlet property="titleLabel" destination="h8W-yQ-v9z" id="7zV-Ir-Gsi"/>
                 <outlet property="waitingForThumbnailSpinner" destination="qJw-Ro-dhU" id="6Es-nt-dbZ"/>
             </connections>
-            <point key="canvasLocation" x="229" y="280"/>
+            <point key="canvasLocation" x="446" y="340"/>
         </tableViewCell>
     </objects>
     <resources>

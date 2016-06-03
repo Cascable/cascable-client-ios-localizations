@@ -545,6 +545,19 @@ To save files to your camera roll, you must allow Cascable access to Photos in t
 /* Title for the 'Night Mode' setting. */
 "NightModeSettingTitle" = "Night Mode";
 
+/* Title for the settings section for focus peaking. */
+"FocusPeakingSettingsTitle" = "Focus Peaking";
+
+/* Titles for the various applicatoin options for Focus Peaking. */
+"ApplyFocusPeaking0Title" = "Always";
+"ApplyFocusPeaking1Title" = "When shooting in MF";
+
+/* Section title for the 'Apply Focus Peaking' section of ''Focus Peaking'. */
+"ApplyWhenFocusPeakingSectionTitle" = "Apply Focus Peaking";
+
+/* Section footer for the 'Apply Focus Peaking' section of ''Focus Peaking'. */
+"ApplyWhenFocusPeakingSectionFooter" = "Focus Peaking draws a red highlight at the areas of the viewfinder image with sharp edges.";
+
 /* Title for the settings section for reviewing photos. */
 "ReviewSettingsTitle" = "Photo Review";
 
@@ -658,6 +671,25 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 
 /* Format for CascableCore version information. Ex: 'Version 1.2.1 (670)'. */
 "CascableCoreVersionFormatter" = "CascableCore %@ (%@, %@)";
+
+// ------------------------------------------------------------
+//     In-App Purchases
+// ------------------------------------------------------------
+
+/* Title for the Cascable store. */
+"StoreTitle" = "Cascable Store";
+
+/* Title for 'PRO' buttons. Must be short. */
+"ProButtonTitle" = "PRO";
+
+/* Title of the 'Buy' buttons. Ex: 'Buy for $9.99'. */
+"BuyButtonFormatter" = "Buy for %@";
+
+/* Title of the bundle savings label. Ex: 'Save $5.00!'. */
+"BundleSavingsLabelFormatter" = "Save %@!";
+
+/* Explanation of needing to make a purchase to remote preview photos. */
+"RemotePreviewUnavailableDescription" = "Previewing photos directly from your camera is a feature of Cascable Pro: Photo Management.";
 
 // ------------------------------------------------------------
 //     Managing Selection
