@@ -603,6 +603,12 @@ To save files to your camera roll, you must allow Cascable access to Photos in t
 /* Title for the 'Sample Image in Viewfinder' setting. */
 "ShowFakeLVFrameSecretSettingTitle" = "Sample Image in Viewfinder";
 
+/* Title for 'Show Touches' settings. */
+"ShowTouchesSecretSettingTitle" = "Show Touches";
+
+/* Title for 'Show Touches' warning. */
+"ShowTouchesRestartWarningTitle" = "Changes to this setting require a hard app restart to take effect.";
+
 /* Warning title when the application has been denied notification permissions in iOS. */
 "NotificationsNotAvailableAlertTitle" = "Notifications Disallowed";
 
