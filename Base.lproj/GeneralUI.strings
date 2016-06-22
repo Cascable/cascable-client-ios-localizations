@@ -570,6 +570,9 @@ To save files to your camera roll, you must allow Cascable access to Photos in t
 /* Section footer for the 'Automatically Dismiss' section of 'Review Photos After Shooting' */
 "AutoDismissPhotoReviewSectionFooter" = "Tapping or zooming the photo being reviewed will cancel automatic dismissal for that photo.";
 
+/* Section footer for the first section of 'Review Photos After Shooting' explaining the feature. */
+"PhotoReviewExplanationFooter" = "Photo Review allows you to review high-resolution previews of your photos immediately after they're taken, helping you nail your shot quickly and effectively.";
+
 /* Titles for the various auto-dismiss options for photo review. */
 "AutoDismissPhotoReviewSetting0Title" = "Manually";
 "AutoDismissPhotoReviewSetting2Title" = "After 2 seconds";
