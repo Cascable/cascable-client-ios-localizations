@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FeatureUpsellViewController" customModule="Cascable" customModuleProvider="target">
@@ -27,17 +28,18 @@
                     <rect key="frame" x="0.0" y="0.0" width="338" height="327"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1fW-V7-cuI" customClass="FeatureVideoPlayerView" customModule="Cascable" customModuleProvider="target">
-                            <rect key="frame" x="-81" y="38.5" width="500" height="250"/>
+                            <rect key="frame" x="0.0" y="79" width="338" height="169"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="250" id="Mgw-Vb-WgY"/>
-                                <constraint firstAttribute="width" constant="500" id="yG8-FS-Ee2"/>
+                                <constraint firstAttribute="width" secondItem="1fW-V7-cuI" secondAttribute="height" multiplier="2:1" id="g2f-hy-yyb"/>
+                                <constraint firstAttribute="width" priority="750" constant="500" id="yG8-FS-Ee2"/>
                             </constraints>
                         </view>
                     </subviews>
                     <constraints>
                         <constraint firstItem="1fW-V7-cuI" firstAttribute="centerY" secondItem="Y3u-qE-UCo" secondAttribute="centerY" id="825-sR-FqV"/>
                         <constraint firstItem="1fW-V7-cuI" firstAttribute="centerX" secondItem="Y3u-qE-UCo" secondAttribute="centerX" id="TRD-jn-TMV"/>
+                        <constraint firstItem="1fW-V7-cuI" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Y3u-qE-UCo" secondAttribute="leading" id="nUj-Rn-IZg"/>
                     </constraints>
                 </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BgZ-4f-80Q">
