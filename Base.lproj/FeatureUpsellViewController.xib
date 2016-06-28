@@ -14,6 +14,7 @@
                 <outlet property="purchasedContainer" destination="BJ4-Av-hKR" id="aD1-dR-tuI"/>
                 <outlet property="purchasedLabel" destination="x4w-S3-CFx" id="xmo-id-sEm"/>
                 <outlet property="purchasedTick" destination="Tla-lk-kOA" id="DLy-AN-v8w"/>
+                <outlet property="videoPlayer" destination="1fW-V7-cuI" id="Ywc-Ds-j7G"/>
                 <outlet property="view" destination="iN0-l3-epB" id="eD1-IX-CZ5"/>
             </connections>
         </placeholder>
@@ -25,13 +26,18 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y3u-qE-UCo">
                     <rect key="frame" x="0.0" y="0.0" width="338" height="327"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StorePlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="yBZ-Xx-D4H">
-                            <rect key="frame" x="19" y="53.5" width="300" height="240"/>
-                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1fW-V7-cuI" customClass="FeatureVideoPlayerView" customModule="Cascable" customModuleProvider="target">
+                            <rect key="frame" x="-81" y="38.5" width="500" height="250"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="250" id="Mgw-Vb-WgY"/>
+                                <constraint firstAttribute="width" constant="500" id="yG8-FS-Ee2"/>
+                            </constraints>
+                        </view>
                     </subviews>
                     <constraints>
-                        <constraint firstItem="yBZ-Xx-D4H" firstAttribute="centerX" secondItem="Y3u-qE-UCo" secondAttribute="centerX" id="0r0-iB-Bnf"/>
-                        <constraint firstItem="yBZ-Xx-D4H" firstAttribute="centerY" secondItem="Y3u-qE-UCo" secondAttribute="centerY" constant="10" id="aKB-ou-mas"/>
+                        <constraint firstItem="1fW-V7-cuI" firstAttribute="centerY" secondItem="Y3u-qE-UCo" secondAttribute="centerY" id="825-sR-FqV"/>
+                        <constraint firstItem="1fW-V7-cuI" firstAttribute="centerX" secondItem="Y3u-qE-UCo" secondAttribute="centerX" id="TRD-jn-TMV"/>
                     </constraints>
                 </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BgZ-4f-80Q">
@@ -76,7 +82,7 @@
                     <rect key="frame" x="51" y="426" width="235" height="24"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank you for your purchase!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x4w-S3-CFx">
-                            <rect key="frame" x="34" y="2.5" width="201" height="18"/>
+                            <rect key="frame" x="34" y="3" width="201" height="18"/>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
@@ -129,10 +135,7 @@
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="-173" y="343.5"/>
+            <point key="canvasLocation" x="-42" y="355.5"/>
         </view>
     </objects>
-    <resources>
-        <image name="StorePlaceholder" width="300" height="240"/>
-    </resources>
 </document>
