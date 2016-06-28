@@ -700,6 +700,18 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Explanation of needing to make a purchase to remote preview photos. */
 "RemotePreviewUnavailableDescription" = "Previewing photos directly from your camera is a feature of Cascable Pro: Photo Management.";
 
+/* Title of the alert informing the user of the feature bundle. */
+"BundleUpsellAlertTitle" = "Also Included in Pro Bundle";
+
+/* Message of the alert informing the user of the feature bundle. */
+"BundleUpsellAlertDescription" = "This item is included in the Cascable Pro bundle, which includes all Pro features at a discounted price.\n\nNOTE: Once you buy an individual feature, you will no longer be able to buy the bundle.";
+
+/* Title of the of the 'View Pro Bundle' button in the bundle alert. */
+"BundleUpsellViewBundleButtonTitle" = "View Pro Bundle";
+
+/* Title of the of the 'Buy anyway' button in the bundle alert. Ex: 'Buy just this for $9.99'. */
+"BundleUpsellBuyAnywayButtonTitle" = "Buy just this for %@";
+
 // ------------------------------------------------------------
 //     Managing Selection
 // ------------------------------------------------------------
