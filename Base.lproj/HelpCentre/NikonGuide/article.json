@@ -1,0 +1,7 @@
+{
+    "title" : "Nikon Connection Guide",
+    "id": "se.cascable.client.help.nikon-connection",
+    "icon": "camera-connection.png",
+    "category": "se.cascable.client.help.category.getting-connected",
+    "sort-hint": 2
+}

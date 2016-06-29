@@ -120,12 +120,30 @@
 /* Title of the 'device' segment of the control to switch between device and on-camera files. Ex: 'On This iPad'. */
 "iPhoneOnDeviceSegmentTitle" = "On This %@";
 
+/* Title of the image preview button to copy the photo to this device. */
+"CopyToDeviceTitle" = "Copy To This %@";
+
+/* Title of the image preview button to stop copying the photo to this device. */
+"StopCopyingTitle" = "Stop Copying";
+
 // ------------------------------------------------------------
 //     Files Mode: Information Labels
 // ------------------------------------------------------------
 
 /* The title of the fullscreen image view, including a count and a name. Ex: '1 of 12 — IMG_0001.JPG'. */
 "FullScreenImagePreviewTitle" = "%@ of %@ — %@";
+
+/* The footer of the device image view, including item count. Ex: '1 item'. */
+"DeviceSpaceOnlyFormatter" = "%@ item";
+
+/* The footer of the device image view, including item count. Ex: '2 items'. */
+"DeviceSpaceOnlyFormatter_Plural" = "%@ items";
+
+/* The footer of the device image view, including shots available. Ex: '1 shot available'. */
+"DeviceShotsOnlyFormatter" = "%@ shot available";
+
+/* The footer of the device image view, including shots available. Ex: '2 shots available'. */
+"DeviceShotsOnlyFormatter_Plural" = "%@ shots available";
 
 /* The footer of the device image view, including item count and space available. Ex: '1 item, 23.05 Gb available'. */
 "DeviceSpaceFormatter" = "%@ item, %@ available";
@@ -139,6 +157,18 @@
 /* The footer of the device image view, including item count, items copying and space available. Ex: '3 items (2 copying), 23.05 Gb available'. */
 "DeviceSpaceWithDownloadingFormatter_Plural" = "%@ items (%@ copying), %@ available";
 
+/* The footer of the device image view, including filtered item count, items available and space available. Ex: '1 of 1 item, 23.05 Gb available'. */
+"DeviceSpaceWithFilteredFormatter" = "%@ of %@ item, %@ available";
+
+/* The footer of the device image view, including filtered item count, items available and space available. Ex: '1 of 2 items, 23.05 Gb available'. */
+"DeviceSpaceWithFilteredFormatter_Plural" = "%@ of %@ items, %@ available";
+
+/* The footer of the device image view, including filtered item count, items available, items copying and space available. Ex: '1 of 1 item (1 copying), 23.05 Gb available'. */
+"DeviceSpaceWithFilteredAndDownloadingFormatter" = "%@ of %@ item (%@ copying), %@ available";
+
+/* The footer of the device image view, including filtered item count, items available, items copying and space available. Ex: '1 of 3 items (2 copying), 23.05 Gb available'. */
+"DeviceSpaceWithFilteredAndDownloadingFormatter_Plural" = "%@ of %@ items (%@ copying), %@ available";
+
 /* Compact footer of the device view, including number of items being copied. Ex: 'Copying 1 of 1 item'. */
 "CopyingXofYFormatter" = "Copying %@ of %@ item";
 
@@ -151,6 +181,39 @@
 /* Compact footer of the device view, including number of items selected. Ex: '1 of 12 items selected'. */
 "ItemsSelectedFormatter_Plural" = "%@ of %@ items selected";
 
+/* Label to show the photo is a RAW+JPEG pair. */
+"RAWPlusJPEGFileTypeLabel" = "RAW+JPEG";
+
+/* Label to show the photo is a JPEG file. */
+"JPEGFileTypeLabel" = "JPEG";
+
+/* Label to show the photo is a RAW file. */
+"RAWFileTypeLabel" = "RAW";
+
+/* Alert prompt when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyPromptTitle" = "Multiple Files To Copy";
+
+/* Alert message when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyPromptMessage" = "This photo has multiple image files. What would you like to copy?";
+
+/* Alert message when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyPromptMessage_Plural" = "These photos have multiple image files per photo. What would you like to copy?";
+
+/* "Copy RAW file" response when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyRAWFileButtonTitle" = "Copy RAW File";
+
+/* "Copy RAW files" response when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyRAWFileButtonTitle_Plural" = "Copy RAW Files";
+
+/* "Copy JPEG file" response when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyJPEGFileButtonTitle" = "Copy JPEG File";
+
+/* "Copy JPEG files" response when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyJPEGFileButtonTitle_Plural" = "Copy JPEG Files";
+
+/* "Copy both" response when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyBothFilesButtonTitle" = "Copy Both";
+
 // ------------------------------------------------------------
 //     Files Mode: Deletion
 // ------------------------------------------------------------
@@ -158,8 +221,14 @@
 /* Label for files that are protected from deletion. */
 "FileProtectedTitle" = "Protected";
 
+/* Label for files that can't be deleted due to unavailable functionality. */
+"FileDeleteUnavailableTitle" = "Unavailable";
+
 /* 'Delete File' warning dialog title. */
 "DeleteTitle" = "Delete File";
+
+/* 'Delete From Camera' warning dialog title. */
+"DeleteFromCameraTitle" = "Delete From Camera";
 
 /* 'Delete File' warning dialog title. Ex: 'Delete 12 Files'. */
 "DeleteTitle_Plural" = "Delete %@ Files";
@@ -187,6 +256,12 @@
 
 /* 'Cannot delete protected files' alert description. Ex: 'The file "IMG_0001.JPG" is protected…'. */
 "DeleteProtectedFileWarningDescription" = "The file \"%@\" is protected and cannot be deleted. You can remove the protection using your camera.";
+
+/* 'Camera doesn't support deleting files' alert title. */
+"DeleteFilesUnsupportedWarningTitle" = "Cannot Delete Files";
+
+/* 'Camera doesn't support deleting files' alert description. */
+"DeleteFilesUnsupportedWarningDescription" = "Files cannot be deleted because this camera does not support deletion via apps. You can delete the file using your camera.";
 
 /* 'Cannot delete file' alert title. */
 "DeleteProtectedOrDownloadingFileWarningTitle" = "Cannot Delete File";
@@ -334,6 +409,28 @@ To save files to your camera roll, you must allow Cascable access to Photos in t
 /* 'Apply Filter' button title. */
 "ApplyFilterTitle" = "Apply";
 
+/* 'Date Range' popup title. */
+"DateRangePopupTitle" = "Choose Dates";
+
+// ------------------------------------------------------------
+//     Files Mode: Metadata
+// ------------------------------------------------------------
+
+/* ISO formatter - e.g., "ISO 100" */
+"ISOMetadataFormatter" = "ISO %@";
+
+/* Shutter speed formatter - e.g., "1/200 s" */
+"ShutterSpeedMetadataFormatter" = "%@ s";
+
+/* Aperture formatter - e.g., "ƒ/2.8" */
+"ApertureMetadataFormatter" = "ƒ/%@";
+
+/* Focal length formatter - e.g., "40 mm" */
+"FocalLengthFormatter" = "%@ mm";
+
+/* Text to use when metadata is unavailable. */
+"NoMetadataFiller" = "--";
+
 // ------------------------------------------------------------
 //     Help and First Run
 // ------------------------------------------------------------
@@ -437,13 +534,65 @@ To save files to your camera roll, you must allow Cascable access to Photos in t
 "GeneralSettingsTitle" = "General";
 
 /* Title for the 'Remote Mode' section of settings. */
-"RemoteModeSettingsTitle" = "Remote Mode";
+"RemoteModeSettingsTitle" = "Remote Control";
+
+/* Title for the "File Handling" section of settings. */
+"FilesModeSettingsTitle" = "File Handling";
 
 /* Title for the 'Always Show Shooting Mode' setting. */
 "AlwaysShowAEModeSettingTitle" = "Always Show Shooting Mode";
 
 /* Title for the 'Night Mode' setting. */
 "NightModeSettingTitle" = "Night Mode";
+
+/* Title for the settings section for focus peaking. */
+"FocusPeakingSettingsTitle" = "Focus Peaking";
+
+/* Titles for the various applicatoin options for Focus Peaking. */
+"ApplyFocusPeaking0Title" = "Always";
+"ApplyFocusPeaking1Title" = "When shooting in MF";
+
+/* Section title for the 'Apply Focus Peaking' section of ''Focus Peaking'. */
+"ApplyWhenFocusPeakingSectionTitle" = "Apply Focus Peaking";
+
+/* Section footer for the 'Apply Focus Peaking' section of ''Focus Peaking'. */
+"ApplyWhenFocusPeakingSectionFooter" = "Focus Peaking draws a red highlight at the areas of the viewfinder image with sharp edges.";
+
+/* Title for the settings section for reviewing photos. */
+"ReviewSettingsTitle" = "Photo Review";
+
+/* Title for the 'Review Photos After Shooting' setting. */
+"ReviewPhotosAfterShootingTitle" = "Review Shot Photos";
+
+/* Section title for the 'Automatically Dismiss' section of 'Review Photos After Shooting' */
+"AutoDismissPhotoReviewSectionTitle" = "Automatically Dismiss";
+
+/* Section footer for the 'Automatically Dismiss' section of 'Review Photos After Shooting' */
+"AutoDismissPhotoReviewSectionFooter" = "Tapping or zooming the photo being reviewed will cancel automatic dismissal for that photo.";
+
+/* Section footer for the first section of 'Review Photos After Shooting' explaining the feature. */
+"PhotoReviewExplanationFooter" = "Photo Review allows you to review high-resolution previews of your photos immediately after they're taken, helping you nail your shot quickly and effectively.";
+
+/* Titles for the various auto-dismiss options for photo review. */
+"AutoDismissPhotoReviewSetting0Title" = "Manually";
+"AutoDismissPhotoReviewSetting2Title" = "After 2 seconds";
+"AutoDismissPhotoReviewSetting4Title" = "After 4 seconds";
+"AutoDismissPhotoReviewSetting8Title" = "After 8 seconds";
+
+/* The title of 'When Copying RAW+JPEG…' settings section. */
+"MultiVariantCopySettingsTitle" = "RAW+JPEG";
+
+/* The header text of the 'When Copying RAW+JPEG…' settings section */
+"MultiVariantCopySettingsHeader" = "When Copying RAW+JPEG Photos";
+
+/* The footer text of the 'When Copying RAW+JPEG…' settings section */
+"MultiVariantCopySettingsFooter" = "If you choose to copy one file from a RAW+JPEG pair, Cascable will always let you download the other file later.";
+
+/* Titles for the various file downloading options. */
+"MultiVariantDownloadChoice0Title" = "Ask Each Time";
+"MultiVariantDownloadChoice1Title" = "Copy RAW File";
+"MultiVariantDownloadChoice2Title" = "Copy JPEG File";
+"MultiVariantDownloadChoice3Title" = "Copy Both Files";
 
 /* Title for the 'Stop Live View On Idle' setting. */
 "DisableLiveViewOnInActivitySettingTitle" = "Stop Live View on Idle";
@@ -457,6 +606,12 @@ To save files to your camera roll, you must allow Cascable access to Photos in t
 /* Title for the 'Sample Image in Viewfinder' setting. */
 "ShowFakeLVFrameSecretSettingTitle" = "Sample Image in Viewfinder";
 
+/* Title for 'Show Touches' settings. */
+"ShowTouchesSecretSettingTitle" = "Show Touches";
+
+/* Title for 'Show Touches' warning. */
+"ShowTouchesRestartWarningTitle" = "Changes to this setting require a hard app restart to take effect.";
+
 /* Warning title when the application has been denied notification permissions in iOS. */
 "NotificationsNotAvailableAlertTitle" = "Notifications Disallowed";
 
@@ -467,6 +622,27 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 
 /* Title for 'Open Settings App' button. */
 "SwitchToiOSSettingAppTitle" = "Open Settings App";
+
+/* Title for 'Use Custom Themes?' dialog. */
+"UseCustomThemeConfirmationTitle" = "Use Custom Themes?";
+
+/* Description text for 'Use Custom Themes?' dialog. */
+"UseCustomThemeConfirmationDecription" = "This will replace Cascable's default color schemes with those contained in the file \"%@\".\n\nYou can revert back to the default colors in Cascable's settings.";
+
+/* Confirm button title for 'Use Custom Themes?' dialog. */
+"UseCustomThemeButtonTitle" = "Use Themes";
+
+/* Title for 'Remove Custom Themes?' dialog. */
+"RemoveCustomThemeConfirmationTitle" = "Remove Custom Themes?";
+
+/* Description text for 'Remove Custom Themes?' dialog. */
+"RemoveCustomThemeConfirmationDecription" = "This will reset Cascable's color schemes back to their defaults.";
+
+/* Confirm button title for 'Remove Custom Themes?' dialog. */
+"RemoveCustomThemeButtonTitle" = "Remove Themes";
+
+/* Title of button in settings to remove custom themes. */
+"RemoveCustomThemeRowTitle" = "Remove Custom Themes";
 
 // ------------------------------------------------------------
 //     General
@@ -496,8 +672,45 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Title for 'Close' buttons. */
 "CloseTitle" = "Close";
 
+/* Title for 'Reset' buttons. */
+"ResetTitle" = "Reset";
+
 /* Format for version information. Ex: 'Version 1.2.1 (670)'. */
 "VersionFormatter" = "Version %@ (%@)";
+
+/* Format for CascableCore version information. Ex: 'Version 1.2.1 (670)'. */
+"CascableCoreVersionFormatter" = "CascableCore %@ (%@, %@)";
+
+// ------------------------------------------------------------
+//     In-App Purchases
+// ------------------------------------------------------------
+
+/* Title for the Cascable store. */
+"StoreTitle" = "Cascable Store";
+
+/* Title for 'PRO' buttons. Must be short. */
+"ProButtonTitle" = "PRO";
+
+/* Title of the 'Buy' buttons. Ex: 'Buy for $9.99'. */
+"BuyButtonFormatter" = "Buy for %@";
+
+/* Title of the bundle savings label. Ex: 'Save $5.00!'. */
+"BundleSavingsLabelFormatter" = "Save %@!";
+
+/* Explanation of needing to make a purchase to remote preview photos. */
+"RemotePreviewUnavailableDescription" = "Previewing photos directly from your camera is a feature of Cascable Pro: Photo Management.";
+
+/* Title of the alert informing the user of the feature bundle. */
+"BundleUpsellAlertTitle" = "Also Included in Pro Bundle";
+
+/* Message of the alert informing the user of the feature bundle. */
+"BundleUpsellAlertDescription" = "This item is included in the Cascable Pro bundle, which includes all Pro features at a discounted price.\n\nNOTE: Once you buy an individual feature, you will no longer be able to buy the bundle.";
+
+/* Title of the of the 'View Pro Bundle' button in the bundle alert. */
+"BundleUpsellViewBundleButtonTitle" = "View Pro Bundle";
+
+/* Title of the of the 'Buy anyway' button in the bundle alert. Ex: 'Buy just this for $9.99'. */
+"BundleUpsellBuyAnywayButtonTitle" = "Buy just this for %@";
 
 // ------------------------------------------------------------
 //     Managing Selection
@@ -564,6 +777,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* 'Start Live View' button title. */
 "StartLiveViewTitle" = "Start Live View";
 
+/* Title of the screen that pops up when previewing an image. */
+"ShotPreviewTitle" = "Image Preview";
+
 // ------------------------------------------------------------
 //     Remote Control: Popups and Controls
 // ------------------------------------------------------------
@@ -573,6 +789,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 
 /* Title of the 'Overlays' popup. */
 "OverlaysPopupTitle" = "Overlays";
+
+/* Title of the 'Camera Settings' popup. */
+"CameraSettingsPopupTitle" = "Camera Settings";
 
 /* Title of the 'Histogram' section of the overlays popup. */
 "HistogramSectionTitle" = "Histogram";
@@ -597,6 +816,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 
 /* Title of the 'Horizontal Line' option of the grid. Ex: '3 Horizontal Lines'. */
 "GridHorizontalLinesRowTitle_Plural" = "%@ Horizontal Lines";
+
+/* Title of the focusing popup. */
+"FocusConfigurationTitle" = "Focusing";
 
 /* Title of the focusing popup when the camera is in manual focus mode. */
 "MFConfigurationTitle" = "Manual Focusing";
@@ -906,6 +1128,12 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 
 /* Description of the alert informing the user that the camera pairing was cancelled on-camera. */
 "PairingCancelledMessage" = "Pairing was cancelled by the camera. Pairing must be confirmed on the camera's screen to succeed.";
+
+/* Title of the alert informing the user that the camera needs a software update before it can be connected to. */
+"CameraNeedsUpdateTitle" = "Camera Needs Update";
+
+/* Description of the alert informing the user that the camera needs a software update before it can be connected to. */
+"CameraNeedsUpdateMessage" = "This camera is not up-to-date enough to allow Cascable to connect.\n\nIf you are connecting to a Sony, please update the \"Smart Remote\" app on your camera, otherwise consult your camera's manufacturer for instructions on how to update its software.";
 
 /* Title displayed in the main app UI while a camera is connecting. */
 "ConnectingTitle" = "Connecting…";

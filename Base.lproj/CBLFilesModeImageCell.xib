@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="8187.4" systemVersion="15A263e" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CBLFilesModeImageCell"/>
@@ -16,7 +15,6 @@
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ngc-5B-HL3">
                         <rect key="frame" x="0.0" y="0.0" width="243" height="214"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="1" id="Rid-Rf-epd"/>
                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="YiI-Gz-DIB"/>
@@ -24,30 +22,51 @@
                     </imageView>
                     <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w3x-b7-CFB" customClass="CBLSelectionIndicatorView">
                         <rect key="frame" x="209" y="180" width="24" height="24"/>
-                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="24" id="TJV-zo-sKW"/>
                             <constraint firstAttribute="height" constant="24" id="evy-zd-iJA"/>
                         </constraints>
                     </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Ka-dv-bZf">
+                        <rect key="frame" x="10" y="185" width="61.5" height="19"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RAW+JPEG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xs4-jW-Yhg">
+                                <rect key="frame" x="6" y="4" width="49.5" height="11"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.59999999999999998" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xs4-jW-Yhg" firstAttribute="top" secondItem="6Ka-dv-bZf" secondAttribute="top" constant="4" id="8dL-iV-tCh"/>
+                            <constraint firstItem="xs4-jW-Yhg" firstAttribute="leading" secondItem="6Ka-dv-bZf" secondAttribute="leading" constant="6" id="Rdc-Z0-jFt"/>
+                            <constraint firstAttribute="trailing" secondItem="xs4-jW-Yhg" secondAttribute="trailing" constant="6" id="tGN-d2-6MS"/>
+                            <constraint firstAttribute="bottom" secondItem="xs4-jW-Yhg" secondAttribute="bottom" constant="4" id="zyZ-d1-K6u"/>
+                        </constraints>
+                    </view>
                 </subviews>
-                <animations/>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
-            <animations/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="ngc-5B-HL3" secondAttribute="bottom" id="5ba-uJ-2gL"/>
+                <constraint firstAttribute="bottom" secondItem="6Ka-dv-bZf" secondAttribute="bottom" constant="10" id="60F-Wo-Y0H"/>
                 <constraint firstAttribute="bottom" secondItem="w3x-b7-CFB" secondAttribute="bottom" constant="10" id="7QB-bc-TDa"/>
                 <constraint firstItem="ngc-5B-HL3" firstAttribute="top" secondItem="E0G-fz-sjb" secondAttribute="top" id="BGz-VX-Wl5"/>
                 <constraint firstAttribute="trailing" secondItem="w3x-b7-CFB" secondAttribute="trailing" constant="10" id="U7b-iL-WV2"/>
+                <constraint firstItem="6Ka-dv-bZf" firstAttribute="leading" secondItem="E0G-fz-sjb" secondAttribute="leading" constant="10" id="Uhh-ET-XfP"/>
                 <constraint firstItem="ngc-5B-HL3" firstAttribute="leading" secondItem="E0G-fz-sjb" secondAttribute="leading" id="gai-Bw-04i"/>
                 <constraint firstAttribute="trailing" secondItem="ngc-5B-HL3" secondAttribute="trailing" id="gke-CF-jec"/>
             </constraints>
             <size key="customSize" width="243" height="214"/>
             <connections>
+                <outlet property="fileTypeContainer" destination="6Ka-dv-bZf" id="hsx-0l-glb"/>
+                <outlet property="fileTypeLabel" destination="xs4-jW-Yhg" id="Ns2-kM-x4b"/>
+                <outlet property="fileTypeViewLeadingConstraint" destination="Uhh-ET-XfP" id="S6N-nE-iBj"/>
                 <outlet property="imageView" destination="ngc-5B-HL3" id="10o-wQ-DuB"/>
                 <outlet property="selectedTickView" destination="w3x-b7-CFB" id="emv-YF-vK8"/>
+                <outlet property="tickViewTrailingConstraint" destination="U7b-iL-WV2" id="5LD-Cv-t48"/>
             </connections>
             <point key="canvasLocation" x="334.5" y="305"/>
         </collectionViewCell>

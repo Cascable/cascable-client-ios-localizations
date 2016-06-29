@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0" />
+<meta charset="UTF-8">
+<title>Shutter Robot</title>
+<script src="../common/common.js"></script>
+<link rel="stylesheet" type="text/css" href="../common/styles.css">
+<link rel="stylesheet" type="text/css" href="../common/light.css">
+</head>
+<body>
+
+<p>Shutter Robot helps you with shots that require specific timing or multiple shutter invocations.</p>
+
+<p>To configure and use Shutter Robot, tap the <img class="retina" src="../common/themed-images/light/shutter-robot.png" alt="Shutter Robot Icon"> button in the toolbar in Remote Mode.</p>
+
+<hr>
+
+<h3>Choosing a Module</h3>
+
+<p>Shutter Robot provides several different options for working with the shutter. Each one of these is called a <em>module</em>. To pick a module, tap the name of the current module at the top of the Shutter Robot configuration popup and pick a new one from the list. Cascable provides the following modules:</p>
+
+<ul>
+	<li><strong>Self Timer</strong> is a simple timer — it will wait a period of time before triggering the shutter.</li>
+	
+	<li><strong>Bulb Timer</strong> will hold the shutter open for a period of time when your camera is in <em>Bulb</em> mode. This is useful for taking long exposures at night.</li>
+	
+	<li><strong>Intervalometer</strong> is a repeating timer, useful when producing timelapses.</li>
+	
+	<li><strong>Exposure Bracketing</strong> will automatically adjust your camera&rsquo;s exposure settings to take a series of photos at different exposures. This is useful for producing High Dynamic Range (HDR) photographs.</li>
+</ul>
+
+<hr>
+
+<h3>Configuring a Module</h3>
+
+<p>Once chosen, a module&rsquo;s settings will be displayed in the middle section of the Shutter Robot configuration popup, along with an estimate of how many photos the module will produce.</p>
+
+<p>To adjust a setting, tap it to display a new panel for configuring that setting. Once configured, tap the <strong>Robot</strong> button at the top of the panel.</p>
+
+<p>The available settings are as follows:</p>
+
+<h4>Self-Timer</h4>
+
+<ul>
+	<li><strong>Duration</strong> — Change this setting to adjust the amount of time between tapping the shutter and the photograph being taken.</li>
+	
+	<li><strong>Audible Countdown</strong> — if enabled, Cascable will audibly count down the last three seconds before the photograph is taken.</li>
+</ul>
+
+<h4>Bulb Timer</h4>
+
+<p><strong>Note:</strong> If you have Mirror Lockup enabled on your camera, Shutter Robot will flip the mirror up and wait three seconds before opening the shutter for Bulb Timer. 
+
+<ul>
+	<li><strong>Duration</strong> — Change this setting to adjust the amount of time the shutter is held open.</li>
+</ul>
+
+<h4>Intervalometer</h4>
+
+<ul>
+	<li><strong>Interval</strong> — Change this setting to adjust the amount of time between each photograph.</li>
+	
+	<li><strong>Stop</strong> — Change this setting to adjust when Shutter Robot stops the Intervalometer. You can set a time period, a fixed number of shots, or have Shutter Robot continue until you stop it manually.</li>
+</ul>
+
+<h4>Exposure Bracketing</h4>
+
+<ul>
+	<li><strong>Range</strong> — Change this setting to adjust the total range of the exposures to be taken. A range of +-1 stop will take exposures between -1 and +1 stop from the current exposure settings.</li>
+	
+	<li><strong>Increment</strong> — Change this setting to adjust the difference in exposure between each photograph. A finer increment will result in more photographs.</li>
+</ul>
+
+<hr>
+
+<h3>Engaging Shutter Robot</h3>
+
+<p>Once Shutter Robot is configured, you must <em>engage</em> it before it&rsquo;ll take over. To do this, tap the green <strong>Engage</strong> button at the bottom of the Shutter Robot popup. Once engaged, the Shutter Robot icon in the toolbar will highlight. Once engaged, you can dismiss the popup and compose your shot.</p>
+
+</p>Shutter Robot will jump into action when you tap the shutter button in Cascable. When running, a progress bar on the shutter button will inform you of Shutter Robot&rsquo;s progress.</p>
+
+<p>If Shutter Robot can&rsquo;t engage for some reason (for example, perhaps the Intervalometer configuration will produce more photographs than will fit on your memory card), the <strong>Engage</strong> button will be replaced with a notice that there are one or more problems. Tap on this notice to see a detailed explanation of the problem(s) and help with fixing them.</p>
+
+</body>
+</html>

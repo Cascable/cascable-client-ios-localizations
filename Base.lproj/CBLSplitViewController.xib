@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8187.4" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8187.4"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10117"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CBLSplitViewController">
             <connections>
+                <outlet property="divider" destination="hye-1Q-ZCJ" id="U5c-Th-ysP"/>
                 <outlet property="leftPaneContainer" destination="V7f-Xd-IUT" id="ia4-X6-Fsy"/>
                 <outlet property="leftPaneContainerLeadingConstraint" destination="jEB-eR-4ak" id="Ayu-ND-Dav"/>
                 <outlet property="rightPaneContainer" destination="fJp-aa-DqR" id="jev-nF-Fov"/>
@@ -20,7 +21,6 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V7f-Xd-IUT" userLabel="Left Pane">
                     <rect key="frame" x="0.0" y="0.0" width="350" height="461"/>
-                    <animations/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="350" id="haG-QC-8BK"/>
@@ -28,12 +28,10 @@
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fJp-aa-DqR" userLabel="Right Pane">
                     <rect key="frame" x="350" y="0.0" width="474" height="461"/>
-                    <animations/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hye-1Q-ZCJ" customClass="CBLHairlineDividerView">
                     <rect key="frame" x="349" y="0.0" width="1" height="461"/>
-                    <animations/>
                     <constraints>
                         <constraint firstAttribute="width" constant="1" id="fbP-x3-OgV"/>
                     </constraints>
@@ -42,7 +40,6 @@
                     </userDefinedRuntimeAttributes>
                 </view>
             </subviews>
-            <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="fJp-aa-DqR" secondAttribute="bottom" id="5Kx-gE-WYX"/>

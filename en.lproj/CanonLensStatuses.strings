@@ -1,8 +1,0 @@
-/* 
-  This file contains translations for the lens statuses provided 
-  by Canon cameras. The values must match the wording used by the
-  camera (if provided) when set to this language.
-*/
-
-"EOSLensStatusLensNotAvailable" = "Lens Not Available";
-"EOSLensStatusLensAvailable" = "Lens Available";

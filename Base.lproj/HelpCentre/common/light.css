@@ -1,0 +1,21 @@
+body {
+	background: rgba(255, 255, 255, 1);
+}
+
+hr {
+    background-image: -webkit-linear-gradient(left, rgba(200,200,200,0), rgba(200,200,200,0.75), rgba(200,200,200,0)); 
+}
+
+a {
+	color: #0dac5e;
+}
+
+a:visited {
+	color: #0dac5e;
+}
+
+.figure-box{
+	border: 1px solid #eeeeee;
+	background-color: #fafafa;
+	
+}

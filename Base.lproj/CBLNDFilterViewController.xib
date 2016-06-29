@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8187.4" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="HelveticaNeueLights.ttc">
             <string>HelveticaNeue-Light</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
         </mutableArray>
     </customFonts>
     <objects>
@@ -20,7 +30,9 @@
                 <outlet property="resultLine" destination="3bQ-Xo-YMK" id="Sli-iy-YzR"/>
                 <outlet property="savePresetBottomRangeLabel" destination="Isi-s1-pJX" id="H2u-Sx-79f"/>
                 <outlet property="savePresetNameField" destination="vy8-1J-IJE" id="ZHh-8M-j5y"/>
+                <outlet property="savePresetRangeLabel" destination="3Yz-Hd-GWD" id="uqC-Q6-dNe"/>
                 <outlet property="savePresetRangeSlider" destination="3NT-Lx-TJZ" id="yXz-z3-OCW"/>
+                <outlet property="savePresetTitleLabel" destination="QWj-nk-d1j" id="OGS-Do-Nzh"/>
                 <outlet property="savePresetTopRangeLabel" destination="mkC-NF-oOi" id="FoL-yI-8cS"/>
                 <outlet property="savePresetViewController" destination="RHM-kz-Z9r" id="dlD-O1-eUp"/>
                 <outlet property="stopsLabel" destination="3Ib-6d-AmX" id="NGE-zi-JhM"/>
@@ -47,7 +59,6 @@
                     <subviews>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Neutral Density Calculator helps you calculate the correct shutter speed to use when using a neutral density filter." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jCv-ul-YNA">
                             <rect key="frame" x="40" y="40" width="855.5" height="20.5"/>
-                            <animations/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
@@ -58,7 +69,6 @@
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Initial Shutter Speed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITo-tM-QwE">
                             <rect key="frame" x="40" y="100" width="198.5" height="28.5"/>
-                            <animations/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
@@ -69,7 +79,6 @@
                         </label>
                         <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="wwc-iv-DdL" customClass="CBLBigThumbSlider">
                             <rect key="frame" x="38" y="149" width="859.5" height="31"/>
-                            <animations/>
                             <variation key="widthClass=compact" misplaced="YES">
                                 <rect key="frame" x="18" y="124" width="284" height="31"/>
                             </variation>
@@ -79,7 +88,6 @@
                         </slider>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1/250th" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27b-Uc-uht">
                             <rect key="frame" x="40" y="183" width="80.5" height="28.5"/>
-                            <animations/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
@@ -90,7 +98,6 @@
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filter Density" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QBQ-Vx-cnR">
                             <rect key="frame" x="40" y="231" width="125.5" height="28.5"/>
-                            <animations/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
@@ -101,7 +108,6 @@
                         </label>
                         <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="33g-Dq-qfs" customClass="CBLBigThumbSlider">
                             <rect key="frame" x="38" y="280" width="859.5" height="31"/>
-                            <animations/>
                             <variation key="widthClass=compact" misplaced="YES">
                                 <rect key="frame" x="18" y="236" width="284" height="31"/>
                             </variation>
@@ -111,7 +117,6 @@
                         </slider>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 stop (0,9ND)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ib-6d-AmX">
                             <rect key="frame" x="40" y="314" width="148" height="28.5"/>
-                            <animations/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
@@ -122,7 +127,6 @@
                         </label>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3bQ-Xo-YMK" customClass="CBLHairlineDividerView">
                             <rect key="frame" x="293" y="382" width="350" height="1"/>
-                            <animations/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="1" id="enM-Qy-BqL"/>
                                 <constraint firstAttribute="width" constant="350" id="ih0-45-Zda">
@@ -135,7 +139,6 @@
                         </view>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shutter Speed" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZ0-OY-bfb">
                             <rect key="frame" x="395.5" y="423" width="145" height="28.5"/>
-                            <animations/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
@@ -146,7 +149,6 @@
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15,0 seconds" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23h-4R-CUK">
                             <rect key="frame" x="292.5" y="462" width="350.5" height="71"/>
-                            <animations/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="60"/>
                             <nil key="highlightedColor"/>
                             <variation key="widthClass=compact" misplaced="YES">
@@ -155,7 +157,6 @@
                             </variation>
                         </label>
                     </subviews>
-                    <animations/>
                     <constraints>
                         <constraint firstItem="33g-Dq-qfs" firstAttribute="leading" secondItem="wwc-iv-DdL" secondAttribute="leading" id="4Lh-7f-THn"/>
                         <constraint firstAttribute="bottom" secondItem="23h-4R-CUK" secondAttribute="bottom" constant="20" id="6t1-2S-Ufg"/>
@@ -205,7 +206,6 @@
                     </variation>
                 </view>
             </subviews>
-            <animations/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="6uj-vC-8xU"/>
                 <constraint firstItem="i5M-Pr-FkT" firstAttribute="leading" secondItem="TLs-rv-Tcm" secondAttribute="leading" id="8h0-0c-AgW"/>
@@ -215,12 +215,11 @@
             <nil key="simulatedStatusBarMetrics"/>
             <point key="canvasLocation" x="1058.75" y="495"/>
         </scrollView>
-        <navigationController modalPresentationStyle="formSheet" id="RHM-kz-Z9r">
+        <navigationController modalPresentationStyle="formSheet" id="RHM-kz-Z9r" customClass="ThemeableNavigationController" customModule="Cascable" customModuleProvider="target">
             <value key="contentSizeForViewInPopover" type="size" width="480" height="300"/>
             <navigationBar key="navigationBar" contentMode="scaleToFill" id="Odq-nD-f2g">
                 <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
                 <autoresizingMask key="autoresizingMask"/>
-                <animations/>
             </navigationBar>
             <viewControllers>
                 <viewController id="oen-O7-QjY">
@@ -234,7 +233,6 @@
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWj-nk-d1j">
                                 <rect key="frame" x="40" y="84" width="39.5" height="28.5"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -244,7 +242,6 @@
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Example Title" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vy8-1J-IJE">
                                 <rect key="frame" x="40" y="120" width="520" height="29"/>
-                                <animations/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -254,7 +251,6 @@
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1/8000th" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkC-NF-oOi">
                                 <rect key="frame" x="466.5" y="268" width="93.5" height="28.5"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -264,7 +260,6 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shutter Speed Range" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Yz-Hd-GWD">
                                 <rect key="frame" x="40" y="189" width="216.5" height="28.5"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -274,7 +269,6 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30 sec" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Isi-s1-pJX">
                                 <rect key="frame" x="40" y="268" width="70" height="28.5"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -284,7 +278,6 @@
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3NT-Lx-TJZ" customClass="NMRangeSlider">
                                 <rect key="frame" x="40" y="228" width="520" height="31"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="IwR-hJ-98m"/>
                                 </constraints>
@@ -293,7 +286,6 @@
                                 </connections>
                             </view>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="3NT-Lx-TJZ" firstAttribute="top" secondItem="3Yz-Hd-GWD" secondAttribute="bottom" constant="10" id="5dq-Vb-BnH"/>
@@ -334,7 +326,7 @@
                     </navigationItem>
                 </viewController>
             </viewControllers>
-            <point key="canvasLocation" x="1454" y="439"/>
+            <point key="canvasLocation" x="1321" y="393"/>
         </navigationController>
     </objects>
 </document>
