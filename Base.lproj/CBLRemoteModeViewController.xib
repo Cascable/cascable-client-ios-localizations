@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
@@ -114,16 +114,16 @@
                             </constraints>
                         </view>
                         <view hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mta-uW-HNn" userLabel="Histogram Container">
-                            <rect key="frame" x="304" y="30" width="256" height="100"/>
+                            <rect key="frame" x="304" y="30" width="256" height="136.5"/>
                             <subviews>
                                 <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p2a-Hp-Nn5">
-                                    <rect key="frame" x="0.0" y="0.0" width="256" height="100"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="256" height="136.5"/>
                                     <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="mwu-YC-OPl">
-                                        <rect key="frame" x="0.0" y="0.0" width="256" height="100"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="256" height="136.5"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Yo-GO-dW2" customClass="HistogramView" customModule="Cascable" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="256" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="256" height="136.5"/>
                                             </view>
                                         </subviews>
                                         <constraints>
@@ -145,7 +145,7 @@
                                 <constraint firstAttribute="bottom" secondItem="p2a-Hp-Nn5" secondAttribute="bottom" id="Tv1-jS-nLs"/>
                                 <constraint firstItem="p2a-Hp-Nn5" firstAttribute="leading" secondItem="mta-uW-HNn" secondAttribute="leading" id="hsL-qu-0PC"/>
                                 <constraint firstAttribute="trailing" secondItem="p2a-Hp-Nn5" secondAttribute="trailing" id="pIx-Uq-Cow"/>
-                                <constraint firstAttribute="width" secondItem="mta-uW-HNn" secondAttribute="height" multiplier="64:25" id="tmi-8d-uHP"/>
+                                <constraint firstAttribute="width" secondItem="mta-uW-HNn" secondAttribute="height" multiplier="15:8" id="tmi-8d-uHP"/>
                             </constraints>
                         </view>
                     </subviews>

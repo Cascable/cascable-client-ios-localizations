@@ -65,9 +65,15 @@
             <constraints>
                 <constraint firstItem="baP-Cs-Hnj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="05e-j4-5XM"/>
                 <constraint firstAttribute="trailing" secondItem="baP-Cs-Hnj" secondAttribute="trailing" id="0YE-Ua-H69"/>
-                <constraint firstAttribute="trailing" secondItem="8YS-Bl-Flf" secondAttribute="trailing" constant="40" id="3wX-6S-Wd4"/>
+                <constraint firstAttribute="trailing" secondItem="8YS-Bl-Flf" secondAttribute="trailing" constant="40" id="3wX-6S-Wd4">
+                    <variation key="heightClass=compact" constant="15"/>
+                    <variation key="widthClass=compact" constant="15"/>
+                </constraint>
                 <constraint firstAttribute="bottom" secondItem="baP-Cs-Hnj" secondAttribute="bottom" id="4ll-K5-EtZ"/>
-                <constraint firstItem="8YS-Bl-Flf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="105" id="P18-lT-MP4"/>
+                <constraint firstItem="8YS-Bl-Flf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="105" id="P18-lT-MP4">
+                    <variation key="heightClass=compact" constant="80"/>
+                    <variation key="widthClass=compact" constant="80"/>
+                </constraint>
                 <constraint firstItem="baP-Cs-Hnj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="R4M-i4-mwh"/>
             </constraints>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
