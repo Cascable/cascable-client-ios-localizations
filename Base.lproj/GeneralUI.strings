@@ -675,6 +675,9 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Title for 'Reset' buttons. */
 "ResetTitle" = "Reset";
 
+/* Title for 'Search' buttons/fields. */
+"SearchTitle" = "Search";
+
 /* Format for version information. Ex: 'Version 1.2.1 (670)'. */
 "VersionFormatter" = "Version %@ (%@)";
 
