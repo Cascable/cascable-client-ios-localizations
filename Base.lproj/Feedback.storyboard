@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bmc-L7-UCt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bmc-L7-UCt">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -28,7 +27,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z9N-Zn-peE" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="768" height="618.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="587.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXG-Ah-Rdx">
                                                 <rect key="frame" x="290" y="30" width="187" height="53"/>
@@ -158,10 +157,10 @@ private feedback</string>
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4u3-lC-IXA">
-                                                <rect key="frame" x="30" y="456" width="707" height="81.5"/>
+                                                <rect key="frame" x="30" y="456" width="707" height="101.5"/>
                                                 <string key="text">By far our most frequent question involves problems with connecting to a camera. 
 
-If you're having trouble with this, please read through the Camera Connection help page — following the troubleshooting steps there will fix your problems in the vast majority of cases.</string>
+If you're having trouble with this, please read through the Getting Connected guide for your camera — following the troubleshooting steps there will fix your problems in the vast majority of cases.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -169,15 +168,6 @@ If you're having trouble with this, please read through the Camera Connection he
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 </variation>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RaN-an-Scb">
-                                                <rect key="frame" x="260" y="558" width="247" height="30"/>
-                                                <state key="normal" title="View Camera Connection Help Page">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="showConnectionHelp:" destination="bmc-L7-UCt" eventType="touchUpInside" id="2Yo-ZI-jiY"/>
-                                                </connections>
-                                            </button>
                                         </subviews>
                                         <constraints>
                                             <constraint firstAttribute="centerX" secondItem="UJe-QY-DSd" secondAttribute="centerX" id="0hS-Sn-Go4"/>
@@ -188,14 +178,12 @@ If you're having trouble with this, please read through the Camera Connection he
                                             <constraint firstItem="mNv-Ln-jFW" firstAttribute="top" secondItem="z9N-Zn-peE" secondAttribute="top" constant="110" id="HI5-aG-2It">
                                                 <variation key="widthClass=compact" constant="30"/>
                                             </constraint>
+                                            <constraint firstAttribute="bottom" secondItem="4u3-lC-IXA" secondAttribute="bottom" constant="30" id="JDW-jn-fJq"/>
                                             <constraint firstItem="UJe-QY-DSd" firstAttribute="top" secondItem="mNv-Ln-jFW" secondAttribute="bottom" constant="40" id="KlT-95-RBS"/>
                                             <constraint firstItem="tN9-gX-wOq" firstAttribute="top" secondItem="UJe-QY-DSd" secondAttribute="bottom" constant="40" id="NnB-DB-oWI"/>
-                                            <constraint firstAttribute="centerX" secondItem="RaN-an-Scb" secondAttribute="centerX" id="TYm-MB-Q2r"/>
                                             <constraint firstAttribute="centerX" secondItem="mNv-Ln-jFW" secondAttribute="centerX" id="Way-e7-Gfb"/>
-                                            <constraint firstAttribute="bottom" secondItem="RaN-an-Scb" secondAttribute="bottom" constant="30" id="XkR-Py-KSc"/>
                                             <constraint firstItem="nPq-gm-2Q8" firstAttribute="top" secondItem="tN9-gX-wOq" secondAttribute="bottom" constant="10" id="a5E-In-sZ2"/>
                                             <constraint firstItem="4u3-lC-IXA" firstAttribute="top" secondItem="nPq-gm-2Q8" secondAttribute="bottom" constant="10" id="ceb-sv-13p"/>
-                                            <constraint firstItem="RaN-an-Scb" firstAttribute="top" secondItem="4u3-lC-IXA" secondAttribute="bottom" constant="20" id="dGT-jc-1EU"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nPq-gm-2Q8" secondAttribute="trailing" constant="30" id="e0I-dJ-eXV"/>
                                             <constraint firstAttribute="centerX" secondItem="tN9-gX-wOq" secondAttribute="centerX" id="mj6-CR-Rhm"/>
                                             <constraint firstAttribute="width" constant="768" placeholder="YES" id="p3t-8L-zye"/>
@@ -260,7 +248,6 @@ If you're having trouble with this, please read through the Camera Connection he
                         <outletCollection property="greyLabels" destination="OtA-KQ-yKs" id="e5M-aJ-Eui"/>
                         <outletCollection property="buttons" destination="wrL-wb-cT7" id="SFZ-3k-Ufn"/>
                         <outletCollection property="buttons" destination="7ri-hR-lIX" id="bxe-5x-n8F"/>
-                        <outletCollection property="buttons" destination="RaN-an-Scb" id="dmr-XK-IZd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k1v-X8-CCi" userLabel="First Responder" sceneMemberID="firstResponder"/>
