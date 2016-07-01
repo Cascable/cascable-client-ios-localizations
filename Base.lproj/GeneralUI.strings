@@ -830,7 +830,7 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 "MFConfigurationPeakingTitle" = "Focus Peaking";
 
 /* String placed in the space where the content for the feature (i.e., choosing which autofocus mode to use) would be. */
-"CameraFeatureNotAvailableContentPlaceholder" = "Not Available";
+"CameraFeatureNotAvailableContentPlaceholder" = "Not settable within Cascable.";
 
 // ------------------------------------------------------------
 //     Shutter Robot: General
