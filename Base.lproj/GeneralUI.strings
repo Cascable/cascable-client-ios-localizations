@@ -715,6 +715,42 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Title of the of the 'Buy anyway' button in the bundle alert. Ex: 'Buy just this for $9.99'. */
 "BundleUpsellBuyAnywayButtonTitle" = "Buy just this for %@";
 
+/* Title of the "Purchases" section of the settings section of the app. */
+"PurchasesSettingsSectionTitle" = "Purchases";
+
+/* Title of the 'More Info…' button next to unpurchased items. */
+"PackNotPurchasedButtonTitle" = "More Info…";
+
+/* Title of the "Restore Purchases…" button. Should follow Apple guidelines for this process. */
+"RestorePurchasesButtonTitle" = "Restore Purchases…";
+
+/* Explanation text for the "Restore Purchases" feature. */
+"RestorePurchasesSectionFooter" = "If you've previously purchased one or more Cascable Pro feature packs, you can restore them to this device.";
+
+/* Header text for the list of feature packs if the bundle is available. */
+"ProPackIncludesSectionTitle" = "Full Bundle Includes:";
+
+/* Offline title of the "Pro: Remote Control" feature pack. */
+"se.cascable.ios.remotemodeunlockOfflineProductTitle" = "Pro: Remote Control";
+
+/* Offline title of the "Pro: Photo Management" feature pack. */
+"se.cascable.ios.filesmodeunlockOfflineProductTitle" = "Pro: Photo Management";
+
+/* Offline title of the "Pro: Night Mode" feature pack. */
+"se.cascable.ios.nightmodeOfflineProductTitle" = "Pro: Night Mode";
+
+/* Offline title of the feature pack bundle. */
+"se.cascable.ios.everythingunlockOfflineProductTitle" = "Pro: Full Bundle";
+
+/* Header text for the purchases section when no items have been purchased. */
+"NoPurchasesMadeHeader" = "Purchasing Cascable feature packs will unlock powerful new features and help support a small, independent company.";
+
+/* Header text for the purchases section when the user has a free upgrade due to purchasing Cascable 1.x. */
+"PurchasesGrandfatheredUserHeader" = "Thank you for being an early adopter! As a user of Cascable 1.x, you get a free upgrade!";
+
+/* Header text for the purchases section when the user has purchased one or more items. */
+"PurchasesMadeHeader" = "Thank you for supporting Cascable! Your purchase helps support a small, independent company. We couldn't do it without you!";
+
 // ------------------------------------------------------------
 //     Managing Selection
 // ------------------------------------------------------------
