@@ -429,7 +429,7 @@ To save files to your camera roll, you must allow Cascable access to Photos in t
 "FocalLengthFormatter" = "%@ mm";
 
 /* Text to use when metadata is unavailable. */
-"NoMetadataFiller" = "--";
+"NoMetadataFiller" = "—";
 
 // ------------------------------------------------------------
 //     Help and First Run
