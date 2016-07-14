@@ -27,7 +27,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="639" height="1366"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z9N-Zn-peE" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="758.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="760"/>
                                         <subviews>
                                             <imageView contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AboutIcon" translatesAutoresizingMaskIntoConstraints="NO" id="IhD-7q-dpR">
                                                 <rect key="frame" x="225" y="40" width="150" height="150"/>
@@ -37,32 +37,32 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cascable" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXG-Ah-Rdx">
-                                                <rect key="frame" x="208" y="200" width="184.5" height="51.5"/>
+                                                <rect key="frame" x="213.5" y="200" width="174" height="53"/>
                                                 <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="44"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MNI-Tc-mVv">
-                                                <rect key="frame" x="260" y="251.5" width="81.5" height="20.5"/>
+                                                <rect key="frame" x="260" y="253" width="81.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iNf-kQ-rsE" customClass="CBLHairlineDividerView">
-                                                <rect key="frame" x="200" y="291.5" width="200" height="1"/>
+                                                <rect key="frame" x="200" y="293" width="200" height="1"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="D2S-h5-R97"/>
                                                     <constraint firstAttribute="width" constant="200" id="g33-Xv-VRU"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cascable contains open-source components." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNv-Ln-jFW">
-                                                <rect key="frame" x="20" y="312.5" width="561.5" height="17"/>
+                                                <rect key="frame" x="20" y="314" width="561.5" height="17"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Kq-es-wBM">
-                                                <rect key="frame" x="239" y="329.5" width="122" height="29"/>
+                                                <rect key="frame" x="239" y="331" width="122" height="29"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <state key="normal" title="More Information…">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -72,20 +72,20 @@
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bQ7-7N-qjZ" customClass="CBLHairlineDividerView">
-                                                <rect key="frame" x="200" y="372.5" width="200" height="1"/>
+                                                <rect key="frame" x="200" y="374" width="200" height="1"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="FQl-RC-IS1"/>
                                                     <constraint firstAttribute="height" constant="1" id="rp8-wK-N41"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credits" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tN9-gX-wOq">
-                                                <rect key="frame" x="271" y="393.5" width="58" height="20.5"/>
+                                                <rect key="frame" x="271" y="395" width="58" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pec-1G-fFm" userLabel="Names Container">
-                                                <rect key="frame" x="146" y="425.5" width="308" height="216"/>
+                                                <rect key="frame" x="146" y="427" width="308" height="216"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Writer &amp; Director" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2Y-KU-2Ia">
                                                         <rect key="frame" x="0.0" y="0.0" width="144" height="17"/>
@@ -191,14 +191,14 @@ Trond Sliper</string>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2S4-VX-jnS" customClass="CBLHairlineDividerView">
-                                                <rect key="frame" x="200" y="661.5" width="200" height="1"/>
+                                                <rect key="frame" x="200" y="663" width="200" height="1"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="Y7b-tw-Qz9"/>
                                                     <constraint firstAttribute="height" constant="1" id="o0S-FF-h0l"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UIk-sQ-QCT">
-                                                <rect key="frame" x="210" y="682.5" width="180" height="36"/>
+                                                <rect key="frame" x="210" y="684" width="180" height="36"/>
                                                 <string key="text">© 2015-2016 Cascable AB
 Made (mostly) in Sweden</string>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
