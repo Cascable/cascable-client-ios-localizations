@@ -5,11 +5,6 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <mutableArray key="Lato-Bold-700.ttf">
-            <string>Lato-Bold</string>
-        </mutableArray>
-    </customFonts>
     <scenes>
         <!--Feedback-->
         <scene sceneID="cDs-fA-g6M">
@@ -30,8 +25,8 @@
                                         <rect key="frame" x="0.0" y="0.0" width="768" height="587.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXG-Ah-Rdx">
-                                                <rect key="frame" x="290" y="30" width="187" height="53"/>
-                                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="44"/>
+                                                <rect key="frame" x="281.5" y="30" width="204" height="53"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>

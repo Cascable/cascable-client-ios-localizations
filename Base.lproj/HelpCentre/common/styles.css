@@ -1,12 +1,6 @@
-@font-face
-{
-    font-family: 'Lato';
-    src: url('Lato-Light-300.ttf'), url('Lato-Bold-700.ttf') ;
-}
-
 body {
 	padding: 10px;
-	font-family: "Lato";
+	font-family: -apple-system;
 	font-size: 16px;
 	font-weight: 300;
 	-webkit-user-select: none;
@@ -14,17 +8,17 @@ body {
 }
 
 h1 {
-	font-family: "Lato";
+	font-family: -apple-system;
 	font-weight: 700;
 }
 
 h2 {
-	font-family: "Lato";
+	font-family: -apple-system;
 	font-weight: 700;
 }
 
 h3 {
-	font-family: "Lato";
+	font-family: -apple-system;
 	font-weight: 700;
 }
 
