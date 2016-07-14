@@ -463,13 +463,13 @@ To save files to your camera roll, you must allow Cascable access to Photos in t
 "ShowWhatsNewTitle" = "What's New in Cascable?";
 
 /* Title of the 'Remote Mode' help page button in the help menu. */
-"RemoteModeHelpPageName" = "Remote Mode";
+"RemoteModeHelpPageName" = "Remote Control";
 
 /* Title of the 'Shutter Robot' help page button in the help menu. */
 "ShutterRobotHelpPageName" = "Shutter Robot";
 
 /* Title of the 'Files Mode' help page button in the help menu. */
-"FilesModeHelpPageName" = "Files Mode";
+"FilesModeHelpPageName" = "Photo Management";
 
 /* Title of the 'Camera Connection' help page button in the help menu. */
 "CameraConnectionHelpPageName" = "Camera Connection";
@@ -805,7 +805,7 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 "RemoteUnavailableNoConnectionTitle" = "No Camera Connected";
 
 /* Description of the remote control warning that no camera is connected. */
-"RemoteUnavailableNoConnectionDescription" = "Remote Mode is not available without a connected camera. Tap the connection indicator at the top of the screen to get started.";
+"RemoteUnavailableNoConnectionDescription" = "Remote control is not available without a connected camera. Tap the connection indicator at the top of the screen to get started.";
 
 /* Title of the remote control warning that live view is disabled. */
 "RemoteUnavailableEVFNotCorrectTitle" = "Live View Stopped";
