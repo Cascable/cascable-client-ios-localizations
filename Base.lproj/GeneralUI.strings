@@ -88,13 +88,13 @@
 // ------------------------------------------------------------
 
 /* The titles of the 'Files' feature. */
-"FilesTitle" = "Files";
+"FilesTitle" = "Photos";
 
 /* Title of the files mode warning that no files are on the camera's SD card. */
-"NoFilesAvailableTitle" = "No Files Available";
+"NoFilesAvailableTitle" = "No Photos Available";
 
 /* Subtitle of the files mode warning that no files are on the camera's SD card. */
-"NoFilesAvailableDescription" = "Your camera doesn't seem to have any files on it. Get shooting!";
+"NoFilesAvailableDescription" = "Your camera doesn't seem to have any photos on it. Get shooting!";
 
 /* Title of the files mode warning that the camera doesn't allow file access. */
 "NoFileTransferSupportTitle" = "File Access Not Supported";
@@ -112,7 +112,7 @@
 "NoCameraAvailableTitle" = "No Camera";
 
 /* Subtitle of the files mode warning that no camera is connected. */
-"NoCameraAvailableDescription" = "When connected to a camera, the files on its memory card will be shown here.";
+"NoCameraAvailableDescription" = "When connected to a camera, the photos on its memory card will be shown here.";
 
 /* Title of the 'camera' segment of the control to switch between device and on-camera files. */
 "iPhoneOnCameraSegmentTitle" = "On Camera";
@@ -197,7 +197,7 @@
 "MultipleVariantsCopyPromptMessage" = "This photo has multiple image files. What would you like to copy?";
 
 /* Alert message when asking the user which files to copy when photos have more than one file. */
-"MultipleVariantsCopyPromptMessage_Plural" = "These photos have multiple image files per photo. What would you like to copy?";
+"MultipleVariantsCopyPromptMessage_Plural" = "These photos have multiple image files. What would you like to copy?";
 
 /* "Copy RAW file" response when asking the user which files to copy when photos have more than one file. */
 "MultipleVariantsCopyRAWFileButtonTitle" = "Copy RAW File";
@@ -225,94 +225,94 @@
 "FileDeleteUnavailableTitle" = "Unavailable";
 
 /* 'Delete File' warning dialog title. */
-"DeleteTitle" = "Delete File";
+"DeleteTitle" = "Delete Photo";
 
 /* 'Delete From Camera' warning dialog title. */
 "DeleteFromCameraTitle" = "Delete From Camera";
 
 /* 'Delete File' warning dialog title. Ex: 'Delete 12 Files'. */
-"DeleteTitle_Plural" = "Delete %@ Files";
+"DeleteTitle_Plural" = "Delete %@ Photos";
 
 /* 'Delete File' warning dialog description. Ex: 'This will delete 1 file of 12 from your iPad…'. */
-"DeleteFilesConfirmationPrompt" = "This will delete %@ file of %@ from your %@. This will not affect the contents of your camera.";
+"DeleteFilesConfirmationPrompt" = "This will delete %@ photo of %@ from your %@. This will not affect the contents of your camera.";
 
 /* 'Delete File' warning dialog description. Ex: 'This will delete 10 files of 12 from your iPad…'. */
-"DeleteFilesConfirmationPrompt_Plural" = "This will delete %@ files totalling %@ from your %@. This will not affect the contents of your camera.";
+"DeleteFilesConfirmationPrompt_Plural" = "This will delete %@ photos totalling %@ from your %@. This will not affect the contents of your camera.";
 
 /* 'Delete file?' popup confirmation title. */
-"DeleteFilesConfirmationTitle" = "Delete file?";
+"DeleteFilesConfirmationTitle" = "Delete photo?";
 
 /* 'Delete files?' popup confirmation title. */
-"DeleteFilesConfirmationTitle_Plural" = "Delete files?";
+"DeleteFilesConfirmationTitle_Plural" = "Delete photos?";
 
 /* 'Delete file from camera?' confirmation title. */
-"DeleteRemoteFileConfirmationTitle" = "Delete file from camera?";
+"DeleteRemoteFileConfirmationTitle" = "Delete photo from camera?";
 
 /* 'Delete file from camera?' confirmation description. Ex: 'This will PERMANENTLY delete this file, sized 12MB, from your camera. This will not affect the files copied to your iPad.' */
-"DeleteRemoteFileConfirmationPrompt" = "This will PERMANENTLY delete this file, sized %@, from your camera. This will not affect the files copied to your %@.";
+"DeleteRemoteFileConfirmationPrompt" = "This will PERMANENTLY delete this photo, sized %@, from your camera. This will not affect the photos copied to your %@.";
 
 /* 'Cannot delete protected files' alert title. */
-"DeleteProtectedFileWarningTitle" = "Cannot Delete Protected Files";
+"DeleteProtectedFileWarningTitle" = "Cannot Delete Protected Photos";
 
 /* 'Cannot delete protected files' alert description. Ex: 'The file "IMG_0001.JPG" is protected…'. */
-"DeleteProtectedFileWarningDescription" = "The file \"%@\" is protected and cannot be deleted. You can remove the protection using your camera.";
+"DeleteProtectedFileWarningDescription" = "The photo \"%@\" is protected and cannot be deleted. You can remove the protection using your camera.";
 
 /* 'Camera doesn't support deleting files' alert title. */
-"DeleteFilesUnsupportedWarningTitle" = "Cannot Delete Files";
+"DeleteFilesUnsupportedWarningTitle" = "Cannot Delete Photos";
 
 /* 'Camera doesn't support deleting files' alert description. */
-"DeleteFilesUnsupportedWarningDescription" = "Files cannot be deleted because this camera does not support deletion via apps. You can delete the file using your camera.";
+"DeleteFilesUnsupportedWarningDescription" = "Photos cannot be deleted because this camera does not support deletion via apps. You can delete the photo using your camera.";
 
 /* 'Cannot delete file' alert title. */
-"DeleteProtectedOrDownloadingFileWarningTitle" = "Cannot Delete File";
+"DeleteProtectedOrDownloadingFileWarningTitle" = "Cannot Delete Photo";
 
 /* 'Cannot delete file' alert description. Ex: 'The file "IMG_0001.JPG" is protected or copying'. */
-"DeleteProtectedOrDownloadingFileWarningDescription" = "The file \"%@\" is protected or copying and cannot be deleted.";
+"DeleteProtectedOrDownloadingFileWarningDescription" = "The photo \"%@\" is protected or copying and cannot be deleted.";
 
 /* 'No files to delete' alert title. */
-"BatchDeleteNoValidFilesTitle" = "No Files To Delete";
+"BatchDeleteNoValidFilesTitle" = "No Photos To Delete";
 
 /* 'No files to delete' alert description. */
-"BatchDeleteNoValidFilesDescription" = "All of the selected files are either copying or protected.";
+"BatchDeleteNoValidFilesDescription" = "All of the selected photos are either copying or protected.";
 
 /* Skipped files title. Ex: '1 protected or copying file was skipped'. */
-"BatchDeleteFilesSkippedTitle" = "%@ protected or copying file was skipped.";
+"BatchDeleteFilesSkippedTitle" = "%@ protected or copying photo was skipped.";
 
 /* Skipped files title. Ex: '4 protected or copying files were skipped'. */
-"BatchDeleteFilesSkippedTitle_Plural" = "%@ protected or copying files were skipped.";
+"BatchDeleteFilesSkippedTitle_Plural" = "%@ protected or copying photos were skipped.";
 
 /* 'File deletion in progress' title. */
 "BatchDeleteProgressTitle" = "Deleting…";
 
 /* 'File deletion complete' title. Ex: 'Deleted 1 file'. */
-"BatchDeleteCompleteTitle" = "Deleted %@ file.";
+"BatchDeleteCompleteTitle" = "Deleted %@ photo.";
 
 /* 'File deletion complete' title. Ex: 'Deleted 3 files'. */
-"BatchDeleteCompleteTitle_Plural" = "Deleted %@ files.";
+"BatchDeleteCompleteTitle_Plural" = "Deleted %@ photos.";
 
 /* Batch delete setup title. Ex: 'Deleting 1 File'. */
-"BatchDeleteSummaryTitle" = "Deleting %@ File";
+"BatchDeleteSummaryTitle" = "Deleting %@ Photo";
 
 /* Batch delete setup title. Ex: 'Deleting 3 Files'. */
-"BatchDeleteSummaryTitle_Plural" = "Deleting %@ Files";
+"BatchDeleteSummaryTitle_Plural" = "Deleting %@ Photos";
 
 /* Batch delete summary. Ex: 'This will PERMANENTLY delete 1 file, sized 12MB, from your camera. This will not affect the files copied to your iPad.'. */
-"BatchDeleteSummaryDescription" = "This will PERMANENTLY delete %@ file, sized %@, from your camera. This will not affect the files copied to your %@.";
+"BatchDeleteSummaryDescription" = "This will PERMANENTLY delete %@ photo, sized %@, from your camera. This will not affect the photos copied to your %@.";
 
 /* Batch delete summary. Ex: 'This will PERMANENTLY delete 12 files, totalling 50.7MB, from your camera. This will not affect the files copied to your iPad.'. */
-"BatchDeleteSummaryDescription_Plural" = "This will PERMANENTLY delete %@ files, totalling %@, from your camera. This will not affect the files copied to your %@.";
+"BatchDeleteSummaryDescription_Plural" = "This will PERMANENTLY delete %@ photos, totalling %@, from your camera. This will not affect the photos copied to your %@.";
 
 /* Batch delete confirm button title. */
-"BatchDeleteConfirmTitle" = "Delete File";
+"BatchDeleteConfirmTitle" = "Delete Photo";
 
 /* Batch delete with multiple files confirm button title.  Ex: 'Delete 3 Files'. */
-"BatchDeleteConfirmTitle_Plural" = "Delete %@ Files";
+"BatchDeleteConfirmTitle_Plural" = "Delete %@ Photos";
 
 /* Batch delete extra warning alert countdown title. Ex: 'Available in 5…'. */
 "BatchDeleteSomeFilesNotLocalConfirmationCountdownTitle" = "Available in %@…";
 
 /* Batch delete extra warning alert text. Ex: 'Some of the selected files haven't been copied to this iPad. If you continue…'. */
-"BatchDeleteSomeFilesNotLocalConfirmationDescription" = "Some of the selected files haven't been copied to this %@. If you continue, you may be deleting the ONLY COPIES OF THESE FILES.
+"BatchDeleteSomeFilesNotLocalConfirmationDescription" = "Some of the selected photo haven't been copied to this %@. If you continue, you may be deleting the ONLY COPIES OF THESE PHOTOS.
 
 Deleting them will PERMANENTLY remove them from your camera.
 
@@ -335,10 +335,10 @@ Are you sure you want to proceed?";
 "ShareRAWType" = "RAW";
 
 /* Share popup title. Ex: 'Share 1 File'. */
-"ShareTitleFormatter" = "Share %@ File";
+"ShareTitleFormatter" = "Share %@ Photo";
 
 /* Share popup title. Ex: 'Share 3 Files'. */
-"ShareTitleFormatter_Plural" = "Share %@ Files";
+"ShareTitleFormatter_Plural" = "Share %@ Photos";
 
 /* Share destination title for saving to the camera roll. */
 "SaveToCameraRollTitle" = "Save to Camera Roll";
@@ -353,10 +353,10 @@ Are you sure you want to proceed?";
 "NoAppsCanOpenFileDescription" = "There are no apps installed on this device that can open this file.";
 
 /* Progress description when saving to the camera roll. Ex: 'Saving 1 image to your camera roll…'. */
-"SaveToCameraRollDescription" = "Saving %@ image to your camera roll…";
+"SaveToCameraRollDescription" = "Saving %@ photo to your camera roll…";
 
 /* Progress description when saving to the camera roll. Ex: 'Saving 13 images to your camera roll…'. */
-"SaveToCameraRollDescription_Plural" = "Saving %@ images to your camera roll…";
+"SaveToCameraRollDescription_Plural" = "Saving %@ photos to your camera roll…";
 
 /* Progress description when saving to the camera roll, without details. */
 "SaveToCameraRollInProgressTitle" = "Saving…";
@@ -368,9 +368,9 @@ Are you sure you want to proceed?";
 "SaveToCameraRollFailedTitle" = "Save Failed";
 
 /* 'Save failed' error description when saving to camera roll. */
-"SaveToCameraRollFailedDescription" = "Cascable could not save the selected files to your camera roll.
+"SaveToCameraRollFailedDescription" = "Cascable could not save the selected photos to your camera roll.
 
-To save files to your camera roll, you must allow Cascable access to Photos in the Settings app.";
+To save photos to your camera roll, you must allow Cascable access to Photos in the Settings app.";
 
 // ------------------------------------------------------------
 //     Files Mode: Filtering
