@@ -251,6 +251,9 @@
 /* 'Delete file from camera?' confirmation description. Ex: 'This will PERMANENTLY delete this file, sized 12MB, from your camera. This will not affect the files copied to your iPad.' */
 "DeleteRemoteFileConfirmationPrompt" = "This will PERMANENTLY delete this photo, sized %@, from your camera. This will not affect the photos copied to your %@.";
 
+/* 'Delete file from camera?' confirmation description. Ex: 'This will PERMANENTLY delete this file from your camera. This will not affect the files copied to your iPad.' */
+"DeleteRemoteFileWithoutSizeConfirmationPrompt" = "This will PERMANENTLY delete this photo from your camera. This will not affect the photos copied to your %@.";
+
 /* 'Cannot delete protected files' alert title. */
 "DeleteProtectedFileWarningTitle" = "Cannot Delete Protected Photos";
 
@@ -301,6 +304,12 @@
 
 /* Batch delete summary. Ex: 'This will PERMANENTLY delete 12 files, totalling 50.7MB, from your camera. This will not affect the files copied to your iPad.'. */
 "BatchDeleteSummaryDescription_Plural" = "This will PERMANENTLY delete %@ photos, totalling %@, from your camera. This will not affect the photos copied to your %@.";
+
+/* Batch delete summary. Ex: 'This will PERMANENTLY delete 1 file from your camera. This will not affect the files copied to your iPad.'. */
+"BatchDeleteWithoutSizeSummaryDescription" = "This will PERMANENTLY delete %@ photo from your camera. This will not affect the photos copied to your %@.";
+
+/* Batch delete summary. Ex: 'This will PERMANENTLY delete 12 files from your camera. This will not affect the files copied to your iPad.'. */
+"BatchDeleteWithoutSizeSummaryDescription_Plural" = "This will PERMANENTLY delete %@ photos from your camera. This will not affect the photos copied to your %@.";
 
 /* Batch delete confirm button title. */
 "BatchDeleteConfirmTitle" = "Delete Photo";
