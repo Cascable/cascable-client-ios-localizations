@@ -4,7 +4,9 @@
 
   Created by Daniel Kennett on 20/05/16.
   Copyright © 2016 Cascable AB. All rights reserved.
-*/
+
+  These strings must be short (3-4 chars max).
+ */
 
 "OlympusSilentDriveModeLabel" = "♥︎︎";
 "OlympusLowVibrationDriveModeLabel" = "♦︎";
@@ -23,3 +25,36 @@
 "GenericTenSecondDriveModeLabel" = "10";
 "GenericTwelveSecondDriveModeLabel" = "12";
 "GenericTwoSecondDriveModeLabel" = "2";
+
+/* Used when we encounter a value we don't have a label for. In English, it's "C" for "Custom". */
+"UnknownValueFallbackLabel" = "C";
+"GenericAutomaticLabel" = "A";
+"GenericCustomLabel" = "C";
+
+"OlympusCWB1Label" = "C1";
+"OlympusCWB2Label" = "C2";
+"OlympusCWB3Label" = "C3";
+"OlympusCWB4Label" = "C4";
+"CanonAutoWhitePriorityLabel" = "AWP";
+
+"ExplicitKelvinWhiteBalanceLabel" = "K";
+"Custom1WBLabel" = "C1";
+"Custom2WBLabel" = "C2";
+"Custom3WBLabel" = "C3";
+
+"BulbAEModeLabel" = "B";
+"HDRLabel" = "HDR";
+"SonySuperiorAutoLabel" = "A+";
+"NikonUser1Label" = "U1";
+"NikonUser2Label" = "U2";
+"NikonEffectsLabel" = "E";
+
+"CanonPhotoInMovieLabel" = "PIM";
+"CanonADEPLabel" = "ADEP";
+"CanonDEPLabel" = "DEP";
+"CanonLockLabel" = "L";
+"CanonGreenLabel" = "G";
+"OlympusARTLabel" = "ART";
+"GenericBracketingLabel" = "BKT";
+
+
