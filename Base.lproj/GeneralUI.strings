@@ -612,8 +612,8 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 /* Title for the 'Live View FPS Meter' setting. */
 "ShowLiveViewFPSSecretSettingTitle" = "Live View FPS Meter";
 
-/* Title for the 'Sample Image in Viewfinder' setting. */
-"ShowFakeLVFrameSecretSettingTitle" = "Sample Image in Viewfinder";
+/* Title for the 'Fake Camera' setting. */
+"ShowFakeCameraSettingTitle" = "Fake Camera";
 
 /* Title for 'Show Touches' settings. */
 "ShowTouchesSecretSettingTitle" = "Show Touches";
