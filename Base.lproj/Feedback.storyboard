@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bax-7y-uHp">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bmc-L7-UCt">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <mutableArray key="Lato-Bold-700.ttf">
-            <string>Lato-Bold</string>
-        </mutableArray>
-    </customFonts>
     <scenes>
         <!--Feedback-->
         <scene sceneID="cDs-fA-g6M">
@@ -20,18 +15,18 @@
                         <viewControllerLayoutGuide type="bottom" id="aPt-Ac-uai"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="xDb-Kb-WXP">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XlA-yb-NCe">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z9N-Zn-peE" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="768" height="618.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="587.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXG-Ah-Rdx">
-                                                <rect key="frame" x="290" y="30" width="187" height="53"/>
-                                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="44"/>
+                                                <rect key="frame" x="281.5" y="30" width="204" height="53"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -157,10 +152,10 @@ private feedback</string>
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4u3-lC-IXA">
-                                                <rect key="frame" x="30" y="456" width="707" height="81.5"/>
+                                                <rect key="frame" x="30" y="456" width="707" height="101.5"/>
                                                 <string key="text">By far our most frequent question involves problems with connecting to a camera. 
 
-If you're having trouble with this, please read through the Camera Connection help page — following the troubleshooting steps there will fix your problems in the vast majority of cases.</string>
+If you're having trouble with this, please read through the Getting Connected guide for your camera — following the troubleshooting steps there will fix your problems in the vast majority of cases.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -168,15 +163,6 @@ If you're having trouble with this, please read through the Camera Connection he
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 </variation>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RaN-an-Scb">
-                                                <rect key="frame" x="260" y="558" width="247" height="30"/>
-                                                <state key="normal" title="View Camera Connection Help Page">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="showConnectionHelp:" destination="bmc-L7-UCt" eventType="touchUpInside" id="2Yo-ZI-jiY"/>
-                                                </connections>
-                                            </button>
                                         </subviews>
                                         <constraints>
                                             <constraint firstAttribute="centerX" secondItem="UJe-QY-DSd" secondAttribute="centerX" id="0hS-Sn-Go4"/>
@@ -187,14 +173,12 @@ If you're having trouble with this, please read through the Camera Connection he
                                             <constraint firstItem="mNv-Ln-jFW" firstAttribute="top" secondItem="z9N-Zn-peE" secondAttribute="top" constant="110" id="HI5-aG-2It">
                                                 <variation key="widthClass=compact" constant="30"/>
                                             </constraint>
+                                            <constraint firstAttribute="bottom" secondItem="4u3-lC-IXA" secondAttribute="bottom" constant="30" id="JDW-jn-fJq"/>
                                             <constraint firstItem="UJe-QY-DSd" firstAttribute="top" secondItem="mNv-Ln-jFW" secondAttribute="bottom" constant="40" id="KlT-95-RBS"/>
                                             <constraint firstItem="tN9-gX-wOq" firstAttribute="top" secondItem="UJe-QY-DSd" secondAttribute="bottom" constant="40" id="NnB-DB-oWI"/>
-                                            <constraint firstAttribute="centerX" secondItem="RaN-an-Scb" secondAttribute="centerX" id="TYm-MB-Q2r"/>
                                             <constraint firstAttribute="centerX" secondItem="mNv-Ln-jFW" secondAttribute="centerX" id="Way-e7-Gfb"/>
-                                            <constraint firstAttribute="bottom" secondItem="RaN-an-Scb" secondAttribute="bottom" constant="30" id="XkR-Py-KSc"/>
                                             <constraint firstItem="nPq-gm-2Q8" firstAttribute="top" secondItem="tN9-gX-wOq" secondAttribute="bottom" constant="10" id="a5E-In-sZ2"/>
                                             <constraint firstItem="4u3-lC-IXA" firstAttribute="top" secondItem="nPq-gm-2Q8" secondAttribute="bottom" constant="10" id="ceb-sv-13p"/>
-                                            <constraint firstItem="RaN-an-Scb" firstAttribute="top" secondItem="4u3-lC-IXA" secondAttribute="bottom" constant="20" id="dGT-jc-1EU"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nPq-gm-2Q8" secondAttribute="trailing" constant="30" id="e0I-dJ-eXV"/>
                                             <constraint firstAttribute="centerX" secondItem="tN9-gX-wOq" secondAttribute="centerX" id="mj6-CR-Rhm"/>
                                             <constraint firstAttribute="width" constant="768" placeholder="YES" id="p3t-8L-zye"/>
@@ -226,8 +210,8 @@ If you're having trouble with this, please read through the Camera Connection he
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="topMargin" secondItem="XlA-yb-NCe" secondAttribute="top" id="FEI-HJ-yCq"/>
                             <constraint firstAttribute="trailing" secondItem="XlA-yb-NCe" secondAttribute="trailing" id="ihc-Rf-9NI"/>
-                            <constraint firstItem="XlA-yb-NCe" firstAttribute="top" secondItem="tMt-A7-dgW" secondAttribute="bottom" id="kUY-lX-hVe"/>
                             <constraint firstItem="XlA-yb-NCe" firstAttribute="leading" secondItem="xDb-Kb-WXP" secondAttribute="leading" id="mOW-ba-6BW"/>
                             <constraint firstItem="aPt-Ac-uai" firstAttribute="top" secondItem="XlA-yb-NCe" secondAttribute="bottom" id="qdv-wo-w0j"/>
                         </constraints>
@@ -239,34 +223,31 @@ If you're having trouble with this, please read through the Camera Connection he
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="768" height="1024"/>
                     <connections>
                         <outlet property="contentView" destination="z9N-Zn-peE" id="k0b-Xb-mtP"/>
+                        <outlet property="divider" destination="iiK-AY-dlg" id="SJG-rZ-CTg"/>
                         <outlet property="feedbackTitleLabel" destination="YXG-Ah-Rdx" id="yrJ-Pd-KJT"/>
                         <outlet property="firstParagraphTopConstraint" destination="HI5-aG-2It" id="8ZS-Gv-1xz"/>
                         <outlet property="scrollView" destination="XlA-yb-NCe" id="19R-Cw-Jh7"/>
+                        <outletCollection property="headerLabels" destination="YXG-Ah-Rdx" id="eiL-Eu-ifW"/>
+                        <outletCollection property="headerLabels" destination="tN9-gX-wOq" id="De3-f8-oZa"/>
+                        <outletCollection property="headerLabels" destination="nPq-gm-2Q8" id="1Fv-D1-jh8"/>
+                        <outletCollection property="normalLabels" destination="mNv-Ln-jFW" id="8aY-1x-bSC"/>
+                        <outletCollection property="normalLabels" destination="4u3-lC-IXA" id="ES4-KH-lCH"/>
+                        <outletCollection property="greyLabels" destination="U4f-wL-hRP" id="pDg-4U-IiC"/>
+                        <outletCollection property="greyLabels" destination="OtA-KQ-yKs" id="e5M-aJ-Eui"/>
+                        <outletCollection property="buttons" destination="wrL-wb-cT7" id="SFZ-3k-Ufn"/>
+                        <outletCollection property="buttons" destination="7ri-hR-lIX" id="bxe-5x-n8F"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k1v-X8-CCi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="909" y="141"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="KC0-UO-1f7">
-            <objects>
-                <navigationController modalPresentationStyle="formSheet" id="bax-7y-uHp" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="YkC-6c-c7Q">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="bmc-L7-UCt" kind="relationship" relationship="rootViewController" id="hJ6-qq-0cI"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7gO-qp-4Ae" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="35" y="141"/>
         </scene>
     </scenes>
     <resources>

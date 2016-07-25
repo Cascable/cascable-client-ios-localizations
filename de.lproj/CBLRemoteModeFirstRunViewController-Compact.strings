@@ -1,9 +1,9 @@
 
 /* Class = "UILabel"; text = "Use the shutter control to focus and take a picture."; ObjectID = "PlB-iW-uo3"; */
-"PlB-iW-uo3.text" = "Nutzen Sie die Blendensteuerung zum Fokussieren und Schießen eines Fotos.";
+"PlB-iW-uo3.text" = "Use the shutter control to focus and take a picture.";
 
 /* Class = "UILabel"; text = "HOLD TO FOCUS"; ObjectID = "T4r-21-6QT"; */
-"T4r-21-6QT.text" = "HALTEN FÜR FOKUS";
+"T4r-21-6QT.text" = "HOLD TO FOCUS";
 
 /* Class = "UILabel"; text = "My Camera"; ObjectID = "jJc-6X-eyK"; */
-"jJc-6X-eyK.text" = "Meine Kamera";
+"jJc-6X-eyK.text" = "My Camera";

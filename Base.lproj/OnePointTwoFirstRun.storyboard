@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8187.4" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZN2-am-Zmm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZN2-am-Zmm">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -25,7 +25,6 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Nbj-pM-e9b">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <connections>
                         <segue destination="G3P-g9-PCa" kind="relationship" relationship="rootViewController" id="wgD-4D-jAI"/>
@@ -49,7 +48,6 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's new in Cascable?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3x-YS-zoX">
                                 <rect key="frame" x="117" y="270" width="365.5" height="41.5"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -59,7 +57,6 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank you for updating to Cascable 1.2! This update adds features for the latest and greatest iOS release." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e51-oR-xjz">
                                 <rect key="frame" x="53" y="341" width="495" height="40.5"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="aYW-Lz-eal">
                                         <variation key="widthClass=compact" constant="260"/>
@@ -74,7 +71,6 @@
                             </label>
                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AboutIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Y9H-Or-uKy">
                                 <rect key="frame" x="225" y="100" width="150" height="150"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="FAY-yF-wk6">
                                         <variation key="widthClass=compact" constant="125"/>
@@ -84,7 +80,6 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="On Apple Watch running watchOS 2, you can take advantage of an improved Apple Watch app featuring audible and haptic feedback." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hay-5R-Q3N">
                                 <rect key="frame" x="53" y="401" width="495" height="40.5"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="tWd-WM-H4W">
                                         <variation key="widthClass=compact" constant="260"/>
@@ -99,7 +94,6 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="On iPad Air 2 running iOS 9, Cascable supports Split View multitasking, allowing you to use it right alongside another app." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAX-Eh-RvW">
                                 <rect key="frame" x="53" y="462" width="495" height="40.5"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="N6q-mI-j7l">
                                         <variation key="widthClass=compact" constant="260"/>
@@ -114,7 +108,6 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wr9-Wd-JN8" customClass="CBLPillButton">
                                 <rect key="frame" x="200" y="478" width="200" height="42"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Q63-MR-0sq"/>
                                     <constraint firstAttribute="height" constant="42" id="dfM-ee-gUm">
@@ -133,7 +126,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Y9H-Or-uKy" firstAttribute="width" secondItem="Y9H-Or-uKy" secondAttribute="height" multiplier="1:1" id="2Gc-QH-DQ6"/>

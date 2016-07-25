@@ -1,0 +1,21 @@
+body {
+	background: rgb(34, 34, 34);
+	color: rgb(235, 235, 235);
+}
+
+hr {
+    background-image: -webkit-linear-gradient(left, rgba(200,200,200,0), rgba(200,200,200,0.75), rgba(200,200,200,0)); 
+}
+
+a {
+	color: rgb(245, 245, 245);
+}
+
+a:visited {
+	color: rgb(245, 245, 245);
+}
+
+.figure-box{
+	border: 1px solid #C8C7CC;
+	background-color: #555555;
+}

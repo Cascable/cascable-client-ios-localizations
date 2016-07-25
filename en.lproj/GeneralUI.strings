@@ -88,13 +88,19 @@
 // ------------------------------------------------------------
 
 /* The titles of the 'Files' feature. */
-"FilesTitle" = "Files";
+"FilesTitle" = "Photos";
 
 /* Title of the files mode warning that no files are on the camera's SD card. */
-"NoFilesAvailableTitle" = "No Files Available";
+"NoFilesAvailableTitle" = "No Photos Available";
 
 /* Subtitle of the files mode warning that no files are on the camera's SD card. */
-"NoFilesAvailableDescription" = "Your camera doesn't seem to have any files on it. Get shooting!";
+"NoFilesAvailableDescription" = "Your camera doesn't seem to have any photos on it. Get shooting!";
+
+/* Title of the files mode warning that the camera doesn't allow file access. */
+"NoFileTransferSupportTitle" = "File Access Not Supported";
+
+/* Subtitle of the files mode warning that the camera doesn't allow file access. */
+"NoFileTransferSupportDescription" = "Your camera doesn't allow storage access to apps.";
 
 /* Title of the files mode warning that there is no memory card in the connected camera. */
 "NoMemoryCardAvailableTitle" = "No Memory Card";
@@ -106,7 +112,7 @@
 "NoCameraAvailableTitle" = "No Camera";
 
 /* Subtitle of the files mode warning that no camera is connected. */
-"NoCameraAvailableDescription" = "When connected to a camera, the files on its memory card will be shown here.";
+"NoCameraAvailableDescription" = "When connected to a camera, the photos on its memory card will be shown here.";
 
 /* Title of the 'camera' segment of the control to switch between device and on-camera files. */
 "iPhoneOnCameraSegmentTitle" = "On Camera";
@@ -114,12 +120,30 @@
 /* Title of the 'device' segment of the control to switch between device and on-camera files. Ex: 'On This iPad'. */
 "iPhoneOnDeviceSegmentTitle" = "On This %@";
 
+/* Title of the image preview button to copy the photo to this device. */
+"CopyToDeviceTitle" = "Copy To This %@";
+
+/* Title of the image preview button to stop copying the photo to this device. */
+"StopCopyingTitle" = "Stop Copying";
+
 // ------------------------------------------------------------
 //     Files Mode: Information Labels
 // ------------------------------------------------------------
 
 /* The title of the fullscreen image view, including a count and a name. Ex: '1 of 12 — IMG_0001.JPG'. */
 "FullScreenImagePreviewTitle" = "%@ of %@ — %@";
+
+/* The footer of the device image view, including item count. Ex: '1 item'. */
+"DeviceSpaceOnlyFormatter" = "%@ item";
+
+/* The footer of the device image view, including item count. Ex: '2 items'. */
+"DeviceSpaceOnlyFormatter_Plural" = "%@ items";
+
+/* The footer of the device image view, including shots available. Ex: '1 shot available'. */
+"DeviceShotsOnlyFormatter" = "%@ shot available";
+
+/* The footer of the device image view, including shots available. Ex: '2 shots available'. */
+"DeviceShotsOnlyFormatter_Plural" = "%@ shots available";
 
 /* The footer of the device image view, including item count and space available. Ex: '1 item, 23.05 Gb available'. */
 "DeviceSpaceFormatter" = "%@ item, %@ available";
@@ -133,6 +157,18 @@
 /* The footer of the device image view, including item count, items copying and space available. Ex: '3 items (2 copying), 23.05 Gb available'. */
 "DeviceSpaceWithDownloadingFormatter_Plural" = "%@ items (%@ copying), %@ available";
 
+/* The footer of the device image view, including filtered item count, items available and space available. Ex: '1 of 1 item, 23.05 Gb available'. */
+"DeviceSpaceWithFilteredFormatter" = "%@ of %@ item, %@ available";
+
+/* The footer of the device image view, including filtered item count, items available and space available. Ex: '1 of 2 items, 23.05 Gb available'. */
+"DeviceSpaceWithFilteredFormatter_Plural" = "%@ of %@ items, %@ available";
+
+/* The footer of the device image view, including filtered item count, items available, items copying and space available. Ex: '1 of 1 item (1 copying), 23.05 Gb available'. */
+"DeviceSpaceWithFilteredAndDownloadingFormatter" = "%@ of %@ item (%@ copying), %@ available";
+
+/* The footer of the device image view, including filtered item count, items available, items copying and space available. Ex: '1 of 3 items (2 copying), 23.05 Gb available'. */
+"DeviceSpaceWithFilteredAndDownloadingFormatter_Plural" = "%@ of %@ items (%@ copying), %@ available";
+
 /* Compact footer of the device view, including number of items being copied. Ex: 'Copying 1 of 1 item'. */
 "CopyingXofYFormatter" = "Copying %@ of %@ item";
 
@@ -145,6 +181,39 @@
 /* Compact footer of the device view, including number of items selected. Ex: '1 of 12 items selected'. */
 "ItemsSelectedFormatter_Plural" = "%@ of %@ items selected";
 
+/* Label to show the photo is a RAW+JPEG pair. */
+"RAWPlusJPEGFileTypeLabel" = "RAW+JPEG";
+
+/* Label to show the photo is a JPEG file. */
+"JPEGFileTypeLabel" = "JPEG";
+
+/* Label to show the photo is a RAW file. */
+"RAWFileTypeLabel" = "RAW";
+
+/* Alert prompt when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyPromptTitle" = "Multiple Files To Copy";
+
+/* Alert message when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyPromptMessage" = "This photo has multiple image files. What would you like to copy?";
+
+/* Alert message when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyPromptMessage_Plural" = "These photos have multiple image files. What would you like to copy?";
+
+/* "Copy RAW file" response when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyRAWFileButtonTitle" = "Copy RAW File";
+
+/* "Copy RAW files" response when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyRAWFileButtonTitle_Plural" = "Copy RAW Files";
+
+/* "Copy JPEG file" response when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyJPEGFileButtonTitle" = "Copy JPEG File";
+
+/* "Copy JPEG files" response when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyJPEGFileButtonTitle_Plural" = "Copy JPEG Files";
+
+/* "Copy both" response when asking the user which files to copy when photos have more than one file. */
+"MultipleVariantsCopyBothFilesButtonTitle" = "Copy Both";
+
 // ------------------------------------------------------------
 //     Files Mode: Deletion
 // ------------------------------------------------------------
@@ -152,86 +221,107 @@
 /* Label for files that are protected from deletion. */
 "FileProtectedTitle" = "Protected";
 
+/* Label for files that can't be deleted due to unavailable functionality. */
+"FileDeleteUnavailableTitle" = "Unavailable";
+
 /* 'Delete File' warning dialog title. */
-"DeleteTitle" = "Delete File";
+"DeleteTitle" = "Delete Photo";
+
+/* 'Delete From Camera' warning dialog title. */
+"DeleteFromCameraTitle" = "Delete From Camera";
 
 /* 'Delete File' warning dialog title. Ex: 'Delete 12 Files'. */
-"DeleteTitle_Plural" = "Delete %@ Files";
+"DeleteTitle_Plural" = "Delete %@ Photos";
 
 /* 'Delete File' warning dialog description. Ex: 'This will delete 1 file of 12 from your iPad…'. */
-"DeleteFilesConfirmationPrompt" = "This will delete %@ file of %@ from your %@. This will not affect the contents of your camera.";
+"DeleteFilesConfirmationPrompt" = "This will delete %@ photo of %@ from your %@. This will not affect the contents of your camera.";
 
 /* 'Delete File' warning dialog description. Ex: 'This will delete 10 files of 12 from your iPad…'. */
-"DeleteFilesConfirmationPrompt_Plural" = "This will delete %@ files totalling %@ from your %@. This will not affect the contents of your camera.";
+"DeleteFilesConfirmationPrompt_Plural" = "This will delete %@ photos totalling %@ from your %@. This will not affect the contents of your camera.";
 
 /* 'Delete file?' popup confirmation title. */
-"DeleteFilesConfirmationTitle" = "Delete file?";
+"DeleteFilesConfirmationTitle" = "Delete photo?";
 
 /* 'Delete files?' popup confirmation title. */
-"DeleteFilesConfirmationTitle_Plural" = "Delete files?";
+"DeleteFilesConfirmationTitle_Plural" = "Delete photos?";
 
 /* 'Delete file from camera?' confirmation title. */
-"DeleteRemoteFileConfirmationTitle" = "Delete file from camera?";
+"DeleteRemoteFileConfirmationTitle" = "Delete photo from camera?";
 
 /* 'Delete file from camera?' confirmation description. Ex: 'This will PERMANENTLY delete this file, sized 12MB, from your camera. This will not affect the files copied to your iPad.' */
-"DeleteRemoteFileConfirmationPrompt" = "This will PERMANENTLY delete this file, sized %@, from your camera. This will not affect the files copied to your %@.";
+"DeleteRemoteFileConfirmationPrompt" = "This will PERMANENTLY delete this photo, sized %@, from your camera. This will not affect the photos copied to your %@.";
+
+/* 'Delete file from camera?' confirmation description. Ex: 'This will PERMANENTLY delete this file from your camera. This will not affect the files copied to your iPad.' */
+"DeleteRemoteFileWithoutSizeConfirmationPrompt" = "This will PERMANENTLY delete this photo from your camera. This will not affect the photos copied to your %@.";
 
 /* 'Cannot delete protected files' alert title. */
-"DeleteProtectedFileWarningTitle" = "Cannot Delete Protected Files";
+"DeleteProtectedFileWarningTitle" = "Cannot Delete Protected Photos";
 
 /* 'Cannot delete protected files' alert description. Ex: 'The file "IMG_0001.JPG" is protected…'. */
-"DeleteProtectedFileWarningDescription" = "The file \"%@\" is protected and cannot be deleted. You can remove the protection using your camera.";
+"DeleteProtectedFileWarningDescription" = "The photo \"%@\" is protected and cannot be deleted. You can remove the protection using your camera.";
+
+/* 'Camera doesn't support deleting files' alert title. */
+"DeleteFilesUnsupportedWarningTitle" = "Cannot Delete Photos";
+
+/* 'Camera doesn't support deleting files' alert description. */
+"DeleteFilesUnsupportedWarningDescription" = "Photos cannot be deleted because this camera does not support deletion via apps. You can delete the photo using your camera.";
 
 /* 'Cannot delete file' alert title. */
-"DeleteProtectedOrDownloadingFileWarningTitle" = "Cannot Delete File";
+"DeleteProtectedOrDownloadingFileWarningTitle" = "Cannot Delete Photo";
 
 /* 'Cannot delete file' alert description. Ex: 'The file "IMG_0001.JPG" is protected or copying'. */
-"DeleteProtectedOrDownloadingFileWarningDescription" = "The file \"%@\" is protected or copying and cannot be deleted.";
+"DeleteProtectedOrDownloadingFileWarningDescription" = "The photo \"%@\" is protected or copying and cannot be deleted.";
 
 /* 'No files to delete' alert title. */
-"BatchDeleteNoValidFilesTitle" = "No Files To Delete";
+"BatchDeleteNoValidFilesTitle" = "No Photos To Delete";
 
 /* 'No files to delete' alert description. */
-"BatchDeleteNoValidFilesDescription" = "All of the selected files are either copying or protected.";
+"BatchDeleteNoValidFilesDescription" = "All of the selected photos are either copying or protected.";
 
 /* Skipped files title. Ex: '1 protected or copying file was skipped'. */
-"BatchDeleteFilesSkippedTitle" = "%@ protected or copying file was skipped.";
+"BatchDeleteFilesSkippedTitle" = "%@ protected or copying photo was skipped.";
 
 /* Skipped files title. Ex: '4 protected or copying files were skipped'. */
-"BatchDeleteFilesSkippedTitle_Plural" = "%@ protected or copying files were skipped.";
+"BatchDeleteFilesSkippedTitle_Plural" = "%@ protected or copying photos were skipped.";
 
 /* 'File deletion in progress' title. */
 "BatchDeleteProgressTitle" = "Deleting…";
 
 /* 'File deletion complete' title. Ex: 'Deleted 1 file'. */
-"BatchDeleteCompleteTitle" = "Deleted %@ file.";
+"BatchDeleteCompleteTitle" = "Deleted %@ photo.";
 
 /* 'File deletion complete' title. Ex: 'Deleted 3 files'. */
-"BatchDeleteCompleteTitle_Plural" = "Deleted %@ files.";
+"BatchDeleteCompleteTitle_Plural" = "Deleted %@ photos.";
 
 /* Batch delete setup title. Ex: 'Deleting 1 File'. */
-"BatchDeleteSummaryTitle" = "Deleting %@ File";
+"BatchDeleteSummaryTitle" = "Deleting %@ Photo";
 
 /* Batch delete setup title. Ex: 'Deleting 3 Files'. */
-"BatchDeleteSummaryTitle_Plural" = "Deleting %@ Files";
+"BatchDeleteSummaryTitle_Plural" = "Deleting %@ Photos";
 
 /* Batch delete summary. Ex: 'This will PERMANENTLY delete 1 file, sized 12MB, from your camera. This will not affect the files copied to your iPad.'. */
-"BatchDeleteSummaryDescription" = "This will PERMANENTLY delete %@ file, sized %@, from your camera. This will not affect the files copied to your %@.";
+"BatchDeleteSummaryDescription" = "This will PERMANENTLY delete %@ photo, sized %@, from your camera. This will not affect the photos copied to your %@.";
 
 /* Batch delete summary. Ex: 'This will PERMANENTLY delete 12 files, totalling 50.7MB, from your camera. This will not affect the files copied to your iPad.'. */
-"BatchDeleteSummaryDescription_Plural" = "This will PERMANENTLY delete %@ files, totalling %@, from your camera. This will not affect the files copied to your %@.";
+"BatchDeleteSummaryDescription_Plural" = "This will PERMANENTLY delete %@ photos, totalling %@, from your camera. This will not affect the photos copied to your %@.";
+
+/* Batch delete summary. Ex: 'This will PERMANENTLY delete 1 file from your camera. This will not affect the files copied to your iPad.'. */
+"BatchDeleteWithoutSizeSummaryDescription" = "This will PERMANENTLY delete %@ photo from your camera. This will not affect the photos copied to your %@.";
+
+/* Batch delete summary. Ex: 'This will PERMANENTLY delete 12 files from your camera. This will not affect the files copied to your iPad.'. */
+"BatchDeleteWithoutSizeSummaryDescription_Plural" = "This will PERMANENTLY delete %@ photos from your camera. This will not affect the photos copied to your %@.";
 
 /* Batch delete confirm button title. */
-"BatchDeleteConfirmTitle" = "Delete File";
+"BatchDeleteConfirmTitle" = "Delete Photo";
 
 /* Batch delete with multiple files confirm button title.  Ex: 'Delete 3 Files'. */
-"BatchDeleteConfirmTitle_Plural" = "Delete %@ Files";
+"BatchDeleteConfirmTitle_Plural" = "Delete %@ Photos";
 
 /* Batch delete extra warning alert countdown title. Ex: 'Available in 5…'. */
 "BatchDeleteSomeFilesNotLocalConfirmationCountdownTitle" = "Available in %@…";
 
 /* Batch delete extra warning alert text. Ex: 'Some of the selected files haven't been copied to this iPad. If you continue…'. */
-"BatchDeleteSomeFilesNotLocalConfirmationDescription" = "Some of the selected files haven't been copied to this %@. If you continue, you may be deleting the ONLY COPIES OF THESE FILES.
+"BatchDeleteSomeFilesNotLocalConfirmationDescription" = "Some of the selected photo haven't been copied to this %@. If you continue, you may be deleting the ONLY COPIES OF THESE PHOTOS.
 
 Deleting them will PERMANENTLY remove them from your camera.
 
@@ -254,10 +344,10 @@ Are you sure you want to proceed?";
 "ShareRAWType" = "RAW";
 
 /* Share popup title. Ex: 'Share 1 File'. */
-"ShareTitleFormatter" = "Share %@ File";
+"ShareTitleFormatter" = "Share %@ Photo";
 
 /* Share popup title. Ex: 'Share 3 Files'. */
-"ShareTitleFormatter_Plural" = "Share %@ Files";
+"ShareTitleFormatter_Plural" = "Share %@ Photos";
 
 /* Share destination title for saving to the camera roll. */
 "SaveToCameraRollTitle" = "Save to Camera Roll";
@@ -272,10 +362,10 @@ Are you sure you want to proceed?";
 "NoAppsCanOpenFileDescription" = "There are no apps installed on this device that can open this file.";
 
 /* Progress description when saving to the camera roll. Ex: 'Saving 1 image to your camera roll…'. */
-"SaveToCameraRollDescription" = "Saving %@ image to your camera roll…";
+"SaveToCameraRollDescription" = "Saving %@ photo to your camera roll…";
 
 /* Progress description when saving to the camera roll. Ex: 'Saving 13 images to your camera roll…'. */
-"SaveToCameraRollDescription_Plural" = "Saving %@ images to your camera roll…";
+"SaveToCameraRollDescription_Plural" = "Saving %@ photos to your camera roll…";
 
 /* Progress description when saving to the camera roll, without details. */
 "SaveToCameraRollInProgressTitle" = "Saving…";
@@ -287,9 +377,9 @@ Are you sure you want to proceed?";
 "SaveToCameraRollFailedTitle" = "Save Failed";
 
 /* 'Save failed' error description when saving to camera roll. */
-"SaveToCameraRollFailedDescription" = "Cascable could not save the selected files to your camera roll.
+"SaveToCameraRollFailedDescription" = "Cascable could not save the selected photos to your camera roll.
 
-To save files to your camera roll, you must allow Cascable access to Photos in the Settings app.";
+To save photos to your camera roll, you must allow Cascable access to Photos in the Settings app.";
 
 // ------------------------------------------------------------
 //     Files Mode: Filtering
@@ -328,6 +418,28 @@ To save files to your camera roll, you must allow Cascable access to Photos in t
 /* 'Apply Filter' button title. */
 "ApplyFilterTitle" = "Apply";
 
+/* 'Date Range' popup title. */
+"DateRangePopupTitle" = "Choose Dates";
+
+// ------------------------------------------------------------
+//     Files Mode: Metadata
+// ------------------------------------------------------------
+
+/* ISO formatter - e.g., "ISO 100" */
+"ISOMetadataFormatter" = "ISO %@";
+
+/* Shutter speed formatter - e.g., "1/200 s" */
+"ShutterSpeedMetadataFormatter" = "%@ s";
+
+/* Aperture formatter - e.g., "ƒ/2.8" */
+"ApertureMetadataFormatter" = "ƒ/%@";
+
+/* Focal length formatter - e.g., "40 mm" */
+"FocalLengthFormatter" = "%@ mm";
+
+/* Text to use when metadata is unavailable. */
+"NoMetadataFiller" = "—";
+
 // ------------------------------------------------------------
 //     Help and First Run
 // ------------------------------------------------------------
@@ -360,13 +472,13 @@ To save files to your camera roll, you must allow Cascable access to Photos in t
 "ShowWhatsNewTitle" = "What's New in Cascable?";
 
 /* Title of the 'Remote Mode' help page button in the help menu. */
-"RemoteModeHelpPageName" = "Remote Mode";
+"RemoteModeHelpPageName" = "Remote Control";
 
 /* Title of the 'Shutter Robot' help page button in the help menu. */
 "ShutterRobotHelpPageName" = "Shutter Robot";
 
 /* Title of the 'Files Mode' help page button in the help menu. */
-"FilesModeHelpPageName" = "Files Mode";
+"FilesModeHelpPageName" = "Photo Management";
 
 /* Title of the 'Camera Connection' help page button in the help menu. */
 "CameraConnectionHelpPageName" = "Camera Connection";
@@ -431,13 +543,65 @@ To save files to your camera roll, you must allow Cascable access to Photos in t
 "GeneralSettingsTitle" = "General";
 
 /* Title for the 'Remote Mode' section of settings. */
-"RemoteModeSettingsTitle" = "Remote Mode";
+"RemoteModeSettingsTitle" = "Remote Control";
+
+/* Title for the "File Handling" section of settings. */
+"FilesModeSettingsTitle" = "File Handling";
 
 /* Title for the 'Always Show Shooting Mode' setting. */
 "AlwaysShowAEModeSettingTitle" = "Always Show Shooting Mode";
 
 /* Title for the 'Night Mode' setting. */
 "NightModeSettingTitle" = "Night Mode";
+
+/* Title for the settings section for focus peaking. */
+"FocusPeakingSettingsTitle" = "Focus Peaking";
+
+/* Titles for the various applicatoin options for Focus Peaking. */
+"ApplyFocusPeaking0Title" = "Always";
+"ApplyFocusPeaking1Title" = "When shooting in MF";
+
+/* Section title for the 'Apply Focus Peaking' section of ''Focus Peaking'. */
+"ApplyWhenFocusPeakingSectionTitle" = "Apply Focus Peaking";
+
+/* Section footer for the 'Apply Focus Peaking' section of ''Focus Peaking'. */
+"ApplyWhenFocusPeakingSectionFooter" = "Focus Peaking draws a red highlight at the areas of the viewfinder image with sharp edges.";
+
+/* Title for the settings section for reviewing photos. */
+"ReviewSettingsTitle" = "Photo Review";
+
+/* Title for the 'Review Photos After Shooting' setting. */
+"ReviewPhotosAfterShootingTitle" = "Review Shot Photos";
+
+/* Section title for the 'Automatically Dismiss' section of 'Review Photos After Shooting' */
+"AutoDismissPhotoReviewSectionTitle" = "Automatically Dismiss";
+
+/* Section footer for the 'Automatically Dismiss' section of 'Review Photos After Shooting' */
+"AutoDismissPhotoReviewSectionFooter" = "Tapping or zooming the photo being reviewed will cancel automatic dismissal for that photo.";
+
+/* Section footer for the first section of 'Review Photos After Shooting' explaining the feature. */
+"PhotoReviewExplanationFooter" = "Photo Review allows you to review high-resolution previews of your photos immediately after they're taken, helping you nail your shot quickly and effectively.";
+
+/* Titles for the various auto-dismiss options for photo review. */
+"AutoDismissPhotoReviewSetting0Title" = "Manually";
+"AutoDismissPhotoReviewSetting2Title" = "After 2 seconds";
+"AutoDismissPhotoReviewSetting4Title" = "After 4 seconds";
+"AutoDismissPhotoReviewSetting8Title" = "After 8 seconds";
+
+/* The title of 'When Copying RAW+JPEG…' settings section. */
+"MultiVariantCopySettingsTitle" = "RAW+JPEG";
+
+/* The header text of the 'When Copying RAW+JPEG…' settings section */
+"MultiVariantCopySettingsHeader" = "When Copying RAW+JPEG Photos";
+
+/* The footer text of the 'When Copying RAW+JPEG…' settings section */
+"MultiVariantCopySettingsFooter" = "If you choose to copy one file from a RAW+JPEG pair, Cascable will always let you download the other file later.";
+
+/* Titles for the various file downloading options. */
+"MultiVariantDownloadChoice0Title" = "Ask Each Time";
+"MultiVariantDownloadChoice1Title" = "Copy RAW File";
+"MultiVariantDownloadChoice2Title" = "Copy JPEG File";
+"MultiVariantDownloadChoice3Title" = "Copy Both Files";
 
 /* Title for the 'Stop Live View On Idle' setting. */
 "DisableLiveViewOnInActivitySettingTitle" = "Stop Live View on Idle";
@@ -448,8 +612,14 @@ To save files to your camera roll, you must allow Cascable access to Photos in t
 /* Title for the 'Live View FPS Meter' setting. */
 "ShowLiveViewFPSSecretSettingTitle" = "Live View FPS Meter";
 
-/* Title for the 'Sample Image in Viewfinder' setting. */
-"ShowFakeLVFrameSecretSettingTitle" = "Sample Image in Viewfinder";
+/* Title for the 'Fake Camera' setting. */
+"ShowFakeCameraSettingTitle" = "Fake Camera";
+
+/* Title for 'Show Touches' settings. */
+"ShowTouchesSecretSettingTitle" = "Show Touches";
+
+/* Title for 'Show Touches' warning. */
+"ShowTouchesRestartWarningTitle" = "Changes to this setting require a hard app restart to take effect.";
 
 /* Warning title when the application has been denied notification permissions in iOS. */
 "NotificationsNotAvailableAlertTitle" = "Notifications Disallowed";
@@ -461,6 +631,27 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 
 /* Title for 'Open Settings App' button. */
 "SwitchToiOSSettingAppTitle" = "Open Settings App";
+
+/* Title for 'Use Custom Themes?' dialog. */
+"UseCustomThemeConfirmationTitle" = "Use Custom Themes?";
+
+/* Description text for 'Use Custom Themes?' dialog. */
+"UseCustomThemeConfirmationDecription" = "This will replace Cascable's default color schemes with those contained in the file \"%@\".\n\nYou can revert back to the default colors in Cascable's settings.";
+
+/* Confirm button title for 'Use Custom Themes?' dialog. */
+"UseCustomThemeButtonTitle" = "Use Themes";
+
+/* Title for 'Remove Custom Themes?' dialog. */
+"RemoveCustomThemeConfirmationTitle" = "Remove Custom Themes?";
+
+/* Description text for 'Remove Custom Themes?' dialog. */
+"RemoveCustomThemeConfirmationDecription" = "This will reset Cascable's color schemes back to their defaults.";
+
+/* Confirm button title for 'Remove Custom Themes?' dialog. */
+"RemoveCustomThemeButtonTitle" = "Remove Themes";
+
+/* Title of button in settings to remove custom themes. */
+"RemoveCustomThemeRowTitle" = "Remove Custom Themes";
 
 // ------------------------------------------------------------
 //     General
@@ -490,8 +681,84 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Title for 'Close' buttons. */
 "CloseTitle" = "Close";
 
+/* Title for 'Reset' buttons. */
+"ResetTitle" = "Reset";
+
+/* Title for 'Search' buttons/fields. */
+"SearchTitle" = "Search";
+
 /* Format for version information. Ex: 'Version 1.2.1 (670)'. */
 "VersionFormatter" = "Version %@ (%@)";
+
+/* Format for CascableCore version information. Ex: 'Version 1.2.1 (670)'. */
+"CascableCoreVersionFormatter" = "CascableCore %@ (%@, %@)";
+
+// ------------------------------------------------------------
+//     In-App Purchases
+// ------------------------------------------------------------
+
+/* Title for the Cascable store. */
+"StoreTitle" = "Cascable Store";
+
+/* Title for 'PRO' buttons. Must be short. */
+"ProButtonTitle" = "PRO";
+
+/* Title of the 'Buy' buttons. Ex: 'Buy for $9.99'. */
+"BuyButtonFormatter" = "Buy for %@";
+
+/* Title of the bundle savings label. Ex: 'Save $5.00!'. */
+"BundleSavingsLabelFormatter" = "Save %@!";
+
+/* Explanation of needing to make a purchase to remote preview photos. */
+"RemotePreviewUnavailableDescription" = "Previewing photos directly from your camera is a feature of Cascable Pro: Photo Management.";
+
+/* Title of the alert informing the user of the feature bundle. */
+"BundleUpsellAlertTitle" = "Also Included in Pro Bundle";
+
+/* Message of the alert informing the user of the feature bundle. */
+"BundleUpsellAlertDescription" = "This item is included in the Cascable Pro bundle, which includes all Pro features at a discounted price.\n\nNOTE: Once you buy an individual feature, you will no longer be able to buy the bundle.";
+
+/* Title of the of the 'View Pro Bundle' button in the bundle alert. */
+"BundleUpsellViewBundleButtonTitle" = "View Pro Bundle";
+
+/* Title of the of the 'Buy anyway' button in the bundle alert. Ex: 'Buy just this for $9.99'. */
+"BundleUpsellBuyAnywayButtonTitle" = "Buy just this for %@";
+
+/* Title of the "Purchases" section of the settings section of the app. */
+"PurchasesSettingsSectionTitle" = "Purchases";
+
+/* Title of the 'More Info…' button next to unpurchased items. */
+"PackNotPurchasedButtonTitle" = "More Info…";
+
+/* Title of the "Restore Purchases…" button. Should follow Apple guidelines for this process. */
+"RestorePurchasesButtonTitle" = "Restore Purchases…";
+
+/* Explanation text for the "Restore Purchases" feature. */
+"RestorePurchasesSectionFooter" = "If you've previously purchased one or more Cascable Pro feature packs, you can restore them to this device.";
+
+/* Header text for the list of feature packs if the bundle is available. */
+"ProPackIncludesSectionTitle" = "Full Bundle Includes:";
+
+/* Offline title of the "Pro: Remote Control" feature pack. */
+"se.cascable.ios.remotemodeunlockOfflineProductTitle" = "Pro: Remote Control";
+
+/* Offline title of the "Pro: Photo Management" feature pack. */
+"se.cascable.ios.filesmodeunlockOfflineProductTitle" = "Pro: Photo Management";
+
+/* Offline title of the "Pro: Night Mode" feature pack. */
+"se.cascable.ios.nightmodeOfflineProductTitle" = "Pro: Night Mode";
+
+/* Offline title of the feature pack bundle. */
+"se.cascable.ios.everythingunlockOfflineProductTitle" = "Pro: Full Bundle";
+
+/* Header text for the purchases section when no items have been purchased. */
+"NoPurchasesMadeHeader" = "Purchasing Cascable feature packs will unlock powerful new features and help support a small, independent company.";
+
+/* Header text for the purchases section when the user has a free upgrade due to purchasing Cascable 1.x. */
+"PurchasesGrandfatheredUserHeader" = "Thank you for being an early adopter! As a user of Cascable 1.x, you get a free upgrade!";
+
+/* Header text for the purchases section when the user has purchased one or more items. */
+"PurchasesMadeHeader" = "Thank you for supporting Cascable! Your purchase helps support a small, independent company. We couldn't do it without you!";
 
 // ------------------------------------------------------------
 //     Managing Selection
@@ -547,7 +814,7 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 "RemoteUnavailableNoConnectionTitle" = "No Camera Connected";
 
 /* Description of the remote control warning that no camera is connected. */
-"RemoteUnavailableNoConnectionDescription" = "Remote Mode is not available without a connected camera. Tap the connection indicator at the top of the screen to get started.";
+"RemoteUnavailableNoConnectionDescription" = "Remote control is not available without a connected camera. Tap the connection indicator at the top of the screen to get started.";
 
 /* Title of the remote control warning that live view is disabled. */
 "RemoteUnavailableEVFNotCorrectTitle" = "Live View Stopped";
@@ -558,6 +825,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* 'Start Live View' button title. */
 "StartLiveViewTitle" = "Start Live View";
 
+/* Title of the screen that pops up when previewing an image. */
+"ShotPreviewTitle" = "Image Preview";
+
 // ------------------------------------------------------------
 //     Remote Control: Popups and Controls
 // ------------------------------------------------------------
@@ -567,6 +837,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 
 /* Title of the 'Overlays' popup. */
 "OverlaysPopupTitle" = "Overlays";
+
+/* Title of the 'Camera Settings' popup. */
+"CameraSettingsPopupTitle" = "Camera Settings";
 
 /* Title of the 'Histogram' section of the overlays popup. */
 "HistogramSectionTitle" = "Histogram";
@@ -592,6 +865,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Title of the 'Horizontal Line' option of the grid. Ex: '3 Horizontal Lines'. */
 "GridHorizontalLinesRowTitle_Plural" = "%@ Horizontal Lines";
 
+/* Title of the focusing popup. */
+"FocusConfigurationTitle" = "Focusing";
+
 /* Title of the focusing popup when the camera is in manual focus mode. */
 "MFConfigurationTitle" = "Manual Focusing";
 
@@ -599,7 +875,7 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 "MFConfigurationPeakingTitle" = "Focus Peaking";
 
 /* String placed in the space where the content for the feature (i.e., choosing which autofocus mode to use) would be. */
-"CameraFeatureNotAvailableContentPlaceholder" = "Not Available";
+"CameraFeatureNotAvailableContentPlaceholder" = "Not settable within Cascable.";
 
 // ------------------------------------------------------------
 //     Shutter Robot: General
@@ -900,6 +1176,12 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 
 /* Description of the alert informing the user that the camera pairing was cancelled on-camera. */
 "PairingCancelledMessage" = "Pairing was cancelled by the camera. Pairing must be confirmed on the camera's screen to succeed.";
+
+/* Title of the alert informing the user that the camera needs a software update before it can be connected to. */
+"CameraNeedsUpdateTitle" = "Camera Needs Update";
+
+/* Description of the alert informing the user that the camera needs a software update before it can be connected to. */
+"CameraNeedsUpdateMessage" = "This camera is not up-to-date enough to allow Cascable to connect.\n\nIf you are connecting to a Sony, please update the \"Smart Remote\" app on your camera, otherwise consult your camera's manufacturer for instructions on how to update its software.";
 
 /* Title displayed in the main app UI while a camera is connecting. */
 "ConnectingTitle" = "Connecting…";

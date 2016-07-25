@@ -1,34 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZN2-am-Zmm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZN2-am-Zmm">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <mutableArray key="HelveticaNeueLights.ttc">
-            <string>HelveticaNeue-UltraLight</string>
-            <string>HelveticaNeue-Light</string>
-            <string>HelveticaNeue-Light</string>
-            <string>HelveticaNeue-Light</string>
-            <string>HelveticaNeue-Thin</string>
-            <string>HelveticaNeue-UltraLight</string>
-            <string>HelveticaNeue-Light</string>
-            <string>HelveticaNeue-Light</string>
-            <string>HelveticaNeue-Thin</string>
-            <string>HelveticaNeue-Light</string>
-            <string>HelveticaNeue-Light</string>
-            <string>HelveticaNeue-UltraLight</string>
-            <string>HelveticaNeue-Light</string>
-            <string>HelveticaNeue-Light</string>
-            <string>HelveticaNeue-Light</string>
-            <string>HelveticaNeue-Thin</string>
-            <string>HelveticaNeue-UltraLight</string>
-            <string>HelveticaNeue-Light</string>
-            <string>HelveticaNeue-Light</string>
-        </mutableArray>
-    </customFonts>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="9Fx-1V-e4Z">
@@ -61,27 +38,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Cascable" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3x-YS-zoX">
-                                <rect key="frame" x="140" y="250" width="319.5" height="41.5"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="36"/>
+                                <rect key="frame" x="127" y="250" width="346" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="26"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e51-oR-xjz">
-                                <rect key="frame" x="53" y="321" width="495" height="60.5"/>
+                                <rect key="frame" x="53" y="322.5" width="495" height="61"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="aYW-Lz-eal">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
                                 <string key="text">Cascable is your photography assistant. To get you started, we'll explain the basics and ask you some questions on how you'd like to use Cascable.</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                 </variation>
                             </label>
                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AboutIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Y9H-Or-uKy">
@@ -94,17 +71,17 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First, let's take a quick tour of Cascable's main functions. You can take a tour again at any time from the Help menu." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hay-5R-Q3N">
-                                <rect key="frame" x="53" y="421" width="495" height="40.5"/>
+                                <rect key="frame" x="53" y="423" width="495" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="tWd-WM-H4W">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                 </variation>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXi-v8-9jx">
@@ -118,25 +95,25 @@
                                                 <variation key="widthClass=compact" constant="36"/>
                                             </constraint>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                         <state key="normal" title="Get Started  →">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <variation key="widthClass=compact">
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                         </variation>
                                         <connections>
                                             <segue destination="3Hm-m9-Uay" kind="show" id="ilS-Yr-AIL"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NP-z9-ZaH">
-                                        <rect key="frame" x="56" y="62" width="66" height="33"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                        <rect key="frame" x="53.5" y="62" width="71" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                         <state key="normal" title="Skip Tour">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <variation key="widthClass=compact">
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
+                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                         </variation>
                                         <connections>
                                             <segue destination="64p-sF-5MF" kind="show" id="2dZ-45-i3I"/>
@@ -202,42 +179,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DeviceWireframe" translatesAutoresizingMaskIntoConstraints="NO" id="tJj-J2-8o4">
-                                <rect key="frame" x="5" y="193" width="590" height="416"/>
+                                <rect key="frame" x="5" y="194.5" width="590" height="416"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Screen Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ZC-Bh-GeY">
-                                <rect key="frame" x="217" y="40" width="166.5" height="41.5"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="36"/>
+                                <rect key="frame" x="206.5" y="40" width="188" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="26"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QJ5-aQ-aEr" customClass="CBLPillButton">
-                                <rect key="frame" x="400" y="649" width="150" height="42"/>
+                                <rect key="frame" x="400" y="650.5" width="150" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="tRP-BA-TN4">
                                         <variation key="widthClass=compact" constant="36"/>
                                     </constraint>
                                     <constraint firstAttribute="width" constant="150" id="xXp-XT-RSO"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <state key="normal" title=" Continue →">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                 </variation>
                                 <connections>
                                     <action selector="tapNext:" destination="3Hm-m9-Uay" eventType="touchUpInside" id="Gxm-1O-WpO"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O1b-xf-eaa" userLabel="Screen">
-                                <rect key="frame" x="61" y="221" width="479" height="360"/>
+                                <rect key="frame" x="61" y="222.5" width="479" height="360"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEU-Kg-jDC">
-                                <rect key="frame" x="-50" y="101" width="700" height="42"/>
+                                <rect key="frame" x="-50" y="102.5" width="700" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="700" id="5Co-iV-ImL">
                                         <variation key="widthClass=compact" constant="280"/>
@@ -248,21 +225,21 @@
                                 </constraints>
                                 <string key="text">Up to two lines of description for the currently displayed screen.
 (Line 2)</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHQ-iV-3KP">
-                                <rect key="frame" x="50" y="653.5" width="150" height="33"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <rect key="frame" x="50" y="655" width="150" height="33"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <state key="normal" title="← Previous">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                 </variation>
                                 <connections>
                                     <action selector="tapPrevious:" destination="3Hm-m9-Uay" eventType="touchUpInside" id="Ej9-N9-8yN"/>
@@ -278,7 +255,7 @@
                                         <variation key="widthClass=compact" constant="45"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <state key="normal" title="→">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -289,7 +266,7 @@
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                     <mask key="constraints">
                                         <include reference="BE6-vw-SBl"/>
                                         <include reference="iyI-6h-slS"/>
@@ -309,7 +286,7 @@
                                         <variation key="widthClass=compact" constant="45"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <state key="normal" title="←">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -320,7 +297,7 @@
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                     <mask key="constraints">
                                         <include reference="hE8-2l-kf6"/>
                                         <include reference="lmv-Nl-Qr1"/>
@@ -421,41 +398,41 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notifications" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KgJ-Oy-9xx">
-                                <rect key="frame" x="215" y="40" width="169.5" height="41.5"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="36"/>
+                                <rect key="frame" x="200" y="40" width="200" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="26"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avd-i8-4VS">
-                                <rect key="frame" x="52.5" y="101.5" width="495" height="60.5"/>
+                                <rect key="frame" x="52.5" y="103" width="495" height="61"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="DKp-AE-woS">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
                                 <string key="text">Cascable will maintain a connection to your camera when you're using other apps. However, it might have to disconnect after a long period of time.</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you like, Cascable can notify you when it has to disconnect from your camera in the background." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NiC-RM-rQE">
-                                <rect key="frame" x="52.5" y="171.5" width="495" height="40.5"/>
+                                <rect key="frame" x="52.5" y="173.5" width="495" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="ygN-2b-gdJ">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZE-IP-z7j" customClass="CBLPillButton">
@@ -468,25 +445,25 @@
                                         <variation key="widthClass=compact" constant="36"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <state key="normal" title="Show Disconnection Notifications">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                 </variation>
                                 <connections>
                                     <action selector="enableNotifications:" destination="64p-sF-5MF" eventType="touchUpInside" id="JGV-53-GjZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7QS-WU-wUI">
-                                <rect key="frame" x="213.5" y="517" width="173" height="33"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <rect key="frame" x="207" y="517" width="186" height="33"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <state key="normal" title="Don't Show Notifications">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                 </variation>
                                 <connections>
                                     <segue destination="VTa-aR-8qN" kind="show" identifier="enableNotificationsComplete" id="Q3d-zX-Pfe"/>
@@ -527,7 +504,7 @@
                                 </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KJo-am-W8D">
-                                <rect key="frame" x="105" y="252" width="389" height="201"/>
+                                <rect key="frame" x="105" y="254.5" width="389" height="201"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CameraDisconnectedFace" translatesAutoresizingMaskIntoConstraints="NO" id="L1B-9C-jkr">
                                         <rect key="frame" x="0.0" y="52" width="203" height="149"/>
@@ -616,7 +593,7 @@
         <!--All Done!-->
         <scene sceneID="C8t-5W-jzu">
             <objects>
-                <viewController id="VTa-aR-8qN" userLabel="All Done!" customClass="CBLFirstRunViewController" sceneMemberID="viewController">
+                <viewController id="VTa-aR-8qN" userLabel="All Done!" customClass="CBLFirstRunCompleteViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ali-l2-KYT"/>
                         <viewControllerLayoutGuide type="bottom" id="aCQ-ds-IBJ"/>
@@ -626,16 +603,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Done!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkA-ou-F8n">
-                                <rect key="frame" x="238" y="40" width="125" height="41.5"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="36"/>
+                                <rect key="frame" x="229" y="40" width="143" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="26"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Bs-PF-Jvn">
-                                <rect key="frame" x="52" y="121" width="495.5" height="60.5"/>
+                                <rect key="frame" x="52" y="122.5" width="495.5" height="142.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="6M5-DT-2MP">
                                         <variation key="widthClass=compact" constant="280"/>
@@ -643,12 +620,14 @@
                                 </constraints>
                                 <string key="text">You're all ready to connect to your camera and start shooting. 
 
+If you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?
+
 Enjoy!</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTH-Fo-vxd" customClass="CBLPillButton">
@@ -661,60 +640,112 @@ Enjoy!</string>
                                         <variation key="widthClass=compact" constant="36"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <state key="normal" title="Start Using Cascable">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                 </variation>
                                 <connections>
                                     <action selector="closeFirstRun:" destination="VTa-aR-8qN" eventType="touchUpInside" id="Lo5-PJ-KoV"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xam-AS-gEy">
-                                <rect key="frame" x="200" y="221.5" width="200" height="216.5"/>
+                                <rect key="frame" x="164" y="305" width="271.5" height="132.5"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HappyFace" translatesAutoresizingMaskIntoConstraints="NO" id="yyu-l4-Seq">
-                                        <rect key="frame" x="0.0" y="35" width="200" height="146"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HappyFace" translatesAutoresizingMaskIntoConstraints="NO" id="WA0-Wd-mvy">
-                                        <rect key="frame" x="0.0" y="103.5" width="200" height="146"/>
-                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2bp-WN-6YJ">
+                                        <rect key="frame" x="0.0" y="24.5" width="271.5" height="85"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ts-Ae-y57">
+                                                <rect key="frame" x="0.0" y="41" width="105" height="30"/>
+                                                <state key="normal" title="@CascableApp">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <variation key="widthClass=compact">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                </variation>
+                                                <connections>
+                                                    <action selector="openTwitter:" destination="VTa-aR-8qN" eventType="touchUpInside" id="Lii-G3-Iro"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="on Twitter" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qKa-BW-wtu">
+                                                <rect key="frame" x="22.5" y="69" width="61" height="16"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7C-iy-dah">
+                                                <rect key="frame" x="31" y="0.0" width="44" height="44"/>
+                                                <state key="normal" image="TwitterLogo">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="openTwitter:" destination="VTa-aR-8qN" eventType="touchUpInside" id="6xX-4x-q0Y"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ici-9n-LR1">
+                                                <rect key="frame" x="196.5" y="0.0" width="44" height="44"/>
+                                                <state key="normal" image="InstagramLogo">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="openInstagram:" destination="VTa-aR-8qN" eventType="touchUpInside" id="fUM-gW-aJv"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XnR-P6-5b5">
+                                                <rect key="frame" x="166.5" y="41" width="105" height="30"/>
+                                                <state key="normal" title="@CascableApp">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <variation key="widthClass=compact">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                </variation>
+                                                <connections>
+                                                    <action selector="openInstagram:" destination="VTa-aR-8qN" eventType="touchUpInside" id="hiD-Ae-yzn"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="on Instagram" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vpI-Ex-VFj">
+                                                <rect key="frame" x="179.5" y="69" width="79.5" height="16"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lHo-7c-839" customClass="CBLHairlineDividerView">
+                                                <rect key="frame" x="135" y="21" width="1" height="43"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="1" id="Sqz-jg-Ssu"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="5Ts-Ae-y57" firstAttribute="leading" secondItem="2bp-WN-6YJ" secondAttribute="leading" id="3Rc-o5-uvF"/>
+                                            <constraint firstAttribute="trailing" secondItem="XnR-P6-5b5" secondAttribute="trailing" id="4Gd-s0-jp4"/>
+                                            <constraint firstItem="ici-9n-LR1" firstAttribute="top" secondItem="T7C-iy-dah" secondAttribute="top" id="5mr-kI-vg8"/>
+                                            <constraint firstItem="5Ts-Ae-y57" firstAttribute="width" secondItem="XnR-P6-5b5" secondAttribute="width" id="7Sq-Vo-yYX"/>
+                                            <constraint firstAttribute="centerX" secondItem="lHo-7c-839" secondAttribute="centerX" id="7gK-i5-DDc"/>
+                                            <constraint firstAttribute="centerY" secondItem="lHo-7c-839" secondAttribute="centerY" id="8RO-YY-ZDG"/>
+                                            <constraint firstItem="T7C-iy-dah" firstAttribute="top" secondItem="2bp-WN-6YJ" secondAttribute="top" id="DRW-1t-hnh"/>
+                                            <constraint firstItem="vpI-Ex-VFj" firstAttribute="top" secondItem="XnR-P6-5b5" secondAttribute="bottom" constant="-2" id="DSq-pb-I0q"/>
+                                            <constraint firstItem="ici-9n-LR1" firstAttribute="centerX" secondItem="XnR-P6-5b5" secondAttribute="centerX" id="RGL-Kx-5Hx"/>
+                                            <constraint firstItem="5Ts-Ae-y57" firstAttribute="centerX" secondItem="qKa-BW-wtu" secondAttribute="centerX" id="WtY-gA-rCS"/>
+                                            <constraint firstItem="lHo-7c-839" firstAttribute="height" secondItem="2bp-WN-6YJ" secondAttribute="height" multiplier="0.5" id="Xvo-tZ-zeN"/>
+                                            <constraint firstItem="XnR-P6-5b5" firstAttribute="top" secondItem="ici-9n-LR1" secondAttribute="bottom" constant="-3" id="b6i-yl-9bL"/>
+                                            <constraint firstItem="5Ts-Ae-y57" firstAttribute="centerX" secondItem="T7C-iy-dah" secondAttribute="centerX" id="c51-1S-FK4"/>
+                                            <constraint firstItem="5Ts-Ae-y57" firstAttribute="top" secondItem="T7C-iy-dah" secondAttribute="bottom" constant="-3" id="dey-PL-e4q"/>
+                                            <constraint firstItem="lHo-7c-839" firstAttribute="leading" secondItem="5Ts-Ae-y57" secondAttribute="trailing" constant="30" id="l56-JF-Jv9"/>
+                                            <constraint firstItem="qKa-BW-wtu" firstAttribute="top" secondItem="5Ts-Ae-y57" secondAttribute="bottom" constant="-2" id="psp-j2-Foi"/>
+                                            <constraint firstAttribute="bottom" secondItem="qKa-BW-wtu" secondAttribute="bottom" id="qKy-lJ-Ud8"/>
+                                            <constraint firstItem="XnR-P6-5b5" firstAttribute="centerX" secondItem="vpI-Ex-VFj" secondAttribute="centerX" id="wxK-zm-due"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="centerY" secondItem="yyu-l4-Seq" secondAttribute="centerY" id="Agn-kp-mlx"/>
-                                    <constraint firstAttribute="trailing" secondItem="WA0-Wd-mvy" secondAttribute="trailing" id="IQT-YO-6Ww"/>
-                                    <constraint firstAttribute="centerY" secondItem="WA0-Wd-mvy" secondAttribute="centerY" id="IdN-NN-yGr"/>
-                                    <constraint firstItem="yyu-l4-Seq" firstAttribute="leading" secondItem="Xam-AS-gEy" secondAttribute="leading" id="Jxb-A0-7fn"/>
-                                    <constraint firstItem="WA0-Wd-mvy" firstAttribute="leading" secondItem="Xam-AS-gEy" secondAttribute="leading" id="fox-fe-wg6"/>
-                                    <constraint firstAttribute="trailing" secondItem="yyu-l4-Seq" secondAttribute="trailing" id="iFj-Pz-cSj"/>
+                                    <constraint firstAttribute="trailing" secondItem="2bp-WN-6YJ" secondAttribute="trailing" id="U7j-y2-cct"/>
+                                    <constraint firstItem="2bp-WN-6YJ" firstAttribute="centerY" secondItem="Xam-AS-gEy" secondAttribute="centerY" id="Y4i-Kd-Fb8"/>
+                                    <constraint firstItem="2bp-WN-6YJ" firstAttribute="leading" secondItem="Xam-AS-gEy" secondAttribute="leading" id="tad-BX-2eB"/>
                                 </constraints>
-                                <variation key="default">
-                                    <mask key="subviews">
-                                        <exclude reference="WA0-Wd-mvy"/>
-                                    </mask>
-                                    <mask key="constraints">
-                                        <exclude reference="IQT-YO-6Ww"/>
-                                        <exclude reference="IdN-NN-yGr"/>
-                                        <exclude reference="fox-fe-wg6"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact">
-                                    <mask key="subviews">
-                                        <exclude reference="yyu-l4-Seq"/>
-                                        <include reference="WA0-Wd-mvy"/>
-                                    </mask>
-                                    <mask key="constraints">
-                                        <include reference="IQT-YO-6Ww"/>
-                                        <include reference="IdN-NN-yGr"/>
-                                        <include reference="fox-fe-wg6"/>
-                                        <exclude reference="Agn-kp-mlx"/>
-                                        <exclude reference="Jxb-A0-7fn"/>
-                                        <exclude reference="iFj-Pz-cSj"/>
-                                    </mask>
-                                </variation>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -740,6 +771,12 @@ Enjoy!</string>
                             </constraint>
                         </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="tintableButtons" destination="T7C-iy-dah" id="XYP-QJ-pqw"/>
+                        <outletCollection property="tintableButtons" destination="5Ts-Ae-y57" id="Q4L-Qo-Bwg"/>
+                        <outletCollection property="tintableButtons" destination="ici-9n-LR1" id="lRm-8L-s91"/>
+                        <outletCollection property="tintableButtons" destination="XnR-P6-5b5" id="kZ8-tT-gqE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eqh-Pz-nes" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -751,7 +788,8 @@ Enjoy!</string>
         <image name="CameraDisconnectedFace" width="203" height="149"/>
         <image name="DeviceWireframe" width="590" height="416"/>
         <image name="FirstRunNotificationBubbleiPad" width="201" height="66"/>
-        <image name="HappyFace" width="200" height="146"/>
+        <image name="InstagramLogo" width="44" height="44"/>
+        <image name="TwitterLogo" width="44" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="y2n-9M-f52"/>

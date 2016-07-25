@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8187.4" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConnectionIndicatorViewController" customModule="Cascable" customModuleProvider="target">
@@ -23,18 +22,16 @@
             <subviews>
                 <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="RAv-oQ-RKF">
                     <rect key="frame" x="10" y="10" width="20" height="20"/>
-                    <animations/>
                 </activityIndicatorView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" horizontalHuggingPriority="1000" image="BatteryFull" translatesAutoresizingMaskIntoConstraints="NO" id="4Tl-5W-w5x">
                     <rect key="frame" x="154" y="13" width="24" height="13"/>
-                    <animations/>
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FRM-Q3-n32" userLabel="Button Container">
                     <rect key="frame" x="38" y="0.0" width="106" height="40"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgY-vJ-6Oc">
                             <rect key="frame" x="16" y="3" width="90" height="33"/>
-                            <animations/>
+                            <accessibility key="accessibilityConfiguration" identifier="ShowConnectionUIButton"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <state key="normal" title="Searching…"/>
                             <variation key="heightClass=compact">
@@ -49,11 +46,9 @@
                         </button>
                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" horizontalHuggingPriority="1000" image="ForTim" translatesAutoresizingMaskIntoConstraints="NO" id="WP8-Dr-uSM">
                             <rect key="frame" x="0.0" y="18" width="11" height="5"/>
-                            <animations/>
                         </imageView>
                     </subviews>
-                    <animations/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="rgY-vJ-6Oc" firstAttribute="leading" secondItem="WP8-Dr-uSM" secondAttribute="trailing" constant="5" id="82r-nb-rDa"/>
                         <constraint firstItem="WP8-Dr-uSM" firstAttribute="leading" secondItem="FRM-Q3-n32" secondAttribute="leading" id="AIY-ee-Ook"/>
@@ -91,8 +86,7 @@
                     </variation>
                 </view>
             </subviews>
-            <animations/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="FRM-Q3-n32" firstAttribute="leading" secondItem="RAv-oQ-RKF" secondAttribute="trailing" constant="8" id="COK-z4-8fY"/>
                 <constraint firstAttribute="trailing" secondItem="4Tl-5W-w5x" secondAttribute="trailing" constant="11" id="Dq8-jk-wyO"/>
