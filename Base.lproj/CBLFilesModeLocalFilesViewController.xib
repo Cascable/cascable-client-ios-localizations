@@ -132,7 +132,7 @@
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-            <point key="canvasLocation" x="284" y="-214"/>
+            <point key="canvasLocation" x="126" y="-210"/>
         </view>
         <view contentMode="scaleToFill" id="6gz-Tn-roi" userLabel="Unavailable View">
             <rect key="frame" x="0.0" y="0.0" width="746" height="410"/>
@@ -211,13 +211,14 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="On This Device" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jml-Vh-erz">
-                    <rect key="frame" x="240.5" y="23.5" width="119.5" height="20.5"/>
+                    <rect key="frame" x="240" y="23" width="120" height="21"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTb-5Y-jac" customClass="CBLTintableBackgroundButton">
                     <rect key="frame" x="519" y="18" width="69" height="31"/>
+                    <accessibility key="accessibilityConfiguration" identifier="SelectFilesButton"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <inset key="contentEdgeInsets" minX="10" minY="5" maxX="10" maxY="5"/>
                     <state key="normal" title="Select"/>
@@ -227,6 +228,7 @@
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Usv-6Q-HGG">
                     <rect key="frame" x="433" y="17" width="72" height="33"/>
+                    <accessibility key="accessibilityConfiguration" identifier="SelectAllButton"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <state key="normal" title="Select All">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
