@@ -1,0 +1,6 @@
+{
+    "title" : "Give Feedback",
+    "id": "se.cascable.client.help.special.feedback",
+    "icon": "feedback.png",
+    "category": "se.cascable.client.help.category.feedback"
+}

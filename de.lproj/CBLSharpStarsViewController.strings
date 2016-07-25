@@ -1,45 +1,45 @@
 
 /* Class = "UILabel"; text = "15,0 seconds"; ObjectID = "23h-4R-CUK"; */
-"23h-4R-CUK.text" = "15,0 Sekunden";
+"23h-4R-CUK.text" = "15,0 seconds";
 
 /* Class = "UILabel"; text = "40mm"; ObjectID = "27b-Uc-uht"; */
 "27b-Uc-uht.text" = "40mm";
 
 /* Class = "UILabel"; text = "Micro Four-Thirds (2,0x Crop Factor)"; ObjectID = "3Ib-6d-AmX"; */
-"3Ib-6d-AmX.text" = "Micro Four-Thirds (2,0x Formatfaktor)";
+"3Ib-6d-AmX.text" = "Micro Four-Thirds (2,0x Crop Factor)";
 
 /* Class = "UILabel"; text = "Focal Length Range"; ObjectID = "3Yz-Hd-GWD"; */
-"3Yz-Hd-GWD.text" = "Brennweitenbereich";
+"3Yz-Hd-GWD.text" = "Focal Length Range";
 
 /* Class = "UILabel"; text = "Focal Length"; ObjectID = "ITo-tM-QwE"; */
-"ITo-tM-QwE.text" = "Brennweite";
+"ITo-tM-QwE.text" = "Focal Length";
 
 /* Class = "UILabel"; text = "40mm"; ObjectID = "Isi-s1-pJX"; */
 "Isi-s1-pJX.text" = "40mm";
 
 /* Class = "UILabel"; text = "Sensor Size"; ObjectID = "QBQ-Vx-cnR"; */
-"QBQ-Vx-cnR.text" = "Sensorgröße";
+"QBQ-Vx-cnR.text" = "Sensor Size";
 
 /* Class = "UILabel"; text = "Title"; ObjectID = "QWj-nk-d1j"; */
-"QWj-nk-d1j.text" = "Titel";
+"QWj-nk-d1j.text" = "Title";
 
 /* Class = "UILabel"; text = "Sharp Stars calculates the longest shutter speed you can use at night before stars appear blurry due to the Earth’s rotation."; ObjectID = "jCv-ul-YNA"; */
-"jCv-ul-YNA.text" = "Scharfe Sterne berechnet die längste nutzbare Verschlusszeit bei Nacht, bevor die Sterne aufgrund der Erddrehung verschwimmen.";
+"jCv-ul-YNA.text" = "Sharp Stars calculates the longest shutter speed you can use at night before stars appear blurry due to the Earth’s rotation.";
 
 /* Class = "UILabel"; text = "40mm"; ObjectID = "mkC-NF-oOi"; */
 "mkC-NF-oOi.text" = "40mm";
 
 /* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "sii-4c-RTP"; */
-"sii-4c-RTP.title" = "Abbrechen";
+"sii-4c-RTP.title" = "Cancel";
 
 /* Class = "UITextField"; text = "Example Title"; ObjectID = "vy8-1J-IJE"; */
-"vy8-1J-IJE.text" = "Beispieltitel";
+"vy8-1J-IJE.text" = "Example Title";
 
 /* Class = "UINavigationItem"; title = "Save Preset"; ObjectID = "wTX-HU-EgX"; */
-"wTX-HU-EgX.title" = "Preset sichern";
+"wTX-HU-EgX.title" = "Save Preset";
 
 /* Class = "UILabel"; text = "Maximum Shutter Speed"; ObjectID = "xZ0-OY-bfb"; */
-"xZ0-OY-bfb.text" = "Maximale Verschlussgeschwindigkeit";
+"xZ0-OY-bfb.text" = "Maximum Shutter Speed";
 
 /* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "z2w-Jc-yrN"; */
-"z2w-Jc-yrN.title" = "Sichern";
+"z2w-Jc-yrN.title" = "Save";
