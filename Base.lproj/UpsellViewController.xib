@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
@@ -17,7 +17,9 @@
                 <outlet property="loadingErrorView" destination="bLr-1g-gRG" id="qb8-lo-dv4"/>
                 <outlet property="loadingIndicator" destination="78S-Rk-MAw" id="06n-ah-ksN"/>
                 <outlet property="loadingSlowWarningLabel" destination="eWf-Rq-vh9" id="aew-Ka-Bpk"/>
+                <outlet property="restorePurchasesBottomConstraint" destination="8Ip-tk-yZb" id="HeZ-jb-bj2"/>
                 <outlet property="restorePurchasesButton" destination="eQ7-25-wnZ" id="OEO-s6-u3Z"/>
+                <outlet property="restorePurchasesContainer" destination="SvU-aa-BS3" id="5oD-hc-Sjt"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Vbg-er-rTT"/>
             </connections>
         </placeholder>
@@ -30,42 +32,54 @@
                     <rect key="frame" x="0.0" y="0.0" width="600" height="468"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQ7-25-wnZ">
-                    <rect key="frame" x="236" y="530" width="129" height="30"/>
-                    <state key="normal" title="Restore Purchases"/>
-                    <connections>
-                        <action selector="restorePurchasesButtonTapped:" destination="-1" eventType="touchUpInside" id="lbL-92-UwQ"/>
-                    </connections>
-                </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you've previously purchased one or more Cascable Pro feature packs, you can restore them to this device." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTq-Ce-WCq">
-                    <rect key="frame" x="40.5" y="488" width="520" height="33.5"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                    <variation key="heightClass=compact">
-                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                    </variation>
-                    <variation key="widthClass=compact">
-                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                    </variation>
-                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SvU-aa-BS3">
+                    <rect key="frame" x="0.0" y="468" width="600" height="132"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you've previously purchased one or more Cascable Pro feature packs, you can restore them to this device." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTq-Ce-WCq">
+                            <rect key="frame" x="40" y="20" width="520" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=compact">
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            </variation>
+                            <variation key="widthClass=compact">
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            </variation>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQ7-25-wnZ">
+                            <rect key="frame" x="236" y="62" width="129" height="30"/>
+                            <state key="normal" title="Restore Purchases"/>
+                            <connections>
+                                <action selector="restorePurchasesButtonTapped:" destination="-1" eventType="touchUpInside" id="lbL-92-UwQ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="ZTq-Ce-WCq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="SvU-aa-BS3" secondAttribute="leading" constant="40" id="Bal-xY-PDW"/>
+                        <constraint firstItem="eQ7-25-wnZ" firstAttribute="top" secondItem="ZTq-Ce-WCq" secondAttribute="bottom" constant="8" id="Ezl-7x-cOX"/>
+                        <constraint firstItem="ZTq-Ce-WCq" firstAttribute="top" secondItem="SvU-aa-BS3" secondAttribute="top" constant="20" id="aSc-e7-N9m">
+                            <variation key="heightClass=compact" constant="10"/>
+                            <variation key="widthClass=compact" constant="10"/>
+                        </constraint>
+                        <constraint firstItem="ZTq-Ce-WCq" firstAttribute="centerX" secondItem="SvU-aa-BS3" secondAttribute="centerX" id="apO-QO-k2M"/>
+                        <constraint firstItem="eQ7-25-wnZ" firstAttribute="centerX" secondItem="SvU-aa-BS3" secondAttribute="centerX" id="qja-Qk-3kD"/>
+                        <constraint firstAttribute="bottom" secondItem="eQ7-25-wnZ" secondAttribute="bottom" constant="40" id="z1z-1V-Ykv">
+                            <variation key="heightClass=compact" constant="20"/>
+                            <variation key="widthClass=compact" constant="20"/>
+                        </constraint>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="eQ7-25-wnZ" firstAttribute="top" secondItem="ZTq-Ce-WCq" secondAttribute="bottom" constant="8" id="2VS-Yg-BOe"/>
-                <constraint firstItem="ZTq-Ce-WCq" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="8uP-vq-aOj"/>
-                <constraint firstAttribute="bottom" secondItem="eQ7-25-wnZ" secondAttribute="bottom" constant="40" id="98T-92-C0N">
-                    <variation key="heightClass=compact" constant="20"/>
-                    <variation key="widthClass=compact" constant="20"/>
-                </constraint>
-                <constraint firstItem="eQ7-25-wnZ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="IpM-F2-lAK"/>
+                <constraint firstItem="SvU-aa-BS3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0Lf-co-Gh2"/>
+                <constraint firstAttribute="bottom" secondItem="SvU-aa-BS3" secondAttribute="bottom" id="8Ip-tk-yZb"/>
                 <constraint firstItem="o7V-3X-PKu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Npb-fM-8om"/>
+                <constraint firstItem="SvU-aa-BS3" firstAttribute="top" secondItem="o7V-3X-PKu" secondAttribute="bottom" id="SMF-Hk-qBs"/>
                 <constraint firstItem="o7V-3X-PKu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Z7b-Mw-vw8"/>
-                <constraint firstItem="ZTq-Ce-WCq" firstAttribute="top" secondItem="o7V-3X-PKu" secondAttribute="bottom" constant="20" id="tyK-f7-zAo">
-                    <variation key="heightClass=compact" constant="10"/>
-                    <variation key="widthClass=compact" constant="10"/>
-                </constraint>
-                <constraint firstItem="ZTq-Ce-WCq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="yqO-fo-505"/>
+                <constraint firstAttribute="trailing" secondItem="SvU-aa-BS3" secondAttribute="trailing" id="zJb-4Y-PGy"/>
                 <constraint firstAttribute="trailing" secondItem="o7V-3X-PKu" secondAttribute="trailing" id="zWZ-JG-EbF"/>
             </constraints>
             <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -172,7 +186,7 @@
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="380" y="23"/>
+            <point key="canvasLocation" x="459" y="125"/>
         </view>
     </objects>
     <resources>
