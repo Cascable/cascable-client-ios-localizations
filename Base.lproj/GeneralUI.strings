@@ -344,7 +344,7 @@ Are you sure you want to proceed?";
 "ShareWhatTitle" = "Share What?";
 
 /* File type picker option for JPG files. */
-"ShareJPGType" = "JPG";
+"ShareJPGType" = "JPEG";
 
 /* File type picker option for RAW files. */
 "ShareRAWType" = "RAW";
