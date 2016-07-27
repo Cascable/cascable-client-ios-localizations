@@ -562,7 +562,7 @@ Enjoy!</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PyW-bc-FEI">
-                                <rect key="frame" x="264" y="103" width="495" height="61"/>
+                                <rect key="frame" x="265" y="307" width="495" height="61"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="Z19-3O-VGn">
                                         <variation key="widthClass=compact" constant="280"/>
@@ -576,22 +576,32 @@ Enjoy!</string>
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                 </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FirstRunMoon" translatesAutoresizingMaskIntoConstraints="NO" id="WIf-Dh-jj6">
+                                <rect key="frame" x="443" y="123" width="139" height="144"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="Jyr-4x-3U6" secondAttribute="centerX" id="4uo-g6-yRD"/>
+                            <constraint firstItem="WIf-Dh-jj6" firstAttribute="top" secondItem="WYE-CJ-g3X" secondAttribute="bottom" constant="40" id="NNj-qN-DfZ">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="WIf-Dh-jj6" firstAttribute="centerX" secondItem="W2B-SC-ySe" secondAttribute="centerX" id="PEC-Ba-vS3"/>
                             <constraint firstAttribute="centerX" secondItem="WYE-CJ-g3X" secondAttribute="centerX" id="Pv4-i7-a6d"/>
                             <constraint firstItem="WYE-CJ-g3X" firstAttribute="top" secondItem="Qmq-NW-YsM" secondAttribute="bottom" constant="40" id="Pvd-Qd-nlj">
                                 <variation key="widthClass=compact" constant="20"/>
                             </constraint>
                             <constraint firstAttribute="centerX" secondItem="PyW-bc-FEI" secondAttribute="centerX" id="gib-Xk-Lic"/>
-                            <constraint firstItem="PyW-bc-FEI" firstAttribute="top" secondItem="WYE-CJ-g3X" secondAttribute="bottom" constant="20" id="iFE-aO-rMu"/>
                             <constraint firstItem="fn5-qw-isY" firstAttribute="top" secondItem="Jyr-4x-3U6" secondAttribute="bottom" constant="50" id="uFi-oU-Epq">
                                 <variation key="widthClass=compact" constant="30"/>
+                            </constraint>
+                            <constraint firstItem="PyW-bc-FEI" firstAttribute="top" secondItem="WIf-Dh-jj6" secondAttribute="bottom" constant="40" id="uov-pR-dLS">
+                                <variation key="widthClass=compact" constant="20"/>
                             </constraint>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="moon" destination="WIf-Dh-jj6" id="hjP-ON-xQ1"/>
                         <outletCollection property="labels" destination="WYE-CJ-g3X" collectionClass="NSMutableArray" id="ADj-ha-DGK"/>
                         <outletCollection property="labels" destination="PyW-bc-FEI" collectionClass="NSMutableArray" id="2VH-67-3zX"/>
                         <outletCollection property="pillButtons" destination="Jyr-4x-3U6" collectionClass="NSMutableArray" id="n4u-5t-6Y1"/>
@@ -684,10 +694,11 @@ As a thank you, all of the new features in Cascable 2.0 are provided to you as a
     </scenes>
     <resources>
         <image name="AboutIcon" width="150" height="150"/>
+        <image name="FirstRunMoon" width="139" height="144"/>
         <image name="InstagramLogo" width="44" height="44"/>
         <image name="TwitterLogo" width="44" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Gcd-2A-nik"/>
+        <segue reference="2HJ-Zd-DHT"/>
     </inferredMetricsTieBreakers>
 </document>
