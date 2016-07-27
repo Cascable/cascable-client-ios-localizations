@@ -12,14 +12,14 @@
 "OlympusLowVibrationDriveModeLabel" = "♦︎";
 "OlympusCustomTimerDriveModeLabel" = "C";
 
-"SonyBurstDriveModeLabel" = "B";
+"SonyBurstDriveModeLabel" = "Mrd";
 "SonySpeedPriorityDriveModeLabel" = "H+";
-"SonyMotionShotDriveModeLabel" = "M";
+"SonyMotionShotDriveModeLabel" = "Mio";
 
 "BlankDriveModeLabel" = "";
 "GenericSilentDriveModeLabel" = "S";
 "GenericLowSpeedDriveModeLabel" = "L";
-"GenericMediumSpeedDriveModeLabel" = "M";
+"GenericMediumSpeedDriveModeLabel" = "Mio";
 "GenericHighSpeedDriveModeLabel" = "H";
 
 "GenericTenSecondDriveModeLabel" = "10";
@@ -42,7 +42,7 @@
 "Custom2WBLabel" = "C2";
 "Custom3WBLabel" = "C3";
 
-"BulbAEModeLabel" = "B";
+"BulbAEModeLabel" = "Mrd";
 "HDRLabel" = "HDR";
 "SonySuperiorAutoLabel" = "A+";
 "NikonUser1Label" = "U1";

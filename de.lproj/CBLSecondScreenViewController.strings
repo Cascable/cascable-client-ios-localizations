@@ -1,12 +1,12 @@
 
 /* Class = "UILabel"; text = "Feature Not Available"; ObjectID = "5v3-pK-Ckv"; */
-"5v3-pK-Ckv.text" = "Feature Not Available";
+"5v3-pK-Ckv.text" = "Funktion nicht verfügbar";
 
 /* Class = "UILabel"; text = "No Files"; ObjectID = "NCa-Dz-Nxn"; */
-"NCa-Dz-Nxn.text" = "No Files";
+"NCa-Dz-Nxn.text" = "Keine Dateien";
 
 /* Class = "UILabel"; text = "Download files from your camera to view them here."; ObjectID = "SG1-Vm-tKC"; */
-"SG1-Vm-tKC.text" = "Download files from your camera to view them here.";
+"SG1-Vm-tKC.text" = "Laden Sie die Dateien von Ihrer Kamera herunter, um sie hier ansehen zu können.";
 
 /* Class = "UILabel"; text = "To view photos on an external display, you need to purchase the Photo Management Pro Pack."; ObjectID = "qdd-8f-H8a"; */
-"qdd-8f-H8a.text" = "To view photos on an external display, you need to purchase the Photo Management Pro Pack.";
+"qdd-8f-H8a.text" = "Um Fotos auf dem externen Display anzusehen, müssen Sie das Fotomanagement Pro Paket kaufen.";

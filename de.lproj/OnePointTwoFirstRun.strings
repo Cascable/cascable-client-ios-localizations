@@ -1,18 +1,18 @@
 
 /* Class = "UIViewController"; title = "Welcome"; ObjectID = "G3P-g9-PCa"; */
-"G3P-g9-PCa.title" = "Welcome";
+"G3P-g9-PCa.title" = "Willkommen";
 
 /* Class = "UILabel"; text = "On iPad Air 2 running iOS 9, Cascable supports Split View multitasking, allowing you to use it right alongside another app."; ObjectID = "GAX-Eh-RvW"; */
-"GAX-Eh-RvW.text" = "On iPad Air 2 running iOS 9, Cascable supports Split View multitasking, allowing you to use it right alongside another app.";
+"GAX-Eh-RvW.text" = "Auf dem iPad Air 2 mit iOS 9 unterstützt Cascable das Multitasking im Split View, damit Sie Cascable neben einer weiteren App nutzen können.";
 
 /* Class = "UIButton"; normalTitle = "Start using Cascable"; ObjectID = "Wr9-Wd-JN8"; */
-"Wr9-Wd-JN8.normalTitle" = "Start using Cascable";
+"Wr9-Wd-JN8.normalTitle" = "Cascable nutzen";
 
 /* Class = "UILabel"; text = "Thank you for updating to Cascable 1.2! This update adds features for the latest and greatest iOS release."; ObjectID = "e51-oR-xjz"; */
-"e51-oR-xjz.text" = "Thank you for updating to Cascable 1.2! This update adds features for the latest and greatest iOS release.";
+"e51-oR-xjz.text" = "Vielen Dank für das Update auf Cascable 1.2! Mit diesem Update werden Funktionen für die neueste iOS Version hinzugefügt.";
 
 /* Class = "UILabel"; text = "On Apple Watch running watchOS 2, you can take advantage of an improved Apple Watch app featuring audible and haptic feedback."; ObjectID = "hay-5R-Q3N"; */
-"hay-5R-Q3N.text" = "On Apple Watch running watchOS 2, you can take advantage of an improved Apple Watch app featuring audible and haptic feedback.";
+"hay-5R-Q3N.text" = "Auf der Apple Watch mit watchOS 2 können Sie hörbares und haptisches Feedback in der Apple Watch App nutzen.";
 
 /* Class = "UILabel"; text = "What's new in Cascable?"; ObjectID = "l3x-YS-zoX"; */
-"l3x-YS-zoX.text" = "What's new in Cascable?";
+"l3x-YS-zoX.text" = "Was ist neu in Cascable?";

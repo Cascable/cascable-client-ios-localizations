@@ -1,9 +1,9 @@
 
 /* Class = "UILabel"; text = "No Camera Connected"; ObjectID = "2GL-Vi-LyL"; */
-"2GL-Vi-LyL.text" = "No Camera Connected";
+"2GL-Vi-LyL.text" = "Keine Kamera verbunden";
 
 /* Class = "UILabel"; text = "Remote control is not available without a connected camera. Tap the connection indicator at the top of the screen to get started."; ObjectID = "Tsd-pj-tAw"; */
-"Tsd-pj-tAw.text" = "Remote control is not available without a connected camera. Tap the connection indicator at the top of the screen to get started.";
+"Tsd-pj-tAw.text" = "Fernbedienung ist nicht verfügbar ohne eine verbundene Kamera. Tippen Sie auf das Verbindungssymbol oben auf dem Display.";
 
 /* Class = "UIButton"; normalTitle = "More Information…"; ObjectID = "XUi-PR-ikA"; */
-"XUi-PR-ikA.normalTitle" = "More Information…";
+"XUi-PR-ikA.normalTitle" = "Details …";

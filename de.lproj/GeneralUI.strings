@@ -3,57 +3,57 @@
 // ------------------------------------------------------------
 
 /* Formatter for neutral density filter strength. Ex: 'ND 0,3 (1 stop)'. */
-"NDFormatter" = "ND %@ (%@ stop)";
+"NDFormatter" = "ND %@ (%@ Stufe)";
 
 /* Formatter for neutral density filter strength. Ex: 'ND 0,9 (3 stops)'. */
-"NDFormatterPlural" = "ND %@ (%@ stops)";
+"NDFormatterPlural" = "ND %@ (%@ Stufen)";
 
 /* Singular value in minutes. Ex: '1 minute'. */
-"ShutterSpeedMinute" = "%@ minute";
+"ShutterSpeedMinute" = "%@ Minute";
 
 /* Plural value in minutes. Ex: '2 minutes'. */
-"ShutterSpeedMinutes" = "%@ minutes";
+"ShutterSpeedMinutes" = "%@ Minuten";
 
 /* Singular value in seconds. Ex: '1 second'. */
-"ShutterSpeedSecond" = "%@ second";
+"ShutterSpeedSecond" = "%@ Sekunde";
 
 /* Plural value in seconds. Ex: '2 seconds'. */
-"ShutterSpeedSeconds" = "%@ seconds";
+"ShutterSpeedSeconds" = "%@ Sekunden";
 
 /* Fractional value in seconds. Ex: '1/20 second'. */
-"ShutterSpeedFractionOfSecond" = "1/%@ second";
+"ShutterSpeedFractionOfSecond" = "1/%@ Sekunde";
 
 /* Distance in millimetres. Ex: '23mm'. */
 "FocalLength" = "%@mm";
 
 /* Sensor size description then crop factor, like: "APS-C (1,6x crop factor) */
-"SensorSize" = "%@ (%@x crop factor)";
+"SensorSize" = "%@ (%@x Beschnittfaktor)";
 
 // ------------------------------------------------------------
 //     Calculations Mode: General
 // ------------------------------------------------------------
 
 /* The title of Calculations mode. */
-"CalculationsTitle" = "Calculations";
+"CalculationsTitle" = "Berechnungen";
 
 /* The title of the first section in the calculations mode list. */
-"CalculationsMainSectionTitle" = "Calculations";
+"CalculationsMainSectionTitle" = "Berechnungen";
 
 /* The title of the second section in the calculations mode list, containing ND presets. */
-"CalculationsNDPresetsSectionTitle" = "Neutral Density Presets";
+"CalculationsNDPresetsSectionTitle" = "Neutraldichte-Voreinstellungen";
 
 /* The title of the second section in the calculations mode list, containing sharp stars presets. */
-"CalculationsSharpStarsPresetsSectionTitle" = "Sharp Stars Presets";
+"CalculationsSharpStarsPresetsSectionTitle" = "Scharfe Sterne Voreinstellungen";
 
 // ------------------------------------------------------------
 //     Calculations Mode: Sharp Stars
 // ------------------------------------------------------------
 
 /* The title of the 'Sharp Stars' calculation presets. */
-"SharpStarsTitle" = "Sharp Stars";
+"SharpStarsTitle" = "Scharfe Sterne";
 
 /* An example title for saving 'Sharp Stars' presets. Format <Camera> with <lens>. */
-"ExampleSharpStarsFilterPresetName" = "6D with 16-35mm";
+"ExampleSharpStarsFilterPresetName" = "6D mit 16-35mm";
 
 /* Title for the sensor with a 2,0x crop factor. */
 "CropFactor20Label" = "Micro Four-Thirds";
@@ -68,17 +68,17 @@
 "CropFactor13Label" = "Canon APS-H";
 
 /* Title for the sensor with a 1,0x crop factor. */
-"CropFactor10Label" = "Full Frame, Nikon FX";
+"CropFactor10Label" = "Vollbild, Nikon FX";
 
 /* Title for the sensor with another crop factor. */
-"CropFactorOtherLabel" = "Other";
+"CropFactorOtherLabel" = "Andere";
 
 // ------------------------------------------------------------
 //     Calculations Mode: Neutral Density (ND) Filters
 // ------------------------------------------------------------
 
 /* The title of the 'Neutral Density' calculation presets. */
-"NDFilterCalculationTitle" = "Neutral Density Filter";
+"NDFilterCalculationTitle" = "Neutraldichtefilter";
 
 /* An example title for saving 'Neutral Density' presets. */
 "ExampleNDFilterPresetName" = "Big Stopper";
@@ -88,101 +88,101 @@
 // ------------------------------------------------------------
 
 /* The titles of the 'Files' feature. */
-"FilesTitle" = "Photos";
+"FilesTitle" = "Fotos";
 
 /* Title of the files mode warning that no files are on the camera's SD card. */
-"NoFilesAvailableTitle" = "No Photos Available";
+"NoFilesAvailableTitle" = "Keine Fotos vorhanden";
 
 /* Subtitle of the files mode warning that no files are on the camera's SD card. */
-"NoFilesAvailableDescription" = "Your camera doesn't seem to have any photos on it. Get shooting!";
+"NoFilesAvailableDescription" = "Auf Ihrer Kamera befinden sich keine Fotos. Legen Sie los!";
 
 /* Title of the files mode warning that the camera doesn't allow file access. */
-"NoFileTransferSupportTitle" = "File Access Not Supported";
+"NoFileTransferSupportTitle" = "Dateizugriff nicht unterstützt";
 
 /* Subtitle of the files mode warning that the camera doesn't allow file access. */
-"NoFileTransferSupportDescription" = "Your camera doesn't allow storage access to apps.";
+"NoFileTransferSupportDescription" = "Ihre Kamera gestattet keinen Speicherzugriff für Apps.";
 
 /* Title of the files mode warning that there is no memory card in the connected camera. */
-"NoMemoryCardAvailableTitle" = "No Memory Card";
+"NoMemoryCardAvailableTitle" = "Keine Speicherkarte";
 
 /* Subtitle of the files mode warning that there is no memory card in the connected camera. */
-"NoMemoryCardAvailableDescription" = "Your camera doesn't have a memory card inserted.";
+"NoMemoryCardAvailableDescription" = "In Ihre Kamera ist keine Speicherkarte eingelegt.";
 
 /* Title of the files mode warning that no camera is connected. */
-"NoCameraAvailableTitle" = "No Camera";
+"NoCameraAvailableTitle" = "Keine Kamera";
 
 /* Subtitle of the files mode warning that no camera is connected. */
-"NoCameraAvailableDescription" = "When connected to a camera, the photos on its memory card will be shown here.";
+"NoCameraAvailableDescription" = "Bei Verbindung mit einer Kamera werden die Fotos auf deren Speicherkarte hier angezeigt.";
 
 /* Title of the 'camera' segment of the control to switch between device and on-camera files. */
-"iPhoneOnCameraSegmentTitle" = "On Camera";
+"iPhoneOnCameraSegmentTitle" = "Auf Kamera";
 
 /* Title of the 'device' segment of the control to switch between device and on-camera files. Ex: 'On This iPad'. */
-"iPhoneOnDeviceSegmentTitle" = "On This %@";
+"iPhoneOnDeviceSegmentTitle" = "Auf diesem %@";
 
 /* Title of the image preview button to copy the photo to this device. */
-"CopyToDeviceTitle" = "Copy To This %@";
+"CopyToDeviceTitle" = "Auf dieses %@ kopieren";
 
 /* Title of the image preview button to stop copying the photo to this device. */
-"StopCopyingTitle" = "Stop Copying";
+"StopCopyingTitle" = "Kopieren stoppen";
 
 // ------------------------------------------------------------
 //     Files Mode: Information Labels
 // ------------------------------------------------------------
 
 /* The title of the fullscreen image view, including a count and a name. Ex: '1 of 12 — IMG_0001.JPG'. */
-"FullScreenImagePreviewTitle" = "%@ of %@ — %@";
+"FullScreenImagePreviewTitle" = "%@ von %@ — %@";
 
 /* The footer of the device image view, including item count. Ex: '1 item'. */
-"DeviceSpaceOnlyFormatter" = "%@ item";
+"DeviceSpaceOnlyFormatter" = "%@ Objekt";
 
 /* The footer of the device image view, including item count. Ex: '2 items'. */
-"DeviceSpaceOnlyFormatter_Plural" = "%@ items";
+"DeviceSpaceOnlyFormatter_Plural" = "%@ Objekte";
 
 /* The footer of the device image view, including shots available. Ex: '1 shot available'. */
-"DeviceShotsOnlyFormatter" = "%@ shot available";
+"DeviceShotsOnlyFormatter" = "%@ Aufnahme verfügbar";
 
 /* The footer of the device image view, including shots available. Ex: '2 shots available'. */
-"DeviceShotsOnlyFormatter_Plural" = "%@ shots available";
+"DeviceShotsOnlyFormatter_Plural" = "%@ Aufnahmen verfügbar";
 
 /* The footer of the device image view, including item count and space available. Ex: '1 item, 23.05 Gb available'. */
-"DeviceSpaceFormatter" = "%@ item, %@ available";
+"DeviceSpaceFormatter" = "%@ Objekt, %@ verfügbar";
 
 /* The footer of the device image view, including item count and space available. Ex: '2 items, 23.05 Gb available'. */
-"DeviceSpaceFormatter_Plural" = "%@ items, %@ available";
+"DeviceSpaceFormatter_Plural" = "%@ Objekte, %@ verfügbar";
 
 /* The footer of the device image view, including item count, items copying and space available. Ex: '1 item (1 copying), 23.05 Gb available'. */
-"DeviceSpaceWithDownloadingFormatter" = "%@ item (%@ copying), %@ available";
+"DeviceSpaceWithDownloadingFormatter" = "%@ Objekt (%@ kopieren), %@ verfügbar";
 
 /* The footer of the device image view, including item count, items copying and space available. Ex: '3 items (2 copying), 23.05 Gb available'. */
-"DeviceSpaceWithDownloadingFormatter_Plural" = "%@ items (%@ copying), %@ available";
+"DeviceSpaceWithDownloadingFormatter_Plural" = "%@ Objekte (%@ kopieren), %@ verfügbar";
 
 /* The footer of the device image view, including filtered item count, items available and space available. Ex: '1 of 1 item, 23.05 Gb available'. */
-"DeviceSpaceWithFilteredFormatter" = "%@ of %@ item, %@ available";
+"DeviceSpaceWithFilteredFormatter" = "%@ von %@ Objekt, %@ verfügbar";
 
 /* The footer of the device image view, including filtered item count, items available and space available. Ex: '1 of 2 items, 23.05 Gb available'. */
-"DeviceSpaceWithFilteredFormatter_Plural" = "%@ of %@ items, %@ available";
+"DeviceSpaceWithFilteredFormatter_Plural" = "%@ von %@ Objekten, %@ verfügbar";
 
 /* The footer of the device image view, including filtered item count, items available, items copying and space available. Ex: '1 of 1 item (1 copying), 23.05 Gb available'. */
-"DeviceSpaceWithFilteredAndDownloadingFormatter" = "%@ of %@ item (%@ copying), %@ available";
+"DeviceSpaceWithFilteredAndDownloadingFormatter" = "%@ von %@ Objekt (%@ kopieren), %@ verfügbar";
 
 /* The footer of the device image view, including filtered item count, items available, items copying and space available. Ex: '1 of 3 items (2 copying), 23.05 Gb available'. */
-"DeviceSpaceWithFilteredAndDownloadingFormatter_Plural" = "%@ of %@ items (%@ copying), %@ available";
+"DeviceSpaceWithFilteredAndDownloadingFormatter_Plural" = "%@ von %@ Objekten (%@ kopieren), %@ verfügbar";
 
 /* Compact footer of the device view, including number of items being copied. Ex: 'Copying 1 of 1 item'. */
-"CopyingXofYFormatter" = "Copying %@ of %@ item";
+"CopyingXofYFormatter" = "%@ von %@ Objekt kopieren";
 
 /* Compact footer of the device view, including number of items being copied. Ex: 'Copying 1 of 12 items'. */
-"CopyingXofYFormatter_Plural" = "Copying %@ of %@ items";
+"CopyingXofYFormatter_Plural" = "%@ von %@ Objekten kopieren";
 
 /* Compact footer of the device view, including number of items selected. Ex: '1 of 1 item selected'. */
-"ItemsSelectedFormatter" = "%@ of %@ item selected";
+"ItemsSelectedFormatter" = "%@ von %@ Objekt ausgewählt";
 
 /* Compact footer of the device view, including number of items selected. Ex: '1 of 12 items selected'. */
-"ItemsSelectedFormatter_Plural" = "%@ of %@ items selected";
+"ItemsSelectedFormatter_Plural" = "%@ von %@ Objekten ausgewählt";
 
 /* Label to show the photo is a RAW+JPEG pair. */
-"RAWPlusJPEGFileTypeLabel" = "RAW+JPEG";
+"RAWPlusJPEGFileTypeLabel" = "RAW & JPEG";
 
 /* Label to show the photo is a JPEG file. */
 "JPEGFileTypeLabel" = "JPEG";
@@ -191,151 +191,147 @@
 "RAWFileTypeLabel" = "RAW";
 
 /* Alert prompt when asking the user which files to copy when photos have more than one file. */
-"MultipleVariantsCopyPromptTitle" = "Multiple Files To Copy";
+"MultipleVariantsCopyPromptTitle" = "Mehrere Dateien zum Kopieren";
 
 /* Alert message when asking the user which files to copy when photos have more than one file. */
-"MultipleVariantsCopyPromptMessage" = "This photo has multiple image files. What would you like to copy?";
+"MultipleVariantsCopyPromptMessage" = "Für dieses Foto gibt es mehrere Dateien. Welche Datei möchten Sie kopieren?";
 
 /* Alert message when asking the user which files to copy when photos have more than one file. */
-"MultipleVariantsCopyPromptMessage_Plural" = "These photos have multiple image files. What would you like to copy?";
+"MultipleVariantsCopyPromptMessage_Plural" = "Für diese Fotos gibt es mehrere Dateien. Welche Datei möchten Sie kopieren?";
 
 /* "Copy RAW file" response when asking the user which files to copy when photos have more than one file. */
-"MultipleVariantsCopyRAWFileButtonTitle" = "Copy RAW File";
+"MultipleVariantsCopyRAWFileButtonTitle" = "RAW-Datei kopieren";
 
 /* "Copy RAW files" response when asking the user which files to copy when photos have more than one file. */
-"MultipleVariantsCopyRAWFileButtonTitle_Plural" = "Copy RAW Files";
+"MultipleVariantsCopyRAWFileButtonTitle_Plural" = "RAW-Dateien kopieren";
 
 /* "Copy JPEG file" response when asking the user which files to copy when photos have more than one file. */
-"MultipleVariantsCopyJPEGFileButtonTitle" = "Copy JPEG File";
+"MultipleVariantsCopyJPEGFileButtonTitle" = "JPEG kopieren";
 
 /* "Copy JPEG files" response when asking the user which files to copy when photos have more than one file. */
-"MultipleVariantsCopyJPEGFileButtonTitle_Plural" = "Copy JPEG Files";
+"MultipleVariantsCopyJPEGFileButtonTitle_Plural" = "JPEG-Dateien kopieren";
 
 /* "Copy both" response when asking the user which files to copy when photos have more than one file. */
-"MultipleVariantsCopyBothFilesButtonTitle" = "Copy Both";
+"MultipleVariantsCopyBothFilesButtonTitle" = "Beide kopieren";
 
 // ------------------------------------------------------------
 //     Files Mode: Deletion
 // ------------------------------------------------------------
 
 /* Label for files that are protected from deletion. */
-"FileProtectedTitle" = "Protected";
+"FileProtectedTitle" = "Geschützt";
 
 /* Label for files that can't be deleted due to unavailable functionality. */
-"FileDeleteUnavailableTitle" = "Unavailable";
+"FileDeleteUnavailableTitle" = "Nicht verfügbar";
 
 /* 'Delete File' warning dialog title. */
-"DeleteTitle" = "Delete Photo";
+"DeleteTitle" = "Foto löschen";
 
 /* 'Delete From Camera' warning dialog title. */
-"DeleteFromCameraTitle" = "Delete From Camera";
+"DeleteFromCameraTitle" = "Von Kamera löschen";
 
 /* 'Delete File' warning dialog title. Ex: 'Delete 12 Files'. */
-"DeleteTitle_Plural" = "Delete %@ Photos";
+"DeleteTitle_Plural" = "%@ Fotos löschen";
 
 /* 'Delete File' warning dialog description. Ex: 'This will delete 1 file of 12 from your iPad…'. */
-"DeleteFilesConfirmationPrompt" = "This will delete %@ photo of %@ from your %@. This will not affect the contents of your camera.";
+"DeleteFilesConfirmationPrompt" = "Hiermit wird %@ Foto von %@ von Ihrem %@ gelöscht. Die Dateien auf Ihrer Kamera sind nicht betroffen.";
 
 /* 'Delete File' warning dialog description. Ex: 'This will delete 10 files of 12 from your iPad…'. */
-"DeleteFilesConfirmationPrompt_Plural" = "This will delete %@ photos totalling %@ from your %@. This will not affect the contents of your camera.";
+"DeleteFilesConfirmationPrompt_Plural" = "Hiermit werden %@ Fotos mit %@ von Ihrem %@ gelöscht. Die Dateien auf Ihrer Kamera sind nicht betroffen.";
 
 /* 'Delete file?' popup confirmation title. */
-"DeleteFilesConfirmationTitle" = "Delete photo?";
+"DeleteFilesConfirmationTitle" = "Foto löschen?";
 
 /* 'Delete files?' popup confirmation title. */
-"DeleteFilesConfirmationTitle_Plural" = "Delete photos?";
+"DeleteFilesConfirmationTitle_Plural" = "Fotos löschen?";
 
 /* 'Delete file from camera?' confirmation title. */
-"DeleteRemoteFileConfirmationTitle" = "Delete photo from camera?";
+"DeleteRemoteFileConfirmationTitle" = "Foto von Kamera löschen?";
 
 /* 'Delete file from camera?' confirmation description. Ex: 'This will PERMANENTLY delete this file, sized 12MB, from your camera. This will not affect the files copied to your iPad.' */
-"DeleteRemoteFileConfirmationPrompt" = "This will PERMANENTLY delete this photo, sized %@, from your camera. This will not affect the photos copied to your %@.";
+"DeleteRemoteFileConfirmationPrompt" = "Hiermit wird dieses Foto mit der Größe %@ DAUERHAFT von Ihrer Kamera gelöscht. Die auf Ihr %@ kopierten Fotos sind nicht betroffen.";
 
 /* 'Delete file from camera?' confirmation description. Ex: 'This will PERMANENTLY delete this file from your camera. This will not affect the files copied to your iPad.' */
-"DeleteRemoteFileWithoutSizeConfirmationPrompt" = "This will PERMANENTLY delete this photo from your camera. This will not affect the photos copied to your %@.";
+"DeleteRemoteFileWithoutSizeConfirmationPrompt" = "Hiermit wird dieses Foto DAUERHAFT von Ihrer Kamera gelöscht. Die auf Ihr %@ kopierten Fotos sind nicht betroffen.";
 
 /* 'Cannot delete protected files' alert title. */
-"DeleteProtectedFileWarningTitle" = "Cannot Delete Protected Photos";
+"DeleteProtectedFileWarningTitle" = "Löschen von geschützten Fotos nicht möglich";
 
 /* 'Cannot delete protected files' alert description. Ex: 'The file "IMG_0001.JPG" is protected…'. */
-"DeleteProtectedFileWarningDescription" = "The photo \"%@\" is protected and cannot be deleted. You can remove the protection using your camera.";
+"DeleteProtectedFileWarningDescription" = "Das Foto „%@“ ist geschützt und kann nicht gelöscht werden. Sie können den Schutz auf Ihrer Kamera aufheben.";
 
 /* 'Camera doesn't support deleting files' alert title. */
-"DeleteFilesUnsupportedWarningTitle" = "Cannot Delete Photos";
+"DeleteFilesUnsupportedWarningTitle" = "Fotos löschen nicht möglich";
 
 /* 'Camera doesn't support deleting files' alert description. */
-"DeleteFilesUnsupportedWarningDescription" = "Photos cannot be deleted because this camera does not support deletion via apps. You can delete the photo using your camera.";
+"DeleteFilesUnsupportedWarningDescription" = "Es können keine Fotos gelöscht werden, weil diese Kamera das Löschen per App nicht unterstützt. Sie können die Fotos über Ihre Kamera löschen.";
 
 /* 'Cannot delete file' alert title. */
-"DeleteProtectedOrDownloadingFileWarningTitle" = "Cannot Delete Photo";
+"DeleteProtectedOrDownloadingFileWarningTitle" = "Löschen von Foto nicht möglich";
 
 /* 'Cannot delete file' alert description. Ex: 'The file "IMG_0001.JPG" is protected or copying'. */
-"DeleteProtectedOrDownloadingFileWarningDescription" = "The photo \"%@\" is protected or copying and cannot be deleted.";
+"DeleteProtectedOrDownloadingFileWarningDescription" = "Das Foto „%@“ ist geschützt oder wird kopiert und kann nicht gelöscht werden.";
 
 /* 'No files to delete' alert title. */
-"BatchDeleteNoValidFilesTitle" = "No Photos To Delete";
+"BatchDeleteNoValidFilesTitle" = "Keine Fotos zum Löschen";
 
 /* 'No files to delete' alert description. */
-"BatchDeleteNoValidFilesDescription" = "All of the selected photos are either copying or protected.";
+"BatchDeleteNoValidFilesDescription" = "Alle ausgewählten Fotos sind entweder geschützt oder werden gerade kopiert.";
 
 /* Skipped files title. Ex: '1 protected or copying file was skipped'. */
-"BatchDeleteFilesSkippedTitle" = "%@ protected or copying photo was skipped.";
+"BatchDeleteFilesSkippedTitle" = "%@ ist geschützt oder wird kopiert und wurde ausgelassen.";
 
 /* Skipped files title. Ex: '4 protected or copying files were skipped'. */
-"BatchDeleteFilesSkippedTitle_Plural" = "%@ protected or copying photos were skipped.";
+"BatchDeleteFilesSkippedTitle_Plural" = "%@ sind geschützt oder werden kopiert und wurde ausgelassen.";
 
 /* 'File deletion in progress' title. */
-"BatchDeleteProgressTitle" = "Deleting…";
+"BatchDeleteProgressTitle" = "Löschen …";
 
 /* 'File deletion complete' title. Ex: 'Deleted 1 file'. */
-"BatchDeleteCompleteTitle" = "Deleted %@ photo.";
+"BatchDeleteCompleteTitle" = "%@ Foto gelöscht.";
 
 /* 'File deletion complete' title. Ex: 'Deleted 3 files'. */
-"BatchDeleteCompleteTitle_Plural" = "Deleted %@ photos.";
+"BatchDeleteCompleteTitle_Plural" = "%@ Fotos gelöscht.";
 
 /* Batch delete setup title. Ex: 'Deleting 1 File'. */
-"BatchDeleteSummaryTitle" = "Deleting %@ Photo";
+"BatchDeleteSummaryTitle" = "%@ Foto löschen";
 
 /* Batch delete setup title. Ex: 'Deleting 3 Files'. */
-"BatchDeleteSummaryTitle_Plural" = "Deleting %@ Photos";
+"BatchDeleteSummaryTitle_Plural" = "%@ Fotos löschen";
 
 /* Batch delete summary. Ex: 'This will PERMANENTLY delete 1 file, sized 12MB, from your camera. This will not affect the files copied to your iPad.'. */
-"BatchDeleteSummaryDescription" = "This will PERMANENTLY delete %@ photo, sized %@, from your camera. This will not affect the photos copied to your %@.";
+"BatchDeleteSummaryDescription" = "Hiermit wird %@ Foto mit der Größe %@ DAUERHAFT von Ihrer Kamera gelöscht. Die auf Ihr %@ kopierten Fotos sind nicht betroffen.";
 
 /* Batch delete summary. Ex: 'This will PERMANENTLY delete 12 files, totalling 50.7MB, from your camera. This will not affect the files copied to your iPad.'. */
-"BatchDeleteSummaryDescription_Plural" = "This will PERMANENTLY delete %@ photos, totalling %@, from your camera. This will not affect the photos copied to your %@.";
+"BatchDeleteSummaryDescription_Plural" = "Hiermit werden %@ Fotos mit %@ DAUERHAFT von Ihrer Kamera gelöscht. Die auf Ihr %@ kopierten Dateien sind nicht betroffen.";
 
 /* Batch delete summary. Ex: 'This will PERMANENTLY delete 1 file from your camera. This will not affect the files copied to your iPad.'. */
-"BatchDeleteWithoutSizeSummaryDescription" = "This will PERMANENTLY delete %@ photo from your camera. This will not affect the photos copied to your %@.";
+"BatchDeleteWithoutSizeSummaryDescription" = "Hiermit wird %@ Foto DAUERHAFT von Ihrer Kamera gelöscht. Die auf Ihr %@ kopierten Fotos sind nicht betroffen.";
 
 /* Batch delete summary. Ex: 'This will PERMANENTLY delete 12 files from your camera. This will not affect the files copied to your iPad.'. */
-"BatchDeleteWithoutSizeSummaryDescription_Plural" = "This will PERMANENTLY delete %@ photos from your camera. This will not affect the photos copied to your %@.";
+"BatchDeleteWithoutSizeSummaryDescription_Plural" = "Hiermit werden %@ Fotos DAUERHAFT von Ihrer Kamera gelöscht. Die auf Ihr %@ kopierten Fotos sind nicht betroffen.";
 
 /* Batch delete confirm button title. */
-"BatchDeleteConfirmTitle" = "Delete Photo";
+"BatchDeleteConfirmTitle" = "Foto löschen";
 
 /* Batch delete with multiple files confirm button title.  Ex: 'Delete 3 Files'. */
-"BatchDeleteConfirmTitle_Plural" = "Delete %@ Photos";
+"BatchDeleteConfirmTitle_Plural" = "%@ Fotos löschen";
 
 /* Batch delete extra warning alert countdown title. Ex: 'Available in 5…'. */
-"BatchDeleteSomeFilesNotLocalConfirmationCountdownTitle" = "Available in %@…";
+"BatchDeleteSomeFilesNotLocalConfirmationCountdownTitle" = "Vverfügbar in %@ …";
 
 /* Batch delete extra warning alert text. Ex: 'Some of the selected files haven't been copied to this iPad. If you continue…'. */
-"BatchDeleteSomeFilesNotLocalConfirmationDescription" = "Some of the selected photo haven't been copied to this %@. If you continue, you may be deleting the ONLY COPIES OF THESE PHOTOS.
-
-Deleting them will PERMANENTLY remove them from your camera.
-
-Are you sure you want to proceed?";
+"BatchDeleteSomeFilesNotLocalConfirmationDescription" = "Einige der markierten Fotos wurden nicht auf dieses %@ kopiert. Wenn Sie fortfahren, könnten Sie DIE EINZIGE KOPIE DIESER FOTOS löschen.\n\nDurch Löschen werden diese Dateien DAUERHAFT von Ihrer Kamera entfernt.\n\nMöchten Sie fortfahren?";
 
 // ------------------------------------------------------------
 //     Files Mode: Sharing
 // ------------------------------------------------------------
 
 /* Title used when sharing to sources that have titles, such as email. */
-"SharingImageSubject" = "Photo from Cascable";
+"SharingImageSubject" = "Foto von Cascable";
 
 /* File type picker title. */
-"ShareWhatTitle" = "Share What?";
+"ShareWhatTitle" = "Was teilen?";
 
 /* File type picker option for JPG files. */
 "ShareJPGType" = "JPG";
@@ -344,82 +340,80 @@ Are you sure you want to proceed?";
 "ShareRAWType" = "RAW";
 
 /* Share popup title. Ex: 'Share 1 File'. */
-"ShareTitleFormatter" = "Share %@ Photo";
+"ShareTitleFormatter" = "%@ Foto teilen";
 
 /* Share popup title. Ex: 'Share 3 Files'. */
-"ShareTitleFormatter_Plural" = "Share %@ Photos";
+"ShareTitleFormatter_Plural" = "%@ Fotos teilen";
 
 /* Share destination title for saving to the camera roll. */
-"SaveToCameraRollTitle" = "Save to Camera Roll";
+"SaveToCameraRollTitle" = "In „Aufnahmen“ sichern";
 
 /* Share destination title for opening in another application on the device. */
-"OpenInApplicationTitle" = "Open In…";
+"OpenInApplicationTitle" = "Öffnen in …";
 
 /* 'No apps can open this file' error title. */
-"NoAppsCanOpenFileTitle" = "No Apps Available";
+"NoAppsCanOpenFileTitle" = "Keine Apps verfügbar";
 
 /* 'No apps can open this file' error description. */
-"NoAppsCanOpenFileDescription" = "There are no apps installed on this device that can open this file.";
+"NoAppsCanOpenFileDescription" = "Auf diesem Gerät gibt es keine Apps, die diese Datei öffnen können.";
 
 /* Progress description when saving to the camera roll. Ex: 'Saving 1 image to your camera roll…'. */
-"SaveToCameraRollDescription" = "Saving %@ photo to your camera roll…";
+"SaveToCameraRollDescription" = "%@ Foto wird in Aufnahmen gesichert …";
 
 /* Progress description when saving to the camera roll. Ex: 'Saving 13 images to your camera roll…'. */
-"SaveToCameraRollDescription_Plural" = "Saving %@ photos to your camera roll…";
+"SaveToCameraRollDescription_Plural" = "%@ Fotos werden in Aufnahmen gesichert …";
 
 /* Progress description when saving to the camera roll, without details. */
-"SaveToCameraRollInProgressTitle" = "Saving…";
+"SaveToCameraRollInProgressTitle" = "Sichern …";
 
 /* 'Save complete' title when saving to camera roll. */
-"SaveToCameraRollCompleteTitle" = "Save Complete!";
+"SaveToCameraRollCompleteTitle" = "Sichern abgeschlossen!";
 
 /* 'Save failed' error title when saving to camera roll. */
-"SaveToCameraRollFailedTitle" = "Save Failed";
+"SaveToCameraRollFailedTitle" = "Sichern fehlgeschlagen";
 
 /* 'Save failed' error description when saving to camera roll. */
-"SaveToCameraRollFailedDescription" = "Cascable could not save the selected photos to your camera roll.
-
-To save photos to your camera roll, you must allow Cascable access to Photos in the Settings app.";
+"SaveToCameraRollFailedDescription" = "Cascable konnte die markierten Fotos nicht in Ihren Aufnahmen sichern.\n\nDamit Sie Fotos in Ihre Aufnahmen sichern können, muss Cascable in der Einstellungen-App Zugriff auf Ihre Fotos-App erhalten.";
 
 // ------------------------------------------------------------
 //     Files Mode: Filtering
 // ------------------------------------------------------------
 
 /* 'Select All' button title. */
-"FilterSelectAllTitle" = "Select All";
+"FilterSelectAllTitle" = "Alle wählen";
 
 /* 'Select None' button title. */
-"FilterSelectNoneTitle" = "Select None";
+"FilterSelectNoneTitle" = "Keine wählen";
 
 /* 'Select By Filter' button title. */
-"FilterSelectFilterTitle" = "Select By Filter";
+"FilterSelectFilterTitle" = "Nach Filter auswählen";
 
 /* 'All File Types' file type filter title. */
-"FilterSelectAllFileTypesTitle" = "All File Types";
+"FilterSelectAllFileTypesTitle" = "Alle Dateitypen";
 
 /* 'JPEG Files' file type filter title. */
-"FilterSelectJPEGFileTypeTitle" = "JPEG Files";
+"FilterSelectJPEGFileTypeTitle" = "JPEG-Dateien";
 
 /* 'RAW Files' file type filter title. */
-"FilterSelectRAWFileTypeTitle" = "RAW Files";
+"FilterSelectRAWFileTypeTitle" = "RAW-Dateien";
 
 /* 'Taken At Any Time' creation date filter title. */
-"FilterSelectAnyTimeTimespanTitle" = "Taken At Any Time";
+"FilterSelectAnyTimeTimespanTitle" = "Beliebige Zeit";
 
 /* 'Taken Today' creation date filter title. */
-"FilterSelectTodayTimespanTitle" = "Taken Today";
+"FilterSelectTodayTimespanTitle" = "Heute aufgenommen";
 
 /* 'Taken This Week' creation date filter title. */
-"FilterSelectThisWeekTimespanTitle" = "Taken This Week";
+"FilterSelectThisWeekTimespanTitle" = "Diese Woche erstellt";
 
 /* 'Quick Select' popup title. */
-"FilterViewControllerTitle" = "Quick Select";
+"FilterViewControllerTitle" = "Schnellauswahl";
 
 /* 'Apply Filter' button title. */
-"ApplyFilterTitle" = "Apply";
+"ApplyFilterTitle" = "Anwenden";
 
 /* 'Date Range' popup title. */
-"DateRangePopupTitle" = "Choose Dates";
+"DateRangePopupTitle" = "Daten auswählen";
 
 // ------------------------------------------------------------
 //     Files Mode: Metadata
@@ -445,213 +439,211 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 // ------------------------------------------------------------
 
 /* The default help page name. */
-"HelpPageDefaultTitle" = "Cascable Help";
+"HelpPageDefaultTitle" = "Cascable Hilfe";
 
 /* The title of the '?' menu in Cascable. */
-"HelpAndInfoTitle" = "Help and Information";
+"HelpAndInfoTitle" = "Hilfe und Informationen";
 
 /* Title of the 'Feedback' section of the help menu. */
 "FeedbackSectionTitle" = "Feedback";
 
 /* Title of the 'About' section of the help menu. */
-"AboutSectionTitle" = "About";
+"AboutSectionTitle" = "Info";
 
 /* Title of the 'Tutorial' section of the help menu. */
 "TutorialSectionTitle" = "Tutorial";
 
 /* Title of the 'Help Pages' section of the help menu. */
-"HelpPagesSectionTitle" = "Help Pages";
+"HelpPagesSectionTitle" = "Hilfeseiten";
 
 /* Title of the 'Give Feedback' button in the help menu. */
-"GiveFeedbackTitle" = "Give Feedback";
+"GiveFeedbackTitle" = "Feedback geben";
 
 /* Title of the 'Show Tutorial' button in the help menu. */
-"ShowTutorialTitle" = "Show Tutorial";
+"ShowTutorialTitle" = "Tutorial anzeigen";
 
 /* Title of the 'What's New' button in the help menu. */
-"ShowWhatsNewTitle" = "What's New in Cascable?";
+"ShowWhatsNewTitle" = "Was ist neu in Cascable?";
 
 /* Title of the 'Remote Mode' help page button in the help menu. */
-"RemoteModeHelpPageName" = "Remote Control";
+"RemoteModeHelpPageName" = "Fernbedienung";
 
 /* Title of the 'Shutter Robot' help page button in the help menu. */
 "ShutterRobotHelpPageName" = "Shutter Robot";
 
 /* Title of the 'Files Mode' help page button in the help menu. */
-"FilesModeHelpPageName" = "Photo Management";
+"FilesModeHelpPageName" = "Fotomanagement";
 
 /* Title of the 'Camera Connection' help page button in the help menu. */
-"CameraConnectionHelpPageName" = "Camera Connection";
+"CameraConnectionHelpPageName" = "Kameraverbindung";
 
 /* Default email subject when the user gives feedback. Ex: 'Feedback for Cascable 1.2.1 (605)'. */
-"FeedbackEmailSubject" = "Feedback for Cascable %@ (%@)";
+"FeedbackEmailSubject" = "Feedback für Cascable %@ (%@)";
 
 /* Default email body when the user gives feedback. */
-"FeedbackEmailBody" = "Please be as detailed as possible when giving feedback. Thanks!";
+"FeedbackEmailBody" = "Schreiben Sie Ihr Feedback bitte so ausführlich wie möglich. Vielen Dank!";
 
 /* Feedback email failed alert title. */
-"FeedbackFallbackAlertTitle" = "Giving Feedback";
+"FeedbackFallbackAlertTitle" = "Feedback geben";
 
 /* Feedback email failed alert description. Ex: 'Your iPad doesn't seem to be set up for email…'. */
-"FeedbackFallbackAlertDescription" = "Your %@ doesn't seem to be set up for email. Don't worry, you can visit our website to give feedback.\n\nAlternatively, you can email your feedback to feedback@cascable.se";
+"FeedbackFallbackAlertDescription" = "Auf Ihrem %@ ist anscheinend keine E-Mail-Adresse eingerichtet. Keine Sorge, Sie können Ihr Feedback auch auf unserer Webseite hinterlassen.\n\nAlternativ schreiben Sie einfach eine E-Mail an feedback@cascable.se";
 
 /* Title of the 'About Cascable' button in the help menu. */
-"AboutCascableTitle" = "About Cascable";
+"AboutCascableTitle" = "Über Cascable";
 
 /* Title of the 'About' dialog. */
-"AboutCascableDialogTitle" = "About";
+"AboutCascableDialogTitle" = "Info";
 
 /* Title of the 'More Information…' button. */
-"MoreInformationTitle" = "More Information…";
+"MoreInformationTitle" = "Details …";
 
 /* 'SLIDE FOR SHUTTER' title in remote control tutorial. Should be in capitals. */
-"FirstRunShutterLabelTitle" = "SLIDE FOR SHUTTER";
+"FirstRunShutterLabelTitle" = "STREICHEN";
 
 /* Title for the remote control section of the tutorial. */
-"FirstRunRemoteTitle" = "Remote Control";
+"FirstRunRemoteTitle" = "Fernbedienung";
 
 /* Subtitle for the remote control section of the tutorial. */
-"FirstRunRemoteSubTitle" = "The Remote Control panel lets you directly control your camera.\nDepending on your camera's features, advanced controls will be available in the toolbar.";
+"FirstRunRemoteSubTitle" = "In der Fernbedienungsansicht können Sie Ihre Kamera steuern. \nJe nach Funktionsumfang Ihrer Kamera sind die erweiterten Funktionen in der Symbolleiste zu finden.";
 
 /* Title for the photos section of the tutorial. */
-"FirstRunPhotosTitle" = "Photos";
+"FirstRunPhotosTitle" = "Fotos";
 
 /* Subtitle for the photos section of the tutorial. */
-"FirstRunPhotosSubTitle" = "The Photos panel is where you copy photos from your camera. Once copied, you can view them, share them, and open them in other apps for editing.";
+"FirstRunPhotosSubTitle" = "In der Fotos Ansicht können Sie Fotos von Ihrer Kamera kopieren. Nach dem Kopieren können Sie die Fotos ansehen, teilen und zum Bearbeiten in anderen Apps öffnen.";
 
 /* Short subtitle for the photos section of the tutorial. */
-"FirstRunPhotosSubTitleShort" = "The Photos panel is where you copy photos from your camera for viewing and sharing.";
+"FirstRunPhotosSubTitleShort" = "In der Fotos Ansicht können Sie Fotos von Ihrer Kamera zur Ansicht und zum Teilen kopieren.";
 
 /* Title for the calculations section of the tutorial. */
-"FirstRunCalculationsTitle" = "Calculations";
+"FirstRunCalculationsTitle" = "Berechnungen";
 
 /* Subtitle for the calculations section of the tutorial. */
-"FirstRunCalculationsSubTitle" = "The Calculations panel contains helpful tools to assist with tricky exposure situations. The example below shows the calculator for Neutral Density (ND) filters.";
+"FirstRunCalculationsSubTitle" = "In der Berechnungen-Ansicht finden Sie hilfreiche Tools für Situationen mit schwieriger Belichtungssituation. Das Beispiel unten zeigt den Rechner für Neutraldichtefilter.";
 
 /* Short subtitle for the calculations section of the tutorial. */
-"FirstRunCalculationsSubTitleShort" = "The Calculations panel contains helpful tools to assist with tricky exposure situations.";
+"FirstRunCalculationsSubTitleShort" = "In der Berechnungen-Ansicht finden Sie hilfreiche Tools für schwierige Belichtungssituation.";
 
 // ------------------------------------------------------------
 //     Settings
 // ------------------------------------------------------------
 
 /* Title of the settings popup. */
-"SettingsTitle" = "Settings";
+"SettingsTitle" = "Einstellungen";
 
 /* Title for the 'General' section of settings. */
 
-"GeneralSettingsTitle" = "General";
+"GeneralSettingsTitle" = "Allgemein";
 
 /* Title for the 'Remote Mode' section of settings. */
-"RemoteModeSettingsTitle" = "Remote Control";
+"RemoteModeSettingsTitle" = "Fernbedienung";
 
 /* Title for the "File Handling" section of settings. */
-"FilesModeSettingsTitle" = "File Handling";
+"FilesModeSettingsTitle" = "Dateimanagement";
 
 /* Title for the 'Always Show Shooting Mode' setting. */
-"AlwaysShowAEModeSettingTitle" = "Always Show Shooting Mode";
+"AlwaysShowAEModeSettingTitle" = "Aufnahmemodus immer anzeigen";
 
 /* Title for the 'Night Mode' setting. */
-"NightModeSettingTitle" = "Night Mode";
+"NightModeSettingTitle" = "Nachtmodus";
 
 /* Title for the settings section for focus peaking. */
-"FocusPeakingSettingsTitle" = "Focus Peaking";
+"FocusPeakingSettingsTitle" = "Fokus-Peaking";
 
 /* Titles for the various applicatoin options for Focus Peaking. */
-"ApplyFocusPeaking0Title" = "Always";
-"ApplyFocusPeaking1Title" = "When shooting in MF";
+"ApplyFocusPeaking0Title" = "Immer";
+"ApplyFocusPeaking1Title" = "Beim Fotografieren mit MF";
 
 /* Section title for the 'Apply Focus Peaking' section of ''Focus Peaking'. */
-"ApplyWhenFocusPeakingSectionTitle" = "Apply Focus Peaking";
+"ApplyWhenFocusPeakingSectionTitle" = "Fokus-Peaking anwenden";
 
 /* Section footer for the 'Apply Focus Peaking' section of ''Focus Peaking'. */
-"ApplyWhenFocusPeakingSectionFooter" = "Focus Peaking draws a red highlight at the areas of the viewfinder image with sharp edges.";
+"ApplyWhenFocusPeakingSectionFooter" = "Fokus-Peaking zeichnet eine rote Hervorhebung mit scharfen Kanten um den Bereich des Suchfensterbilds.";
 
 /* Title for the settings section for reviewing photos. */
-"ReviewSettingsTitle" = "Photo Review";
+"ReviewSettingsTitle" = "Schnellansicht";
 
 /* Title for the 'Review Photos After Shooting' setting. */
-"ReviewPhotosAfterShootingTitle" = "Review Shot Photos";
+"ReviewPhotosAfterShootingTitle" = "Erstellte Fotos ansehen";
 
 /* Section title for the 'Automatically Dismiss' section of 'Review Photos After Shooting' */
-"AutoDismissPhotoReviewSectionTitle" = "Automatically Dismiss";
+"AutoDismissPhotoReviewSectionTitle" = "Automatisch verwerfen";
 
 /* Section footer for the 'Automatically Dismiss' section of 'Review Photos After Shooting' */
-"AutoDismissPhotoReviewSectionFooter" = "Tapping or zooming the photo being reviewed will cancel automatic dismissal for that photo.";
+"AutoDismissPhotoReviewSectionFooter" = "Durch Tippen oder Zoomen des angezeigten Fotos wird das automatische Verwerfen für dieses Foto deaktiviert.";
 
 /* Section footer for the first section of 'Review Photos After Shooting' explaining the feature. */
-"PhotoReviewExplanationFooter" = "Photo Review allows you to review high-resolution previews of your photos immediately after they're taken, helping you nail your shot quickly and effectively.";
+"PhotoReviewExplanationFooter" = "Mit der Schnellansicht können Sie direkt im Anschluss eine Vorschau Ihres Fotos in hoher Auflösung darstellen.";
 
 /* Titles for the various auto-dismiss options for photo review. */
-"AutoDismissPhotoReviewSetting0Title" = "Manually";
-"AutoDismissPhotoReviewSetting2Title" = "After 2 seconds";
-"AutoDismissPhotoReviewSetting4Title" = "After 4 seconds";
-"AutoDismissPhotoReviewSetting8Title" = "After 8 seconds";
+"AutoDismissPhotoReviewSetting0Title" = "Manuell";
+"AutoDismissPhotoReviewSetting2Title" = "Nach 2 Sekunden";
+"AutoDismissPhotoReviewSetting4Title" = "Nach 4 Sekunden";
+"AutoDismissPhotoReviewSetting8Title" = "Nach 8 Sekunden";
 
 /* The title of 'When Copying RAW+JPEG…' settings section. */
-"MultiVariantCopySettingsTitle" = "RAW+JPEG";
+"MultiVariantCopySettingsTitle" = "RAW & JPEG";
 
 /* The header text of the 'When Copying RAW+JPEG…' settings section */
-"MultiVariantCopySettingsHeader" = "When Copying RAW+JPEG Photos";
+"MultiVariantCopySettingsHeader" = "Beim Kopieren von RAW- & JPEG-Fotos";
 
 /* The footer text of the 'When Copying RAW+JPEG…' settings section */
-"MultiVariantCopySettingsFooter" = "If you choose to copy one file from a RAW+JPEG pair, Cascable will always let you download the other file later.";
+"MultiVariantCopySettingsFooter" = "Wenn Sie aus dem RAW-/JPEG-Paar nur eine Datei kopiert haben, können Sie mit Cascable die andere Datei auch später noch herunterladen.";
 
 /* Titles for the various file downloading options. */
-"MultiVariantDownloadChoice0Title" = "Ask Each Time";
-"MultiVariantDownloadChoice1Title" = "Copy RAW File";
-"MultiVariantDownloadChoice2Title" = "Copy JPEG File";
-"MultiVariantDownloadChoice3Title" = "Copy Both Files";
+"MultiVariantDownloadChoice0Title" = "Jedes Mal fragen";
+"MultiVariantDownloadChoice1Title" = "RAW-Datei kopieren";
+"MultiVariantDownloadChoice2Title" = "JPEG-Datei kopieren";
+"MultiVariantDownloadChoice3Title" = "Beide Dateien kopieren";
 
 /* Title for the 'Stop Live View On Idle' setting. */
-"DisableLiveViewOnInActivitySettingTitle" = "Stop Live View on Idle";
+"DisableLiveViewOnInActivitySettingTitle" = "Keine Live-Ansicht im Leerlauf";
 
 /* Title for the 'Advanced Settings' section. */
-"SecretMenuTitle" = "Advanced Settings";
+"SecretMenuTitle" = "Erweiterte Einstellungen";
 
 /* Title for the 'Live View FPS Meter' setting. */
-"ShowLiveViewFPSSecretSettingTitle" = "Live View FPS Meter";
+"ShowLiveViewFPSSecretSettingTitle" = "Live-Ansicht FPS-Zähler";
 
 /* Title for the 'Fake Camera' setting. */
-"ShowFakeCameraSettingTitle" = "Fake Camera";
+"ShowFakeCameraSettingTitle" = "Vorgetäuschte Kamera";
 
 /* Title for 'Show Touches' settings. */
-"ShowTouchesSecretSettingTitle" = "Show Touches";
+"ShowTouchesSecretSettingTitle" = "Berührungen zeigen";
 
 /* Title for 'Show Touches' warning. */
-"ShowTouchesRestartWarningTitle" = "Changes to this setting require a hard app restart to take effect.";
+"ShowTouchesRestartWarningTitle" = "Damit die Änderungen dieser Einstellung in Kraft treten, muss die App beendet und neu gestartet werden.";
 
 /* Warning title when the application has been denied notification permissions in iOS. */
-"NotificationsNotAvailableAlertTitle" = "Notifications Disallowed";
+"NotificationsNotAvailableAlertTitle" = "Mitteilungen unterdrückt";
 
 /* Warning description when the application has been denied notification permissions in iOS. */
-"NotificationsNotAvailableAlertDescription" = "Notifications have been disabled for Cascable in iOS Settings.
-
-To have Cascable notify you when disconnecting from your camera in the background, you must allow notifications for Cascable in the Notifications section of the Settings app.";
+"NotificationsNotAvailableAlertDescription" = "Mitteilungen für Cascable sind in den iOS Einstellungen deaktiviert.\n\nDamit Cascable Ihnen mitteilen kann, wenn die Verbindung zu Ihrer Kamera verloren geht, müssen Sie Mitteilungen für Cascable in der Einstellungen App > Mitteilungen zulassen.";
 
 /* Title for 'Open Settings App' button. */
-"SwitchToiOSSettingAppTitle" = "Open Settings App";
+"SwitchToiOSSettingAppTitle" = "Einstellungen App öffnen";
 
 /* Title for 'Use Custom Themes?' dialog. */
-"UseCustomThemeConfirmationTitle" = "Use Custom Themes?";
+"UseCustomThemeConfirmationTitle" = "Eigene Themes verwenden?";
 
 /* Description text for 'Use Custom Themes?' dialog. */
-"UseCustomThemeConfirmationDecription" = "This will replace Cascable's default color schemes with those contained in the file \"%@\".\n\nYou can revert back to the default colors in Cascable's settings.";
+"UseCustomThemeConfirmationDecription" = "Hiermit werden die Standard-Themes von Cascable mit denen in der Datei „%@“ ersetzt.\n\nSie können über die Cascable Einstellungen jederzeit zu den Standard-Themes zurückkehren.";
 
 /* Confirm button title for 'Use Custom Themes?' dialog. */
-"UseCustomThemeButtonTitle" = "Use Themes";
+"UseCustomThemeButtonTitle" = "Themes verwenden";
 
 /* Title for 'Remove Custom Themes?' dialog. */
-"RemoveCustomThemeConfirmationTitle" = "Remove Custom Themes?";
+"RemoveCustomThemeConfirmationTitle" = "Eigene Themes entfernen?";
 
 /* Description text for 'Remove Custom Themes?' dialog. */
-"RemoveCustomThemeConfirmationDecription" = "This will reset Cascable's color schemes back to their defaults.";
+"RemoveCustomThemeConfirmationDecription" = "Hiermit werden die Cascable Themes auf Standard zurückgesetzt.";
 
 /* Confirm button title for 'Remove Custom Themes?' dialog. */
-"RemoveCustomThemeButtonTitle" = "Remove Themes";
+"RemoveCustomThemeButtonTitle" = "Themes entfernen";
 
 /* Title of button in settings to remove custom themes. */
-"RemoveCustomThemeRowTitle" = "Remove Custom Themes";
+"RemoveCustomThemeRowTitle" = "Eigene Themes entfernen";
 
 // ------------------------------------------------------------
 //     General
@@ -661,31 +653,31 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 "OKTitle" = "OK";
 
 /* Title for 'Cancel' buttons. */
-"CancelTitle" = "Cancel";
+"CancelTitle" = "Abbrechen";
 
 /* Title for 'Done' buttons. */
-"DoneTitle" = "Done";
+"DoneTitle" = "Fertig";
 
 /* Title for 'Continue' buttons. */
-"ContinueTitle" = "Continue";
+"ContinueTitle" = "Weiter";
 
 /* Title for 'Visit Vebsite' buttons. */
-"VisitWebsiteTitle" = "Visit Website";
+"VisitWebsiteTitle" = "Webseite besuchen";
 
 /* Title for 'Save…' (with ellipsis) buttons. */
-"SaveTitleWithEllipsis" = "Save…";
+"SaveTitleWithEllipsis" = "Sichern …";
 
 /* Title for 'Save' (without ellipsis) buttons. */
-"SaveTitle" = "Save";
+"SaveTitle" = "Sichern";
 
 /* Title for 'Close' buttons. */
-"CloseTitle" = "Close";
+"CloseTitle" = "Schließen";
 
 /* Title for 'Reset' buttons. */
-"ResetTitle" = "Reset";
+"ResetTitle" = "Zurücksetzen";
 
 /* Title for 'Search' buttons/fields. */
-"SearchTitle" = "Search";
+"SearchTitle" = "Suchen";
 
 /* Format for version information. Ex: 'Version 1.2.1 (670)'. */
 "VersionFormatter" = "Version %@ (%@)";
@@ -704,178 +696,176 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 "ProButtonTitle" = "PRO";
 
 /* Title of the 'Buy' buttons. Ex: 'Buy for $9.99'. */
-"BuyButtonFormatter" = "Buy for %@";
+"BuyButtonFormatter" = "Für %@ kaufen";
 
 /* Title of the bundle savings label. Ex: 'Save $5.00!'. */
-"BundleSavingsLabelFormatter" = "Save %@!";
+"BundleSavingsLabelFormatter" = "Sparen Sie %@!";
 
 /* Explanation of needing to make a purchase to remote preview photos. */
-"RemotePreviewUnavailableDescription" = "Previewing photos directly from your camera is a feature of Cascable Pro: Photo Management.";
+"RemotePreviewUnavailableDescription" = "Die Vorschau von Fotos direkt auf Ihrer Kamera ist eine Funktion von Cascable Pro: Fotomanagement.";
 
 /* Title of the alert informing the user of the feature bundle. */
-"BundleUpsellAlertTitle" = "Also Included in Pro Bundle";
+"BundleUpsellAlertTitle" = "Ebenfalls im Pro-Bundle enthalten";
 
 /* Message of the alert informing the user of the feature bundle. */
-"BundleUpsellAlertDescription" = "This item is included in the Cascable Pro bundle, which includes all Pro features at a discounted price.\n\nNOTE: Once you buy an individual feature, you will no longer be able to buy the bundle.";
+"BundleUpsellAlertDescription" = "Diese Funktion ist im Cascable Pro Bundle enthalten, das alle Pro-Funktionen zu einem günstigeren Preis beinhaltet.\n\nHINWEIS: Sobald Sie eine einzelne Funktion kaufen, können Sie dieses Bundle nicht mehr erwerben.";
 
 /* Title of the of the 'View Pro Bundle' button in the bundle alert. */
-"BundleUpsellViewBundleButtonTitle" = "View Pro Bundle";
+"BundleUpsellViewBundleButtonTitle" = "Pro-Bundle ansehen";
 
 /* Title of the of the 'Buy anyway' button in the bundle alert. Ex: 'Buy just this for $9.99'. */
-"BundleUpsellBuyAnywayButtonTitle" = "Buy just this for %@";
+"BundleUpsellBuyAnywayButtonTitle" = "Nur diese Funktion für %@ kaufen";
 
 /* Title of the "Purchases" section of the settings section of the app. */
-"PurchasesSettingsSectionTitle" = "Purchases";
+"PurchasesSettingsSectionTitle" = "Einkäufe";
 
 /* Title of the 'More Info…' button next to unpurchased items. */
-"PackNotPurchasedButtonTitle" = "More Info…";
+"PackNotPurchasedButtonTitle" = "Details …";
 
 /* Title of the "Restore Purchases…" button. Should follow Apple guidelines for this process. */
-"RestorePurchasesButtonTitle" = "Restore Purchases…";
+"RestorePurchasesButtonTitle" = "Einkäufe wiederherstellen …";
 
 /* Explanation text for the "Restore Purchases" feature. */
-"RestorePurchasesSectionFooter" = "If you've previously purchased one or more Cascable Pro feature packs, you can restore them to this device.";
+"RestorePurchasesSectionFooter" = "Wenn Sie bereit eine oder mehrere Pro Funktionen von Cascable gekauft haben, können Sie sie auf diesem Gerät wiederherstellen.";
 
 /* Header text for the list of feature packs if the bundle is available. */
-"ProPackIncludesSectionTitle" = "Full Bundle Includes:";
+"ProPackIncludesSectionTitle" = "Das Paket beinhaltet:";
 
 /* Offline title of the "Pro: Remote Control" feature pack. */
-"se.cascable.ios.remotemodeunlockOfflineProductTitle" = "Pro: Remote Control";
+"se.cascable.ios.remotemodeunlockOfflineProductTitle" = "Pro: Fernbedienung";
 
 /* Offline title of the "Pro: Photo Management" feature pack. */
-"se.cascable.ios.filesmodeunlockOfflineProductTitle" = "Pro: Photo Management";
+"se.cascable.ios.filesmodeunlockOfflineProductTitle" = "Pro: Fotomanagement";
 
 /* Offline title of the "Pro: Night Mode" feature pack. */
-"se.cascable.ios.nightmodeOfflineProductTitle" = "Pro: Night Mode";
+"se.cascable.ios.nightmodeOfflineProductTitle" = "Pro: Nachtmodus";
 
 /* Offline title of the feature pack bundle. */
-"se.cascable.ios.everythingunlockOfflineProductTitle" = "Pro: Full Bundle";
+"se.cascable.ios.everythingunlockOfflineProductTitle" = "Pro: Komplettes Paket";
 
 /* Header text for the purchases section when no items have been purchased. */
-"NoPurchasesMadeHeader" = "Purchasing Cascable feature packs will unlock powerful new features and help support a small, independent company.";
+"NoPurchasesMadeHeader" = "Mit dem Kauf von Cascable Funktionspaketen erhalten Sie Zugriff auf zahlreiche neue Funktionen und unterstützt dabei gleichzeitig ein kleines unabhängiges Unternehmen.";
 
 /* Header text for the purchases section when the user has a free upgrade due to purchasing Cascable 1.x. */
-"PurchasesGrandfatheredUserHeader" = "Thank you for being an early adopter! As a user of Cascable 1.x, you get a free upgrade!";
+"PurchasesGrandfatheredUserHeader" = "Vielen Dank für das schnelle Upgrade! Als Nutzer von Cascable 1.x erhalten Sie dieses Upgrade kostenlos!";
 
 /* Header text for the purchases section when the user has purchased one or more items. */
-"PurchasesMadeHeader" = "Thank you for supporting Cascable! Your purchase helps support a small, independent company. We couldn't do it without you!";
+"PurchasesMadeHeader" = "Wir bedanken uns für Ihre Unterstützung! Ihr Kauf hilft einem kleinen unabhängigen Unternehmen. Ohne Sie könnten wir nicht weitermachen!";
 
 // ------------------------------------------------------------
 //     Managing Selection
 // ------------------------------------------------------------
 
 /* Title for the button that toggles 'selection mode' on and off. */
-"EnterSelectionModeTitle" = "Select";
+"EnterSelectionModeTitle" = "Auswählen";
 
 /* Title for the button that selects all items. */
-"SelectAllTitle" = "Select All";
+"SelectAllTitle" = "Alle wählen";
 
 /* Title for the button that deselects all items. */
-"DeselectAllTitle" = "Deselect All";
+"DeselectAllTitle" = "Keine";
 
 /* Title for the button that selects a single item. */
-"SelectTitle" = "Select";
+"SelectTitle" = "Auswählen";
 
 // ------------------------------------------------------------
 //     Errors
 // ------------------------------------------------------------
 
 /* 'Unexpected disconnect' error title. */
-"UnexpectedDisconnectErrorTitle" = "Camera Disconnected";
+"UnexpectedDisconnectErrorTitle" = "Kamera getrennt";
 
 /* 'Unexpected disconnect' error description. */
-"UnexpectedDisconnectErrorDescription" = "Cascable lost the connection to your camera. Check that your camera and device are within WiFi range of each other and that your camera's battery is charged.";
+"UnexpectedDisconnectErrorDescription" = "Cascable hat die Verbindung zu Ihrer Kamera verloren. Prüfen Sie, dass Ihre Kamera und Ihr Gerät sich innerhalb des WLAN-Bereichs befinden und dass die Batterie Ihrer Kamera geladen ist.";
 
 /* 'Live view failed' error title. */
-"LiveViewFailedErrorTitle" = "Live View Failed";
+"LiveViewFailedErrorTitle" = "Live-Ansicht fehlgeschlagen";
 
 /* 'Live view failed' error title. */
-"LiveViewFailedErrorDescription" = "Live view could not be started. Check that your camera's lens is securely attached and that nothing is blocking the shutter mechanism.";
+"LiveViewFailedErrorDescription" = "Live-Ansicht konnte nicht gestartet werden. Prüfen Sie, ob die Kameraliste sicher befestigt ist, und dass nichts die Verschlussmechanik blockiert.";
 
 /* 'Reduced functionality' error title. */
-"ReducedFunctionalityAlertTitle" = "Reduced Functionality";
+"ReducedFunctionalityAlertTitle" = "Verringerte Funktionalität";
 
 /* 'Reduced functionality' error description. */
-"ReducedFunctionalityAlertDescription" = "The connected camera is only partially supported by Cascable, and some functionality may be missing.
-
-We'd love to make Cascable fully support your camera, so please get in touch to work together to add support.";
+"ReducedFunctionalityAlertDescription" = "Die verbundene Kamera wird nur teilweise von Cascable unterstützt, und einige Funktionen sind nicht verfügbar.\n\nWir würden Ihre Kamera gern vollständig unterstützen. Wir würden uns freuen, wenn Sie uns dabei helfen und sich bei uns melden.";
 
 /* 'Get in touch' button title. */
-"ReducedFunctionalityGetInTouchButtonTitle" = "Get in Touch";
+"ReducedFunctionalityGetInTouchButtonTitle" = "Kontakt aufnehmen";
 
 // ------------------------------------------------------------
 //     Remote Control: General
 // ------------------------------------------------------------
 
 /* Title of the remote control feature. */
-"RemoteTitle" = "Remote";
+"RemoteTitle" = "Fernbedienung";
 
 /* Title of the remote control warning that no camera is connected. */
-"RemoteUnavailableNoConnectionTitle" = "No Camera Connected";
+"RemoteUnavailableNoConnectionTitle" = "Keine Kamera verbunden";
 
 /* Description of the remote control warning that no camera is connected. */
-"RemoteUnavailableNoConnectionDescription" = "Remote control is not available without a connected camera. Tap the connection indicator at the top of the screen to get started.";
+"RemoteUnavailableNoConnectionDescription" = "Fernbedienung ist nicht verfügbar ohne eine verbundene Kamera. Tippen Sie auf das Verbindungssymbol oben auf dem Display.";
 
 /* Title of the remote control warning that live view is disabled. */
-"RemoteUnavailableEVFNotCorrectTitle" = "Live View Stopped";
+"RemoteUnavailableEVFNotCorrectTitle" = "Live-Ansicht gestoppt";
 
 /* Description of the remote control warning that live view is disabled. */
-"RemoteUnavailableEVFNotCorrectDescription" = "Live View is currently stopped. Tap \"Start Live View\" to start Live View.";
+"RemoteUnavailableEVFNotCorrectDescription" = "Live-Ansicht ist zurzeit gestoppt. Tippen Sie auf „Live-Ansicht starten“.";
 
 /* 'Start Live View' button title. */
-"StartLiveViewTitle" = "Start Live View";
+"StartLiveViewTitle" = "Live-Ansicht starten";
 
 /* Title of the screen that pops up when previewing an image. */
-"ShotPreviewTitle" = "Image Preview";
+"ShotPreviewTitle" = "Bildvorschau";
 
 // ------------------------------------------------------------
 //     Remote Control: Popups and Controls
 // ------------------------------------------------------------
 
 /* Warning text when a property can't be set. Ex: 'Shutter speed cannot be set with the camera's mode dial in its current position.'. */
-"ReadOnlyAEPropertyTitle" = "%@ cannot be set with the camera's mode dial in its current position.";
+"ReadOnlyAEPropertyTitle" = "%@ kann nicht gewählt werden, wenn das Modus-Wahlrad der Kamera in der aktuellen Position steht.";
 
 /* Title of the 'Overlays' popup. */
-"OverlaysPopupTitle" = "Overlays";
+"OverlaysPopupTitle" = "Überlagerungen";
 
 /* Title of the 'Camera Settings' popup. */
-"CameraSettingsPopupTitle" = "Camera Settings";
+"CameraSettingsPopupTitle" = "Kamera-Einstellungen";
 
 /* Title of the 'Histogram' section of the overlays popup. */
-"HistogramSectionTitle" = "Histogram";
+"HistogramSectionTitle" = "Histogramm";
 
 /* Title of the 'Show Histogram' option. */
-"HistogramVisibleTitle" = "Show Histogram";
+"HistogramVisibleTitle" = "Histogramm anzeigen";
 
 /* Title of the 'Grid' section of the overlays popup. */
-"GridSectionTitle" = "Grid";
+"GridSectionTitle" = "Raster";
 
 /* Title of the 'Show Grid' option. */
-"GridVisibleTitle" = "Show Grid";
+"GridVisibleTitle" = "Raster einblenden";
 
 /* Title of the 'Vertical Line' option of the grid. Ex: '1 Vertical Line'. */
-"GridVerticalLinesRowTitle" = "%@ Vertical Line";
+"GridVerticalLinesRowTitle" = "%@ vertikale Linie";
 
 /* Title of the 'Vertical Line' option of the grid. Ex: '3 Vertical Lines'. */
-"GridVerticalLinesRowTitle_Plural" = "%@ Vertical Lines";
+"GridVerticalLinesRowTitle_Plural" = "%@ vertikale Linien";
 
 /* Title of the 'Horizontal Line' option of the grid. Ex: '1 Horizontal Line'. */
-"GridHorizontalLinesRowTitle" = "%@ Horizontal Line";
+"GridHorizontalLinesRowTitle" = "%@ horizontale Linie";
 
 /* Title of the 'Horizontal Line' option of the grid. Ex: '3 Horizontal Lines'. */
-"GridHorizontalLinesRowTitle_Plural" = "%@ Horizontal Lines";
+"GridHorizontalLinesRowTitle_Plural" = "%@ horizontale Linien";
 
 /* Title of the focusing popup. */
-"FocusConfigurationTitle" = "Focusing";
+"FocusConfigurationTitle" = "Fokussierung";
 
 /* Title of the focusing popup when the camera is in manual focus mode. */
-"MFConfigurationTitle" = "Manual Focusing";
+"MFConfigurationTitle" = "Manueller Fokus";
 
 /* Title of the 'Focus Peaking' option when the camera is in manual focus mode. */
-"MFConfigurationPeakingTitle" = "Focus Peaking";
+"MFConfigurationPeakingTitle" = "Fokus-Peaking";
 
 /* String placed in the space where the content for the feature (i.e., choosing which autofocus mode to use) would be. */
-"CameraFeatureNotAvailableContentPlaceholder" = "Not settable within Cascable.";
+"CameraFeatureNotAvailableContentPlaceholder" = "Nicht in Cascable einstellbar";
 
 // ------------------------------------------------------------
 //     Shutter Robot: General
@@ -885,63 +875,63 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 "ShutterRobotTitle" = "Shutter Robot";
 
 /* Short title of the Shutter Robot feature. */
-"ShutterRobotShortTitle" = "Robot";
+"ShutterRobotShortTitle" = "Roboter";
 
 /* Name of a Shutter Robot sub-feature (self-timer, bracketing, etc). */
-"ShutterRobotModuleTitle" = "Module";
+"ShutterRobotModuleTitle" = "Modul";
 
 /* Plural name of a Shutter Robot sub-feature (self-timer, bracketing, etc). */
-"ShutterRobotModulesTitle" = "Modules";
+"ShutterRobotModulesTitle" = "Module";
 
 // ------------------------------------------------------------
 //     Shutter Robot: Summary
 // ------------------------------------------------------------
 
 /* Title of the 'Summary' section of the shutter robot. */
-"ShutterRobotSummaryTitle" = "Summary";
+"ShutterRobotSummaryTitle" = "Übersicht";
 
 /* 'Number of Shots' summary title. */
-"ShutterRobotNumberOfShotsSummaryTitle" = "Number of Shots";
+"ShutterRobotNumberOfShotsSummaryTitle" = "Anzahl Fotos";
 
 /* 'Indeterminate' value title. For example, used when we don't know how many shots the current configuration will generate. */
-"ShutterRobotIndeterminateTitle" = "Indeterminate";
+"ShutterRobotIndeterminateTitle" = "Unbestimmt";
 
 /* The title of the shutter robot problem report. */
-"ShutterRobotProblemReportTitle" = "Problems";
+"ShutterRobotProblemReportTitle" = "Probleme";
 
 /* 'No problems' title. */
-"ShutterRobotProblemReportNoProblemsTitle" = "All OK";
+"ShutterRobotProblemReportNoProblemsTitle" = "Alles OK";
 
 /* Problems found. Ex: '1 problem'.  */
-"ShutterRobotProblemReportSomeProblemsTitle" = "%@ problem";
+"ShutterRobotProblemReportSomeProblemsTitle" = "%@ Problem";
 
 /* Problems found. Ex: '3 problems'.  */
-"ShutterRobotProblemReportSomeProblemsTitle_Plural" = "%@ problems";
+"ShutterRobotProblemReportSomeProblemsTitle_Plural" = "%@ Probleme";
 
 /* Title for 'engaging' the shutter robot. */
-"ShutterRobotEngageTitle" = "Engage";
+"ShutterRobotEngageTitle" = "Einschalten";
 
 /* Title for 'disengaging' the shutter robot. */
-"ShutterRobotDisengageTitle" = "Disengage";
+"ShutterRobotDisengageTitle" = "Ausschalten";
 
 /* Description text for 'engaging' the shutter robot. */
-"ShutterRobotEngageFooter" = "Once Shutter Robot is engaged, you can return to the remote control and set up your shot. Tap the shutter button to start the robot.";
+"ShutterRobotEngageFooter" = "Sobald Shutter Robot aktiviert ist, können Sie zur Fernbedienung zurückkehren und Ihre Aufnahme einrichten. Tippen Sie auf das Verschluss-Icon, um den Robot zu starten.";
 
 // ------------------------------------------------------------
 //     Shutter Robot: Self Timer
 // ------------------------------------------------------------
 
 /* Title of the 'Self Timer' shutter robot module. */
-"TimerRobotTitle" = "Self Timer";
+"TimerRobotTitle" = "Selbstauslöser";
 
 /* Subtitle of the 'Self Timer' shutter robot module. */
-"TimerRobotSubTitle" = "A simple self timer.";
+"TimerRobotSubTitle" = "Ein einfacher Selbstauslöser.";
 
 /* Title of the 'Duration' self timer setting. */
-"TimerRobotDurationTitle" = "Duration";
+"TimerRobotDurationTitle" = "Dauer";
 
 /* Title of the 'Audible Countdown' self timer setting. */
-"TimerRobotAudibleCountdownTitle" = "Audible Countdown";
+"TimerRobotAudibleCountdownTitle" = "Hörbarer Countdown";
 
 // ------------------------------------------------------------
 //     Shutter Robot: Bulb Timer
@@ -951,7 +941,7 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 "BulbRobotTitle" = "Bulb Timer";
 
 /* Subtitle of the 'Bulb Timer' shutter robot module. */
-"BulbRobotSubTitle" = "Keep the shutter open for a long period.";
+"BulbRobotSubTitle" = "Halten Sie die Blende lange offen.";
 
 // ------------------------------------------------------------
 //     Shutter Robot: Intervalometer
@@ -961,251 +951,239 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 "IntervalometerRobotTitle" = "Intervalometer";
 
 /* Subtitle of the 'Intervalometer' shutter robot module. */
-"IntervalometerRobotSubTitle" = "A repeating timer for shooting timelapses.";
+"IntervalometerRobotSubTitle" = "Ein wiederholter Timer für Zeitraffer.";
 
 /* Title of the 'Interval' setting of the intervalometer module. */
-"IntervalometerRobotIntervalTitle" = "Interval";
+"IntervalometerRobotIntervalTitle" = "Intervall";
 
 /* Title of the 'Stop' setting of the intervalometer module. */
-"IntervalometerRobotDisengageTitle" = "Stop";
+"IntervalometerRobotDisengageTitle" = "Stoppen";
 
 /* Short title of the 'Manually' stop setting. */
-"IntervalometerRobotDisengageValueNoneTitle" = "Manually";
+"IntervalometerRobotDisengageValueNoneTitle" = "Manuell";
 
 /* Short title of the 'After shots' stop setting. Ex: 'After 1 shot'. */
-"IntervalometerRobotDisengageValueFixedTitle" = "After %@ shot";
+"IntervalometerRobotDisengageValueFixedTitle" = "Nach %@ Aufnahme";
 
 /* Short title of the 'After shots' stop setting. Ex: 'After 20 shots'. */
-"IntervalometerRobotDisengageValueFixedTitle_Plural" = "After %@ shots";
+"IntervalometerRobotDisengageValueFixedTitle_Plural" = "Nach %@ Aufnahmen";
 
 /* Short title of the 'After shots' stop setting. Ex: 'After 12 minutes'. */
-"IntervalometerRobotDisengageValueDuration" = "After %@";
+"IntervalometerRobotDisengageValueDuration" = "Nach %@";
 
 /* Title of the 'Manually' stop setting. */
-"IntervalometerRobotDisengageMethodNoneTitle" = "Manually";
+"IntervalometerRobotDisengageMethodNoneTitle" = "Manuell";
 
 /* Title of the 'After a fixed number of shots' stop setting. */
-"IntervalometerRobotDisengageMethodFixedShotsTitle" = "After a fixed number of shots";
+"IntervalometerRobotDisengageMethodFixedShotsTitle" = "Nach einer Anzahl an Fotos";
 
 /* Title of the 'After a fixed amount of time' stop setting. */
-"IntervalometerRobotDisengageMethodDurationTitle" = "After a fixed amount of time";
+"IntervalometerRobotDisengageMethodDurationTitle" = "Nach einer festgelegten Zeit";
 
 // ------------------------------------------------------------
 //     Shutter Robot: Bracketing
 // ------------------------------------------------------------
 
 /* Title of the 'Exposure Bracketing' shutter robot module. */
-"BracketingRobotTitle" = "Exposure Bracketing";
+"BracketingRobotTitle" = "Belichtungsreihenautomatik";
 
 /* Subtitle of the 'Exposure Bracketing' shutter robot module. */
-"BracketingRobotSubTitle" = "Take multiple different exposures at once.";
+"BracketingRobotSubTitle" = "Nehmen Sie mit mehreren Belichtungen gleichzeitig auf.";
 
 /* Title of the 'Range' bracketing setting. */
-"BracketingRobotRangePropertyTitle" = "Range";
+"BracketingRobotRangePropertyTitle" = "Bereich";
 
 /* Title of the 'Increment' bracketing setting. */
-"BracketingRobotIncrementPropertyTitle" = "Increment";
+"BracketingRobotIncrementPropertyTitle" = "Schrittweite";
 
 /* Formatter for the 'range' bracketing setting. Ex: '± 1 stop'. */
-"BracketingRobotRangeTitlePlusMinusStops" = "± %@ stop";
+"BracketingRobotRangeTitlePlusMinusStops" = "± %@ Stufe";
 
 /* Formatter for the 'range' bracketing setting. Ex: '± 3 stops'. */
-"BracketingRobotRangeTitlePlusMinusStops_Plural" = "± %@ stops";
+"BracketingRobotRangeTitlePlusMinusStops_Plural" = "± %@ Stufen";
 
 /* Title of the '1/3 of a stop' bracketing interval setting. */
-"BracketingRobotStopOneThirdIntervalTitle" = "⅓ of a stop";
+"BracketingRobotStopOneThirdIntervalTitle" = "⅓ Stufe";
 
 /* Title of the '1/2 of a stop' bracketing interval setting. */
-"BracketingRobotStopOneHalfIntervalTitle" = "½ of a stop";
+"BracketingRobotStopOneHalfIntervalTitle" = "½ Stufe";
 
 /* Title of the 'One stop' bracketing interval setting. */
-"BracketingRobotStopWholeStopIntervalTitle" = "One stop";
+"BracketingRobotStopWholeStopIntervalTitle" = "Eine Stufe";
 
 // ------------------------------------------------------------
 //     Shutter Robot: Configuration
 // ------------------------------------------------------------
 
 /* Title of the configuration view for each robot module. Ex: 'Self Timer Configuration'. */
-"ShutterRobotModuleConfigurationHeader" = "%@ Configuration";
+"ShutterRobotModuleConfigurationHeader" = "%@ Konfiguration";
 
 /* Title of a yes/no 'switch' option that has been switched on. */
-"RobotBooleanPropertyYesValue" = "Yes";
+"RobotBooleanPropertyYesValue" = "Ja";
 
 /* Title of a yes/no 'switch' option that has been switched off. */
-"RobotBooleanPropertyNoValue" = "No";
+"RobotBooleanPropertyNoValue" = "Nein";
 
 /* Formatter for a duration in seconds. Ex: '1 second'. */
-"RobotDurationPropertyValueSecondsFormatter" = "%@ second";
+"RobotDurationPropertyValueSecondsFormatter" = "%@ Sekunde";
 
 /* Formatter for a duration in seconds. Ex: '3 seconds'. */
-"RobotDurationPropertyValueSecondsFormatter_Plural" = "%@ seconds";
+"RobotDurationPropertyValueSecondsFormatter_Plural" = "%@ Sekunden";
 
 /* Formatter for a duration in minutes. Ex: '1 minute'. */
-"RobotDurationPropertyValueMinutesFormatter" = "%@ minute";
+"RobotDurationPropertyValueMinutesFormatter" = "%@ Minute";
 
 /* Formatter for a duration in minutes. Ex: '3 minutes'. */
-"RobotDurationPropertyValueMinutesFormatter_Plural" = "%@ minutes";
+"RobotDurationPropertyValueMinutesFormatter_Plural" = "%@ Minuten";
 
 /* Formatter for a duration in hours. Ex: '1 hour'. */
-"RobotDurationPropertyValueHoursFormatter" = "%@ hour";
+"RobotDurationPropertyValueHoursFormatter" = "%@ Stunde";
 
 /* Formatter for a duration in hours. Ex: '3 hours'. */
-"RobotDurationPropertyValueHoursFormatter_Plural" = "%@ hours";
+"RobotDurationPropertyValueHoursFormatter_Plural" = "%@ Stunden";
 
 /* Title of the 'seconds' section of the duration picker. */
-"RobotDurationPropertySecondsTitle" = "seconds";
+"RobotDurationPropertySecondsTitle" = "Sekunden";
 
 /* Title of the 'minutes' section of the duration picker. */
-"RobotDurationPropertyMinutesTitle" = "minutes";
+"RobotDurationPropertyMinutesTitle" = "Minuten";
 
 /* Title of the 'hours' section of the duration picker. */
-"RobotDurationPropertyHoursTitle" = "hours";
+"RobotDurationPropertyHoursTitle" = "Stunden";
 
 // ------------------------------------------------------------
 //     Shutter Robot: Problems
 // ------------------------------------------------------------
 
 /* Title for a problem that causes no shots to fire. */
-"ShutterRobotConfigurationGivesZeroShotsTitle" = "Invalid setup";
+"ShutterRobotConfigurationGivesZeroShotsTitle" = "Ungültiges Setup";
 
 /* Description for a problem that causes no shots to fire. Ex: 'The current Intervalometer setup won't trigger any shots…'. */
-"ShutterRobotConfigurationGivesZeroShotsDescription" = "The current %@ setup won't trigger any shots. Make sure the interval isn't longer than the total duration.";
+"ShutterRobotConfigurationGivesZeroShotsDescription" = "Mit der aktuellen %@ Einstellung werden keine Fotos ausgelöst. Stellen Sie sicher, dass das Intervall nicht länger ist als die gesamte Dauer.";
 
 /* Title for a problem that causes more shots to fire than will fit on the connected camera. */
-"ShutterRobotConfigurationGivesTooManyShotsTitle" = "Not enough space";
+"ShutterRobotConfigurationGivesTooManyShotsTitle" = "Zu wenig Platz";
 
 /* Title for a problem that causes more shots to fire than will fit on the connected camera. Ex: 'The current Intervalometer setup will trigger more shots (52) than will currently fit on the connected camera (45)'.*/
-"ShutterRobotConfigurationGivesTooManyShotsDescription" = "The current %@ setup will trigger more shots (%@) than will currently fit on the connected camera (%@).
-
-Try removing some photos from your camera, inserting a larger storage card or reducing the size and/or quality of the taken photos.";
+"ShutterRobotConfigurationGivesTooManyShotsDescription" = "Durch die aktuelle %@ Einstellung werden mehr Bilder (%@) erstellt, als zurzeit auf die verbundene Kamera (%@) passen.\n\nVersuchen Sie, einige Fotos von Ihrer Kamera zu löschen, eine größere Speicherkarte einzusetzen, oder die Größe und/oder Qualität der Aufnahmen zu reduzieren.";
 
 /* Title for a problem caused by a duration being set to zero. */
-"ShutterRobotConfigurationZeroDurationTitle" = "Zero duration";
+"ShutterRobotConfigurationZeroDurationTitle" = "Keine Dauer";
 
 /* Description for a problem caused by a duration being set to zero. Ex: 'Self Timer cannot have a zero duration.'. */
-"ShutterRobotConfigurationZeroDurationDescription" = "%@ cannot have a zero duration.";
+"ShutterRobotConfigurationZeroDurationDescription" = "Die Dauer von %@ darf nicht Null sein.";
 
 /* Title for a problem caused by the camera's shutter drive being in self-timer. */
-"ShutterRobotConfigurationIncompatibleDriveModeTitle" = "Shutter drive conflict";
+"ShutterRobotConfigurationIncompatibleDriveModeTitle" = "Verschlussbetriebskonflikt";
 
 /* Description for a problem caused by the camera's shutter drive being in self-timer. */
-"ShutterRobotConfigurationIncompatibleDriveModeDescription" = "Shutter Robot cannot operate if the camera's own drive mode is set to a self timer.
-
-Disable the camera's self timer to use Shutter Robot.";
+"ShutterRobotConfigurationIncompatibleDriveModeDescription" = "Shutter Robot funktioniert nicht, wenn der Kameramodus auf Selbstauslöser eingestellt ist.\n\nDeaktivieren Sie den Selbstauslöser der Kamera, um Shutter Robot nutzen zu können.";
 
 /* Title for a problem caused by the camera's internal exposure bracketing being enabled. */
-"ShutterRobotConfigurationIncompatibleBracketModeTitle" = "Bracketing conflict";
+"ShutterRobotConfigurationIncompatibleBracketModeTitle" = "Belichtungsreihenkonflikt";
 
 /* Description for a problem caused by the camera's internal exposure bracketing being enabled. */
-"ShutterRobotConfigurationIncompatibleBracketModeDescription" = "Shutter Robot cannot operate if the camera's own exposure bracketing is enabled.
-
-Disable the camera's exposure bracketing to use Shutter Robot.";
+"ShutterRobotConfigurationIncompatibleBracketModeDescription" = "Shutter Robot funktioniert nicht, wenn das kameraeigene Belichtungs-Bracketing aktiviert ist.\n\nDeaktivieren Sie das Belichtungs-Bracketing der Kamera, um Shutter Robot nutzen zu können.";
 
 /* Title for a problem caused by the camera's shutter speed not being set to bulb. */
-"ShutterRobotConfigurationNeedsBulbTitle" = "Camera not in Bulb";
+"ShutterRobotConfigurationNeedsBulbTitle" = "Kam. n. in Langzeitbel.";
 
 /* Description for a problem caused by the camera's shutter speed not being set to bulb. Ex: 'Bulb Timer requires the camera…'. */
-"ShutterRobotConfigurationNeedsBulbDescription" = "%@ requires the camera is in \"Bulb\" or \"B\" mode.
-
-If your camera has a \"B\" position on its mode dial, rotate the dial to that position. Otherwise, rotate it to the \"M\" position and set the shutter speed to \"Bulb\".";
+"ShutterRobotConfigurationNeedsBulbDescription" = "%@ erfordert den „Bulb“ oder „B“ Modus.\n\nBesitzt Ihre Kamera ein „B“ auf dem Modus-Wahlrad, drehen Sie das Modus-Wahlrad auf diese Position. Anderenfalls drehen Sie das Modus-Wahlrad auf Position „M“ und stellen Sie die Verschlusszeit auf „Bulb“ ein.";
 
 /* Title for a problem caused by the camera's exposure compensation being set in a way that would cause bracketing to push it out of bounds. */
-"ShutterRobotConfigurationValuesWillGoOutOfRangeTitle" = "Exposure conflict";
+"ShutterRobotConfigurationValuesWillGoOutOfRangeTitle" = "Belichtungskonflikt";
 
 /* Description for a problem caused by the camera's exposure compensation being set in a way that would cause bracketing to push it out of bounds. Ex: 'The configured exposure bracketing range (± 3 stops) will push…'. */
-"ShutterRobotConfigurationValuesWillGoOutOfRangeDescription" = "The configured exposure bracketing range (%@) will push the camera's exposure settings beyond those the camera supports.
-
-If your camera's mode dial is set to \"M\", adjust the shutter speed setting away from the extreme values. Otherwise, adjust the exposure compensation (EV) setting away from the extreme values.";
+"ShutterRobotConfigurationValuesWillGoOutOfRangeDescription" = "Mit dem konfigurierten Bereich für die Belichtungsreihe (%@) werden die Belichtungseinstellungen über den für die Kamera erlaubten Bereich verschoben.\n\nWenn das Modus-Wahlrad der Kamera auf „M“ steht, stellen Sie die Verschlusszeit nicht auf einen extremen Wert. Oder passen Sie die Belichtungskompensation (EV) an und vermeiden Sie extreme Werte.";
 
 /* Title for a problem caused by the camera's shutter speed being set to bulb or auto. */
-"ShutterRobotConfigurationNeedsFixedExposureStartingPointTitle" = "Shutter speed conflict";
+"ShutterRobotConfigurationNeedsFixedExposureStartingPointTitle" = "Verschlusszeitkonflikt";
 
 /* Description for a problem caused by the camera's shutter speed being set to bulb. Ex: 'Exposure Bracketing cannot operate…'. */
-"ShutterRobotConfigurationNeedsFixedExposureStartingPointDescription" = "%@ cannot operate in \"B\" mode or \"M\" mode if the camera's shutter speed is set to \"Auto\" or \"Bulb\".
-
-Rotate your camera's mode dial away from the \"B\" position. If your mode dial doesn't have a \"B\" position, make sure the shutter speed isn't set to \"Bulb\".";
+"ShutterRobotConfigurationNeedsFixedExposureStartingPointDescription" = "%@ kann nicht im „B“ oder „M“ Modus betrieben werden, wenn die Verschlusszeit der Kamera auf „Auto“ oder „Bulb“ gestellt ist.\n\nDrehen Sie das Modus-Wahlrad weg von Position „B“. Befindet sich Ihr Modus-Wahlrad nicht in Position „B“, prüfen Sie, ob Ihre Verschlusszeit auf „Bulb“ steht.";
 
 // ------------------------------------------------------------
 //     Camera Connection
 // ------------------------------------------------------------
 
 /* The title of the 'Connection' popover. */
-"CamerasTitle" = "Cameras";
+"CamerasTitle" = "Kameras";
 
 /* The label of a camera when it is connected. */
-"ConnectedTitle" = "Connected";
+"ConnectedTitle" = "Verbunden";
 
 /* The label of a camera when it is not yet connected. */
-"DisconnectedTitle" = "Available";
+"DisconnectedTitle" = "Verfügbar";
 
 /* The label of the 'Connect' button for a camera. */
-"ConnectTitle" = "Connect";
+"ConnectTitle" = "Verbinden";
 
 /* The label of the 'Disconnect' button for a camera. */
-"DisconnectTitle" = "Disconnect";
+"DisconnectTitle" = "Trennen";
 
 /* The label of the 'Connecting…' status for a camera. */
-"ConnectingTitle" = "Connecting…";
+"ConnectingTitle" = "Verbinden …";
 
 /* The label of the 'Disconnecting…' status for a camera. */
-"DisconnectingTitle" = "Disconnecting…";
+"DisconnectingTitle" = "Trennen …";
 
 /* Title of the 'Connect Automatically' setting. */
-"ConnectAutomaticallyTitle" = "Connect Automatically";
+"ConnectAutomaticallyTitle" = "Automatisch verbinden";
 
 /* Title of the 'Notify on Disconnect' setting. */
-"NotifyOnDisconnectTitle" = "Notify on Disconnect";
+"NotifyOnDisconnectTitle" = "Beim Trennen mitteilen";
 
 /* Text displayed in the notification to the user when Cascable has to disconnect from a camera due to background task expiration. */
-"DisconnectedAutomaticallyInBackgroundAlert" = "Cascable has disconnected from your camera due to being in the background. Launch Cascable to reconnect.";
+"DisconnectedAutomaticallyInBackgroundAlert" = "Cascable hat keine Verbindung mehr zu Ihrer Kamera, da es in den Hintergrund verschoben wurde. Starten Sie Cascable, um die Verbindung wieder herzustellen.";
 
 /* Title of the 'Connection Settings' section of the connection popup. */
-"ConnectionSettingsTitle" = "Connection Settings";
+"ConnectionSettingsTitle" = "Verbindungseinstellungen";
 
 /* Title of the 'Available Cameras' section of the connection popup. */
-"AvailableCamerasTitle" = "Available Cameras";
+"AvailableCamerasTitle" = "Verfügbare Kameras";
 
 /* Title of the alert informing the user of a connection failure. */
-"ConnectionFailureTitle" = "Connection Failure";
+"ConnectionFailureTitle" = "Verbindungsfehler";
 
 /* Description of the alert informing the user of a connection failure. */
-"ConnectionFailureMessage" = "The connection to your camera failed. Please switch your camera off and on again then try connecting again. If the problem persists, please contact us for support.";
+"ConnectionFailureMessage" = "Verbindung zur Kamera fehlgeschlagen. Schalten Sie die Kamera aus und wieder ein und versuchen Sie es erneut. Sollte das Problem bestehen bleiben, melden Sie sich bitte bei uns.";
 
 /* Title of the alert informing the user that the camera pairing was cancelled on-camera. */
-"PairingCancelledTitle" = "Pairing Cancelled";
+"PairingCancelledTitle" = "Pairing abgebrochen";
 
 /* Description of the alert informing the user that the camera pairing was cancelled on-camera. */
-"PairingCancelledMessage" = "Pairing was cancelled by the camera. Pairing must be confirmed on the camera's screen to succeed.";
+"PairingCancelledMessage" = "Das Pairing wurde von der Kamera unterbrochen. Das Pairing muss auf der Kamera bestätigt werden.";
 
 /* Title of the alert informing the user that the camera needs a software update before it can be connected to. */
-"CameraNeedsUpdateTitle" = "Camera Needs Update";
+"CameraNeedsUpdateTitle" = "Update für Kamera erforderlich";
 
 /* Description of the alert informing the user that the camera needs a software update before it can be connected to. */
-"CameraNeedsUpdateMessage" = "This camera is not up-to-date enough to allow Cascable to connect.\n\nIf you are connecting to a Sony, please update the \"Smart Remote\" app on your camera, otherwise consult your camera's manufacturer for instructions on how to update its software.";
+"CameraNeedsUpdateMessage" = "Diese Kamera ist nicht aktuell genug, um sie mit Cascable zu verbinden.\n\nWenn Sie eine Sony Kamera verbinden möchten, aktualisieren Sie bitte die „Smart Remote“ App auf Ihrer Kamera oder wenden Sie sich an den Hersteller für Anweisungen zum Aktualisieren der Software.";
 
 /* Title displayed in the main app UI while a camera is connecting. */
-"ConnectingTitle" = "Connecting…";
+"ConnectingTitle" = "Verbinden …";
 
 /* Title displayed in the main app UI while no cameras are connected or available. */
-"SearchingTitle" = "Searching…";
+"SearchingTitle" = "Suchen …";
 
 /* Title displayed in the main app I while cameras are available, but none are connecting. */
-"SomeCamerasAvailableTitle" = "%@ Available";
+"SomeCamerasAvailableTitle" = "%@ verfügbar";
 
 /* Footer text of the connection popup. Ex: '…connected to the same network as your iPad'. */
-"ConnectionHelpDescription" = "Make sure your camera is switched on and connected to the same network as your %@.";
+"ConnectionHelpDescription" = "Prüfen Sie, ob die Kamera eingeschaltet und mit dem gleichen Netzwerk wie Ihr %@ verbunden ist.";
 
 /* Extended footer text for when the device is connected to WiFi. Ex: 'Your iPad is connected to the WiFi network named "My Cool WiFi".'. */
-"ConnectionNetworkDescription" = "Your %@ is connected to the WiFi network named \"%@\".";
+"ConnectionNetworkDescription" = "Ihr %@ ist mit dem WLAN namens „%@“ verbunden.";
 
 /* Extended footer text for when the device isn't connected to WiFi. Ex: 'Your iPad doesn't appear to be connected to a WiFi network.'. */
-"ConnectionNoNetworkDescription" = "Your %@ doesn't appear to be connected to a WiFi network.";
+"ConnectionNoNetworkDescription" = "Ihr %@ ist anscheinend mit keinem WLAN verbunden.";
 
 /* Title of the alert displayed when pairing is in progress and the user needs to operate the camera directly. */
-"SwitchToCameraTitle" = "Switch to Camera";
+"SwitchToCameraTitle" = "Zur Kamera wechseln";
 
 /* Description of the alert displayed when pairing is in progress and the user needs to operate the camera directly. */
-"SwitchToCameraDescription" = "Please follow the instructions on your camera's screen. Cascable will continue to connect once the on-screen instructions have been completed.";
+"SwitchToCameraDescription" = "Folgen Sie den Anweisungen auf dem Bildschirm der Kamera. Cascable setzt das Herstellen der Verbindung fort, wenn Sie die Anweisungen auf der Kamera befolgt haben.";
 
 /* Title of the 'Cancel Pairing' button. */
-"CancelPairingTitle" = "Cancel Pairing";
+"CancelPairingTitle" = "Pairing abbrechen";
