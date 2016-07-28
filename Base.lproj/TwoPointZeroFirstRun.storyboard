@@ -188,7 +188,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEU-Kg-jDC">
-                                <rect key="frame" x="264" y="103" width="495" height="122"/>
+                                <rect key="frame" x="264" y="251" width="495" height="122"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="5Co-iV-ImL">
                                         <variation key="widthClass=compact" constant="260"/>
@@ -224,21 +224,29 @@ For more information on which models are supported, see the new in-app Help Cent
                                     <segue destination="64p-sF-5MF" kind="show" id="mAb-28-KVT"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ColinAndFriends" translatesAutoresizingMaskIntoConstraints="NO" id="Ew4-67-9L4">
+                                <rect key="frame" x="246" y="123" width="532" height="88"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="zEU-Kg-jDC" firstAttribute="top" secondItem="1ZC-Bh-GeY" secondAttribute="bottom" constant="20" id="4L9-oJ-QLp">
-                                <variation key="widthClass=compact" constant="10"/>
-                            </constraint>
                             <constraint firstItem="1ZC-Bh-GeY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="662-TK-s3R" secondAttribute="leading" constant="20" id="Gqm-vI-qoO"/>
                             <constraint firstItem="cGq-qj-Wb6" firstAttribute="centerX" secondItem="662-TK-s3R" secondAttribute="centerX" id="Ozs-uJ-JGB"/>
                             <constraint firstAttribute="centerX" secondItem="1ZC-Bh-GeY" secondAttribute="centerX" id="PvZ-xx-HIA"/>
+                            <constraint firstItem="Ew4-67-9L4" firstAttribute="centerX" secondItem="662-TK-s3R" secondAttribute="centerX" id="ZCW-HS-eyx"/>
+                            <constraint firstItem="Ew4-67-9L4" firstAttribute="top" secondItem="1ZC-Bh-GeY" secondAttribute="bottom" constant="40" id="bBG-An-vk6">
+                                <variation key="widthClass=compact" constant="40"/>
+                            </constraint>
                             <constraint firstAttribute="bottomMargin" secondItem="cGq-qj-Wb6" secondAttribute="bottom" constant="50" id="gab-To-oXc">
                                 <variation key="widthClass=compact" constant="30"/>
                             </constraint>
                             <constraint firstAttribute="centerX" secondItem="zEU-Kg-jDC" secondAttribute="centerX" id="iKz-pK-VtT"/>
                             <constraint firstItem="1ZC-Bh-GeY" firstAttribute="top" secondItem="lDM-b8-0gP" secondAttribute="bottom" constant="40" id="rbd-wt-mmz">
                                 <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="zEU-Kg-jDC" firstAttribute="top" secondItem="Ew4-67-9L4" secondAttribute="bottom" constant="40" id="uxS-hS-gN9">
+                                <variation key="widthClass=compact" constant="40"/>
                             </constraint>
                         </constraints>
                     </view>
@@ -694,6 +702,7 @@ As a thank you, all of the new features in Cascable 2.0 are provided to you as a
     </scenes>
     <resources>
         <image name="AboutIcon" width="150" height="150"/>
+        <image name="ColinAndFriends" width="532" height="88"/>
         <image name="FirstRunMoon" width="139" height="144"/>
         <image name="InstagramLogo" width="44" height="44"/>
         <image name="TwitterLogo" width="44" height="44"/>
