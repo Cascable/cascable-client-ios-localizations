@@ -334,7 +334,7 @@
 "ShareWhatTitle" = "Was teilen?";
 
 /* File type picker option for JPG files. */
-"ShareJPGType" = "JPG";
+"ShareJPGType" = "JPEG";
 
 /* File type picker option for RAW files. */
 "ShareRAWType" = "RAW";
@@ -744,7 +744,7 @@
 "se.cascable.ios.everythingunlockOfflineProductTitle" = "Pro: Komplettes Paket";
 
 /* Header text for the purchases section when no items have been purchased. */
-"NoPurchasesMadeHeader" = "Mit dem Kauf von Cascable Funktionspaketen erhalten Sie Zugriff auf zahlreiche neue Funktionen und unterstützt dabei gleichzeitig ein kleines unabhängiges Unternehmen.";
+"NoPurchasesMadeHeader" = "Mit dem Kauf von Cascable Funktionspaketen erhalten Sie Zugriff auf zahlreiche neue Funktionen und unterstützen dabei gleichzeitig ein kleines unabhängiges Unternehmen.";
 
 /* Header text for the purchases section when the user has a free upgrade due to purchasing Cascable 1.x. */
 "PurchasesGrandfatheredUserHeader" = "Vielen Dank für das schnelle Upgrade! Als Nutzer von Cascable 1.x erhalten Sie dieses Upgrade kostenlos!";

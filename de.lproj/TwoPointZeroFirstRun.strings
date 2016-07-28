@@ -42,7 +42,7 @@
 "Wr9-Wd-JN8.normalTitle" = "Loslegen  →";
 
 /* Class = "UILabel"; text = "Cascable 2.0 provides many new tools to improve your photo management workflow.\n\nRemote preview allows you to see high resolution previews of your photos before copying them to your iOS device, and improved RAW+JPEG support means no more duplicates.\n\nOnce copied over, Cascable's new filtering tools let you search for your photos by date, file type and text search, and an improved photo viewer lets you zoom to 1:1 for a close look at your work."; ObjectID = "avd-i8-4VS"; */
-"avd-i8-4VS.text" = "Cascable 2.0 bietet viele neue Werkzeuge zur Verbesserung Ihres Foto-Managements.\n\nMit der Remote-Vorschau können Sie hoch auflösende Vorschaubilder Ihrer Fotos vor dem Kopieren auf Ihr iOS-Gerät. Verbesserte Unterstützung für RAW- und JPEG vermeidet nun auch doppelte Dateien.\n\nNach dem Kopieren sorgen die neuen Filterwerkzeuge von Cascable dafür, dass Sie Ihre Fotos nach Datum, Dateityp und sogar mit Textsuche filtern können. Die optimierte Fotoansicht ermöglicht einen Zoom bis 1:1 zur Detailansicht Ihrer Arbeit.";
+"avd-i8-4VS.text" = "Cascable 2.0 bietet viele neue Werkzeuge zur Verbesserung Ihres Foto-Managements.\n\nMit der Remote-Vorschau können Sie hoch auflösende Vorschaubilder Ihrer Fotos vor dem Kopieren auf Ihr iOS-Gerät ansehen. Verbesserte Unterstützung für RAW- und JPEG vermeidet nun auch doppelte Dateien.\n\nNach dem Kopieren sorgen die neuen Filterwerkzeuge von Cascable dafür, dass Sie Ihre Fotos nach Datum, Dateityp und sogar mit Textsuche filtern können. Die optimierte Fotoansicht ermöglicht einen Zoom bis 1:1 zur Detailansicht Ihrer Arbeit.";
 
 /* Class = "UIButton"; normalTitle = "Continue →"; ObjectID = "cGq-qj-Wb6"; */
 "cGq-qj-Wb6.normalTitle" = "Weiter →";
@@ -51,7 +51,7 @@
 "dgL-Vh-5m6.text" = "auf Twitter";
 
 /* Class = "UILabel"; text = "Thank you for updating to Cascable 2.0. This is the first major update to Cascable, and contains some great new features and support for many more cameras from Nikon, Sony and Olympus."; ObjectID = "e51-oR-xjz"; */
-"e51-oR-xjz.text" = "Vielen Dank für Ihr Update auf Cascable 2.0. Dieses ist das erste große Update von Cascable, und es beinhaltet einige fantastische neue Funktionen und Unterstützung für viele weitere Kameras von Nikon, Sony und Olympus.";
+"e51-oR-xjz.text" = "Vielen Dank für Ihr Update auf Cascable 2.0. Dieses ist das erste große Update von Cascable, und es beinhaltet viele neue Funktionen und Unterstützung für Kameras von Nikon, Sony und Olympus.";
 
 /* Class = "UILabel"; text = "on Instagram"; ObjectID = "e8w-Sj-KC2"; */
 "e8w-Sj-KC2.text" = "auf Instagram";
@@ -60,7 +60,7 @@
 "gTH-Fo-vxd.normalTitle" = "Cascable nutzen";
 
 /* Class = "UILabel"; text = "Tap \"Get Started\" to see a quick tour of the new features."; ObjectID = "hay-5R-Q3N"; */
-"hay-5R-Q3N.text" = "Tippen Sie auf „Loslegen“, um eine schnelle Einführung in die neuen Funktion zu erhalten.";
+"hay-5R-Q3N.text" = "Tippen Sie auf „Loslegen“ für eine schnelle Einführung in die neuen Funktion.";
 
 /* Class = "UILabel"; text = "What's new in Cascable?"; ObjectID = "l3x-YS-zoX"; */
 "l3x-YS-zoX.text" = "Was ist neu in Cascable?";
