@@ -1,5 +1,5 @@
 {
-    "title" : "Show Tutorial",
+    "title" : "Anleitung anzeigen",
     "id": "se.cascable.client.help.special.tutorial",
     "icon": "shutter-robot.png",
     "category": "se.cascable.client.help.category.tutorials"

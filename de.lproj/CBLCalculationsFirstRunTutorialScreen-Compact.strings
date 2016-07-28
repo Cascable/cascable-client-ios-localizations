@@ -1,27 +1,27 @@
 
 /* Class = "UILabel"; text = "Initial Shutter Speed"; ObjectID = "57b-fj-jmh"; */
-"57b-fj-jmh.text" = "Initial Shutter Speed";
+"57b-fj-jmh.text" = "Erste Verschlusszeit";
 
 /* Class = "UILabel"; text = "Drag the sliders to adjust the calculation in real time. "; ObjectID = "PPm-r6-hve"; */
-"PPm-r6-hve.text" = "Drag the sliders to adjust the calculation in real time. ";
+"PPm-r6-hve.text" = "Schieber ziehen, um die Berechnung in Echtzeit anzupassen. ";
 
 /* Class = "UILabel"; text = "ND 0,3 (1 stop)"; ObjectID = "QHy-nJ-yaO"; */
-"QHy-nJ-yaO.text" = "ND 0,3 (1 stop)";
+"QHy-nJ-yaO.text" = "ND 0,3 (1 Stufe)";
 
 /* Class = "UILabel"; text = "CALCULATION SLIDERS"; ObjectID = "QxT-jx-Wlj"; */
-"QxT-jx-Wlj.text" = "CALCULATION SLIDERS";
+"QxT-jx-Wlj.text" = "BERECHNUNGSSCHIEBER";
 
 /* Class = "UILabel"; text = "Neutral Density Filter"; ObjectID = "Vot-Kq-Eyc"; */
-"Vot-Kq-Eyc.text" = "Neutral Density Filter";
+"Vot-Kq-Eyc.text" = "Neutraldichtefilter";
 
 /* Class = "UILabel"; text = "30 seconds"; ObjectID = "XPv-dt-CSS"; */
-"XPv-dt-CSS.text" = "30 seconds";
+"XPv-dt-CSS.text" = "30 Sekunden";
 
 /* Class = "UILabel"; text = "Filter Density"; ObjectID = "f0o-UZ-Xaa"; */
-"f0o-UZ-Xaa.text" = "Filter Density";
+"f0o-UZ-Xaa.text" = "Filterdichte";
 
 /* Class = "UILabel"; text = "30 seconds"; ObjectID = "l7x-TD-bGz"; */
-"l7x-TD-bGz.text" = "30 seconds";
+"l7x-TD-bGz.text" = "30 Sekunden";
 
 /* Class = "UILabel"; text = "Shutter Speed"; ObjectID = "xPz-rb-8aw"; */
-"xPz-rb-8aw.text" = "Shutter Speed";
+"xPz-rb-8aw.text" = "Verschlusszeit";
