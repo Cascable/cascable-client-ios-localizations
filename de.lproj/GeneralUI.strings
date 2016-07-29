@@ -318,7 +318,7 @@
 "BatchDeleteConfirmTitle_Plural" = "%@ Fotos löschen";
 
 /* Batch delete extra warning alert countdown title. Ex: 'Available in 5…'. */
-"BatchDeleteSomeFilesNotLocalConfirmationCountdownTitle" = "Vverfügbar in %@ …";
+"BatchDeleteSomeFilesNotLocalConfirmationCountdownTitle" = "Verfügbar in %@ …";
 
 /* Batch delete extra warning alert text. Ex: 'Some of the selected files haven't been copied to this iPad. If you continue…'. */
 "BatchDeleteSomeFilesNotLocalConfirmationDescription" = "Einige der markierten Fotos wurden nicht auf dieses %@ kopiert. Wenn Sie fortfahren, könnten Sie DIE EINZIGE KOPIE DIESER FOTOS löschen.\n\nDurch Löschen werden diese Dateien DAUERHAFT von Ihrer Kamera entfernt.\n\nMöchten Sie fortfahren?";
@@ -726,7 +726,7 @@
 "RestorePurchasesButtonTitle" = "Einkäufe wiederherstellen …";
 
 /* Explanation text for the "Restore Purchases" feature. */
-"RestorePurchasesSectionFooter" = "Wenn Sie bereit eine oder mehrere Pro Funktionen von Cascable gekauft haben, können Sie sie auf diesem Gerät wiederherstellen.";
+"RestorePurchasesSectionFooter" = "Wenn Sie bereits eine oder mehrere Pro Funktionen von Cascable gekauft haben, können Sie sie auf diesem Gerät wiederherstellen.";
 
 /* Header text for the list of feature packs if the bundle is available. */
 "ProPackIncludesSectionTitle" = "Das Paket beinhaltet:";
@@ -782,7 +782,7 @@
 "LiveViewFailedErrorTitle" = "Live-Ansicht fehlgeschlagen";
 
 /* 'Live view failed' error title. */
-"LiveViewFailedErrorDescription" = "Live-Ansicht konnte nicht gestartet werden. Prüfen Sie, ob die Kameraliste sicher befestigt ist, und dass nichts die Verschlussmechanik blockiert.";
+"LiveViewFailedErrorDescription" = "Live-Ansicht konnte nicht gestartet werden. Prüfen Sie, ob das Kameraobjektiv sicher befestigt ist, und dass nichts die Verschlussmechanik blockiert.";
 
 /* 'Reduced functionality' error title. */
 "ReducedFunctionalityAlertTitle" = "Verringerte Funktionalität";
