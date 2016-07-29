@@ -3,7 +3,7 @@
 "3ss-hP-gbE.text" = "Der Cascable Store ist zurzeit nicht verfügbar. Prüfen Sie bitte Ihre Netzwerkverbindung.";
 
 /* Class = "UILabel"; text = "If you've previously purchased one or more Cascable Pro feature packs, you can restore them to this device."; ObjectID = "ZTq-Ce-WCq"; */
-"ZTq-Ce-WCq.text" = "Wenn Sie bereit eine oder mehrere Pro Funktionen von Cascable gekauft haben, können Sie sie auf diesem Gerät wiederherstellen.";
+"ZTq-Ce-WCq.text" = "Wenn Sie bereits eine oder mehrere Pro Funktionen von Cascable gekauft haben, können Sie sie auf diesem Gerät wiederherstellen.";
 
 /* Class = "UIButton"; normalTitle = "Restore Purchases"; ObjectID = "eQ7-25-wnZ"; */
 "eQ7-25-wnZ.normalTitle" = "Einkäufe wiederherstellen";
