@@ -151,7 +151,9 @@
                             <constraint firstAttribute="centerX" secondItem="hay-5R-Q3N" secondAttribute="centerX" id="XI9-iq-UcE"/>
                             <constraint firstAttribute="centerX" secondItem="l3x-YS-zoX" secondAttribute="centerX" id="XoP-Ls-G9W"/>
                             <constraint firstAttribute="centerX" secondItem="aXi-v8-9jx" secondAttribute="centerX" id="suR-NW-9Ao"/>
-                            <constraint firstItem="l3x-YS-zoX" firstAttribute="top" secondItem="Y9H-Or-uKy" secondAttribute="bottom" constant="20" id="tdj-ef-JnL"/>
+                            <constraint firstItem="l3x-YS-zoX" firstAttribute="top" secondItem="Y9H-Or-uKy" secondAttribute="bottom" constant="20" id="tdj-ef-JnL">
+                                <variation key="widthClass=compact" constant="10"/>
+                            </constraint>
                             <constraint firstItem="e51-oR-xjz" firstAttribute="top" secondItem="l3x-YS-zoX" secondAttribute="bottom" constant="30" id="yBF-0p-eW6">
                                 <variation key="widthClass=compact" constant="10"/>
                             </constraint>
@@ -160,6 +162,7 @@
                     <navigationItem key="navigationItem" id="qHR-UW-jcB"/>
                     <connections>
                         <outlet property="iconImageView" destination="Y9H-Or-uKy" id="wQu-3s-H4p"/>
+                        <outlet property="titleSubtitleConstraint" destination="yBF-0p-eW6" id="bR7-5S-Git"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b0S-TM-LeV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -792,6 +795,6 @@ Enjoy!</string>
         <image name="TwitterLogo" width="44" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="y2n-9M-f52"/>
+        <segue reference="2dZ-45-i3I"/>
     </inferredMetricsTieBreakers>
 </document>
