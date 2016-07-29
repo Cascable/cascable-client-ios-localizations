@@ -39,7 +39,7 @@
 "wTX-HU-EgX.title" = "Preset sichern";
 
 /* Class = "UILabel"; text = "Maximum Shutter Speed"; ObjectID = "xZ0-OY-bfb"; */
-"xZ0-OY-bfb.text" = "Maximale Verschlussgeschwindigkeit";
+"xZ0-OY-bfb.text" = "Max. Verschlussgeschwindigkeit";
 
 /* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "z2w-Jc-yrN"; */
 "z2w-Jc-yrN.title" = "Sichern";
