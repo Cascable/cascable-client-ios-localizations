@@ -661,8 +661,12 @@ Enjoy!</string>
                                     <segue destination="VTa-aR-8qN" kind="show" id="Gcd-2A-nik"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PurchasedFace" translatesAutoresizingMaskIntoConstraints="NO" id="jD2-jh-l9Q">
+                                <rect key="frame" x="412" y="123" width="200" height="206"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9p-kN-Ff7">
-                                <rect key="frame" x="264" y="103" width="495" height="82"/>
+                                <rect key="frame" x="265" y="369" width="495" height="81.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="UXs-DG-tVg">
                                         <variation key="widthClass=compact" constant="280"/>
@@ -687,11 +691,17 @@ As a thank you, all of the new features in Cascable 2.0 are provided to you as a
                             <constraint firstItem="Brp-aw-MgW" firstAttribute="top" secondItem="Ywa-Bw-bJv" secondAttribute="bottom" constant="40" id="70Y-L5-HEK">
                                 <variation key="widthClass=compact" constant="20"/>
                             </constraint>
-                            <constraint firstItem="U9p-kN-Ff7" firstAttribute="top" secondItem="Brp-aw-MgW" secondAttribute="bottom" constant="20" id="LDX-eQ-Bm6"/>
+                            <constraint firstItem="jD2-jh-l9Q" firstAttribute="top" secondItem="Brp-aw-MgW" secondAttribute="bottom" constant="40" id="BHD-En-hP4">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="jD2-jh-l9Q" firstAttribute="centerX" secondItem="4S1-yv-P4O" secondAttribute="centerX" id="Bh3-Ou-QSl"/>
                             <constraint firstItem="Brp-aw-MgW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="4S1-yv-P4O" secondAttribute="leading" constant="20" id="QtN-JS-xTz"/>
                             <constraint firstAttribute="centerX" secondItem="U9p-kN-Ff7" secondAttribute="centerX" id="S8n-8e-qha"/>
                             <constraint firstAttribute="centerX" secondItem="GtB-eF-Akk" secondAttribute="centerX" id="hK0-fS-Bxr"/>
                             <constraint firstAttribute="centerX" secondItem="Brp-aw-MgW" secondAttribute="centerX" id="p2f-0V-0fg"/>
+                            <constraint firstItem="U9p-kN-Ff7" firstAttribute="top" secondItem="jD2-jh-l9Q" secondAttribute="bottom" constant="40" id="pFI-oF-ceY">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
                         </constraints>
                     </view>
                 </viewController>
@@ -705,9 +715,10 @@ As a thank you, all of the new features in Cascable 2.0 are provided to you as a
         <image name="ColinAndFriends" width="532" height="88"/>
         <image name="FirstRunMoon" width="139" height="144"/>
         <image name="InstagramLogo" width="44" height="44"/>
+        <image name="PurchasedFace" width="200" height="206"/>
         <image name="TwitterLogo" width="44" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2HJ-Zd-DHT"/>
+        <segue reference="Gcd-2A-nik"/>
     </inferredMetricsTieBreakers>
 </document>
