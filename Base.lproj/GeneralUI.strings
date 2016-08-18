@@ -965,6 +965,12 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Subtitle of the 'Bulb Timer' shutter robot module. */
 "BulbRobotSubTitle" = "Keep the shutter open for a long period.";
 
+/* Title of the 'Shot Duration' self timer setting. */
+"BulbRobotDurationTitle" = "Shot Duration";
+
+/* Title of the "Time between shots" bulb timer module. */
+"BulbRobotTimeBetweenShotsTitle" = "Time Between Shots";
+
 // ------------------------------------------------------------
 //     Shutter Robot: Intervalometer
 // ------------------------------------------------------------
