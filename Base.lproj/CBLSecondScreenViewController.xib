@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11198.2" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CBLSecondScreenViewController">
             <connections>
                 <outlet property="featureUnavailableContainer" destination="DbK-0d-sVK" id="TNJ-lZ-SRV"/>
                 <outlet property="featureUnavailableIcon" destination="nwi-I1-R2g" id="Wak-RG-slI"/>
+                <outlet property="histogramContainer" destination="cuF-Hm-WPk" id="3GP-5a-lep"/>
+                <outlet property="histogramView" destination="YM3-oO-MBN" id="PoQ-51-y3r"/>
                 <outlet property="imageView" destination="Ddj-dA-rzd" id="NYN-rM-7RV"/>
-                <outlet property="noImagesContainer" destination="9sN-8i-Azu" id="NNT-7t-FCI"/>
-                <outlet property="noImagesIcon" destination="bVI-Ri-8xl" id="8cl-et-KYv"/>
+                <outlet property="noImageContainer" destination="9sN-8i-Azu" id="oB9-rd-Pah"/>
+                <outlet property="noImageIcon" destination="bVI-Ri-8xl" id="8x5-aw-vOh"/>
+                <outlet property="toolbar" destination="PiJ-it-9jc" id="c6L-8e-6M7"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,29 +24,59 @@
             <rect key="frame" x="0.0" y="0.0" width="814" height="612"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ddj-dA-rzd">
-                    <rect key="frame" x="0.0" y="0.0" width="814" height="612"/>
-                </imageView>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9sN-8i-Azu">
-                    <rect key="frame" x="189" y="169" width="437.5" height="275"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ddj-dA-rzd"/>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="PiJ-it-9jc">
+                    <items/>
+                </toolbar>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cuF-Hm-WPk" userLabel="Histogram Container">
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Files" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NCa-Dz-Nxn">
-                            <rect key="frame" x="152" y="180" width="134" height="46"/>
+                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uRb-Sr-LlE">
+                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="nqe-w5-NPR">
+                                <frame key="frameInset"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YM3-oO-MBN" customClass="HistogramView" customModule="Cascable" customModuleProvider="target">
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="YM3-oO-MBN" secondAttribute="trailing" constant="10" id="7IW-Mw-jaL"/>
+                                    <constraint firstItem="YM3-oO-MBN" firstAttribute="leading" secondItem="nqe-w5-NPR" secondAttribute="leading" constant="10" id="EV6-rT-K1l"/>
+                                    <constraint firstAttribute="bottom" secondItem="YM3-oO-MBN" secondAttribute="bottom" constant="10" id="QZb-nq-hhD"/>
+                                    <constraint firstItem="YM3-oO-MBN" firstAttribute="top" secondItem="nqe-w5-NPR" secondAttribute="top" constant="20" id="ppY-cx-f9k"/>
+                                </constraints>
+                            </view>
+                            <blurEffect style="dark"/>
+                        </visualEffectView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="uRb-Sr-LlE" firstAttribute="leading" secondItem="cuF-Hm-WPk" secondAttribute="leading" id="6IU-VT-BuE"/>
+                        <constraint firstAttribute="width" constant="240" id="JHn-Cv-Pfy">
+                            <variation key="heightClass=compact" constant="128"/>
+                            <variation key="widthClass=compact" constant="128"/>
+                        </constraint>
+                        <constraint firstAttribute="width" secondItem="cuF-Hm-WPk" secondAttribute="height" multiplier="15:8" id="McR-do-lUf"/>
+                        <constraint firstItem="uRb-Sr-LlE" firstAttribute="top" secondItem="cuF-Hm-WPk" secondAttribute="top" id="Mez-Wx-qt1"/>
+                        <constraint firstAttribute="bottom" secondItem="uRb-Sr-LlE" secondAttribute="bottom" id="acx-ol-ChC"/>
+                        <constraint firstAttribute="trailing" secondItem="uRb-Sr-LlE" secondAttribute="trailing" id="qX0-hX-8Ti"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9sN-8i-Azu">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Photo Chosen" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NCa-Dz-Nxn">
                             <fontDescription key="fontDescription" type="system" pointSize="38"/>
-                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AboutIcon" translatesAutoresizingMaskIntoConstraints="NO" id="bVI-Ri-8xl">
-                            <rect key="frame" x="144" y="20" width="150" height="150"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="150" id="4gc-pd-2o6"/>
                                 <constraint firstAttribute="width" secondItem="bVI-Ri-8xl" secondAttribute="height" multiplier="1:1" id="vE1-bd-nMR"/>
                             </constraints>
                         </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Download files from your camera to view them here." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SG1-Vm-tKC">
-                            <rect key="frame" x="20" y="234" width="397.5" height="21"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a photo on your device to view it here." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SG1-Vm-tKC">
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
@@ -58,19 +92,24 @@
                     </constraints>
                 </view>
             </subviews>
-            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstAttribute="bottom" secondItem="PiJ-it-9jc" secondAttribute="bottom" id="097-4T-Fwv"/>
                 <constraint firstAttribute="trailing" secondItem="Ddj-dA-rzd" secondAttribute="trailing" id="G7n-QF-Mod"/>
+                <constraint firstAttribute="trailing" secondItem="PiJ-it-9jc" secondAttribute="trailing" id="UaP-2F-mDm"/>
                 <constraint firstAttribute="centerX" secondItem="9sN-8i-Azu" secondAttribute="centerX" id="a3T-Yl-So5"/>
                 <constraint firstAttribute="bottom" secondItem="Ddj-dA-rzd" secondAttribute="bottom" id="eUw-dS-JSu"/>
                 <constraint firstItem="Ddj-dA-rzd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="efY-cT-bAZ"/>
+                <constraint firstItem="PiJ-it-9jc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fKc-DX-E1Z"/>
                 <constraint firstAttribute="centerY" secondItem="9sN-8i-Azu" secondAttribute="centerY" id="l2F-2p-FEa"/>
+                <constraint firstItem="cuF-Hm-WPk" firstAttribute="width" secondItem="cuF-Hm-WPk" secondAttribute="height" multiplier="15:8" id="mUp-o2-n1F"/>
+                <constraint firstAttribute="trailing" secondItem="cuF-Hm-WPk" secondAttribute="trailing" constant="40" id="mvd-0V-6IK"/>
                 <constraint firstItem="Ddj-dA-rzd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="szm-0n-FqC"/>
+                <constraint firstItem="cuF-Hm-WPk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="yKI-IS-MFL"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
-            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="509" y="383"/>
         </view>
@@ -79,28 +118,24 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Afw-Vl-tN8">
-                    <rect key="frame" x="94" y="115" width="540" height="275"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feature Not Available" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="5v3-pK-Ckv">
-                            <rect key="frame" x="92.5" y="180" width="355" height="46"/>
                             <fontDescription key="fontDescription" type="system" pointSize="38"/>
-                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AboutIcon" translatesAutoresizingMaskIntoConstraints="NO" id="nwi-I1-R2g">
-                            <rect key="frame" x="195" y="20" width="150" height="150"/>
                             <constraints>
                                 <constraint firstAttribute="width" secondItem="nwi-I1-R2g" secondAttribute="height" multiplier="1:1" id="2dT-R6-dsW"/>
                                 <constraint firstAttribute="width" constant="150" id="fty-XJ-eeS"/>
                             </constraints>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To view photos on an external display, you need to purchase the Photo Management Pro Pack." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qdd-8f-H8a">
-                            <rect key="frame" x="20" y="234" width="500" height="21"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="500" id="g1z-ci-FiG"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
@@ -116,14 +151,14 @@
                     </constraints>
                 </view>
             </subviews>
-            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="Afw-Vl-tN8" firstAttribute="centerX" secondItem="DbK-0d-sVK" secondAttribute="centerX" id="J6a-GU-Ku0"/>
                 <constraint firstItem="Afw-Vl-tN8" firstAttribute="centerY" secondItem="DbK-0d-sVK" secondAttribute="centerY" id="f9i-yo-duV"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="452.5" y="439.5"/>
+            <point key="canvasLocation" x="591.5" y="423.5"/>
         </view>
     </objects>
     <resources>
