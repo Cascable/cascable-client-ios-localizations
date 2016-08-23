@@ -443,6 +443,9 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 /* Focal length formatter - e.g., "40 mm" */
 "FocalLengthFormatter" = "%@ mm";
 
+/* EV formatter - e.g. "+2 EV" */
+"EVMetadataFormatter" = "%@ EV";
+
 /* Text to use when metadata is unavailable. */
 "NoMetadataFiller" = "—";
 
