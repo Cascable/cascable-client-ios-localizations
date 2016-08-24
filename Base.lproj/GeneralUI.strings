@@ -139,6 +139,9 @@
 /* The title of the fullscreen image view, including a count and a name. Ex: '1 of 12 — IMG_0001.JPG'. */
 "FullScreenImagePreviewTitle" = "%@ of %@ — %@";
 
+/* The title of the fullscreen image view during editing. Ex: 'Quick Proof — IMG_0001.JPG'. */
+"FullScreenImagePreviewWhileEditingTitle" = "Quick Proof — %@";
+
 /* The footer of the device image view, including item count. Ex: '1 item'. */
 "DeviceSpaceOnlyFormatter" = "%@ item";
 
