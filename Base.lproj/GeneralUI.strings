@@ -453,6 +453,13 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 "NoMetadataFiller" = "—";
 
 // ------------------------------------------------------------
+//     Files Mode: Editing
+// ------------------------------------------------------------
+
+/* The title of the 'Edit' button for the Quick Proof feature. */
+"QuickProofEditButtonTitle" = "Edit";
+
+// ------------------------------------------------------------
 //     Help and First Run
 // ------------------------------------------------------------
 
