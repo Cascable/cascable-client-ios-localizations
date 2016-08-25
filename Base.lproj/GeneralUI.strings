@@ -640,11 +640,11 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 "MultiVariantDownloadChoice2Title" = "Copy JPEG File";
 "MultiVariantDownloadChoice3Title" = "Copy Both Files";
 
-/* Title for the 'Use Legacy RAW Renderer' setting. */
-"UseLegacyRAWRendererSettingTitle" = "Use Legacy RAW Renderer";
+/* Title for the 'Use Legacy Image Renderer' setting. */
+"UseLegacyImageRendererSettingTitle" = "Use Legacy Image Renderer";
 
-/* Footer text for the 'Use Legacy RAW Renderer' setting. */
-"UseLegacyRAWRendererSettingFooter" = "On modern iOS devices running iOS 10, Cascable uses a new hardware-accelerated renderer to show RAW images at full resolution and with increased dynamic range. In some cases, particularly on devices with less RAM, this can cause problems. If you get crashes when trying to view RAW images, try enabling this setting.";
+/* Footer text for the 'Use Legacy Image Renderer' setting. */
+"UseLegacyImageRendererSettingFooter" = "On modern iOS devices running iOS 10, Cascable uses a new hardware-accelerated renderer to show images at full resolution and with increased dynamic range. In some cases, particularly on devices with less RAM, this can cause problems. If you get crashes when trying to view RAW images, try enabling this setting.";
 
 /* Title for the 'Stop Live View On Idle' setting. */
 "DisableLiveViewOnInActivitySettingTitle" = "Stop Live View on Idle";
