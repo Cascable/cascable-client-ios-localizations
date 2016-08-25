@@ -139,9 +139,6 @@
 /* The title of the fullscreen image view, including a count and a name. Ex: '1 of 12 — IMG_0001.JPG'. */
 "FullScreenImagePreviewTitle" = "%@ of %@ — %@";
 
-/* The title of the fullscreen image view during editing. Ex: 'Quick Proof — IMG_0001.JPG'. */
-"FullScreenImagePreviewWhileEditingTitle" = "Quick Proof — %@";
-
 /* The footer of the device image view, including item count. Ex: '1 item'. */
 "DeviceSpaceOnlyFormatter" = "%@ item";
 
@@ -458,6 +455,27 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 
 /* The title of the 'Edit' button for the Quick Proof feature. */
 "QuickProofEditButtonTitle" = "Edit";
+
+/* The title of the fullscreen image view during editing. Ex: 'Quick Proof — IMG_0001.JPG'. */
+"FullScreenImagePreviewWhileEditingTitle" = "Quick Proof — %@";
+
+/* The title of the alert presented when the user is unable to edit an image. */
+"QuickProofUnavailableAlertTitle" = "Quick Proof Unavailable";
+
+/* The message of the alert presented when the user is unable to edit an image due to having an old iOS version. */
+"QuickProofUnavailableNeedsiOS10MessageFormatter" = "To use Quick Proof, you must be running iOS 10 or higher. You can update your %@ to iOS 10 in the Settings app.";
+
+/* The message of the alert presented when the user is unable to edit an image due to having an old device. */
+"QuickProofUnavailableDeviceTooOldMessage" = "To use Quick Proof, you must have an iPhone 6, iPad Air or 6th Generation iPod touch or newer.";
+
+/* The message of the alert presented when the user is unable to edit an image due to an unsupported image type. */
+"QuickProofUnavailableUnsupportedImageMessage" = "Quick Proof does not support this kind of image.";
+
+/* The message of the alert presented when the user is unable to edit an image due to not having the required Pro pack. */
+"QuickProofUnavailableNeedsProPackMessage" = "Quick Proof is a feature of Cascable Pro: Photo Management.";
+
+/* The message of the alert presented when the user is unable to edit an image due to enabling the 'Use Legacy Image Renderer' setting. */
+"QuickProofUnavailableNeedsModernRendererMessage" = "Quick Proof is not available while you have the 'Use Legacy Image Renderer' setting enabled.";
 
 // ------------------------------------------------------------
 //     Help and First Run
