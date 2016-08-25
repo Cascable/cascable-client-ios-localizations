@@ -466,7 +466,7 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 "QuickProofUnavailableNeedsiOS10MessageFormatter" = "To use Quick Proof, you must be running iOS 10 or higher. You can update your %@ to iOS 10 in the Settings app.";
 
 /* The message of the alert presented when the user is unable to edit an image due to having an old device. */
-"QuickProofUnavailableDeviceTooOldMessage" = "To use Quick Proof, you must have an iPhone 6, iPad Air or 6th Generation iPod touch or newer.";
+"QuickProofUnavailableDeviceTooOldMessage" = "To use Quick Proof, you must have an iPhone 6, iPad Air 2, iPad mini 4 or 6th Generation iPod touch or newer.";
 
 /* The message of the alert presented when the user is unable to edit an image due to an unsupported image type. */
 "QuickProofUnavailableUnsupportedImageMessage" = "Quick Proof does not support this kind of image.";
