@@ -477,6 +477,18 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 /* The message of the alert presented when the user is unable to edit an image due to enabling the 'Use Legacy Image Renderer' setting. */
 "QuickProofUnavailableNeedsModernRendererMessage" = "Quick Proof is not available while you have the 'Use Legacy Image Renderer' setting enabled.";
 
+/* Edit tool titles */
+"ExposureEditToolTitle" = "Exposure";
+"TemperatureEditToolTitle" = "Temperature";
+"TintEditToolTitle" = "Tint";
+"ShadowsEditToolTitle" = "Shadows";
+"HighlightsEditToolTitle" = "Highlights";
+"SharpeningEditToolTitle" = "Sharpening";
+"SaturationEditToolTitle" = "Saturation";
+"ContrastEditToolTitle" = "Contrast";
+"IntensityEditToolTitle" = "Intensity";
+"RadiusEditToolTitle" = "Radius";
+
 // ------------------------------------------------------------
 //     Help and First Run
 // ------------------------------------------------------------
