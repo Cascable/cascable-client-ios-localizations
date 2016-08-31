@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11198.2" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold-700.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WelcomeToCascableViewController" customModule="Cascable" customModuleProvider="target">
+            <connections>
+                <outlet property="camerasImage" destination="89Q-Sy-6WJ" id="eFU-5C-ULU"/>
+                <outlet property="searchingForCamerasArc" destination="EL7-9X-FWJ" id="hKE-kx-zvg"/>
+                <outlet property="titleLabel" destination="erO-sq-HbD" id="lCA-t5-bNv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="textLabels" destination="qmd-sY-QHU" collectionClass="NSMutableArray" id="fcV-nM-beI"/>
+                <outletCollection property="textLabels" destination="ddQ-Wt-q0A" collectionClass="NSMutableArray" id="YAd-mr-Anq"/>
+                <outletCollection property="buttons" destination="ZQR-9a-gue" collectionClass="NSMutableArray" id="iFW-QK-stq"/>
+                <outletCollection property="buttons" destination="uGf-HY-waB" collectionClass="NSMutableArray" id="Fot-aA-2c8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ColinAndFriends" translatesAutoresizingMaskIntoConstraints="NO" id="89Q-Sy-6WJ"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cascable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="erO-sq-HbD">
+                    <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="44"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmd-sY-QHU">
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EL7-9X-FWJ" customClass="CBLArcView">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="BZA-Bk-igK"/>
+                        <constraint firstAttribute="width" constant="25" id="d5A-Ad-XfY"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="reverseDrawing" value="NO"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isLeftToRight" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Looking for your camera" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddQ-Wt-q0A">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="86" id="Je4-MO-CAb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cascable is your digital photography assistant. Let's get started!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jqb-g8-v0u">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="XQn-0R-PqA">
+                            <variation key="heightClass=regular-widthClass=regular" constant="360"/>
+                        </constraint>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    </variation>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQR-9a-gue">
+                    <state key="normal" title="View Tutorial"/>
+                    <connections>
+                        <action selector="viewTutorial:" destination="-1" eventType="touchUpInside" id="2S1-4P-83k"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGf-HY-waB">
+                    <state key="normal" title="What's New?"/>
+                    <connections>
+                        <action selector="viewWhatsNew:" destination="-1" eventType="touchUpInside" id="OLn-Ma-P9j"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="erO-sq-HbD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0Rj-EZ-Dhq"/>
+                <constraint firstItem="ZQR-9a-gue" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="1jm-Xp-LG4"/>
+                <constraint firstItem="89Q-Sy-6WJ" firstAttribute="top" secondItem="erO-sq-HbD" secondAttribute="bottom" constant="20" id="6rP-uU-wzR"/>
+                <constraint firstItem="Jqb-g8-v0u" firstAttribute="top" secondItem="89Q-Sy-6WJ" secondAttribute="bottom" constant="28" id="8yc-9O-bFJ"/>
+                <constraint firstItem="EL7-9X-FWJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="9Up-15-o45"/>
+                <constraint firstItem="ddQ-Wt-q0A" firstAttribute="centerY" secondItem="EL7-9X-FWJ" secondAttribute="bottom" constant="-4" id="A1N-LF-W6E"/>
+                <constraint firstItem="erO-sq-HbD" firstAttribute="top" secondItem="qmd-sY-QHU" secondAttribute="bottom" constant="-8" id="Ffm-L5-ztr"/>
+                <constraint firstItem="Jqb-g8-v0u" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="HbV-aV-Jng"/>
+                <constraint firstItem="89Q-Sy-6WJ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-40" id="NIc-Ls-N8D"/>
+                <constraint firstItem="EL7-9X-FWJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="100" id="XBh-kg-m9T"/>
+                <constraint firstItem="EL7-9X-FWJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-2" id="Xq0-L3-Sci"/>
+                <constraint firstItem="qmd-sY-QHU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Xtu-4U-2Gm"/>
+                <constraint firstItem="ZQR-9a-gue" firstAttribute="top" secondItem="Jqb-g8-v0u" secondAttribute="bottom" constant="30" id="Z5q-bN-yL0"/>
+                <constraint firstItem="uGf-HY-waB" firstAttribute="top" secondItem="ZQR-9a-gue" secondAttribute="bottom" constant="20" id="en8-NB-QS6"/>
+                <constraint firstItem="89Q-Sy-6WJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kLk-wl-jdw"/>
+                <constraint firstItem="uGf-HY-waB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="nS0-MG-iWg"/>
+                <constraint firstItem="ddQ-Wt-q0A" firstAttribute="leading" secondItem="EL7-9X-FWJ" secondAttribute="trailing" constant="4" id="rPl-2l-v6w"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="XBh-kg-m9T"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=regular">
+                <mask key="constraints">
+                    <include reference="XBh-kg-m9T"/>
+                    <exclude reference="Xq0-L3-Sci"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="-214" y="15"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ColinAndFriends" width="266" height="44"/>
+    </resources>
+</document>
