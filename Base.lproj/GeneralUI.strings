@@ -553,6 +553,9 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 /* Title of the 'More Information…' button. */
 "MoreInformationTitle" = "More Information…";
 
+/* Title of the 'More Info…' button. */
+"MoreInformationShortTitle" = "More Info…";
+
 /* 'SLIDE FOR SHUTTER' title in remote control tutorial. Should be in capitals. */
 "FirstRunShutterLabelTitle" = "SLIDE FOR SHUTTER";
 
