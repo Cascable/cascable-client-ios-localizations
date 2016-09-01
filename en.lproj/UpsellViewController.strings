@@ -1,6 +1,6 @@
 
-/* Class = "UILabel"; text = "The Cascable store is not available at the moment. Please check your network connection."; ObjectID = "3ss-hP-gbE"; */
-"3ss-hP-gbE.text" = "The Cascable store is not available at the moment. Please check your network connection.";
+/* Class = "UILabel"; text = "The Cascable store is not available at the moment. Please check your network connection. If connected to a camera, you may need to disconnect to reach a network with Internet connectivity."; ObjectID = "3ss-hP-gbE"; */
+"3ss-hP-gbE.text" = "The Cascable store is not available at the moment. Please check your network connection. If connected to a camera, you may need to disconnect to reach a network with Internet connectivity.";
 
 /* Class = "UILabel"; text = "If you've previously purchased one or more Cascable Pro feature packs, you can restore them to this device."; ObjectID = "ZTq-Ce-WCq"; */
 "ZTq-Ce-WCq.text" = "If you've previously purchased one or more Cascable Pro feature packs, you can restore them to this device.";

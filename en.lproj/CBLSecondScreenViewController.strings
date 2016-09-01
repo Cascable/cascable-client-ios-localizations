@@ -2,11 +2,11 @@
 /* Class = "UILabel"; text = "Feature Not Available"; ObjectID = "5v3-pK-Ckv"; */
 "5v3-pK-Ckv.text" = "Feature Not Available";
 
-/* Class = "UILabel"; text = "No Files"; ObjectID = "NCa-Dz-Nxn"; */
-"NCa-Dz-Nxn.text" = "No Files";
+/* Class = "UILabel"; text = "No Photo Chosen"; ObjectID = "NCa-Dz-Nxn"; */
+"NCa-Dz-Nxn.text" = "No Photo Chosen";
 
-/* Class = "UILabel"; text = "Download files from your camera to view them here."; ObjectID = "SG1-Vm-tKC"; */
-"SG1-Vm-tKC.text" = "Download files from your camera to view them here.";
+/* Class = "UILabel"; text = "Choose a photo on your device to view it here."; ObjectID = "SG1-Vm-tKC"; */
+"SG1-Vm-tKC.text" = "Choose a photo on your device to view it here.";
 
 /* Class = "UILabel"; text = "To view photos on an external display, you need to purchase the Photo Management Pro Pack."; ObjectID = "qdd-8f-H8a"; */
 "qdd-8f-H8a.text" = "To view photos on an external display, you need to purchase the Photo Management Pro Pack.";

@@ -102,6 +102,12 @@
 /* Subtitle of the files mode warning that the camera doesn't allow file access. */
 "NoFileTransferSupportDescription" = "Your camera doesn't allow storage access to apps.";
 
+/* Title of the files mode warning that the camera doesn't allow file access. */
+"NoFileTransferSupportTitle" = "File Access Not Supported";
+
+/* Subtitle of the files mode warning that the camera doesn't allow file access. */
+"NoFileTransferSupportDescription" = "Your camera doesn't allow storage access to apps.";
+
 /* Title of the files mode warning that there is no memory card in the connected camera. */
 "NoMemoryCardAvailableTitle" = "No Memory Card";
 
@@ -338,7 +344,7 @@ Are you sure you want to proceed?";
 "ShareWhatTitle" = "Share What?";
 
 /* File type picker option for JPG files. */
-"ShareJPGType" = "JPG";
+"ShareJPGType" = "JPEG";
 
 /* File type picker option for RAW files. */
 "ShareRAWType" = "RAW";
@@ -437,8 +443,51 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 /* Focal length formatter - e.g., "40 mm" */
 "FocalLengthFormatter" = "%@ mm";
 
+/* EV formatter - e.g. "+2 EV" */
+"EVMetadataFormatter" = "%@ EV";
+
 /* Text to use when metadata is unavailable. */
 "NoMetadataFiller" = "—";
+
+// ------------------------------------------------------------
+//     Files Mode: Editing
+// ------------------------------------------------------------
+
+/* The title of the 'Edit' button for the Quick Proof feature. */
+"QuickProofEditButtonTitle" = "Edit";
+
+/* The title of the fullscreen image view during editing. Ex: 'Quick Proof — IMG_0001.JPG'. */
+"FullScreenImagePreviewWhileEditingTitle" = "Quick Proof — %@";
+
+/* The title of the alert presented when the user is unable to edit an image. */
+"QuickProofUnavailableAlertTitle" = "Quick Proof Unavailable";
+
+/* The message of the alert presented when the user is unable to edit an image due to having an old iOS version. */
+"QuickProofUnavailableNeedsiOS10MessageFormatter" = "To use Quick Proof, you must be running iOS 10 or higher. You can update your %@ to iOS 10 in the Settings app.";
+
+/* The message of the alert presented when the user is unable to edit an image due to having an old device. */
+"QuickProofUnavailableDeviceTooOldMessage" = "To use Quick Proof, you must have an iPhone 6, iPad Air 2, iPad mini 4 or 6th Generation iPod touch or newer.";
+
+/* The message of the alert presented when the user is unable to edit an image due to an unsupported image type. */
+"QuickProofUnavailableUnsupportedImageMessage" = "Quick Proof does not support this kind of image.";
+
+/* The message of the alert presented when the user is unable to edit an image due to not having the required Pro pack. */
+"QuickProofUnavailableNeedsProPackMessage" = "Quick Proof is a feature of Cascable Pro: Photo Management.";
+
+/* The message of the alert presented when the user is unable to edit an image due to enabling the 'Use Legacy Image Renderer' setting. */
+"QuickProofUnavailableNeedsModernRendererMessage" = "Quick Proof is not available while you have the 'Use Legacy Image Renderer' setting enabled.";
+
+/* Edit tool titles */
+"ExposureEditToolTitle" = "Exposure";
+"TemperatureEditToolTitle" = "Temperature";
+"TintEditToolTitle" = "Tint";
+"ShadowsEditToolTitle" = "Shadows";
+"HighlightsEditToolTitle" = "Highlights";
+"SharpeningEditToolTitle" = "Sharpening";
+"SaturationEditToolTitle" = "Saturation";
+"ContrastEditToolTitle" = "Contrast";
+"IntensityEditToolTitle" = "Intensity";
+"RadiusEditToolTitle" = "Radius";
 
 // ------------------------------------------------------------
 //     Help and First Run
@@ -503,6 +552,9 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 
 /* Title of the 'More Information…' button. */
 "MoreInformationTitle" = "More Information…";
+
+/* Title of the 'More Info…' button. */
+"MoreInformationShortTitle" = "More Info…";
 
 /* 'SLIDE FOR SHUTTER' title in remote control tutorial. Should be in capitals. */
 "FirstRunShutterLabelTitle" = "SLIDE FOR SHUTTER";
@@ -602,6 +654,12 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 "MultiVariantDownloadChoice1Title" = "Copy RAW File";
 "MultiVariantDownloadChoice2Title" = "Copy JPEG File";
 "MultiVariantDownloadChoice3Title" = "Copy Both Files";
+
+/* Title for the 'Use Legacy Image Renderer' setting. */
+"UseLegacyImageRendererSettingTitle" = "Use Legacy Image Renderer";
+
+/* Footer text for the 'Use Legacy Image Renderer' setting. */
+"UseLegacyImageRendererSettingFooter" = "On modern iOS devices running iOS 10, Cascable uses a new hardware-accelerated renderer to show images at full resolution and with increased dynamic range. In some cases, particularly on devices with less RAM, this can cause problems. If you get crashes when trying to view RAW images, try enabling this setting.";
 
 /* Title for the 'Stop Live View On Idle' setting. */
 "DisableLiveViewOnInActivitySettingTitle" = "Stop Live View on Idle";
@@ -952,6 +1010,12 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 
 /* Subtitle of the 'Bulb Timer' shutter robot module. */
 "BulbRobotSubTitle" = "Keep the shutter open for a long period.";
+
+/* Title of the 'Shot Duration' self timer setting. */
+"BulbRobotDurationTitle" = "Shot Duration";
+
+/* Title of the "Time between shots" bulb timer module. */
+"BulbRobotTimeBetweenShotsTitle" = "Time Between Shots";
 
 // ------------------------------------------------------------
 //     Shutter Robot: Intervalometer
