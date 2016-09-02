@@ -456,8 +456,8 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 /* The title of the 'Edit' button for the Quick Proof feature. */
 "QuickProofEditButtonTitle" = "Edit";
 
-/* The title of the fullscreen image view during editing. Ex: 'Quick Proof — IMG_0001.JPG'. */
-"FullScreenImagePreviewWhileEditingTitle" = "Quick Proof — %@";
+/* The title of the fullscreen image view during editing. Ex: 'Quick Proof'. */
+"FullScreenImagePreviewWhileEditingTitle" = "Quick Proof";
 
 /* The title of the alert presented when the user is unable to edit an image. */
 "QuickProofUnavailableAlertTitle" = "Quick Proof Unavailable";
