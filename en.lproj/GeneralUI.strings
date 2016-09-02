@@ -139,6 +139,9 @@
 /* The title of the fullscreen image view, including a count and a name. Ex: '1 of 12 — IMG_0001.JPG'. */
 "FullScreenImagePreviewTitle" = "%@ of %@ — %@";
 
+/* A position counter. Ex: '2 of 23'. */
+"XofYCounterTitle" = "%@ of %@";
+
 /* The footer of the device image view, including item count. Ex: '1 item'. */
 "DeviceSpaceOnlyFormatter" = "%@ item";
 
