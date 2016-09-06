@@ -330,11 +330,7 @@
 "BatchDeleteSomeFilesNotLocalConfirmationCountdownTitle" = "Available in %@…";
 
 /* Batch delete extra warning alert text. Ex: 'Some of the selected files haven't been copied to this iPad. If you continue…'. */
-"BatchDeleteSomeFilesNotLocalConfirmationDescription" = "Some of the selected photo haven't been copied to this %@. If you continue, you may be deleting the ONLY COPIES OF THESE PHOTOS.
-
-Deleting them will PERMANENTLY remove them from your camera.
-
-Are you sure you want to proceed?";
+"BatchDeleteSomeFilesNotLocalConfirmationDescription" = "Some of the selected photo haven't been copied to this %@. If you continue, you may be deleting the ONLY COPIES OF THESE PHOTOS.\n\nDeleting them will PERMANENTLY remove them from your camera.\n\nAre you sure you want to proceed?";
 
 // ------------------------------------------------------------
 //     Files Mode: Sharing
@@ -386,9 +382,7 @@ Are you sure you want to proceed?";
 "SaveToCameraRollFailedTitle" = "Save Failed";
 
 /* 'Save failed' error description when saving to camera roll. */
-"SaveToCameraRollFailedDescription" = "Cascable could not save the selected photos to your camera roll.
-
-To save photos to your camera roll, you must allow Cascable access to Photos in the Settings app.";
+"SaveToCameraRollFailedDescription" = "Cascable could not save the selected photos to your camera roll.\n\nTo save photos to your camera roll, you must allow Cascable access to Photos in the Settings app.";
 
 // ------------------------------------------------------------
 //     Files Mode: Filtering
@@ -459,7 +453,7 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 /* The title of the 'Edit' button for the Quick Proof feature. */
 "QuickProofEditButtonTitle" = "Edit";
 
-/* The title of the fullscreen image view during editing. Ex: 'Quick Proof'. */
+/* The title of the fullscreen image view during editing. Ex: 'Quick Proof — IMG_0001.JPG'. */
 "FullScreenImagePreviewWhileEditingTitle" = "Quick Proof";
 
 /* The title of the alert presented when the user is unable to edit an image. */
@@ -686,9 +680,7 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 "NotificationsNotAvailableAlertTitle" = "Notifications Disallowed";
 
 /* Warning description when the application has been denied notification permissions in iOS. */
-"NotificationsNotAvailableAlertDescription" = "Notifications have been disabled for Cascable in iOS Settings.
-
-To have Cascable notify you when disconnecting from your camera in the background, you must allow notifications for Cascable in the Notifications section of the Settings app.";
+"NotificationsNotAvailableAlertDescription" = "Notifications have been disabled for Cascable in iOS Settings.\n\nTo have Cascable notify you when disconnecting from your camera in the background, you must allow notifications for Cascable in the Notifications section of the Settings app.";
 
 /* Title for 'Open Settings App' button. */
 "SwitchToiOSSettingAppTitle" = "Open Settings App";
@@ -857,9 +849,7 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 "ReducedFunctionalityAlertTitle" = "Reduced Functionality";
 
 /* 'Reduced functionality' error description. */
-"ReducedFunctionalityAlertDescription" = "The connected camera is only partially supported by Cascable, and some functionality may be missing.
-
-We'd love to make Cascable fully support your camera, so please get in touch to work together to add support.";
+"ReducedFunctionalityAlertDescription" = "The connected camera is only partially supported by Cascable, and some functionality may be missing.\n\nWe'd love to make Cascable fully support your camera, so please get in touch to work together to add support.";
 
 /* 'Get in touch' button title. */
 "ReducedFunctionalityGetInTouchButtonTitle" = "Get in Touch";
@@ -1142,9 +1132,7 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 "ShutterRobotConfigurationGivesTooManyShotsTitle" = "Not enough space";
 
 /* Title for a problem that causes more shots to fire than will fit on the connected camera. Ex: 'The current Intervalometer setup will trigger more shots (52) than will currently fit on the connected camera (45)'.*/
-"ShutterRobotConfigurationGivesTooManyShotsDescription" = "The current %@ setup will trigger more shots (%@) than will currently fit on the connected camera (%@).
-
-Try removing some photos from your camera, inserting a larger storage card or reducing the size and/or quality of the taken photos.";
+"ShutterRobotConfigurationGivesTooManyShotsDescription" = "The current %@ setup will trigger more shots (%@) than will currently fit on the connected camera (%@).\n\nTry removing some photos from your camera, inserting a larger storage card or reducing the size and/or quality of the taken photos.";
 
 /* Title for a problem caused by a duration being set to zero. */
 "ShutterRobotConfigurationZeroDurationTitle" = "Zero duration";
@@ -1156,41 +1144,31 @@ Try removing some photos from your camera, inserting a larger storage card or re
 "ShutterRobotConfigurationIncompatibleDriveModeTitle" = "Shutter drive conflict";
 
 /* Description for a problem caused by the camera's shutter drive being in self-timer. */
-"ShutterRobotConfigurationIncompatibleDriveModeDescription" = "Shutter Robot cannot operate if the camera's own drive mode is set to a self timer.
-
-Disable the camera's self timer to use Shutter Robot.";
+"ShutterRobotConfigurationIncompatibleDriveModeDescription" = "Shutter Robot cannot operate if the camera's own drive mode is set to a self timer.\n\nDisable the camera's self timer to use Shutter Robot.";
 
 /* Title for a problem caused by the camera's internal exposure bracketing being enabled. */
 "ShutterRobotConfigurationIncompatibleBracketModeTitle" = "Bracketing conflict";
 
 /* Description for a problem caused by the camera's internal exposure bracketing being enabled. */
-"ShutterRobotConfigurationIncompatibleBracketModeDescription" = "Shutter Robot cannot operate if the camera's own exposure bracketing is enabled.
-
-Disable the camera's exposure bracketing to use Shutter Robot.";
+"ShutterRobotConfigurationIncompatibleBracketModeDescription" = "Shutter Robot cannot operate if the camera's own exposure bracketing is enabled.\n\nDisable the camera's exposure bracketing to use Shutter Robot.";
 
 /* Title for a problem caused by the camera's shutter speed not being set to bulb. */
 "ShutterRobotConfigurationNeedsBulbTitle" = "Camera not in Bulb";
 
 /* Description for a problem caused by the camera's shutter speed not being set to bulb. Ex: 'Bulb Timer requires the camera…'. */
-"ShutterRobotConfigurationNeedsBulbDescription" = "%@ requires the camera is in \"Bulb\" or \"B\" mode.
-
-If your camera has a \"B\" position on its mode dial, rotate the dial to that position. Otherwise, rotate it to the \"M\" position and set the shutter speed to \"Bulb\".";
+"ShutterRobotConfigurationNeedsBulbDescription" = "%@ requires the camera is in \"Bulb\" or \"B\" mode.\n\nIf your camera has a \"B\" position on its mode dial, rotate the dial to that position. Otherwise, rotate it to the \"M\" position and set the shutter speed to \"Bulb\".";
 
 /* Title for a problem caused by the camera's exposure compensation being set in a way that would cause bracketing to push it out of bounds. */
 "ShutterRobotConfigurationValuesWillGoOutOfRangeTitle" = "Exposure conflict";
 
 /* Description for a problem caused by the camera's exposure compensation being set in a way that would cause bracketing to push it out of bounds. Ex: 'The configured exposure bracketing range (± 3 stops) will push…'. */
-"ShutterRobotConfigurationValuesWillGoOutOfRangeDescription" = "The configured exposure bracketing range (%@) will push the camera's exposure settings beyond those the camera supports.
-
-If your camera's mode dial is set to \"M\", adjust the shutter speed setting away from the extreme values. Otherwise, adjust the exposure compensation (EV) setting away from the extreme values.";
+"ShutterRobotConfigurationValuesWillGoOutOfRangeDescription" = "The configured exposure bracketing range (%@) will push the camera's exposure settings beyond those the camera supports.\n\nIf your camera's mode dial is set to \"M\", adjust the shutter speed setting away from the extreme values. Otherwise, adjust the exposure compensation (EV) setting away from the extreme values.";
 
 /* Title for a problem caused by the camera's shutter speed being set to bulb or auto. */
 "ShutterRobotConfigurationNeedsFixedExposureStartingPointTitle" = "Shutter speed conflict";
 
 /* Description for a problem caused by the camera's shutter speed being set to bulb. Ex: 'Exposure Bracketing cannot operate…'. */
-"ShutterRobotConfigurationNeedsFixedExposureStartingPointDescription" = "%@ cannot operate in \"B\" mode or \"M\" mode if the camera's shutter speed is set to \"Auto\" or \"Bulb\".
-
-Rotate your camera's mode dial away from the \"B\" position. If your mode dial doesn't have a \"B\" position, make sure the shutter speed isn't set to \"Bulb\".";
+"ShutterRobotConfigurationNeedsFixedExposureStartingPointDescription" = "%@ cannot operate in \"B\" mode or \"M\" mode if the camera's shutter speed is set to \"Auto\" or \"Bulb\".\n\nRotate your camera's mode dial away from the \"B\" position. If your mode dial doesn't have a \"B\" position, make sure the shutter speed isn't set to \"Bulb\".";
 
 // ------------------------------------------------------------
 //     Camera Connection

@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "Shutter Robot"; ObjectID = "1ZC-Bh-GeY"; */
+"1ZC-Bh-GeY.text" = "Shutter Robot";
+
+/* Class = "UIButton"; normalTitle = "Continue →"; ObjectID = "7QS-WU-wUI"; */
+"7QS-WU-wUI.normalTitle" = "Continue →";
+
+/* Class = "UILabel"; text = "Cascable 1.1 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.\n\nEnjoy!"; ObjectID = "9Bs-PF-Jvn"; */
+"9Bs-PF-Jvn.text" = "Cascable 1.1 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.\n\nEnjoy!";
+
+/* Class = "UIButton"; normalTitle = "Skip Tour"; ObjectID = "9NP-z9-ZaH"; */
+"9NP-z9-ZaH.normalTitle" = "Skip Tour";
+
+/* Class = "UILabel"; text = "…and much more!"; ObjectID = "DkA-ou-F8n"; */
+"DkA-ou-F8n.text" = "…and much more!";
+
+/* Class = "UIViewController"; title = "Welcome"; ObjectID = "G3P-g9-PCa"; */
+"G3P-g9-PCa.title" = "Welcome";
+
+/* Class = "UILabel"; text = "Batch Copy & Delete"; ObjectID = "KgJ-Oy-9xx"; */
+"KgJ-Oy-9xx.text" = "Batch Copy & Delete";
+
+/* Class = "UILabel"; text = "Quick Select adds powerful filters. Want to copy all of the JPEG files you took today? No problem!"; ObjectID = "NiC-RM-rQE"; */
+"NiC-RM-rQE.text" = "Quick Select adds powerful filters. Want to copy all of the JPEG files you took today? No problem!";
+
+/* Class = "UIButton"; normalTitle = "Get Started  →"; ObjectID = "Wr9-Wd-JN8"; */
+"Wr9-Wd-JN8.normalTitle" = "Get Started  →";
+
+/* Class = "UILabel"; text = "When working with files on your camera, you can now tap \"Select\" to select multiple files at once for copying or deletion."; ObjectID = "avd-i8-4VS"; */
+"avd-i8-4VS.text" = "When working with files on your camera, you can now tap \"Select\" to select multiple files at once for copying or deletion.";
+
+/* Class = "UIButton"; normalTitle = "Continue →"; ObjectID = "cGq-qj-Wb6"; */
+"cGq-qj-Wb6.normalTitle" = "Continue →";
+
+/* Class = "UILabel"; text = "Thank you for updating to Cascable 1.1. This is the first feature update to Cascable, and contains some great new tools."; ObjectID = "e51-oR-xjz"; */
+"e51-oR-xjz.text" = "Thank you for updating to Cascable 1.1. This is the first feature update to Cascable, and contains some great new tools.";
+
+/* Class = "UIButton"; normalTitle = "Start Using Cascable"; ObjectID = "gTH-Fo-vxd"; */
+"gTH-Fo-vxd.normalTitle" = "Start Using Cascable";
+
+/* Class = "UILabel"; text = "Tap \"Get Started\" to see a quick tour of the new features."; ObjectID = "hay-5R-Q3N"; */
+"hay-5R-Q3N.text" = "Tap \"Get Started\" to see a quick tour of the new features.";
+
+/* Class = "UILabel"; text = "What's new in Cascable?"; ObjectID = "l3x-YS-zoX"; */
+"l3x-YS-zoX.text" = "What's new in Cascable?";
+
+/* Class = "UILabel"; text = "Shutter Robot provides tools for automating complex shutter work, and includes modules for a timer, an intervalometer, a bulb timer and exposure bracketing.\n\nUsing Shutter Robot, timelapses and HDR photography are a breeze."; ObjectID = "zEU-Kg-jDC"; */
+"zEU-Kg-jDC.text" = "Shutter Robot provides tools for automating complex shutter work, and includes modules for a timer, an intervalometer, a bulb timer and exposure bracketing.\n\nUsing Shutter Robot, timelapses and HDR photography are a breeze.";

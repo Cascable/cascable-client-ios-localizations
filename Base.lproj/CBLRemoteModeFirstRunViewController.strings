@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Use the shutter control to focus and take a picture."; ObjectID = "PlB-iW-uo3"; */
+"PlB-iW-uo3.text" = "Use the shutter control to focus and take a picture.";
+
+/* Class = "UILabel"; text = "Drag up and down to adjust exposure controls."; ObjectID = "S7o-ug-ASs"; */
+"S7o-ug-ASs.text" = "Drag up and down to adjust exposure controls.";
+
+/* Class = "UILabel"; text = "HOLD TO FOCUS"; ObjectID = "T4r-21-6QT"; */
+"T4r-21-6QT.text" = "HOLD TO FOCUS";
+
+/* Class = "UILabel"; text = "EXPOSURE CONTROL"; ObjectID = "x8n-Ea-hn6"; */
+"x8n-Ea-hn6.text" = "EXPOSURE CONTROL";

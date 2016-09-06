@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "With Cascable Pro: Photo Management, you can filter your photos by date, file type, and more."; ObjectID = "9gH-Hw-chA"; */
+"9gH-Hw-chA.text" = "With Cascable Pro: Photo Management, you can filter your photos by date, file type, and more.";
+
+/* Class = "UIButton"; normalTitle = "More Info…"; ObjectID = "FGV-pa-mKX"; */
+"FGV-pa-mKX.normalTitle" = "More Info…";
+
+/* Class = "UITextField"; placeholder = "Search Text"; ObjectID = "H52-4H-DJJ"; */
+"H52-4H-DJJ.placeholder" = "Search Text";
+
+/* Class = "UISegmentedControl"; eph-6J-DsQ.segmentTitles[0] = "Any"; ObjectID = "eph-6J-DsQ"; */
+"eph-6J-DsQ.segmentTitles[0]" = "Any";
+
+/* Class = "UISegmentedControl"; eph-6J-DsQ.segmentTitles[1] = "RAW"; ObjectID = "eph-6J-DsQ"; */
+"eph-6J-DsQ.segmentTitles[1]" = "RAW";
+
+/* Class = "UISegmentedControl"; eph-6J-DsQ.segmentTitles[2] = "JPEG"; ObjectID = "eph-6J-DsQ"; */
+"eph-6J-DsQ.segmentTitles[2]" = "JPEG";
+
+/* Class = "UIButton"; normalTitle = "2016-12-12 — 2016-12-26"; ObjectID = "sid-vd-0xE"; */
+"sid-vd-0xE.normalTitle" = "2016-12-12 — 2016-12-26";
