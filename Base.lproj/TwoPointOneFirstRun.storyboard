@@ -240,12 +240,12 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBS-oB-dIG">
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Open in Safari">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 </variation>
                                 <connections>
                                     <action selector="open21ReleasePost:" destination="3Hm-m9-Uay" eventType="touchUpInside" id="Uif-JI-xJH"/>
@@ -338,13 +338,13 @@
                                         <variation key="widthClass=compact" constant="280"/>
                                     </constraint>
                                 </constraints>
-                                <mutableString key="text">Cascable 2.1 improves several of its tools to provide an improved experience.
+                                <string key="text">Cascable 2.1 improves several of its tools to provide an improved experience.
 
 Photo Review will update its display if new photos are taken while it's visible, allowing Cascable to be used as a permanent high-res preview display.
 
 When working in Manual and Bulb exposure modes, the reading from your camera's light meter is displayed in place of the exposure compensation control, and Shutter Robot's Bulb Timer can be configured to repeat.
 
-In Photo Management, remote image previews are cached for greatly improved speed on subsequent previews, photos can be deleted from preview screens for an improved workflow.</mutableString>
+In Photo Management, remote image previews are cached for greatly improved speed on subsequent previews, photos can be deleted from preview screens for an improved workflow.</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
