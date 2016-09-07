@@ -34,7 +34,7 @@
                         <viewControllerLayoutGuide type="bottom" id="g9B-sW-tIS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3Kf-n0-sLc">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's new in Cascable?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3x-YS-zoX">
@@ -167,7 +167,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ruE-rJ-ePT"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="662-TK-s3R">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Improved RAW Display &amp; Quick Proof" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ZC-Bh-GeY">
@@ -175,7 +175,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you have a modern iOS device and iOS 10, Cascable will display your RAW files with increased quality and color depth." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEU-Kg-jDC">
@@ -188,7 +188,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGq-qj-Wb6" customClass="CBLPillButton">
@@ -223,7 +223,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For detailed information, see the Cascable 2.1 blog post on our website." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QTe-F0-L5h">
@@ -236,7 +236,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBS-oB-dIG">
@@ -303,7 +303,7 @@
                         <viewControllerLayoutGuide type="bottom" id="3fB-Y3-N5L"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="dBV-Em-l5e">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Improvements to Existing Tools" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KgJ-Oy-9xx">
@@ -311,7 +311,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7QS-WU-wUI" customClass="CBLPillButton">
@@ -349,13 +349,15 @@ In Photo Management, remote image previews are cached for greatly improved speed
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
                                 </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="avd-i8-4VS" firstAttribute="top" secondItem="KgJ-Oy-9xx" secondAttribute="bottom" constant="20" id="EXU-Op-byH"/>
+                            <constraint firstItem="avd-i8-4VS" firstAttribute="top" secondItem="KgJ-Oy-9xx" secondAttribute="bottom" constant="20" id="EXU-Op-byH">
+                                <variation key="widthClass=compact" constant="10"/>
+                            </constraint>
                             <constraint firstAttribute="centerX" secondItem="avd-i8-4VS" secondAttribute="centerX" id="KXq-bY-MV0"/>
                             <constraint firstItem="KgJ-Oy-9xx" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dBV-Em-l5e" secondAttribute="leading" constant="20" id="TqB-EX-VA7"/>
                             <constraint firstItem="3fB-Y3-N5L" firstAttribute="top" secondItem="7QS-WU-wUI" secondAttribute="bottom" constant="50" id="UgI-TP-N9A">
@@ -382,7 +384,7 @@ In Photo Management, remote image previews are cached for greatly improved speed
                         <viewControllerLayoutGuide type="bottom" id="aCQ-ds-IBJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fYB-Ly-Fqq">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="…and much more!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkA-ou-F8n">
