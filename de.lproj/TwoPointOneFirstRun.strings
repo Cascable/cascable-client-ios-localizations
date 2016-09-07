@@ -27,7 +27,7 @@
 "Wr9-Wd-JN8.normalTitle" = "Loslegen  →";
 
 /* Class = "UILabel"; text = "Cascable 2.1 improves several of its tools to provide an improved experience.\n\nPhoto Review will update its display if new photos are taken while it's visible, allowing Cascable to be used as a permanent high-res preview display.\n\nWhen working in Manual and Bulb exposure modes, the reading from your camera's light meter is displayed in place of the exposure compensation control, and Shutter Robot's Bulb Timer can be configured to repeat.\n\nIn Photo Management, remote image previews are cached for greatly improved speed on subsequent previews, photos can be deleted from preview screens for an improved workflow."; ObjectID = "avd-i8-4VS"; */
-"avd-i8-4VS.text" = "Eine Vielzahl der Werkzeuge von Cascable wurden in Version 2.1 verbessert.\n\nDie Schnellansicht wird aktualisiert, wenn während der Sichtbarkeit des Bereichs neue Fotos aufgenommen werden. So kann Cascable auch permanent als hochauflösende Vorschau-Anzeige verwendet werden.\n\nWährend der Arbeit im manuellen und im B-Modus wird der Messwert des Belichtungsmessers Ihrer Kamera im Bereich der Belichtungskompensations-Steuerung angezeigt, der Bulb Timer des Shutter Robots kann auf Wiederholung eingestellt werden.\n\nIm Fotomanagement werden Bilder der Remote-Vorschau nun zwischengespeichert, sodass Vorschaubilder nun schneller aufeinander folgen können. Für einen besseren Workflow können Bilder auch in den Vorschau-Anzeigen gelöscht werden.";
+"avd-i8-4VS.text" = "In Cascable 2.1 wurde viel verbessert.\n\nDie Schnellansicht wird aktualisiert, wenn während der Sichtbarkeit des Bereichs neue Fotos aufgenommen werden. Cascable eignet sich daher auch als dauerhafte Vorschau.\n\nWährend der Arbeit im manuellen und im B-Modus wird der Messwert des Belichtungsmessers Ihrer Kamera im Bereich der Belichtungskompensations-Steuerung angezeigt, der Bulb Timer des Shutter Robots kann auf Wiederholung eingestellt werden.\n\nIm Fotomanagement werden Bilder der Remote-Vorschau nun zwischengespeichert und macht die Vorschau so schneller. Bilder können in den Vorschau-Anzeigen auch gelöscht werden.";
 
 /* Class = "UIButton"; normalTitle = "Continue →"; ObjectID = "cGq-qj-Wb6"; */
 "cGq-qj-Wb6.normalTitle" = "Weiter →";
@@ -51,7 +51,7 @@
 "hay-5R-Q3N.text" = "Tippen Sie auf „Loslegen“, um eine schnelle Einführung in die neuen Funktion zu erhalten.";
 
 /* Class = "UILabel"; text = "With the new Quick Proof feature, you can apply adjustments to your photos right within Cascable for exporting and sharing. Quick Proof works with our new RAW renderer, giving full quality RAW editing for the best quality results."; ObjectID = "iJc-7C-gBo"; */
-"iJc-7C-gBo.text" = "Mit der neuen Funktion „Schnellprüfung“ können Sie direkt in Cascable Anpassungen an Ihren Fotos vornehmen, um Sie anschließend zu exportieren oder zu teilen. Die Schnellprüfung arbeitet mit unserem neuen RAW-Renderer, der mit RAW-Bearbeitung bei voller Qualität zu hochqualitativen Ergebnissen führt.";
+"iJc-7C-gBo.text" = "Mit der neuen Funktion „Schnellprüfung“ können Sie direkt in Cascable Anpassungen an Ihren Fotos vornehmen, um Sie anschließend zu exportieren oder zu teilen.";
 
 /* Class = "UILabel"; text = "What's new in Cascable?"; ObjectID = "l3x-YS-zoX"; */
 "l3x-YS-zoX.text" = "Was ist neu in Cascable?";
@@ -63,4 +63,4 @@
 "uTL-Tw-2wS.normalTitle" = "@CascableApp";
 
 /* Class = "UILabel"; text = "If you have a modern iOS device and iOS 10, Cascable will display your RAW files with increased quality and color depth."; ObjectID = "zEU-Kg-jDC"; */
-"zEU-Kg-jDC.text" = "Wenn Sie ein modernes iOS-Gerät mit iOS 10 besitzen, stellt Cascable Ihre Raw-Dateien in besserer Qualität und mit größerer Farbtiefe dar.";
+"zEU-Kg-jDC.text" = "Wenn Sie ein modernes iOS-Gerät mit iOS 10 besitzen, stellt Cascable Ihre RAW-Dateien in besserer Qualität und mit größerer Farbtiefe dar.";
