@@ -133,6 +133,9 @@
 /* The title of the fullscreen image view, including a count and a name. Ex: '1 of 12 — IMG_0001.JPG'. */
 "FullScreenImagePreviewTitle" = "%@ von %@ — %@";
 
+/* A position counter. Ex: '2 of 23'. */
+"XofYCounterTitle" = "%@ von %@";
+
 /* The footer of the device image view, including item count. Ex: '1 item'. */
 "DeviceSpaceOnlyFormatter" = "%@ Objekt";
 
@@ -431,8 +434,51 @@
 /* Focal length formatter - e.g., "40 mm" */
 "FocalLengthFormatter" = "%@ mm";
 
+/* EV formatter - e.g. "+2 EV" */
+"EVMetadataFormatter" = "%@ LW";
+
 /* Text to use when metadata is unavailable. */
 "NoMetadataFiller" = "—";
+
+// ------------------------------------------------------------
+//     Files Mode: Editing
+// ------------------------------------------------------------
+
+/* The title of the 'Edit' button for the Quick Proof feature. */
+"QuickProofEditButtonTitle" = "Bearbeiten";
+
+/* The title of the fullscreen image view during editing. Ex: 'Quick Proof'. */
+"FullScreenImagePreviewWhileEditingTitle" = "Schnellprüfung";
+
+/* The title of the alert presented when the user is unable to edit an image. */
+"QuickProofUnavailableAlertTitle" = "Schnellprüfung nicht verfügbar";
+
+/* The message of the alert presented when the user is unable to edit an image due to having an old iOS version. */
+"QuickProofUnavailableNeedsiOS10MessageFormatter" = "Für die Nutzung der Schnellprüfung ist iOS 10 oder neuer erforderlich. Ihr iOS kann in der App „Einstellungen“ aktualisiert werden.";
+
+/* The message of the alert presented when the user is unable to edit an image due to having an old device. */
+"QuickProofUnavailableDeviceTooOldMessage" = "Für die Nutzung der Schnellprüfung ist ein iPhone 6, iPad Air 2, iPad mini 4 oder ein iPod touch der 6. Generation (oder jeweils neuere Modelle) erforderlich.";
+
+/* The message of the alert presented when the user is unable to edit an image due to an unsupported image type. */
+"QuickProofUnavailableUnsupportedImageMessage" = "Die Schnellprüfung unterstützt Bilder dieser Art nicht.";
+
+/* The message of the alert presented when the user is unable to edit an image due to not having the required Pro pack. */
+"QuickProofUnavailableNeedsProPackMessage" = "Die Schnellprüfung ist eine Funktion von Cascable Pro: Foto-Management.";
+
+/* The message of the alert presented when the user is unable to edit an image due to enabling the 'Use Legacy Image Renderer' setting. */
+"QuickProofUnavailableNeedsModernRendererMessage" = "Wenn Sie die Einstellung „Alten Bild-Renderer verwenden“ aktiviert haben, ist die Schnellprüfung nicht verfügbar.";
+
+/* Edit tool titles */
+"ExposureEditToolTitle" = "Belichtung";
+"TemperatureEditToolTitle" = "Temperatur";
+"TintEditToolTitle" = "Einfärben";
+"ShadowsEditToolTitle" = "Schatten";
+"HighlightsEditToolTitle" = "Highlights";
+"SharpeningEditToolTitle" = "Schärfen";
+"SaturationEditToolTitle" = "Sättigung";
+"ContrastEditToolTitle" = "Kontrast";
+"IntensityEditToolTitle" = "Intensität";
+"RadiusEditToolTitle" = "Radius";
 
 // ------------------------------------------------------------
 //     Help and First Run
@@ -497,6 +543,9 @@
 
 /* Title of the 'More Information…' button. */
 "MoreInformationTitle" = "Details …";
+
+/* Title of the 'More Info…' button. */
+"MoreInformationShortTitle" = "Weitere Infos …";
 
 /* 'SLIDE FOR SHUTTER' title in remote control tutorial. Should be in capitals. */
 "FirstRunShutterLabelTitle" = "STREICHEN";
@@ -596,6 +645,12 @@
 "MultiVariantDownloadChoice1Title" = "RAW-Datei kopieren";
 "MultiVariantDownloadChoice2Title" = "JPEG-Datei kopieren";
 "MultiVariantDownloadChoice3Title" = "Beide Dateien kopieren";
+
+/* Title for the 'Use Legacy Image Renderer' setting. */
+"UseLegacyImageRendererSettingTitle" = "Alten Bild-Renderer verwenden";
+
+/* Footer text for the 'Use Legacy Image Renderer' setting. */
+"UseLegacyImageRendererSettingFooter" = "Aus modernen iOS-Geräten, auf denen iOS 10 läuft, nutzt Cascable zur Darstellung von Bildern in voller Auflösung und und mit mehr Dynamik einen neuen hardwarebeschleunigten Renderer. In einigen Fällen kann dies zu Problemen führen, insbesondere auf Geräten mit wenig Arbeitsspeicher. Sollte die App bei der Darstellung von RAW-Bildern abstürzen, kann diese Option helfen.";
 
 /* Title for the 'Stop Live View On Idle' setting. */
 "DisableLiveViewOnInActivitySettingTitle" = "Keine Live-Ansicht im Leerlauf";
@@ -942,6 +997,12 @@
 
 /* Subtitle of the 'Bulb Timer' shutter robot module. */
 "BulbRobotSubTitle" = "Halten Sie die Blende lange offen.";
+
+/* Title of the 'Shot Duration' self timer setting. */
+"BulbRobotDurationTitle" = "Aufnahmedauer";
+
+/* Title of the "Time between shots" bulb timer module. */
+"BulbRobotTimeBetweenShotsTitle" = "Zeit zwischen Aufnahmen";
 
 // ------------------------------------------------------------
 //     Shutter Robot: Intervalometer
