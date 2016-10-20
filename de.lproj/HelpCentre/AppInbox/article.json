@@ -1,0 +1,6 @@
+{
+    "title" : "Ankündigungen",
+    "id": "se.cascable.client.help.special.app-inbox",
+    "icon": "about.png",
+    "category": "se.cascable.client.help.category.welcome"
+}
