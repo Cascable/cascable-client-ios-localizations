@@ -1,11 +1,14 @@
 function changeCSS(cssFile, cssLinkIndex) {
  
     var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+
+    var pathElements = oldlink.href.split("/");
+    pathElements[pathElements.length - 1] = cssFile;
  
     var newlink = document.createElement("link");
     newlink.setAttribute("rel", "stylesheet");
     newlink.setAttribute("type", "text/css");
-    newlink.setAttribute("href", cssFile);
+    newlink.setAttribute("href", pathElements.join("/"));
  
     document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
 }
@@ -26,12 +29,12 @@ function changeImages(themeDir) {
 }
 
 function goLight() {
-	changeCSS("../common/light.css", 1);
+	changeCSS("light.css", 1);
 	changeImages("light");
 }
 
 function goDark() {
-	changeCSS("../common/dark.css", 1);
+	changeCSS("dark.css", 1);
 	changeImages("dark");
 }
 
