@@ -1,0 +1,8 @@
+{
+    "title" : "Anschlussführungen",
+    "id": "se.cascable.client.help.connection-guides",
+    "icon": "camera-connection.png",
+    "category": "se.cascable.client.help.category.getting-connected",
+    "sort-hint": 1,
+    "is-container-article": true
+}
