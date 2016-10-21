@@ -3,10 +3,10 @@
 "G3P-g9-PCa.title" = "Willkommen";
 
 /* Class = "UILabel"; text = "Thank you for updating to Cascable 2.2!"; ObjectID = "e51-oR-xjz"; */
-"e51-oR-xjz.text" = "Thank you for updating to Cascable 2.2!";
+"e51-oR-xjz.text" = "Danke für das Update auf Cascable 2.2!";
 
 /* Class = "UILabel"; text = "This update contains a few minor bug fixes and introduces the Cascable Announcements Channel — a way for you to get the latest updates, news and tips straight from Cascable HQ.\n\nYou can find the Announcements channel in the Help Centre."; ObjectID = "hay-5R-Q3N"; */
-"hay-5R-Q3N.text" = "This update contains a few minor bug fixes and introduces the Cascable Announcements Channel — a way for you to get the latest updates, news and tips straight from Cascable HQ.\n\nYou can find the Announcements channel in the Help Centre.";
+"hay-5R-Q3N.text" = "Dieses Update beinhaltet kleinere Fehlerbehebungen und führt Cascable Ankündigungen ein – einen Kanal für Mitteilungen zu Updates, Neuigkeiten und Tipps zu Cascable.\n\nSie finden die Ankündigungen im Hilfe-Center.";
 
 /* Class = "UILabel"; text = "What's new in Cascable?"; ObjectID = "l3x-YS-zoX"; */
 "l3x-YS-zoX.text" = "Was ist neu in Cascable?";
