@@ -1,6 +1,6 @@
 
 /* Class = "UIViewController"; title = "Welcome"; ObjectID = "G3P-g9-PCa"; */
-"G3P-g9-PCa.title" = "Welcome";
+"G3P-g9-PCa.title" = "Willkommen";
 
 /* Class = "UILabel"; text = "Thank you for updating to Cascable 2.2!"; ObjectID = "e51-oR-xjz"; */
 "e51-oR-xjz.text" = "Thank you for updating to Cascable 2.2!";
@@ -9,7 +9,7 @@
 "hay-5R-Q3N.text" = "This update contains a few minor bug fixes and introduces the Cascable Announcements Channel — a way for you to get the latest updates, news and tips straight from Cascable HQ.\n\nYou can find the Announcements channel in the Help Centre.";
 
 /* Class = "UILabel"; text = "What's new in Cascable?"; ObjectID = "l3x-YS-zoX"; */
-"l3x-YS-zoX.text" = "What's new in Cascable?";
+"l3x-YS-zoX.text" = "Was ist neu in Cascable?";
 
 /* Class = "UIButton"; normalTitle = "Start Using Cascable"; ObjectID = "ywk-0E-U42"; */
-"ywk-0E-U42.normalTitle" = "Start Using Cascable";
+"ywk-0E-U42.normalTitle" = "Cascable nutzen";

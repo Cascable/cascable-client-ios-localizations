@@ -1,7 +1,7 @@
 {
     "title" : "Shutter Robot",
     "id": "se.cascable.client.help.shutter-robot",
-    "icon": "shutter-robot.png",
+    "icon": "ShutterRobotHelpArticleIcon",
     "category": "se.cascable.client.help.category.using",
     "sort-hint" : 2
 }

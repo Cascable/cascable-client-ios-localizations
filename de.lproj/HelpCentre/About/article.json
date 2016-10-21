@@ -1,6 +1,6 @@
 {
     "title" : "Über Cascable",
     "id": "se.cascable.client.help.special.about",
-    "icon": "about.png",
+    "icon": "AboutHelpArticleIcon",
     "category": "se.cascable.client.help.category.about"
 }

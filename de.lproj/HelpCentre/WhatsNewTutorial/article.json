@@ -1,6 +1,6 @@
 {
     "title" : "Das ist neu in Cascable",
     "id": "se.cascable.client.help.special.whats-new-tutorial",
-    "icon": "shutter-robot.png",
+    "icon": "WhatsNewHelpArticleIcon",
     "category": "se.cascable.client.help.category.welcome"
 }
