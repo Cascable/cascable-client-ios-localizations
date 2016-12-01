@@ -590,6 +590,9 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 //     Coupon Exchange
 // ------------------------------------------------------------
 
+/* Title of the "Claim discount" button in purchases */
+"ClaimTransferDiscountTitle" = "Claim Cascable Transfer Discount…";
+
 /* Title of the 'Email Address Required' error dialog. */
 "EmailAddressRequiredTitle" = "Email Address Required";
 
@@ -600,7 +603,7 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 "EmailAddressRequiredDescription" = "We need your email address to send you your discount coupon. It won't be used for any other purpose.";
 
 /* Title of the coupon exchange failed error dialog. */
-"CouponExchangeFailedTitle" = "Discount Eleigibility Check Failed";
+"CouponExchangeFailedTitle" = "Discount Check Failed";
 
 /* Description text of the coupon exchange failed error dialog when the server fails. */
 "CouponExchangedFailedServerFailureDescription" = "A problem occurred while trying to check your eligibility for the Cascable Transfer discount. If this continues, please contact Cascable support.";
