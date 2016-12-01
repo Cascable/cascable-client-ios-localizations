@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -30,24 +31,32 @@ Even better — if you've purchased at least one Cascable Pro pack, you're eligi
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AeJ-ax-gvG">
-                                <rect key="frame" x="110" y="297" width="320" height="300"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="320" id="IlJ-u4-tfT"/>
-                                    <constraint firstAttribute="height" constant="300" id="Sy9-rc-cuo"/>
-                                </constraints>
+                                <rect key="frame" x="60" y="297" width="420" height="303"/>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TransferIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Wy8-55-tGI">
                                 <rect key="frame" x="206" y="30" width="128" height="128"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sac-wM-xYR">
+                                <rect key="frame" x="478" y="12" width="42" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="close:" destination="sT5-k6-dkR" eventType="touchUpInside" id="zLc-wJ-CF3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Sac-wM-xYR" secondAttribute="trailing" constant="20" id="5f9-d5-SwF"/>
                             <constraint firstItem="Wy8-55-tGI" firstAttribute="top" secondItem="Npj-dO-gAA" secondAttribute="bottom" constant="30" id="627-K7-kgZ"/>
+                            <constraint firstItem="MOV-ku-LJa" firstAttribute="top" secondItem="AeJ-ax-gvG" secondAttribute="bottom" constant="20" id="6wN-ay-R9v"/>
                             <constraint firstItem="M8T-9m-CnC" firstAttribute="top" secondItem="Wy8-55-tGI" secondAttribute="bottom" constant="10" id="FAL-HP-ebN"/>
                             <constraint firstItem="AeJ-ax-gvG" firstAttribute="centerX" secondItem="DED-h3-DjR" secondAttribute="centerX" id="JNG-x5-gEg"/>
+                            <constraint firstItem="Sac-wM-xYR" firstAttribute="top" secondItem="Npj-dO-gAA" secondAttribute="bottom" constant="12" id="dri-MS-6pd"/>
                             <constraint firstItem="M8T-9m-CnC" firstAttribute="leading" secondItem="DED-h3-DjR" secondAttribute="leading" constant="60" id="ox9-wq-b1q"/>
                             <constraint firstItem="AeJ-ax-gvG" firstAttribute="top" secondItem="M8T-9m-CnC" secondAttribute="bottom" constant="20" id="puh-89-yXY"/>
                             <constraint firstItem="Wy8-55-tGI" firstAttribute="centerX" secondItem="DED-h3-DjR" secondAttribute="centerX" id="rMT-UL-dWc"/>
+                            <constraint firstItem="AeJ-ax-gvG" firstAttribute="leading" secondItem="M8T-9m-CnC" secondAttribute="leading" id="rzo-mg-HCP"/>
                             <constraint firstItem="M8T-9m-CnC" firstAttribute="centerX" secondItem="DED-h3-DjR" secondAttribute="centerX" id="vdN-8t-dIC"/>
                         </constraints>
                     </view>
@@ -55,30 +64,34 @@ Even better — if you've purchased at least one Cascable Pro pack, you're eligi
                     <nil key="simulatedTopBarMetrics"/>
                     <modalFormSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="closeButton" destination="Sac-wM-xYR" id="EcP-N4-Xx3"/>
                         <outlet property="couponCodeLabel" destination="rcy-HC-o3q" id="0b1-pJ-5aw"/>
                         <outlet property="currentStepContainer" destination="AeJ-ax-gvG" id="u4g-lG-AhL"/>
+                        <outlet property="discountExplanationLabel" destination="M8T-9m-CnC" id="bfR-eU-eH2"/>
                         <outlet property="discountRequestView" destination="iKw-dM-NPZ" id="hGc-dv-esw"/>
                         <outlet property="emailAddressField" destination="8g8-nR-H17" id="yq0-kk-thf"/>
                         <outlet property="noProPacksView" destination="1Cw-uh-tDC" id="biQ-VB-rNU"/>
                         <outlet property="notEligibleView" destination="IfE-Va-d7U" id="cOY-yS-zmH"/>
                         <outlet property="proFeatureButton" destination="cb7-HW-wCJ" id="Hsf-eB-ztJ"/>
+                        <outlet property="restorePurchasesButton" destination="ARI-ps-pUK" id="GzG-uo-twp"/>
                         <outlet property="restorePurchasesSpinner" destination="UkB-03-acp" id="mfn-8Q-ykE"/>
                         <outlet property="successView" destination="8YT-iX-AhB" id="XjZ-06-Y5G"/>
                         <outlet property="verifyingSpinner" destination="5QY-fJ-k9P" id="ygm-F3-mKa"/>
                         <outlet property="verifyingView" destination="BB7-QT-Y2l" id="2lk-rz-qNu"/>
-                        <outletCollection property="themeableTitleLabels" destination="ogZ-uC-LFD" collectionClass="NSMutableArray" id="jhn-FN-LOB"/>
-                        <outletCollection property="themeableContentLabels" destination="kbN-LZ-vFH" collectionClass="NSMutableArray" id="Ohn-eu-I8N"/>
-                        <outletCollection property="themeableTitleLabels" destination="rcy-HC-o3q" collectionClass="NSMutableArray" id="Utd-Hg-ame"/>
-                        <outletCollection property="themeableContentLabels" destination="xXs-S4-qOA" collectionClass="NSMutableArray" id="DME-Yv-Ouo"/>
-                        <outletCollection property="themeableContentLabels" destination="3e3-iw-Z3e" collectionClass="NSMutableArray" id="XQH-Mh-Jel"/>
-                        <outletCollection property="themeableTitleLabels" destination="oEc-Jx-Tdf" collectionClass="NSMutableArray" id="are-QJ-oCE"/>
-                        <outletCollection property="themeableContentLabels" destination="5TC-8Y-RkH" collectionClass="NSMutableArray" id="kui-9b-5tL"/>
-                        <outletCollection property="themeableButtons" destination="cMe-Gt-Iee" collectionClass="NSMutableArray" id="Nkh-0f-iGt"/>
-                        <outletCollection property="themeableTitleLabels" destination="Ibl-yS-jtl" collectionClass="NSMutableArray" id="IV5-IN-8yw"/>
-                        <outletCollection property="themeableContentLabels" destination="lbq-6E-rep" collectionClass="NSMutableArray" id="c4j-Va-6pb"/>
-                        <outletCollection property="themeableButtons" destination="ARI-ps-pUK" collectionClass="NSMutableArray" id="CVA-ET-j8c"/>
-                        <outletCollection property="themeableTitleLabels" destination="6dh-T5-o20" collectionClass="NSMutableArray" id="hlO-R0-vWy"/>
-                        <outletCollection property="themeableContentLabels" destination="lSk-K2-rlU" collectionClass="NSMutableArray" id="nM0-Ic-3AO"/>
+                        <outletCollection property="themeableTitleLabels" destination="Ibl-yS-jtl" collectionClass="NSMutableArray" id="rJz-0r-7nd"/>
+                        <outletCollection property="themeableContentLabels" destination="lbq-6E-rep" collectionClass="NSMutableArray" id="KXF-aG-4cM"/>
+                        <outletCollection property="themeableButtons" destination="ARI-ps-pUK" collectionClass="NSMutableArray" id="eqp-Xc-y4j"/>
+                        <outletCollection property="themeableTitleLabels" destination="oEc-Jx-Tdf" collectionClass="NSMutableArray" id="P22-uY-G8x"/>
+                        <outletCollection property="themeableContentLabels" destination="5TC-8Y-RkH" collectionClass="NSMutableArray" id="seh-QG-Sx7"/>
+                        <outletCollection property="themeableButtons" destination="cMe-Gt-Iee" collectionClass="NSMutableArray" id="RGs-nb-TBw"/>
+                        <outletCollection property="themeableContentLabels" destination="3e3-iw-Z3e" collectionClass="NSMutableArray" id="cMA-Kd-afJ"/>
+                        <outletCollection property="themeableTitleLabels" destination="ogZ-uC-LFD" collectionClass="NSMutableArray" id="LdO-Fz-E2j"/>
+                        <outletCollection property="themeableContentLabels" destination="kbN-LZ-vFH" collectionClass="NSMutableArray" id="GsB-ew-hld"/>
+                        <outletCollection property="themeableTitleLabels" destination="rcy-HC-o3q" collectionClass="NSMutableArray" id="Yq5-Ra-3EY"/>
+                        <outletCollection property="themeableContentLabels" destination="xXs-S4-qOA" collectionClass="NSMutableArray" id="MUd-fl-hLe"/>
+                        <outletCollection property="themeableTitleLabels" destination="6dh-T5-o20" collectionClass="NSMutableArray" id="b5S-SN-WgN"/>
+                        <outletCollection property="themeableContentLabels" destination="lSk-K2-rlU" collectionClass="NSMutableArray" id="ygA-9o-eHc"/>
+                        <outletCollection property="themeableButtons" destination="l5A-m1-bMl" collectionClass="NSMutableArray" id="jUe-hU-VFx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HEZ-4G-2f8" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -86,22 +99,40 @@ Even better — if you've purchased at least one Cascable Pro pack, you're eligi
                     <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARI-ps-pUK">
-                            <rect key="frame" x="91.5" y="250" width="138" height="30"/>
+                        <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARI-ps-pUK">
+                            <rect key="frame" x="91" y="199" width="138" height="81"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                             <state key="normal" title="Restore Purchases"/>
                             <connections>
                                 <action selector="restorePurchases:" destination="sT5-k6-dkR" eventType="touchUpInside" id="1Yy-5f-Wm8"/>
                             </connections>
                         </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Purchase Required" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ibl-yS-jtl">
-                            <rect key="frame" x="83" y="20" width="155" height="21"/>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8g9-Ly-Nik">
+                            <rect key="frame" x="65" y="20" width="191" height="30"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Purchase Required" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ibl-yS-jtl">
+                                    <rect key="frame" x="36" y="4" width="155" height="21"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cb7-HW-wCJ" customClass="ProFeatureButton" customModule="Cascable" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                    <state key="normal" title="Pro"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="cb7-HW-wCJ" firstAttribute="top" secondItem="8g9-Ly-Nik" secondAttribute="top" id="4BO-n9-QeX"/>
+                                <constraint firstAttribute="trailing" secondItem="Ibl-yS-jtl" secondAttribute="trailing" id="Etx-II-s85"/>
+                                <constraint firstAttribute="bottom" secondItem="cb7-HW-wCJ" secondAttribute="bottom" id="Kqz-Ks-02r"/>
+                                <constraint firstItem="cb7-HW-wCJ" firstAttribute="leading" secondItem="8g9-Ly-Nik" secondAttribute="leading" id="aK8-Ni-otk"/>
+                                <constraint firstItem="Ibl-yS-jtl" firstAttribute="baseline" secondItem="cb7-HW-wCJ" secondAttribute="baseline" id="c1d-te-OEj"/>
+                                <constraint firstItem="Ibl-yS-jtl" firstAttribute="leading" secondItem="cb7-HW-wCJ" secondAttribute="trailing" constant="6" id="lOt-Yt-5Cb"/>
+                            </constraints>
+                        </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbq-6E-rep">
-                            <rect key="frame" x="28" y="61" width="265" height="109"/>
+                            <rect key="frame" x="28" y="70" width="265" height="109"/>
                             <string key="text">In order to be eligible for a discount on Cascable Transfer for Mac, you must have purchased at least one Cascable Pro pack.
 
 If this is a new device and you have already purchased a Cascable Pro pack, you can restore your purchases to this device.</string>
@@ -109,34 +140,29 @@ If this is a new device and you have already purchased a Cascable Pro pack, you 
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cb7-HW-wCJ" customClass="ProFeatureButton" customModule="Cascable" customModuleProvider="target">
-                            <rect key="frame" x="44" y="16" width="30" height="30"/>
-                            <state key="normal" title="Pro"/>
-                        </button>
-                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="UkB-03-acp">
-                            <rect key="frame" x="63.5" y="255" width="20" height="20"/>
+                        <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="UkB-03-acp">
+                            <rect key="frame" x="63" y="230" width="20" height="20"/>
                         </activityIndicatorView>
                     </subviews>
                     <constraints>
-                        <constraint firstItem="lbq-6E-rep" firstAttribute="top" secondItem="Ibl-yS-jtl" secondAttribute="bottom" constant="20" id="90u-yQ-uLG"/>
                         <constraint firstItem="ARI-ps-pUK" firstAttribute="leading" secondItem="UkB-03-acp" secondAttribute="trailing" constant="8" id="AF6-T2-Ae8"/>
-                        <constraint firstItem="Ibl-yS-jtl" firstAttribute="top" secondItem="1Cw-uh-tDC" secondAttribute="top" constant="20" id="CyL-Uw-yt0"/>
-                        <constraint firstItem="Ibl-yS-jtl" firstAttribute="leading" secondItem="cb7-HW-wCJ" secondAttribute="trailing" constant="8.5" id="apr-7C-4sp"/>
+                        <constraint firstAttribute="bottom" secondItem="ARI-ps-pUK" secondAttribute="bottom" constant="20" id="Ajl-Yo-irr"/>
+                        <constraint firstItem="8g9-Ly-Nik" firstAttribute="centerX" secondItem="1Cw-uh-tDC" secondAttribute="centerX" id="QTG-Lp-oEv"/>
+                        <constraint firstItem="ARI-ps-pUK" firstAttribute="top" secondItem="lbq-6E-rep" secondAttribute="bottom" constant="20" id="cSS-cH-6JR"/>
                         <constraint firstItem="lbq-6E-rep" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="1Cw-uh-tDC" secondAttribute="leading" constant="20" id="dzR-NA-yw2"/>
+                        <constraint firstItem="8g9-Ly-Nik" firstAttribute="top" secondItem="1Cw-uh-tDC" secondAttribute="top" constant="20" id="ezI-vS-vB8"/>
                         <constraint firstItem="ARI-ps-pUK" firstAttribute="centerX" secondItem="1Cw-uh-tDC" secondAttribute="centerX" id="g7K-PG-VbC"/>
-                        <constraint firstItem="Ibl-yS-jtl" firstAttribute="centerX" secondItem="1Cw-uh-tDC" secondAttribute="centerX" id="nbU-sB-baY"/>
+                        <constraint firstItem="lbq-6E-rep" firstAttribute="top" secondItem="8g9-Ly-Nik" secondAttribute="bottom" constant="20" id="gcm-f0-07O"/>
                         <constraint firstItem="lbq-6E-rep" firstAttribute="centerX" secondItem="1Cw-uh-tDC" secondAttribute="centerX" id="nhs-Dm-4PP"/>
                         <constraint firstItem="UkB-03-acp" firstAttribute="centerY" secondItem="ARI-ps-pUK" secondAttribute="centerY" id="vf8-Ec-b0E"/>
-                        <constraint firstItem="Ibl-yS-jtl" firstAttribute="baseline" secondItem="cb7-HW-wCJ" secondAttribute="baseline" id="wUW-rq-NrY"/>
-                        <constraint firstAttribute="bottom" secondItem="ARI-ps-pUK" secondAttribute="bottom" constant="20" id="ypP-w2-JPG"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" id="iKw-dM-NPZ">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMe-Gt-Iee">
-                            <rect key="frame" x="95.5" y="250" width="130" height="30"/>
+                        <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMe-Gt-Iee">
+                            <rect key="frame" x="95" y="209" width="130" height="71"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                             <state key="normal" title="Request Discount"/>
                             <connections>
@@ -144,13 +170,16 @@ If this is a new device and you have already purchased a Cascable Pro pack, you 
                             </connections>
                         </button>
                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your email address" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8g8-nR-H17">
-                            <rect key="frame" x="10" y="178" width="300" height="30"/>
+                            <rect key="frame" x="10" y="159" width="300" height="30"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="300" id="fzC-a8-Ur4"/>
                             </constraints>
                             <nil key="textColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="continue"/>
+                            <connections>
+                                <outlet property="delegate" destination="sT5-k6-dkR" id="m7m-cH-RZN"/>
+                            </connections>
                         </textField>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Request Your Discount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEc-Jx-Tdf">
                             <rect key="frame" x="67" y="20" width="187" height="21"/>
@@ -172,12 +201,13 @@ Your email address will only be used to send you a confirmation of your discount
                         <constraint firstItem="oEc-Jx-Tdf" firstAttribute="centerX" secondItem="iKw-dM-NPZ" secondAttribute="centerX" id="8vb-Ea-Md8"/>
                         <constraint firstItem="5TC-8Y-RkH" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iKw-dM-NPZ" secondAttribute="leading" constant="20" id="E4z-yw-55u"/>
                         <constraint firstItem="cMe-Gt-Iee" firstAttribute="centerX" secondItem="iKw-dM-NPZ" secondAttribute="centerX" id="JZQ-QH-aWG"/>
+                        <constraint firstItem="8g8-nR-H17" firstAttribute="top" secondItem="5TC-8Y-RkH" secondAttribute="bottom" constant="20" id="Ked-6y-SCQ"/>
                         <constraint firstItem="8g8-nR-H17" firstAttribute="centerX" secondItem="iKw-dM-NPZ" secondAttribute="centerX" id="MdV-yS-h4r"/>
                         <constraint firstItem="5TC-8Y-RkH" firstAttribute="centerX" secondItem="iKw-dM-NPZ" secondAttribute="centerX" id="QBq-dy-oAL"/>
+                        <constraint firstAttribute="bottom" secondItem="cMe-Gt-Iee" secondAttribute="bottom" constant="20" id="T7H-N7-Mk1"/>
+                        <constraint firstItem="cMe-Gt-Iee" firstAttribute="top" secondItem="8g8-nR-H17" secondAttribute="bottom" constant="20" id="atE-0r-bFO"/>
                         <constraint firstItem="oEc-Jx-Tdf" firstAttribute="top" secondItem="iKw-dM-NPZ" secondAttribute="top" constant="20" id="hwI-JC-2MA"/>
-                        <constraint firstItem="cMe-Gt-Iee" firstAttribute="top" secondItem="8g8-nR-H17" secondAttribute="bottom" constant="42" id="oKk-cv-1o2"/>
                         <constraint firstItem="5TC-8Y-RkH" firstAttribute="top" secondItem="oEc-Jx-Tdf" secondAttribute="bottom" constant="20" id="q2O-4e-sOy"/>
-                        <constraint firstAttribute="bottom" secondItem="cMe-Gt-Iee" secondAttribute="bottom" constant="20" id="vEb-MK-8lf"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" id="BB7-QT-Y2l">
@@ -185,11 +215,11 @@ Your email address will only be used to send you a confirmation of your discount
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="5QY-fJ-k9P">
-                            <rect key="frame" x="142" y="132" width="37" height="37"/>
+                            <rect key="frame" x="142" y="113" width="37" height="37"/>
                             <color key="color" name="textColor" catalog="System" colorSpace="catalog"/>
                         </activityIndicatorView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verifying eligibility…" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3e3-iw-Z3e">
-                            <rect key="frame" x="100" y="177" width="121" height="16"/>
+                            <rect key="frame" x="100" y="158" width="121" height="16"/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
@@ -198,7 +228,7 @@ Your email address will only be used to send you a confirmation of your discount
                     <constraints>
                         <constraint firstItem="5QY-fJ-k9P" firstAttribute="centerX" secondItem="BB7-QT-Y2l" secondAttribute="centerX" id="4vh-hW-6IR"/>
                         <constraint firstItem="3e3-iw-Z3e" firstAttribute="centerX" secondItem="BB7-QT-Y2l" secondAttribute="centerX" id="Gjq-sk-lwo"/>
-                        <constraint firstItem="5QY-fJ-k9P" firstAttribute="centerY" secondItem="BB7-QT-Y2l" secondAttribute="centerY" id="JyM-Eh-2AB"/>
+                        <constraint firstItem="5QY-fJ-k9P" firstAttribute="bottom" secondItem="BB7-QT-Y2l" secondAttribute="centerY" id="JyM-Eh-2AB"/>
                         <constraint firstItem="3e3-iw-Z3e" firstAttribute="top" secondItem="5QY-fJ-k9P" secondAttribute="bottom" constant="8" id="Tzl-RJ-JmP"/>
                     </constraints>
                 </view>
@@ -207,8 +237,8 @@ Your email address will only be used to send you a confirmation of your discount
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABCDEF-123456" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcy-HC-o3q">
-                            <rect key="frame" x="94" y="142.5" width="132" height="21"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <rect key="frame" x="90" y="142.5" width="140" height="21"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
@@ -236,9 +266,17 @@ Visit the Cascable website and enter your code alongside your payment details wh
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5A-m1-bMl">
+                            <rect key="frame" x="242" y="135.5" width="19" height="28"/>
+                            <state key="normal" image="Share"/>
+                            <connections>
+                                <action selector="shareCoupon:" destination="sT5-k6-dkR" eventType="touchUpInside" id="kt7-qC-X0W"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <constraints>
                         <constraint firstItem="ogZ-uC-LFD" firstAttribute="centerX" secondItem="8YT-iX-AhB" secondAttribute="centerX" id="7vE-Dr-PTf"/>
+                        <constraint firstItem="l5A-m1-bMl" firstAttribute="centerY" secondItem="rcy-HC-o3q" secondAttribute="centerY" constant="-4" id="CEh-m0-gwU"/>
                         <constraint firstItem="kbN-LZ-vFH" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8YT-iX-AhB" secondAttribute="leading" constant="20" id="CMW-jq-493"/>
                         <constraint firstItem="xXs-S4-qOA" firstAttribute="centerX" secondItem="8YT-iX-AhB" secondAttribute="centerX" id="NCh-Fl-vaJ"/>
                         <constraint firstItem="kbN-LZ-vFH" firstAttribute="top" secondItem="ogZ-uC-LFD" secondAttribute="bottom" constant="25" id="Ocf-Wk-XGd"/>
@@ -246,6 +284,7 @@ Visit the Cascable website and enter your code alongside your payment details wh
                         <constraint firstItem="xXs-S4-qOA" firstAttribute="top" secondItem="rcy-HC-o3q" secondAttribute="bottom" constant="14" id="RQu-KI-la0"/>
                         <constraint firstItem="rcy-HC-o3q" firstAttribute="top" secondItem="kbN-LZ-vFH" secondAttribute="bottom" constant="14" id="TfY-Eg-bRg"/>
                         <constraint firstItem="kbN-LZ-vFH" firstAttribute="centerX" secondItem="8YT-iX-AhB" secondAttribute="centerX" id="bfN-XS-WJN"/>
+                        <constraint firstItem="l5A-m1-bMl" firstAttribute="leading" secondItem="rcy-HC-o3q" secondAttribute="trailing" constant="12" id="hVf-Qa-n4q"/>
                         <constraint firstItem="xXs-S4-qOA" firstAttribute="leading" secondItem="8YT-iX-AhB" secondAttribute="leading" constant="20" id="pi3-p4-5Pg"/>
                         <constraint firstItem="ogZ-uC-LFD" firstAttribute="top" secondItem="8YT-iX-AhB" secondAttribute="top" constant="20" id="t9s-TI-pdS"/>
                     </constraints>
@@ -254,14 +293,14 @@ Visit the Cascable website and enter your code alongside your payment details wh
                     <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not eligible for discount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6dh-T5-o20">
-                            <rect key="frame" x="62" y="20" width="196" height="21"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not Eligible for Discount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6dh-T5-o20">
+                            <rect key="frame" x="61" y="20" width="198" height="21"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSk-K2-rlU">
-                            <rect key="frame" x="22.5" y="66" width="275" height="124.5"/>
+                            <rect key="frame" x="23" y="66" width="275" height="124.5"/>
                             <string key="text">Unfortunately, it appears that you are not eligible for the Cascable Transfer discount at this time.
 
 If you have purchased one or more Cascable Pro packs and have restored them to this device, please contact Cascable support for help.</string>
@@ -283,6 +322,7 @@ If you have purchased one or more Cascable Pro packs and have restored them to t
         </scene>
     </scenes>
     <resources>
+        <image name="Share" width="19" height="28"/>
         <image name="TransferIcon" width="128" height="128"/>
     </resources>
 </document>

@@ -593,6 +593,9 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 /* Title of the 'Email Address Required' error dialog. */
 "EmailAddressRequiredTitle" = "Email Address Required";
 
+/* Placeholder text for the email field. */
+"EmailFieldPlaceholder" = "Your email address";
+
 /* Description text of the 'Email Address Required' error dialog. */
 "EmailAddressRequiredDescription" = "We need your email address to send you your discount coupon. It won't be used for any other purpose.";
 
