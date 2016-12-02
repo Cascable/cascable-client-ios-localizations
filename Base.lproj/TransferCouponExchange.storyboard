@@ -72,6 +72,7 @@ If you've purchased at least one Cascable Pro pack, you're eligible for a 50% di
                     <nil key="simulatedTopBarMetrics"/>
                     <modalFormSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="containerVerticalCenterConstraint" destination="JQs-q3-hp9" id="pEO-6b-goL"/>
                         <outlet property="containerWidthConstraint" destination="yT3-A5-gDZ" id="6z3-T4-CWb"/>
                         <outlet property="couponCodeLabel" destination="rcy-HC-o3q" id="0b1-pJ-5aw"/>
                         <outlet property="currentStepContainer" destination="AeJ-ax-gvG" id="u4g-lG-AhL"/>
