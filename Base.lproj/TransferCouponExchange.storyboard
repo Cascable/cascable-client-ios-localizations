@@ -23,10 +23,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EJ8-hR-4er">
-                                <rect key="frame" x="110" y="19" width="320" height="582.5"/>
+                                <rect key="frame" x="110" y="19" width="320" height="583"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8T-9m-CnC">
-                                        <rect key="frame" x="20" y="158" width="280" height="124.5"/>
+                                        <rect key="frame" x="20" y="158" width="280" height="125"/>
                                         <string key="text">With Cascable Transfer for Mac, you can import photos from your WiFi-enabled camera straight into Photos, Lightroom, or anywhere else on your Mac.
 
 If you've purchased at least one Cascable Pro pack, you're eligible for a 50% discount on your purchase of Cascable Transfer!</string>
@@ -35,7 +35,7 @@ If you've purchased at least one Cascable Pro pack, you're eligible for a 50% di
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AeJ-ax-gvG">
-                                        <rect key="frame" x="20" y="282.5" width="280" height="300"/>
+                                        <rect key="frame" x="20" y="283" width="280" height="300"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="300" id="k5c-Bf-gUl"/>
                                         </constraints>
@@ -197,7 +197,7 @@ If this is a new device and you have already purchased a Cascable Pro pack, you 
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5TC-8Y-RkH">
-                            <rect key="frame" x="24.5" y="61" width="271.5" height="78"/>
+                            <rect key="frame" x="24" y="61" width="272" height="78"/>
                             <string key="text">To request your Cascable Transfer for Mac discount, enter your email address below.
 
 Your email address will only be used to send you a confirmation of your discount.</string>
@@ -250,8 +250,8 @@ Your email address will only be used to send you a confirmation of your discount
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Success!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogZ-uC-LFD">
-                            <rect key="frame" x="123" y="20" width="75" height="21"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eligible for Discount!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogZ-uC-LFD">
+                            <rect key="frame" x="75" y="20" width="170" height="21"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
@@ -260,7 +260,7 @@ Your email address will only be used to send you a confirmation of your discount
                             <rect key="frame" x="20" y="66" width="280" height="62.5"/>
                             <string key="text">Your purchase was verified and you're entitled to a discount on Cascable Transfer!
 
-Your coupon code is:</string>
+Your discount coupon code is:</string>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
@@ -305,7 +305,7 @@ Your coupon code is:</string>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSk-K2-rlU">
-                            <rect key="frame" x="23" y="66" width="275" height="124.5"/>
+                            <rect key="frame" x="23" y="66" width="275" height="125"/>
                             <string key="text">Unfortunately, it appears that you are not eligible for the Cascable Transfer discount at this time.
 
 If you have purchased one or more Cascable Pro packs and have restored them to this device, please contact Cascable support for help.</string>
