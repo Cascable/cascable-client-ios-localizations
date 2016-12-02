@@ -927,6 +927,12 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Title of the 'Camera Settings' popup. */
 "CameraSettingsPopupTitle" = "Camera Settings";
 
+/*Title of the 'Viewfinder' section of the overlays popup. */
+"ViewfinderSectionTitle" = "Viewfinder";
+
+/* Title of the 'Lock Viewfinder Orientation' option. */
+"LockViewfinderOrientationTitle" = "Lock Viewfinder Orientation";
+
 /* Title of the 'Histogram' section of the overlays popup. */
 "HistogramSectionTitle" = "Histogram";
 
