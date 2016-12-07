@@ -1,0 +1,6 @@
+{
+    "title" : "Please Review Cascable",
+    "id": "se.cascable.client.help.special.review",
+    "icon": "ReviewHelpArticleIcon",
+    "category": "se.cascable.client.help.category.feedback"
+}
