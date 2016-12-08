@@ -47,7 +47,7 @@
                                     <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank you for updating to Cascable 2.3!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e51-oR-xjz">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank you for updating to Cascable 2.4!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e51-oR-xjz">
                                 <rect key="frame" x="57.5" y="226.5" width="260" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="aYW-Lz-eal">
@@ -71,18 +71,15 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hay-5R-Q3N">
-                                <rect key="frame" x="57.5" y="262.5" width="260" height="109"/>
+                                <rect key="frame" x="57.5" y="262.5" width="260" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="tWd-WM-H4W">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">This update adds support for the following cameras: 
+                                <string key="text">This update adds the ability to lock the viewfinder orientation, and greatly improves Cascable's handling of RAW files from cameras that aren't supported by iOS.
 
-Canon EOS 7D Mark II
-Canon EOS 5DS
-Canon EOS 5DS R
-Canon EOS 5D Mark IV</string>
+Additionally, you can claim a discount on Cascable's sister app for Mac — Cascable Transfer — from the "Purchases" menu in settings.</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>

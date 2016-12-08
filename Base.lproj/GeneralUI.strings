@@ -560,7 +560,7 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 "PleaseReviewCascableReviewCountTitle_Plural" = "%@ people have reviewed this version";
 
 /* The explanation text of the "Please Review Cascable" section" */
-"PleaseReviewCascableExplanation" = "Cascable is made by a small, independent company. We couldn't do it without you!\n\nIf you love Cascable, please consider leaving us a review on the App Store — it really helps!";
+"PleaseReviewCascableExplanation" = "Cascable is made by a small, independent company. We couldn't do it without you!\n\nIf you love Cascable, please consider leaving us a review on the App Store — it really helps.\n\nPlease note that we can't respond to App Store reviews, so if you're having trouble with Cascable please get in touch using the Feedback section so we can help fix your problem.";
 
 /* Title of the 'About Cascable' button in the help menu. */
 "AboutCascableTitle" = "About Cascable";

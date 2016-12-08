@@ -1,0 +1,15 @@
+
+/* Class = "UIViewController"; title = "Welcome"; ObjectID = "G3P-g9-PCa"; */
+"G3P-g9-PCa.title" = "Willkommen";
+
+/* Class = "UILabel"; text = "Thank you for updating to Cascable 2.4!"; ObjectID = "e51-oR-xjz"; */
+"e51-oR-xjz.text" = "Danke für das Update auf Cascable 2.4!";
+
+/* Class = "UILabel"; text = "This update adds the ability to lock the viewfinder orientation, and greatly improves Cascable's handling of RAW files from cameras that aren't supported by iOS.\n\nAdditionally, you can claim a discount on Cascable's sister app for Mac — Cascable Transfer — from the \"Purchases\" menu in settings."; ObjectID = "hay-5R-Q3N"; */
+"hay-5R-Q3N.text" = "This update adds the ability to lock the viewfinder orientation, and greatly improves Cascable's handling of RAW files from cameras that aren't supported by iOS.\n\nAdditionally, you can claim a discount on Cascable's sister app for Mac — Cascable Transfer — from the \"Purchases\" menu in settings.";
+
+/* Class = "UILabel"; text = "What's new in Cascable?"; ObjectID = "l3x-YS-zoX"; */
+"l3x-YS-zoX.text" = "Was ist neu in Cascable?";
+
+/* Class = "UIButton"; normalTitle = "Start Using Cascable"; ObjectID = "ywk-0E-U42"; */
+"ywk-0E-U42.normalTitle" = "Cascable nutzen";
