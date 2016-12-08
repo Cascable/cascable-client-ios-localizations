@@ -551,7 +551,7 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 "PleaseReviewCascableTitle" = "Please Review Cascable";
 
 /* The title of the "Leave an App Store Review…" button - opens the App Store.  */
-"PleaseReviewCascableActionTitle" = "Leave an App Store Review…";
+"PleaseReviewCascableActionTitle" = "Leave an App Store Review";
 
 /* Title of the "x people have reviewed this version" text */
 "PleaseReviewCascableReviewCountTitle" = "%@ person has reviewed this version";
