@@ -102,6 +102,12 @@
 /* Subtitle of the files mode warning that the camera doesn't allow file access. */
 "NoFileTransferSupportDescription" = "Ihre Kamera gestattet keinen Speicherzugriff für Apps.";
 
+/* Title of the files mode warning that the camera doesn't allow file access. */
+"NoFileTransferSupportTitle" = "Dateizugriff nicht unterstützt";
+
+/* Subtitle of the files mode warning that the camera doesn't allow file access. */
+"NoFileTransferSupportDescription" = "Ihre Kamera gestattet keinen Speicherzugriff für Apps.";
+
 /* Title of the files mode warning that there is no memory card in the connected camera. */
 "NoMemoryCardAvailableTitle" = "Keine Speicherkarte";
 
@@ -447,7 +453,7 @@
 /* The title of the 'Edit' button for the Quick Proof feature. */
 "QuickProofEditButtonTitle" = "Bearbeiten";
 
-/* The title of the fullscreen image view during editing. Ex: 'Quick Proof'. */
+/* The title of the fullscreen image view during editing. Ex: 'Quick Proof — IMG_0001.JPG'. */
 "FullScreenImagePreviewWhileEditingTitle" = "Schnellprüfung";
 
 /* The title of the alert presented when the user is unable to edit an image. */
@@ -473,7 +479,7 @@
 "TemperatureEditToolTitle" = "Temperatur";
 "TintEditToolTitle" = "Einfärben";
 "ShadowsEditToolTitle" = "Schatten";
-"HighlightsEditToolTitle" = "Highlights";
+"HighlightsEditToolTitle" = "Hervorhebungen";
 "SharpeningEditToolTitle" = "Schärfen";
 "SaturationEditToolTitle" = "Sättigung";
 "ContrastEditToolTitle" = "Kontrast";
@@ -536,19 +542,19 @@
 "FeedbackFallbackAlertDescription" = "Auf Ihrem %@ ist anscheinend keine E-Mail-Adresse eingerichtet. Keine Sorge, Sie können Ihr Feedback auch auf unserer Webseite hinterlassen.\n\nAlternativ schreiben Sie einfach eine E-Mail an feedback@cascable.se";
 
 /* The title of the "Please Review Cascable" section. */
-"PleaseReviewCascableTitle" = "Please Review Cascable";
+"PleaseReviewCascableTitle" = "Bitte bewerten Sie Cascable";
 
 /* The title of the "Leave an App Store Review…" button - opens the App Store.  */
-"PleaseReviewCascableActionTitle" = "Leave an App Store Review";
+"PleaseReviewCascableActionTitle" = "App Store Rezension schreiben";
 
 /* Title of the "x people have reviewed this version" text */
-"PleaseReviewCascableReviewCountTitle" = "%@ person has reviewed this version";
+"PleaseReviewCascableReviewCountTitle" = "%@ Bewertung dieser Version";
 
 /* Title of the "x people have reviewed this version" text */
-"PleaseReviewCascableReviewCountTitle_Plural" = "%@ people have reviewed this version";
+"PleaseReviewCascableReviewCountTitle_Plural" = "%@ Bewertungen dieser Version";
 
 /* The explanation text of the "Please Review Cascable" section" */
-"PleaseReviewCascableExplanation" = "Cascable is made by a small, independent company. We couldn't do it without you!\n\nIf you love Cascable, please consider leaving us a review on the App Store — it really helps.\n\nPlease note that we can't respond to App Store reviews, so if you're having trouble with Cascable please get in touch using the Feedback section so we can help fix your problem.";
+"PleaseReviewCascableExplanation" = "Cascable wird von einer kleinen unabhängigen Firma entwickelt. Ohne Ihre Hilfe würde es nicht gehen!\n\nIhnen gefällt Cascable? Schreiben Sie doch bitte eine Rezension im App Store - das hilft uns sehr.\n\nBitte beachten Sie, dass auf Rezensionen im App Store nicht geantwortet werden kann. Sollten Sie Hilfe bei der Lösung eines Problems benötigen, nutzen Sie bitte die Feedback-Funktion, damit wir Ihnen antworten und helfen können.";
 
 /* Title of the 'About Cascable' button in the help menu. */
 "AboutCascableTitle" = "Über Cascable";
@@ -594,25 +600,25 @@
 // ------------------------------------------------------------
 
 /* Title of the "Claim discount" button in purchases */
-"ClaimTransferDiscountTitle" = "Claim Cascable Transfer Discount…";
+"ClaimTransferDiscountTitle" = "Cascable Transfer Rabatt einlösen …";
 
 /* Title of the 'Email Address Required' error dialog. */
-"EmailAddressRequiredTitle" = "Email Address Required";
+"EmailAddressRequiredTitle" = "E-Mail-Adresse erforderlich";
 
 /* Placeholder text for the email field. */
-"EmailFieldPlaceholder" = "Your email address";
+"EmailFieldPlaceholder" = "Ihre E-Mail-Adresse";
 
 /* Description text of the 'Email Address Required' error dialog. */
-"EmailAddressRequiredDescription" = "We need your email address to send you your discount coupon. It won't be used for any other purpose.";
+"EmailAddressRequiredDescription" = "Wir benötigen Ihre E-Mail-Adresse, damit wir Ihnen Ihren Rabattcode zusenden können. Ihre Adresse wird nicht für andere Zwecke verwendet.";
 
 /* Title of the coupon exchange failed error dialog. */
-"CouponExchangeFailedTitle" = "Discount Check Failed";
+"CouponExchangeFailedTitle" = "Rabatt-Prüfung fehgeschlagen";
 
 /* Description text of the coupon exchange failed error dialog when the server fails. */
-"CouponExchangedFailedServerFailureDescription" = "A problem occurred while trying to check your eligibility for the Cascable Transfer discount. If this continues, please contact Cascable support.";
+"CouponExchangedFailedServerFailureDescription" = "Bei der Berechtigungsprüfung für den Cascable Transfer Rabatt ist ein Problem aufgetreten. Sollte das Problem weiterhin bestehen bleiben, wenden Sie sich bitte an den Cascable Support.";
 
 /* Description text of the coupon exchange failed error dialog when there's a network failure or similar. */
-"CouponExchangedFailedNetworkFailureDescription" = "A problem occurred while trying to check your eligibility for the Cascable Transfer discount. Please double-check your internet connection. If you are connected to a camera, you may need to disconnect from the camera and connect to a WiFi network that has internet connectivity.\n\nIf this issue persists, please contact Cascable support.";
+"CouponExchangedFailedNetworkFailureDescription" = "Bei der Berechtigungsprüfung für den Cascable Transfer Rabatt ist ein Problem aufgetreten. Prüfen Sie bitte Ihre Netzwerkverbindung. Falls Sie mit einer Kamera verbunden sind, sollten Sie diese Verbindung trennen, damit Sie sich anschließend mit einem Netzwerk verbinden können, das eine Internetverbindung bereitstellt.\n\nSollte das Problem weiterhin bestehen bleiben, wenden Sie sich bitte an den Cascable Support.";
 
 // ------------------------------------------------------------
 //     Settings
@@ -927,10 +933,10 @@
 "CameraSettingsPopupTitle" = "Kamera-Einstellungen";
 
 /*Title of the 'Viewfinder' section of the overlays popup. */
-"ViewfinderSectionTitle" = "Viewfinder";
+"ViewfinderSectionTitle" = "Sucherfenster";
 
 /* Title of the 'Lock Viewfinder Orientation' option. */
-"LockViewfinderOrientationTitle" = "Lock Viewfinder Orientation";
+"LockViewfinderOrientationTitle" = "Suchfenster-Ausrichtung sperren";
 
 /* Title of the 'Histogram' section of the overlays popup. */
 "HistogramSectionTitle" = "Histogramm";
