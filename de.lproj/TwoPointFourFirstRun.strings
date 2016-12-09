@@ -6,7 +6,7 @@
 "e51-oR-xjz.text" = "Danke für das Update auf Cascable 2.4!";
 
 /* Class = "UILabel"; text = "This update adds the ability to lock the viewfinder orientation, and greatly improves Cascable's handling of RAW files from cameras that aren't supported by iOS.\n\nAdditionally, you can claim a discount on Cascable's sister app for Mac — Cascable Transfer — from the \"Purchases\" menu in settings."; ObjectID = "hay-5R-Q3N"; */
-"hay-5R-Q3N.text" = "This update adds the ability to lock the viewfinder orientation, and greatly improves Cascable's handling of RAW files from cameras that aren't supported by iOS.\n\nAdditionally, you can claim a discount on Cascable's sister app for Mac — Cascable Transfer — from the \"Purchases\" menu in settings.";
+"hay-5R-Q3N.text" = "Dieses Update ermöglicht nun, die Ausrichtung des Sucherfensters zu sperren. Des Weiteren wurde der Umgang mit RAW-Dateien von Kameras, die nicht von iOS unterstützt werden, drastisch verbessert.\n\nZusätzlich können Sie sich im Menü „Einkäufe“ einen Rabatt für die neue Mac-App „Cascable Transfer“ sichern:  Diese ist eine perfekte Erweiterung für Cascable und ermöglicht das einfache Übertragen von Fotos auf Ihren Mac.";
 
 /* Class = "UILabel"; text = "What's new in Cascable?"; ObjectID = "l3x-YS-zoX"; */
 "l3x-YS-zoX.text" = "Was ist neu in Cascable?";

@@ -8,8 +8,8 @@
   These strings must be short (3-4 chars max).
  */
 
-"OlympusSilentDriveModeLabel" = "♥︎︎";
-"OlympusLowVibrationDriveModeLabel" = "♦︎";
+"OlympusSilentDriveModeLabel" = "♡";
+"OlympusLowVibrationDriveModeLabel" = "♢";
 "OlympusCustomTimerDriveModeLabel" = "C";
 
 "SonyBurstDriveModeLabel" = "B";
