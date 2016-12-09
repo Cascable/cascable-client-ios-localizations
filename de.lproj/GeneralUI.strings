@@ -548,10 +548,10 @@
 "PleaseReviewCascableActionTitle" = "App Store Rezension schreiben";
 
 /* Title of the "x people have reviewed this version" text */
-"PleaseReviewCascableReviewCountTitle" = "%@ Person hat diese Version bewertet";
+"PleaseReviewCascableReviewCountTitle" = "%@ Bewertung dieser Version";
 
 /* Title of the "x people have reviewed this version" text */
-"PleaseReviewCascableReviewCountTitle_Plural" = "%@ Personen haben diese Version bewertet";
+"PleaseReviewCascableReviewCountTitle_Plural" = "%@ Bewertungen dieser Version";
 
 /* The explanation text of the "Please Review Cascable" section" */
 "PleaseReviewCascableExplanation" = "Cascable wird von einer kleinen unabhängigen Firma entwickelt. Ohne Ihre Hilfe würde es nicht gehen!\n\nIhnen gefällt Cascable? Schreiben Sie doch bitte eine Rezension im App Store - das hilft uns sehr.\n\nBitte beachten Sie, dass auf Rezensionen im App Store nicht geantwortet werden kann. Sollten Sie Hilfe bei der Lösung eines Problems benötigen, nutzen Sie bitte die Feedback-Funktion, damit wir Ihnen antworten und helfen können.";
