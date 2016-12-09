@@ -39,7 +39,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's new in Cascable?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3x-YS-zoX">
-                                <rect key="frame" x="43" y="185" width="289.5" height="31.5"/>
+                                <rect key="frame" x="43" y="179" width="289.5" height="31.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -48,7 +48,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank you for updating to Cascable 2.4!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e51-oR-xjz">
-                                <rect key="frame" x="57.5" y="226.5" width="260" height="16"/>
+                                <rect key="frame" x="57.5" y="220.5" width="260" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="aYW-Lz-eal">
                                         <variation key="widthClass=compact" constant="260"/>
@@ -71,7 +71,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hay-5R-Q3N">
-                                <rect key="frame" x="57.5" y="262.5" width="260" height="140"/>
+                                <rect key="frame" x="57.5" y="246.5" width="260" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="tWd-WM-H4W">
                                         <variation key="widthClass=compact" constant="260"/>
@@ -116,7 +116,7 @@ Additionally, you can claim a discount on Cascable's sister app for Mac — Casc
                                 <variation key="widthClass=compact" constant="40"/>
                             </constraint>
                             <constraint firstItem="hay-5R-Q3N" firstAttribute="top" secondItem="e51-oR-xjz" secondAttribute="bottom" constant="30" id="99D-Tv-Zjd">
-                                <variation key="widthClass=compact" constant="20"/>
+                                <variation key="widthClass=compact" constant="10"/>
                             </constraint>
                             <constraint firstAttribute="centerX" secondItem="Y9H-Or-uKy" secondAttribute="centerX" id="Usg-wv-Sn5"/>
                             <constraint firstAttribute="centerX" secondItem="e51-oR-xjz" secondAttribute="centerX" id="WPn-fi-cpH"/>
@@ -126,7 +126,9 @@ Additionally, you can claim a discount on Cascable's sister app for Mac — Casc
                                 <variation key="widthClass=compact" constant="30"/>
                             </constraint>
                             <constraint firstItem="ywk-0E-U42" firstAttribute="centerX" secondItem="3Kf-n0-sLc" secondAttribute="centerX" id="rpQ-Xo-RYz"/>
-                            <constraint firstItem="l3x-YS-zoX" firstAttribute="top" secondItem="Y9H-Or-uKy" secondAttribute="bottom" constant="20" id="tdj-ef-JnL"/>
+                            <constraint firstItem="l3x-YS-zoX" firstAttribute="top" secondItem="Y9H-Or-uKy" secondAttribute="bottom" constant="20" id="tdj-ef-JnL">
+                                <variation key="widthClass=compact" constant="14"/>
+                            </constraint>
                             <constraint firstItem="e51-oR-xjz" firstAttribute="top" secondItem="l3x-YS-zoX" secondAttribute="bottom" constant="30" id="yBF-0p-eW6">
                                 <variation key="widthClass=compact" constant="10"/>
                             </constraint>
