@@ -1124,6 +1124,9 @@
 /* Title of the 'One stop' bracketing interval setting. */
 "BracketingRobotStopWholeStopIntervalTitle" = "Eine Stufe";
 
+/* Title of the 'Two stops' bracketing interval setting. */
+"BracketingRobotStopTwoStopsIntervalTitle" = "Zwei Stufen";
+
 // ------------------------------------------------------------
 //     Shutter Robot: Configuration
 // ------------------------------------------------------------

@@ -1134,6 +1134,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Title of the 'One stop' bracketing interval setting. */
 "BracketingRobotStopWholeStopIntervalTitle" = "One stop";
 
+/* Title of the 'Two stops' bracketing interval setting. */
+"BracketingRobotStopTwoStopsIntervalTitle" = "Two stops";
+
 // ------------------------------------------------------------
 //     Shutter Robot: Configuration
 // ------------------------------------------------------------
