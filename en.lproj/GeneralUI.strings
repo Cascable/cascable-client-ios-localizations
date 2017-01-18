@@ -421,6 +421,12 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 /* 'Taken This Week' creation date filter title. */
 "FilterSelectThisWeekTimespanTitle" = "Taken This Week";
 
+/* 'Is Anywhere' device location filter title. */
+"FilterSelectAnyDeviceLocationTitle" = "Is Anywhere";
+
+/* 'Is Not On This iPhone' device location filter title. */
+"FilterSelectNotOnThisDeviceLocationFormatter" = "Is Not On This %@";
+
 /* 'Quick Select' popup title. */
 "FilterViewControllerTitle" = "Quick Select";
 

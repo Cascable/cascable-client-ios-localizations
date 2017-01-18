@@ -415,6 +415,12 @@
 /* 'Taken This Week' creation date filter title. */
 "FilterSelectThisWeekTimespanTitle" = "Diese Woche erstellt";
 
+/* 'Is Anywhere' device location filter title. */
+"FilterSelectAnyDeviceLocationTitle" = "Ist irgendwo";
+
+/* 'Is Not On This iPhone' device location filter title. */
+"FilterSelectNotOnThisDeviceLocationFormatter" = "Ist nicht auf diesem %@";
+
 /* 'Quick Select' popup title. */
 "FilterViewControllerTitle" = "Schnellauswahl";
 
