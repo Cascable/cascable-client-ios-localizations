@@ -480,6 +480,12 @@
 /* The message of the alert presented when the user is unable to edit an image due to enabling the 'Use Legacy Image Renderer' setting. */
 "QuickProofUnavailableNeedsModernRendererMessage" = "Wenn Sie die Einstellung „Alten Bild-Renderer verwenden“ aktiviert haben, ist die Schnellprüfung nicht verfügbar.";
 
+/* The alert title used when the user is editing a JPEG file due to iOS not supporting their camera's RAW files. */
+"QuickProofUsingFallbackJPEGTitle" = "JPEG wird bearbeitet";
+
+/* The alert message used when the user is editing a JPEG file due to iOS not supporting their camera's RAW files. */
+"QuickProofUsingFallbackJPEGMessage" = "RAW-Dateien von dieser Kamera werden in dieser Version von iOS nicht unterstützt, daher verwendet Quick Proof stattdessen die JPEG-Datei.\n\nIn einem kommenden iOS-Update könnte eventuell die Unterstützung für RAW-Dateien von Ihrer Kamera enthalten sein.";
+
 /* Edit tool titles */
 "ExposureEditToolTitle" = "Belichtung";
 "TemperatureEditToolTitle" = "Temperatur";
