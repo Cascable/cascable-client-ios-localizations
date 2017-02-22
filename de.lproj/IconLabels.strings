@@ -41,6 +41,8 @@
 "Custom1WBLabel" = "C1";
 "Custom2WBLabel" = "C2";
 "Custom3WBLabel" = "C3";
+"Custom4WBLabel" = "C4";
+"Custom5WBLabel" = "C5";
 
 "BulbAEModeLabel" = "B";
 "HDRLabel" = "HDR";
