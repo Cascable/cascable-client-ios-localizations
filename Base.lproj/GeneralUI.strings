@@ -1329,6 +1329,9 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 /* Extended footer text for when the device isn't connected to WiFi. Ex: 'Your iPad doesn't appear to be connected to a WiFi network.'. */
 "ConnectionNoNetworkDescription" = "Your %@ doesn't appear to be connected to a WiFi network.";
 
+/* "Tap to open Wi-Fi settings" text. */
+"ConnectionOpenWiFiSettingsDescription" = "Tap to open Wi-Fi settings.";
+
 /* Title of the alert displayed when pairing is in progress and the user needs to operate the camera directly. */
 "SwitchToCameraTitle" = "Switch to Camera";
 
