@@ -960,6 +960,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Title of the 'Lock Viewfinder Orientation' option. */
 "LockViewfinderOrientationTitle" = "Lock Viewfinder Orientation";
 
+/* Title of the 'Show Highlight Warning' option. */
+"ShowHighlightWarningTitle" = "Show Highlight Warning";
+
 /* Title of the 'Histogram' section of the overlays popup. */
 "HistogramSectionTitle" = "Histogram";
 
