@@ -1389,6 +1389,8 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 
 "TimeZoneAdjustOriginalPhotoTimestampDescription" = "The original timestamp of this photo is %@ on %@.";
 
+"TimeZoneAdjustPhotoNoTimestampDescription" = "This photo does not have a timestamp.";
+
 "TimeZoneAdjustAdjustedPhotoTimestampDescription" = "The adjusted timestamp of this photo will be %@ on %@.";
 
 "TimeZoneAdjustMissingSessionNameReplacement" = "This session";

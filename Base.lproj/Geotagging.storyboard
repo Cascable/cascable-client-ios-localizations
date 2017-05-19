@@ -561,7 +561,7 @@
         <scene sceneID="G7y-6K-05T">
             <objects>
                 <navigationController storyboardIdentifier="TrackPicker" navigationBarHidden="YES" id="rQs-Xs-5aa" customClass="PulleyDrawerNavigationController" customModule="Cascable" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="fk8-1F-CgU">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fk8-1F-CgU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -595,7 +595,7 @@
                                 <rect key="frame" x="0.0" y="58" width="375" height="589"/>
                                 <subviews>
                                     <collectionView opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="XuG-ev-wxZ">
-                                        <rect key="frame" x="20" y="0.0" width="335" height="589"/>
+                                        <rect key="frame" x="20" y="0.0" width="335" height="569"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <inset key="scrollIndicatorInsets" minX="0.0" minY="0.0" maxX="-10" maxY="0.0"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="NfA-TH-kcU">
@@ -638,7 +638,7 @@
                                     <constraint firstItem="XuG-ev-wxZ" firstAttribute="leading" secondItem="NK9-En-Cge" secondAttribute="leading" constant="20" id="2Rg-RJ-gE9"/>
                                     <constraint firstAttribute="trailing" secondItem="XuG-ev-wxZ" secondAttribute="trailing" constant="20" id="can-te-35a"/>
                                     <constraint firstItem="XuG-ev-wxZ" firstAttribute="top" secondItem="NK9-En-Cge" secondAttribute="top" id="jJ5-be-utJ"/>
-                                    <constraint firstAttribute="bottom" secondItem="XuG-ev-wxZ" secondAttribute="bottom" id="vjr-k8-YrR"/>
+                                    <constraint firstAttribute="bottom" secondItem="XuG-ev-wxZ" secondAttribute="bottom" constant="20" id="vjr-k8-YrR"/>
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CloseBackgroundLight" translatesAutoresizingMaskIntoConstraints="NO" id="y5w-u4-2u7">
