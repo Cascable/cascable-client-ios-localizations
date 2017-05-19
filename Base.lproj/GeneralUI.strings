@@ -1348,7 +1348,90 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 "CancelPairingTitle" = "Cancel Pairing";
 
 // ------------------------------------------------------------
-//     Geotagging
+//     Geotagging: General
 // ------------------------------------------------------------
 
 "GeotaggingModeTitle" = "Geotagging";
+
+// ------------------------------------------------------------
+//     Geotagging: Maps and Pins
+// ------------------------------------------------------------
+
+"TaggedImageTitle" = "Tagged Image";
+
+"NoTaggableImagesTitle" = "You have no images to tag!";
+
+"AllImagesTaggedTitle" = "All of your images are tagged!";
+
+"SelectAndDragToMapTitle" = "Select and drag photos to the map";
+
+"DropToCancelTitle" = "Drop here to cancel";
+
+// ------------------------------------------------------------
+//     Geotagging: GPX
+// ------------------------------------------------------------
+
+"GeneratingGPXTitle" = "Generating GPX file…";
+
+// ------------------------------------------------------------
+//     Geotagging: Track Matching
+// ------------------------------------------------------------
+
+"TimezoneAdjustTitle" = "Timezone Adjust";
+
+"NoTimezoneAdjustDescription" = "None";
+
+"TimeZoneAdjustDescription" = "%@ hour";
+
+"TimeZoneAdjustDescription_Plural" = "%@ hours";
+
+"TimeZoneAdjustOriginalPhotoTimestampDescription" = "The original timestamp of this photo is %@ on %@.";
+
+"TimeZoneAdjustAdjustedPhotoTimestampDescription" = "The adjusted timestamp of this photo will be %@ on %@.";
+
+"TimeZoneAdjustMissingSessionNameReplacement" = "This session";
+
+"TimeZoneAdjustSessionRangeSingleDayDescription" = "%@ takes place between %@ and %@ on %@.";
+
+"TimeZoneAdjustSessionRangeMultipleDaysDescription" = "%@ takes place between %@ on %@ and %@ on %@.";
+
+"TrackMatchingButtonTitle" = "Apply Geotags to %@ Photos";
+
+"TrackMatchingNoMatchesButtonTitle" = "No Matching Photos";
+
+"TrackMatchingFineTuningSectionTitle" = "Fine Tuning";
+
+// ------------------------------------------------------------
+//     Geotagging: Tracking Location
+// ------------------------------------------------------------
+
+"UntitledTrackingSessionName" = "Untitled Session";
+
+"TrackingSessionNameByDate" = "Session started at %@";
+
+"TrackingSessionNameByPlace" = "Session started at %@";
+
+"TrackingSessionErrorTitle" = "Could Not Track Location";
+
+"TrackingSessionGenericFailureErrorDescription" = "Your location could not be tracked. Make sure that Cascable has location access in the Settings app.";
+
+"TrackingSessionErrorLocationAccessDeniedTitle" = "Location Access Required";
+
+"TrackingSessionErrorLocationAccessDeniedDescription" = "In order to create a track log, Cascable requires access to your location. Please open the Settings app and set Cascable's location access to 'Always'.\n\nCascable will only ever access your location when you tell it to.";
+
+"TrackingSessionLoggingActiveTitle" = "Logging Location";
+
+"TrackingSessionLoggingInactiveTitle" = "Logging Location";
+
+"TrackingSessionStartButtonTitle" = "Start";
+
+"TrackingSessionStopButtonTitle" = "Stop";
+
+"TrackingNotificationAskTitle" = "Notify about Background Logging?";
+
+"TrackingNotificationAskDescription" = "Cascable can notify you of the status of location logging while it's in the background, if you'd like.";
+
+"TrackingNotificationAskNoNotifyButtonTitle" = "Don't Notify";
+
+"TrackingNotificationAskDoNotifyButtonTitle" = "Notify";
+
