@@ -1373,6 +1373,8 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 
 "GeneratingGPXTitle" = "Generating GPX file…";
 
+"ImportingGPXTitle" = "Importing GPX file…";
+
 // ------------------------------------------------------------
 //     Geotagging: Track Matching
 // ------------------------------------------------------------
