@@ -1353,6 +1353,14 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 
 "GeotaggingModeTitle" = "Geotagging";
 
+"GeotaggingSettingsTitle" = "Geotagging";
+
+"ApplyGeotagsToExportsTitle" = "Geotag Exported JPEG Images";
+
+"GeotaggingSettingsFileHandlingSectionTitle" = "Exporting Tagged Images";
+
+"GeotaggingSettingsFileHandlingSectionFooter" = "If this setting is enabled, geotags will be included in all tagged JPEG images exported from Cascable. Cascable never modifies RAW files.";
+
 // ------------------------------------------------------------
 //     Geotagging: Maps and Pins
 // ------------------------------------------------------------
