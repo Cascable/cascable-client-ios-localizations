@@ -561,7 +561,7 @@
         <scene sceneID="G7y-6K-05T">
             <objects>
                 <navigationController storyboardIdentifier="TrackPicker" navigationBarHidden="YES" id="rQs-Xs-5aa" customClass="PulleyDrawerNavigationController" customModule="Cascable" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fk8-1F-CgU">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="fk8-1F-CgU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -615,6 +615,14 @@
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0h2-y3-jaK">
                                                             <rect key="frame" x="0.0" y="0.0" width="100" height="67"/>
                                                         </imageView>
+                                                        <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z3X-5B-tnl" customClass="CBLSelectionIndicatorView">
+                                                            <rect key="frame" x="68" y="35" width="24" height="24"/>
+                                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="24" id="pR5-nX-U8Z"/>
+                                                                <constraint firstAttribute="height" constant="24" id="ysN-Ex-Eck"/>
+                                                            </constraints>
+                                                        </view>
                                                     </subviews>
                                                 </view>
                                                 <constraints>
@@ -622,9 +630,13 @@
                                                     <constraint firstItem="0h2-y3-jaK" firstAttribute="top" secondItem="H8E-oT-0Em" secondAttribute="top" id="Hel-Zx-9aT"/>
                                                     <constraint firstAttribute="trailing" secondItem="0h2-y3-jaK" secondAttribute="trailing" id="MW8-cM-a8E"/>
                                                     <constraint firstItem="0h2-y3-jaK" firstAttribute="leading" secondItem="H8E-oT-0Em" secondAttribute="leading" id="PbP-GF-dSb"/>
+                                                    <constraint firstAttribute="bottom" secondItem="z3X-5B-tnl" secondAttribute="bottom" constant="8" id="gLn-wA-Vwj"/>
+                                                    <constraint firstAttribute="trailing" secondItem="z3X-5B-tnl" secondAttribute="trailing" constant="8" id="mxm-r7-Sre"/>
                                                 </constraints>
                                                 <connections>
                                                     <outlet property="imageView" destination="0h2-y3-jaK" id="Ll3-xT-F7j"/>
+                                                    <outlet property="selectedTickView" destination="z3X-5B-tnl" id="nlh-Nz-BMZ"/>
+                                                    <outlet property="tickViewTrailingConstraint" destination="mxm-r7-Sre" id="RUf-X9-ju3"/>
                                                 </connections>
                                             </collectionViewCell>
                                         </cells>
