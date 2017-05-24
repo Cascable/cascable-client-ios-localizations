@@ -30,9 +30,9 @@
                                 </connections>
                             </mapView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jX7-dr-4DO">
-                                <rect key="frame" x="0.0" y="20" width="375" height="195"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="60.5"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="RZD-Vk-jLr">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="195"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="60.5"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQU-wE-dVM">
@@ -50,7 +50,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3wH-JF-w8o" customClass="CBLHairlineDividerView">
-                                            <rect key="frame" x="0.0" y="194" width="375" height="1"/>
+                                            <rect key="frame" x="0.0" y="59.5" width="375" height="1"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="1" id="TI8-3e-UcF"/>
                                             </constraints>
@@ -58,67 +58,18 @@
                                                 <userDefinedRuntimeAttribute type="boolean" keyPath="topLeft" value="NO"/>
                                             </userDefinedRuntimeAttributes>
                                         </view>
-                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hTq-RX-Gqq">
-                                            <rect key="frame" x="306" y="60.5" width="51" height="31"/>
-                                        </switch>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ga2-6E-J7U">
-                                            <rect key="frame" x="240" y="15" width="57" height="30"/>
-                                            <state key="normal" title="Settings"/>
-                                            <connections>
-                                                <action selector="settingsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r9N-1O-PUG"/>
-                                            </connections>
-                                        </button>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Continued use of GPS running in the background can dramatically decrease battery life." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yiY-ZD-uyM">
-                                            <rect key="frame" x="20" y="99.5" width="335" height="34"/>
-                                            <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notify Background Logging Status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lDj-uo-hYf">
-                                            <rect key="frame" x="20" y="150.5" width="235" height="18"/>
-                                            <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O1G-6m-4If" customClass="UserDefaultsSwitch" customModule="Cascable" customModuleProvider="target">
-                                            <rect key="frame" x="306" y="143.5" width="51" height="31"/>
-                                            <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="userDefaultsKey" value="NotifyLoggingEvents"/>
-                                            </userDefinedRuntimeAttributes>
-                                        </switch>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High Accuracy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6r-9V-fz0">
-                                            <rect key="frame" x="20" y="67" width="100" height="18"/>
-                                            <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="JQU-wE-dVM" secondAttribute="trailing" constant="20" id="0Gj-hx-R4l"/>
-                                        <constraint firstItem="b6r-9V-fz0" firstAttribute="leading" secondItem="lBd-Tw-OZ3" secondAttribute="leading" id="4gU-1q-TZf"/>
-                                        <constraint firstAttribute="trailing" secondItem="hTq-RX-Gqq" secondAttribute="trailing" constant="20" id="616-py-NYh"/>
-                                        <constraint firstItem="JQU-wE-dVM" firstAttribute="leading" secondItem="ga2-6E-J7U" secondAttribute="trailing" constant="20" id="61N-Gx-LhL"/>
+                                        <constraint firstAttribute="bottom" secondItem="lBd-Tw-OZ3" secondAttribute="bottom" constant="20" id="3rd-4E-8Yg"/>
                                         <constraint firstAttribute="trailing" secondItem="3wH-JF-w8o" secondAttribute="trailing" id="7hP-Gc-bF5"/>
                                         <constraint firstItem="JQU-wE-dVM" firstAttribute="baseline" secondItem="lBd-Tw-OZ3" secondAttribute="baseline" id="8ut-Rl-uSv"/>
-                                        <constraint firstItem="yiY-ZD-uyM" firstAttribute="top" secondItem="hTq-RX-Gqq" secondAttribute="bottom" constant="8" id="Eyz-uN-BUN"/>
                                         <constraint firstItem="lBd-Tw-OZ3" firstAttribute="leading" secondItem="RZD-Vk-jLr" secondAttribute="leading" constant="20" id="HDZ-c8-8LC"/>
-                                        <constraint firstItem="b6r-9V-fz0" firstAttribute="centerY" secondItem="hTq-RX-Gqq" secondAttribute="centerY" id="Itr-6Q-JIF"/>
                                         <constraint firstItem="3wH-JF-w8o" firstAttribute="leading" secondItem="RZD-Vk-jLr" secondAttribute="leading" id="Odm-eC-M7n"/>
-                                        <constraint firstItem="lDj-uo-hYf" firstAttribute="leading" secondItem="b6r-9V-fz0" secondAttribute="leading" id="SRZ-0w-XgJ"/>
-                                        <constraint firstItem="hTq-RX-Gqq" firstAttribute="top" secondItem="JQU-wE-dVM" secondAttribute="bottom" constant="15" id="VlD-JU-D1S"/>
-                                        <constraint firstItem="lDj-uo-hYf" firstAttribute="centerY" secondItem="O1G-6m-4If" secondAttribute="centerY" id="c1D-sb-xb4"/>
                                         <constraint firstItem="lBd-Tw-OZ3" firstAttribute="top" secondItem="RZD-Vk-jLr" secondAttribute="top" constant="20" id="dNg-Lj-bXQ"/>
-                                        <constraint firstItem="O1G-6m-4If" firstAttribute="trailing" secondItem="hTq-RX-Gqq" secondAttribute="trailing" id="foZ-dl-82e"/>
-                                        <constraint firstItem="O1G-6m-4If" firstAttribute="top" secondItem="yiY-ZD-uyM" secondAttribute="bottom" constant="10" id="g8B-kg-54Y"/>
-                                        <constraint firstAttribute="trailing" secondItem="yiY-ZD-uyM" secondAttribute="trailing" constant="20" id="mbp-UY-oGb"/>
-                                        <constraint firstItem="yiY-ZD-uyM" firstAttribute="leading" secondItem="RZD-Vk-jLr" secondAttribute="leading" constant="20" id="sw2-Dq-BFc"/>
                                         <constraint firstAttribute="bottom" secondItem="3wH-JF-w8o" secondAttribute="bottom" id="xT1-jj-yPK"/>
-                                        <constraint firstItem="ga2-6E-J7U" firstAttribute="baseline" secondItem="JQU-wE-dVM" secondAttribute="baseline" id="zcS-OM-4MV"/>
                                     </constraints>
                                 </view>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="195" id="C8f-L4-dAr"/>
-                                </constraints>
                                 <blurEffect style="extraLight"/>
                             </visualEffectView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PVQ-qa-99Z">
@@ -191,10 +142,7 @@
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <connections>
-                        <outlet property="highAccuracySwitch" destination="hTq-RX-Gqq" id="U80-Wq-TD4"/>
                         <outlet property="loggingHeader" destination="jX7-dr-4DO" id="V2K-VU-jVY"/>
-                        <outlet property="loggingHeaderHeightConstraint" destination="C8f-L4-dAr" id="rx0-Bb-6KO"/>
-                        <outlet property="loggingSettingsButton" destination="ga2-6E-J7U" id="z3U-1f-brB"/>
                         <outlet property="map" destination="EAq-fK-8lS" id="1bl-ae-NWz"/>
                         <outlet property="startStopTrackingButton" destination="JQU-wE-dVM" id="OY6-uH-MzT"/>
                         <outlet property="trackingStatus" destination="lBd-Tw-OZ3" id="u3a-M4-IY6"/>

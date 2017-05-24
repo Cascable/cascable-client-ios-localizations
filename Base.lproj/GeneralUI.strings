@@ -1357,9 +1357,21 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 
 "ApplyGeotagsToExportsTitle" = "Geotag Exported JPEG Images";
 
+"HighAccuracyTrackingTitle" = "High Accuracy";
+
+"NotifyOfTrackingInterruptionsInBackgroundTitle" = "Notify Background Tracking Status";
+
 "GeotaggingSettingsFileHandlingSectionTitle" = "Exporting Tagged Images";
 
+"GeotaggingSettingsTrackingSectionTitle" = "Tracking";
+
 "GeotaggingSettingsFileHandlingSectionFooter" = "If this setting is enabled, geotags will be included in all tagged JPEG images exported from Cascable. Cascable never modifies RAW files.";
+
+"GeotaggingSettingsTrackingSectionFooter" = "Continued use of GPS running in the background can dramatically decrease battery life.";
+
+"GeotaggingTrackingStoppedNotificationBody" = "Location tracking has been suspended. Relaunch Cascable to restart it.";
+
+"GeotaggingTrackingInBackgroundNotificationBody" = "Location tracking is running in the background.";
 
 // ------------------------------------------------------------
 //     Geotagging: Maps and Pins
