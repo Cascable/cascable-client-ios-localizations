@@ -256,11 +256,19 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="topLeft" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have no tracks!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvg-br-hMD">
+                                <rect key="frame" x="110" y="303.5" width="155.5" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="0.75" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="QGa-FC-eZ2" firstAttribute="top" secondItem="AJ1-TA-Zhn" secondAttribute="bottom" constant="20" id="17K-11-fvx"/>
                             <constraint firstItem="mMd-r3-PAN" firstAttribute="top" secondItem="9P1-3s-FSG" secondAttribute="bottom" constant="20" id="2WM-Wa-DTd"/>
+                            <constraint firstItem="jvg-br-hMD" firstAttribute="centerY" secondItem="9P1-3s-FSG" secondAttribute="centerY" constant="-40" id="44H-Vc-ENz"/>
+                            <constraint firstItem="jvg-br-hMD" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="9rI-oX-79b" secondAttribute="leading" constant="40" id="4P5-Ki-3KA"/>
                             <constraint firstItem="scv-tP-1Xd" firstAttribute="width" secondItem="scv-tP-1Xd" secondAttribute="height" multiplier="1:1" id="9hX-eh-qNz"/>
                             <constraint firstItem="9P1-3s-FSG" firstAttribute="top" secondItem="WJX-dg-qx3" secondAttribute="bottom" id="CH3-kW-NoO"/>
                             <constraint firstItem="9P1-3s-FSG" firstAttribute="top" secondItem="QGa-FC-eZ2" secondAttribute="bottom" constant="20" id="Dn8-ly-vJU"/>
@@ -272,13 +280,17 @@
                             <constraint firstItem="WJX-dg-qx3" firstAttribute="leading" secondItem="9rI-oX-79b" secondAttribute="leading" id="nDn-lR-lGY"/>
                             <constraint firstAttribute="trailing" secondItem="WJX-dg-qx3" secondAttribute="trailing" id="ubH-HK-aa5"/>
                             <constraint firstItem="32B-1y-ntl" firstAttribute="centerX" secondItem="scv-tP-1Xd" secondAttribute="centerX" id="usk-0Z-Lse"/>
+                            <constraint firstItem="jvg-br-hMD" firstAttribute="centerX" secondItem="9P1-3s-FSG" secondAttribute="centerX" id="vMq-Cq-Xag"/>
                             <constraint firstAttribute="trailing" secondItem="scv-tP-1Xd" secondAttribute="trailing" constant="8" id="z2A-Sa-PRF"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="o7c-i0-zw2"/>
                     <nil key="simulatedStatusBarMetrics"/>
                     <connections>
+                        <outlet property="divider" destination="WJX-dg-qx3" id="tiH-4W-rJe"/>
+                        <outlet property="noTracksLabel" destination="jvg-br-hMD" id="cxg-3Q-vc3"/>
                         <outlet property="tableView" destination="9P1-3s-FSG" id="ztL-Qp-bs9"/>
+                        <outlet property="titleLabel" destination="QGa-FC-eZ2" id="VXl-g0-ikQ"/>
                         <segue destination="kfd-gC-DKM" kind="show" identifier="sessionDetail" id="yZH-bq-hs3"/>
                     </connections>
                 </viewController>
@@ -425,6 +437,10 @@
                         <outlet property="sessionTitleLabel" destination="ayN-eg-nOl" id="YuB-mv-cbO"/>
                         <outlet property="tableView" destination="fPC-Dy-zRl" id="cMs-GS-kgR"/>
                         <outlet property="tableViewHeightConstraint" destination="Dqa-3x-A27" id="nvU-g7-hgc"/>
+                        <outletCollection property="tintableButtons" destination="guR-SQ-rQb" collectionClass="NSMutableArray" id="kdf-Ac-NeY"/>
+                        <outletCollection property="tintableButtons" destination="dmg-7A-4ck" collectionClass="NSMutableArray" id="o8W-7Q-0d5"/>
+                        <outletCollection property="backgroundColorViews" destination="oUR-qR-Z0I" collectionClass="NSMutableArray" id="jDY-5N-gOM"/>
+                        <outletCollection property="backgroundColorViews" destination="pfe-1o-vrC" collectionClass="NSMutableArray" id="uZ6-52-4Nk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Zl-eY-ccr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -469,7 +485,7 @@
                                                 </barButtonItem>
                                                 <barButtonItem key="rightBarButtonItem" title="Apply" style="done" id="qEQ-zo-m7M">
                                                     <connections>
-                                                        <action selector="apply:" destination="fBS-Fj-0nV" id="48j-gz-0zu"/>
+                                                        <action selector="applyOffset:" destination="fBS-Fj-0nV" id="VOc-98-zJ1"/>
                                                     </connections>
                                                 </barButtonItem>
                                             </navigationItem>
@@ -551,6 +567,12 @@
                         <outlet property="photoView" destination="Z4u-tF-KIq" id="Zw1-kS-3r5"/>
                         <outlet property="sessionTimeRangeLabel" destination="f5s-El-fdl" id="ZS7-I3-Vc9"/>
                         <outlet property="timezoneOffsetStepper" destination="d5T-wq-MPd" id="sYS-3Z-Ruq"/>
+                        <outlet property="titleBar" destination="U4E-m3-Cyn" id="ejS-7L-1Mc"/>
+                        <outletCollection property="themeableLabels" destination="1gn-bm-cKu" collectionClass="NSMutableArray" id="ApP-xs-GuP"/>
+                        <outletCollection property="themeableLabels" destination="HKT-hB-T4p" collectionClass="NSMutableArray" id="HcF-ds-hZ3"/>
+                        <outletCollection property="themeableLabels" destination="G4y-yU-kAz" collectionClass="NSMutableArray" id="xBJ-62-1U9"/>
+                        <outletCollection property="themeableLabels" destination="TP7-f3-rvS" collectionClass="NSMutableArray" id="FFI-hT-p3V"/>
+                        <outletCollection property="themeableLabels" destination="f5s-El-fdl" collectionClass="NSMutableArray" id="5dG-IE-uJh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c00-e1-PXe" userLabel="First Responder" sceneMemberID="firstResponder"/>
