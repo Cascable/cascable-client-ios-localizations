@@ -1375,10 +1375,15 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 
 "UndoMoveGeotagTitle" = "Move Geotag";
 
-"UndoApplyGeotagTitle" = "Apply Geotag";
+"UndoMoveGeotagTitle_Plural" = "Move %@ Geotags";
+
+"UndoApplyGeotagTitle" = "Applying Geotag";
+
+"UndoApplyGeotagTitle_Plural" = "Applying Geotags to %@ Photos";
 
 "UndoDeleteGeotagTitle" = "Delete Geotag";
 
+"UndoDeleteGeotagTitle_Plural" = "Delete %@ Geotags";
 
 // ------------------------------------------------------------
 //     Geotagging: Maps and Pins
