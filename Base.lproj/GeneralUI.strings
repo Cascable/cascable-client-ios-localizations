@@ -1443,17 +1443,17 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 
 "TrackingSessionErrorLocationAccessDeniedDescription" = "In order to create a track log, Cascable requires access to your location. Please open the Settings app and set Cascable's location access to 'Always'.\n\nCascable will only ever access your location when you tell it to.";
 
-"TrackingSessionLoggingActiveTitle" = "Logging Location";
+"TrackingSessionLoggingActiveTitle" = "Tracking Location";
 
-"TrackingSessionLoggingInactiveTitle" = "Not Logging Location";
+"TrackingSessionLoggingInactiveTitle" = "Not Tracking Location";
 
 "TrackingSessionStartButtonTitle" = "Start";
 
 "TrackingSessionStopButtonTitle" = "Stop";
 
-"TrackingNotificationAskTitle" = "Notify about Background Logging?";
+"TrackingNotificationAskTitle" = "Notify about Background Tracking?";
 
-"TrackingNotificationAskDescription" = "Cascable can notify you of the status of location logging while it's in the background, if you'd like.";
+"TrackingNotificationAskDescription" = "Cascable can notify you of the status of location tracking while it's in the background, if you'd like.";
 
 "TrackingNotificationAskNoNotifyButtonTitle" = "Don't Notify";
 
