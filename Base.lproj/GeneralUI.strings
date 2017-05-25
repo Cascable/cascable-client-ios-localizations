@@ -1355,11 +1355,11 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 
 "GeotaggingSettingsTitle" = "Geotagging";
 
-"ApplyGeotagsToExportsTitle" = "Geotag Exported JPEG Images";
+"ApplyGeotagsToExportsTitle" = "Geotag Exported JPEGs";
 
 "HighAccuracyTrackingTitle" = "High Accuracy";
 
-"NotifyOfTrackingInterruptionsInBackgroundTitle" = "Notify Background Tracking Status";
+"NotifyOfTrackingInterruptionsInBackgroundTitle" = "Notify Tracking Status";
 
 "GeotaggingSettingsFileHandlingSectionTitle" = "Exporting Tagged Images";
 

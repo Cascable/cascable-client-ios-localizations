@@ -647,7 +647,7 @@
                                 </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have no images to tag!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNA-pF-78i">
-                                <rect key="frame" x="80.5" y="302" width="214" height="21"/>
+                                <rect key="frame" x="80.5" y="322" width="214" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -658,7 +658,7 @@
                             <constraint firstAttribute="trailing" secondItem="NK9-En-Cge" secondAttribute="trailing" id="Ipj-Yg-iz8"/>
                             <constraint firstItem="VII-58-85M" firstAttribute="centerY" secondItem="zKg-CH-tII" secondAttribute="centerY" id="Kz4-g0-DJh"/>
                             <constraint firstItem="zKg-CH-tII" firstAttribute="top" secondItem="Ufz-Yi-Pw0" secondAttribute="bottom" constant="20" id="L0y-tw-fKy"/>
-                            <constraint firstItem="qNA-pF-78i" firstAttribute="centerY" secondItem="NK9-En-Cge" secondAttribute="centerY" constant="-40" id="L1f-ST-oLR"/>
+                            <constraint firstItem="qNA-pF-78i" firstAttribute="centerY" secondItem="NK9-En-Cge" secondAttribute="centerY" constant="-20" id="L1f-ST-oLR"/>
                             <constraint firstItem="pSA-aT-wxU" firstAttribute="top" secondItem="NK9-En-Cge" secondAttribute="bottom" constant="20" id="XQL-ix-Lch"/>
                             <constraint firstItem="NK9-En-Cge" firstAttribute="leading" secondItem="Moa-UH-zTc" secondAttribute="leading" id="YSD-px-pUB"/>
                             <constraint firstItem="qNA-pF-78i" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="NK9-En-Cge" secondAttribute="leading" constant="40" id="ah7-Ja-uCD"/>
