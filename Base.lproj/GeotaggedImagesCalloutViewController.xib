@@ -26,7 +26,7 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWB-kH-tAK" userLabel="Swallows Touches Button">
                     <rect key="frame" x="0.0" y="0.0" width="216" height="200"/>
                     <connections>
-                        <action selector="dummyAction:" destination="-1" eventType="touchUpInside" id="hwm-fx-6DB"/>
+                        <action selector="advanceImage:" destination="-1" eventType="touchUpInside" id="4dx-e6-vbl"/>
                     </connections>
                 </button>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="lZ4-Lg-g8s">
