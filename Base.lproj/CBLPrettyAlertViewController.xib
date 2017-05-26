@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CBLPrettyAlertViewController">
@@ -20,12 +24,12 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="i5M-Pr-FkT" userLabel="Dialog">
-                    <rect key="frame" x="122" y="109" width="420" height="454.5"/>
+                    <rect key="frame" x="122" y="109.5" width="420" height="454"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="A Succinct Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o0j-tX-rrc">
                             <rect key="frame" x="120" y="30" width="179.5" height="29"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                             <variation key="widthClass=compact">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
@@ -40,36 +44,26 @@
                             </constraints>
                             <string key="text">The first description text. It can be a short-ish paragraph, since it'll wrap nicely. Up to three lines is probably the sensible limit.</string>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
-                            <variation key="widthClass=compact" misplaced="YES">
+                            <variation key="widthClass=compact">
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <rect key="frame" x="10" y="54" width="280" height="50.5"/>
                             </variation>
                         </label>
                         <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="PairingFace" translatesAutoresizingMaskIntoConstraints="NO" id="fxZ-VU-7IQ">
                             <rect key="frame" x="110" y="170" width="200" height="203"/>
-                            <variation key="widthClass=compact" misplaced="YES">
-                                <rect key="frame" x="50" y="125" width="200" height="203"/>
-                            </variation>
                         </imageView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xBR-nG-Cwb" userLabel="Divider" customClass="CBLHairlineDividerView">
                             <rect key="frame" x="0.0" y="403" width="420" height="1"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="1" id="DxT-il-dJ5"/>
                             </constraints>
-                            <variation key="widthClass=compact" misplaced="YES">
-                                <rect key="frame" x="0.0" y="348" width="300" height="1"/>
-                            </variation>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eDR-ar-kpz" userLabel="Button Container">
-                            <rect key="frame" x="0.0" y="404" width="420" height="50"/>
-                            <variation key="widthClass=compact" misplaced="YES">
-                                <rect key="frame" x="0.0" y="349" width="300" height="44"/>
-                            </variation>
+                            <rect key="frame" x="0.0" y="404" width="420" height="49.5"/>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="0.95000000000000007" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.95000000000000007" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstItem="xBR-nG-Cwb" firstAttribute="top" secondItem="fxZ-VU-7IQ" secondAttribute="bottom" constant="30" id="6kq-rJ-j9O">
                             <variation key="widthClass=compact" constant="20"/>
@@ -107,12 +101,9 @@
                             <variation key="widthClass=compact" constant="20"/>
                         </constraint>
                     </constraints>
-                    <variation key="widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="182" y="139" width="300" height="393"/>
-                    </variation>
                 </view>
             </subviews>
-            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ANG-9r-LqL"/>
                 <constraint firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="zAg-dN-CO2"/>

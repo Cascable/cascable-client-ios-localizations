@@ -1381,15 +1381,21 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 
 "UndoApplyGeotagTitle_Plural" = "Applying Geotags to %@ Photos";
 
-"UndoDeleteGeotagTitle" = "Delete Geotag";
+"UndoDeleteGeotagTitle" = "Deleting Geotag";
 
-"UndoDeleteGeotagTitle_Plural" = "Delete %@ Geotags";
+"UndoDeleteGeotagTitle_Plural" = "Deleting Geotags from %@ Photos";
+
+"DeleteGeotagsAlertTitle" = "Delete Geotags";
+
+"DeleteGeotagsAlertMessage" = "There are %@ photos at this location. Do you want to remove geotags from this photo, or all photos at this location?";
+
+"DeleteGeotagsAllAtLocationTitle" = "All";
+
+"DeleteGeotagsJustThisPhotoTitle" = "Just This";
 
 // ------------------------------------------------------------
 //     Geotagging: Maps and Pins
 // ------------------------------------------------------------
-
-"TaggedImageTitle" = "Tagged Image";
 
 "NoTaggableImagesTitle" = "You have no images to tag!";
 
@@ -1398,6 +1404,10 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 "SelectAndDragToMapTitle" = "Select and drag photos to the map";
 
 "DropToCancelTitle" = "Drop here to cancel";
+
+"CalloutOneImageTitle" = "Tagged Image";
+
+"CalloutMultipleImagesTitle" = "%@ of %@ images";
 
 // ------------------------------------------------------------
 //     Geotagging: GPX
