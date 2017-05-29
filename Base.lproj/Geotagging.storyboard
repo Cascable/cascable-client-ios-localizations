@@ -389,6 +389,7 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="closeButton" destination="jrQ-5v-6es" id="ZPz-Hm-lqK"/>
                         <outlet property="noImagesAvailableContainer" destination="zlQ-qh-Qvh" id="bbF-ad-ftH"/>
                         <outlet property="noImagesAvailableLabel" destination="TjQ-Y8-G8X" id="9jr-CD-G6l"/>
                         <outlet property="sessionTitleLabel" destination="ayN-eg-nOl" id="YuB-mv-cbO"/>
