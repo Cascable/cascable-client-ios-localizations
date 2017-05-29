@@ -36,8 +36,8 @@
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQU-wE-dVM">
-                                            <rect key="frame" x="317" y="15.5" width="38" height="30"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                            <rect key="frame" x="313" y="14.5" width="42" height="33"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                             <state key="normal" title="Start"/>
                                             <connections>
                                                 <action selector="startOrStopTracking:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mx4-RM-QPt"/>
