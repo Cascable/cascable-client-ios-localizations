@@ -1346,3 +1346,187 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 
 /* Title of the 'Cancel Pairing' button. */
 "CancelPairingTitle" = "Cancel Pairing";
+
+// ------------------------------------------------------------
+//     Geotagging: General
+// ------------------------------------------------------------
+
+/* The title of the Geotagging mode, as displayed in the header on iPhone layouts. */
+"GeotaggingModeTitle" = "Geotagging";
+
+/* The title of the Geotagging mode, as used in the settings section of the app. */
+"GeotaggingSettingsTitle" = "Geotagging";
+
+/* The title used in the Geotagging settings section for the 'Geotag Exported JPEGs' setting. */
+"ApplyGeotagsToExportsTitle" = "Geotag Exported JPEGs";
+
+/* The title used in the Geotagging settings section for the 'High Accuracy' tracking setting. */
+"HighAccuracyTrackingTitle" = "High Accuracy";
+
+/* The title used in the Geotagging settings section for the 'Notify Tracking Status' tracking setting. */
+"NotifyOfTrackingInterruptionsInBackgroundTitle" = "Notify Tracking Status";
+
+/* The section title used in Geotagging settings for the section regarding exporting tagged images. */
+"GeotaggingSettingsFileHandlingSectionTitle" = "Exporting Tagged Images";
+
+/* The section title used in Geotagging settings for the section regarding location tracking. */
+"GeotaggingSettingsTrackingSectionTitle" = "Tracking";
+
+/* The section footer of the file handling section of Geotagging settings. */
+"GeotaggingSettingsFileHandlingSectionFooter" = "If this setting is enabled, geotags will be included in all tagged JPEG images exported from Cascable. Cascable never modifies RAW files.";
+
+/* The section footer of the tracking section of Geotagging settings. */
+"GeotaggingSettingsTrackingSectionFooter" = "Continued use of GPS running in the background can dramatically decrease battery life.";
+
+/* The body text of the notification given when location tracking has been stopped while running in the background. */
+"GeotaggingTrackingStoppedNotificationBody" = "Location tracking has been suspended. Relaunch Cascable to restart it.";
+
+/* The body text of the notification given when location tracking is running while Cascable is in the background. */
+"GeotaggingTrackingInBackgroundNotificationBody" = "Location tracking is running in the background.";
+
+// ------------------------------------------------------------
+//     Geotagging: Maps and Pins
+// ------------------------------------------------------------
+
+/* The title used when undoing moving a geotag. */
+"UndoMoveGeotagTitle" = "Move Geotag";
+"UndoMoveGeotagTitle_Plural" = "Move %@ Geotags";
+
+/* The title used when undoing applying a new geotag. */
+"UndoApplyGeotagTitle" = "Applying Geotag";
+"UndoApplyGeotagTitle_Plural" = "Applying Geotags to %@ Photos";
+
+/* The title used when undoing deleting a geotag. */
+"UndoDeleteGeotagTitle" = "Deleting Geotag";
+"UndoDeleteGeotagTitle_Plural" = "Deleting Geotags from %@ Photos";
+
+/* The title of the "Are you sure?" dialog for deleting geotags. */
+"DeleteGeotagsAlertTitle" = "Delete Geotags";
+
+/* The message body of the "Are you sure?" dialog for deleting geotags. */
+"DeleteGeotagsAlertMessage" = "There are %@ photos at this location. Do you want to remove geotags from this photo, or all photos at this location?";
+
+/* The button title for the 'Delete all geotags' option. This must be very short. */
+"DeleteGeotagsAllAtLocationTitle" = "All";
+
+/* The button title for the 'Delete just this geotag' option. This must be very short. */
+"DeleteGeotagsJustThisPhotoTitle" = "Just This";
+
+/* The placeholder text used displayed when the user has no images and attempts to use the geotagging feature. */
+"NoTaggableImagesTitle" = "You have no images to tag!";
+
+/* The placeholder text used displayed when all of the user's images are already geotagged. */
+"AllImagesTaggedTitle" = "All of your images are tagged!";
+
+/* Title text for the drag and drop image picker when Geotagging */
+"SelectAndDragToMapTitle" = "Select and drag photos to the map";
+
+/* Title text for the drag cancellation area */
+"DropToCancelTitle" = "Drop here to cancel";
+
+/* Title text when viewing a single image on the map. */
+"CalloutOneImageTitle" = "Tagged Image";
+
+/* Title text when viewing a multiple images at the same place on the map. */
+"CalloutMultipleImagesTitle" = "%@ of %@ images";
+
+// ------------------------------------------------------------
+//     Geotagging: GPX
+// ------------------------------------------------------------
+
+/* Title text displayed when generating a GPX file. */
+"GeneratingGPXTitle" = "Generating GPX file…";
+
+/* Title text displayed when importing a GPX file. */
+"ImportingGPXTitle" = "Importing GPX file…";
+
+// ------------------------------------------------------------
+//     Geotagging: Track Matching
+// ------------------------------------------------------------
+
+/* Title for the 'Timezone Adjust' feature dialog. */
+"TimezoneAdjustTitle" = "Timezone Adjust";
+
+/* Placeholder text for then no timezone adjustment has been made. */
+"NoTimezoneAdjustDescription" = "None";
+
+/* Title text for timezone adjust by hours. */
+"TimeZoneAdjustDescription" = "%@ hour";
+"TimeZoneAdjustDescription_Plural" = "%@ hours";
+
+/* Explanation text for displaying a photo's original date and time. */
+"TimeZoneAdjustOriginalPhotoTimestampDescription" = "The original timestamp of this photo is %@ on %@.";
+
+/* Placeholder text for displaying a photo's original date and time when those values are unavailable. */
+"TimeZoneAdjustPhotoNoTimestampDescription" = "This photo does not have a timestamp.";
+
+/* Explanation text for displaying a photo's adjusted date and time. */
+"TimeZoneAdjustAdjustedPhotoTimestampDescription" = "The adjusted timestamp of this photo will be %@ on %@.";
+
+/* Placeholder text for displaying a location tracking session's name when there is no name available. */
+"TimeZoneAdjustMissingSessionNameReplacement" = "This session";
+
+/* Explanation text for a location tracking session's timespan. E.g.: "Kickass Walk Around The Lake takes place between 13:10 and 14:58 on 3rd January 2017." */
+"TimeZoneAdjustSessionRangeSingleDayDescription" = "%@ takes place between %@ and %@ on %@.";
+
+/* Explanation text for a location tracking session's timespan when it spans multiple days. E.g.: "Kickass Walk Around The Lake takes place between 13:10 on 2nd January 2017 and 14:58 on 3rd January 2017." */
+"TimeZoneAdjustSessionRangeMultipleDaysDescription" = "%@ takes place between %@ on %@ and %@ on %@.";
+
+/* Button title for applying geotags to photos. E.g.: "Apply Geotags to 2 Photos". */
+"TrackMatchingButtonTitle" = "Apply Geotags to %@ Photo";
+"TrackMatchingButtonTitle_Plural" = "Apply Geotags to %@ Photos";
+
+/* Placeholder button title for applying geotags when there are no matching photos. */
+"TrackMatchingNoMatchesButtonTitle" = "No Matching Photos";
+
+/* Title text for geotag matching fine tuning. */
+"TrackMatchingFineTuningSectionTitle" = "Fine Tuning";
+
+// ------------------------------------------------------------
+//     Geotagging: Tracking Location
+// ------------------------------------------------------------
+
+/* Placeholder title for a tracking session when the location could not be reverse-geocoded. */
+"UntitledTrackingSessionName" = "Untitled Session";
+
+/* Tracking session title when displaying by date. */
+"TrackingSessionNameByDate" = "Session started at %@";
+
+/* Tracking session title when displaying by place. */
+"TrackingSessionNameByPlace" = "Session started at %@";
+
+/* Error title for location tracking failing. */
+"TrackingSessionErrorTitle" = "Could Not Track Location";
+
+/* Generic error description for location tracking failing. */
+"TrackingSessionGenericFailureErrorDescription" = "Your location could not be tracked. Make sure that Cascable has location access in the Settings app.";
+
+/* Error title for location tracking failing due to the app not having location permissions. */
+"TrackingSessionErrorLocationAccessDeniedTitle" = "Location Access Required";
+
+/* Error description for location tracking failing due to the app not having location permissions. */
+"TrackingSessionErrorLocationAccessDeniedDescription" = "In order to create a track log, Cascable requires access to your location. Please open the Settings app and set Cascable's location access to 'Always'.\n\nCascable will only ever access your location when you tell it to.";
+
+/* Title text when the app is tracking the user's location for geotagging. */
+"TrackingSessionLoggingActiveTitle" = "Tracking Location";
+
+/* Title text when the app is not tracking the user's location for geotagging. */
+"TrackingSessionLoggingInactiveTitle" = "Not Tracking Location";
+
+/* Button title for starting location tracking for geotagging. */
+"TrackingSessionStartButtonTitle" = "Start";
+
+/* Button title for stopping location tracking for geotagging. */
+"TrackingSessionStopButtonTitle" = "Stop";
+
+/* Alert title for asking the user whether or not to notify them about location tracking events while in the background. */
+"TrackingNotificationAskTitle" = "Notify about Background Tracking?";
+
+/* Alert description for asking the user whether or not to notify them about location tracking events while in the background. */
+"TrackingNotificationAskDescription" = "Cascable can notify you of the status of location tracking while it's in the background, if you'd like.";
+
+/* Button title for not notifying the user about location tracking events. */
+"TrackingNotificationAskNoNotifyButtonTitle" = "Don't Notify";
+
+/* Button title for notifying the user about location tracking events. */
+"TrackingNotificationAskDoNotifyButtonTitle" = "Notify";
