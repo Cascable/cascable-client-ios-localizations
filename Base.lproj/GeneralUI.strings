@@ -1016,6 +1016,25 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 "ShutterRobotModulesTitle" = "Modules";
 
 // ------------------------------------------------------------
+//     Shutter Robot: Status
+// ------------------------------------------------------------
+
+"ShutterRobotStatusNotEngagedTitle" = "Shutter Robot not engaged.";
+"ShutterRobotStatusEngagedTitle" = "Shutter Robot is engaged.";
+"ShutterRobotStatusRunningTitle" = "Shutter Robot is running…";
+
+"ShutterRobotDetailStatusTapToStartTitle" = "Tap the shutter button to start.";
+"ShutterRobotDetailStatusTapToSetupTitle" = "Tap the Shutter Robot button in the toolbar to get started.";
+"ShutterRobotDetailStatusTakingShotTitle" = "Taking shot…";
+"ShutterRobotDetailStatusFinishingTitle" = "Finishing up…";
+"ShutterRobotDetailStatusShotsRemainingTitle" = "%@ shot remaining.";
+"ShutterRobotDetailStatusShotsRemainingTitle_Plural" = "%@ shots remaining.";
+"ShutterRobotDetailStatusTimeAndShotsRemainingTitle" = "About %@ and %@ shot remaining.";
+"ShutterRobotDetailStatusTimeAndShotsRemainingTitle_Plural" = "About %@ and %@ shots remaining.";
+"ShutterRobotDetailStatusShotsTakenTitle" = "%@ shot taken so far.";
+"ShutterRobotDetailStatusShotsTakenTitle_Plural" = "%@ shots taken so far.";
+
+// ------------------------------------------------------------
 //     Shutter Robot: Summary
 // ------------------------------------------------------------
 
