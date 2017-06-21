@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8164.2" systemVersion="15A226f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CBLPrettyAlertProgressViewController">
@@ -20,8 +24,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H3a-pr-qbA" customClass="CBLSelectionIndicatorView">
-                    <rect key="frame" x="138" y="80.5" width="100" height="100"/>
-                    <animations/>
+                    <rect key="frame" x="163" y="111" width="50" height="50"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="100" id="Cx2-oS-Fms">
                             <variation key="widthClass=compact" constant="50"/>
@@ -38,20 +41,17 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="cCy-sD-XQx">
-                    <rect key="frame" x="170" y="122.5" width="37" height="37"/>
-                    <animations/>
-                    <color key="color" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <rect key="frame" x="170" y="117.5" width="37" height="37"/>
+                    <color key="color" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </activityIndicatorView>
                 <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Qkz-mJ-Fkd">
-                    <rect key="frame" x="113" y="189.5" width="150" height="2"/>
-                    <animations/>
+                    <rect key="frame" x="113" y="164.5" width="150" height="2"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="150" id="cdz-N7-Bo5"/>
                     </constraints>
                 </progressView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 protected or copying file was skipped." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v5C-2X-CsT">
-                    <rect key="frame" x="18" y="201.5" width="340" height="20.5"/>
-                    <animations/>
+                    <rect key="frame" x="58" y="176.5" width="260" height="16"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="340" id="Jvz-d6-re9">
                             <variation key="heightClass=regular-widthClass=compact" constant="260"/>
@@ -65,7 +65,6 @@
                     </variation>
                 </label>
             </subviews>
-            <animations/>
             <constraints>
                 <constraint firstItem="Qkz-mJ-Fkd" firstAttribute="top" secondItem="cCy-sD-XQx" secondAttribute="bottom" constant="30" id="6O5-t9-bZa">
                     <variation key="widthClass=compact" constant="10"/>

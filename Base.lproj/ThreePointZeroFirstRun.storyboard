@@ -1,10 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZN2-am-Zmm">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZN2-am-Zmm">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -12,7 +17,6 @@
             <objects>
                 <navigationController modalPresentationStyle="pageSheet" navigationBarHidden="YES" id="ZN2-am-Zmm" sceneMemberID="viewController">
                     <nil key="simulatedStatusBarMetrics"/>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Nbj-pM-e9b">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -28,41 +32,41 @@
         <!--Welcome-->
         <scene sceneID="zK8-pb-TWa">
             <objects>
-                <viewController title="Welcome" modalPresentationStyle="formSheet" id="G3P-g9-PCa" customClass="CBLFirstWelcomeFirstRunViewController" sceneMemberID="viewController">
+                <viewController title="Welcome" modalPresentationStyle="formSheet" id="G3P-g9-PCa" customClass="CBLThreePointZeroMigrationFirstRunViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lvH-E3-Qq3"/>
                         <viewControllerLayoutGuide type="bottom" id="g9B-sW-tIS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3Kf-n0-sLc">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's new in Cascable?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3x-YS-zoX">
-                                <rect key="frame" x="101" y="240" width="398" height="43"/>
+                                <rect key="frame" x="20" y="195" width="280.5" height="31.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e51-oR-xjz">
-                                <rect key="frame" x="53" y="313" width="495" height="61"/>
+                                <rect key="frame" x="30" y="236.5" width="260" height="78"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="aYW-Lz-eal">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Thank you for updating to Cascable 2.0. This is the first major update to Cascable, and contains some great new features and support for many more cameras from Nikon, Sony and Olympus.</string>
+                                <string key="text">Thank you for updating to Cascable 3.0. This is a major update to Cascable, and contains some great new features and support for many more cameras from Fujifilm and Panasonic.</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                 </variation>
                             </label>
                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AboutIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Y9H-Or-uKy">
-                                <rect key="frame" x="225" y="70" width="150" height="150"/>
+                                <rect key="frame" x="97.5" y="50" width="125" height="125"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="FAY-yF-wk6">
                                         <variation key="widthClass=compact" constant="125"/>
@@ -70,25 +74,25 @@
                                     <constraint firstAttribute="width" secondItem="Y9H-Or-uKy" secondAttribute="height" multiplier="1:1" id="T6q-vc-55n"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap &quot;Get Started&quot; to see a quick tour of the new features." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hay-5R-Q3N">
-                                <rect key="frame" x="53" y="404" width="495" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before we get started, we may need to upgrade your photo database." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hay-5R-Q3N">
+                                <rect key="frame" x="30" y="324.5" width="260" height="31.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="tWd-WM-H4W">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                 </variation>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXi-v8-9jx">
-                                <rect key="frame" x="211" y="465" width="178" height="105"/>
+                                <rect key="frame" x="71" y="463" width="178" height="85"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wr9-Wd-JN8" customClass="CBLPillButton">
-                                        <rect key="frame" x="0.0" y="0.0" width="178" height="42"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="178" height="36"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="178" id="Q63-MR-0sq"/>
                                             <constraint firstAttribute="height" constant="42" id="dfM-ee-gUm">
@@ -97,7 +101,7 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                         <state key="normal" title="Get Started  →">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <variation key="widthClass=compact">
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
@@ -107,10 +111,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NP-z9-ZaH">
-                                        <rect key="frame" x="54" y="62" width="71" height="33"/>
+                                        <rect key="frame" x="59.5" y="46" width="60" height="29"/>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                         <state key="normal" title="Skip Tour">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <variation key="widthClass=compact">
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
@@ -120,7 +124,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="9NP-z9-ZaH" secondAttribute="bottom" constant="10" id="6ug-Ik-Ijy"/>
                                     <constraint firstAttribute="trailing" secondItem="Wr9-Wd-JN8" secondAttribute="trailing" id="8Rq-eN-LmL"/>
@@ -133,23 +137,59 @@
                                     <constraint firstAttribute="centerX" secondItem="9NP-z9-ZaH" secondAttribute="centerX" id="wfB-AV-ijV"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qu4-dr-a3j">
+                                <rect key="frame" x="16" y="356" width="288" height="105"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJk-UH-fNr" customClass="CBLSelectionIndicatorView">
+                                        <rect key="frame" x="119" y="27.5" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="Xdp-5U-aHY">
+                                                <variation key="widthClass=compact" constant="50"/>
+                                            </constraint>
+                                            <constraint firstAttribute="width" constant="100" id="gL2-8g-aSN">
+                                                <variation key="widthClass=compact" constant="50"/>
+                                            </constraint>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="selected" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderThickness">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="sjO-hq-4wF">
+                                        <rect key="frame" x="125.5" y="34" width="37" height="37"/>
+                                        <color key="color" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="sjO-hq-4wF" firstAttribute="centerY" secondItem="qu4-dr-a3j" secondAttribute="centerY" id="0LD-AS-m98"/>
+                                    <constraint firstItem="yJk-UH-fNr" firstAttribute="centerY" secondItem="qu4-dr-a3j" secondAttribute="centerY" id="CsK-jI-HqF"/>
+                                    <constraint firstItem="sjO-hq-4wF" firstAttribute="centerX" secondItem="qu4-dr-a3j" secondAttribute="centerX" id="IRd-iF-hse"/>
+                                    <constraint firstItem="yJk-UH-fNr" firstAttribute="centerX" secondItem="qu4-dr-a3j" secondAttribute="centerX" id="Nku-yC-mTr"/>
+                                </constraints>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Y9H-Or-uKy" firstAttribute="width" secondItem="Y9H-Or-uKy" secondAttribute="height" multiplier="1:1" id="2Gc-QH-DQ6"/>
                             <constraint firstItem="Y9H-Or-uKy" firstAttribute="top" secondItem="lvH-E3-Qq3" secondAttribute="bottom" constant="70" id="6Gx-ce-zv4">
-                                <variation key="widthClass=compact" constant="40"/>
+                                <variation key="widthClass=compact" constant="30"/>
                             </constraint>
                             <constraint firstItem="hay-5R-Q3N" firstAttribute="top" secondItem="e51-oR-xjz" secondAttribute="bottom" constant="30" id="99D-Tv-Zjd">
                                 <variation key="widthClass=compact" constant="10"/>
                             </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="qu4-dr-a3j" secondAttribute="trailing" id="FM2-P6-8q0"/>
                             <constraint firstItem="g9B-sW-tIS" firstAttribute="top" secondItem="aXi-v8-9jx" secondAttribute="bottom" constant="30" id="H08-wc-tCO">
                                 <variation key="widthClass=compact" constant="20"/>
                             </constraint>
+                            <constraint firstItem="qu4-dr-a3j" firstAttribute="top" secondItem="hay-5R-Q3N" secondAttribute="bottom" id="IIu-XD-taP"/>
                             <constraint firstAttribute="centerX" secondItem="Y9H-Or-uKy" secondAttribute="centerX" id="Usg-wv-Sn5"/>
                             <constraint firstAttribute="centerX" secondItem="e51-oR-xjz" secondAttribute="centerX" id="WPn-fi-cpH"/>
                             <constraint firstAttribute="centerX" secondItem="hay-5R-Q3N" secondAttribute="centerX" id="XI9-iq-UcE"/>
                             <constraint firstAttribute="centerX" secondItem="l3x-YS-zoX" secondAttribute="centerX" id="XoP-Ls-G9W"/>
+                            <constraint firstItem="qu4-dr-a3j" firstAttribute="leading" secondItem="3Kf-n0-sLc" secondAttribute="leadingMargin" id="jWh-YL-Wog"/>
+                            <constraint firstItem="Wr9-Wd-JN8" firstAttribute="top" secondItem="qu4-dr-a3j" secondAttribute="bottom" constant="2" id="rAQ-7O-0Hc"/>
                             <constraint firstAttribute="centerX" secondItem="aXi-v8-9jx" secondAttribute="centerX" id="suR-NW-9Ao"/>
                             <constraint firstItem="l3x-YS-zoX" firstAttribute="top" secondItem="Y9H-Or-uKy" secondAttribute="bottom" constant="20" id="tdj-ef-JnL"/>
                             <constraint firstItem="e51-oR-xjz" firstAttribute="top" secondItem="l3x-YS-zoX" secondAttribute="bottom" constant="30" id="yBF-0p-eW6">
@@ -159,12 +199,16 @@
                     </view>
                     <navigationItem key="navigationItem" id="qHR-UW-jcB"/>
                     <connections>
+                        <outlet property="getStartedButton" destination="Wr9-Wd-JN8" id="0BO-sy-ivh"/>
                         <outlet property="iconImageView" destination="Y9H-Or-uKy" id="wQu-3s-H4p"/>
+                        <outlet property="skipTourButton" destination="9NP-z9-ZaH" id="Tfa-Zc-jzJ"/>
+                        <outlet property="spinner" destination="sjO-hq-4wF" id="gEC-1B-awH"/>
+                        <outlet property="tick" destination="yJk-UH-fNr" id="owj-XD-Hbl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b0S-TM-LeV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="130" y="333"/>
+            <point key="canvasLocation" x="129.375" y="332.74647887323943"/>
         </scene>
         <!--Shutter Robot-->
         <scene sceneID="NKo-8z-P4m">
@@ -175,38 +219,37 @@
                         <viewControllerLayoutGuide type="bottom" id="ruE-rJ-ePT"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="662-TK-s3R">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Greatly Expanded Camera Support" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ZC-Bh-GeY">
-                                <rect key="frame" x="237" y="40" width="551" height="43"/>
+                                <rect key="frame" x="58" y="40" width="204.5" height="62.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEU-Kg-jDC">
-                                <rect key="frame" x="264" y="251" width="495" height="122"/>
+                                <rect key="frame" x="30.5" y="226.5" width="260" height="124.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="5Co-iV-ImL">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Cascable 2.0 adds support for over 40 new cameras from Nikon, Sony and Olympus, in addition to the Canon models already supported.
+                                <string key="text">Cascable 3.0 adds support for over 70 new cameras from Fujifilm and Panasonic, in addition to the Canon, Nikon, Sony and Olympus models already supported.
 
 For more information on which models are supported, see the new in-app Help Center or the Cascable website.</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
+                                <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
-                                    <rect key="frame" x="29" y="60" width="260" height="107.5"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGq-qj-Wb6" customClass="CBLPillButton">
-                                <rect key="frame" x="437" y="676" width="150" height="42"/>
+                                <rect key="frame" x="85" y="502" width="150" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="JMY-kJ-PI7"/>
                                     <constraint firstAttribute="height" constant="42" id="f6I-FD-Kn4">
@@ -215,21 +258,21 @@ For more information on which models are supported, see the new in-app Help Cent
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <state key="normal" title="Continue →">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="64p-sF-5MF" kind="show" id="mAb-28-KVT"/>
+                                    <segue destination="VTa-aR-8qN" kind="show" id="ebD-8i-vom"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ColinAndFriends" translatesAutoresizingMaskIntoConstraints="NO" id="Ew4-67-9L4">
-                                <rect key="frame" x="246" y="123" width="532" height="88"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="27" y="142.5" width="266" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="1ZC-Bh-GeY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="662-TK-s3R" secondAttribute="leading" constant="20" id="Gqm-vI-qoO"/>
                             <constraint firstItem="cGq-qj-Wb6" firstAttribute="centerX" secondItem="662-TK-s3R" secondAttribute="centerX" id="Ozs-uJ-JGB"/>
@@ -250,8 +293,6 @@ For more information on which models are supported, see the new in-app Help Cent
                             </constraint>
                         </constraints>
                     </view>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
                         <segue destination="hLI-x9-vXs" kind="unwind" identifier="unwindToStart" unwindAction="unwindToStart:" id="T5K-ES-Jx0"/>
                     </connections>
@@ -270,20 +311,20 @@ For more information on which models are supported, see the new in-app Help Cent
                         <viewControllerLayoutGuide type="bottom" id="3fB-Y3-N5L"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="dBV-Em-l5e">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powerful New Photo Management Tools" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KgJ-Oy-9xx">
-                                <rect key="frame" x="195" y="40" width="634" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Geotagging" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KgJ-Oy-9xx">
+                                <rect key="frame" x="94.5" y="40" width="132" height="31.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7QS-WU-wUI" customClass="CBLPillButton">
-                                <rect key="frame" x="437" y="676" width="150" height="42"/>
+                                <rect key="frame" x="85" y="502" width="150" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="0wO-tH-Xqw"/>
                                     <constraint firstAttribute="height" constant="42" id="Ev4-Mu-znH">
@@ -292,7 +333,7 @@ For more information on which models are supported, see the new in-app Help Cent
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <state key="normal" title="Continue →">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
@@ -301,27 +342,22 @@ For more information on which models are supported, see the new in-app Help Cent
                                     <segue destination="75B-c1-IXp" kind="show" id="6om-wh-rmP"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avd-i8-4VS">
-                                <rect key="frame" x="265" y="103" width="495" height="224"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cascable 3.0 provides a powerful set of geotagging tools." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avd-i8-4VS">
+                                <rect key="frame" x="20" y="91.5" width="280" height="31.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="DKp-AE-woS">
                                         <variation key="widthClass=compact" constant="280"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Cascable 2.0 provides many new tools to improve your photo management workflow.
-
-Remote preview allows you to see high resolution previews of your photos before copying them to your iOS device, and improved RAW+JPEG support means no more duplicates.
-
-Once copied over, Cascable's new filtering tools let you search for your photos by date, file type and text search, and an improved photo viewer lets you zoom to 1:1 for a close look at your work.</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                 </variation>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="avd-i8-4VS" firstAttribute="top" secondItem="KgJ-Oy-9xx" secondAttribute="bottom" constant="20" id="EXU-Op-byH"/>
                             <constraint firstAttribute="centerX" secondItem="avd-i8-4VS" secondAttribute="centerX" id="KXq-bY-MV0"/>
@@ -344,45 +380,45 @@ Once copied over, Cascable's new filtering tools let you search for your photos 
         <!--All Done!-->
         <scene sceneID="C8t-5W-jzu">
             <objects>
-                <viewController id="VTa-aR-8qN" userLabel="All Done!" customClass="TwoPointZeroFirstRunViewController" customModule="Cascable" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VTa-aR-8qN" userLabel="All Done!" customClass="CBLFirstRunViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ali-l2-KYT"/>
                         <viewControllerLayoutGuide type="bottom" id="aCQ-ds-IBJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fYB-Ly-Fqq">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="…and much more!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkA-ou-F8n">
-                                <rect key="frame" x="369" y="40" width="286" height="43"/>
+                                <rect key="frame" x="60" y="40" width="200.5" height="31.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Bs-PF-Jvn">
-                                <rect key="frame" x="265" y="123" width="495" height="183"/>
+                                <rect key="frame" x="20" y="91.5" width="280" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="6M5-DT-2MP">
                                         <variation key="widthClass=compact" constant="280"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Cascable 2.0 has many smaller additions throughout the app, from improved histograms to an improved local photo grid. You can find a full and detailed list on the Cascable website.
+                                <string key="text">Cascable 3.0 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.
 
 If you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?
 
 Enjoy!</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTH-Fo-vxd" customClass="CBLPillButton">
-                                <rect key="frame" x="387" y="676" width="250" height="42"/>
+                                <rect key="frame" x="70" y="502" width="180" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="18I-El-H2O">
                                         <variation key="widthClass=compact" constant="180"/>
@@ -393,7 +429,7 @@ Enjoy!</string>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <state key="normal" title="Start Using Cascable">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
@@ -403,15 +439,15 @@ Enjoy!</string>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xmc-kg-pTZ">
-                                <rect key="frame" x="376" y="326" width="272" height="330"/>
+                                <rect key="frame" x="37.5" y="251.5" width="245" height="230.5"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7th-Og-Tav">
-                                        <rect key="frame" x="0.0" y="123" width="272" height="85"/>
+                                        <rect key="frame" x="0.0" y="74.5" width="245" height="83"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcf-wD-q7K">
-                                                <rect key="frame" x="0.0" y="41" width="105" height="30"/>
+                                                <rect key="frame" x="0.0" y="41" width="92" height="28"/>
                                                 <state key="normal" title="@CascableApp">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <variation key="widthClass=compact">
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -421,33 +457,33 @@ Enjoy!</string>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="on Twitter" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgL-Vh-5m6">
-                                                <rect key="frame" x="22" y="69" width="61" height="16"/>
+                                                <rect key="frame" x="15.5" y="67" width="61" height="16"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3d-KS-ogv">
-                                                <rect key="frame" x="31" y="0.0" width="44" height="44"/>
+                                                <rect key="frame" x="24.5" y="0.0" width="44" height="44"/>
                                                 <state key="normal" image="TwitterLogo">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="openTwitter:" destination="VTa-aR-8qN" eventType="touchUpInside" id="nwY-zv-X7o"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceX-r7-ydY">
-                                                <rect key="frame" x="197" y="0.0" width="44" height="44"/>
+                                                <rect key="frame" x="176.5" y="0.0" width="44" height="44"/>
                                                 <state key="normal" image="InstagramLogo">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="openInstagram:" destination="VTa-aR-8qN" eventType="touchUpInside" id="X6T-qh-yEa"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTL-Tw-2wS">
-                                                <rect key="frame" x="167" y="41" width="105" height="30"/>
+                                                <rect key="frame" x="153" y="41" width="92" height="28"/>
                                                 <state key="normal" title="@CascableApp">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <variation key="widthClass=compact">
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -457,13 +493,13 @@ Enjoy!</string>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="on Instagram" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8w-Sj-KC2">
-                                                <rect key="frame" x="180" y="69" width="80" height="16"/>
+                                                <rect key="frame" x="159.5" y="67" width="80" height="16"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gwY-Mx-v3W" customClass="CBLHairlineDividerView">
-                                                <rect key="frame" x="135" y="21" width="1" height="43"/>
+                                                <rect key="frame" x="122" y="21" width="1" height="41.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="1" id="3Ex-PS-sWh"/>
                                                 </constraints>
@@ -491,7 +527,7 @@ Enjoy!</string>
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="7th-Og-Tav" firstAttribute="leading" secondItem="Xmc-kg-pTZ" secondAttribute="leading" id="Feh-EW-LSM"/>
                                     <constraint firstAttribute="trailing" secondItem="7th-Og-Tav" secondAttribute="trailing" id="MX2-Ai-cOw"/>
@@ -499,7 +535,7 @@ Enjoy!</string>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="9Bs-PF-Jvn" firstAttribute="top" secondItem="DkA-ou-F8n" secondAttribute="bottom" constant="40" id="1Oq-EQ-Yjw">
                                 <variation key="widthClass=compact" constant="20"/>
@@ -532,26 +568,26 @@ Enjoy!</string>
         <!--Night Mode-->
         <scene sceneID="DtG-r8-2oc">
             <objects>
-                <viewController id="75B-c1-IXp" userLabel="Night Mode" customClass="NightModeTwoPointZeroFirstRunViewController" customModule="Cascable" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="75B-c1-IXp" userLabel="Night Mode" customClass="NightModeFirstRunViewController" customModule="Cascable" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Qmq-NW-YsM"/>
                         <viewControllerLayoutGuide type="bottom" id="fn5-qw-isY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="W2B-SC-ySe">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Night Mode" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYE-CJ-g3X">
-                                <rect key="frame" x="419" y="40" width="187" height="43"/>
+                                <rect key="frame" x="94" y="40" width="132" height="31.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jyr-4x-3U6" customClass="CBLPillButton">
-                                <rect key="frame" x="437" y="676" width="150" height="42"/>
+                                <rect key="frame" x="85" y="502" width="150" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="4A9-Ep-NHe"/>
                                     <constraint firstAttribute="height" constant="42" id="TTY-E3-cNv">
@@ -560,7 +596,7 @@ Enjoy!</string>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <state key="normal" title="Continue →">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
@@ -570,7 +606,7 @@ Enjoy!</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PyW-bc-FEI">
-                                <rect key="frame" x="265" y="307" width="495" height="61"/>
+                                <rect key="frame" x="20" y="197.5" width="280" height="78"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="Z19-3O-VGn">
                                         <variation key="widthClass=compact" constant="280"/>
@@ -578,17 +614,17 @@ Enjoy!</string>
                                 </constraints>
                                 <string key="text">Cascable 2.0 is easy on the eyes when working in low light with the new Night Mode, an app-wide theme designed to be friendly on the eyes when working in low light environments.</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FirstRunMoon" translatesAutoresizingMaskIntoConstraints="NO" id="WIf-Dh-jj6">
-                                <rect key="frame" x="443" y="123" width="139" height="144"/>
+                                <rect key="frame" x="118.5" y="91.5" width="83" height="86"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="Jyr-4x-3U6" secondAttribute="centerX" id="4uo-g6-yRD"/>
                             <constraint firstItem="WIf-Dh-jj6" firstAttribute="top" secondItem="WYE-CJ-g3X" secondAttribute="bottom" constant="40" id="NNj-qN-DfZ">
@@ -630,20 +666,20 @@ Enjoy!</string>
                         <viewControllerLayoutGuide type="bottom" id="D50-PC-t7N"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4S1-yv-P4O">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Free Upgrade For 1.x Customers" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Brp-aw-MgW">
-                                <rect key="frame" x="257" y="40" width="511" height="43"/>
+                                <rect key="frame" x="42" y="40" width="236.5" height="62.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GtB-eF-Akk" customClass="CBLPillButton">
-                                <rect key="frame" x="437" y="676" width="150" height="42"/>
+                                <rect key="frame" x="85" y="502" width="150" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="NQh-vT-Jzd">
                                         <variation key="widthClass=compact" constant="36"/>
@@ -652,7 +688,7 @@ Enjoy!</string>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <state key="normal" title="Continue →">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
@@ -662,11 +698,11 @@ Enjoy!</string>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PurchasedFace" translatesAutoresizingMaskIntoConstraints="NO" id="jD2-jh-l9Q">
-                                <rect key="frame" x="412" y="123" width="200" height="206"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="100" y="122.5" width="120" height="124"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9p-kN-Ff7">
-                                <rect key="frame" x="265" y="369" width="495" height="81.5"/>
+                                <rect key="frame" x="20" y="266.5" width="280" height="93.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="UXs-DG-tVg">
                                         <variation key="widthClass=compact" constant="280"/>
@@ -676,14 +712,14 @@ Enjoy!</string>
 
 As a thank you, all of the new features in Cascable 2.0 are provided to you as a FREE upgrade.</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                 </variation>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="D50-PC-t7N" firstAttribute="top" secondItem="GtB-eF-Akk" secondAttribute="bottom" constant="50" id="5dW-Gz-YSS">
                                 <variation key="widthClass=compact" constant="30"/>
@@ -712,13 +748,13 @@ As a thank you, all of the new features in Cascable 2.0 are provided to you as a
     </scenes>
     <resources>
         <image name="AboutIcon" width="150" height="150"/>
-        <image name="ColinAndFriends" width="532" height="88"/>
-        <image name="FirstRunMoon" width="139" height="144"/>
+        <image name="ColinAndFriends" width="266" height="44"/>
+        <image name="FirstRunMoon" width="83" height="86"/>
         <image name="InstagramLogo" width="44" height="44"/>
-        <image name="PurchasedFace" width="200" height="206"/>
+        <image name="PurchasedFace" width="120" height="124"/>
         <image name="TwitterLogo" width="44" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Gcd-2A-nik"/>
+        <segue reference="ebD-8i-vom"/>
     </inferredMetricsTieBreakers>
 </document>
