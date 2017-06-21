@@ -201,6 +201,7 @@
                     <connections>
                         <outlet property="getStartedButton" destination="Wr9-Wd-JN8" id="0BO-sy-ivh"/>
                         <outlet property="iconImageView" destination="Y9H-Or-uKy" id="wQu-3s-H4p"/>
+                        <outlet property="migrationExplanationLabel" destination="hay-5R-Q3N" id="UCZ-hb-gT3"/>
                         <outlet property="skipTourButton" destination="9NP-z9-ZaH" id="Tfa-Zc-jzJ"/>
                         <outlet property="spinner" destination="sjO-hq-4wF" id="gEC-1B-awH"/>
                         <outlet property="tick" destination="yJk-UH-fNr" id="owj-XD-Hbl"/>
