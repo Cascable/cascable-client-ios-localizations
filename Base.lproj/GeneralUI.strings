@@ -503,6 +503,8 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 "ContrastEditToolTitle" = "Contrast";
 "IntensityEditToolTitle" = "Intensity";
 "RadiusEditToolTitle" = "Radius";
+"FlipVerticalEditToolTitle" = "Flip Vertical";
+"FlipHorizontalEditToolTitle" = "Flip Horizontal";
 
 // ------------------------------------------------------------
 //     Help and First Run
