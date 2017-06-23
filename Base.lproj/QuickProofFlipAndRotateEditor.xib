@@ -39,36 +39,40 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="AZF-qm-xjT">
-                                <rect key="frame" x="8" y="0.0" width="432" height="51"/>
+                                <rect key="frame" x="30" y="8" width="388" height="35"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jha-Ad-jPY" customClass="CBLTintableBackgroundButton">
-                                        <rect key="frame" x="0.0" y="0.0" width="40" height="51"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <state key="normal" title="Flip H"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="24" height="35"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                        <color key="tintColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        <state key="normal" image="QuickProofFlipHorizontal"/>
                                         <connections>
                                             <action selector="flipHorizontalTapped:" destination="-1" eventType="touchUpInside" id="qs2-0M-rXB"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fe-vo-thI" customClass="CBLTintableBackgroundButton">
-                                        <rect key="frame" x="105" y="0.0" width="39" height="51"/>
+                                        <rect key="frame" x="121.5" y="0.0" width="24" height="35"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <state key="normal" title="Flip V"/>
+                                        <color key="tintColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        <state key="normal" image="QuickProofFlipVertical"/>
                                         <connections>
                                             <action selector="flipVerticalTapped:" destination="-1" eventType="touchUpInside" id="vlA-yt-K5X"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRx-i2-7DP" customClass="CBLTintableBackgroundButton">
-                                        <rect key="frame" x="209" y="0.0" width="74" height="51"/>
+                                        <rect key="frame" x="242.5" y="0.0" width="24" height="35"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <state key="normal" title="Rotate CW"/>
+                                        <color key="tintColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        <state key="normal" image="QuickProofRotateCW"/>
                                         <connections>
                                             <action selector="rotateCWTapped:" destination="-1" eventType="touchUpInside" id="lK9-ht-Zex"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nkz-8o-RMa" customClass="CBLTintableBackgroundButton">
-                                        <rect key="frame" x="348" y="0.0" width="84" height="51"/>
+                                        <rect key="frame" x="364" y="0.0" width="24" height="35"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <state key="normal" title="Rotate CCW"/>
+                                        <color key="tintColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        <state key="normal" image="QuickProofRotateCCW"/>
                                         <connections>
                                             <action selector="rotateCCWTapped:" destination="-1" eventType="touchUpInside" id="loI-3R-4H4"/>
                                         </connections>
@@ -77,12 +81,12 @@
                             </stackView>
                         </subviews>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="AZF-qm-xjT" secondAttribute="trailing" constant="8" id="3Iv-1k-Ptn"/>
+                            <constraint firstAttribute="trailing" secondItem="AZF-qm-xjT" secondAttribute="trailing" constant="30" id="3Iv-1k-Ptn"/>
                             <constraint firstItem="Ged-JA-V24" firstAttribute="leading" secondItem="vLJ-nf-BjL" secondAttribute="leading" id="5Rk-zK-GhW"/>
-                            <constraint firstItem="AZF-qm-xjT" firstAttribute="top" secondItem="vLJ-nf-BjL" secondAttribute="top" id="FaJ-zl-Ojr"/>
+                            <constraint firstItem="AZF-qm-xjT" firstAttribute="top" secondItem="vLJ-nf-BjL" secondAttribute="top" constant="8" id="FaJ-zl-Ojr"/>
                             <constraint firstItem="Ged-JA-V24" firstAttribute="top" secondItem="vLJ-nf-BjL" secondAttribute="top" id="Hvv-W1-OWC"/>
-                            <constraint firstItem="AZF-qm-xjT" firstAttribute="leading" secondItem="vLJ-nf-BjL" secondAttribute="leading" constant="8" id="hNg-GT-yaO"/>
-                            <constraint firstAttribute="bottom" secondItem="AZF-qm-xjT" secondAttribute="bottom" id="o9j-Si-wS3"/>
+                            <constraint firstItem="AZF-qm-xjT" firstAttribute="leading" secondItem="vLJ-nf-BjL" secondAttribute="leading" constant="30" id="hNg-GT-yaO"/>
+                            <constraint firstAttribute="bottom" secondItem="AZF-qm-xjT" secondAttribute="bottom" constant="8" id="o9j-Si-wS3"/>
                             <constraint firstAttribute="trailing" secondItem="Ged-JA-V24" secondAttribute="trailing" id="rEt-lJ-P1F"/>
                         </constraints>
                     </view>
@@ -102,4 +106,10 @@
             <point key="canvasLocation" x="25" y="1.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="QuickProofFlipHorizontal" width="24" height="24"/>
+        <image name="QuickProofFlipVertical" width="24" height="24"/>
+        <image name="QuickProofRotateCCW" width="24" height="24"/>
+        <image name="QuickProofRotateCW" width="24" height="24"/>
+    </resources>
 </document>
