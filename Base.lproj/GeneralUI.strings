@@ -1465,6 +1465,9 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 /* Title text displayed when generating a GPX file. */
 "GeneratingGPXTitle" = "Generating GPX file…";
 
+/* Title text explaining that GPX export requires Cascable Pro. */
+"GPXExportUnavailableNeedsProTitle" = "Exporting tracks as GPX files is a feature of Cascable Pro.";
+
 /* Title text displayed when importing a GPX file. */
 "ImportingGPXTitle" = "Importing GPX file…";
 
@@ -1503,6 +1506,12 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 /* Button title for applying geotags to photos. E.g.: "Apply Geotags to 2 Photos". */
 "TrackMatchingButtonTitle" = "Apply Geotags to %@ Photo";
 "TrackMatchingButtonTitle_Plural" = "Apply Geotags to %@ Photos";
+
+/* Dialog title for trying to apply geotags to photos as a free user. */
+"TrackmatchingRequiresProAlertTitle" = "Requires Cascable Pro";
+
+/* Dialog message for trying to apply geotags to photos as a free user. */
+"TrackmatchingRequiresProAlertMessage" = "Applying geotags to your photos automatically is a feature of Cascable Pro.";
 
 /* Placeholder button title for applying geotags when there are no matching photos. */
 "TrackMatchingNoMatchesButtonTitle" = "No Matching Photos";
