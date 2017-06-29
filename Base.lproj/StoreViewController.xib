@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StoreViewController">
+            <connections>
+                <outlet property="availableContentView" destination="1dg-QW-xg9" id="Jh3-UF-Wne"/>
+                <outlet property="buttonStackView" destination="uyi-gq-4Ri" id="X73-gw-TuC"/>
+                <outlet property="contentContainer" destination="o7V-3X-PKu" id="Oxr-fL-mPb"/>
+                <outlet property="loadingContainer" destination="XCR-ov-e5P" id="B8T-jj-05b"/>
+                <outlet property="loadingContentView" destination="ab5-Or-qSx" id="uSS-jj-zSk"/>
+                <outlet property="loadingErrorImage" destination="bLr-1g-gRG" id="OxH-pI-pQG"/>
+                <outlet property="loadingErrorLabel" destination="3ss-hP-gbE" id="xIw-77-8Rf"/>
+                <outlet property="loadingErrorView" destination="bLr-1g-gRG" id="qb8-lo-dv4"/>
+                <outlet property="loadingIndicator" destination="78S-Rk-MAw" id="06n-ah-ksN"/>
+                <outlet property="loadingSlowWarningLabel" destination="eWf-Rq-vh9" id="aew-Ka-Bpk"/>
+                <outlet property="purchasedContainer" destination="PgT-mL-Kkh" id="Jso-PL-G88"/>
+                <outlet property="purchasedImageView" destination="UCX-IQ-0yR" id="8Y6-7L-6tO"/>
+                <outlet property="restorePurchasesBottomConstraint" destination="8Ip-tk-yZb" id="HeZ-jb-bj2"/>
+                <outlet property="restorePurchasesButton" destination="eQ7-25-wnZ" id="OEO-s6-u3Z"/>
+                <outlet property="restorePurchasesContainer" destination="SvU-aa-BS3" id="5oD-hc-Sjt"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Vbg-er-rTT"/>
+                <outletCollection property="themeableLabels" destination="85y-wF-KNG" collectionClass="NSMutableArray" id="Kcx-nV-rTe"/>
+                <outletCollection property="themeableLabels" destination="VXB-2Q-Ad4" collectionClass="NSMutableArray" id="b93-Bp-Vzb"/>
+                <outletCollection property="themeableLabels" destination="dXK-jg-Fsr" collectionClass="NSMutableArray" id="Ype-Ub-CJa"/>
+                <outletCollection property="themeableLabels" destination="XBi-WY-554" collectionClass="NSMutableArray" id="XGW-cY-rUv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o7V-3X-PKu">
+                    <rect key="frame" x="0.0" y="212" width="375" height="358"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SvU-aa-BS3">
+                    <rect key="frame" x="0.0" y="570" width="375" height="97"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you've previously purchased Cascable Pro, you can restore your purchases to this device." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTq-Ce-WCq">
+                            <rect key="frame" x="47.5" y="10" width="280.5" height="29"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=compact">
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            </variation>
+                            <variation key="widthClass=compact">
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            </variation>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQ7-25-wnZ">
+                            <rect key="frame" x="123" y="47" width="129" height="30"/>
+                            <state key="normal" title="Restore Purchases"/>
+                            <connections>
+                                <action selector="restorePurchasesButtonTapped:" destination="-1" eventType="touchUpInside" id="lbL-92-UwQ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="ZTq-Ce-WCq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="SvU-aa-BS3" secondAttribute="leading" constant="40" id="Bal-xY-PDW"/>
+                        <constraint firstItem="eQ7-25-wnZ" firstAttribute="top" secondItem="ZTq-Ce-WCq" secondAttribute="bottom" constant="8" id="Ezl-7x-cOX"/>
+                        <constraint firstItem="ZTq-Ce-WCq" firstAttribute="top" secondItem="SvU-aa-BS3" secondAttribute="top" constant="20" id="aSc-e7-N9m">
+                            <variation key="heightClass=compact" constant="10"/>
+                            <variation key="widthClass=compact" constant="10"/>
+                        </constraint>
+                        <constraint firstItem="ZTq-Ce-WCq" firstAttribute="centerX" secondItem="SvU-aa-BS3" secondAttribute="centerX" id="apO-QO-k2M"/>
+                        <constraint firstItem="eQ7-25-wnZ" firstAttribute="centerX" secondItem="SvU-aa-BS3" secondAttribute="centerX" id="qja-Qk-3kD"/>
+                        <constraint firstAttribute="bottom" secondItem="eQ7-25-wnZ" secondAttribute="bottom" constant="40" id="z1z-1V-Ykv">
+                            <variation key="heightClass=compact" constant="20"/>
+                            <variation key="widthClass=compact" constant="20"/>
+                        </constraint>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SqA-lJ-iz3" customClass="CBLHairlineDividerView">
+                    <rect key="frame" x="0.0" y="211" width="375" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="ctG-Sq-hIq"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="topLeft" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C28-Qx-0nk">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="211"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cei-qp-5wu">
+                            <rect key="frame" x="165.5" y="95.5" width="44" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.95956120466321249" green="0.95956120466321249" blue="0.95956120466321249" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="C28-Qx-0nk" secondAttribute="height" multiplier="16:9" id="0to-Iy-n7C"/>
+                        <constraint firstItem="cei-qp-5wu" firstAttribute="centerY" secondItem="C28-Qx-0nk" secondAttribute="centerY" id="eO6-fx-m1B"/>
+                        <constraint firstItem="cei-qp-5wu" firstAttribute="centerX" secondItem="C28-Qx-0nk" secondAttribute="centerX" id="yer-GX-dcS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="SvU-aa-BS3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0Lf-co-Gh2"/>
+                <constraint firstItem="SqA-lJ-iz3" firstAttribute="top" secondItem="C28-Qx-0nk" secondAttribute="bottom" id="18W-6t-R9x"/>
+                <constraint firstAttribute="bottom" secondItem="SvU-aa-BS3" secondAttribute="bottom" id="8Ip-tk-yZb"/>
+                <constraint firstItem="SqA-lJ-iz3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="R7y-qD-0W9"/>
+                <constraint firstItem="o7V-3X-PKu" firstAttribute="top" secondItem="SqA-lJ-iz3" secondAttribute="bottom" id="S8b-f3-c0v"/>
+                <constraint firstItem="SvU-aa-BS3" firstAttribute="top" secondItem="o7V-3X-PKu" secondAttribute="bottom" id="SMF-Hk-qBs"/>
+                <constraint firstItem="o7V-3X-PKu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Z7b-Mw-vw8"/>
+                <constraint firstItem="C28-Qx-0nk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ZH2-A7-IHJ"/>
+                <constraint firstItem="C28-Qx-0nk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="i29-Oq-BoR"/>
+                <constraint firstAttribute="trailing" secondItem="SqA-lJ-iz3" secondAttribute="trailing" id="mWD-M7-5gA"/>
+                <constraint firstAttribute="trailing" secondItem="C28-Qx-0nk" secondAttribute="trailing" id="q3L-Eo-Ld4"/>
+                <constraint firstAttribute="trailing" secondItem="SvU-aa-BS3" secondAttribute="trailing" id="zJb-4Y-PGy"/>
+                <constraint firstAttribute="trailing" secondItem="o7V-3X-PKu" secondAttribute="trailing" id="zWZ-JG-EbF"/>
+            </constraints>
+            <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="326.5" y="148.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="ab5-Or-qSx" userLabel="Loading View">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bLr-1g-gRG">
+                    <rect key="frame" x="20" y="225" width="335" height="217.5"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CameraDisconnectedFace" translatesAutoresizingMaskIntoConstraints="NO" id="dAG-fZ-BYR">
+                            <rect key="frame" x="107.5" y="8" width="120" height="88"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ss-hP-gbE">
+                            <rect key="frame" x="0.0" y="116" width="335" height="101.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="400" id="E9Z-DW-y4G"/>
+                            </constraints>
+                            <string key="text">The Cascable store is not available at the moment. Please check your network connection. If connected to a camera, you may need to disconnect to reach a network with Internet connectivity.</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="3ss-hP-gbE" firstAttribute="centerX" secondItem="bLr-1g-gRG" secondAttribute="centerX" id="8Ol-sr-HEb"/>
+                        <constraint firstItem="dAG-fZ-BYR" firstAttribute="centerX" secondItem="bLr-1g-gRG" secondAttribute="centerX" id="8pC-0Z-YmD"/>
+                        <constraint firstItem="3ss-hP-gbE" firstAttribute="top" secondItem="dAG-fZ-BYR" secondAttribute="bottom" constant="20" id="J3Z-CA-8IG"/>
+                        <constraint firstItem="3ss-hP-gbE" firstAttribute="leading" secondItem="bLr-1g-gRG" secondAttribute="leading" priority="750" id="KXo-ln-OtK"/>
+                        <constraint firstItem="dAG-fZ-BYR" firstAttribute="top" secondItem="bLr-1g-gRG" secondAttribute="top" constant="8" id="Oio-Ha-BnK"/>
+                        <constraint firstAttribute="bottom" secondItem="3ss-hP-gbE" secondAttribute="bottom" id="QKz-cY-e96"/>
+                        <constraint firstAttribute="trailing" secondItem="3ss-hP-gbE" secondAttribute="trailing" id="U3z-Wq-xpf"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XCR-ov-e5P">
+                    <rect key="frame" x="23.5" y="244.5" width="328.5" height="178"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="The Cascable store is taking a long time to load. You may need to disconnect from your camera's WiFi network." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWf-Rq-vh9">
+                            <rect key="frame" x="0.0" y="117" width="328.5" height="61"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="400" id="b6C-eX-BOn"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="78S-Rk-MAw">
+                            <rect key="frame" x="145.5" y="60" width="37" height="37"/>
+                            <color key="color" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="78S-Rk-MAw" firstAttribute="centerX" secondItem="XCR-ov-e5P" secondAttribute="centerX" id="KUg-Aa-V58"/>
+                        <constraint firstItem="eWf-Rq-vh9" firstAttribute="leading" secondItem="XCR-ov-e5P" secondAttribute="leading" priority="750" id="VGM-6m-WVF"/>
+                        <constraint firstItem="78S-Rk-MAw" firstAttribute="top" secondItem="XCR-ov-e5P" secondAttribute="top" constant="60" id="Y4L-Zg-nSJ"/>
+                        <constraint firstAttribute="bottom" secondItem="eWf-Rq-vh9" secondAttribute="bottom" id="ZRr-6K-np9"/>
+                        <constraint firstItem="eWf-Rq-vh9" firstAttribute="top" secondItem="78S-Rk-MAw" secondAttribute="bottom" constant="20" id="gKp-eg-dC6"/>
+                        <constraint firstItem="eWf-Rq-vh9" firstAttribute="centerX" secondItem="XCR-ov-e5P" secondAttribute="centerX" id="jHO-MI-Dz4"/>
+                        <constraint firstAttribute="trailing" secondItem="eWf-Rq-vh9" secondAttribute="trailing" priority="750" id="vti-Fe-vV9"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XCR-ov-e5P" firstAttribute="centerX" secondItem="ab5-Or-qSx" secondAttribute="centerX" id="G0W-es-C02"/>
+                <constraint firstItem="XCR-ov-e5P" firstAttribute="centerY" secondItem="ab5-Or-qSx" secondAttribute="centerY" id="Lo4-Su-SUW"/>
+                <constraint firstItem="XCR-ov-e5P" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ab5-Or-qSx" secondAttribute="leading" constant="20" id="dsu-Uv-skH"/>
+                <constraint firstItem="bLr-1g-gRG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ab5-Or-qSx" secondAttribute="leading" constant="20" id="tup-dW-9au"/>
+                <constraint firstItem="bLr-1g-gRG" firstAttribute="centerX" secondItem="ab5-Or-qSx" secondAttribute="centerX" id="u5k-2c-0mW"/>
+                <constraint firstItem="bLr-1g-gRG" firstAttribute="centerY" secondItem="ab5-Or-qSx" secondAttribute="centerY" id="wPQ-5L-VKr"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="157" y="184"/>
+        </view>
+        <view contentMode="scaleToFill" id="1dg-QW-xg9" userLabel="Content View">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="349"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upgrade to Cascable Pro!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85y-wF-KNG">
+                    <rect key="frame" x="113" y="20" width="204.5" height="21"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cascable Pro provides powerful shutter automation, RAW image support, night mode, geotagging tools and much more." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VXB-2Q-Ad4">
+                    <rect key="frame" x="46" y="49" width="339" height="50.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uyi-gq-4Ri">
+                    <rect key="frame" x="40" y="119.5" width="350" height="219.5"/>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="uyi-gq-4Ri" firstAttribute="centerX" secondItem="1dg-QW-xg9" secondAttribute="centerX" id="3xv-vk-MUk"/>
+                <constraint firstItem="85y-wF-KNG" firstAttribute="top" secondItem="1dg-QW-xg9" secondAttribute="top" constant="20" id="5B4-jl-K7w"/>
+                <constraint firstItem="uyi-gq-4Ri" firstAttribute="top" secondItem="VXB-2Q-Ad4" secondAttribute="bottom" constant="30" id="HuK-Jx-ZMb">
+                    <variation key="heightClass=compact" constant="20"/>
+                    <variation key="widthClass=compact" constant="20"/>
+                </constraint>
+                <constraint firstItem="VXB-2Q-Ad4" firstAttribute="top" secondItem="85y-wF-KNG" secondAttribute="bottom" constant="8" id="Jfx-e5-MZl"/>
+                <constraint firstItem="85y-wF-KNG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="1dg-QW-xg9" secondAttribute="leading" constant="40" id="Nc0-Of-yA2"/>
+                <constraint firstItem="85y-wF-KNG" firstAttribute="centerX" secondItem="1dg-QW-xg9" secondAttribute="centerX" id="RNe-oU-1G3"/>
+                <constraint firstItem="VXB-2Q-Ad4" firstAttribute="centerX" secondItem="1dg-QW-xg9" secondAttribute="centerX" id="ihM-h0-ubk"/>
+                <constraint firstAttribute="bottom" secondItem="uyi-gq-4Ri" secondAttribute="bottom" constant="10" id="lwo-F5-yhA"/>
+                <constraint firstItem="uyi-gq-4Ri" firstAttribute="leading" secondItem="1dg-QW-xg9" secondAttribute="leading" constant="40" id="qNY-Jl-hBT"/>
+                <constraint firstItem="VXB-2Q-Ad4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="1dg-QW-xg9" secondAttribute="leading" constant="40" id="yMH-4F-o99"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="790" y="-11"/>
+        </view>
+        <view contentMode="scaleToFill" id="PgT-mL-Kkh">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="349"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You're upgraded to Cascable Pro!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXK-jg-Fsr">
+                    <rect key="frame" x="82.5" y="20" width="266.5" height="21"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank you for supporting Cascable! Your purchase helps support a small, independent company. We couldn't do it without you!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XBi-WY-554">
+                    <rect key="frame" x="50" y="49" width="331" height="50.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UC5-kb-AYC">
+                    <rect key="frame" x="155" y="110" width="120" height="229"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PurchasedFace" translatesAutoresizingMaskIntoConstraints="NO" id="UCX-IQ-0yR">
+                            <rect key="frame" x="0.0" y="52.5" width="120" height="124"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="UCX-IQ-0yR" firstAttribute="leading" secondItem="UC5-kb-AYC" secondAttribute="leading" id="9o1-l6-iYp"/>
+                        <constraint firstItem="UCX-IQ-0yR" firstAttribute="centerX" secondItem="UC5-kb-AYC" secondAttribute="centerX" id="Srh-OZ-NNo"/>
+                        <constraint firstAttribute="trailing" secondItem="UCX-IQ-0yR" secondAttribute="trailing" id="adt-RC-zSs"/>
+                        <constraint firstItem="UCX-IQ-0yR" firstAttribute="centerY" secondItem="UC5-kb-AYC" secondAttribute="centerY" id="hNr-Uq-ftA"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XBi-WY-554" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="PgT-mL-Kkh" secondAttribute="leading" constant="40" id="0ZV-PE-fLK"/>
+                <constraint firstItem="dXK-jg-Fsr" firstAttribute="centerX" secondItem="PgT-mL-Kkh" secondAttribute="centerX" id="4XF-t6-ahJ"/>
+                <constraint firstItem="XBi-WY-554" firstAttribute="top" secondItem="dXK-jg-Fsr" secondAttribute="bottom" constant="8" id="8lR-EM-zIV"/>
+                <constraint firstItem="dXK-jg-Fsr" firstAttribute="top" secondItem="PgT-mL-Kkh" secondAttribute="top" constant="20" id="Cu4-54-aQG"/>
+                <constraint firstItem="XBi-WY-554" firstAttribute="centerX" secondItem="PgT-mL-Kkh" secondAttribute="centerX" id="FXf-wQ-oNZ"/>
+                <constraint firstItem="UC5-kb-AYC" firstAttribute="top" secondItem="XBi-WY-554" secondAttribute="bottom" constant="10" id="Vur-rB-5sj"/>
+                <constraint firstItem="dXK-jg-Fsr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="PgT-mL-Kkh" secondAttribute="leading" constant="40" id="WNO-XX-cUR"/>
+                <constraint firstAttribute="bottom" secondItem="UC5-kb-AYC" secondAttribute="bottom" constant="10" id="cpu-07-2iA"/>
+                <constraint firstItem="UC5-kb-AYC" firstAttribute="centerX" secondItem="PgT-mL-Kkh" secondAttribute="centerX" id="ioK-ba-6n1"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="790" y="387.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="CameraDisconnectedFace" width="120" height="88"/>
+        <image name="PurchasedFace" width="120" height="124"/>
+    </resources>
+</document>
