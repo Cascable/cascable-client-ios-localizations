@@ -29,6 +29,7 @@
                 <outlet property="restorePurchasesButton" destination="c2K-tn-06H" id="Mx9-an-4Mc"/>
                 <outlet property="restorePurchasesContainer" destination="ydb-eS-eKh" id="7Np-Li-w2S"/>
                 <outlet property="subheaderLeftConstraint" destination="yMH-4F-o99" id="DZf-34-Zku"/>
+                <outlet property="videoPlayer" destination="C28-Qx-0nk" id="QRO-ix-dUn"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Vbg-er-rTT"/>
                 <outletCollection property="themeableLabels" destination="85y-wF-KNG" collectionClass="NSMutableArray" id="Kcx-nV-rTe"/>
                 <outletCollection property="themeableLabels" destination="VXB-2Q-Ad4" collectionClass="NSMutableArray" id="b93-Bp-Vzb"/>
@@ -43,11 +44,11 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o7V-3X-PKu">
-                    <rect key="frame" x="0.0" y="212" width="375" height="368"/>
+                    <rect key="frame" x="0.0" y="194" width="375" height="386"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SqA-lJ-iz3" customClass="CBLHairlineDividerView">
-                    <rect key="frame" x="0.0" y="211" width="375" height="1"/>
+                    <rect key="frame" x="0.0" y="193" width="375" height="1"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="1" id="ctG-Sq-hIq"/>
                     </constraints>
@@ -55,21 +56,11 @@
                         <userDefinedRuntimeAttribute type="boolean" keyPath="topLeft" value="YES"/>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C28-Qx-0nk">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="211"/>
-                    <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cei-qp-5wu">
-                            <rect key="frame" x="165.5" y="95.5" width="44" height="21"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                    </subviews>
-                    <color key="backgroundColor" red="0.95956120466321249" green="0.95956120466321249" blue="0.95956120466321249" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C28-Qx-0nk" customClass="FeatureVideoPlayerView" customModule="Cascable" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="193"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="C28-Qx-0nk" secondAttribute="height" multiplier="16:9" id="0to-Iy-n7C"/>
-                        <constraint firstItem="cei-qp-5wu" firstAttribute="centerY" secondItem="C28-Qx-0nk" secondAttribute="centerY" id="eO6-fx-m1B"/>
-                        <constraint firstItem="cei-qp-5wu" firstAttribute="centerX" secondItem="C28-Qx-0nk" secondAttribute="centerX" id="yer-GX-dcS"/>
+                        <constraint firstAttribute="width" secondItem="C28-Qx-0nk" secondAttribute="height" multiplier="1942:1000" id="0to-Iy-n7C"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ydb-eS-eKh">
@@ -196,22 +187,22 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upgrade to Cascable Pro!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85y-wF-KNG">
-                    <rect key="frame" x="113" y="30" width="204.5" height="21"/>
+                    <rect key="frame" x="113" y="35" width="204.5" height="21"/>
                     <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cascable Pro provides powerful shutter automation, RAW image support, night mode, geotagging tools and much more." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VXB-2Q-Ad4">
-                    <rect key="frame" x="45.5" y="59" width="339" height="50.5"/>
+                    <rect key="frame" x="45.5" y="64" width="339" height="50.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VdL-Wt-2bT">
-                    <rect key="frame" x="20" y="129.5" width="390" height="199.5"/>
+                    <rect key="frame" x="20" y="134.5" width="390" height="194.5"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uyi-gq-4Ri">
-                            <rect key="frame" x="0.0" y="10" width="390" height="180"/>
+                            <rect key="frame" x="0.0" y="7.5" width="390" height="180"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="180" placeholder="YES" id="Wo0-UA-KcX"/>
                             </constraints>
@@ -227,7 +218,7 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="85y-wF-KNG" firstAttribute="top" secondItem="1dg-QW-xg9" secondAttribute="top" constant="30" id="5B4-jl-K7w"/>
+                <constraint firstItem="85y-wF-KNG" firstAttribute="top" secondItem="1dg-QW-xg9" secondAttribute="top" constant="35" id="5B4-jl-K7w"/>
                 <constraint firstAttribute="trailing" secondItem="VdL-Wt-2bT" secondAttribute="trailing" constant="20" id="Ejj-49-Hc3"/>
                 <constraint firstItem="VXB-2Q-Ad4" firstAttribute="top" secondItem="85y-wF-KNG" secondAttribute="bottom" constant="8" id="Jfx-e5-MZl"/>
                 <constraint firstItem="85y-wF-KNG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="1dg-QW-xg9" secondAttribute="leading" constant="40" id="Nc0-Of-yA2"/>
