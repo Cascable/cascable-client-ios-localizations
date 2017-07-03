@@ -819,26 +819,29 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Title for 'PRO' buttons. Must be short. */
 "ProButtonTitle" = "PRO";
 
-/* Title of the 'Buy' buttons. Ex: 'Buy for $9.99'. */
-"BuyButtonFormatter" = "Buy for %@";
-
-/* Title of the bundle savings label. Ex: 'Save $5.00!'. */
-"BundleSavingsLabelFormatter" = "Save %@!";
-
 /* Explanation of needing to make a purchase to remote preview photos. */
-"RemotePreviewUnavailableDescription" = "Previewing photos directly from your camera is a feature of Cascable Pro: Photo Management.";
+"RemotePreviewUnavailableDescription" = "Previewing photos directly from your camera is a feature of Cascable Pro.";
 
-/* Title of the alert informing the user of the feature bundle. */
-"BundleUpsellAlertTitle" = "Also Included in Pro Bundle";
+/* Name of the product in the purchases list */
+"OfflineProductName" = "Cascable Pro";
 
-/* Message of the alert informing the user of the feature bundle. */
-"BundleUpsellAlertDescription" = "This item is included in the Cascable Pro bundle, which includes all Pro features at a discounted price.\n\nNOTE: Once you buy an individual feature, you will no longer be able to buy the bundle.";
+/* Product subtitle when no existing purchases are present. */
+"OfflineProductNoExistingPurchasesSubtitle" = "Purchase or subscribe!";
 
-/* Title of the of the 'View Pro Bundle' button in the bundle alert. */
-"BundleUpsellViewBundleButtonTitle" = "View Pro Bundle";
+/* Product subtitle when the user purchased a full unlock in an older version. */
+"OfflineProductGrandfatheredFullUnlockSubtitle" = "All features unlocked.";
 
-/* Title of the of the 'Buy anyway' button in the bundle alert. Ex: 'Buy just this for $9.99'. */
-"BundleUpsellBuyAnywayButtonTitle" = "Buy just this for %@";
+/* Product subtitle when the user purchased some feature packs in an earlier version and can upgrade at a discount. */
+"OfflineProductDiscountAvailableSubtitle" = "Discounted upgrade available!";
+
+/* Product subtitle when the user has purchased a full unlock in 3.x. */
+"OfflineProductPurchasedSubtitle" = "All features unlocked.";
+
+/* Product subtitle when the user is subscribed with a quarterly subscription. */
+"OfflineProductQuarterlySubscriptionSubtitle" = "Subscription active.";
+
+/* Product subtitle when the user is subscribed with a monthly subscription. */
+"OfflineProductMonthlySubscriptionSubtitle" = "Subscription active.";
 
 /* Title of the "Purchases" section of the settings section of the app. */
 "PurchasesSettingsSectionTitle" = "Purchases";
@@ -849,29 +852,20 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Title of the "Restore Purchases…" button. Should follow Apple guidelines for this process. */
 "RestorePurchasesButtonTitle" = "Restore Purchases…";
 
+/* Title of the "Manage Subscriptions…" button. */
+"ManageSubscriptionsRowTitle" = "Manage Subscriptions…";
+
 /* Explanation text for the "Restore Purchases" feature. */
-"RestorePurchasesSectionFooter" = "If you've previously purchased one or more Cascable Pro feature packs, you can restore them to this device.";
-
-/* Header text for the list of feature packs if the bundle is available. */
-"ProPackIncludesSectionTitle" = "Full Bundle Includes:";
-
-/* Offline title of the "Pro: Remote Control" feature pack. */
-"se.cascable.ios.remotemodeunlockOfflineProductTitle" = "Pro: Remote Control";
-
-/* Offline title of the "Pro: Photo Management" feature pack. */
-"se.cascable.ios.filesmodeunlockOfflineProductTitle" = "Pro: Photo Management";
-
-/* Offline title of the "Pro: Night Mode" feature pack. */
-"se.cascable.ios.nightmodeOfflineProductTitle" = "Pro: Night Mode";
-
-/* Offline title of the feature pack bundle. */
-"se.cascable.ios.everythingunlockOfflineProductTitle" = "Pro: Full Bundle";
+"RestorePurchasesSectionFooter" = "If you've previously purchased Cascable Pro, you can restore your purchases to this device.";
 
 /* Header text for the purchases section when no items have been purchased. */
-"NoPurchasesMadeHeader" = "Purchasing Cascable feature packs will unlock powerful new features and help support a small, independent company.";
+"NoPurchasesMadeHeader" = "Purchasing Cascable Pro will unlock powerful new features and help support a small, independent company.";
+
+/* Header text for the purchases section when some legacy items have been purchased and a discounted upgrade is available. */
+"SomeLegacyPurchasesMadeHeader" = "Thank you for supporting Cascable! Your previous purchases are still active, and you can fully upgrade to this version at a discount!";
 
 /* Header text for the purchases section when the user has a free upgrade due to purchasing Cascable 1.x. */
-"PurchasesGrandfatheredUserHeader" = "Thank you for being an early adopter! As a user of Cascable 1.x, you get a free upgrade!";
+"PurchasesGrandfatheredUserHeader" = "Thank you for being an early adopter! As a paid user of earlier versions of Cascable, you get a free upgrade!";
 
 /* Header text for the purchases section when the user has purchased one or more items. */
 "PurchasesMadeHeader" = "Thank you for supporting Cascable! Your purchase helps support a small, independent company. We couldn't do it without you!";
