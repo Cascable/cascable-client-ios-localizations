@@ -870,6 +870,24 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Header text for the purchases section when the user has purchased one or more items. */
 "PurchasesMadeHeader" = "Thank you for supporting Cascable! Your purchase helps support a small, independent company. We couldn't do it without you!";
 
+/* Purchase button main title for a one-time purchase. */
+"PurchaseButtonOneTimePurchaseHeadline" = "One-time Purchase";
+
+/* Purchase button main title for a discounted upgrade. */
+"PurchaseButtonDiscountedUpgradeHeadline" = "Discounted Upgrade";
+
+/* Purchase button main title for a three day trial. */
+"PurchaseButtonThreeDayTrialHeadline" = "Three day FREE trial!";
+
+/* Purchase button main title for a one week trial. */
+"PurchaseButtonOneWeekTrialHeadline" = "One week FREE trial!";
+
+/* Purchase button sub-title for a monthly subscription. E.g.: "then $2.99 per month, billed monthly". */
+"PurchaseButtonMonthlySubscriptionSubheadline" = "then %@ per month, billed monthly";
+
+/* Purchase button sub-title for a quarterly subscription. E.g.: "then $1.99 per month, billed quarterly". */
+"PurchaseButtonQuarterlySubscriptionSubheadline" = "then %@ per month, billed quarterly";
+
 // ------------------------------------------------------------
 //     Managing Selection
 // ------------------------------------------------------------
