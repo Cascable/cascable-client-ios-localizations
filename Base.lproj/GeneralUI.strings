@@ -1325,7 +1325,7 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 "SyncCameraClockOnConnectionTitle" = "Sync Camera Clock (If Available)";
 
 /* Footer text for the 'Sync Camera Clock' setting. */
-"SyncCameraClockFooter" = "Clock sync is available on Canon, Nikon and Olympus camera models.";
+"SyncCameraClockFooter" = "Clock sync is available on Nikon, Olympus, and some Canon cameras.";
 
 /* Text displayed in the notification to the user when Cascable has to disconnect from a camera due to background task expiration. */
 "DisconnectedAutomaticallyInBackgroundAlert" = "Cascable has disconnected from your camera due to being in the background. Launch Cascable to reconnect.";
