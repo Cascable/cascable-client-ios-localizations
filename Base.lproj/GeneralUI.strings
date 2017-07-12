@@ -480,8 +480,8 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 /* The message of the alert presented when the user is unable to edit an image due to an unsupported image type. */
 "QuickProofUnavailableUnsupportedImageMessage" = "Quick Proof does not support this kind of image. If you're working with a RAW image from a recently introduced camera, a future iOS update may add support for your camera's RAW images.";
 
-/* The message of the alert presented when the user is unable to edit an image due to not having the required Pro pack. */
-"QuickProofUnavailableNeedsProPackMessage" = "Quick Proof is a feature of Cascable Pro: Photo Management.";
+/* The message of the alert presented when the user is unable to edit an image due to not having Cascable Pro. */
+"QuickProofUnavailableNeedsProMessage" = "Quick Proof is a feature of Cascable Pro.";
 
 /* The message of the alert presented when the user is unable to edit an image due to enabling the 'Use Legacy Image Renderer' setting. */
 "QuickProofUnavailableNeedsModernRendererMessage" = "Quick Proof is not available while you have the 'Use Legacy Image Renderer' setting enabled.";
@@ -847,7 +847,7 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 "PurchasesSettingsSectionTitle" = "Purchases";
 
 /* Title of the 'More Info…' button next to unpurchased items. */
-"PackNotPurchasedButtonTitle" = "More Info…";
+"ProductMoreInfoButtonTitle" = "More Info…";
 
 /* Title of the "Restore Purchases…" button. Should follow Apple guidelines for this process. */
 "RestorePurchasesButtonTitle" = "Restore Purchases…";

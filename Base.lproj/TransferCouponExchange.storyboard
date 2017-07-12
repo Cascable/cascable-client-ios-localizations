@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sT5-k6-dkR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sT5-k6-dkR">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -19,23 +20,23 @@
                         <viewControllerLayoutGuide type="bottom" id="MOV-ku-LJa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="DED-h3-DjR">
-                        <rect key="frame" x="0.0" y="0.0" width="540" height="620"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EJ8-hR-4er">
-                                <rect key="frame" x="110" y="19" width="320" height="583"/>
+                                <rect key="frame" x="224" y="221.5" width="320" height="582.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8T-9m-CnC">
-                                        <rect key="frame" x="20" y="158" width="280" height="125"/>
+                                        <rect key="frame" x="20" y="158" width="281" height="124.5"/>
                                         <string key="text">With Cascable Transfer for Mac, you can import photos from your WiFi-enabled camera straight into Photos, Lightroom, or anywhere else on your Mac.
 
-If you've purchased at least one Cascable Pro pack, you're eligible for a 50% discount on your purchase of Cascable Transfer!</string>
+If you've purchased Cascable Pro, you're eligible for a 50% discount on your purchase of Cascable Transfer!</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AeJ-ax-gvG">
-                                        <rect key="frame" x="20" y="283" width="280" height="300"/>
+                                        <rect key="frame" x="20" y="282.5" width="280" height="300"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="300" id="k5c-Bf-gUl"/>
                                         </constraints>
@@ -79,7 +80,7 @@ If you've purchased at least one Cascable Pro pack, you're eligible for a 50% di
                         <outlet property="discountExplanationLabel" destination="M8T-9m-CnC" id="bfR-eU-eH2"/>
                         <outlet property="discountRequestView" destination="iKw-dM-NPZ" id="hGc-dv-esw"/>
                         <outlet property="emailAddressField" destination="8g8-nR-H17" id="yq0-kk-thf"/>
-                        <outlet property="noProPacksView" destination="1Cw-uh-tDC" id="biQ-VB-rNU"/>
+                        <outlet property="noProView" destination="1Cw-uh-tDC" id="biQ-VB-rNU"/>
                         <outlet property="notEligibleView" destination="IfE-Va-d7U" id="cOY-yS-zmH"/>
                         <outlet property="proFeatureButton" destination="cb7-HW-wCJ" id="Hsf-eB-ztJ"/>
                         <outlet property="restorePurchasesButton" destination="ARI-ps-pUK" id="GzG-uo-twp"/>
@@ -142,10 +143,10 @@ If you've purchased at least one Cascable Pro pack, you're eligible for a 50% di
                             </constraints>
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbq-6E-rep">
-                            <rect key="frame" x="28" y="70" width="265" height="109"/>
-                            <string key="text">In order to be eligible for a discount on Cascable Transfer for Mac, you must have purchased at least one Cascable Pro pack.
+                            <rect key="frame" x="20" y="70" width="281" height="109"/>
+                            <string key="text">In order to be eligible for a discount on Cascable Transfer for Mac, you must have purchased Cascable Pro.
 
-If this is a new device and you have already purchased a Cascable Pro pack, you can restore your purchases to this device.</string>
+If this is a new device and you have already purchased Cascable Pro, you can restore your purchases to this device.</string>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
@@ -179,10 +180,7 @@ If this is a new device and you have already purchased a Cascable Pro pack, you 
                             </connections>
                         </button>
                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your email address" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8g8-nR-H17">
-                            <rect key="frame" x="20" y="159" width="280" height="30"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="280" id="fzC-a8-Ur4"/>
-                            </constraints>
+                            <rect key="frame" x="40" y="159" width="241.5" height="30"/>
                             <nil key="textColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="continue"/>
@@ -197,7 +195,7 @@ If this is a new device and you have already purchased a Cascable Pro pack, you 
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5TC-8Y-RkH">
-                            <rect key="frame" x="24" y="61" width="272" height="78"/>
+                            <rect key="frame" x="24.5" y="61" width="271.5" height="78"/>
                             <string key="text">To request your Cascable Transfer for Mac discount, enter your email address below.
 
 Your email address will only be used to send you a confirmation of your discount.</string>
@@ -212,6 +210,7 @@ Your email address will only be used to send you a confirmation of your discount
                         <constraint firstItem="cMe-Gt-Iee" firstAttribute="centerX" secondItem="iKw-dM-NPZ" secondAttribute="centerX" id="JZQ-QH-aWG"/>
                         <constraint firstItem="8g8-nR-H17" firstAttribute="top" secondItem="5TC-8Y-RkH" secondAttribute="bottom" constant="20" id="Ked-6y-SCQ"/>
                         <constraint firstItem="8g8-nR-H17" firstAttribute="centerX" secondItem="iKw-dM-NPZ" secondAttribute="centerX" id="MdV-yS-h4r"/>
+                        <constraint firstItem="8g8-nR-H17" firstAttribute="leading" secondItem="iKw-dM-NPZ" secondAttribute="leading" constant="40" id="NCN-f5-WVD"/>
                         <constraint firstItem="5TC-8Y-RkH" firstAttribute="centerX" secondItem="iKw-dM-NPZ" secondAttribute="centerX" id="QBq-dy-oAL"/>
                         <constraint firstItem="cMe-Gt-Iee" firstAttribute="top" secondItem="8g8-nR-H17" secondAttribute="bottom" constant="20" id="atE-0r-bFO"/>
                         <constraint firstItem="oEc-Jx-Tdf" firstAttribute="top" secondItem="iKw-dM-NPZ" secondAttribute="top" constant="20" id="hwI-JC-2MA"/>
@@ -305,10 +304,10 @@ Your discount coupon code is:</string>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSk-K2-rlU">
-                            <rect key="frame" x="23" y="66" width="275" height="125"/>
+                            <rect key="frame" x="20" y="66" width="280" height="109"/>
                             <string key="text">Unfortunately, it appears that you are not eligible for the Cascable Transfer discount at this time.
 
-If you have purchased one or more Cascable Pro packs and have restored them to this device, please contact Cascable support for help.</string>
+If you have purchased Cascable Pro and have restored them to this device, please contact Cascable support for help.</string>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
@@ -323,7 +322,7 @@ If you have purchased one or more Cascable Pro packs and have restored them to t
                     </constraints>
                 </view>
             </objects>
-            <point key="canvasLocation" x="-144.375" y="108.80281690140845"/>
+            <point key="canvasLocation" x="-144.53125" y="108.3984375"/>
         </scene>
     </scenes>
     <resources>
