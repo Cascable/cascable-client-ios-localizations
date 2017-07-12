@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZN2-am-Zmm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZN2-am-Zmm">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -211,10 +211,10 @@
             </objects>
             <point key="canvasLocation" x="129.375" y="332.74647887323943"/>
         </scene>
-        <!--Shutter Robot-->
+        <!--New Cameras-->
         <scene sceneID="NKo-8z-P4m">
             <objects>
-                <viewController id="3Hm-m9-Uay" userLabel="Shutter Robot" sceneMemberID="viewController">
+                <viewController id="3Hm-m9-Uay" userLabel="New Cameras" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lDM-b8-0gP"/>
                         <viewControllerLayoutGuide type="bottom" id="ruE-rJ-ePT"/>
@@ -265,7 +265,7 @@ For more information on which models are supported, see the new in-app Help Cent
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="VTa-aR-8qN" kind="show" id="ebD-8i-vom"/>
+                                    <segue destination="64p-sF-5MF" kind="show" id="liW-9C-hxq"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ColinAndFriends" translatesAutoresizingMaskIntoConstraints="NO" id="Ew4-67-9L4">
@@ -303,10 +303,10 @@ For more information on which models are supported, see the new in-app Help Cent
             </objects>
             <point key="canvasLocation" x="1264" y="333"/>
         </scene>
-        <!--Batch Copy & Delete-->
+        <!--Geotagging-->
         <scene sceneID="moS-a2-mDP">
             <objects>
-                <viewController id="64p-sF-5MF" userLabel="Batch Copy &amp; Delete" sceneMemberID="viewController">
+                <viewController id="64p-sF-5MF" userLabel="Geotagging" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Xgq-bs-wCO"/>
                         <viewControllerLayoutGuide type="bottom" id="3fB-Y3-N5L"/>
@@ -340,16 +340,21 @@ For more information on which models are supported, see the new in-app Help Cent
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="75B-c1-IXp" kind="show" id="6om-wh-rmP"/>
+                                    <segue destination="rLH-8W-9zZ" kind="show" id="1SB-0S-lU3"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cascable 3.0 provides a powerful set of geotagging tools." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avd-i8-4VS">
-                                <rect key="frame" x="20" y="91.5" width="280" height="31.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avd-i8-4VS">
+                                <rect key="frame" x="20" y="91.5" width="280" height="171"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="DKp-AE-woS">
                                         <variation key="widthClass=compact" constant="280"/>
                                     </constraint>
                                 </constraints>
+                                <string key="text">Cascable 3.0 adds a powerful set of geotagging tools.
+
+Manually geotag photos, or record your location history and use it to automatically geotag any photos you take during the recording.
+
+If you work with other geotagging tools, Cascable supports importing and exporting industry standard GPX files.</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -566,102 +571,10 @@ Enjoy!</string>
             </objects>
             <point key="canvasLocation" x="3696" y="1319"/>
         </scene>
-        <!--Night Mode-->
-        <scene sceneID="DtG-r8-2oc">
-            <objects>
-                <viewController id="75B-c1-IXp" userLabel="Night Mode" customClass="NightModeFirstRunViewController" customModule="Cascable" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Qmq-NW-YsM"/>
-                        <viewControllerLayoutGuide type="bottom" id="fn5-qw-isY"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="W2B-SC-ySe">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Night Mode" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYE-CJ-g3X">
-                                <rect key="frame" x="94" y="40" width="132" height="31.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                </variation>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jyr-4x-3U6" customClass="CBLPillButton">
-                                <rect key="frame" x="85" y="502" width="150" height="36"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="4A9-Ep-NHe"/>
-                                    <constraint firstAttribute="height" constant="42" id="TTY-E3-cNv">
-                                        <variation key="widthClass=compact" constant="36"/>
-                                    </constraint>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <state key="normal" title="Continue →">
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                                </variation>
-                                <connections>
-                                    <action selector="showFreeUpgradeOrFinalTutorial:" destination="75B-c1-IXp" eventType="touchUpInside" id="wWH-c6-Vg1"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PyW-bc-FEI">
-                                <rect key="frame" x="20" y="197.5" width="280" height="78"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="495" id="Z19-3O-VGn">
-                                        <variation key="widthClass=compact" constant="280"/>
-                                    </constraint>
-                                </constraints>
-                                <string key="text">Cascable 2.0 is easy on the eyes when working in low light with the new Night Mode, an app-wide theme designed to be friendly on the eyes when working in low light environments.</string>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
-                                </variation>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FirstRunMoon" translatesAutoresizingMaskIntoConstraints="NO" id="WIf-Dh-jj6">
-                                <rect key="frame" x="118.5" y="91.5" width="83" height="86"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="Jyr-4x-3U6" secondAttribute="centerX" id="4uo-g6-yRD"/>
-                            <constraint firstItem="WIf-Dh-jj6" firstAttribute="top" secondItem="WYE-CJ-g3X" secondAttribute="bottom" constant="40" id="NNj-qN-DfZ">
-                                <variation key="widthClass=compact" constant="20"/>
-                            </constraint>
-                            <constraint firstItem="WIf-Dh-jj6" firstAttribute="centerX" secondItem="W2B-SC-ySe" secondAttribute="centerX" id="PEC-Ba-vS3"/>
-                            <constraint firstAttribute="centerX" secondItem="WYE-CJ-g3X" secondAttribute="centerX" id="Pv4-i7-a6d"/>
-                            <constraint firstItem="WYE-CJ-g3X" firstAttribute="top" secondItem="Qmq-NW-YsM" secondAttribute="bottom" constant="40" id="Pvd-Qd-nlj">
-                                <variation key="widthClass=compact" constant="20"/>
-                            </constraint>
-                            <constraint firstAttribute="centerX" secondItem="PyW-bc-FEI" secondAttribute="centerX" id="gib-Xk-Lic"/>
-                            <constraint firstItem="fn5-qw-isY" firstAttribute="top" secondItem="Jyr-4x-3U6" secondAttribute="bottom" constant="50" id="uFi-oU-Epq">
-                                <variation key="widthClass=compact" constant="30"/>
-                            </constraint>
-                            <constraint firstItem="PyW-bc-FEI" firstAttribute="top" secondItem="WIf-Dh-jj6" secondAttribute="bottom" constant="40" id="uov-pR-dLS">
-                                <variation key="widthClass=compact" constant="20"/>
-                            </constraint>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="moon" destination="WIf-Dh-jj6" id="hjP-ON-xQ1"/>
-                        <outletCollection property="labels" destination="WYE-CJ-g3X" collectionClass="NSMutableArray" id="ADj-ha-DGK"/>
-                        <outletCollection property="labels" destination="PyW-bc-FEI" collectionClass="NSMutableArray" id="2VH-67-3zX"/>
-                        <outletCollection property="pillButtons" destination="Jyr-4x-3U6" collectionClass="NSMutableArray" id="n4u-5t-6Y1"/>
-                        <segue destination="rLH-8W-9zZ" kind="show" identifier="showFreeUpgradePanel" id="9Qf-wA-xDa"/>
-                        <segue destination="VTa-aR-8qN" kind="show" identifier="showFinalPanel" id="2HJ-Zd-DHT"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bZA-pT-RhJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2470" y="1319"/>
-        </scene>
-        <!--Free Upgrade-->
+        <!--Roadmap-->
         <scene sceneID="XG1-5V-vbO">
             <objects>
-                <viewController id="rLH-8W-9zZ" userLabel="Free Upgrade" sceneMemberID="viewController">
+                <viewController id="rLH-8W-9zZ" userLabel="Roadmap" customClass="CBLFirstRunViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ywa-Bw-bJv"/>
                         <viewControllerLayoutGuide type="bottom" id="D50-PC-t7N"/>
@@ -670,8 +583,8 @@ Enjoy!</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Free Upgrade For 1.x Customers" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Brp-aw-MgW">
-                                <rect key="frame" x="42" y="40" width="236.5" height="62.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exciting Roadmap for the Future" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Brp-aw-MgW">
+                                <rect key="frame" x="38.5" y="40" width="243.5" height="62.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -703,15 +616,15 @@ Enjoy!</string>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9p-kN-Ff7">
-                                <rect key="frame" x="20" y="266.5" width="280" height="93.5"/>
+                                <rect key="frame" x="20" y="266.5" width="280" height="124.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="UXs-DG-tVg">
                                         <variation key="widthClass=compact" constant="280"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Thanks for being an early supporter of Cascable!
+                                <string key="text">There's so much we wanted to put into this release, but if we did everything we wanted to we'd never have finished!
 
-As a thank you, all of the new features in Cascable 2.0 are provided to you as a FREE upgrade.</string>
+Instead, we've published details about the exciting new features and improvements we'll be making to Cascable in the coming months on our website.</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -719,6 +632,19 @@ As a thank you, all of the new features in Cascable 2.0 are provided to you as a
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smE-h0-oFB">
+                                <rect key="frame" x="115.5" y="463" width="89" height="29"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <state key="normal" title="See Roadmap">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                </variation>
+                                <connections>
+                                    <action selector="openRoadmap:" destination="rLH-8W-9zZ" eventType="touchUpInside" id="4kF-QM-FE6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -732,6 +658,7 @@ As a thank you, all of the new features in Cascable 2.0 are provided to you as a
                                 <variation key="widthClass=compact" constant="20"/>
                             </constraint>
                             <constraint firstItem="jD2-jh-l9Q" firstAttribute="centerX" secondItem="4S1-yv-P4O" secondAttribute="centerX" id="Bh3-Ou-QSl"/>
+                            <constraint firstItem="smE-h0-oFB" firstAttribute="centerX" secondItem="4S1-yv-P4O" secondAttribute="centerX" id="Ioa-sl-H1t"/>
                             <constraint firstItem="Brp-aw-MgW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="4S1-yv-P4O" secondAttribute="leading" constant="20" id="QtN-JS-xTz"/>
                             <constraint firstAttribute="centerX" secondItem="U9p-kN-Ff7" secondAttribute="centerX" id="S8n-8e-qha"/>
                             <constraint firstAttribute="centerX" secondItem="GtB-eF-Akk" secondAttribute="centerX" id="hK0-fS-Bxr"/>
@@ -739,8 +666,14 @@ As a thank you, all of the new features in Cascable 2.0 are provided to you as a
                             <constraint firstItem="U9p-kN-Ff7" firstAttribute="top" secondItem="jD2-jh-l9Q" secondAttribute="bottom" constant="40" id="pFI-oF-ceY">
                                 <variation key="widthClass=compact" constant="20"/>
                             </constraint>
+                            <constraint firstItem="GtB-eF-Akk" firstAttribute="top" secondItem="smE-h0-oFB" secondAttribute="bottom" constant="20" id="peG-Eh-tls">
+                                <variation key="widthClass=compact" constant="10"/>
+                            </constraint>
                         </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="tintableButtons" destination="smE-h0-oFB" collectionClass="NSMutableArray" id="Fs4-YV-PZt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F5z-xf-wxu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -750,12 +683,8 @@ As a thank you, all of the new features in Cascable 2.0 are provided to you as a
     <resources>
         <image name="AboutIcon" width="150" height="150"/>
         <image name="ColinAndFriends" width="266" height="44"/>
-        <image name="FirstRunMoon" width="83" height="86"/>
         <image name="InstagramLogo" width="44" height="44"/>
         <image name="PurchasedFace" width="120" height="124"/>
         <image name="TwitterLogo" width="44" height="44"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="ebD-8i-vom"/>
-    </inferredMetricsTieBreakers>
 </document>
