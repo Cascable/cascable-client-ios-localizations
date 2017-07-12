@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bmc-L7-UCt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bmc-L7-UCt">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -31,7 +32,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z9N-Zn-peE" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="758.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="812"/>
                                         <subviews>
                                             <imageView contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AboutIcon" translatesAutoresizingMaskIntoConstraints="NO" id="IhD-7q-dpR">
                                                 <rect key="frame" x="225" y="40" width="150" height="150"/>
@@ -41,55 +42,63 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cascable" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXG-Ah-Rdx">
-                                                <rect key="frame" x="208.5" y="200" width="184.5" height="51.5"/>
+                                                <rect key="frame" x="213.5" y="200" width="174" height="53"/>
                                                 <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="44"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MNI-Tc-mVv">
-                                                <rect key="frame" x="260" y="251.5" width="81.5" height="20.5"/>
+                                                <rect key="frame" x="260" y="253" width="81.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iNf-kQ-rsE" customClass="CBLHairlineDividerView">
-                                                <rect key="frame" x="200" y="291.5" width="200" height="1"/>
+                                                <rect key="frame" x="200" y="293" width="200" height="1"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="D2S-h5-R97"/>
                                                     <constraint firstAttribute="width" constant="200" id="g33-Xv-VRU"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cascable contains open-source components." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNv-Ln-jFW">
-                                                <rect key="frame" x="20" y="312.5" width="561.5" height="17"/>
+                                                <rect key="frame" x="20" y="314" width="561.5" height="17"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Kq-es-wBM">
-                                                <rect key="frame" x="239" y="329.5" width="122" height="29"/>
+                                                <rect key="frame" x="239" y="331" width="122" height="29"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <state key="normal" title="More Information…">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
+                                                    <action selector="openPrivacyPolicy:" destination="bmc-L7-UCt" eventType="touchUpInside" id="JSg-y9-XZt"/>
                                                     <segue destination="AXt-16-gAc" kind="show" id="q8Q-U5-uLI"/>
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bQ7-7N-qjZ" customClass="CBLHairlineDividerView">
-                                                <rect key="frame" x="200" y="372.5" width="200" height="1"/>
+                                                <rect key="frame" x="200" y="374" width="200" height="1"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="FQl-RC-IS1"/>
                                                     <constraint firstAttribute="height" constant="1" id="rp8-wK-N41"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credits" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tN9-gX-wOq">
-                                                <rect key="frame" x="271" y="393.5" width="58" height="20.5"/>
+                                                <rect key="frame" x="271" y="447" width="58" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="11Y-Ny-3fJ" customClass="CBLHairlineDividerView">
+                                                <rect key="frame" x="200" y="432" width="200" height="1"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="6EL-oL-Tp1"/>
+                                                    <constraint firstAttribute="height" constant="1" id="7as-MQ-3p0"/>
+                                                </constraints>
+                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pec-1G-fFm" userLabel="Names Container">
-                                                <rect key="frame" x="146" y="425.5" width="308" height="216"/>
+                                                <rect key="frame" x="146" y="479" width="308" height="216"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Writer &amp; Director" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2Y-KU-2Ia">
                                                         <rect key="frame" x="0.0" y="0.0" width="144" height="17"/>
@@ -195,20 +204,30 @@ Trond Sliper</string>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2S4-VX-jnS" customClass="CBLHairlineDividerView">
-                                                <rect key="frame" x="200" y="661.5" width="200" height="1"/>
+                                                <rect key="frame" x="200" y="715" width="200" height="1"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="Y7b-tw-Qz9"/>
                                                     <constraint firstAttribute="height" constant="1" id="o0S-FF-h0l"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UIk-sQ-QCT">
-                                                <rect key="frame" x="210.5" y="682.5" width="179" height="36"/>
+                                                <rect key="frame" x="210.5" y="736" width="179" height="36"/>
                                                 <string key="text">© 2015-2017 Cascable AB
 Made (mostly) in Sweden</string>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                                 <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JgT-h3-eOZ">
+                                                <rect key="frame" x="255" y="389" width="90" height="29"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <state key="normal" title="Privacy Policy">
+                                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="openPrivacyPolicy:" destination="bmc-L7-UCt" eventType="touchUpInside" id="pIR-uc-HqX"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="pec-1G-fFm" firstAttribute="top" secondItem="tN9-gX-wOq" secondAttribute="bottom" constant="12" id="2ad-vA-Eju"/>
@@ -222,6 +241,8 @@ Made (mostly) in Sweden</string>
                                             <constraint firstAttribute="centerX" secondItem="pec-1G-fFm" secondAttribute="centerX" id="HBo-Bv-lv6"/>
                                             <constraint firstItem="bQ7-7N-qjZ" firstAttribute="top" secondItem="3Kq-es-wBM" secondAttribute="bottom" constant="14" id="Kgn-Dm-zK2"/>
                                             <constraint firstItem="iNf-kQ-rsE" firstAttribute="top" secondItem="MNI-Tc-mVv" secondAttribute="bottom" constant="20" id="Kqr-nr-7oS"/>
+                                            <constraint firstItem="11Y-Ny-3fJ" firstAttribute="centerX" secondItem="z9N-Zn-peE" secondAttribute="centerX" id="L4b-mI-Z39"/>
+                                            <constraint firstItem="11Y-Ny-3fJ" firstAttribute="top" secondItem="JgT-h3-eOZ" secondAttribute="bottom" constant="14" id="N78-lZ-E0q"/>
                                             <constraint firstAttribute="bottom" secondItem="UIk-sQ-QCT" secondAttribute="bottom" constant="40" id="URr-d6-rAY"/>
                                             <constraint firstItem="3Kq-es-wBM" firstAttribute="top" secondItem="mNv-Ln-jFW" secondAttribute="bottom" id="Vvb-dC-Q5W"/>
                                             <constraint firstAttribute="centerX" secondItem="mNv-Ln-jFW" secondAttribute="centerX" id="Way-e7-Gfb"/>
@@ -231,15 +252,17 @@ Made (mostly) in Sweden</string>
                                                 <variation key="widthClass=compact" constant="20"/>
                                             </constraint>
                                             <constraint firstAttribute="centerX" secondItem="bQ7-7N-qjZ" secondAttribute="centerX" id="h1M-Wu-1Wr"/>
-                                            <constraint firstItem="tN9-gX-wOq" firstAttribute="top" secondItem="bQ7-7N-qjZ" secondAttribute="bottom" constant="20" id="h6u-nn-xlm"/>
                                             <constraint firstAttribute="centerX" secondItem="2S4-VX-jnS" secondAttribute="centerX" id="hna-09-03t"/>
+                                            <constraint firstItem="JgT-h3-eOZ" firstAttribute="top" secondItem="bQ7-7N-qjZ" secondAttribute="bottom" constant="14" id="lpk-1f-pdL"/>
                                             <constraint firstAttribute="centerX" secondItem="iNf-kQ-rsE" secondAttribute="centerX" id="maZ-UL-4IG"/>
                                             <constraint firstAttribute="centerX" secondItem="tN9-gX-wOq" secondAttribute="centerX" id="mj6-CR-Rhm"/>
                                             <constraint firstAttribute="width" constant="600" placeholder="YES" id="p3t-8L-zye"/>
                                             <constraint firstAttribute="centerX" secondItem="UIk-sQ-QCT" secondAttribute="centerX" id="pHu-VE-hIK"/>
+                                            <constraint firstItem="JgT-h3-eOZ" firstAttribute="centerX" secondItem="z9N-Zn-peE" secondAttribute="centerX" id="qc0-0q-G1d"/>
                                             <constraint firstAttribute="centerX" secondItem="MNI-Tc-mVv" secondAttribute="centerX" id="qeV-09-QVX"/>
                                             <constraint firstItem="MNI-Tc-mVv" firstAttribute="top" secondItem="YXG-Ah-Rdx" secondAttribute="bottom" id="shq-XR-Upf"/>
                                             <constraint firstAttribute="centerX" secondItem="3Kq-es-wBM" secondAttribute="centerX" id="tmf-i5-jlI"/>
+                                            <constraint firstItem="tN9-gX-wOq" firstAttribute="top" secondItem="11Y-Ny-3fJ" secondAttribute="bottom" constant="14" id="zNO-ku-DiJ"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -267,6 +290,7 @@ Made (mostly) in Sweden</string>
                         <outlet property="iconTopConstraint" destination="fy0-Qg-UWr" id="4ay-La-tbi"/>
                         <outlet property="iconView" destination="IhD-7q-dpR" id="xwN-hR-hwS"/>
                         <outlet property="moreInfoButton" destination="3Kq-es-wBM" id="n5L-1W-HRn"/>
+                        <outlet property="privacyPolicyButton" destination="JgT-h3-eOZ" id="ZuS-iz-4vp"/>
                         <outlet property="scrollView" destination="XlA-yb-NCe" id="19R-Cw-Jh7"/>
                         <outlet property="titleTopConstraint" destination="48a-MD-Mkn" id="FbG-OR-yEl"/>
                         <outlet property="versionLabel" destination="MNI-Tc-mVv" id="cFg-Vy-Xyx"/>
@@ -290,7 +314,7 @@ Made (mostly) in Sweden</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k1v-X8-CCi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="355" y="366"/>
+            <point key="canvasLocation" x="354.6875" y="365.625"/>
         </scene>
         <!--Licenses-->
         <scene sceneID="Ecb-ak-k7b">
