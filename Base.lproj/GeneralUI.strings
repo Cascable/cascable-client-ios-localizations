@@ -96,6 +96,9 @@
 /* Subtitle of the files mode warning that no files are on the camera's SD card. */
 "NoFilesAvailableDescription" = "Your camera doesn't seem to have any photos on it. Get shooting!";
 
+/* Subtitle of the files mode warning that no files are on the camera's SD card due to being unavailable. */
+"NoFilesExceptUnsupportedRAWAvailableDescription" = "Your camera only has RAW images on it, but doesn't support transferring RAW over WiFi. Set your camera to RAW+JPEG to see images.";
+
 /* Title of the files mode warning that the camera doesn't allow file access. */
 "NoFileTransferSupportTitle" = "File Access Not Supported";
 
