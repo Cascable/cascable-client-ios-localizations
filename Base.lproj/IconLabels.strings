@@ -25,6 +25,12 @@
 "GenericTenSecondDriveModeLabel" = "10";
 "GenericTwelveSecondDriveModeLabel" = "12";
 "GenericTwoSecondDriveModeLabel" = "2";
+"PanasonicTenSecondThreeShotDriveModeLabel" = "10";
+
+"Panasonic4KBurstDriveModeLabel" = "4K";
+"Panasonic4KBurstStartStopDriveModeLabel" = "4K\nS/S";
+"Panasonic4KPreBurstDriveModeLabel" = "4K\nPRE";
+"PanasonicSuperHighSpeedDriveModeLabel" = "SH";
 
 /* Used when we encounter a value we don't have a label for. In English, it's "C" for "Custom". */
 "UnknownValueFallbackLabel" = "C";
