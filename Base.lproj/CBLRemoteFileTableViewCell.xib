@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -58,9 +59,6 @@
                             <constraint firstAttribute="height" constant="24" id="nMk-a6-HY7"/>
                         </constraints>
                     </imageView>
-                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="qJw-Ro-dhU">
-                        <rect key="frame" x="44" y="25" width="20" height="20"/>
-                    </activityIndicatorView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EvR-pX-f0F" userLabel="Label Container">
                         <rect key="frame" x="109" y="14" width="232" height="40.5"/>
                         <subviews>
@@ -98,7 +96,6 @@
                 </subviews>
                 <constraints>
                     <constraint firstItem="xFi-6G-gGN" firstAttribute="leading" secondItem="cng-f0-Ybv" secondAttribute="trailing" constant="10" id="00K-rS-4HH"/>
-                    <constraint firstItem="XCn-7v-Qdc" firstAttribute="centerX" secondItem="qJw-Ro-dhU" secondAttribute="centerX" id="3xR-rI-tMF"/>
                     <constraint firstAttribute="centerY" secondItem="EvR-pX-f0F" secondAttribute="centerY" id="EYT-c4-hdi"/>
                     <constraint firstAttribute="bottom" secondItem="XCn-7v-Qdc" secondAttribute="bottom" constant="5" id="EZs-9j-TAq"/>
                     <constraint firstAttribute="centerY" secondItem="xFi-6G-gGN" secondAttribute="centerY" id="FvN-Kq-cYT"/>
@@ -108,7 +105,6 @@
                     <constraint firstItem="cng-f0-Ybv" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Ueu-Df-Gkd"/>
                     <constraint firstItem="XCn-7v-Qdc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="XaL-6b-0ov"/>
                     <constraint firstItem="2ZN-Cp-mIM" firstAttribute="leading" secondItem="o75-fh-L13" secondAttribute="leading" id="aNx-0z-gEU"/>
-                    <constraint firstItem="XCn-7v-Qdc" firstAttribute="centerY" secondItem="qJw-Ro-dhU" secondAttribute="centerY" id="bVt-7u-jM6"/>
                     <constraint firstAttribute="trailing" secondItem="xFi-6G-gGN" secondAttribute="trailing" constant="20" id="fCi-a6-4KV"/>
                     <constraint firstItem="EvR-pX-f0F" firstAttribute="leading" secondItem="XCn-7v-Qdc" secondAttribute="trailing" constant="10" id="jHR-Fr-ZQl"/>
                     <constraint firstAttribute="centerY" secondItem="o75-fh-L13" secondAttribute="centerY" id="oRN-Jz-YK8"/>
@@ -131,7 +127,6 @@
                 <outlet property="thumbnailView" destination="XCn-7v-Qdc" id="nM8-KC-Mik"/>
                 <outlet property="tickToDownloadButtonConstraint" destination="00K-rS-4HH" id="Pqa-UW-wil"/>
                 <outlet property="titleLabel" destination="h8W-yQ-v9z" id="7zV-Ir-Gsi"/>
-                <outlet property="waitingForThumbnailSpinner" destination="qJw-Ro-dhU" id="6Es-nt-dbZ"/>
             </connections>
             <point key="canvasLocation" x="446" y="340"/>
         </tableViewCell>
