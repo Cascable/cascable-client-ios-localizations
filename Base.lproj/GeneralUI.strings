@@ -202,6 +202,10 @@
 /* Label to show the photo is a RAW file. */
 "RAWFileTypeLabel" = "RAW";
 
+// ------------------------------------------------------------
+//     Files Mode: Downloading
+// ------------------------------------------------------------
+
 /* Alert prompt when asking the user which files to copy when photos have more than one file. */
 "MultipleVariantsCopyPromptTitle" = "Multiple Files To Copy";
 
@@ -225,6 +229,15 @@
 
 /* "Copy both" response when asking the user which files to copy when photos have more than one file. */
 "MultipleVariantsCopyBothFilesButtonTitle" = "Copy Both";
+
+/* Title of the dialog presented if the user attempts to perform an operation before photo metadata has completed loading. */
+"LoadingMetadataBeforeOperationAlertTitle" = "Loading Photo Details…";
+
+/* Message of the dialog presented if the user attempts to perform an operation before photo metadata has completed loading. */
+"LoadingMetadataBeforeOperationAlertMessage" = "Before this operation can continue, Cascable needs to finish loading details about your photos from the camera.";
+
+/* Label for the progress bar in the dialog presented if the user attempts to perform an operation before photo metadata has completed loading. */
+"LoadingMetadataBeforeOperationAlertProgressLabel" = "Loading…";
 
 // ------------------------------------------------------------
 //     Files Mode: Deletion
