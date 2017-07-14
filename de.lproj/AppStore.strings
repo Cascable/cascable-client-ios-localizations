@@ -13,19 +13,19 @@
 // ------------------------------------------------------------
 
 /* Title of the remote control screenshot. */
-"se.cascable.ios-client.remotecontrol-screenshottitle" = "Remote control your WiFi-enabled digital camera";
+"se.cascable.ios-client.remotecontrol-screenshottitle" = "Fernsteuerung der WLAN-fähigen Digitalkamera";
 
 /* Title of the shutter robot screenshot. */
-"se.cascable.ios-client.shutterrobot-screenshottitle" = "Shutter Robot helps with advanced photography tasks";
+"se.cascable.ios-client.shutterrobot-screenshottitle" = "Der Shutter Robot hilft bei vielen fortgeschrittenen Aufgaben";
 
 /* Title of the photo management screenshot. */
-"se.cascable.ios-client.photomanagement-screenshottitle" = "Preview, copy and share RAW and JPEG photos";
+"se.cascable.ios-client.photomanagement-screenshottitle" = "Vorschau, Kopieren und Teilen von RAW- und JPEG-Fotos";
 
 /* Title of the photo viewer screenshot. */
-"se.cascable.ios-client.photoviewing-screenshottitle" = "View photos fullscreen with metadata and histogram";
+"se.cascable.ios-client.photoviewing-screenshottitle" = "Fotos im Vollbild mit Metadaten und Histogramm ansehen";
 
 /* Title of the night theme screenshot. */
-"se.cascable.ios-client.nightmode-screenshottitle" = "Work at night with an app-wide night theme";
+"se.cascable.ios-client.nightmode-screenshottitle" = "Nachts arbeiten mit augenschonendem Nachtmodus";
 
 /* Title of the geotagging screenshot. */
 "se.cascable.ios-client.geotagging-screenshottitle" = "Document your adventures with powerful geotagging tools";

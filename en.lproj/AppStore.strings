@@ -9,6 +9,28 @@
 "se.cascable.ios-client-displaysubtitle" = "";
 
 // ------------------------------------------------------------
+//     Screenshots
+// ------------------------------------------------------------
+
+/* Title of the remote control screenshot. */
+"se.cascable.ios-client.remotecontrol-screenshottitle" = "Remote control your WiFi-enabled digital camera";
+
+/* Title of the shutter robot screenshot. */
+"se.cascable.ios-client.shutterrobot-screenshottitle" = "Shutter Robot helps with advanced photography tasks";
+
+/* Title of the photo management screenshot. */
+"se.cascable.ios-client.photomanagement-screenshottitle" = "Preview, copy and share RAW and JPEG photos";
+
+/* Title of the photo viewer screenshot. */
+"se.cascable.ios-client.photoviewing-screenshottitle" = "View photos fullscreen with metadata and histogram";
+
+/* Title of the night theme screenshot. */
+"se.cascable.ios-client.nightmode-screenshottitle" = "Work at night with an app-wide night theme";
+
+/* Title of the geotagging screenshot. */
+"se.cascable.ios-client.geotagging-screenshottitle" = "Document your adventures with powerful geotagging tools";
+
+// ------------------------------------------------------------
 //     One-Off In-App Purchases
 // ------------------------------------------------------------
 
