@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "The Cascable store is not available at the moment. Please check your network connection. If connected to a camera, you may need to disconnect to reach a network with Internet connectivity."; ObjectID = "3ss-hP-gbE"; */
+"3ss-hP-gbE.text" = "The Cascable store is not available at the moment. Please check your network connection. If connected to a camera, you may need to disconnect to reach a network with Internet connectivity.";
+
+/* Class = "UILabel"; text = "Upgrade to Cascable Pro!"; ObjectID = "85y-wF-KNG"; */
+"85y-wF-KNG.text" = "Upgrade to Cascable Pro!";
+
+/* Class = "UILabel"; text = "If you've previously purchased Cascable Pro, you can restore your purchase to this device."; ObjectID = "N9a-5g-1J5"; */
+"N9a-5g-1J5.text" = "If you've previously purchased Cascable Pro, you can restore your purchase to this device.";
+
+/* Class = "UILabel"; text = "Cascable Pro provides powerful shutter automation, RAW image support, night mode, geotagging tools and much more."; ObjectID = "VXB-2Q-Ad4"; */
+"VXB-2Q-Ad4.text" = "Cascable Pro provides powerful shutter automation, RAW image support, night mode, geotagging tools and much more.";
+
+/* Class = "UILabel"; text = "Thank you for supporting Cascable! Your purchase helps support a small, independent company. We couldn't do it without you!"; ObjectID = "XBi-WY-554"; */
+"XBi-WY-554.text" = "Thank you for supporting Cascable! Your purchase helps support a small, independent company. We couldn't do it without you!";
+
+/* Class = "UIButton"; normalTitle = "Restore Purchases"; ObjectID = "c2K-tn-06H"; */
+"c2K-tn-06H.normalTitle" = "Restore Purchases";
+
+/* Class = "UILabel"; text = "You're upgraded to Cascable Pro!"; ObjectID = "dXK-jg-Fsr"; */
+"dXK-jg-Fsr.text" = "You're upgraded to Cascable Pro!";
+
+/* Class = "UILabel"; text = "The Cascable store is taking a long time to load. You may need to disconnect from your camera's WiFi network."; ObjectID = "eWf-Rq-vh9"; */
+"eWf-Rq-vh9.text" = "The Cascable store is taking a long time to load. You may need to disconnect from your camera's WiFi network.";

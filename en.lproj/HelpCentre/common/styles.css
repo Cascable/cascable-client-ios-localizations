@@ -53,6 +53,10 @@ img.retina {
 	display: none;
 }
 
+.center {
+	text-align: center;
+}
+
 .figure-box {
 	width: 75%;
 	padding: 10 20 10 20;

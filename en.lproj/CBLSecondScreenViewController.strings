@@ -8,5 +8,5 @@
 /* Class = "UILabel"; text = "Choose a photo on your device to view it here."; ObjectID = "SG1-Vm-tKC"; */
 "SG1-Vm-tKC.text" = "Choose a photo on your device to view it here.";
 
-/* Class = "UILabel"; text = "To view photos on an external display, you need to purchase the Photo Management Pro Pack."; ObjectID = "qdd-8f-H8a"; */
-"qdd-8f-H8a.text" = "To view photos on an external display, you need to purchase the Photo Management Pro Pack.";
+/* Class = "UILabel"; text = "To view photos on an external display, you need to purchase Cascable Pro."; ObjectID = "qdd-8f-H8a"; */
+"qdd-8f-H8a.text" = "To view photos on an external display, you need to purchase Cascable Pro.";

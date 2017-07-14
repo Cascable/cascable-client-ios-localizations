@@ -17,6 +17,9 @@
 /* Class = "UIViewController"; title = "Licenses"; ObjectID = "AXt-16-gAc"; */
 "AXt-16-gAc.title" = "Licenses";
 
+/* Class = "UIButton"; normalTitle = "Terms and Privacy Policy"; ObjectID = "JgT-h3-eOZ"; */
+"JgT-h3-eOZ.normalTitle" = "Terms and Privacy Policy";
+
 /* Class = "UILabel"; text = "Version 1.0"; ObjectID = "MNI-Tc-mVv"; */
 "MNI-Tc-mVv.text" = "Version 1.0";
 
