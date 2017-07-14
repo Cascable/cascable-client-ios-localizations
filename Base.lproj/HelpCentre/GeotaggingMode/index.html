@@ -1,0 +1,113 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0" />
+<meta charset="UTF-8">
+<title>Geotagging</title>
+<script src="../common/common.js"></script>
+<link rel="stylesheet" type="text/css" href="../common/styles.css">
+<link rel="stylesheet" type="text/css" href="../common/light.css">
+</head>
+<body>
+
+<p>Cascable's geotagging tools provide a comprehensive set of tools for tagging and viewing your photos on the map.</p>
+
+<p>Cascable's geotagging tools can be split into five categories: </p>
+<ul>
+    <li><a href="#manual">Manually Adding Geotags</a></li>
+    <li><a href="#viewing">Viewing And Editing Geotags</a></li>
+    <li><a href="#auto">Automatically Geotagging Photos</a></li>
+    <li><a href="#customise">Customizing Geotagging</a></li>
+    <li><a href="#gpx">Working With Other Apps via GPX Files</a></li>
+</ul>
+
+<hr>
+
+<a name="manual" id="manual"></a>
+<h3>Manually Adding Geotags</h3>
+
+<p>To manually add geotags to your photos, tap the <strong>Tag Manually</strong> button at the bottom of the geotagging map. You will be presented with a tray of photos that haven't yet been geotagged.</p>
+
+<p>If you want to tag one photo at a time, tap and hold down on a photo to "pick it up". When you do this, the photo tray will slide down out of the way and your photo will gain a pin above it. Move your finger around the screen to position the pin where you'd like the photo to be tagged, then release your finger from the screen to drop the pin onto the map and tag the photo at that location.</p>
+
+<p><strong>Note:</strong> When dragging photos around the map, the tag will be placed where the pointed tip of the pin is located when you drop the pin.</p>
+
+<p>If you change your mind and don't want to tag the photo you've picked up, drop the pin onto the <strong>Drop here to cancel</strong> bar at the bottom of the screen.</p>
+
+<p>If you want to tag multiple photos at a time, tap each one you'd like to tag to place a tick mark on them. When you're ready to tag, tap and hold down on a ticked photo to pick up all of the ticked photos. Tagging then continues as described above. When you drop the pin, all of the chosen photos will be tagged at that location.</p>
+
+<hr>
+
+<a name="viewing" id="viewing"></a>
+<h3>Viewing And Editing Geotags</h3>
+
+<p>You can view and edit your geotagged photos by interacting directly with the map.</p>
+
+<p>Each red pin represents a location that has geotagged photos. Tap a pin to view photos at that location — if there's more than one photo, tap the thumbnail image to move to the next one.</p>
+
+<p>To delete a geotag, tap a pin then tap the <img class="retina" src="../common/themed-images/light/trash.png" alt="Delete Button"> button in the popup that appears. Deleting a geotag will only remove location information from the photos at that location — the photos themselves will not be removed.</p>
+
+<p>To move a geotag, tap and hold on a pin on the map to pick up that pin. You can them move it around the map and drop it at a new location.</p>
+
+<hr>
+
+<a name="auto" id="auto"></a>
+<h3>Automatically Geotagging Photos</h3>
+
+<p>Before you can automatically geotag photos, Cascable needs to know where you were when your photos were taken. If you have a GPX file from a separate GPS device, you can import it into Cascable — see the <a href="#gpx">Working With Other Apps via GPX Files</a> section of this article. Otherwise, you can use Cascable's built-in location tracker.</p>
+
+<p>To use the built-in location tracker, tap the <strong>Start</strong> button in the location tracking bar at the top of the geotagging map. Cascable will track your location until you tap the <strong>Stop</strong> button.</p>
+
+<p>Each imported GPX file or period in which the built-in location tracker was used is called a <em>track</em>, and they're displayed as dark blue lines on the map.</p> 
+
+<p><strong>Note:</strong> The first time you use Cascable's location tracker in the background, after a period of time iOS will ask if it's OK for Cascable to continue to use your location in the background. If you don't answer this question within a few minutes (for example, if you lock your iPhone and put it in your bag), iOS will automatically terminate Cascable's location tracking. If you have notifications enabled for Cascable, it will notify you that location tracking has stopped.</p>
+
+<hr>
+
+<p>Once you have some tracks saved in Cascable, you can use them to automatically geotag photos taken at the same time the tracks were recorded.</p>
+
+<p>To choose a track, tap the <strong>Tracks…</strong> button at the bottom of the geotagging map, then tap the name of the track you'd like to work with. Photos taken during the period the track was recorded will appear on the map as purple pins, which you can tap to view a thumbnail of each photo.</p>
+
+<p>You can drag the adjustment slider left and right to adjust for small time differences between your location recording and the timestamps recorded by the camera when the photos were taken.</p>
+
+<p>Tap the <strong>Apply Geotags to <em>x</em> Photos</strong> button to confirm the placement of the photos. At this point, the pins will turn red and your geotags have been saved.</p>
+
+<hr>
+
+<p>If no photos appear on the chosen track, or if the purple pins are significantly incorrect, it's likely that your camera and your location were set to different timezones — from personal experience, we know that forgetting to change the timezone on your camera when going on trips is a common mistake!</p>
+
+<p>To correct for this, tap the <strong>Timezone Adjust</strong> button to adjust the relationship between your photos and the recorded track. When performing these adjustments, you're moving your photos to align with the track, so if your track is at <strong>8:00</strong> and your photo has a timestamp of <strong>9:00</strong>, you need an adjustment of <strong>-1 hour</strong> to match them together.</p>
+
+<p><strong>Note:</strong> When performing timezone adjustments, Cascable doesn't modify your photos in any way — the adjustment is only used for matching photos to a recorded track.</p>
+
+<hr>
+
+<a name="customise" id="customise"></a>
+<h3>Customizing Geotagging</h3>
+
+<p>To customize Cascable's geotagging tools, navigate to the <strong>Geotagging</strong> section of Cascable's settings.</p>
+
+<ul>
+    <li>When the <strong>High Accuracy</strong> setting is enabled, Cascable will use the highest accuracy available (including GPS on devices with GPS hardware) when recording your location. Continued use of GPS running in the background can dramatically decrease battery life.</li>
+
+    <li>When the <strong>Notify Tracking Status</strong> setting is enabled, Cascable will issue notifications when location tracking is working in the background, and if it stops in the background due to a problem.</li>
+
+     <li>When the <strong>Geotag Exported JPEGs</strong> setting is enabled, Cascable will embed geotags into the EXIF metadata of JPEG versions photos exported from Cascable, including from within Quick Proof.</li>
+</ul>
+
+<hr>
+
+<a name="gpx" id="gpx"></a>
+<h3>Working With Other Apps via GPX Files</h3>
+
+<p>Cascable supports working with industry-standard GPX files.</p>
+
+<h4>Importing GPX Files</h4>
+
+<p>To import a GPX file into Cascable and convert it into a track for applying geotags to photos, use your source app's <strong>Open In…</strong> functionality and choose Cascable as the destination. You can can also share the GPX file to your iOS device via email, iMessage, AirDrop, etc.</p>
+
+<h4>Exporting GPX Files</h4>
+
+<p>To export a GPX file for use in other apps, tap the <strong>Tracks…</strong> button at the bottom of the geotagging map, then tap the name of the track you'd like to export and then the <img class="retina" src="../common/themed-images/light/share.png" alt="Share Button"> button. Cascable will geneate a GPX file then allow you to share it using the standard methods.</p>
+
+</body>
+</html>
