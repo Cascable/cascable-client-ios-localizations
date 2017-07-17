@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,6 +16,8 @@
                 <outlet property="buttonStackView" destination="uyi-gq-4Ri" id="X73-gw-TuC"/>
                 <outlet property="contentContainer" destination="o7V-3X-PKu" id="Oxr-fL-mPb"/>
                 <outlet property="headerTopConstraint" destination="5B4-jl-K7w" id="Fhy-7l-5ga"/>
+                <outlet property="legaleseBottomConstraint" destination="HIm-Xl-hbc" id="7ta-DI-LaP"/>
+                <outlet property="legaleseLeftConstraint" destination="Fow-a2-L4I" id="nRh-ka-h15"/>
                 <outlet property="loadingContainer" destination="XCR-ov-e5P" id="B8T-jj-05b"/>
                 <outlet property="loadingContentView" destination="ab5-Or-qSx" id="uSS-jj-zSk"/>
                 <outlet property="loadingErrorImage" destination="bLr-1g-gRG" id="OxH-pI-pQG"/>
@@ -26,7 +28,6 @@
                 <outlet property="purchasedContainer" destination="PgT-mL-Kkh" id="Jso-PL-G88"/>
                 <outlet property="purchasedImageView" destination="UCX-IQ-0yR" id="8Y6-7L-6tO"/>
                 <outlet property="restorePurchasesBottomConstraint" destination="FmK-Ry-pZi" id="X5E-Yw-UHn"/>
-                <outlet property="restorePurchasesButton" destination="c2K-tn-06H" id="Mx9-an-4Mc"/>
                 <outlet property="restorePurchasesContainer" destination="ydb-eS-eKh" id="7Np-Li-w2S"/>
                 <outlet property="subheaderLeftConstraint" destination="yMH-4F-o99" id="DZf-34-Zku"/>
                 <outlet property="videoPlayer" destination="C28-Qx-0nk" id="QRO-ix-dUn"/>
@@ -44,7 +45,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o7V-3X-PKu">
-                    <rect key="frame" x="0.0" y="194" width="375" height="386"/>
+                    <rect key="frame" x="0.0" y="194" width="375" height="385"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SqA-lJ-iz3" customClass="CBLHairlineDividerView">
@@ -64,31 +65,22 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ydb-eS-eKh">
-                    <rect key="frame" x="0.0" y="580" width="375" height="87"/>
+                    <rect key="frame" x="0.0" y="579" width="375" height="88"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2K-tn-06H">
-                            <rect key="frame" x="122.5" y="37" width="129" height="30"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                            <state key="normal" title="Restore Purchases"/>
-                            <connections>
-                                <action selector="restorePurchasesButtonTapped:" destination="-1" eventType="touchUpInside" id="dFI-4B-6X2"/>
-                            </connections>
-                        </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you've previously purchased Cascable Pro, you can restore your purchase to this device." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9a-5g-1J5">
-                            <rect key="frame" x="40" y="0.0" width="295" height="29"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9a-5g-1J5">
+                            <rect key="frame" x="40" y="0.0" width="296" height="48"/>
+                            <string key="text">Cascable Pro subscriptions will renew within 24 hours before the subscription period ends, and you will be charged through your iTunes account. You can manage your subscription in Account Settings.</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="trailing" secondItem="N9a-5g-1J5" secondAttribute="trailing" constant="40" id="0OZ-7l-yUm"/>
-                        <constraint firstItem="N9a-5g-1J5" firstAttribute="leading" secondItem="ydb-eS-eKh" secondAttribute="leading" constant="40" id="Fow-a2-L4I"/>
-                        <constraint firstAttribute="bottom" secondItem="c2K-tn-06H" secondAttribute="bottom" constant="20" id="MRe-Rd-WBo"/>
+                        <constraint firstItem="N9a-5g-1J5" firstAttribute="centerX" secondItem="ydb-eS-eKh" secondAttribute="centerX" id="0Cv-pI-taP"/>
+                        <constraint firstItem="N9a-5g-1J5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ydb-eS-eKh" secondAttribute="leading" constant="40" id="Fow-a2-L4I"/>
+                        <constraint firstAttribute="bottom" secondItem="N9a-5g-1J5" secondAttribute="bottom" constant="40" id="HIm-Xl-hbc"/>
                         <constraint firstItem="N9a-5g-1J5" firstAttribute="top" secondItem="ydb-eS-eKh" secondAttribute="top" id="Z8M-Kd-Jf6"/>
-                        <constraint firstItem="c2K-tn-06H" firstAttribute="centerX" secondItem="ydb-eS-eKh" secondAttribute="centerX" id="grt-Xi-7cS"/>
-                        <constraint firstItem="c2K-tn-06H" firstAttribute="top" secondItem="N9a-5g-1J5" secondAttribute="bottom" constant="8" id="yEn-9p-mMu"/>
                     </constraints>
                 </view>
             </subviews>
@@ -193,16 +185,16 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cascable Pro provides powerful shutter automation, RAW image support, night mode, geotagging tools and much more." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VXB-2Q-Ad4">
-                    <rect key="frame" x="45.5" y="64" width="339" height="50.5"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <rect key="frame" x="40" y="64" width="350" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VdL-Wt-2bT">
-                    <rect key="frame" x="20" y="134.5" width="390" height="194.5"/>
+                    <rect key="frame" x="20" y="113" width="390" height="216"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uyi-gq-4Ri">
-                            <rect key="frame" x="0.0" y="7.5" width="390" height="180"/>
+                            <rect key="frame" x="0.0" y="18" width="390" height="180"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="180" placeholder="YES" id="Wo0-UA-KcX"/>
                             </constraints>
