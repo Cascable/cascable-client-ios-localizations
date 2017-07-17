@@ -3,7 +3,7 @@
 // ------------------------------------------------------------
 
 /* The app's name on the App Store. Limited to 50 characters. */
-"se.cascable.ios-client-displayname" = "Cascable — WiFi Camera Remote";
+"se.cascable.ios-client-displayname" = "Cascable — die WLAN-Kamerafernbedienung";
 
 /* The app's subtitle on the App Store. Limited to 30 characters. */
 "se.cascable.ios-client-displaysubtitle" = "";
@@ -13,7 +13,7 @@
 // ------------------------------------------------------------
 
 /* Title of the remote control screenshot. */
-"se.cascable.ios-client.remotecontrol-screenshottitle" = "Fernsteuerung der WLAN-fähigen Digitalkamera";
+"se.cascable.ios-client.remotecontrol-screenshottitle" = "Die Fernbedienung für Ihre WLAN-fähige Digitalkamera";
 
 /* Title of the shutter robot screenshot. */
 "se.cascable.ios-client.shutterrobot-screenshottitle" = "Der Shutter Robot hilft bei vielen fortgeschrittenen Aufgaben";
@@ -25,119 +25,119 @@
 "se.cascable.ios-client.photoviewing-screenshottitle" = "Fotos im Vollbild mit Metadaten und Histogramm ansehen";
 
 /* Title of the night theme screenshot. */
-"se.cascable.ios-client.nightmode-screenshottitle" = "Nachts arbeiten mit augenschonendem Nachtmodus";
+"se.cascable.ios-client.nightmode-screenshottitle" = "Nachts arbeiten mit augenschonendem Nachtmodus ";
 
 /* Title of the geotagging screenshot. */
-"se.cascable.ios-client.geotagging-screenshottitle" = "Document your adventures with powerful geotagging tools";
+"se.cascable.ios-client.geotagging-screenshottitle" = "Abenteuer mithilfe der Geotagging-Tools dokumentieren";
 
 // ------------------------------------------------------------
 //     One-Off In-App Purchases
 // ------------------------------------------------------------
 
 /* The display name of the discounted "full unlock" in-app purchase when the user has previously bought one feature pack. Limited to 30 characters. */
-"se.cascable.ios.completebundle_one_purchase-displayname" = "Complete My Bundle";
+"se.cascable.ios.completebundle_one_purchase-displayname" = "Mein Paket vervollständigen";
 
 /* The display description of the discounted "full unlock" in-app purchase when the user has previously bought one feature pack. Limited to 45 characters. */
-"se.cascable.ios.completebundle_one_purchase-displaydescription" = "Discounted upgrade to fully unlock Cascable.";
+"se.cascable.ios.completebundle_one_purchase-displaydescription" = "Reduziertes Upgrade auf sämtliche Cascable Funktionen.";
 
 /* The display name of the discounted "full unlock" in-app purchase when the user has previously bought two feature packs. Limited to 30 characters. */
-"se.cascable.ios.completebundle_two_purchases-displayname" = "Complete My Bundle";
+"se.cascable.ios.completebundle_two_purchases-displayname" = "Mein Paket vervollständigen";
 
 /* The display description of the discounted "full unlock" in-app purchase when the user has previously bought two feature packs. Limited to 45 characters. */
-"se.cascable.ios.completebundle_two_purchases-displaydescription" = "Discounted upgrade to fully unlock Cascable.";
+"se.cascable.ios.completebundle_two_purchases-displaydescription" = "Reduziertes Upgrade auf sämtliche Cascable Funktionen.";
 
 /* The display name of the "full unlock" in-app purchase. Limited to 30 characters. */
 "se.cascable.ios.everythingunlock_3x-displayname" = "Cascable Pro";
 
 /* The display description of the "full unlock" in-app purchase. Limited to 45 characters. */
-"se.cascable.ios.everythingunlock_3x-displaydescription" = "Unlock everything Cascable has to offer!";
+"se.cascable.ios.everythingunlock_3x-displaydescription" = "Entsperren Sie alle Funktionen, die Cascable bietet!";
 
 // ------------------------------------------------------------
 //     Subscriptions
 // ------------------------------------------------------------
 
 /* The display name of the group that these subscriptions fall under. */
-"se.cascable.ios.subscriptions.group-displayname" = "Pro Features";
+"se.cascable.ios.subscriptions.group-displayname" = "Pro-Funktionen";
 
 /* The display name of the monthly "full unlock" subscription. Limited to 30 characters. */
-"se.cascable.ios.everythingsubscription-displayname" = "Full Unlock";
+"se.cascable.ios.everythingsubscription-displayname" = "Cascable Pro";
 
 /* The display description of the monthly "full unlock" subscription. Limited to 45 characters. */
-"se.cascable.ios.everythingsubscription-displaydescription" = "Unlock everything Cascable has to offer!";
+"se.cascable.ios.everythingsubscription-displaydescription" = "Entsperren Sie alle Funktionen, die Cascable bietet!";
 
 /* The display name of the quarterly "full unlock" subscription. Limited to 30 characters. */
-"se.cascable.ios.everythingsubscription.quarterly-displayname" = "Full Unlock";
+"se.cascable.ios.everythingsubscription.quarterly-displayname" = "Cascable Pro";
 
 /* The display description of the quarterly "full unlock" subscription. Limited to 45 characters. */
-"se.cascable.ios.everythingsubscription.quarterly-displaydescription" = "Unlock everything Cascable has to offer!";
+"se.cascable.ios.everythingsubscription.quarterly-displaydescription" = "Entsperren Sie alle Funktionen, die Cascable bietet!";
 
 // ------------------------------------------------------------
 //     Long-form Metadata
 // ------------------------------------------------------------
 
-"se.cascable.ios-client-description" = "Unlock the potential of your compatible* WiFi camera with Cascable. Built for professional and amateur photographers alike, Cascable is the best tool available for working with your camera in the field.
+"se.cascable.ios-client-description" = "Entlocken Sie Ihrer kompatiblen* WLAN-fähigen Kamera das volle Potenzial mit Cascable. Entworfen für Amateur- und Profi-Fotografen gleichermaßen, ist Cascable das wohl beste erhältliche Tool für die Arbeit mit Ihrer Kamera unterwegs.
 
-Whether it’s taking perfect group shots with your family using the included Apple Watch app or nailing that hard-to-reach shot in your latest photoshoot, Cascable will prove to be an essential part of your toolkit.
+Ob ein Gruppenfoto der Familie mithilfe der enthaltenen Apple Watch App oder das perfekte Foto im Fotoshoot, Cascable wird zu einem unverzichtbaren Werkzeug in Ihrer Trickkiste werden.
 
-——— Features ———
+——— Funktionen ———
 
-• Full control of your camera’s exposure settings right at your fingertips.
+• Vollständige Kontrolle der Belichtungseinstellungen Ihrer Kamera.
 
-• Take timelapses, perform exposure bracketing and more with the built-in Shutter Robot automation tool.
+• Zeitraffer, Belichtungsreihenautomatik und vieles mehr mit dem integrierten Shutter Robot.
 
-• Create, edit and mangae geotags with Cascable's beautiful geotagging map view and powerful automatic tagging tools.
+• Erstellen, Bearbeiten und verwalten Sie Geotags mithilfe der wunderschönen Cascable Geotagging-Kartenansicht und den automatischen Tagging-Tools.
 
-• Work smart in low-light conditions with an app-wide night theme.
+• Mit dem Nachtmodus ist das Arbeiten auch in dunkler Umgebung angenehm.
 
-• Put your shutter right on your wrist with the included Apple Watch app. Makes group shots a breeze!
+• Ihr Auslöser direkt am Handgelenk mit der enthaltenen Apple Watch App. Gruppenfotos werden zum Kinderspiel!
 
-• Download full-resolution images straight from your camera one at a time or in batches.
+• Laden Sie Fotos in voller Auflösung direkt von der Kamera – einzeln oder mehrere gleichzeitig.
 
-• View, share and export your photos at full resolution (including RAW files**) right from your iOS device. 
+• Betrachten, teilen und exportieren Sie Fotos in voller Auflösung (einschließlich RAW-Dateien) direkt auf dem iOS-Gerät. 
 
-• Apply adjustments to your images for exporting and sharing with Quick Proof.
+• Passen Sie Ihre Bilder zum Exportieren und Teilen mit Quick Proof an.
 
-• Connect to a TV using AirPlay or HDMI and view your photos on the big screen for easy and fast reviewing.
+• Verbinden Sie Cascable mit dem Fernseher über AirPlay oder HDMI und betrachten Sie die Fotos im Großformat.
 
-• Using an neutral density filter or taking photos of the stars? Built-in calculators perform tricky exposure calculations in a snap.
+• Nutzen Sie einen Neutraldichtefilter oder fotografieren Sie die Sterne? Die integrierten Rechner erzeugen blitzschnell komplexe Belichtungsberechnungen.
 
-• Cascable is designed to be fast, intuitive and powerful and provides a fully featured experience on all supported iPod touch, iPhone and iPad models.
+• Cascable ist schnell, intuitiv und leistungsstark, und es sorgt für ein fantastisches Bedienerlebnis auf allen unterstützten iPod touch, iPhone und iPad Modellen.
 
-• More information on Cascable’s features can be found on the Cascable website, http://cascable.se. 
+• Nähere Informationen zu den Funktionen von Cascable finden Sie auf unserer Webseite unter http://cascable.se. 
 
-——— Made for You, the Photographer ———
+——— Für den Fotografen gemacht ———
 
-Cascable is designed with the photographer in mind, and will only get better over time. If you have questions, need help or have a feature request, get in touch! We’d love to hear from you.
+Cascable wurde speziell für Fotografen entwickelt, und wird mit der Zeit immer weiterentwickelt. Wenn Sie Fragen haben, Hilfe benötigen oder einen Funktionswunsch äußern möchten, melden Sie sich bei uns! Wir freuen uns, von Ihnen zu hören.
 
-——— In-App Purchases and Subscriptions ———
+——— In-App-Käufe und Abos ———
 
-Some features require the purchase of Cascable Pro, available as a one-off In-App Purchase or as a subscription. There are two Cascable Pro subscriptions: 
+Für einige Funktionen ist der Kauf von Cascable Pro erforderlich, das Sie als einmaligen In-App-Kauf oder als Abonnement erhalten können. Ihnen stehen zwei Abo-Varianten zur Verfügung: 
 
-- 1 month costs $2.99.
-- 3 months costs $5.99.
+- 1 Monat für $2,99.
+- 3 Monate für $5,99.
 
-Should you choose to subscribe to Cascable Pro, the purchase will be charged to your iTunes account. The subscription will be auto-renewed 24 hours prior to it running out and you can manage it from User Settings in iTunes after purchasing it, and you'll also be able to cancel the auto-renewing subscription from there.
+Wenn Sie sich für ein Cascable Pro Abo entscheiden, wird der Betrag von Ihrem iTunes Konto eingezogen. Das Abonnement verlängert sich automatisch 24 Stunden vor Ablauf. Sie können Ihre Abonnements nach dem Kauf in den iTunes Benutzereinstellungen verwalten und dort das Abo auf Wunsch auch kündigen.
 
-Terms and Privacy Policy: http://cascable.se/privacy
+Nutzungsbedingungen und Datenschutz: http://cascable.se/privacy
 
-——— Notes ———
+——— Hinweise ———
 
-* Compatible cameras include WiFi-equipped models from the following model ranges: 
+* Zu den kompatiblen Kameras gehören WLAN-fähige Modelle der folgenden Modellreihen: 
 
 - Canon EOS,
 - Fujifilm X and Finepix,
 - Nikon D,
-- Olympus OM-D, PEN, and SH,
+- Olympus OM-D, PEN, und SH,
 - Panasonic LUMIX.
-- Sony Alpha, HX, RX, and NEX.
+- Sony Alpha, HX, RX, und NEX.
 
-For more information and detailed compatibility notes, see the Cascable website.
+Nähere Informationen hierzu finden Sie in der Kompatibilitätsliste für Kameras auf der Cascable Webseite.
 
-** Exluding Fujifilm models and certain older Panasonic models. See the Cascable website for details.
+** Außer Fujifilm Modelle und ältere Panasonic Modell. Nähere Informationen erhalten Sie auf der Cascable Webseite.
 
-Canon and EOS are trademarks of Canon Inc. 
-Fujifilm and Finepix are trademarks of FUJIFILM Corporation.
-Olympus, Olympus PEN, STYLUS and OM-D are trademarks of Olympus Corporation. 
-Nikon is a trademark of Nikon Corporation. 
-NEX, RX and α are trademarks of Sony Corporation.
-Uses the Camera Remote API by Sony.";
+Canon und EOS sind Warenzeichen von Canon Inc. 
+Fujifilm und Finepix sind Warenzeichen der FUJIFILM Corporation. 
+Olympus, Olympus PEN, STYLUS und OM-D sind Warenzeichen der Olympus Corporation. 
+Nikon ist ein Warenzeichen der Nikon Corporation. 
+NEX, RX und α sind Warenzeichen der Sony Corporation.
+Verwendet die Camera Remote API von Sony.";
