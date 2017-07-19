@@ -5,17 +5,14 @@
 /* Class = "UILabel"; text = "Upgrade to Cascable Pro!"; ObjectID = "85y-wF-KNG"; */
 "85y-wF-KNG.text" = "Upgrade to Cascable Pro!";
 
-/* Class = "UILabel"; text = "If you've previously purchased Cascable Pro, you can restore your purchase to this device."; ObjectID = "N9a-5g-1J5"; */
-"N9a-5g-1J5.text" = "If you've previously purchased Cascable Pro, you can restore your purchase to this device.";
+/* Class = "UILabel"; text = "Cascable Pro subscriptions will renew within 24 hours before the subscription period ends, and you will be charged through your iTunes account. You can manage your subscription in Account Settings."; ObjectID = "N9a-5g-1J5"; */
+"N9a-5g-1J5.text" = "Cascable Pro subscriptions will renew within 24 hours before the subscription period ends, and you will be charged through your iTunes account. You can manage your subscription in Account Settings.";
 
 /* Class = "UILabel"; text = "Cascable Pro provides powerful shutter automation, RAW image support, night mode, geotagging tools and much more."; ObjectID = "VXB-2Q-Ad4"; */
 "VXB-2Q-Ad4.text" = "Cascable Pro provides powerful shutter automation, RAW image support, night mode, geotagging tools and much more.";
 
 /* Class = "UILabel"; text = "Thank you for supporting Cascable! Your purchase helps support a small, independent company. We couldn't do it without you!"; ObjectID = "XBi-WY-554"; */
 "XBi-WY-554.text" = "Thank you for supporting Cascable! Your purchase helps support a small, independent company. We couldn't do it without you!";
-
-/* Class = "UIButton"; normalTitle = "Restore Purchases"; ObjectID = "c2K-tn-06H"; */
-"c2K-tn-06H.normalTitle" = "Restore Purchases";
 
 /* Class = "UILabel"; text = "You're upgraded to Cascable Pro!"; ObjectID = "dXK-jg-Fsr"; */
 "dXK-jg-Fsr.text" = "You're upgraded to Cascable Pro!";
