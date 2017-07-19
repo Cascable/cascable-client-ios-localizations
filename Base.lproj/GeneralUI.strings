@@ -838,6 +838,9 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Title for 'PRO' buttons. Must be short. */
 "ProButtonTitle" = "PRO";
 
+/* 'PRO' button prefix for 'Upgrade to PRO' buttons. Must be short. */
+"UpgradeToProButtonPrefixTitle" = "Upgrade to";
+
 /* Explanation of needing to make a purchase to remote preview photos. */
 "RemotePreviewUnavailableDescription" = "Previewing photos directly from your camera is a feature of Cascable Pro.";
 
