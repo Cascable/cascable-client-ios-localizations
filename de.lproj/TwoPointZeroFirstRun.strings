@@ -1,0 +1,75 @@
+
+/* Class = "UILabel"; text = "Greatly Expanded Camera Support"; ObjectID = "1ZC-Bh-GeY"; */
+"1ZC-Bh-GeY.text" = "Erheblich erweiterte Kamera-Unterstützung";
+
+/* Class = "UIButton"; normalTitle = "Continue →"; ObjectID = "7QS-WU-wUI"; */
+"7QS-WU-wUI.normalTitle" = "Weiter →";
+
+/* Class = "UILabel"; text = "Cascable 2.0 has many smaller additions throughout the app, from improved histograms to an improved local photo grid. You can find a full and detailed list on the Cascable website.\n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!"; ObjectID = "9Bs-PF-Jvn"; */
+"9Bs-PF-Jvn.text" = "Cascable 2.0 bietet zahlreiche Neuerungen in allen Bereichen der App, angefangen bei verbesserten Histogrammen bis zu verbessertem lokalen Fotogitter. Eine ausführliche Liste aller Neuerungen finden Sie auf der Cascable Webseite.\n\nWenn Sie stets über Neuigkeiten und Fotos vom Cascable Team informiert werden möchten, dann folgen Sie uns doch einfach auf Twitter und Instagram.\n\nViel Spaß!";
+
+/* Class = "UIButton"; normalTitle = "Skip Tour"; ObjectID = "9NP-z9-ZaH"; */
+"9NP-z9-ZaH.normalTitle" = "Einführung überspringen";
+
+/* Class = "UILabel"; text = "Free Upgrade For 1.x Customers"; ObjectID = "Brp-aw-MgW"; */
+"Brp-aw-MgW.text" = "Kostenloses Update für 1.x Nutzer";
+
+/* Class = "UILabel"; text = "…and much more!"; ObjectID = "DkA-ou-F8n"; */
+"DkA-ou-F8n.text" = "… und vieles mehr!";
+
+/* Class = "UIViewController"; title = "Welcome"; ObjectID = "G3P-g9-PCa"; */
+"G3P-g9-PCa.title" = "Willkommen";
+
+/* Class = "UIButton"; normalTitle = "Continue →"; ObjectID = "GtB-eF-Akk"; */
+"GtB-eF-Akk.normalTitle" = "Weiter →";
+
+/* Class = "UIButton"; normalTitle = "Continue →"; ObjectID = "Jyr-4x-3U6"; */
+"Jyr-4x-3U6.normalTitle" = "Weiter →";
+
+/* Class = "UILabel"; text = "Powerful New Photo Management Tools"; ObjectID = "KgJ-Oy-9xx"; */
+"KgJ-Oy-9xx.text" = "Geniale neue Fotomanagement-Tools";
+
+/* Class = "UILabel"; text = "Cascable 2.0 is easy on the eyes when working in low light with the new Night Mode, an app-wide theme designed to be friendly on the eyes when working in low light environments."; ObjectID = "PyW-bc-FEI"; */
+"PyW-bc-FEI.text" = "Cascable 2.0 ist dank des neuen Nachtmodus auch bei schwachem Umgebungslicht augenschonend.";
+
+/* Class = "UILabel"; text = "Thanks for being an early supporter of Cascable!\n\nAs a thank you, all of the new features in Cascable 2.0 are provided to you as a FREE upgrade."; ObjectID = "U9p-kN-Ff7"; */
+"U9p-kN-Ff7.text" = "Vielen Dank für das schnelle Upgrade! \n\nAls Dankeschön erhalten Sie alle neuen Funktionen von Cascable 2.0 als KOSTENLOSES Upgrade!";
+
+/* Class = "UILabel"; text = "Night Mode"; ObjectID = "WYE-CJ-g3X"; */
+"WYE-CJ-g3X.text" = "Nachtmodus";
+
+/* Class = "UIButton"; normalTitle = "Get Started  →"; ObjectID = "Wr9-Wd-JN8"; */
+"Wr9-Wd-JN8.normalTitle" = "Loslegen  →";
+
+/* Class = "UILabel"; text = "Cascable 2.0 provides many new tools to improve your photo management workflow.\n\nRemote preview allows you to see high resolution previews of your photos before copying them to your iOS device, and improved RAW+JPEG support means no more duplicates.\n\nOnce copied over, Cascable's new filtering tools let you search for your photos by date, file type and text search, and an improved photo viewer lets you zoom to 1:1 for a close look at your work."; ObjectID = "avd-i8-4VS"; */
+"avd-i8-4VS.text" = "Cascable 2.0 bietet viele neue Werkzeuge zur Verbesserung Ihres Foto-Managements.\n\nMit der Remote-Vorschau können Sie hoch auflösende Vorschaubilder Ihrer Fotos vor dem Kopieren auf Ihr iOS-Gerät ansehen. Verbesserte Unterstützung für RAW- und JPEG vermeidet nun auch doppelte Dateien.\n\nNach dem Kopieren sorgen die neuen Filterwerkzeuge von Cascable dafür, dass Sie Ihre Fotos nach Datum, Dateityp und sogar mit Textsuche filtern können. Die optimierte Fotoansicht ermöglicht einen Zoom bis 1:1 zur Detailansicht Ihrer Arbeit.";
+
+/* Class = "UIButton"; normalTitle = "Continue →"; ObjectID = "cGq-qj-Wb6"; */
+"cGq-qj-Wb6.normalTitle" = "Weiter →";
+
+/* Class = "UILabel"; text = "on Twitter"; ObjectID = "dgL-Vh-5m6"; */
+"dgL-Vh-5m6.text" = "auf Twitter";
+
+/* Class = "UILabel"; text = "Thank you for updating to Cascable 2.0. This is the first major update to Cascable, and contains some great new features and support for many more cameras from Nikon, Sony and Olympus."; ObjectID = "e51-oR-xjz"; */
+"e51-oR-xjz.text" = "Vielen Dank für Ihr Update auf Cascable 2.0. Dieses ist das erste große Update von Cascable, und es beinhaltet viele neue Funktionen und Unterstützung für Kameras von Nikon, Sony und Olympus.";
+
+/* Class = "UILabel"; text = "on Instagram"; ObjectID = "e8w-Sj-KC2"; */
+"e8w-Sj-KC2.text" = "auf Instagram";
+
+/* Class = "UIButton"; normalTitle = "Start Using Cascable"; ObjectID = "gTH-Fo-vxd"; */
+"gTH-Fo-vxd.normalTitle" = "Cascable nutzen";
+
+/* Class = "UILabel"; text = "Tap \"Get Started\" to see a quick tour of the new features."; ObjectID = "hay-5R-Q3N"; */
+"hay-5R-Q3N.text" = "Tippen Sie auf „Loslegen“ für eine schnelle Einführung in die neuen Funktion.";
+
+/* Class = "UILabel"; text = "What's new in Cascable?"; ObjectID = "l3x-YS-zoX"; */
+"l3x-YS-zoX.text" = "Was ist neu in Cascable?";
+
+/* Class = "UIButton"; normalTitle = "@CascableApp"; ObjectID = "rcf-wD-q7K"; */
+"rcf-wD-q7K.normalTitle" = "@CascableApp";
+
+/* Class = "UIButton"; normalTitle = "@CascableApp"; ObjectID = "uTL-Tw-2wS"; */
+"uTL-Tw-2wS.normalTitle" = "@CascableApp";
+
+/* Class = "UILabel"; text = "Cascable 2.0 adds support for over 40 new cameras from Nikon, Sony and Olympus, in addition to the Canon models already supported.\n\nFor more information on which models are supported, see the new in-app Help Center or the Cascable website."; ObjectID = "zEU-Kg-jDC"; */
+"zEU-Kg-jDC.text" = "Cascable 2.0 unterstützt mehr als 40 neue Kameras von Nikon, Sony und Olympus, zusätzlich zu den bereits unterstützten Modellen von Canon.\n\nWeitere Informationen zu den unterstützten Modellen finden Sie in der Hilfe oder auf der Cascable Webseite.";

@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "The Cascable store is not available at the moment. Please check your network connection. If connected to a camera, you may need to disconnect to reach a network with Internet connectivity."; ObjectID = "3ss-hP-gbE"; */
+"3ss-hP-gbE.text" = "Der Cascable Store ist zurzeit nicht verfügbar. Prüfen Sie bitte Ihre Netzwerkverbindung. Falls Sie mit einer Kamera verbunden sind, sollten Sie diese Verbindung trennen, damit Sie sich anschließend mit einem Netzwerk verbinden können, das eine Internetverbindung bereitstellt.";
+
+/* Class = "UILabel"; text = "If you've previously purchased one or more Cascable Pro feature packs, you can restore them to this device."; ObjectID = "ZTq-Ce-WCq"; */
+"ZTq-Ce-WCq.text" = "Wenn Sie bereits eine oder mehrere Pro Funktionen von Cascable gekauft haben, können Sie sie auf diesem Gerät wiederherstellen.";
+
+/* Class = "UIButton"; normalTitle = "Restore Purchases"; ObjectID = "eQ7-25-wnZ"; */
+"eQ7-25-wnZ.normalTitle" = "Einkäufe wiederherstellen";
+
+/* Class = "UILabel"; text = "The Cascable store is taking a long time to load. You may need to disconnect from your camera's WiFi network."; ObjectID = "eWf-Rq-vh9"; */
+"eWf-Rq-vh9.text" = "Der Cascable Store benötigt lange zum Laden. Eventuell müssen Sie die WLAN-Verbindung zu Ihrer Kamera trennen.";

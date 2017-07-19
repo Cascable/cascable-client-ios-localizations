@@ -1,0 +1,66 @@
+
+/* Class = "UILabel"; text = "Improved RAW Display & Quick Proof"; ObjectID = "1ZC-Bh-GeY"; */
+"1ZC-Bh-GeY.text" = "Verbesserte RAW-Anzeige & Schnellprüfung";
+
+/* Class = "UIButton"; normalTitle = "Continue →"; ObjectID = "7QS-WU-wUI"; */
+"7QS-WU-wUI.normalTitle" = " Weiter →";
+
+/* Class = "UILabel"; text = "Cascable 2.1 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.\n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!"; ObjectID = "9Bs-PF-Jvn"; */
+"9Bs-PF-Jvn.text" = "Cascable 2.1 hat überall in der App viele kleinere Funktionen hinzubekommen. Eine vollständige und detaillierte Liste finden Sie auf der Cascable-Website.\n\nMöchten Sie die aktuellsten News und neuesten Fotos vom Cascable-Team erhalten? Folgen Sie uns auf Twitter und Instagram!\n\nViel Spaß!";
+
+/* Class = "UIButton"; normalTitle = "Skip Tour"; ObjectID = "9NP-z9-ZaH"; */
+"9NP-z9-ZaH.normalTitle" = "Einführung überspringen";
+
+/* Class = "UILabel"; text = "…and much more!"; ObjectID = "DkA-ou-F8n"; */
+"DkA-ou-F8n.text" = "… und vieles mehr!";
+
+/* Class = "UIViewController"; title = "Welcome"; ObjectID = "G3P-g9-PCa"; */
+"G3P-g9-PCa.title" = "Willkommen";
+
+/* Class = "UILabel"; text = "Improvements to Existing Tools"; ObjectID = "KgJ-Oy-9xx"; */
+"KgJ-Oy-9xx.text" = "Verbesserungen an existierenden Werkzeugen";
+
+/* Class = "UILabel"; text = "For detailed information, see the Cascable 2.1 blog post on our website."; ObjectID = "QTe-F0-L5h"; */
+"QTe-F0-L5h.text" = "Detaillierte Informationen finden Sie auf unserer Website im Blogbeitrag über Cascable 2.1.";
+
+/* Class = "UIButton"; normalTitle = "Get Started  →"; ObjectID = "Wr9-Wd-JN8"; */
+"Wr9-Wd-JN8.normalTitle" = "Loslegen  →";
+
+/* Class = "UILabel"; text = "Cascable 2.1 improves several of its tools to provide an improved experience.\n\nPhoto Review will update its display if new photos are taken while it's visible, allowing Cascable to be used as a permanent high-res preview display.\n\nWhen working in Manual and Bulb exposure modes, the reading from your camera's light meter is displayed in place of the exposure compensation control, and Shutter Robot's Bulb Timer can be configured to repeat.\n\nIn Photo Management, remote image previews are cached for greatly improved speed on subsequent previews, photos can be deleted from preview screens for an improved workflow."; ObjectID = "avd-i8-4VS"; */
+"avd-i8-4VS.text" = "In Cascable 2.1 wurde viel verbessert.\n\nDie Schnellansicht wird aktualisiert, wenn während der Sichtbarkeit des Bereichs neue Fotos aufgenommen werden. Cascable eignet sich daher auch als dauerhafte Vorschau.\n\nWährend der Arbeit im manuellen und im B-Modus wird der Messwert des Belichtungsmessers Ihrer Kamera im Bereich der Belichtungskompensations-Steuerung angezeigt, der Bulb Timer des Shutter Robots kann auf Wiederholung eingestellt werden.\n\nIm Fotomanagement werden Bilder der Remote-Vorschau nun zwischengespeichert und macht die Vorschau so schneller. Bilder können in den Vorschau-Anzeigen auch gelöscht werden.";
+
+/* Class = "UIButton"; normalTitle = "Continue →"; ObjectID = "cGq-qj-Wb6"; */
+"cGq-qj-Wb6.normalTitle" = "Weiter →";
+
+/* Class = "UILabel"; text = "on Twitter"; ObjectID = "dgL-Vh-5m6"; */
+"dgL-Vh-5m6.text" = "auf Twitter";
+
+/* Class = "UILabel"; text = "Thank you for updating to Cascable 2.1. This update contains some great new features and improvements to existing tools."; ObjectID = "e51-oR-xjz"; */
+"e51-oR-xjz.text" = "Vielen Dank für das Update auf Cascable 2.1! Dieses Update enthält einige tolle neue Funktionen und verbessert einige der bereits vorhandenen Werkzeuge.";
+
+/* Class = "UILabel"; text = "on Instagram"; ObjectID = "e8w-Sj-KC2"; */
+"e8w-Sj-KC2.text" = "auf Instagram";
+
+/* Class = "UIButton"; normalTitle = "Open in Safari"; ObjectID = "fBS-oB-dIG"; */
+"fBS-oB-dIG.normalTitle" = "In Safari öffnen";
+
+/* Class = "UIButton"; normalTitle = "Start Using Cascable"; ObjectID = "gTH-Fo-vxd"; */
+"gTH-Fo-vxd.normalTitle" = "Cascable nutzen";
+
+/* Class = "UILabel"; text = "Tap \"Get Started\" to see a quick tour of the new features."; ObjectID = "hay-5R-Q3N"; */
+"hay-5R-Q3N.text" = "Tippen Sie auf „Loslegen“, um eine schnelle Einführung in die neuen Funktion zu erhalten.";
+
+/* Class = "UILabel"; text = "With the new Quick Proof feature, you can apply adjustments to your photos right within Cascable for exporting and sharing. Quick Proof works with our new RAW renderer, giving full quality RAW editing for the best quality results."; ObjectID = "iJc-7C-gBo"; */
+"iJc-7C-gBo.text" = "Mit der neuen Funktion „Schnellprüfung“ können Sie direkt in Cascable Anpassungen an Ihren Fotos vornehmen, um Sie anschließend zu exportieren oder zu teilen.";
+
+/* Class = "UILabel"; text = "What's new in Cascable?"; ObjectID = "l3x-YS-zoX"; */
+"l3x-YS-zoX.text" = "Was ist neu in Cascable?";
+
+/* Class = "UIButton"; normalTitle = "@CascableApp"; ObjectID = "rcf-wD-q7K"; */
+"rcf-wD-q7K.normalTitle" = "@CascableApp";
+
+/* Class = "UIButton"; normalTitle = "@CascableApp"; ObjectID = "uTL-Tw-2wS"; */
+"uTL-Tw-2wS.normalTitle" = "@CascableApp";
+
+/* Class = "UILabel"; text = "If you have a modern iOS device and iOS 10, Cascable will display your RAW files with increased quality and color depth."; ObjectID = "zEU-Kg-jDC"; */
+"zEU-Kg-jDC.text" = "Wenn Sie ein modernes iOS-Gerät mit iOS 10 besitzen, stellt Cascable Ihre RAW-Dateien in besserer Qualität und mit größerer Farbtiefe dar.";

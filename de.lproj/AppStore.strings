@@ -60,13 +60,13 @@
 "se.cascable.ios.subscriptions.group-displayname" = "Pro-Funktionen";
 
 /* The display name of the monthly "full unlock" subscription. Limited to 30 characters. */
-"se.cascable.ios.everythingsubscription-displayname" = "Cascable Pro";
+"se.cascable.ios.everythingsubscription-displayname" = "Alles entsperren";
 
 /* The display description of the monthly "full unlock" subscription. Limited to 45 characters. */
 "se.cascable.ios.everythingsubscription-displaydescription" = "Entsperren Sie alle Funktionen in Cascable!";
 
 /* The display name of the quarterly "full unlock" subscription. Limited to 30 characters. */
-"se.cascable.ios.everythingsubscription.quarterly-displayname" = "Cascable Pro";
+"se.cascable.ios.everythingsubscription.quarterly-displayname" = "Alles entsperren";
 
 /* The display description of the quarterly "full unlock" subscription. Limited to 45 characters. */
 "se.cascable.ios.everythingsubscription.quarterly-displaydescription" = "Entsperren Sie alle Funktionen in Cascable!";
@@ -75,69 +75,4 @@
 //     Long-form Metadata
 // ------------------------------------------------------------
 
-"se.cascable.ios-client-description" = "Entlocken Sie Ihrer kompatiblen* WLAN-fähigen Kamera das volle Potenzial mit Cascable. Entworfen für Amateur- und Profi-Fotografen gleichermaßen, ist Cascable das wohl beste erhältliche Tool für die Arbeit mit Ihrer Kamera unterwegs.
-
-Ob ein Gruppenfoto der Familie mithilfe der enthaltenen Apple Watch App oder das perfekte Foto im Fotoshoot, Cascable wird zu einem unverzichtbaren Werkzeug in Ihrer Trickkiste werden.
-
-——— Funktionen ———
-
-• Vollständige Kontrolle der Belichtungseinstellungen Ihrer Kamera.
-
-• Zeitraffer, Belichtungsreihenautomatik und vieles mehr mit dem integrierten Shutter Robot.
-
-• Erstellen, Bearbeiten und verwalten Sie Geotags mithilfe der wunderschönen Cascable Geotagging-Kartenansicht und den automatischen Tagging-Tools.
-
-• Mit dem Nachtmodus ist das Arbeiten auch in dunkler Umgebung angenehm.
-
-• Ihr Auslöser direkt am Handgelenk mit der enthaltenen Apple Watch App. Gruppenfotos werden zum Kinderspiel!
-
-• Laden Sie Fotos in voller Auflösung direkt von der Kamera – einzeln oder mehrere gleichzeitig.
-
-• Betrachten, teilen und exportieren Sie Fotos in voller Auflösung (einschließlich RAW-Dateien) direkt auf dem iOS-Gerät. 
-
-• Passen Sie Ihre Bilder zum Exportieren und Teilen mit Quick Proof an.
-
-• Verbinden Sie Cascable mit dem Fernseher über AirPlay oder HDMI und betrachten Sie die Fotos im Großformat.
-
-• Nutzen Sie einen Neutraldichtefilter oder fotografieren Sie die Sterne? Die integrierten Rechner erzeugen blitzschnell komplexe Belichtungsberechnungen.
-
-• Cascable ist schnell, intuitiv und leistungsstark, und es sorgt für ein fantastisches Bedienerlebnis auf allen unterstützten iPod touch, iPhone und iPad Modellen.
-
-• Nähere Informationen zu den Funktionen von Cascable finden Sie auf unserer Webseite unter http://cascable.se. 
-
-——— Für den Fotografen gemacht ———
-
-Cascable wurde speziell für Fotografen entwickelt, und wird mit der Zeit immer weiterentwickelt. Wenn Sie Fragen haben, Hilfe benötigen oder einen Funktionswunsch äußern möchten, melden Sie sich bei uns! Wir freuen uns, von Ihnen zu hören.
-
-——— In-App-Käufe und Abos ———
-
-Für einige Funktionen ist der Kauf von Cascable Pro erforderlich, das Sie als einmaligen In-App-Kauf oder als Abonnement erhalten können. Ihnen stehen zwei Abo-Varianten zur Verfügung: 
-
-- 1 Monat für $2,99.
-- 3 Monate für $5,99.
-
-Wenn Sie sich für ein Cascable Pro Abo entscheiden, wird der Betrag von Ihrem iTunes Konto eingezogen. Das Abonnement verlängert sich automatisch 24 Stunden vor Ablauf. Sie können Ihre Abonnements nach dem Kauf in den iTunes Benutzereinstellungen verwalten und dort das Abo auf Wunsch auch kündigen.
-
-Nutzungsbedingungen und Datenschutz: http://cascable.se/privacy
-
-——— Hinweise ———
-
-* Zu den kompatiblen Kameras gehören WLAN-fähige Modelle der folgenden Modellreihen: 
-
-- Canon EOS,
-- Fujifilm X and Finepix,
-- Nikon D,
-- Olympus OM-D, PEN, und SH,
-- Panasonic LUMIX.
-- Sony Alpha, HX, RX, und NEX.
-
-Nähere Informationen hierzu finden Sie in der Kompatibilitätsliste für Kameras auf der Cascable Webseite.
-
-** Außer Fujifilm Modelle und ältere Panasonic Modell. Nähere Informationen erhalten Sie auf der Cascable Webseite.
-
-Canon und EOS sind Warenzeichen von Canon Inc. 
-Fujifilm und Finepix sind Warenzeichen der FUJIFILM Corporation. 
-Olympus, Olympus PEN, STYLUS und OM-D sind Warenzeichen der Olympus Corporation. 
-Nikon ist ein Warenzeichen der Nikon Corporation. 
-NEX, RX und α sind Warenzeichen der Sony Corporation.
-Verwendet die Camera Remote API von Sony.";
+"se.cascable.ios-client-description" = "Entlocken Sie Ihrer kompatiblen* WLAN-fähigen Kamera das volle Potenzial mit Cascable. Entworfen für Amateur- und Profi-Fotografen gleichermaßen, ist Cascable das wohl beste erhältliche Tool für die Arbeit mit Ihrer Kamera unterwegs.\n\nOb ein Gruppenfoto der Familie mithilfe der enthaltenen Apple Watch App oder das perfekte Foto im Fotoshoot, Cascable wird zu einem unverzichtbaren Werkzeug in Ihrer Trickkiste werden.\n\n——— Funktionen ———\n\n• Vollständige Kontrolle der Belichtungseinstellungen Ihrer Kamera.\n\n• Zeitraffer, Belichtungsreihenautomatik und vieles mehr mit dem integrierten Shutter Robot.\U2028\U2028• Erstellen, Bearbeiten und verwalten Sie Geotags mithilfe der wunderschönen Cascable Geotagging-Kartenansicht und den automatischen Tagging-Tools.\n\n• Mit dem Nachtmodus ist das Arbeiten auch in dunkler Umgebung angenehm.\n\n• Ihr Auslöser direkt am Handgelenk mit der enthaltenen Apple Watch App. Gruppenfotos werden zum Kinderspiel!\n\n• Laden Sie Fotos in voller Auflösung direkt von der Kamera – einzeln oder mehrere gleichzeitig.\n\n• Betrachten, teilen und exportieren Sie Fotos in voller Auflösung (einschließlich RAW-Dateien) direkt auf dem iOS-Gerät. \n\n• Passen Sie Ihre Bilder zum Exportieren und Teilen mit Quick Proof an.\n\n• Verbinden Sie Cascable mit dem Fernseher über AirPlay oder HDMI und betrachten Sie die Fotos im Großformat.\n\n• Nutzen Sie einen Neutraldichtefilter oder fotografieren Sie die Sterne? Die integrierten Rechner erzeugen blitzschnell komplexe Belichtungsberechnungen.\n\n• Cascable ist schnell, intuitiv und leistungsstark, und es sorgt für ein fantastisches Bedienerlebnis auf allen unterstützten iPod touch, iPhone und iPad Modellen.\n\n• Nähere Informationen zu den Funktionen von Cascable finden Sie auf unserer Webseite unter http://cascable.se. \n\n——— Für den Fotografen gemacht ———\n\nCascable wurde speziell für Fotografen entwickelt, und wird mit der Zeit immer weiterentwickelt. Wenn Sie Fragen haben, Hilfe benötigen oder einen Funktionswunsch äußern möchten, melden Sie sich bei uns! Wir freuen uns, von Ihnen zu hören.\n\n——— In-App-Käufe und Abos ———\n\nFür einige Funktionen ist der Kauf von Cascable Pro erforderlich, das Sie als einmaligen In-App-Kauf oder als Abonnement erhalten können. Ihnen stehen zwei Abo-Varianten zur Verfügung: \n\n- 1 Monat für €2,99.\n- 3 Monate für €5,99.\n\nWenn Sie sich für ein Cascable Pro Abo entscheiden, wird der Betrag von Ihrem iTunes Konto eingezogen. Das Abonnement verlängert sich automatisch 24 Stunden vor Ablauf. Sie können Ihre Abonnements nach dem Kauf in den iTunes Benutzereinstellungen verwalten und dort das Abo auf Wunsch auch kündigen.\n\nNutzungsbedingungen und Datenschutz: http://cascable.se/privacy\n\n——— Hinweise ———\n\n* Zu den kompatiblen Kameras gehören WLAN-fähige Modelle der folgenden Modellreihen: \n\n- Canon EOS,\n- Fujifilm X and Finepix,\n- Nikon D,\n- Olympus OM-D, PEN, und SH,\n- Panasonic LUMIX.\n- Sony Alpha, HX, RX, und NEX.\n\nNähere Informationen hierzu finden Sie in der Kompatibilitätsliste für Kameras auf der Cascable Webseite.\n\n** Außer Fujifilm Modelle und ältere Panasonic Modell. Nähere Informationen erhalten Sie auf der Cascable Webseite.\n\nCanon und EOS sind Warenzeichen von Canon Inc. \nFujifilm und Finepix sind Warenzeichen der FUJIFILM Corporation. \nOlympus, Olympus PEN, STYLUS und OM-D sind Warenzeichen der Olympus Corporation. \nNikon ist ein Warenzeichen der Nikon Corporation. \nNEX, RX und α sind Warenzeichen der Sony Corporation.\nVerwendet die Camera Remote API von Sony.";
