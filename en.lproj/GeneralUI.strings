@@ -706,7 +706,10 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 "AutoDismissPhotoReviewSectionFooter" = "Tapping or zooming the photo being reviewed will cancel automatic dismissal for that photo.";
 
 /* Section footer for the first section of 'Review Photos After Shooting' explaining the feature. */
-"PhotoReviewExplanationFooter" = "Photo Review allows you to review high-resolution previews of your photos immediately after they're taken, helping you nail your shot quickly and effectively.";
+"PhotoReviewExplanationFooter" = "Photo Review allows you to review high-resolution previews of your photos immediately after they're taken, helping you nail your shot quickly and effectively.\n\nPhoto Review is not available with Fujifilm and Panasonic cameras.";
+
+/* Section footer for the first section of 'Review Photos After Shooting' when the user is paid. */
+"PhotoReviewNotAvailableOnFujiPanasonicFooter" = "Photo Review is not available with Fujifilm and Panasonic cameras.";
 
 /* Titles for the various auto-dismiss options for photo review. */
 "AutoDismissPhotoReviewSetting0Title" = "Manually";
@@ -834,6 +837,9 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 
 /* Title for 'PRO' buttons. Must be short. */
 "ProButtonTitle" = "PRO";
+
+/* 'PRO' button prefix for 'Upgrade to PRO' buttons. Must be short. */
+"UpgradeToProButtonPrefixTitle" = "Upgrade to";
 
 /* Explanation of needing to make a purchase to remote preview photos. */
 "RemotePreviewUnavailableDescription" = "Previewing photos directly from your camera is a feature of Cascable Pro.";
