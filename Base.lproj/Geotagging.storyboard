@@ -25,7 +25,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" pitchEnabled="NO" showsPointsOfInterest="NO" showsScale="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EAq-fK-8lS">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="603"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="hHb-4a-yW5"/>
                                 </connections>
@@ -37,8 +37,8 @@
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQU-wE-dVM">
-                                            <rect key="frame" x="313" y="14.5" width="42" height="33"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <rect key="frame" x="317" y="15" width="38" height="33"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <state key="normal" title="Start"/>
                                             <connections>
                                                 <action selector="startOrStopTracking:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mx4-RM-QPt"/>
@@ -73,91 +73,85 @@
                                 </view>
                                 <blurEffect style="extraLight"/>
                             </visualEffectView>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PVQ-qa-99Z">
-                                <rect key="frame" x="20" y="597" width="157.5" height="50"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="uPg-ZF-iYg">
-                                    <rect key="frame" x="0.0" y="0.0" width="157.5" height="50"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eP0-2P-WPY">
-                                            <rect key="frame" x="30.5" y="10" width="97" height="30"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                            <state key="normal" title="Tag Manually"/>
-                                            <connections>
-                                                <action selector="showImageTray:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nvv-De-vAe"/>
-                                            </connections>
-                                        </button>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="eP0-2P-WPY" firstAttribute="centerX" secondItem="uPg-ZF-iYg" secondAttribute="centerX" id="Chc-3Q-RuW"/>
-                                        <constraint firstItem="eP0-2P-WPY" firstAttribute="centerY" secondItem="uPg-ZF-iYg" secondAttribute="centerY" id="S2f-Tj-uxV"/>
-                                    </constraints>
-                                </view>
+                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t8e-fu-aKc" customClass="CBLHairlineDividerView">
+                                <rect key="frame" x="0.0" y="623" width="375" height="1"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="5LJ-7b-75d"/>
+                                    <constraint firstAttribute="height" constant="1" id="C7Q-ty-OMY"/>
                                 </constraints>
-                                <blurEffect style="extraLight"/>
-                            </visualEffectView>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bx6-uJ-3dM">
-                                <rect key="frame" x="197.5" y="597" width="157.5" height="50"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="NrG-no-YTt">
-                                    <rect key="frame" x="0.0" y="0.0" width="157.5" height="50"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYp-W1-Tvr">
-                                            <rect key="frame" x="48" y="10" width="63" height="30"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                            <state key="normal" title="Tracks…"/>
-                                            <connections>
-                                                <action selector="showTrackPicker:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Glg-Cz-39N"/>
-                                            </connections>
-                                        </button>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="yYp-W1-Tvr" firstAttribute="centerY" secondItem="NrG-no-YTt" secondAttribute="centerY" id="pol-2N-Mfu"/>
-                                        <constraint firstItem="yYp-W1-Tvr" firstAttribute="centerX" secondItem="NrG-no-YTt" secondAttribute="centerX" id="xuq-c5-cuV"/>
-                                    </constraints>
-                                </view>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="topLeft" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zca-Nf-Wrt">
+                                <rect key="frame" x="0.0" y="624" width="375" height="43"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LL8-7W-a7z">
+                                        <rect key="frame" x="20" y="4.5" width="157" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Tag Manually"/>
+                                        <connections>
+                                            <action selector="showImageTray:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2MP-lS-b73"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbo-iC-O3Z">
+                                        <rect key="frame" x="208" y="5" width="147" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="View Tracks"/>
+                                        <connections>
+                                            <action selector="showTrackPicker:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tiL-K8-5Ey"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wLX-6O-2CV" customClass="CBLHairlineDividerView">
+                                        <rect key="frame" x="187" y="8" width="1" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1" id="L4Y-DN-PAq"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="pqb-MN-p3V"/>
+                                    <constraint firstItem="qbo-iC-O3Z" firstAttribute="leading" secondItem="wLX-6O-2CV" secondAttribute="trailing" constant="20" id="3em-7j-Keh"/>
+                                    <constraint firstItem="LL8-7W-a7z" firstAttribute="centerY" secondItem="Zca-Nf-Wrt" secondAttribute="centerY" id="EB3-SW-7iE"/>
+                                    <constraint firstItem="wLX-6O-2CV" firstAttribute="top" secondItem="Zca-Nf-Wrt" secondAttribute="top" constant="8" id="NVr-BD-MK8"/>
+                                    <constraint firstItem="wLX-6O-2CV" firstAttribute="centerX" secondItem="Zca-Nf-Wrt" secondAttribute="centerX" id="VKn-eQ-bZU"/>
+                                    <constraint firstAttribute="bottom" secondItem="wLX-6O-2CV" secondAttribute="bottom" constant="8" id="fJN-yH-QFo"/>
+                                    <constraint firstItem="LL8-7W-a7z" firstAttribute="leading" secondItem="Zca-Nf-Wrt" secondAttribute="leading" constant="20" id="hVR-zo-QRb"/>
+                                    <constraint firstItem="qbo-iC-O3Z" firstAttribute="centerY" secondItem="Zca-Nf-Wrt" secondAttribute="centerY" id="o71-q6-nov"/>
+                                    <constraint firstAttribute="trailing" secondItem="qbo-iC-O3Z" secondAttribute="trailing" constant="20" id="tXL-08-X7D"/>
+                                    <constraint firstItem="wLX-6O-2CV" firstAttribute="leading" secondItem="LL8-7W-a7z" secondAttribute="trailing" constant="10" id="yOA-5z-4OE"/>
                                 </constraints>
-                                <blurEffect style="extraLight"/>
-                            </visualEffectView>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="EAq-fK-8lS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="0gv-Cc-nZ6"/>
                             <constraint firstItem="EAq-fK-8lS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7fE-x8-fiQ"/>
-                            <constraint firstItem="PVQ-qa-99Z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="8i7-jy-UWc"/>
-                            <constraint firstAttribute="centerXWithinMargins" secondItem="PVQ-qa-99Z" secondAttribute="trailing" constant="10" id="AgN-7G-esb"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EAq-fK-8lS" secondAttribute="bottom" id="BcF-go-a1S"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EAq-fK-8lS" secondAttribute="bottom" constant="44" id="BcF-go-a1S"/>
                             <constraint firstItem="jX7-dr-4DO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="JHG-FA-vso"/>
+                            <constraint firstItem="t8e-fu-aKc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Nkq-6p-vq5"/>
+                            <constraint firstAttribute="trailing" secondItem="Zca-Nf-Wrt" secondAttribute="trailing" id="PtS-e3-vJU"/>
                             <constraint firstAttribute="trailing" secondItem="jX7-dr-4DO" secondAttribute="trailing" id="QzU-dF-iTm"/>
-                            <constraint firstAttribute="trailing" secondItem="bx6-uJ-3dM" secondAttribute="trailing" constant="20" id="iOg-Xc-cWv"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bx6-uJ-3dM" secondAttribute="bottom" constant="20" id="mAk-P1-VMJ"/>
+                            <constraint firstItem="Zca-Nf-Wrt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="aj5-ZJ-UyA"/>
+                            <constraint firstAttribute="trailing" secondItem="t8e-fu-aKc" secondAttribute="trailing" id="dEk-vM-cSc"/>
+                            <constraint firstItem="t8e-fu-aKc" firstAttribute="top" secondItem="EAq-fK-8lS" secondAttribute="bottom" id="ehi-Ss-4oc"/>
+                            <constraint firstItem="Zca-Nf-Wrt" firstAttribute="top" secondItem="t8e-fu-aKc" secondAttribute="bottom" id="hOQ-IG-CLX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Zca-Nf-Wrt" secondAttribute="bottom" id="mLq-no-rRm"/>
                             <constraint firstItem="jX7-dr-4DO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="nNY-9j-Na9"/>
-                            <constraint firstItem="bx6-uJ-3dM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="centerXWithinMargins" constant="10" id="qco-kM-F3M"/>
                             <constraint firstAttribute="trailing" secondItem="EAq-fK-8lS" secondAttribute="trailing" id="rEZ-AH-E3E"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PVQ-qa-99Z" secondAttribute="bottom" constant="20" id="wQJ-oU-dA8"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <connections>
-                        <outlet property="divider" destination="3wH-JF-w8o" id="dKU-ir-uh9"/>
                         <outlet property="loggingHeader" destination="jX7-dr-4DO" id="V2K-VU-jVY"/>
                         <outlet property="map" destination="EAq-fK-8lS" id="1bl-ae-NWz"/>
                         <outlet property="startStopTrackingButton" destination="JQU-wE-dVM" id="OY6-uH-MzT"/>
                         <outlet property="trackingStatus" destination="lBd-Tw-OZ3" id="u3a-M4-IY6"/>
-                        <outletCollection property="bottomButtonContainers" destination="PVQ-qa-99Z" collectionClass="NSMutableArray" id="uDW-MK-Vy6"/>
-                        <outletCollection property="bottomButtonContainers" destination="bx6-uJ-3dM" collectionClass="NSMutableArray" id="YFY-2Q-20O"/>
                         <outletCollection property="themeableVisualEffectViews" destination="jX7-dr-4DO" collectionClass="NSMutableArray" id="L5M-hy-5es"/>
-                        <outletCollection property="themeableVisualEffectViews" destination="bx6-uJ-3dM" collectionClass="NSMutableArray" id="kyx-cc-YTP"/>
-                        <outletCollection property="themeableVisualEffectViews" destination="PVQ-qa-99Z" collectionClass="NSMutableArray" id="ygx-Me-NgE"/>
                         <outletCollection property="tintableButtons" destination="JQU-wE-dVM" collectionClass="NSMutableArray" id="gsC-ti-g0P"/>
-                        <outletCollection property="tintableButtons" destination="eP0-2P-WPY" collectionClass="NSMutableArray" id="dTC-3d-T3b"/>
-                        <outletCollection property="tintableButtons" destination="yYp-W1-Tvr" collectionClass="NSMutableArray" id="EnY-V6-L4o"/>
-                        <outletCollection property="themeableBottomButtonVisualEffectViews" destination="PVQ-qa-99Z" collectionClass="NSMutableArray" id="gQ1-2h-Z6q"/>
-                        <outletCollection property="themeableBottomButtonVisualEffectViews" destination="bx6-uJ-3dM" collectionClass="NSMutableArray" id="rgQ-fk-sKb"/>
+                        <outletCollection property="tintableButtons" destination="LL8-7W-a7z" collectionClass="NSMutableArray" id="IKb-ND-Uu4"/>
+                        <outletCollection property="tintableButtons" destination="qbo-iC-O3Z" collectionClass="NSMutableArray" id="6XA-RR-mY2"/>
+                        <outletCollection property="dividers" destination="3wH-JF-w8o" collectionClass="NSMutableArray" id="JpX-Xu-tvQ"/>
+                        <outletCollection property="dividers" destination="wLX-6O-2CV" collectionClass="NSMutableArray" id="cLM-DR-XwX"/>
+                        <outletCollection property="dividers" destination="t8e-fu-aKc" collectionClass="NSMutableArray" id="cnl-Da-8am"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
