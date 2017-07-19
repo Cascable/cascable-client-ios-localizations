@@ -38,19 +38,19 @@
 "se.cascable.ios.completebundle_one_purchase-displayname" = "Mein Paket vervollständigen";
 
 /* The display description of the discounted "full unlock" in-app purchase when the user has previously bought one feature pack. Limited to 45 characters. */
-"se.cascable.ios.completebundle_one_purchase-displaydescription" = "Reduziertes Upgrade auf sämtliche Cascable Funktionen.";
+"se.cascable.ios.completebundle_one_purchase-displaydescription" = "Günstiges Upgrade auf alles in Cascable.";
 
 /* The display name of the discounted "full unlock" in-app purchase when the user has previously bought two feature packs. Limited to 30 characters. */
 "se.cascable.ios.completebundle_two_purchases-displayname" = "Mein Paket vervollständigen";
 
 /* The display description of the discounted "full unlock" in-app purchase when the user has previously bought two feature packs. Limited to 45 characters. */
-"se.cascable.ios.completebundle_two_purchases-displaydescription" = "Reduziertes Upgrade auf sämtliche Cascable Funktionen.";
+"se.cascable.ios.completebundle_two_purchases-displaydescription" = "Günstiges Upgrade auf alles in Cascable.";
 
 /* The display name of the "full unlock" in-app purchase. Limited to 30 characters. */
 "se.cascable.ios.everythingunlock_3x-displayname" = "Cascable Pro";
 
 /* The display description of the "full unlock" in-app purchase. Limited to 45 characters. */
-"se.cascable.ios.everythingunlock_3x-displaydescription" = "Entsperren Sie alle Funktionen, die Cascable bietet!";
+"se.cascable.ios.everythingunlock_3x-displaydescription" = "Entsperren Sie alle Funktionen in Cascable!";
 
 // ------------------------------------------------------------
 //     Subscriptions
@@ -63,13 +63,13 @@
 "se.cascable.ios.everythingsubscription-displayname" = "Cascable Pro";
 
 /* The display description of the monthly "full unlock" subscription. Limited to 45 characters. */
-"se.cascable.ios.everythingsubscription-displaydescription" = "Entsperren Sie alle Funktionen, die Cascable bietet!";
+"se.cascable.ios.everythingsubscription-displaydescription" = "Entsperren Sie alle Funktionen in Cascable!";
 
 /* The display name of the quarterly "full unlock" subscription. Limited to 30 characters. */
 "se.cascable.ios.everythingsubscription.quarterly-displayname" = "Cascable Pro";
 
 /* The display description of the quarterly "full unlock" subscription. Limited to 45 characters. */
-"se.cascable.ios.everythingsubscription.quarterly-displaydescription" = "Entsperren Sie alle Funktionen, die Cascable bietet!";
+"se.cascable.ios.everythingsubscription.quarterly-displaydescription" = "Entsperren Sie alle Funktionen in Cascable!";
 
 // ------------------------------------------------------------
 //     Long-form Metadata
