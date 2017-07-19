@@ -476,7 +476,7 @@
 "QuickProofEditButtonTitle" = "Bearbeiten";
 
 /* The title of the fullscreen image view during editing. Ex: 'Quick Proof'. */
-"FullScreenImagePreviewWhileEditingTitle" = "Schnellprüfung";
+"FullScreenImagePreviewWhileEditingTitle" = "Quick Proof";
 
 /* The title of the alert presented when the user is unable to edit an image. */
 "QuickProofUnavailableAlertTitle" = "Schnellprüfung nicht verfügbar";
@@ -488,7 +488,7 @@
 "QuickProofUnavailableDeviceTooOldMessage" = "Für die Nutzung der Schnellprüfung ist ein iPhone 6, iPad Air 2, iPad mini 4 oder ein iPod touch der 6. Generation (oder jeweils neuere Modelle) erforderlich.";
 
 /* The message of the alert presented when the user is unable to edit an image due to an unsupported image type. */
-"QuickProofUnavailableUnsupportedImageMessage" = "Die Schnellprüfung unterstützt Bilder dieser Art nicht.";
+"QuickProofUnavailableUnsupportedImageMessage" = "Quick Proof unterstützt Bilder dieser Art nicht. Wenn Sie mit RAW-Dateien von einer kürzlich hinzugefügten Kamera arbeiten, wird diese Unterstützung eventuell in einem kommenden iOS-Update hinzugefügt.";
 
 /* The message of the alert presented when the user is unable to edit an image due to not having Cascable Pro. */
 "QuickProofUnavailableNeedsProMessage" = "Quick Proof ist eine Funktion von Cascable Pro.";
@@ -828,7 +828,7 @@
 "ProButtonTitle" = "PRO";
 
 /* Explanation of needing to make a purchase to remote preview photos. */
-"RemotePreviewUnavailableDescription" = "Die Vorschau von Fotos direkt auf Ihrer Kamera ist eine Funktion von Cascable Pro: Fotomanagement.";
+"RemotePreviewUnavailableDescription" = "Die Vorschau von Fotos direkt auf Ihrer Kamera ist eine Funktion von Cascable Pro.";
 
 /* Name of the product in the purchases list */
 "OfflineProductName" = "Cascable Pro";
@@ -864,16 +864,16 @@
 "ManageSubscriptionsRowTitle" = "Abos verwalten …";
 
 /* Explanation text for the "Restore Purchases" feature. */
-"RestorePurchasesSectionFooter" = "Wenn Sie bereits eine oder mehrere Pro Funktionen von Cascable gekauft haben, können Sie sie auf diesem Gerät wiederherstellen.";
+"RestorePurchasesSectionFooter" = "Wenn Sie bereits Cascable Pro gekauft haben, können Sie Ihren Kauf auf diesem Gerät wiederherstellen.";
 
 /* Header text for the purchases section when no items have been purchased. */
-"NoPurchasesMadeHeader" = "Mit dem Kauf von Cascable Funktionspaketen erhalten Sie Zugriff auf zahlreiche neue Funktionen und unterstützen dabei gleichzeitig ein kleines unabhängiges Unternehmen.";
+"NoPurchasesMadeHeader" = "Mit dem Kauf von Cascable Pro erhalten Sie Zugriff auf zahlreiche neue Funktionen und unterstützen dabei gleichzeitig ein kleines unabhängiges Unternehmen.";
 
 /* Header text for the purchases section when some legacy items have been purchased and a discounted upgrade is available. */
 "SomeLegacyPurchasesMadeHeader" = "Vielen Dank für Ihre Unterstützung! Ihre bisherigen Käufe sind auch weiterhin aktiv, und Sie können das Upgrade zu dieser Version zu einem günstigeren Preis erwerben!";
 
 /* Header text for the purchases section when the user has a free upgrade due to purchasing Cascable 1.x. */
-"PurchasesGrandfatheredUserHeader" = "Vielen Dank für das schnelle Upgrade! Als Nutzer von Cascable 1.x erhalten Sie dieses Upgrade kostenlos!";
+"PurchasesGrandfatheredUserHeader" = "Vielen Dank für das schnelle Upgrade! Als Nutzer von früheren Versionen von Cascable mit In-App-Käufen erhalten Sie dieses Upgrade kostenlos!";
 
 /* Header text for the purchases section when the user has purchased one or more items. */
 "PurchasesMadeHeader" = "Wir bedanken uns für Ihre Unterstützung! Ihr Kauf hilft einem kleinen unabhängigen Unternehmen. Ohne Sie könnten wir nicht weitermachen!";
@@ -1334,7 +1334,7 @@
 "ConnectionFailureTitle" = "Verbindungsfehler";
 
 /* Description of the alert informing the user of a connection failure. */
-"ConnectionFailureMessage" = "Verbindung zur Kamera fehlgeschlagen. Schalten Sie die Kamera aus und wieder ein und versuchen Sie es erneut. Sollte das Problem bestehen bleiben, melden Sie sich bitte bei uns.";
+"ConnectionFailureMessage" = "Verbindung zur Kamera fehlgeschlagen. Schalten Sie die Kamera aus und wieder ein und versuchen Sie es erneut. Sollte das Problem bestehen bleiben, wiederholen Sie das Pairing auf Ihrer Kamera, um eine neue Session für Cascable zu erstellen.";
 
 /* Description of the alert informing the user of a connection failure to a Fuji camera. */
 "FujiConnectionFailureMessage" = "Die Verbindung zu Ihrer Kamera wurde zurückgewiesen. Wenn Ihre Kamera mit einer anderen App oder einem anderen iOS-Gerät verwendet wurde, starten Sie die Kamera neu, aktivieren Sie WLAN und drücken Sie auf „OK - CHANGE“ zum erneuten Pairing. Besteht das Problem weiterhin, wenden Sie sich bitte an unseren Support.";

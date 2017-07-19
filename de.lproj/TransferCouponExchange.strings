@@ -18,7 +18,7 @@
 "Ibl-yS-jtl.text" = "Kauf erforderlich";
 
 /* Class = "UILabel"; text = "With Cascable Transfer for Mac, you can import photos from your WiFi-enabled camera straight into Photos, Lightroom, or anywhere else on your Mac.\n\nIf you've purchased Cascable Pro, you're eligible for a 50% discount on your purchase of Cascable Transfer!"; ObjectID = "M8T-9m-CnC"; */
-"M8T-9m-CnC.text" = "Mit Cascable Transfer for Mac können Sie Fotos von Ihrer WLAN-fähigen Kamera direkt in die Fotos-App, in Lightroom oder an einen anderen Speicherort auf Ihrem Mac importieren.\n\nWenn Sie mindestens ein Cascable Pro Paket gekauft haben, können Sie Cascable Transfer 50% günstiger erhalten.";
+"M8T-9m-CnC.text" = "Mit Cascable Transfer for Mac können Sie Fotos von Ihrer WLAN-fähigen Kamera direkt in die Fotos-App, in Lightroom oder an einen anderen Speicherort auf Ihrem Mac importieren.\n\nWenn Sie Cascable Pro gekauft haben, erhalten Sie Cascable Transfer 50% günstiger.";
 
 /* Class = "UIButton"; normalTitle = "Request Discount"; ObjectID = "cMe-Gt-Iee"; */
 "cMe-Gt-Iee.normalTitle" = "Rabatt anfordern";
@@ -30,10 +30,10 @@
 "kbN-LZ-vFH.text" = "Ihr Kauf wurde verifiziert. Sie sind nun für einen vergünstigten Kauf von Cascable Transfer berechtigt!\n\nIhr Rabattcode lautet:";
 
 /* Class = "UILabel"; text = "Unfortunately, it appears that you are not eligible for the Cascable Transfer discount at this time.\n\nIf you have purchased Cascable Pro and have restored them to this device, please contact Cascable support for help."; ObjectID = "lSk-K2-rlU"; */
-"lSk-K2-rlU.text" = "Scheinbar sind Sie aktuell leider nicht berechtigt, Cascable Transfer zu einem reduzierten Preis zu kaufen.\n\nSollten Sie ein Cascable Pro Paket (oder mehrere) gekauft und diese(s) auf diesem Gerät wiederhergestellt haben, wenden Sie sich bitte an den Cascable Support.";
+"lSk-K2-rlU.text" = "Anscheinend sind Sie aktuell leider nicht berechtigt, Cascable Transfer zu einem reduzierten Preis zu kaufen.\n\nSollten Sie Cascable Pro gekauft und dieses auf diesem Gerät wiederhergestellt haben, wenden Sie sich bitte an den Cascable Support.";
 
 /* Class = "UILabel"; text = "In order to be eligible for a discount on Cascable Transfer for Mac, you must have purchased Cascable Pro.\n\nIf this is a new device and you have already purchased Cascable Pro, you can restore your purchases to this device."; ObjectID = "lbq-6E-rep"; */
-"lbq-6E-rep.text" = "Um für einen vergünstigten Kauf von Cascable Transfer for Mac berechtigt zu sein, müssen Sie mindestens ein Cascable Pro Paket gekauft haben.\n\nSollte dies ein neues Gerät sein und Sie bereits ein Cascable Pro Paket gekauft haben, können Sie Ihre Käufe auf diesem Gerät wiederherstellen.";
+"lbq-6E-rep.text" = "Um für einen vergünstigten Kauf von Cascable Transfer for Mac berechtigt zu sein, müssen Sie Cascable Pro gekauft haben.\n\nSollte dies ein neues Gerät sein und Sie bereits Cascable Pro gekauft haben, können Sie Ihre Käufe auf diesem Gerät wiederherstellen.";
 
 /* Class = "UILabel"; text = "Request Your Discount"; ObjectID = "oEc-Jx-Tdf"; */
 "oEc-Jx-Tdf.text" = "Rabatt anfordern";

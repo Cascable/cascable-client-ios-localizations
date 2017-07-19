@@ -60,13 +60,13 @@
 "se.cascable.ios.subscriptions.group-displayname" = "Pro-Funktionen";
 
 /* The display name of the monthly "full unlock" subscription. Limited to 30 characters. */
-"se.cascable.ios.everythingsubscription-displayname" = "Alles entsperren";
+"se.cascable.ios.everythingsubscription-displayname" = "Cascable Pro";
 
 /* The display description of the monthly "full unlock" subscription. Limited to 45 characters. */
 "se.cascable.ios.everythingsubscription-displaydescription" = "Entsperren Sie alle Funktionen in Cascable!";
 
 /* The display name of the quarterly "full unlock" subscription. Limited to 30 characters. */
-"se.cascable.ios.everythingsubscription.quarterly-displayname" = "Alles entsperren";
+"se.cascable.ios.everythingsubscription.quarterly-displayname" = "Cascable Pro";
 
 /* The display description of the quarterly "full unlock" subscription. Limited to 45 characters. */
 "se.cascable.ios.everythingsubscription.quarterly-displaydescription" = "Entsperren Sie alle Funktionen in Cascable!";
