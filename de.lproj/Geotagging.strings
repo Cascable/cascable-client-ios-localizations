@@ -14,6 +14,9 @@
 /* Class = "UIButton"; normalTitle = "Start"; ObjectID = "JQU-wE-dVM"; */
 "JQU-wE-dVM.normalTitle" = "Starten";
 
+/* Class = "UIButton"; normalTitle = "Tag Manually"; ObjectID = "LL8-7W-a7z"; */
+"LL8-7W-a7z.normalTitle" = "Manuell taggen";
+
 /* Class = "UILabel"; text = "Recorded tracks"; ObjectID = "QGa-FC-eZ2"; */
 "QGa-FC-eZ2.text" = "Aufgezeichnete Routen";
 
@@ -25,9 +28,6 @@
 
 /* Class = "UILabel"; text = "Session"; ObjectID = "ayN-eg-nOl"; */
 "ayN-eg-nOl.text" = "Session";
-
-/* Class = "UIButton"; normalTitle = "Tag Manually"; ObjectID = "eP0-2P-WPY"; */
-"eP0-2P-WPY.normalTitle" = "Manuell taggen";
 
 /* Class = "UILabel"; text = "\"Walking in Yosemite\" takes place between 18:36 and 19:57."; ObjectID = "f5s-El-fdl"; */
 "f5s-El-fdl.text" = "„Wandern in Yosemite\" findet statt zwischen 18:36 und 19:57.";
@@ -47,11 +47,11 @@
 /* Class = "UILabel"; text = "You have no images to tag!"; ObjectID = "qNA-pF-78i"; */
 "qNA-pF-78i.text" = "Sie haben keine Fotos zum Taggen!";
 
+/* Class = "UIButton"; normalTitle = "View Tracks"; ObjectID = "qbo-iC-O3Z"; */
+"qbo-iC-O3Z.normalTitle" = "Routen …";
+
 /* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "r9N-pS-bi9"; */
 "r9N-pS-bi9.title" = "Abbrechen";
-
-/* Class = "UIButton"; normalTitle = "Tracks…"; ObjectID = "yYp-W1-Tvr"; */
-"yYp-W1-Tvr.normalTitle" = "Tracking …";
 
 /* Class = "UILabel"; text = "Select and drag photos to the map"; ObjectID = "zKg-CH-tII"; */
 "zKg-CH-tII.text" = "Wählen und ziehen Sie Fotos auf die Karte";
