@@ -1316,7 +1316,7 @@
 "NotifyOnDisconnectTitle" = "Beim Trennen mitteilen";
 
 /* Title of the 'Sync Camera Clock' setting. */
-"SyncCameraClockOnConnectionTitle" = "Kamerauhr synchronisieren (wenn verfügbar)";
+"SyncCameraClockOnConnectionTitle" = "Kamerauhr synchronisieren";
 
 /* Footer text for the 'Sync Camera Clock' setting. */
 "SyncCameraClockFooter" = "Uhr-Synchronisierung ist verfügbar für Nikon, Olympus und einige Canon Kameras.";
