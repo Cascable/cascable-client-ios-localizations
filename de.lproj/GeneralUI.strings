@@ -96,6 +96,9 @@
 /* Subtitle of the files mode warning that no files are on the camera's SD card. */
 "NoFilesAvailableDescription" = "Auf Ihrer Kamera befinden sich keine Fotos. Legen Sie los!";
 
+/* Subtitle of the files mode warning that no files are on the camera's SD card due to being unavailable. */
+"NoFilesExceptUnsupportedRAWAvailableDescription" = "Ihre Kamera enthält nur RAW-Bilder, unterstützt jedoch keine Übertragung von RAW über WLAN. Stellen Sie Ihre Kamera auf RAW+JPEG, um Bilder sehen zu können.";
+
 /* Title of the files mode warning that the camera doesn't allow file access. */
 "NoFileTransferSupportTitle" = "Dateizugriff nicht unterstützt";
 
@@ -199,6 +202,10 @@
 /* Label to show the photo is a RAW file. */
 "RAWFileTypeLabel" = "RAW";
 
+// ------------------------------------------------------------
+//     Files Mode: Downloading
+// ------------------------------------------------------------
+
 /* Alert prompt when asking the user which files to copy when photos have more than one file. */
 "MultipleVariantsCopyPromptTitle" = "Mehrere Dateien zum Kopieren";
 
@@ -222,6 +229,15 @@
 
 /* "Copy both" response when asking the user which files to copy when photos have more than one file. */
 "MultipleVariantsCopyBothFilesButtonTitle" = "Beide kopieren";
+
+/* Title of the dialog presented if the user attempts to perform an operation before photo metadata has completed loading. */
+"LoadingMetadataBeforeOperationAlertTitle" = "Fotodetails werden geladen …";
+
+/* Message of the dialog presented if the user attempts to perform an operation before photo metadata has completed loading. */
+"LoadingMetadataBeforeOperationAlertMessage" = "Bevor dieser Vorgang fortgesetzt werden kann, muss Cascable die Details zu Ihren Fotos von der Kamera laden.";
+
+/* Label for the progress bar in the dialog presented if the user attempts to perform an operation before photo metadata has completed loading. */
+"LoadingMetadataBeforeOperationAlertProgressLabel" = "Wird geladen …";
 
 // ------------------------------------------------------------
 //     Files Mode: Deletion
@@ -416,10 +432,10 @@
 "FilterSelectThisWeekTimespanTitle" = "Diese Woche erstellt";
 
 /* 'Is Anywhere' device location filter title. */
-"FilterSelectAnyDeviceLocationTitle" = "Ist irgendwo";
+"FilterSelectAnyDeviceLocationTitle" = "Irgendwo";
 
 /* 'Is Not On This iPhone' device location filter title. */
-"FilterSelectNotOnThisDeviceLocationFormatter" = "Ist nicht auf diesem %@";
+"FilterSelectNotOnThisDeviceLocationFormatter" = "Nicht auf diesem %@";
 
 /* 'Quick Select' popup title. */
 "FilterViewControllerTitle" = "Schnellauswahl";
@@ -459,8 +475,8 @@
 /* The title of the 'Edit' button for the Quick Proof feature. */
 "QuickProofEditButtonTitle" = "Bearbeiten";
 
-/* The title of the fullscreen image view during editing. Ex: 'Quick Proof — IMG_0001.JPG'. */
-"FullScreenImagePreviewWhileEditingTitle" = "Schnellprüfung";
+/* The title of the fullscreen image view during editing. Ex: 'Quick Proof'. */
+"FullScreenImagePreviewWhileEditingTitle" = "Quick Proof";
 
 /* The title of the alert presented when the user is unable to edit an image. */
 "QuickProofUnavailableAlertTitle" = "Schnellprüfung nicht verfügbar";
@@ -472,10 +488,10 @@
 "QuickProofUnavailableDeviceTooOldMessage" = "Für die Nutzung der Schnellprüfung ist ein iPhone 6, iPad Air 2, iPad mini 4 oder ein iPod touch der 6. Generation (oder jeweils neuere Modelle) erforderlich.";
 
 /* The message of the alert presented when the user is unable to edit an image due to an unsupported image type. */
-"QuickProofUnavailableUnsupportedImageMessage" = "Die Schnellprüfung unterstützt Bilder dieser Art nicht.";
+"QuickProofUnavailableUnsupportedImageMessage" = "Quick Proof unterstützt Bilder dieser Art nicht. Wenn Sie mit RAW-Dateien von einer kürzlich hinzugefügten Kamera arbeiten, wird diese Unterstützung eventuell in einem kommenden iOS-Update hinzugefügt.";
 
-/* The message of the alert presented when the user is unable to edit an image due to not having the required Pro pack. */
-"QuickProofUnavailableNeedsProPackMessage" = "Die Schnellprüfung ist eine Funktion von Cascable Pro: Foto-Management.";
+/* The message of the alert presented when the user is unable to edit an image due to not having Cascable Pro. */
+"QuickProofUnavailableNeedsProMessage" = "Quick Proof ist eine Funktion von Cascable Pro.";
 
 /* The message of the alert presented when the user is unable to edit an image due to enabling the 'Use Legacy Image Renderer' setting. */
 "QuickProofUnavailableNeedsModernRendererMessage" = "Wenn Sie die Einstellung „Alten Bild-Renderer verwenden“ aktiviert haben, ist die Schnellprüfung nicht verfügbar.";
@@ -484,7 +500,7 @@
 "QuickProofUsingFallbackJPEGTitle" = "JPEG wird bearbeitet";
 
 /* The alert message used when the user is editing a JPEG file due to iOS not supporting their camera's RAW files. */
-"QuickProofUsingFallbackJPEGMessage" = "RAW-Dateien von dieser Kamera werden in dieser Version von iOS nicht unterstützt, daher verwendet Schnellprüfung stattdessen die JPEG-Datei.\n\nIn einem kommenden iOS-Update könnte eventuell die Unterstützung für RAW-Dateien von Ihrer Kamera enthalten sein.";
+"QuickProofUsingFallbackJPEGMessage" = "RAW-Bilder von dieser Kamera werden von dieser iOS-Version nicht unterstützt. Quick Proof verwendet stattdessen die JPEG-Datei.\n\nIn einem künftigen iOS-Update könnte Unterstützung für RAW-Bilder Ihrer Kamera enthalten sein.";
 
 /* Edit tool titles */
 "ExposureEditToolTitle" = "Belichtung";
@@ -497,6 +513,9 @@
 "ContrastEditToolTitle" = "Kontrast";
 "IntensityEditToolTitle" = "Intensität";
 "RadiusEditToolTitle" = "Radius";
+"FlipVerticalEditToolTitle" = "Vertikal spiegeln";
+"FlipHorizontalEditToolTitle" = "Horizontal spiegeln";
+"RotationEditToolTitle" = "Drehung";
 
 // ------------------------------------------------------------
 //     Help and First Run
@@ -808,62 +827,74 @@
 /* Title for 'PRO' buttons. Must be short. */
 "ProButtonTitle" = "PRO";
 
-/* Title of the 'Buy' buttons. Ex: 'Buy for $9.99'. */
-"BuyButtonFormatter" = "Für %@ kaufen";
-
-/* Title of the bundle savings label. Ex: 'Save $5.00!'. */
-"BundleSavingsLabelFormatter" = "Sparen Sie %@!";
-
 /* Explanation of needing to make a purchase to remote preview photos. */
-"RemotePreviewUnavailableDescription" = "Die Vorschau von Fotos direkt auf Ihrer Kamera ist eine Funktion von Cascable Pro: Fotomanagement.";
+"RemotePreviewUnavailableDescription" = "Die Vorschau von Fotos direkt auf Ihrer Kamera ist eine Funktion von Cascable Pro.";
 
-/* Title of the alert informing the user of the feature bundle. */
-"BundleUpsellAlertTitle" = "Ebenfalls im Pro-Bundle enthalten";
+/* Name of the product in the purchases list */
+"OfflineProductName" = "Cascable Pro";
 
-/* Message of the alert informing the user of the feature bundle. */
-"BundleUpsellAlertDescription" = "Diese Funktion ist im Cascable Pro Bundle enthalten, das alle Pro-Funktionen zu einem günstigeren Preis beinhaltet.\n\nHINWEIS: Sobald Sie eine einzelne Funktion kaufen, können Sie dieses Bundle nicht mehr erwerben.";
+/* Product subtitle when no existing purchases are present. */
+"OfflineProductNoExistingPurchasesSubtitle" = "Kaufen oder Abonnieren!";
 
-/* Title of the of the 'View Pro Bundle' button in the bundle alert. */
-"BundleUpsellViewBundleButtonTitle" = "Pro-Bundle ansehen";
+/* Product subtitle when the user purchased a full unlock in an older version. */
+"OfflineProductGrandfatheredFullUnlockSubtitle" = "Alle Funktionen freigeschaltet.";
 
-/* Title of the of the 'Buy anyway' button in the bundle alert. Ex: 'Buy just this for $9.99'. */
-"BundleUpsellBuyAnywayButtonTitle" = "Nur diese Funktion für %@ kaufen";
+/* Product subtitle when the user purchased some feature packs in an earlier version and can upgrade at a discount. */
+"OfflineProductDiscountAvailableSubtitle" = "Vergünstigtes Upgrade verfügbar!";
+
+/* Product subtitle when the user has purchased a full unlock in 3.x. */
+"OfflineProductPurchasedSubtitle" = "Alle Funktionen freigeschaltet.";
+
+/* Product subtitle when the user is subscribed with a quarterly subscription. */
+"OfflineProductQuarterlySubscriptionSubtitle" = "Abonnement aktiv.";
+
+/* Product subtitle when the user is subscribed with a monthly subscription. */
+"OfflineProductMonthlySubscriptionSubtitle" = "Abonnement aktiv.";
 
 /* Title of the "Purchases" section of the settings section of the app. */
 "PurchasesSettingsSectionTitle" = "Einkäufe";
 
 /* Title of the 'More Info…' button next to unpurchased items. */
-"PackNotPurchasedButtonTitle" = "Details …";
+"ProductMoreInfoButtonTitle" = "Weitere Informationen …";
 
 /* Title of the "Restore Purchases…" button. Should follow Apple guidelines for this process. */
 "RestorePurchasesButtonTitle" = "Einkäufe wiederherstellen …";
 
+/* Title of the "Manage Subscriptions…" button. */
+"ManageSubscriptionsRowTitle" = "Abos verwalten …";
+
 /* Explanation text for the "Restore Purchases" feature. */
-"RestorePurchasesSectionFooter" = "Wenn Sie bereits eine oder mehrere Pro Funktionen von Cascable gekauft haben, können Sie sie auf diesem Gerät wiederherstellen.";
-
-/* Header text for the list of feature packs if the bundle is available. */
-"ProPackIncludesSectionTitle" = "Das Paket beinhaltet:";
-
-/* Offline title of the "Pro: Remote Control" feature pack. */
-"se.cascable.ios.remotemodeunlockOfflineProductTitle" = "Pro: Fernbedienung";
-
-/* Offline title of the "Pro: Photo Management" feature pack. */
-"se.cascable.ios.filesmodeunlockOfflineProductTitle" = "Pro: Fotomanagement";
-
-/* Offline title of the "Pro: Night Mode" feature pack. */
-"se.cascable.ios.nightmodeOfflineProductTitle" = "Pro: Nachtmodus";
-
-/* Offline title of the feature pack bundle. */
-"se.cascable.ios.everythingunlockOfflineProductTitle" = "Pro: Komplettes Paket";
+"RestorePurchasesSectionFooter" = "Wenn Sie bereits Cascable Pro gekauft haben, können Sie Ihren Kauf auf diesem Gerät wiederherstellen.";
 
 /* Header text for the purchases section when no items have been purchased. */
-"NoPurchasesMadeHeader" = "Mit dem Kauf von Cascable Funktionspaketen erhalten Sie Zugriff auf zahlreiche neue Funktionen und unterstützen dabei gleichzeitig ein kleines unabhängiges Unternehmen.";
+"NoPurchasesMadeHeader" = "Mit dem Kauf von Cascable Pro erhalten Sie Zugriff auf zahlreiche neue Funktionen und unterstützen dabei gleichzeitig ein kleines unabhängiges Unternehmen.";
+
+/* Header text for the purchases section when some legacy items have been purchased and a discounted upgrade is available. */
+"SomeLegacyPurchasesMadeHeader" = "Vielen Dank für Ihre Unterstützung! Ihre bisherigen Käufe sind auch weiterhin aktiv, und Sie können das Upgrade zu dieser Version zu einem günstigeren Preis erwerben!";
 
 /* Header text for the purchases section when the user has a free upgrade due to purchasing Cascable 1.x. */
-"PurchasesGrandfatheredUserHeader" = "Vielen Dank für das schnelle Upgrade! Als Nutzer von Cascable 1.x erhalten Sie dieses Upgrade kostenlos!";
+"PurchasesGrandfatheredUserHeader" = "Vielen Dank für das schnelle Upgrade! Als Nutzer von früheren Versionen von Cascable mit In-App-Käufen erhalten Sie dieses Upgrade kostenlos!";
 
 /* Header text for the purchases section when the user has purchased one or more items. */
 "PurchasesMadeHeader" = "Wir bedanken uns für Ihre Unterstützung! Ihr Kauf hilft einem kleinen unabhängigen Unternehmen. Ohne Sie könnten wir nicht weitermachen!";
+
+/* Purchase button main title for a one-time purchase. */
+"PurchaseButtonOneTimePurchaseHeadline" = "Einmaliger Kauf";
+
+/* Purchase button main title for a discounted upgrade. */
+"PurchaseButtonDiscountedUpgradeHeadline" = "Vergünstigtes Upgrade";
+
+/* Purchase button main title for a three day trial. */
+"PurchaseButtonThreeDayTrialHeadline" = "Drei Tage KOSTENLOSE Demo!";
+
+/* Purchase button main title for a one week trial. */
+"PurchaseButtonOneWeekTrialHeadline" = "Eine Woche KOSTENLOSE Demo!";
+
+/* Purchase button sub-title for a monthly subscription. E.g.: "then $2.99 per month, billed monthly". */
+"PurchaseButtonMonthlySubscriptionSubheadline" = "danach %@ pro Monat, monatlich abgerechnet";
+
+/* Purchase button sub-title for a quarterly subscription. E.g.: "then $1.99 per month, billed quarterly". */
+"PurchaseButtonQuarterlySubscriptionSubheadline" = "danach %@ pro Monat, vierteljährlich abgerechnet";
 
 // ------------------------------------------------------------
 //     Managing Selection
@@ -950,6 +981,9 @@
 /* Title of the 'Lock Viewfinder Orientation' option. */
 "LockViewfinderOrientationTitle" = "Suchfenster-Ausrichtung sperren";
 
+/* Title of the 'Show Highlight Warning' option. */
+"ShowHighlightWarningTitle" = "Belichtungswarnung anzeigen";
+
 /* Title of the 'Histogram' section of the overlays popup. */
 "HistogramSectionTitle" = "Histogramm";
 
@@ -1001,6 +1035,25 @@
 
 /* Plural name of a Shutter Robot sub-feature (self-timer, bracketing, etc). */
 "ShutterRobotModulesTitle" = "Module";
+
+// ------------------------------------------------------------
+//     Shutter Robot: Status
+// ------------------------------------------------------------
+
+"ShutterRobotStatusNotEngagedTitle" = "Shutter Robot ist nicht aktiviert.";
+"ShutterRobotStatusEngagedTitle" = "Shutter Robot ist aktiviert.";
+"ShutterRobotStatusRunningTitle" = "Shutter Robot ist aktiv …";
+
+"ShutterRobotDetailStatusTapToStartTitle" = "Tippen Sie zum Beginnen auf die Shutter Taste.";
+"ShutterRobotDetailStatusTapToSetupTitle" = "Tippen Sie auf den Shutter Robot in der Symbolleiste.";
+"ShutterRobotDetailStatusTakingShotTitle" = "Nehme auf …";
+"ShutterRobotDetailStatusFinishingTitle" = "Abschließen …";
+"ShutterRobotDetailStatusShotsRemainingTitle" = "%@ Foto verbleibend.";
+"ShutterRobotDetailStatusShotsRemainingTitle_Plural" = "%@ Fotos verbleiben.";
+"ShutterRobotDetailStatusTimeAndShotsRemainingTitle" = "Etwa %@ und %@ Foto verbleiben.";
+"ShutterRobotDetailStatusTimeAndShotsRemainingTitle_Plural" = "Etwa %@ und %@ Fotos verbleiben.";
+"ShutterRobotDetailStatusShotsTakenTitle" = "%@ Foto bisher erzeugt.";
+"ShutterRobotDetailStatusShotsTakenTitle_Plural" = "%@ Fotos bisher erzeugt.";
 
 // ------------------------------------------------------------
 //     Shutter Robot: Summary
@@ -1137,7 +1190,7 @@
 "BracketingRobotStopWholeStopIntervalTitle" = "Eine Stufe";
 
 /* Title of the 'Two stops' bracketing interval setting. */
-"BracketingRobotStopTwoStopsIntervalTitle" = "Zwei Stufen";
+"BracketingRobotStopTwoStopsIntervalTitle" = "Zwei Stopps";
 
 // ------------------------------------------------------------
 //     Shutter Robot: Configuration
@@ -1262,6 +1315,12 @@
 /* Title of the 'Notify on Disconnect' setting. */
 "NotifyOnDisconnectTitle" = "Beim Trennen mitteilen";
 
+/* Title of the 'Sync Camera Clock' setting. */
+"SyncCameraClockOnConnectionTitle" = "Kamerauhr synchronisieren";
+
+/* Footer text for the 'Sync Camera Clock' setting. */
+"SyncCameraClockFooter" = "Uhr-Synchronisierung ist verfügbar für Nikon, Olympus und einige Canon Kameras.";
+
 /* Text displayed in the notification to the user when Cascable has to disconnect from a camera due to background task expiration. */
 "DisconnectedAutomaticallyInBackgroundAlert" = "Cascable hat keine Verbindung mehr zu Ihrer Kamera, da es in den Hintergrund verschoben wurde. Starten Sie Cascable, um die Verbindung wieder herzustellen.";
 
@@ -1275,7 +1334,10 @@
 "ConnectionFailureTitle" = "Verbindungsfehler";
 
 /* Description of the alert informing the user of a connection failure. */
-"ConnectionFailureMessage" = "Verbindung zur Kamera fehlgeschlagen. Schalten Sie die Kamera aus und wieder ein und versuchen Sie es erneut. Sollte das Problem bestehen bleiben, melden Sie sich bitte bei uns.";
+"ConnectionFailureMessage" = "Verbindung zur Kamera fehlgeschlagen. Schalten Sie die Kamera aus und wieder ein und versuchen Sie es erneut. Sollte das Problem bestehen bleiben, wiederholen Sie das Pairing auf Ihrer Kamera, um eine neue Session für Cascable zu erstellen.";
+
+/* Description of the alert informing the user of a connection failure to a Fuji camera. */
+"FujiConnectionFailureMessage" = "Die Verbindung zu Ihrer Kamera wurde zurückgewiesen. Wenn Ihre Kamera mit einer anderen App oder einem anderen iOS-Gerät verwendet wurde, starten Sie die Kamera neu, aktivieren Sie WLAN und drücken Sie auf „OK - CHANGE“ zum erneuten Pairing. Besteht das Problem weiterhin, wenden Sie sich bitte an unseren Support.";
 
 /* Title of the alert informing the user that the camera pairing was cancelled on-camera. */
 "PairingCancelledTitle" = "Pairing abgebrochen";
@@ -1307,6 +1369,9 @@
 /* Extended footer text for when the device isn't connected to WiFi. Ex: 'Your iPad doesn't appear to be connected to a WiFi network.'. */
 "ConnectionNoNetworkDescription" = "Ihr %@ ist anscheinend mit keinem WLAN verbunden.";
 
+/* "Tap to open Wi-Fi settings" text. */
+"ConnectionOpenWiFiSettingsDescription" = "Tippen zum Öffnen der WLAN-Einstellungen.";
+
 /* Title of the alert displayed when pairing is in progress and the user needs to operate the camera directly. */
 "SwitchToCameraTitle" = "Zur Kamera wechseln";
 
@@ -1315,3 +1380,196 @@
 
 /* Title of the 'Cancel Pairing' button. */
 "CancelPairingTitle" = "Pairing abbrechen";
+
+// ------------------------------------------------------------
+//     Geotagging: General
+// ------------------------------------------------------------
+
+/* The title of the Geotagging mode, as displayed in the header on iPhone layouts. */
+"GeotaggingModeTitle" = "Geotagging";
+
+/* The title of the Geotagging mode, as used in the settings section of the app. */
+"GeotaggingSettingsTitle" = "Geotagging";
+
+/* The title used in the Geotagging settings section for the 'Geotag Exported JPEGs' setting. */
+"ApplyGeotagsToExportsTitle" = "Geotagge exportierte JPEGs";
+
+/* The title used in the Geotagging settings section for the 'High Accuracy' tracking setting. */
+"HighAccuracyTrackingTitle" = "Hohe Genauigkeit";
+
+/* The title used in the Geotagging settings section for the 'Notify Tracking Status' tracking setting. */
+"NotifyOfTrackingInterruptionsInBackgroundTitle" = "Auf Trackingstatus hinweisen";
+
+/* The section title used in Geotagging settings for the section regarding exporting tagged images. */
+"GeotaggingSettingsFileHandlingSectionTitle" = "Getaggte Bilder werden exportiert";
+
+/* The section title used in Geotagging settings for the section regarding location tracking. */
+"GeotaggingSettingsTrackingSectionTitle" = "Tracking";
+
+/* The section footer of the file handling section of Geotagging settings. */
+"GeotaggingSettingsFileHandlingSectionFooter" = "Ist diese Einstellung aktiv, werden Geotags beim Export aus Cascable in die JPEG-Bilder eingefügt. Cascable verändert niemals die RAW-Dateien.";
+
+/* The section footer of the tracking section of Geotagging settings. */
+"GeotaggingSettingsTrackingSectionFooter" = "Dauerhafte Nutzung von GPS im Hintergrund kann zu einer schnelleren Entladung der Batterie führen.";
+
+/* The body text of the notification given when location tracking has been stopped while running in the background. */
+"GeotaggingTrackingStoppedNotificationBody" = "Standortbestimmung wurde deaktiviert. Starten Sie Cascable neu, um die Funktion zu aktivieren.";
+
+/* The body text of the notification given when location tracking is running while Cascable is in the background. */
+"GeotaggingTrackingInBackgroundNotificationBody" = "Standortbestimmung ist im Hintergrund aktiv.";
+
+// ------------------------------------------------------------
+//     Geotagging: Maps and Pins
+// ------------------------------------------------------------
+
+/* The title used when undoing moving a geotag. */
+"UndoMoveGeotagTitle" = "Geotag verschieben";
+"UndoMoveGeotagTitle_Plural" = "%@ Geotags bewegen";
+
+/* The title used when undoing applying a new geotag. */
+"UndoApplyGeotagTitle" = "Geotag wird angewandt";
+"UndoApplyGeotagTitle_Plural" = "Geotags auf %@ Fotos anwenden";
+
+/* The title used when undoing deleting a geotag. */
+"UndoDeleteGeotagTitle" = "Geotag wird gelöscht";
+"UndoDeleteGeotagTitle_Plural" = "Geotags von %@ Fotos werden gelöscht";
+
+/* The title of the "Are you sure?" dialog for deleting geotags. */
+"DeleteGeotagsAlertTitle" = "Geotags löschen";
+
+/* The message body of the "Are you sure?" dialog for deleting geotags. */
+"DeleteGeotagsAlertMessage" = "Es gibt %@ Fotos für diesen Standort. Möchten Sie die Geotags von diesem Foto oder von allen Fotos an diesem Standort entfernen?";
+
+/* The button title for the 'Delete all geotags' option. This must be very short. */
+"DeleteGeotagsAllAtLocationTitle" = "Alle";
+
+/* The button title for the 'Delete just this geotag' option. This must be very short. */
+"DeleteGeotagsJustThisPhotoTitle" = "Nur diesen";
+
+/* The placeholder text used displayed when the user has no images and attempts to use the geotagging feature. */
+"NoTaggableImagesTitle" = "Keine Fotos zum Taggen!";
+
+/* The placeholder text used displayed when all of the user's images are already geotagged. */
+"AllImagesTaggedTitle" = "Alle Fotos sind getaggt!";
+
+/* Title text for the drag and drop image picker when Geotagging */
+"SelectAndDragToMapTitle" = "Wählen und ziehen Sie Fotos in die Karte";
+
+/* Title text for the drag cancellation area */
+"DropToCancelTitle" = "Hierher ziehen zum Abbrechen";
+
+/* Title text when viewing a single image on the map. */
+"CalloutOneImageTitle" = "Getaggtes Bild";
+
+/* Title text when viewing a multiple images at the same place on the map. */
+"CalloutMultipleImagesTitle" = "%@ von %@ Bildern";
+
+// ------------------------------------------------------------
+//     Geotagging: GPX
+// ------------------------------------------------------------
+
+/* Title text displayed when generating a GPX file. */
+"GeneratingGPXTitle" = "GPX-Datei wird erstellt …";
+
+/* Title text explaining that GPX export requires Cascable Pro. */
+"GPXExportUnavailableNeedsProTitle" = "Für den Export von Strecken als GPX-Datei wird Cascable Pro benötigt.";
+
+/* Title text displayed when importing a GPX file. */
+"ImportingGPXTitle" = "GPX-Datei wird importiert …";
+
+// ------------------------------------------------------------
+//     Geotagging: Track Matching
+// ------------------------------------------------------------
+
+/* Title for the 'Timezone Adjust' feature dialog. */
+"TimezoneAdjustTitle" = "Zeitzonenanpassung";
+
+/* Placeholder text for then no timezone adjustment has been made. */
+"NoTimezoneAdjustDescription" = "Ohne";
+
+/* Title text for timezone adjust by hours. */
+"TimeZoneAdjustDescription" = "%@ Stunde";
+"TimeZoneAdjustDescription_Plural" = "%@ Stunden";
+
+/* Explanation text for displaying a photo's original date and time. */
+"TimeZoneAdjustOriginalPhotoTimestampDescription" = "Der ursprüngliche Zeitstempel dieses Fotos ist %@ am %@.";
+
+/* Placeholder text for displaying a photo's original date and time when those values are unavailable. */
+"TimeZoneAdjustPhotoNoTimestampDescription" = "Dieses Foto verfügt über keinen Zeitstempel.";
+
+/* Explanation text for displaying a photo's adjusted date and time. */
+"TimeZoneAdjustAdjustedPhotoTimestampDescription" = "Der neue Zeitstempel dieses Fotos ist %@ am %@.";
+
+/* Placeholder text for displaying a location tracking session's name when there is no name available. */
+"TimeZoneAdjustMissingSessionNameReplacement" = "Diese Session";
+
+/* Explanation text for a location tracking session's timespan. E.g.: "Kickass Walk Around The Lake takes place between 13:10 and 14:58 on 3rd January 2017." */
+"TimeZoneAdjustSessionRangeSingleDayDescription" = "%@ findet statt zwischen %@ und %@ am %@.";
+
+/* Explanation text for a location tracking session's timespan when it spans multiple days. E.g.: "Kickass Walk Around The Lake takes place between 13:10 on 2nd January 2017 and 14:58 on 3rd January 2017." */
+"TimeZoneAdjustSessionRangeMultipleDaysDescription" = "%@ findet statt zwischen %@ am %@ und %@ am %@.";
+
+/* Button title for applying geotags to photos. E.g.: "Apply Geotags to 2 Photos". */
+"TrackMatchingButtonTitle" = "Geotags zu %@ Foto hinzufügen";
+"TrackMatchingButtonTitle_Plural" = "Geotags zu %@ Fotos hinzufügen";
+
+/* Dialog title for trying to apply geotags to photos as a free user. */
+"TrackmatchingRequiresProAlertTitle" = "Benötigt Cascable Pro";
+
+/* Dialog message for trying to apply geotags to photos as a free user. */
+"TrackmatchingRequiresProAlertMessage" = "Das automatische Einfügen von Geotags in Fotos ist eine Funktion von Cascable Pro.";
+
+/* Placeholder button title for applying geotags when there are no matching photos. */
+"TrackMatchingNoMatchesButtonTitle" = "Keine passenden Fotos";
+
+/* Title text for geotag matching fine tuning. */
+"TrackMatchingFineTuningSectionTitle" = "Feintuning";
+
+// ------------------------------------------------------------
+//     Geotagging: Tracking Location
+// ------------------------------------------------------------
+
+/* Placeholder title for a tracking session when the location could not be reverse-geocoded. */
+"UntitledTrackingSessionName" = "Unbenannt";
+
+/* Tracking session title when displaying by date. */
+"TrackingSessionNameByDate" = "Session gestartet um %@";
+
+/* Tracking session title when displaying by place. */
+"TrackingSessionNameByPlace" = "Session gestartet um %@";
+
+/* Error title for location tracking failing. */
+"TrackingSessionErrorTitle" = "Standortbestimmung nicht möglich";
+
+/* Generic error description for location tracking failing. */
+"TrackingSessionGenericFailureErrorDescription" = "Ihr Standort konnte nicht bestimmt werden. Stellen Sie in der Einstellungen App sicher, dass Cascable auf Ihren Standort zugreifen darf.";
+
+/* Error title for location tracking failing due to the app not having location permissions. */
+"TrackingSessionErrorLocationAccessDeniedTitle" = "Standortzugriff erforderlich";
+
+/* Error description for location tracking failing due to the app not having location permissions. */
+"TrackingSessionErrorLocationAccessDeniedDescription" = "Für eine Routenaufzeichnung benötigt Cascable Zugriff auf Ihren Standort. Öffnen Sie dazu bitte die Einstellungen App und setzen Sie die Standortfreigabe für Cascable auf ‚Immer‘.\n\nCascable greift nur dann auf Ihren Standort zu, wenn Sie es ausdrücklich genehmigen.";
+
+/* Title text when the app is tracking the user's location for geotagging. */
+"TrackingSessionLoggingActiveTitle" = "Standortbestimmung aktiv";
+
+/* Title text when the app is not tracking the user's location for geotagging. */
+"TrackingSessionLoggingInactiveTitle" = "Standortbestimmung nicht aktiv";
+
+/* Button title for starting location tracking for geotagging. */
+"TrackingSessionStartButtonTitle" = "Starten";
+
+/* Button title for stopping location tracking for geotagging. */
+"TrackingSessionStopButtonTitle" = "Stoppen";
+
+/* Alert title for asking the user whether or not to notify them about location tracking events while in the background. */
+"TrackingNotificationAskTitle" = "Über Standortsuche im Hintergrund informieren?";
+
+/* Alert description for asking the user whether or not to notify them about location tracking events while in the background. */
+"TrackingNotificationAskDescription" = "Cascable kann Sie über den Status der Standortbestimmung im Hintergrund informieren, wenn Sie dies möchten.";
+
+/* Button title for not notifying the user about location tracking events. */
+"TrackingNotificationAskNoNotifyButtonTitle" = "Keine Mitteilungen";
+
+/* Button title for notifying the user about location tracking events. */
+"TrackingNotificationAskDoNotifyButtonTitle" = "Informieren";

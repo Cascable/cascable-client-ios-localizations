@@ -17,8 +17,8 @@
 /* Class = "UIViewController"; title = "Inbox Item Title"; ObjectID = "jOd-J0-dKL"; */
 "jOd-J0-dKL.title" = "Inbox Item Title";
 
-/* Class = "UILabel"; text = "The announcements section contains updates, news and tips straight from Cascable HQ."; ObjectID = "qiJ-SV-6R9"; */
-"qiJ-SV-6R9.text" = "Der Bereich Ankündigungen enthält Updates, Neuigkeiten und Tipps zu Cascable.";
+/* Class = "UILabel"; text = "The announcements channel contains updates, news and tips straight from Cascable HQ."; ObjectID = "qiJ-SV-6R9"; */
+"qiJ-SV-6R9.text" = "Der Bereich Ankündigungen enthält Updates, Neuigkeiten und Tipps direkt aus dem Cascable HQ.";
 
 /* Class = "UINavigationItem"; title = "Announcements"; ObjectID = "yZW-An-lac"; */
 "yZW-An-lac.title" = "Ankündigungen";
