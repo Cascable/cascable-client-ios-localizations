@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="RGR-sL-0NK">
-    <device id="ipad9_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,11 +18,11 @@
                         <viewControllerLayoutGuide type="bottom" id="X4M-TW-MIc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="pGH-O9-s7L">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oGQ-bk-v8S" userLabel="Top Toolbar">
-                                <rect key="frame" x="0.0" y="20" width="768" height="40"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="40"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ix7-ef-dl6" userLabel="Compact Calculations Button">
                                         <rect key="frame" x="48" y="1" width="29" height="38"/>
@@ -61,13 +61,13 @@
                                         </connections>
                                     </button>
                                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="skm-Vu-m0p" userLabel="Connection Indiciator Container">
-                                        <rect key="frame" x="10" y="0.0" width="120" height="40"/>
+                                        <rect key="frame" x="147" y="0.0" width="120" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="120" placeholder="YES" id="094-Wn-QES"/>
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WoX-km-S7R" userLabel="Help Button">
-                                        <rect key="frame" x="686" y="4" width="30" height="32"/>
+                                        <rect key="frame" x="342" y="4" width="30" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="30" id="g24-ez-IBY"/>
                                         </constraints>
@@ -89,7 +89,7 @@
                                         </connections>
                                     </segmentedControl>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehd-9a-Fc2" userLabel="Settings Button">
-                                        <rect key="frame" x="718" y="4" width="30" height="32"/>
+                                        <rect key="frame" x="374" y="4" width="30" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="30" id="ufo-MW-TwZ"/>
                                         </constraints>
@@ -107,9 +107,9 @@
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DkA-Js-yuH" userLabel="Compact Calculations Button">
-                                        <rect key="frame" x="79" y="1" width="29" height="38"/>
-                                        <state key="normal" image="GeotaggingModeToolbarIcon">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DkA-Js-yuH" userLabel="Compact Geotagging Button">
+                                        <rect key="frame" x="87" y="1" width="27" height="38"/>
+                                        <state key="normal" image="AlternateGeotaggingModeToolbarIcon">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
@@ -140,7 +140,7 @@
                                     <constraint firstItem="WoX-km-S7R" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="skm-Vu-m0p" secondAttribute="trailing" constant="10" id="mD3-ts-a8b"/>
                                     <constraint firstItem="ehd-9a-Fc2" firstAttribute="leading" secondItem="WoX-km-S7R" secondAttribute="trailing" constant="2" id="mc0-Qz-fD5"/>
                                     <constraint firstItem="ehd-9a-Fc2" firstAttribute="centerY" secondItem="oGQ-bk-v8S" secondAttribute="centerY" id="o6D-kd-V5Y"/>
-                                    <constraint firstItem="DkA-Js-yuH" firstAttribute="leading" secondItem="Ix7-ef-dl6" secondAttribute="trailing" constant="2" id="q72-11-X1b"/>
+                                    <constraint firstItem="DkA-Js-yuH" firstAttribute="leading" secondItem="Ix7-ef-dl6" secondAttribute="trailing" constant="10" id="q72-11-X1b"/>
                                     <constraint firstItem="CUI-Mo-Mn2" firstAttribute="centerX" secondItem="oGQ-bk-v8S" secondAttribute="centerX" id="sj7-Mf-Yki"/>
                                     <constraint firstItem="xve-Am-xCF" firstAttribute="centerY" secondItem="oGQ-bk-v8S" secondAttribute="centerY" id="tLY-jH-jdY"/>
                                     <constraint firstItem="skm-Vu-m0p" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="DkA-Js-yuH" secondAttribute="trailing" constant="10" id="yUp-QO-Qv6"/>
@@ -218,13 +218,13 @@
                                 </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ija-rf-a7A" customClass="CBLHairlineDividerView">
-                                <rect key="frame" x="0.0" y="60" width="768" height="1"/>
+                                <rect key="frame" x="0.0" y="60" width="414" height="1"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="c98-ay-bgp"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="01F-rj-SDu" userLabel="Mode Container View">
-                                <rect key="frame" x="0.0" y="61" width="768" height="963"/>
+                                <rect key="frame" x="0.0" y="61" width="414" height="675"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
@@ -274,13 +274,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EKx-fb-8Px" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28" y="424"/>
+            <point key="canvasLocation" x="27.536231884057973" y="423.91304347826087"/>
         </scene>
     </scenes>
     <resources>
+        <image name="AlternateGeotaggingModeToolbarIcon" width="27" height="22"/>
         <image name="CalculationsModeToolbarIcon" width="29" height="21"/>
         <image name="FilesModeToolbarIcon" width="28" height="22"/>
-        <image name="GeotaggingModeToolbarIcon" width="29" height="22"/>
         <image name="Help" width="21" height="21"/>
         <image name="Settings" width="22" height="22"/>
     </resources>
