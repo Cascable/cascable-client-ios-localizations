@@ -30,7 +30,7 @@
                 <outlet property="restorePurchasesBottomConstraint" destination="FmK-Ry-pZi" id="X5E-Yw-UHn"/>
                 <outlet property="restorePurchasesContainer" destination="ydb-eS-eKh" id="7Np-Li-w2S"/>
                 <outlet property="subheaderLeftConstraint" destination="yMH-4F-o99" id="DZf-34-Zku"/>
-                <outlet property="videoPlayer" destination="C28-Qx-0nk" id="QRO-ix-dUn"/>
+                <outlet property="upsellCarouselContainer" destination="C28-Qx-0nk" id="uG4-iw-EKN"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Vbg-er-rTT"/>
                 <outletCollection property="themeableLabels" destination="85y-wF-KNG" collectionClass="NSMutableArray" id="Kcx-nV-rTe"/>
                 <outletCollection property="themeableLabels" destination="VXB-2Q-Ad4" collectionClass="NSMutableArray" id="b93-Bp-Vzb"/>
@@ -57,9 +57,8 @@
                         <userDefinedRuntimeAttribute type="boolean" keyPath="topLeft" value="YES"/>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C28-Qx-0nk" customClass="FeatureVideoPlayerView" customModule="Cascable" customModuleProvider="target">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C28-Qx-0nk">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="193"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="C28-Qx-0nk" secondAttribute="height" multiplier="1942:1000" id="0to-Iy-n7C"/>
                     </constraints>
