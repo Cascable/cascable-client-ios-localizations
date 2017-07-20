@@ -344,7 +344,7 @@ For more information on which models are supported, see the new in-app Help Cent
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avd-i8-4VS">
-                                <rect key="frame" x="20" y="91.5" width="280" height="171"/>
+                                <rect key="frame" x="20" y="199.5" width="280" height="171"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="DKp-AE-woS">
                                         <variation key="widthClass=compact" constant="280"/>
@@ -362,14 +362,23 @@ If you work with other geotagging tools, Cascable supports importing and exporti
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                 </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GeoFace" translatesAutoresizingMaskIntoConstraints="NO" id="EKZ-Ts-hyZ">
+                                <rect key="frame" x="100" y="91.5" width="120" height="88"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="avd-i8-4VS" firstAttribute="top" secondItem="KgJ-Oy-9xx" secondAttribute="bottom" constant="20" id="EXU-Op-byH"/>
                             <constraint firstAttribute="centerX" secondItem="avd-i8-4VS" secondAttribute="centerX" id="KXq-bY-MV0"/>
+                            <constraint firstItem="avd-i8-4VS" firstAttribute="top" secondItem="EKZ-Ts-hyZ" secondAttribute="bottom" constant="40" id="PiW-PM-Pgs">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
                             <constraint firstItem="KgJ-Oy-9xx" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dBV-Em-l5e" secondAttribute="leading" constant="20" id="TqB-EX-VA7"/>
                             <constraint firstItem="3fB-Y3-N5L" firstAttribute="top" secondItem="7QS-WU-wUI" secondAttribute="bottom" constant="50" id="UgI-TP-N9A">
                                 <variation key="widthClass=compact" constant="30"/>
+                            </constraint>
+                            <constraint firstItem="EKZ-Ts-hyZ" firstAttribute="centerX" secondItem="dBV-Em-l5e" secondAttribute="centerX" id="nnq-51-f92"/>
+                            <constraint firstItem="EKZ-Ts-hyZ" firstAttribute="top" secondItem="KgJ-Oy-9xx" secondAttribute="bottom" constant="40" id="qhR-PV-TSQ">
+                                <variation key="widthClass=compact" constant="20"/>
                             </constraint>
                             <constraint firstAttribute="centerX" secondItem="KgJ-Oy-9xx" secondAttribute="centerX" id="sEn-gM-vAt"/>
                             <constraint firstAttribute="centerX" secondItem="7QS-WU-wUI" secondAttribute="centerX" id="zDV-YI-Bk3"/>
@@ -683,6 +692,7 @@ Instead, we've published details about the exciting new features and improvement
     <resources>
         <image name="AboutIcon" width="150" height="150"/>
         <image name="ColinAndFriends" width="266" height="44"/>
+        <image name="GeoFace" width="120" height="88"/>
         <image name="InstagramLogo" width="44" height="44"/>
         <image name="PurchasedFace" width="120" height="124"/>
         <image name="TwitterLogo" width="44" height="44"/>
