@@ -6,7 +6,7 @@
 "85y-wF-KNG.text" = "Upgrade auf Cascable Pro!";
 
 /* Class = "UILabel"; text = "Cascable Pro subscriptions will renew within 24 hours before the subscription period ends, and you will be charged through your iTunes account. You can manage your subscription in Account Settings."; ObjectID = "N9a-5g-1J5"; */
-"N9a-5g-1J5.text" = "Cascable Pro subscriptions will renew within 24 hours before the subscription period ends, and you will be charged through your iTunes account. You can manage your subscription in Account Settings.";
+"N9a-5g-1J5.text" = "Wenn Sie bereits Cascable Pro gekauft haben, können Sie es auf diesem Gerät wiederherstellen.";
 
 /* Class = "UILabel"; text = "Cascable Pro provides powerful shutter automation, RAW image support, night mode, geotagging tools and much more."; ObjectID = "VXB-2Q-Ad4"; */
 "VXB-2Q-Ad4.text" = "Cascable Pro bietet leistungsstarke Verschlussautomatisierung, Unterstützung für RAW-Bilddaten, Nachtmodus, Geotagging und vieles mehr.";

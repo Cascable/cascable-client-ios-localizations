@@ -48,7 +48,7 @@
 "qNA-pF-78i.text" = "Sie haben keine Fotos zum Taggen!";
 
 /* Class = "UIButton"; normalTitle = "View Tracks"; ObjectID = "qbo-iC-O3Z"; */
-"qbo-iC-O3Z.normalTitle" = "Routen …";
+"qbo-iC-O3Z.normalTitle" = "Routen ansehen";
 
 /* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "r9N-pS-bi9"; */
 "r9N-pS-bi9.title" = "Abbrechen";
