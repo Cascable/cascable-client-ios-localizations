@@ -126,7 +126,7 @@
                                     <constraint firstItem="Ix7-ef-dl6" firstAttribute="leading" secondItem="xve-Am-xCF" secondAttribute="trailing" constant="10" id="FvY-ac-0QZ"/>
                                     <constraint firstItem="16w-WQ-ybm" firstAttribute="centerY" secondItem="WoX-km-S7R" secondAttribute="centerY" id="J7N-PC-Tua"/>
                                     <constraint firstItem="Ix7-ef-dl6" firstAttribute="centerY" secondItem="oGQ-bk-v8S" secondAttribute="centerY" id="QqH-zf-6hE"/>
-                                    <constraint firstItem="skm-Vu-m0p" firstAttribute="leading" secondItem="oGQ-bk-v8S" secondAttribute="leading" constant="10" id="SeG-xc-eqi"/>
+                                    <constraint firstItem="skm-Vu-m0p" firstAttribute="leading" secondItem="oGQ-bk-v8S" secondAttribute="leading" constant="20" id="SeG-xc-eqi"/>
                                     <constraint firstAttribute="height" constant="40" id="U5H-7U-3TI"/>
                                     <constraint firstItem="xve-Am-xCF" firstAttribute="leading" secondItem="oGQ-bk-v8S" secondAttribute="leading" constant="10" id="Ve0-JS-IWe"/>
                                     <constraint firstItem="skm-Vu-m0p" firstAttribute="centerY" secondItem="oGQ-bk-v8S" secondAttribute="centerY" id="Ynl-VU-Kmy"/>
@@ -185,9 +185,9 @@
                                         <include reference="yUp-QO-Qv6"/>
                                         <exclude reference="86M-Ol-bG2"/>
                                         <exclude reference="sj7-Mf-Yki"/>
-                                        <exclude reference="J7N-PC-Tua"/>
                                         <exclude reference="5Xe-Bf-ijf"/>
                                         <include reference="mD3-ts-a8b"/>
+                                        <exclude reference="J7N-PC-Tua"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
@@ -211,9 +211,9 @@
                                         <include reference="yUp-QO-Qv6"/>
                                         <exclude reference="86M-Ol-bG2"/>
                                         <exclude reference="sj7-Mf-Yki"/>
-                                        <exclude reference="J7N-PC-Tua"/>
                                         <exclude reference="5Xe-Bf-ijf"/>
                                         <include reference="mD3-ts-a8b"/>
+                                        <exclude reference="J7N-PC-Tua"/>
                                     </mask>
                                 </variation>
                             </view>

@@ -17,6 +17,7 @@
                 <outlet property="connectionButton" destination="rgY-vJ-6Oc" id="E5s-L2-o40"/>
                 <outlet property="connectionButtonContainer" destination="FRM-Q3-n32" id="lfG-1b-494"/>
                 <outlet property="dropdownIndicator" destination="WP8-Dr-uSM" id="KXb-oo-vxa"/>
+                <outlet property="labelToBatteryConstraint" destination="GQo-ib-k4y" id="BmE-ex-MCM"/>
                 <outlet property="spinner" destination="RAv-oQ-RKF" id="wI3-Nw-y9g"/>
                 <outlet property="view" destination="yfq-Az-RWy" id="1hx-7O-OA2"/>
             </connections>
@@ -27,25 +28,25 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="RAv-oQ-RKF">
-                    <rect key="frame" x="10" y="10" width="20" height="20"/>
+                    <rect key="frame" x="0.0" y="10" width="20" height="20"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="20" placeholder="YES" id="5xA-Z5-oP5"/>
                     </constraints>
                 </activityIndicatorView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" horizontalHuggingPriority="1000" image="BatteryFull" translatesAutoresizingMaskIntoConstraints="NO" id="4Tl-5W-w5x">
-                    <rect key="frame" x="138" y="13" width="24" height="13"/>
+                    <rect key="frame" x="148" y="13" width="24" height="13"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="24" placeholder="YES" id="Asc-5R-Jgg"/>
                     </constraints>
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FRM-Q3-n32" userLabel="Button Container">
-                    <rect key="frame" x="38" y="0.0" width="90" height="40"/>
+                    <rect key="frame" x="28" y="0.0" width="110" height="40"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgY-vJ-6Oc">
-                            <rect key="frame" x="0.0" y="4.5" width="90" height="30"/>
+                            <rect key="frame" x="0.0" y="4.5" width="110" height="30"/>
                             <accessibility key="accessibilityConfiguration" identifier="ShowConnectionUIButton"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="90" placeholder="YES" id="390-5U-J8J"/>
+                                <constraint firstAttribute="width" constant="110" placeholder="YES" id="390-5U-J8J"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <state key="normal" title="Searching…"/>
@@ -104,10 +105,10 @@
             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="FRM-Q3-n32" firstAttribute="leading" secondItem="RAv-oQ-RKF" secondAttribute="trailing" constant="8" id="COK-z4-8fY"/>
-                <constraint firstAttribute="trailing" secondItem="4Tl-5W-w5x" secondAttribute="trailing" constant="10" id="Dq8-jk-wyO"/>
+                <constraint firstAttribute="trailing" secondItem="4Tl-5W-w5x" secondAttribute="trailing" id="Dq8-jk-wyO"/>
                 <constraint firstItem="4Tl-5W-w5x" firstAttribute="leading" secondItem="FRM-Q3-n32" secondAttribute="trailing" constant="10" id="GQo-ib-k4y"/>
                 <constraint firstItem="RAv-oQ-RKF" firstAttribute="centerY" secondItem="yfq-Az-RWy" secondAttribute="centerY" id="Mj3-ut-SFA"/>
-                <constraint firstItem="RAv-oQ-RKF" firstAttribute="leading" secondItem="yfq-Az-RWy" secondAttribute="leading" constant="10" id="VKL-Uy-hYb"/>
+                <constraint firstItem="RAv-oQ-RKF" firstAttribute="leading" secondItem="yfq-Az-RWy" secondAttribute="leading" id="VKL-Uy-hYb"/>
                 <constraint firstItem="FRM-Q3-n32" firstAttribute="top" secondItem="yfq-Az-RWy" secondAttribute="top" id="Zhs-Rr-RzG"/>
                 <constraint firstAttribute="bottom" secondItem="FRM-Q3-n32" secondAttribute="bottom" id="gOq-LY-Q9p"/>
                 <constraint firstItem="4Tl-5W-w5x" firstAttribute="centerY" secondItem="yfq-Az-RWy" secondAttribute="centerY" id="xTr-QK-sH6"/>
