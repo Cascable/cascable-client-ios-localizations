@@ -904,11 +904,23 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Purchase button main title for a one week trial. */
 "PurchaseButtonOneWeekTrialHeadline" = "One week FREE trial!";
 
+/* Purchase button main title for a monthly subscription. */
+"PurchaseButtonMonthlySubscriptionNoTrialHeadline" = "Monthly Subscription";
+
+/* Purchase button main title for a quarterly subscription. */
+"PurchaseButtonQuarterlySubscriptionNoTrialHeadline" = "Quarterly Subscription";
+
 /* Purchase button sub-title for a monthly subscription. E.g.: "then $2.99 per month, billed monthly". */
 "PurchaseButtonMonthlySubscriptionSubheadline" = "then %@ per month, billed monthly";
 
 /* Purchase button sub-title for a quarterly subscription. E.g.: "then $1.99 per month, billed quarterly". */
 "PurchaseButtonQuarterlySubscriptionSubheadline" = "then %@ per month, billed quarterly";
+
+/* Purchase button sub-title for a monthly subscription without a trial. E.g.: "$2.99 per month, billed monthly". */
+"PurchaseButtonMonthlySubscriptionNoTrialSubheadline" = "%@ per month, billed monthly";
+
+/* Purchase button sub-title for a quarterly subscription without a trial. E.g.: "then $1.99 per month, billed quarterly". */
+"PurchaseButtonQuarterlySubscriptionNoTrialSubheadline" = "%@ per month, billed quarterly";
 
 // ------------------------------------------------------------
 //     Managing Selection

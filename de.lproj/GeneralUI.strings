@@ -896,11 +896,23 @@
 /* Purchase button main title for a one week trial. */
 "PurchaseButtonOneWeekTrialHeadline" = "Eine Woche KOSTENLOSE Demo!";
 
+/* Purchase button main title for a monthly subscription. */
+"PurchaseButtonMonthlySubscriptionNoTrialHeadline" = "Monatliches Abonnement";
+
+/* Purchase button main title for a quarterly subscription. */
+"PurchaseButtonQuarterlySubscriptionNoTrialHeadline" = "Vierteljährliches Abonnement";
+
 /* Purchase button sub-title for a monthly subscription. E.g.: "then $2.99 per month, billed monthly". */
 "PurchaseButtonMonthlySubscriptionSubheadline" = "danach %@ pro Monat, monatlich abgerechnet";
 
 /* Purchase button sub-title for a quarterly subscription. E.g.: "then $1.99 per month, billed quarterly". */
 "PurchaseButtonQuarterlySubscriptionSubheadline" = "danach %@ pro Monat, vierteljährlich abgerechnet";
+
+/* Purchase button sub-title for a monthly subscription without a trial. E.g.: "$2.99 per month, billed monthly". */
+"PurchaseButtonMonthlySubscriptionNoTrialSubheadline" = "%@ pro Monat, monatlich abgerechnet";
+
+/* Purchase button sub-title for a quarterly subscription without a trial. E.g.: "then $1.99 per month, billed quarterly". */
+"PurchaseButtonQuarterlySubscriptionNoTrialSubheadline" = "%@ pro Monat, vierteljährlich abgerechnet";
 
 // ------------------------------------------------------------
 //     Managing Selection
