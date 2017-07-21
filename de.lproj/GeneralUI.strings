@@ -700,7 +700,10 @@
 "AutoDismissPhotoReviewSectionFooter" = "Durch Tippen oder Zoomen des angezeigten Fotos wird das automatische Verwerfen für dieses Foto deaktiviert.";
 
 /* Section footer for the first section of 'Review Photos After Shooting' explaining the feature. */
-"PhotoReviewExplanationFooter" = "Mit der Schnellansicht können Sie direkt im Anschluss eine Vorschau Ihres Fotos in hoher Auflösung darstellen.";
+"PhotoReviewExplanationFooter" = "Mit der Schnellansicht können Sie direkt im Anschluss eine Vorschau Ihres Fotos in hoher Auflösung darstellen.\n\nFotoansicht ist für Fujifilm und Panasonic Kameras nicht verfügbar.";
+
+/* Section footer for the first section of 'Review Photos After Shooting' when the user is paid. */
+"PhotoReviewNotAvailableOnFujiPanasonicFooter" = "Fotoansicht ist für Fujifilm und Panasonic Kameras nicht verfügbar.";
 
 /* Titles for the various auto-dismiss options for photo review. */
 "AutoDismissPhotoReviewSetting0Title" = "Manuell";
@@ -826,6 +829,9 @@
 
 /* Title for 'PRO' buttons. Must be short. */
 "ProButtonTitle" = "PRO";
+
+/* 'PRO' button prefix for 'Upgrade to PRO' buttons. Must be short. */
+"UpgradeToProButtonPrefixTitle" = "Upgrade auf";
 
 /* Explanation of needing to make a purchase to remote preview photos. */
 "RemotePreviewUnavailableDescription" = "Die Vorschau von Fotos direkt auf Ihrer Kamera ist eine Funktion von Cascable Pro.";
