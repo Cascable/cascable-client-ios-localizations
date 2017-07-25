@@ -1,7 +1,6 @@
 {
-    "title" : "Olympus-Kamera verbinden",
+    "title" : "Olympus Verbindungsanleitung",
     "id": "se.cascable.client.help.olympus-connection",
     "icon": "OlympusHelpArticleIcon",
     "category": "se.cascable.client.help.category.getting-connected",
-    "sort-hint": 3
 }
