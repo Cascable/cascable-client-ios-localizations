@@ -1,0 +1,75 @@
+﻿<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0" />
+<meta charset="UTF-8">
+<title>Fujifilm-Kamera verbinden</title>
+<script src="../../common/common.js"></script>
+<link rel="stylesheet" type="text/css" href="../../common/styles.css">
+<link rel="stylesheet" type="text/css" href="../../common/light.css">
+</head>
+<body>
+<h3>Bevor wir loslegen</h3>
+
+<ol>
+	<li>Prüfen Sie, ob Ihre Kamera <a href="#" onclick='showPageWithIdentifier("se.cascable.client.help.supported-cameras");'>von Cascable unterstützt wird</a>.</li>
+	<li>Prüfen Sie, ob die Firmware-Version Ihrer Kamera aktuell ist.</li>
+	<li>Prüfen Sie, ob Sie die neueste Version von Cascable haben.</li>
+</ol>
+
+<hr>
+
+<h3>Deaktivieren der Bildgrößenanpassung</h3>
+
+<p>Standardmäßig passen Fujifilm Kameras die Größe Ihrer Fotos auf 3 Megapixel an, bevor sie per WLAN übertragen werden. Für ein bestmögliches Ergebnis mit Cascable empfehlen wir Ihnen, diese Option zu deaktivieren.</p>
+
+<ol>
+    <li>Drücken Sie dazu auf Ihrer Kamera auf <b>MENU</b> und gehen Sie in das <b>SETUP</b> und wählen Sie <b>VERBINDUNG-SEINSTELLUNG</b>.</li>
+    <p class="center"> <img class="retina" src="fuji-setup-connectionsettings.png" alt="Verbindungseinstellungen" style="max-width: 90%;"></p>
+    <li>Wählen Sie <b>DRAHTLOS-KOMM.</b> und ändern Sie <b>VERKLEINERN</b> auf <b>AUS</b>.</li>
+    <p class="center"> <img class="retina" src="fuji-setup-wirelesssettings.png" alt="Wireless-Einstellungen" style="max-width: 90%;"></p>
+    <p class="center"> <img class="retina" src="fuji-wifi-imageresize.png" alt="Verkleinern" style="max-width: 90%;"></p>
+</ol>
+
+<hr>
+
+<h3>Wenn Verbindung fehlschlägt</h3>
+
+<p>Wenn Sie Ihre Fujifilm Kamera bereits mit anderen Apps über WLAN genutzt haben, können Verbindungsversuche von Cascable eventuell zurückgewiesen werden. Um dies zu beheben, drücken Sie beim Aktivieren des WLAN an Ihrer Kamera auf <b>OK - CHANGE</b>, um ein neues Pairing zu ermöglichen. Starten Sie Cascable neu. Die Verbindung sollte nun hergestellt werden können.</p>
+
+<p class="center"><img class="retina" src="XT2-wifi-change.jpg" alt="Fuji Pairing-Änderung"></p>
+
+<hr>
+
+<h3>Cascable mit Ihrer WLAN-Kamera verbinden</h3>
+
+<ol>
+    <li>Drücken Sie die <b>Menu</b>-Taste auf Ihrer Kamera und wechseln Sie zu <b>AUFNAHME-EINSTELLUNG</b>.</li>
+
+    <li>Im <b>AUFNAHME-EINSTELLUNG</b> Menü gehen Sie auf <b>DRAHTLOS-KOMM.</b> und drücken auf <b>OK</b>.</li>
+
+    <li><b>Hinweis:</b> Viele Fujifilm Kamera haben eine eigene WiFi-Taste oder bieten die Konfiguration einer Taste zum Aktivieren von WiFi an. Schauen Sie im Handbuch Ihrer Kamera nach.</li>
+
+    <li>Die WiFi-Funktion wird nun aktiviert. Prüfen Sie nun, ob Ihr iOS-Gerät und Ihre Kamera mit demselben WLAN-Netzwerk verbunden sind, und starten Sie Cascable.</li>
+
+    <li>Wenn in den Einstellungen von Cascable die Option „Automatisch verbinden“ gewählt ist, wird die App Ihre Kamera nach wenigen Sekunden automatisch entdecken und sich damit verbinden. Anderenfalls tippen Sie auf das <strong>Verbindungssymbol</strong> oben auf dem Display und dann auf <strong>Verbinden</strong> neben den Namen Ihrer Kamera.</li>
+
+    <li>Bei der erstmaligen Verbindung muss Ihre Kamera mit der App <em>gekoppelt</em> werden (Pairing). Dazu zeigt Cascable diesen Dialog an:</lip>
+
+    <div class="figure-box">
+	<img class="retina" src="../../common/pairing.png" alt="Pairing-Dialog">
+	<br/><em>Pairing-Dialog von Cascable.</em>
+</div>
+
+    <li>Zum Fortfahren drücken Sie auf Ihrer Kamera <strong>OK</strong>. Damit bestätigen Sie die Pairing Anfrage von Cascable.</li>
+
+    <li>Das war’s — Sie sind verbunden!</li>
+</ol>
+
+<hr>
+
+<h3>Immer noch Probleme?</h3>
+
+<p>Wenn es immer noch nicht funktioniert, gehen Sie bitte auf die <a href="http://cascable.se">Cascable Webseite</a>, damit wir Ihnen weiterhelfen können.</p>
+
+</body>
+</html>
