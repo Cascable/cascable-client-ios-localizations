@@ -37,14 +37,14 @@
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQU-wE-dVM">
-                                            <rect key="frame" x="317" y="15" width="38" height="33"/>
+                                            <rect key="frame" x="317" y="14.5" width="38" height="33"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <state key="normal" title="Start"/>
                                             <connections>
                                                 <action selector="startOrStopTracking:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mx4-RM-QPt"/>
                                             </connections>
                                         </button>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not Tracking Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBd-Tw-OZ3">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not Tracking Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="lBd-Tw-OZ3">
                                             <rect key="frame" x="20" y="20" width="175" height="21"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                             <nil key="textColor"/>
@@ -67,6 +67,7 @@
                                         <constraint firstItem="JQU-wE-dVM" firstAttribute="baseline" secondItem="lBd-Tw-OZ3" secondAttribute="baseline" id="8ut-Rl-uSv"/>
                                         <constraint firstItem="lBd-Tw-OZ3" firstAttribute="leading" secondItem="RZD-Vk-jLr" secondAttribute="leading" constant="20" id="HDZ-c8-8LC"/>
                                         <constraint firstItem="3wH-JF-w8o" firstAttribute="leading" secondItem="RZD-Vk-jLr" secondAttribute="leading" id="Odm-eC-M7n"/>
+                                        <constraint firstItem="JQU-wE-dVM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="lBd-Tw-OZ3" secondAttribute="trailing" constant="20" id="RmN-0Q-Tn6"/>
                                         <constraint firstItem="lBd-Tw-OZ3" firstAttribute="top" secondItem="RZD-Vk-jLr" secondAttribute="top" constant="20" id="dNg-Lj-bXQ"/>
                                         <constraint firstAttribute="bottom" secondItem="3wH-JF-w8o" secondAttribute="bottom" id="xT1-jj-yPK"/>
                                     </constraints>
