@@ -5,6 +5,15 @@ body {
 	font-weight: 300;
 	-webkit-user-select: none;
 	-webkit-touch-callout: none;
+    -webkit-user-drag: none;
+}
+
+img {
+    -webkit-user-drag: none;
+}
+
+a {
+    -webkit-user-drag: none;
 }
 
 h1 {
