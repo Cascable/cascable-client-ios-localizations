@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -18,7 +24,7 @@
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ypE-Bm-fGS" customClass="CBLHairlineDividerView">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="1" id="MTS-S6-5cU"/>
                     </constraints>
@@ -28,7 +34,7 @@
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tj6-ih-Y3h" customClass="CBLHairlineDividerView">
                     <rect key="frame" x="0.0" y="49" width="320" height="1"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="1" id="Gbh-0Z-AXr"/>
                     </constraints>
@@ -44,10 +50,11 @@
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dbz-iY-lck" secondAttribute="trailing" constant="20" id="MP9-Cr-V0f"/>
                 <constraint firstItem="ypE-Bm-fGS" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="N4q-bL-cML"/>
                 <constraint firstAttribute="trailing" secondItem="ypE-Bm-fGS" secondAttribute="trailing" id="X8M-Ib-QQB"/>
-                <constraint firstItem="dbz-iY-lck" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="20" id="bEA-VG-nwC"/>
+                <constraint firstItem="dbz-iY-lck" firstAttribute="leading" secondItem="3CS-89-evk" secondAttribute="leading" constant="20" id="bEA-VG-nwC"/>
                 <constraint firstItem="ypE-Bm-fGS" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="lcS-ji-A4u"/>
                 <constraint firstAttribute="bottom" secondItem="tj6-ih-Y3h" secondAttribute="bottom" id="s0w-rg-mh9"/>
             </constraints>
+            <viewLayoutGuide key="safeArea" id="3CS-89-evk"/>
             <connections>
                 <outlet property="bottomDivider" destination="tj6-ih-Y3h" id="gqk-sw-bmV"/>
                 <outlet property="label" destination="dbz-iY-lck" id="59N-j1-h04"/>
