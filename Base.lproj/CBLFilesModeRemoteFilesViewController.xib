@@ -164,7 +164,6 @@
                 <constraint firstAttribute="centerY" secondItem="2Dx-lr-knx" secondAttribute="centerY" constant="-20" id="mO8-WN-BLD"/>
                 <constraint firstItem="cQn-4V-bNU" firstAttribute="centerX" secondItem="DZk-aK-11K" secondAttribute="centerX" id="uDg-4p-YRR"/>
                 <constraint firstAttribute="centerX" secondItem="D6x-a6-aTh" secondAttribute="centerX" id="uGa-7S-5EA"/>
-                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tOV-lH-2UK" secondAttribute="trailing" constant="20" id="zV7-9h-BWc"/>
                 <constraint firstItem="cQn-4V-bNU" firstAttribute="centerY" secondItem="DZk-aK-11K" secondAttribute="centerY" id="zXU-2T-wBL"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11198.2" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -19,22 +24,26 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baP-Cs-Hnj">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <connections>
                         <outlet property="delegate" destination="-1" id="NlD-af-x7e"/>
                     </connections>
                 </scrollView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8YS-Bl-Flf" userLabel="Histogram Container">
+                    <rect key="frame" x="232" y="35" width="128" height="68.5"/>
                     <subviews>
                         <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L5f-X7-eRD">
+                            <rect key="frame" x="0.0" y="0.0" width="128" height="68.5"/>
                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Tg7-85-NIN">
-                                <frame key="frameInset"/>
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="68.5"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QVL-OY-mH0" customClass="HistogramView" customModule="Cascable" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="20" width="108" height="38.5"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                 </subviews>
@@ -70,12 +79,13 @@
                     <variation key="widthClass=compact" constant="15"/>
                 </constraint>
                 <constraint firstAttribute="bottom" secondItem="baP-Cs-Hnj" secondAttribute="bottom" id="4ll-K5-EtZ"/>
-                <constraint firstItem="8YS-Bl-Flf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="105" id="P18-lT-MP4">
-                    <variation key="heightClass=compact" constant="80"/>
-                    <variation key="widthClass=compact" constant="80"/>
+                <constraint firstItem="8YS-Bl-Flf" firstAttribute="top" secondItem="rwl-xj-Mor" secondAttribute="top" constant="40" id="P18-lT-MP4">
+                    <variation key="heightClass=compact" constant="15"/>
+                    <variation key="widthClass=compact" constant="15"/>
                 </constraint>
                 <constraint firstItem="baP-Cs-Hnj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="R4M-i4-mwh"/>
             </constraints>
+            <viewLayoutGuide key="safeArea" id="rwl-xj-Mor"/>
             <point key="canvasLocation" x="170" y="380"/>
         </view>
         <view contentMode="scaleToFill" id="i8r-q0-ayk">
@@ -83,11 +93,13 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P1234567890" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7u3-6r-FaN">
+                    <rect key="frame" x="0.0" y="3" width="150" height="18"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 of 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpT-ab-Eu8">
+                    <rect key="frame" x="0.0" y="23" width="150" height="16"/>
                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
@@ -107,6 +119,7 @@
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="cDR-AY-D9z"/>
             <point key="canvasLocation" x="74" y="255"/>
         </view>
     </objects>
