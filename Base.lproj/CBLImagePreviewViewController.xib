@@ -74,7 +74,7 @@
             <constraints>
                 <constraint firstItem="baP-Cs-Hnj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="05e-j4-5XM"/>
                 <constraint firstAttribute="trailing" secondItem="baP-Cs-Hnj" secondAttribute="trailing" id="0YE-Ua-H69"/>
-                <constraint firstAttribute="trailing" secondItem="8YS-Bl-Flf" secondAttribute="trailing" constant="40" id="3wX-6S-Wd4">
+                <constraint firstItem="rwl-xj-Mor" firstAttribute="trailing" secondItem="8YS-Bl-Flf" secondAttribute="trailing" constant="40" id="3wX-6S-Wd4">
                     <variation key="heightClass=compact" constant="15"/>
                     <variation key="widthClass=compact" constant="15"/>
                 </constraint>
