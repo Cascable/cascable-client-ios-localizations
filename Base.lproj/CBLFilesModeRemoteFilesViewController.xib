@@ -20,7 +20,7 @@
                 <outlet property="headerLabel" destination="lhN-xk-CiY" id="88y-MD-fb1"/>
                 <outlet property="quickSelectButton" destination="xhO-KI-stW" id="UaK-K7-EJe"/>
                 <outlet property="quickSelectToToggleSelectContraint" destination="iP3-do-9gc" id="9MP-07-rsN"/>
-                <outlet property="selectButtonTrailingConstraint" destination="7xH-k7-nMM" id="Kgc-cn-rmP"/>
+                <outlet property="selectButtonTrailingConstraint" destination="N3e-Lc-IRm" id="grG-eY-QOM"/>
                 <outlet property="selectionToolbarView" destination="uSP-AC-tCW" id="JD3-jp-pRv"/>
                 <outlet property="tableView" destination="cjd-Y4-7ON" id="7xp-1X-PiH"/>
                 <outlet property="toggleSelectionButton" destination="4ux-iN-v8B" id="X0S-oP-ejd"/>
@@ -175,7 +175,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="On Camera" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lhN-xk-CiY">
-                    <rect key="frame" x="255.66666666666666" y="23.666666666666671" width="89.333333333333343" height="20.333333333333329"/>
+                    <rect key="frame" x="255.33333333333334" y="23.666666666666671" width="89.333333333333343" height="20.333333333333329"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
@@ -222,7 +222,7 @@
             </subviews>
             <constraints>
                 <constraint firstAttribute="centerY" secondItem="xhO-KI-stW" secondAttribute="centerY" id="39z-0o-ogG"/>
-                <constraint firstAttribute="trailing" secondItem="4ux-iN-v8B" secondAttribute="trailing" constant="12" id="7xH-k7-nMM"/>
+                <constraint firstItem="aRh-K7-Cha" firstAttribute="trailing" secondItem="4ux-iN-v8B" secondAttribute="trailing" constant="12" id="N3e-Lc-IRm"/>
                 <constraint firstAttribute="centerY" secondItem="4ux-iN-v8B" secondAttribute="centerY" id="OQk-hZ-XdM"/>
                 <constraint firstItem="Xts-uO-uL1" firstAttribute="leading" secondItem="xgq-ad-2tx" secondAttribute="trailing" constant="20" id="UR6-yC-Efx"/>
                 <constraint firstItem="Xts-uO-uL1" firstAttribute="centerY" secondItem="xgq-ad-2tx" secondAttribute="centerY" id="URx-2c-rov"/>
@@ -231,7 +231,7 @@
                 <constraint firstAttribute="centerX" secondItem="lhN-xk-CiY" secondAttribute="centerX" priority="750" id="iLq-o7-C6p"/>
                 <constraint firstItem="4ux-iN-v8B" firstAttribute="leading" secondItem="xhO-KI-stW" secondAttribute="trailing" constant="14" id="iP3-do-9gc"/>
                 <constraint firstItem="xhO-KI-stW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="lhN-xk-CiY" secondAttribute="trailing" constant="10" id="mCt-nv-I4b"/>
-                <constraint firstItem="xgq-ad-2tx" firstAttribute="leading" secondItem="uSP-AC-tCW" secondAttribute="leading" constant="20" id="w6h-0Z-YOB">
+                <constraint firstItem="xgq-ad-2tx" firstAttribute="leading" secondItem="aRh-K7-Cha" secondAttribute="leading" constant="20" id="rbI-oz-XLB">
                     <variation key="widthClass=compact" constant="10"/>
                 </constraint>
             </constraints>
