@@ -206,6 +206,10 @@
                         </constraint>
                         <constraint firstItem="CPJ-cM-rGC" firstAttribute="centerY" secondItem="6im-H2-tzT" secondAttribute="centerY" id="Pgh-5B-wKi"/>
                         <constraint firstItem="QpX-K5-gQP" firstAttribute="centerY" secondItem="CPJ-cM-rGC" secondAttribute="centerY" id="SQK-nB-djh"/>
+                        <constraint firstAttribute="trailing" secondItem="mta-uW-HNn" secondAttribute="trailing" constant="40" id="TJT-ml-itH">
+                            <variation key="heightClass=compact" constant="15"/>
+                            <variation key="widthClass=compact" constant="15"/>
+                        </constraint>
                         <constraint firstItem="gFf-Up-TuA" firstAttribute="top" secondItem="Gq4-cC-D59" secondAttribute="bottom" constant="20" placeholder="YES" id="XPw-O0-nU0"/>
                         <constraint firstItem="QpX-K5-gQP" firstAttribute="leading" secondItem="gFf-Up-TuA" secondAttribute="trailing" constant="60" placeholder="YES" id="YgH-gF-ula">
                             <variation key="widthClass=compact" constant="55"/>
@@ -228,10 +232,6 @@
                         </constraint>
                         <constraint firstItem="6im-H2-tzT" firstAttribute="width" secondItem="CPJ-cM-rGC" secondAttribute="width" id="jJm-v9-2bH"/>
                         <constraint firstItem="mta-uW-HNn" firstAttribute="top" secondItem="2" secondAttribute="top" constant="30" id="kpf-GD-iX5">
-                            <variation key="heightClass=compact" constant="15"/>
-                            <variation key="widthClass=compact" constant="15"/>
-                        </constraint>
-                        <constraint firstAttribute="trailing" secondItem="mta-uW-HNn" secondAttribute="trailing" constant="40" id="nEb-RJ-qwz">
                             <variation key="heightClass=compact" constant="15"/>
                             <variation key="widthClass=compact" constant="15"/>
                         </constraint>
@@ -262,9 +262,9 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="2" firstAttribute="leading" secondItem="8Dv-Mq-r9Y" secondAttribute="leading" id="72d-VR-TbD"/>
+                <constraint firstItem="2" firstAttribute="leading" secondItem="d50-Un-NCF" secondAttribute="leading" id="72d-VR-TbD"/>
                 <constraint firstItem="2" firstAttribute="top" secondItem="8Dv-Mq-r9Y" secondAttribute="top" id="Zwt-L6-v2p"/>
-                <constraint firstAttribute="trailing" secondItem="2" secondAttribute="trailing" id="awU-zX-pgt">
+                <constraint firstItem="d50-Un-NCF" firstAttribute="trailing" secondItem="2" secondAttribute="trailing" id="awU-zX-pgt">
                     <variation key="heightClass=compact-widthClass=compact" constant="60"/>
                     <variation key="heightClass=compact-widthClass=regular" constant="60"/>
                 </constraint>
@@ -274,7 +274,7 @@
                 </constraint>
             </constraints>
             <viewLayoutGuide key="safeArea" id="d50-Un-NCF"/>
-            <point key="canvasLocation" x="625" y="741"/>
+            <point key="canvasLocation" x="624.5" y="741"/>
         </view>
     </objects>
 </document>
