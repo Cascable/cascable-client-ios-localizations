@@ -28,9 +28,9 @@
                                 </connections>
                             </mapView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jX7-dr-4DO">
-                                <rect key="frame" x="0.0" y="20" width="375" height="60.5"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="61.5"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="RZD-Vk-jLr">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="60.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="61.5"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQU-wE-dVM">
@@ -48,7 +48,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3wH-JF-w8o" customClass="CBLHairlineDividerView">
-                                            <rect key="frame" x="0.0" y="59.5" width="375" height="1"/>
+                                            <rect key="frame" x="0.0" y="60.5" width="375" height="1"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="1" id="TI8-3e-UcF"/>
                                             </constraints>
@@ -215,7 +215,7 @@
                         <color key="backgroundColor" white="1" alpha="0.75" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="QGa-FC-eZ2" firstAttribute="top" secondItem="SuZ-Yo-gHA" secondAttribute="top" constant="20" id="17K-11-fvx"/>
-                            <constraint firstItem="SuZ-Yo-gHA" firstAttribute="bottom" secondItem="9P1-3s-FSG" secondAttribute="bottom" constant="20" id="2WM-Wa-DTd"/>
+                            <constraint firstAttribute="bottom" secondItem="9P1-3s-FSG" secondAttribute="bottom" constant="20" id="2WM-Wa-DTd"/>
                             <constraint firstItem="jvg-br-hMD" firstAttribute="centerY" secondItem="9P1-3s-FSG" secondAttribute="centerY" constant="-20" id="44H-Vc-ENz"/>
                             <constraint firstItem="jvg-br-hMD" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="SuZ-Yo-gHA" secondAttribute="leading" constant="40" id="4P5-Ki-3KA"/>
                             <constraint firstItem="scv-tP-1Xd" firstAttribute="width" secondItem="scv-tP-1Xd" secondAttribute="height" multiplier="1:1" id="9hX-eh-qNz"/>
@@ -241,6 +241,7 @@
                         <outlet property="divider" destination="WJX-dg-qx3" id="tiH-4W-rJe"/>
                         <outlet property="noTracksLabel" destination="jvg-br-hMD" id="cxg-3Q-vc3"/>
                         <outlet property="tableView" destination="9P1-3s-FSG" id="ztL-Qp-bs9"/>
+                        <outlet property="tableViewBottomConstraint" destination="2WM-Wa-DTd" id="v1p-EE-L3g"/>
                         <outlet property="titleLabel" destination="QGa-FC-eZ2" id="VXl-g0-ikQ"/>
                         <segue destination="kfd-gC-DKM" kind="show" identifier="sessionDetail" id="yZH-bq-hs3"/>
                     </connections>
@@ -665,6 +666,7 @@
                     <size key="freeformSize" width="375" height="667"/>
                     <connections>
                         <outlet property="collectionView" destination="XuG-ev-wxZ" id="LoZ-0v-bAZ"/>
+                        <outlet property="collectionViewBottomConstraint" destination="vjr-k8-YrR" id="A1V-4U-cuN"/>
                         <outlet property="doneButton" destination="VII-58-85M" id="o3K-I5-zgE"/>
                         <outlet property="doneButtonBackgroundView" destination="y5w-u4-2u7" id="OP6-6x-tzw"/>
                         <outlet property="dragView" destination="RD0-TV-WW0" id="kIY-CS-xV5"/>
