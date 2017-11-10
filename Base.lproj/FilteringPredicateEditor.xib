@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FilteringPredicateEditor" customModule="Cascable" customModuleProvider="target">
@@ -21,22 +27,22 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="vaC-sD-fNx">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <rect key="frame" x="0.0" y="0.0" width="600" height="119"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iN0-l3-epB">
-                    <rect key="frame" x="139" y="242" width="321" height="117"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iN0-l3-epB">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="119"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sid-vd-0xE">
-                            <rect key="frame" x="85" y="6" width="173" height="29"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sid-vd-0xE">
+                            <rect key="frame" x="50" y="6" width="173" height="29"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <state key="normal" title="2016-12-12 — 2016-12-26"/>
                             <connections>
                                 <action selector="dateRangeButtonTapped:" destination="-1" eventType="touchUpInside" id="7OS-LO-SP2"/>
                             </connections>
                         </button>
-                        <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="eph-6J-DsQ">
-                            <rect key="frame" x="85" y="44" width="143" height="29"/>
+                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="eph-6J-DsQ">
+                            <rect key="frame" x="50" y="44" width="143" height="29"/>
                             <segments>
                                 <segment title="Any"/>
                                 <segment title="RAW"/>
@@ -46,25 +52,25 @@
                                 <action selector="fileTypeDidChange:" destination="-1" eventType="valueChanged" id="FCU-Mg-Xkm"/>
                             </connections>
                         </segmentedControl>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yvo-ra-gk7">
-                            <rect key="frame" x="31" y="49" width="33.5" height="17"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yvo-ra-gk7">
+                            <rect key="frame" x="17.666666666666668" y="46.666666666666664" width="22.000000000000004" height="21.999999999999993"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="22" id="YP7-LT-xNq"/>
                                 <constraint firstAttribute="height" constant="22" id="kbw-1p-O8X"/>
                             </constraints>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="ForTim" translatesAutoresizingMaskIntoConstraints="NO" id="8I5-cC-Bb9">
-                            <rect key="frame" x="262" y="18" width="11" height="5"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ForTim" translatesAutoresizingMaskIntoConstraints="NO" id="8I5-cC-Bb9">
+                            <rect key="frame" x="227" y="18" width="11" height="5"/>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FKe-PM-uDz">
-                            <rect key="frame" x="33.5" y="12" width="31.5" height="17"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FKe-PM-uDz">
+                            <rect key="frame" x="18" y="9.6666666666666643" width="22" height="22"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="22" id="22L-Bj-n25"/>
                                 <constraint firstAttribute="width" constant="22" id="2xX-oc-OvG"/>
                             </constraints>
                         </imageView>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search Text" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="H52-4H-DJJ">
-                            <rect key="frame" x="85" y="85" width="216" height="17"/>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search Text" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="H52-4H-DJJ">
+                            <rect key="frame" x="50" y="85" width="530" height="19"/>
                             <constraints>
                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="efe-V4-buX"/>
                             </constraints>
@@ -84,8 +90,8 @@
                                 <action selector="searchFieldValueDidChange:" destination="-1" eventType="editingChanged" id="lq3-WU-TBK"/>
                             </connections>
                         </textField>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="29b-jV-46l">
-                            <rect key="frame" x="17" y="85" width="47.5" height="17"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="29b-jV-46l">
+                            <rect key="frame" x="17.666666666666668" y="83.666666666666671" width="22.000000000000004" height="22"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="22" id="dc2-lU-rzJ"/>
                                 <constraint firstAttribute="height" constant="22" id="uhu-fL-pbF"/>
@@ -96,7 +102,6 @@
                         <constraint firstItem="FKe-PM-uDz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="1Tv-Sg-f7j"/>
                         <constraint firstItem="H52-4H-DJJ" firstAttribute="centerY" secondItem="29b-jV-46l" secondAttribute="centerY" id="9Kc-yS-xCB"/>
                         <constraint firstAttribute="bottom" secondItem="sid-vd-0xE" secondAttribute="bottom" constant="6" id="9NM-BH-Goc"/>
-                        <constraint firstAttribute="bottom" secondItem="H52-4H-DJJ" secondAttribute="bottom" constant="15" id="Ea1-vy-xl1"/>
                         <constraint firstItem="sid-vd-0xE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="50" id="EcT-AY-U2Z">
                             <variation key="heightClass=regular-widthClass=regular" constant="50"/>
                         </constraint>
@@ -112,9 +117,11 @@
                         </constraint>
                         <constraint firstItem="sid-vd-0xE" firstAttribute="leading" secondItem="FKe-PM-uDz" secondAttribute="trailing" constant="10" id="Xnu-tG-eZ7"/>
                         <constraint firstItem="H52-4H-DJJ" firstAttribute="top" secondItem="eph-6J-DsQ" secondAttribute="bottom" constant="13" id="ZVP-hY-Q7Y"/>
+                        <constraint firstAttribute="bottom" secondItem="H52-4H-DJJ" secondAttribute="bottom" constant="15" id="eFh-93-13D"/>
                         <constraint firstItem="Yvo-ra-gk7" firstAttribute="baseline" secondItem="29b-jV-46l" secondAttribute="baseline" id="gge-Pf-rrD"/>
                         <constraint firstItem="eph-6J-DsQ" firstAttribute="leading" secondItem="Yvo-ra-gk7" secondAttribute="trailing" constant="10" id="iHV-f9-Ggb"/>
                         <constraint firstItem="Yvo-ra-gk7" firstAttribute="leading" secondItem="8I5-cC-Bb9" secondAttribute="trailing" constant="40" id="jVN-yE-5MS"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eph-6J-DsQ" secondAttribute="trailing" constant="10" id="jhK-a9-AWe"/>
                         <constraint firstItem="H52-4H-DJJ" firstAttribute="leading" secondItem="eph-6J-DsQ" secondAttribute="leading" id="l2A-Gv-JaY"/>
                         <constraint firstItem="eph-6J-DsQ" firstAttribute="top" secondItem="sid-vd-0xE" secondAttribute="bottom" constant="9" id="mB9-TQ-0hP"/>
                         <constraint firstItem="H52-4H-DJJ" firstAttribute="leading" secondItem="29b-jV-46l" secondAttribute="trailing" constant="10" id="ndF-BM-LaY"/>
@@ -131,12 +138,11 @@
                             <exclude reference="jVN-yE-5MS"/>
                             <exclude reference="9NM-BH-Goc"/>
                             <exclude reference="EcT-AY-U2Z"/>
-                            <exclude reference="SfC-bh-vkC"/>
-                            <exclude reference="xzg-RX-dxk"/>
                             <exclude reference="VQx-2J-L1z"/>
                             <exclude reference="iHV-f9-Ggb"/>
                             <exclude reference="mB9-TQ-0hP"/>
-                            <exclude reference="Ea1-vy-xl1"/>
+                            <exclude reference="SfC-bh-vkC"/>
+                            <exclude reference="xzg-RX-dxk"/>
                             <exclude reference="ZVP-hY-Q7Y"/>
                             <exclude reference="l2A-Gv-JaY"/>
                             <exclude reference="ndF-BM-LaY"/>
@@ -146,10 +152,9 @@
                         <mask key="constraints">
                             <include reference="Wmk-si-JVG"/>
                             <include reference="EcT-AY-U2Z"/>
-                            <include reference="SfC-bh-vkC"/>
                             <include reference="VQx-2J-L1z"/>
                             <include reference="mB9-TQ-0hP"/>
-                            <include reference="Ea1-vy-xl1"/>
+                            <include reference="SfC-bh-vkC"/>
                             <include reference="ZVP-hY-Q7Y"/>
                             <include reference="l2A-Gv-JaY"/>
                         </mask>
@@ -158,10 +163,9 @@
                         <mask key="constraints">
                             <include reference="Wmk-si-JVG"/>
                             <include reference="EcT-AY-U2Z"/>
-                            <include reference="SfC-bh-vkC"/>
                             <include reference="VQx-2J-L1z"/>
                             <include reference="mB9-TQ-0hP"/>
-                            <include reference="Ea1-vy-xl1"/>
+                            <include reference="SfC-bh-vkC"/>
                             <include reference="ZVP-hY-Q7Y"/>
                             <include reference="l2A-Gv-JaY"/>
                         </mask>
@@ -173,8 +177,8 @@
                             <include reference="gge-Pf-rrD"/>
                             <include reference="jVN-yE-5MS"/>
                             <include reference="9NM-BH-Goc"/>
-                            <include reference="xzg-RX-dxk"/>
                             <include reference="iHV-f9-Ggb"/>
+                            <include reference="xzg-RX-dxk"/>
                             <include reference="ndF-BM-LaY"/>
                         </mask>
                     </variation>
@@ -186,9 +190,9 @@
                 <constraint firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="GtQ-bM-nSH"/>
                 <constraint firstItem="iN0-l3-epB" firstAttribute="top" secondItem="vaC-sD-fNx" secondAttribute="top" id="XXX-b3-5J2"/>
                 <constraint firstItem="iN0-l3-epB" firstAttribute="centerX" secondItem="vaC-sD-fNx" secondAttribute="centerX" id="c7D-Jl-rHh"/>
-                <constraint firstItem="iN0-l3-epB" firstAttribute="leading" secondItem="vaC-sD-fNx" secondAttribute="leading" id="g5V-kK-GQ2"/>
+                <constraint firstItem="iN0-l3-epB" firstAttribute="leading" secondItem="RWL-Zl-ONd" secondAttribute="leading" id="g5V-kK-GQ2"/>
                 <constraint firstItem="iN0-l3-epB" firstAttribute="centerY" secondItem="vaC-sD-fNx" secondAttribute="centerY" id="h5o-J7-wWz"/>
-                <constraint firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="hms-bL-U5v"/>
+                <constraint firstItem="RWL-Zl-ONd" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="hms-bL-U5v"/>
                 <constraint firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="pq3-eM-xTF"/>
                 <constraint firstItem="iN0-l3-epB" firstAttribute="top" secondItem="vaC-sD-fNx" secondAttribute="top" id="zw0-vs-dt9"/>
             </constraints>
@@ -196,6 +200,7 @@
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="RWL-Zl-ONd"/>
             <variation key="default">
                 <mask key="constraints">
                     <exclude reference="4uD-h4-jlR"/>
@@ -236,7 +241,7 @@
                     <include reference="h5o-J7-wWz"/>
                 </mask>
             </variation>
-            <point key="canvasLocation" x="63.5" y="206.5"/>
+            <point key="canvasLocation" x="43" y="-60.5"/>
         </view>
         <customObject id="7ck-ic-U12" customClass="CBLMiscImages">
             <connections>
@@ -246,20 +251,20 @@
             </connections>
         </customObject>
         <view contentMode="scaleToFill" id="hea-EM-zCg">
-            <rect key="frame" x="0.0" y="0.0" width="798.5" height="187"/>
+            <rect key="frame" x="0.0" y="0.0" width="798.66666666666663" height="187"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gRE-Mi-rUw">
-                    <rect key="frame" x="64" y="22" width="681.5" height="120"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gRE-Mi-rUw">
+                    <rect key="frame" x="113.66666666666669" y="64" width="571.66666666666652" height="59"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="With Cascable Pro: Photo Management, you can filter your photos by date, file type, and more." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gH-Hw-chA">
-                            <rect key="frame" x="32" y="33" width="604" height="16"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="With Cascable Pro: Photo Management, you can filter your photos by date, file type, and more." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gH-Hw-chA">
+                            <rect key="frame" x="0.0" y="5" width="571.66666666666663" height="16"/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGV-pa-mKX">
-                            <rect key="frame" x="296" y="57" width="77" height="30"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGV-pa-mKX">
+                            <rect key="frame" x="251.66666666666663" y="31" width="68" height="28"/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <state key="normal" title="More Info…"/>
                             <connections>
@@ -332,7 +337,7 @@
                     </variation>
                 </view>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="gRE-Mi-rUw" firstAttribute="centerY" secondItem="hea-EM-zCg" secondAttribute="centerY" id="AeH-UK-mlo"/>
                 <constraint firstItem="gRE-Mi-rUw" firstAttribute="centerY" secondItem="hea-EM-zCg" secondAttribute="centerY" id="P7I-mf-uqO"/>
@@ -343,6 +348,7 @@
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="w31-Fo-woM"/>
             <variation key="default">
                 <mask key="constraints">
                     <exclude reference="AeH-UK-mlo"/>

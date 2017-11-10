@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CBLSharpStarsViewController">
@@ -33,110 +39,94 @@
                 <outletCollection property="subTitleLabels" destination="27b-Uc-uht" id="u3b-89-kj0"/>
             </connections>
         </placeholder>
-        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" id="2u3-SH-2HX">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" id="2u3-SH-2HX">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i5M-Pr-FkT">
-                    <rect key="frame" x="0.0" y="0.0" width="1007" height="547.5"/>
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="409.33333333333331"/>
                     <subviews>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sharp Stars calculates the longest shutter speed you can use at night before stars appear blurry due to the Earth’s rotation." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jCv-ul-YNA">
-                            <rect key="frame" x="40" y="40" width="927" height="20.5"/>
+                            <rect key="frame" x="20" y="20.000000000000004" width="335" height="50.333333333333343"/>
                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
-                            <variation key="widthClass=compact" misplaced="YES">
+                            <variation key="widthClass=compact">
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                                <rect key="frame" x="20" y="20" width="280" height="50"/>
                             </variation>
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Focal Length" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITo-tM-QwE">
-                            <rect key="frame" x="40" y="101" width="138" height="29"/>
+                            <rect key="frame" x="19.999999999999993" y="90.333333333333329" width="112.33333333333331" height="24"/>
                             <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
-                            <variation key="widthClass=compact" misplaced="YES">
+                            <variation key="widthClass=compact">
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <rect key="frame" x="20" y="90" width="106.5" height="24"/>
                             </variation>
                         </label>
                         <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="wwc-iv-DdL" customClass="CBLBigThumbSlider">
-                            <rect key="frame" x="38" y="140" width="931" height="31"/>
-                            <variation key="widthClass=compact" misplaced="YES">
-                                <rect key="frame" x="18" y="124" width="284" height="31"/>
-                            </variation>
+                            <rect key="frame" x="18" y="124.33333333333331" width="339" height="31"/>
                             <connections>
                                 <action selector="focalLengthChanged:" destination="-1" eventType="valueChanged" id="JRt-1R-4mq"/>
                             </connections>
                         </slider>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40mm" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27b-Uc-uht">
-                            <rect key="frame" x="40" y="174" width="69.5" height="29"/>
+                            <rect key="frame" x="20" y="158.33333333333334" width="57" height="24"/>
                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
-                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
-                            <variation key="widthClass=compact" misplaced="YES">
+                            <variation key="widthClass=compact">
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
-                                <rect key="frame" x="20" y="158" width="54.5" height="24"/>
                             </variation>
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sensor Size" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QBQ-Vx-cnR">
-                            <rect key="frame" x="40" y="233" width="125.5" height="29"/>
+                            <rect key="frame" x="20" y="202.33333333333334" width="102" height="24"/>
                             <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
-                            <variation key="widthClass=compact" misplaced="YES">
+                            <variation key="widthClass=compact">
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <rect key="frame" x="20" y="202" width="99.5" height="24"/>
                             </variation>
                         </label>
                         <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="33g-Dq-qfs" customClass="CBLBigThumbSlider">
-                            <rect key="frame" x="38" y="272" width="931" height="31"/>
-                            <variation key="widthClass=compact" misplaced="YES">
-                                <rect key="frame" x="18" y="236" width="284" height="31"/>
-                            </variation>
+                            <rect key="frame" x="18" y="236.33333333333334" width="339" height="31.000000000000028"/>
                             <connections>
                                 <action selector="sensorSizeChanged:" destination="-1" eventType="valueChanged" id="IwO-JA-Y36"/>
                             </connections>
                         </slider>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Micro Four-Thirds (2,0x Crop Factor)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Ib-6d-AmX">
-                            <rect key="frame" x="40" y="306.5" width="927" height="29"/>
+                            <rect key="frame" x="20" y="271" width="335" height="20.333333333333314"/>
                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
-                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
-                            <variation key="widthClass=compact" misplaced="YES">
+                            <variation key="widthClass=compact">
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <rect key="frame" x="20" y="270" width="254" height="20.5"/>
                             </variation>
                         </label>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3bQ-Xo-YMK" customClass="CBLHairlineDividerView">
-                            <rect key="frame" x="328" y="375" width="350" height="1"/>
+                            <rect key="frame" x="87.333333333333314" y="311.33333333333331" width="200" height="1"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="1" id="enM-Qy-BqL"/>
                                 <constraint firstAttribute="width" constant="350" id="ih0-45-Zda">
                                     <variation key="widthClass=compact" constant="200"/>
                                 </constraint>
                             </constraints>
-                            <variation key="widthClass=compact" misplaced="YES">
-                                <rect key="frame" x="60" y="310.5" width="200" height="1"/>
-                            </variation>
                         </view>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maximum Shutter Speed" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZ0-OY-bfb">
-                            <rect key="frame" x="371" y="416" width="263.5" height="29"/>
+                            <rect key="frame" x="80.666666666666671" y="322.33333333333331" width="214.33333333333331" height="24"/>
                             <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
-                            <variation key="widthClass=compact" misplaced="YES">
+                            <variation key="widthClass=compact">
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <rect key="frame" x="56.5" y="321.5" width="207" height="24"/>
                             </variation>
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15,0 seconds" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23h-4R-CUK">
-                            <rect key="frame" x="332" y="455" width="342.5" height="72"/>
+                            <rect key="frame" x="85.999999999999986" y="346.33333333333331" width="203.66666666666663" height="43"/>
                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="60"/>
                             <nil key="highlightedColor"/>
-                            <variation key="widthClass=compact" misplaced="YES">
+                            <variation key="widthClass=compact">
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="36"/>
-                                <rect key="frame" x="55" y="345.5" width="210.5" height="42.5"/>
                             </variation>
                         </label>
                     </subviews>
@@ -144,6 +134,7 @@
                         <constraint firstItem="33g-Dq-qfs" firstAttribute="leading" secondItem="wwc-iv-DdL" secondAttribute="leading" id="4Lh-7f-THn"/>
                         <constraint firstItem="33g-Dq-qfs" firstAttribute="leading" secondItem="3Ib-6d-AmX" secondAttribute="leading" id="7dh-4Y-k46"/>
                         <constraint firstItem="33g-Dq-qfs" firstAttribute="trailing" secondItem="wwc-iv-DdL" secondAttribute="trailing" id="9dw-XV-ZPv"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QBQ-Vx-cnR" secondAttribute="trailing" constant="20" id="DYL-gv-dSG"/>
                         <constraint firstItem="23h-4R-CUK" firstAttribute="top" secondItem="xZ0-OY-bfb" secondAttribute="bottom" constant="10" id="Epz-ZC-jfU">
                             <variation key="widthClass=compact" constant="0.0"/>
                         </constraint>
@@ -151,6 +142,7 @@
                         <constraint firstItem="33g-Dq-qfs" firstAttribute="top" secondItem="QBQ-Vx-cnR" secondAttribute="bottom" constant="10" id="JU3-Is-JKb">
                             <variation key="widthClass=compact" constant="10"/>
                         </constraint>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="27b-Uc-uht" secondAttribute="trailing" constant="20" id="JjB-Vb-QzQ"/>
                         <constraint firstItem="3Ib-6d-AmX" firstAttribute="trailing" secondItem="33g-Dq-qfs" secondAttribute="trailing" id="KMJ-Cj-fJB"/>
                         <constraint firstItem="27b-Uc-uht" firstAttribute="leading" secondItem="wwc-iv-DdL" secondAttribute="leading" id="KW1-st-78J"/>
                         <constraint firstAttribute="centerX" secondItem="3bQ-Xo-YMK" secondAttribute="centerX" id="Kdg-6B-EH8"/>
@@ -160,6 +152,7 @@
                         </constraint>
                         <constraint firstItem="wwc-iv-DdL" firstAttribute="trailing" secondItem="jCv-ul-YNA" secondAttribute="trailing" id="MD1-fE-40L"/>
                         <constraint firstAttribute="centerX" secondItem="23h-4R-CUK" secondAttribute="centerX" id="SEC-Tr-IXM"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ITo-tM-QwE" secondAttribute="trailing" constant="20" id="U3F-s0-5Nj"/>
                         <constraint firstItem="wwc-iv-DdL" firstAttribute="leading" secondItem="ITo-tM-QwE" secondAttribute="leading" id="Uag-5L-KLI"/>
                         <constraint firstItem="33g-Dq-qfs" firstAttribute="leading" secondItem="QBQ-Vx-cnR" secondAttribute="leading" id="UhY-YE-9WE"/>
                         <constraint firstItem="jCv-ul-YNA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="WO0-mg-3wj">
@@ -190,19 +183,21 @@
                 </view>
             </subviews>
             <constraints>
-                <constraint firstItem="i5M-Pr-FkT" firstAttribute="leading" secondItem="2u3-SH-2HX" secondAttribute="leading" id="8fx-Ax-Lu8"/>
                 <constraint firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="XLI-V4-Nh6"/>
-                <constraint firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="qxN-sD-0nU"/>
+                <constraint firstItem="i5M-Pr-FkT" firstAttribute="leading" secondItem="wWr-Fd-e6u" secondAttribute="leading" id="Zq7-4b-0KW"/>
+                <constraint firstItem="i5M-Pr-FkT" firstAttribute="trailing" secondItem="wWr-Fd-e6u" secondAttribute="trailing" id="sN5-Tu-Mvr"/>
+                <constraint firstItem="i5M-Pr-FkT" firstAttribute="width" secondItem="wWr-Fd-e6u" secondAttribute="width" id="uk2-lJ-osA"/>
                 <constraint firstItem="i5M-Pr-FkT" firstAttribute="top" secondItem="2u3-SH-2HX" secondAttribute="top" id="vDV-uq-3Js"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
+            <viewLayoutGuide key="safeArea" id="wWr-Fd-e6u"/>
             <point key="canvasLocation" x="416" y="461"/>
         </scrollView>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <navigationController modalPresentationStyle="formSheet" id="RHM-kz-Z9r" customClass="ThemeableNavigationController" customModule="Cascable" customModuleProvider="target">
             <value key="contentSizeForViewInPopover" type="size" width="480" height="300"/>
             <navigationBar key="navigationBar" contentMode="scaleToFill" id="Odq-nD-f2g">
-                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                 <autoresizingMask key="autoresizingMask"/>
             </navigationBar>
             <viewControllers>
@@ -212,21 +207,21 @@
                         <viewControllerLayoutGuide type="bottom" id="yka-ja-htg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Gyb-bs-k1E">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWj-nk-d1j">
-                                <rect key="frame" x="40" y="84" width="46" height="29"/>
+                                <rect key="frame" x="20" y="108" width="35" height="21.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 </variation>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Example Title" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vy8-1J-IJE">
-                                <rect key="frame" x="40" y="120.5" width="520" height="29"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="20" y="137.66666666666666" width="335" height="24"/>
+                                <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact">
@@ -234,34 +229,34 @@
                                 </variation>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40mm" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkC-NF-oOi">
-                                <rect key="frame" x="470.5" y="269" width="69.5" height="29"/>
+                                <rect key="frame" x="298" y="248.33333333333337" width="57" height="24"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Focal Length Range" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Yz-Hd-GWD">
-                                <rect key="frame" x="40" y="189.5" width="212.5" height="29"/>
+                                <rect key="frame" x="20" y="181.66666666666666" width="160.33333333333334" height="21.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40mm" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Isi-s1-pJX">
-                                <rect key="frame" x="60" y="269" width="69.5" height="29"/>
+                                <rect key="frame" x="20" y="248.33333333333337" width="57" height="24"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                 </variation>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3NT-Lx-TJZ" customClass="NMRangeSlider">
-                                <rect key="frame" x="60" y="229" width="480" height="31"/>
+                                <rect key="frame" x="20" y="213.33333333333334" width="335" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="IwR-hJ-98m"/>
                                 </constraints>
@@ -270,9 +265,12 @@
                                 </connections>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3Yz-Hd-GWD" secondAttribute="trailing" constant="20" id="4yo-zc-VBf"/>
+                            <constraint firstItem="mkC-NF-oOi" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Isi-s1-pJX" secondAttribute="trailing" constant="20" id="5QH-Sf-OCy"/>
                             <constraint firstItem="3NT-Lx-TJZ" firstAttribute="top" secondItem="3Yz-Hd-GWD" secondAttribute="bottom" constant="10" id="5dq-Vb-BnH"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QWj-nk-d1j" secondAttribute="trailing" constant="20" id="8ji-Wx-Ilz"/>
                             <constraint firstItem="vy8-1J-IJE" firstAttribute="leading" secondItem="QWj-nk-d1j" secondAttribute="leading" id="AIh-Ms-ThJ"/>
                             <constraint firstItem="3Yz-Hd-GWD" firstAttribute="top" secondItem="vy8-1J-IJE" secondAttribute="bottom" constant="40" id="AjE-8i-0De">
                                 <variation key="widthClass=compact" constant="20"/>
