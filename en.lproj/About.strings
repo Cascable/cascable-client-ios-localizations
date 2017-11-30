@@ -8,11 +8,11 @@
 /* Class = "UILabel"; text = "Alana Kennett"; ObjectID = "4yB-gK-9vM"; */
 "4yB-gK-9vM.text" = "Alana Kennett";
 
-/* Class = "UILabel"; text = "Andre Vo Van\nJared LeClaire\nJohn McIntosh\nReynold Galza\nTrond Sliper"; ObjectID = "6Kk-xx-hBU"; */
-"6Kk-xx-hBU.text" = "Andre Vo Van\nJared LeClaire\nJohn McIntosh\nReynold Galza\nTrond Sliper";
+/* Class = "UILabel"; text = "Cocoaheads STHLM"; ObjectID = "6Kk-xx-hBU"; */
+"6Kk-xx-hBU.text" = "Cocoaheads STHLM";
 
-/* Class = "UILabel"; text = "Exceptional Testing"; ObjectID = "9f0-nD-Tyq"; */
-"9f0-nD-Tyq.text" = "Exceptional Testing";
+/* Class = "UILabel"; text = "Dev Support"; ObjectID = "9f0-nD-Tyq"; */
+"9f0-nD-Tyq.text" = "Dev Support";
 
 /* Class = "UIViewController"; title = "Licenses"; ObjectID = "AXt-16-gAc"; */
 "AXt-16-gAc.title" = "Licenses";
