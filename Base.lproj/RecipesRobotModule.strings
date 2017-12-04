@@ -18,6 +18,13 @@
 "ChosenRecipeLoadFailureGenericDescription" = "The Recipe could not be loaded as it appears to be damaged.";
 "ChosenRecipeLoadFailureTooNewDescription" = "The Recipe was created with a newer version of Recipes than this version of Cascable supports. Please update Cascable to the newest version.";
 
+// ------ Logs ------
+
+"RecipeLogsPropertyTitle" = "Previous Runs";
+"RecipeLogsPropertySubTitle" = "%@";
+"RecipeLogsPropertySubTitle_Plural" = "%@";
+"RecipeLogsListNoLogsTitle" = "When you run recipes, logs of the ten most recent runs will be available here."
+
 // ------ Warnings: General ------
 
 "NoRecipeChosenWarningTitle" = "No Recipe Chosen";
