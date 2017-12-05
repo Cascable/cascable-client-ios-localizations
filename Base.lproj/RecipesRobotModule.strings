@@ -23,7 +23,15 @@
 "RecipeLogsPropertyTitle" = "Previous Runs";
 "RecipeLogsPropertySubTitle" = "%@";
 "RecipeLogsPropertySubTitle_Plural" = "%@";
-"RecipeLogsListNoLogsTitle" = "When you run recipes, logs of the ten most recent runs will be available here."
+"RecipeLogsListNoLogsLongTitle" = "When you run recipes, logs of the ten most recent runs will be available here.";
+"RecipeLogsListSubtitle" = "Run with %@ on %@.";
+"RecipeLogsListNoLogsTitle" = "No Recipe Runs Available";
+
+"RecipeLogTitleHeader" = "%@ on %@";
+"RecipeLogRecipeNameHeader" = "Recipe";
+"RecipeLogCameraNameHeader" = "Camera";
+"RecipeLogStartDateHeader" = "Start";
+"RecipeLogEndDateHeader" = "End";
 
 // ------ Warnings: General ------
 
