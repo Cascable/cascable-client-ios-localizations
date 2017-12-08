@@ -970,7 +970,7 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 // ------------------------------------------------------------
 
 /* Title of the remote control feature. */
-"RemoteTitle" = "Remote";
+"RemoteTitle" = "Remote Control";
 
 /* Title of the remote control warning that no camera is connected. */
 "RemoteUnavailableNoConnectionTitle" = "No Camera Connected";
