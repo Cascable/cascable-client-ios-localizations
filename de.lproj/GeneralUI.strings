@@ -525,7 +525,7 @@
 "HelpPageDefaultTitle" = "Cascable Hilfe";
 
 /* The title of the '?' menu in Cascable. */
-"HelpAndInfoTitle" = "Hilfe und Informationen";
+"HelpAndInfoTitle" = "Hilfe & Informationen";
 
 /* Title of the 'Feedback' section of the help menu. */
 "FeedbackSectionTitle" = "Feedback";

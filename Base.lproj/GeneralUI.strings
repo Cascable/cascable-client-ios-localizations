@@ -531,7 +531,7 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 "HelpPageDefaultTitle" = "Cascable Help";
 
 /* The title of the '?' menu in Cascable. */
-"HelpAndInfoTitle" = "Help and Information";
+"HelpAndInfoTitle" = "Help & Information";
 
 /* Title of the 'Feedback' section of the help menu. */
 "FeedbackSectionTitle" = "Feedback";
