@@ -1345,6 +1345,9 @@
 /* Title of the 'Connection Settings' section of the connection popup. */
 "ConnectionSettingsTitle" = "Verbindungseinstellungen";
 
+/* Title of the 'Connection Settings' section of setting popup. */
+"ConnectionSettingsSectionHeader" = "Verbindungseinstellungen";
+
 /* Title of the 'Available Cameras' section of the connection popup. */
 "AvailableCamerasTitle" = "Verfügbare Kameras";
 

@@ -1373,6 +1373,9 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 /* Title of the 'Connection Settings' section of the connection popup. */
 "ConnectionSettingsTitle" = "Connection Settings";
 
+/* Title of the 'Connection Settings' section of setting popup. */
+"ConnectionSettingsSectionHeader" = "Camera Connection";
+
 /* Title of the 'Available Cameras' section of the connection popup. */
 "AvailableCamerasTitle" = "Available Cameras";
 
