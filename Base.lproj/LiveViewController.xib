@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -25,10 +27,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vg4-O7-jEr">
-                    <rect key="frame" x="0.0" y="208.5" width="375" height="250"/>
+                    <rect key="frame" x="0.0" y="218.5" width="375" height="250"/>
                 </view>
                 <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zKJ-Cz-Sqh" userLabel="Viewfinder Image View" customClass="UIImageView">
-                    <rect key="frame" x="0.0" y="208.5" width="375" height="250"/>
+                    <rect key="frame" x="0.0" y="218.5" width="375" height="250"/>
                     <subviews>
                         <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C3e-MH-CQE" userLabel="Grid View">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
@@ -51,18 +53,19 @@
                 </view>
             </subviews>
             <constraints>
-                <constraint firstItem="zKJ-Cz-Sqh" firstAttribute="top" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="top" id="4Hg-zn-n6z"/>
-                <constraint firstItem="zKJ-Cz-Sqh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" priority="750" id="5SC-qk-Ual"/>
-                <constraint firstItem="zKJ-Cz-Sqh" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="8yQ-oG-WnU"/>
+                <constraint firstItem="zKJ-Cz-Sqh" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Eal-uf-JRd" secondAttribute="top" id="4Hg-zn-n6z"/>
+                <constraint firstItem="zKJ-Cz-Sqh" firstAttribute="leading" secondItem="Eal-uf-JRd" secondAttribute="leading" priority="750" id="5SC-qk-Ual"/>
+                <constraint firstItem="zKJ-Cz-Sqh" firstAttribute="centerY" secondItem="Eal-uf-JRd" secondAttribute="centerY" id="8yQ-oG-WnU"/>
                 <constraint firstItem="Vg4-O7-jEr" firstAttribute="trailing" secondItem="zKJ-Cz-Sqh" secondAttribute="trailing" id="Oed-Fx-G5i"/>
-                <constraint firstItem="zKJ-Cz-Sqh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="XOa-VR-0iN"/>
+                <constraint firstItem="zKJ-Cz-Sqh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Eal-uf-JRd" secondAttribute="leading" id="XOa-VR-0iN"/>
                 <constraint firstItem="Vg4-O7-jEr" firstAttribute="top" secondItem="zKJ-Cz-Sqh" secondAttribute="top" id="ep5-1m-Ve0"/>
-                <constraint firstItem="zKJ-Cz-Sqh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" priority="750" id="gid-xg-ERA"/>
+                <constraint firstItem="zKJ-Cz-Sqh" firstAttribute="top" secondItem="Eal-uf-JRd" secondAttribute="top" priority="750" id="gid-xg-ERA"/>
                 <constraint firstItem="Vg4-O7-jEr" firstAttribute="leading" secondItem="zKJ-Cz-Sqh" secondAttribute="leading" id="jdx-gt-toZ"/>
-                <constraint firstItem="zKJ-Cz-Sqh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kBi-dp-W6t"/>
+                <constraint firstItem="zKJ-Cz-Sqh" firstAttribute="centerX" secondItem="Eal-uf-JRd" secondAttribute="centerX" id="kBi-dp-W6t"/>
                 <constraint firstItem="Vg4-O7-jEr" firstAttribute="bottom" secondItem="zKJ-Cz-Sqh" secondAttribute="bottom" id="tCj-jS-Uor"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Eal-uf-JRd"/>
             <point key="canvasLocation" x="224" y="389"/>
         </view>
         <customObject id="hEU-Qb-MKL" customClass="CBLGridViewController">
