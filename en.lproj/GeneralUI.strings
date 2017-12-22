@@ -1264,6 +1264,12 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 //     Shutter Robot: Problems
 // ------------------------------------------------------------
 
+/* Title of the alert shown when Shutter Robot can't start. */
+"ShutterRobotStartFailedTitle" = "Shutter Robot Could Not Start";
+
+/* Message of the alert shown when Shutter Robot can't start. */
+"ShutterRobotStartFailedDescription" = "A configuration problem prevented Shutter Robot from starting. Check your Shutter Robot settings and try again.";
+
 /* Title for a problem that causes no shots to fire. */
 "ShutterRobotConfigurationGivesZeroShotsTitle" = "Invalid setup";
 

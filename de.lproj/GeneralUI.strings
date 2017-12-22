@@ -1254,6 +1254,12 @@
 //     Shutter Robot: Problems
 // ------------------------------------------------------------
 
+/* Title of the alert shown when Shutter Robot can't start. */
+"ShutterRobotStartFailedTitle" = "Shutter Robot konnte nicht starten";
+
+/* Message of the alert shown when Shutter Robot can't start. */
+"ShutterRobotStartFailedDescription" = "Ein Konfigurationsproblem verhinderte den Start des Shutter Robot. Überprüfen Sie Ihre Shutter Robot-Einstellungen und versuchen Sie es erneut.";
+
 /* Title for a problem that causes no shots to fire. */
 "ShutterRobotConfigurationGivesZeroShotsTitle" = "Ungültiges Setup";
 
