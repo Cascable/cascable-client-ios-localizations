@@ -1,0 +1,7 @@
+{
+    "title" : "Recipes Editor",
+    "id": "se.cascable.client.help.recipes-editor",
+    "icon": "RecipesEditorHelpArticleIcon",
+    "category": "se.cascable.client.help.category.using",
+    "sort-hint" : 3
+}
