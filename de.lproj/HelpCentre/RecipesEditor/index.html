@@ -1,0 +1,197 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0" id="viewport" content="initial-scale=1.0" />
+<meta charset="UTF-8">
+<title>Remote Control</title>
+<script src="../common/common.js"></script>
+<link rel="stylesheet" type="text/css" href="../common/styles.css">
+<link rel="stylesheet" type="text/css" href="../common/light.css">
+</head>
+<body>
+
+<h3>Contents</h3>
+
+<ul>
+  <li><a href="#intro">Introduction</a></li>
+  <li><a href="#building">Building Recipes</a></li>
+  <li><a href="#running">Running Recipes</a></li>
+  <li><a href="#camera-interact">How Recipes Interact With Your Camera</a></li>
+  <li><a href="#variables">Variables</a></li>
+  <li><a href="#simulation">Simulation</a></li>
+  <li><a href="#warnings">Warnings</a></li>
+  <li><a href="#wait-blocks">The Importance of Wait Blocks</a></li>
+</ul>
+
+<hr />
+
+<p><a name="intro" id="intro"></a></p>
+
+<h3>Introduction</h3>
+
+<p>Recipes are an extension to our Shutter Robot feature that allow you to automate your camera in exactly the way you want. Using the Recipes Editor, you assemble a series of camera setting adjustments and shutter triggers together in whichever way you’d like. Once you’ve constructed the perfect recipe, Cascable’s Shutter Robot can run it against any camera that supports the features the recipe uses.</p>
+
+<p>To get started, navigate to the <strong>Recipes Editor</strong> section of the Cascable app, then tap <strong>Create &amp; Edit Recipes</strong> and either choose an existing recipe to edit, or tap <strong>Create Document</strong> to create a new, empty recipe.</p>
+
+<p><strong>Important:</strong> Recipes requires iOS 11 or higher.</p>
+
+<hr />
+
+<p><a name="building" id="building"></a></p>
+
+<h3>Building Recipes</h3>
+
+<p>You use <strong>blocks</strong> to build your recipes. Each block represents an individual action, and by chaining blocks together you can build complex and powerful programs to automate your photography.</p>
+
+<p>With the exception of the <strong>Repeat</strong> block, blocks are always executed one after another, from top to bottom. When a <strong>Repeat</strong> block is executed, it will execute its child blocks in order from top to bottom, then execute them again until all child blocks have been executed the number of times the <strong>Repeat</strong> block has been set to repeat.</p>
+
+<h4 id="adding-blocks">Adding Blocks</h4>
+
+<p>To add a block to your recipe on iPad, tap and hold the desired block in the panel on the left, then drag it to your program on the right and drop it in the desired place.</p>
+
+<p align="center"><img src="ipad-drag-template.png" style="width: 100%; max-width: 400px;" /></p>
+
+<p>On iPhone, tap the <strong>+</strong> icon at the top of your recipe, then tap the desired block to add it to the end of your recipe. Alternatively, tap and hold the desired block then drag it to your program and drop it in the desired place.</p>
+
+<p>If you add a block that requires a variable to operate, a new variable will be created for you if one isn’t already present. Otherwise, an existing variable will automatically assigned to the new block. See <a href="#variables">Variables</a> for more information on variables.</p>
+
+<h4 id="moving-blocks">Moving Blocks</h4>
+
+<p>You can easily re-order blocks (or add/remove blocks from a <strong>Repeat</strong> block) by tapping and holding on the block, then dragging it to the new place.</p>
+
+<p align="center"><img src="drag-block.png" style="width: 100%; max-width: 400px;" /></p>
+
+<h4 id="deleting-blocks">Deleting Blocks</h4>
+
+<p>To remove a block, swipe left on it to reveal the <strong>Delete</strong> button, then tap <strong>Delete</strong>.</p>
+
+<p align="center"><img src="delete-block.png" style="width: 100%; max-width: 400px;" /></p>
+
+<h4 id="configuring-blocks">Configuring Blocks</h4>
+
+<p>To change how a block behaves, tap it once. On iPad, the block’s configuration controls will appear in the panel on the left. On iPhone, it will appear over your recipe. Any changes you make will be saved automatically. On iPhone, tap <strong>Done</strong> to return to your recipe.</p>
+
+<p align="center"><img src="configure-block.png" style="width: 100%; max-width: 400px;" /></p>
+
+<p>To assign a new variable to a block that requires a variable to operate, tap and hold the variable at the top of your recipe, then drag and drop it onto the desired block.</p>
+
+<p align="center"><img src="variable-drag.png" style="width: 100%; max-width: 400px;" /></p>
+
+<hr />
+
+<p><a name="running" id="running"></a></p>
+
+<h3>Running Recipes</h3>
+
+<p>To run a recipe against your camera, navigate to the <strong>Remote Control</strong> section of the Cascable app, tap the <strong>Shutter Robot</strong> icon and choose the <strong>Recipes</strong> module. Then, tap the <strong>Recipe</strong> section to choose the recipe to run.</p>
+
+<p>Once this is done, tap <strong>Engage</strong> to engage the Shutter Robot and start it as normal.</p>
+
+<hr />
+
+<p><a name="camera-interact" id="camera-interact"></a></p>
+
+<h3>How Recipes Interact With Your Camera</h3>
+
+<p>Like the rest of Shutter Robot’s modules, Recipes is designed to take your camera’s setup when a recipe is started and work from there. Therefore, when building recipes you will mostly be changing settings by a certain number of stops rather than explicitly setting values.</p>
+
+<p>For example, let’s say we’re building a small HDR bracketing recipe. Rather than explicitly setting the camera’s exposure compensation to <strong>-1 EV</strong>, <strong>0 EV</strong>, then <strong>+1 EV</strong>, you instead might <strong>Reduce EV by one stop</strong>, <strong>Increase EV by one stop</strong>, then <strong>Increase EV by one stop</strong> once more.</p>
+
+<p align="center"><img src="recipe-simple-bracket.png" style="width: 100%; max-width: 400px;" /></p>
+
+<p>While this may seem more complex at first, it gives a great amount of flexibility. If the camera is set to <strong>0 EV</strong> when you run this recipe, it will set the camera to <strong>-1 EV</strong>, <strong>0 EV</strong>, then <strong>+1 EV</strong> just like the first example. However, if your camera is set to <strong>+1 EV</strong> when you run the recipe, it will set the camera to <strong>0 EV</strong>, <strong>+1 EV</strong>, then <strong>+2 EV</strong>.</p>
+
+<hr />
+
+<p><a name="variables" id="variables"></a></p>
+
+<h3>Variables</h3>
+
+<p>Variables are an advanced feature that you can use to build really advanced recipes.</p>
+
+<p>Think of a variable as a small sticky note with a number written on it. When you change a variable, a new number is written onto the note. When you use a variable in a <strong>Wait</strong> or <strong>Bulb Exposure</strong> block, the number is read from the note and used.</p>
+
+<p>Each variable has a name to make it easy to see what’s going on when you have more than one. You can name variables anything you wish — even with Emoji, if that takes your fancy.</p>
+
+<p>With variables you can change duration values on-the-fly, and when combined with <strong>Repeat</strong> blocks, you can automate complex shoots with a surprisingly small program. For example, let’s consider the following program:</p>
+
+<p align="center"><img src="bulb-bracket.png" style="width: 100%; max-width: 400px;" /></p>
+
+<p>This program defines one variable, named <strong>My Variable</strong>, with a starting value of <strong>2 seconds</strong>. Once the program starts running, the <strong>Repeat</strong> block will repeat the enclosed blocks 5 times. Here’s what will happen:</p>
+
+<ul>
+  <li>
+    <p>The <strong>Bulb Exposure</strong> block runs for the first time, taking a bulb exposure of the current value of <strong>My Variable</strong> (2 seconds).</p>
+  </li>
+  <li>
+    <p>The <strong>Change Duration Variable</strong> block runs for the first time, multiplying the current value of <strong>My Variable</strong> from 2 seconds to 4 seconds.</p>
+  </li>
+  <li>
+    <p>The <strong>Bulb Exposure</strong> block runs for the second time, taking a bulb exposure of the current value of <strong>My Variable</strong> (4 seconds).</p>
+  </li>
+  <li>
+    <p>The <strong>Change Duration Variable</strong> block runs for the second time, multiplying the current value of <strong>My Variable</strong> from 4 seconds to 8 seconds.</p>
+  </li>
+  <li>
+    <p>The <strong>Bulb Exposure</strong> block runs for the third time, taking a bulb exposure of the current value of <strong>My Variable</strong> (8 seconds).</p>
+  </li>
+</ul>
+
+<p>…and so on. When the recipe has finished, it will have taken five bulb exposures of 2, 4, 8, 16, and 32 seconds. With four blocks, we’ve built a decent bulb bracketing recipe!</p>
+
+<hr />
+
+<p><a name="simulation" id="simulation"></a></p>
+
+<h3>Simulation</h3>
+
+<p>If you want to verify that your recipe behaves as you expect, Recipes allows you to run your recipes against a simulated camera. The simulator works mostly like a real camera, with the following caveats:</p>
+
+<ul>
+  <li>
+    <p><strong>Wait</strong> and <strong>Bulb Exposure</strong> blocks are shortened to take no time, meaning simuation runs will only ever take a few seconds, even for recipes that would normally take hours.</p>
+  </li>
+  <li>
+    <p>No photos are taken.</p>
+  </li>
+</ul>
+
+<p>To run your recipe in the simulator, tap <strong>Simulate</strong> at the top of your recipe, set up the simulated camera, then tap <strong>Run Simulation</strong>. After a moment, you will be presented with a log of everything that the recipe did.</p>
+
+<p align="center"><img src="simulator.png" style="width: 100%; max-width: 400px;" /></p>
+
+<p>This is a great way to verify that your variables and settings changes are working as you’d expect.</p>
+
+<hr />
+
+<p><a name="warnings" id="warnings"></a></p>
+
+<h3>Warnings</h3>
+
+<p>When building recipes, it’s possible to end up with a recipe that is technically impossible to run, or will run but might act in an unexpected way.</p>
+
+<p>If you see a <img class="retina" src="../common/themed-images/light/recipes-warning.png" alt="Recipes Editor Warning"> icon at the top of your recipe, a problem has been found that may impact your recipe. To view these warnings, tap the <img class="retina" src="../common/themed-images/light/recipes-warning.png" alt="Recipes Editor Warning"> icon.</p>
+
+<p align="center"><img src="warnings.png" style="width: 100%; max-width: 400px;" /></p>
+
+<p>Warnings with a red dot are severe enough that your recipe cannot be run until the problem has been rectified. Warnings with an orange dot will still allow your recipe to run, but you may encounter unexpected behaviour.</p>
+
+<p>Each warning will explain the problem to you and give you the information needed to rectify it.</p>
+
+<hr />
+
+<p><a name="wait-blocks" id="wait-blocks"></a></p>
+
+<h3>The Importance of Wait Blocks</h3>
+
+<p>You may have noticed that in all of our examples, we include a <strong>Wait</strong> block after each <strong>Take Shot</strong> or <strong>Bulb Exposure</strong> block.</p>
+
+<p>After a camera takes a photo, there is an amount of <em>cycle time</em> before the camera is ready to take the next shot. Since this cycle time can vary wildly depending on your exact camera model and its settings, Recipes leaves it up to you to compensate for cycle time by adding <strong>Wait</strong> blocks where appropriate.</p>
+
+<p>If you have a fast SD card and are taking JPEG images, cycle time is usually less than a second. In extreme cases, however, this can be much longer. For example, if you’re taking bulb exposures with your camera’s <strong>Long Exposure Noise Reduction</strong> setting switched on, your camera will take a <em>second</em> exposure equal in duration to the first, then need a few extra seconds to process and write the exposure. If you’re using Long Exposure Noise Reduction, you could compensate for it in your recipe like this:</p>
+
+<p align="center"><img src="long-exp-nr.png" style="width: 100%; max-width: 400px;" /></p>
+
+<p>You can find some tips and tricks for increasing camera responsiveness (including reducing cycle time) in our blog post: <a href="https://cascable.se/blog/shutter-robot-tips/">Making the Most of Cascable: Success with Shutter Robot</a>.</p>
+
+</body>
+</html>

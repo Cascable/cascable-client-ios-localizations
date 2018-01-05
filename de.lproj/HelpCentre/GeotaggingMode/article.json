@@ -3,5 +3,5 @@
     "id": "se.cascable.client.help.geotagging",
     "icon": "GeotaggingHelpArticleIcon",
     "category": "se.cascable.client.help.category.using",
-    "sort-hint" : 4
+    "sort-hint" : 5
 }
