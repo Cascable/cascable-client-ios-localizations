@@ -19,6 +19,14 @@
 "ChosenRecipeLoadFailureGenericDescription" = "The Recipe could not be loaded as it appears to be damaged.";
 "ChosenRecipeLoadFailureTooNewDescription" = "The Recipe was created with a newer version of Recipes than this version of Cascable supports. Please update Cascable to the newest version.";
 
+// ------ Creating Recipes ------
+
+"NewRecipeNameTitle" = "New Recipe Name";
+"NewRecipeNameMessage" = "You can rename your recipe later in the Files app.";
+"CreateTitle" = "Create";
+"RecipeNameFieldPlaceholder" = "Enter a name";
+"DefaultNewRecipeName" = "New Recipe";
+
 // ------ Logs ------
 
 "RecipeLogsPropertyTitle" = "Previous Runs";
