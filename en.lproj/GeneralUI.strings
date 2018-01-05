@@ -829,6 +829,19 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 "CascableCoreVersionFormatter" = "CascableCore %@ (%@, %@)";
 
 // ------------------------------------------------------------
+//     Tutorial Videos
+// ------------------------------------------------------------
+
+/* The title of the alert displayed when video downloading fails. */
+"VideoDownloadFailedTitle" = "Could Not Download Video";
+
+/* The message of the alert displayed when video downloading fails. */
+"VideoDownloadFailedGenericMessage" = "Check you have access to the internet and try again.";
+
+/* The message of the alert displayed when video downloading fails due to lack of space. */
+"VideoDownloadFailedNoSpaceMessage" = "There is not enough space available on your %@ to download the video.";
+
+// ------------------------------------------------------------
 //     In-App Purchases
 // ------------------------------------------------------------
 

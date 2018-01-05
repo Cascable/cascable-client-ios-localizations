@@ -821,6 +821,19 @@
 "CascableCoreVersionFormatter" = "CascableCore %@ (%@, %@)";
 
 // ------------------------------------------------------------
+//     Tutorial Videos
+// ------------------------------------------------------------
+
+/* The title of the alert displayed when video downloading fails. */
+"VideoDownloadFailedTitle" = "Video konnte nicht heruntergeladen werden";
+
+/* The message of the alert displayed when video downloading fails. */
+"VideoDownloadFailedGenericMessage" = "Überprüfe Sie den Zugang auf das Internet haben.";
+
+/* The message of the alert displayed when video downloading fails due to lack of space. */
+"VideoDownloadFailedNoSpaceMessage" = "Auf dem %@ ist nicht genügend Speicherplatz verfügbar, um das Video herunterzuladen.";
+
+// ------------------------------------------------------------
 //     In-App Purchases
 // ------------------------------------------------------------
 
