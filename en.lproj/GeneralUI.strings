@@ -724,7 +724,7 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 "MultiVariantCopySettingsHeader" = "When Copying RAW+JPEG Photos";
 
 /* The footer text of the 'When Copying RAW+JPEG…' settings section */
-"MultiVariantCopySettingsFooter" = "If you choose to copy one file from a RAW+JPEG pair, Cascable will always let you download the other file later.";
+"MultiVariantCopySettingsFooter" = "If you choose to copy one file from a RAW+JPEG pair, Cascable will always let you download the other file later.\n\nFujifilm and some older Panasonic cameras don't support accessing RAW files whole being controlled over WiFi.";
 
 /* Titles for the various file downloading options. */
 "MultiVariantDownloadChoice0Title" = "Ask Each Time";
