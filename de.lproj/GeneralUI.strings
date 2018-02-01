@@ -987,6 +987,12 @@
 /* Description of the remote control warning that live view is disabled. */
 "RemoteUnavailableEVFNotCorrectDescription" = "Live-Ansicht ist zurzeit gestoppt. Tippen Sie auf „Live-Ansicht starten“.";
 
+/* Title of the remote control warning that live view is still starting. */
+"RemoteUnavailableEVFStartingTitle" = "Live-Ansicht beginnt …";
+
+/* Description of the remote control warning that live view is still starting. */
+"RemoteUnavailableEVFStartingDescription" = "Live-Ansicht startet gerade. Dies sollte nur ein paar Sekunden dauern.";
+
 /* 'Start Live View' button title. */
 "StartLiveViewTitle" = "Live-Ansicht starten";
 

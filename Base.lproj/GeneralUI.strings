@@ -997,6 +997,12 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Description of the remote control warning that live view is disabled. */
 "RemoteUnavailableEVFNotCorrectDescription" = "Live View is currently stopped. Tap \"Start Live View\" to start Live View.";
 
+/* Title of the remote control warning that live view is still starting. */
+"RemoteUnavailableEVFStartingTitle" = "Live View Starting…";
+
+/* Description of the remote control warning that live view is still starting. */
+"RemoteUnavailableEVFStartingDescription" = "Live View is currently starting. This should only take a few seconds.";
+
 /* 'Start Live View' button title. */
 "StartLiveViewTitle" = "Start Live View";
 
