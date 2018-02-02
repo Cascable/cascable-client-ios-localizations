@@ -983,7 +983,7 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 // ------------------------------------------------------------
 
 /* Title of the remote control feature. */
-"RemoteTitle" = "Remote";
+"RemoteTitle" = "Remote Control";
 
 /* Title of the remote control warning that no camera is connected. */
 "RemoteUnavailableNoConnectionTitle" = "No Camera Connected";
@@ -1386,11 +1386,20 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 /* Footer text for the 'Sync Camera Clock' setting. */
 "SyncCameraClockFooter" = "Clock sync is available on Nikon, Olympus, and some Canon cameras.";
 
+/* Title of the 'Power Off Camera' setting. */
+"PowerOffCameraOnDisconnectTitle" = "Power Off Camera";
+
+/* Footer text for the 'Power Off Camera' setting. */
+"PowerOffCameraOnDisconnectFooter" = "Power off on disconnect is available on Olympus cameras.";
+
 /* Text displayed in the notification to the user when Cascable has to disconnect from a camera due to background task expiration. */
 "DisconnectedAutomaticallyInBackgroundAlert" = "Cascable has disconnected from your camera due to being in the background. Launch Cascable to reconnect.";
 
 /* Title of the 'Connection Settings' section of the connection popup. */
-"ConnectionSettingsTitle" = "Connection Settings";
+"ConnectionSettingsTitle" = "Connection";
+
+/* Title of the 'Disconnection Settings' section of the connection popup. */
+"DisconnectionSettingsTitle" = "Disconnection";
 
 /* Title of the 'Connection Settings' section of setting popup. */
 "ConnectionSettingsSectionHeader" = "Camera Connection";
@@ -1641,3 +1650,4 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 
 /* Button title for notifying the user about location tracking events. */
 "TrackingNotificationAskDoNotifyButtonTitle" = "Notify";
+

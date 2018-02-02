@@ -1364,11 +1364,20 @@
 /* Footer text for the 'Sync Camera Clock' setting. */
 "SyncCameraClockFooter" = "Uhr-Synchronisierung ist verfügbar für Nikon, Olympus und einige Canon Kameras.";
 
+/* Title of the 'Power Off Camera' setting. */
+"PowerOffCameraOnDisconnectTitle" = "Kamera ausschalten";
+
+/* Footer text for the 'Power Off Camera' setting. */
+"PowerOffCameraOnDisconnectFooter" = "Kamera ausschalten ist verfügbar für Olympus Kameras.";
+
 /* Text displayed in the notification to the user when Cascable has to disconnect from a camera due to background task expiration. */
 "DisconnectedAutomaticallyInBackgroundAlert" = "Cascable hat keine Verbindung mehr zu Ihrer Kamera, da es in den Hintergrund verschoben wurde. Starten Sie Cascable, um die Verbindung wieder herzustellen.";
 
 /* Title of the 'Connection Settings' section of the connection popup. */
-"ConnectionSettingsTitle" = "Verbindungseinstellungen";
+"ConnectionSettingsTitle" = "Verbindung";
+
+/* Title of the 'Disconnection Settings' section of the connection popup. */
+"DisconnectionSettingsTitle" = "Trennung";
 
 /* Title of the 'Connection Settings' section of setting popup. */
 "ConnectionSettingsSectionHeader" = "Verbindungseinstellungen";
