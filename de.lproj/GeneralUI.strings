@@ -1018,6 +1018,9 @@
 /* Title of the 'Lock Viewfinder Orientation' option. */
 "LockViewfinderOrientationTitle" = "Suchfenster-Ausrichtung sperren";
 
+/* Title of the 'Rotate Viewfinder Image' option. */
+"RotateViewfinderTitle" = "Suchfenster-Ausrichtung drehen";
+
 /* Title of the 'Show Highlight Warning' option. */
 "ShowHighlightWarningTitle" = "Belichtungswarnung anzeigen";
 
