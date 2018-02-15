@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -222,6 +222,8 @@
             </subviews>
             <constraints>
                 <constraint firstAttribute="centerY" secondItem="xhO-KI-stW" secondAttribute="centerY" id="39z-0o-ogG"/>
+                <constraint firstItem="4ux-iN-v8B" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="lhN-xk-CiY" secondAttribute="trailing" constant="10" id="6dg-36-CQy"/>
+                <constraint firstItem="xhO-KI-stW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Xts-uO-uL1" secondAttribute="trailing" constant="10" id="Md5-xL-MWc"/>
                 <constraint firstItem="aRh-K7-Cha" firstAttribute="trailing" secondItem="4ux-iN-v8B" secondAttribute="trailing" constant="12" id="N3e-Lc-IRm"/>
                 <constraint firstAttribute="centerY" secondItem="4ux-iN-v8B" secondAttribute="centerY" id="OQk-hZ-XdM"/>
                 <constraint firstItem="Xts-uO-uL1" firstAttribute="leading" secondItem="xgq-ad-2tx" secondAttribute="trailing" constant="20" id="UR6-yC-Efx"/>
@@ -230,7 +232,6 @@
                 <constraint firstAttribute="centerY" secondItem="lhN-xk-CiY" secondAttribute="centerY" id="fef-S4-MgN"/>
                 <constraint firstAttribute="centerX" secondItem="lhN-xk-CiY" secondAttribute="centerX" priority="750" id="iLq-o7-C6p"/>
                 <constraint firstItem="4ux-iN-v8B" firstAttribute="leading" secondItem="xhO-KI-stW" secondAttribute="trailing" constant="14" id="iP3-do-9gc"/>
-                <constraint firstItem="xhO-KI-stW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="lhN-xk-CiY" secondAttribute="trailing" constant="10" id="mCt-nv-I4b"/>
                 <constraint firstItem="xgq-ad-2tx" firstAttribute="leading" secondItem="aRh-K7-Cha" secondAttribute="leading" constant="20" id="rbI-oz-XLB">
                     <variation key="widthClass=compact" constant="10"/>
                 </constraint>
