@@ -821,6 +821,25 @@
 "CascableCoreVersionFormatter" = "CascableCore %@ (%@, %@)";
 
 // ------------------------------------------------------------
+//     QR Scanning
+// ------------------------------------------------------------
+
+/* The text shown when the iOS device has no camera or access is denied. */
+"QRScanningDeviceCameraAccessFailedDescription" = "Cascable could not access your %@'s camera.\n\nPlease make sure Cascable has permission to to access the camera in your privacy settings.";
+
+/* Text shown while joining a WiFi network. */
+"QRScanningJoinWiFiNetworkTitle" = "Connecting to your camera's WiFi network…";
+
+/* Text shown while connecting to a camera. */
+"QRScanningConnectingToCameraTitle" = "Waiting for your camera to connect…";
+
+/* Text shown when the iOS device can't join the camera's network. */
+"QRScanningJoinWiFiNetworkFailedDescription" = "Your %@ could not connect to your camera's WiFi network.";
+
+/* Text shown when the WiFi network is joined but the camera can't be found or connection failed. */
+"QRScanningConnectToCameraFailedDescription" = "Cascable could not connect to your camera. Double-check that the camera is correctly configured and that WiFi is enabled and waiting for a connection.";
+
+// ------------------------------------------------------------
 //     Tutorial Videos
 // ------------------------------------------------------------
 
