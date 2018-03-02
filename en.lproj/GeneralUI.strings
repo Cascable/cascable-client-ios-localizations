@@ -832,6 +832,9 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 //     QR Scanning
 // ------------------------------------------------------------
 
+/* The text shown in the button to start QR code scanning. */
+"QRScanningStartTitle" = "Scan QR Code…";
+
 /* The text shown when the iOS device has no camera or access is denied. */
 "QRScanningDeviceCameraAccessFailedDescription" = "Cascable could not access your %@'s camera.\n\nPlease make sure Cascable has permission to to access the camera in your privacy settings.";
 
