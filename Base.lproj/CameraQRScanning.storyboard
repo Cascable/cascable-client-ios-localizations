@@ -174,14 +174,14 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XNX-yb-dnn">
-                            <rect key="frame" x="0.0" y="34" width="294" height="226"/>
+                            <rect key="frame" x="0.0" y="43" width="294" height="208.5"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O48-5Y-slC">
-                                    <rect key="frame" x="20" y="108" width="254" height="118"/>
+                                    <rect key="frame" x="20" y="108" width="254" height="100.5"/>
                                     <string key="text">Cascable could not access your iOS device's camera. 
 
 Please make sure Cascable has permission to to access the camera in your privacy settings.</string>
-                                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
