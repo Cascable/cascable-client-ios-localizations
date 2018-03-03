@@ -923,17 +923,17 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Purchase button main title for a quarterly subscription. */
 "PurchaseButtonQuarterlySubscriptionNoTrialHeadline" = "Quarterly Subscription";
 
-/* Purchase button sub-title for a monthly subscription. E.g.: "then $2.99 per month, billed monthly". */
-"PurchaseButtonMonthlySubscriptionSubheadline" = "then %@ per month, billed monthly";
+/* Purchase button sub-title for a monthly subscription. E.g.: "then $2.99 per month". */
+"PurchaseButtonMonthlySubscriptionSubheadline" = "then %@ per month";
 
-/* Purchase button sub-title for a quarterly subscription. E.g.: "then $1.99 per month, billed quarterly". */
-"PurchaseButtonQuarterlySubscriptionSubheadline" = "then %@ per month, billed quarterly";
+/* Purchase button sub-title for a quarterly subscription. E.g.: "then $1.99 every three months". */
+"PurchaseButtonQuarterlySubscriptionSubheadline" = "then %@ every three months";
 
-/* Purchase button sub-title for a monthly subscription without a trial. E.g.: "$2.99 per month, billed monthly". */
-"PurchaseButtonMonthlySubscriptionNoTrialSubheadline" = "%@ per month, billed monthly";
+/* Purchase button sub-title for a monthly subscription without a trial. E.g.: "$2.99 per month". */
+"PurchaseButtonMonthlySubscriptionNoTrialSubheadline" = "%@ per month";
 
-/* Purchase button sub-title for a quarterly subscription without a trial. E.g.: "then $1.99 per month, billed quarterly". */
-"PurchaseButtonQuarterlySubscriptionNoTrialSubheadline" = "%@ per month, billed quarterly";
+/* Purchase button sub-title for a quarterly subscription without a trial. E.g.: "$1.99 every three months". */
+"PurchaseButtonQuarterlySubscriptionNoTrialSubheadline" = "%@ every three months";
 
 // ------------------------------------------------------------
 //     Managing Selection
