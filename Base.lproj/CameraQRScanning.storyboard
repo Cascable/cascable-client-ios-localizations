@@ -95,11 +95,14 @@
                         <viewLayoutGuide key="safeArea" id="uaH-qD-qJT"/>
                     </view>
                     <connections>
+                        <outlet property="cancelButton" destination="rcJ-su-Tbz" id="oog-Us-Pi3"/>
                         <outlet property="dialogView" destination="TTS-Ei-rvd" id="khY-DZ-Oc9"/>
                         <outlet property="divider" destination="JqI-T8-xp0" id="Q1D-Z8-B87"/>
                         <outlet property="failureLabel" destination="O48-5Y-slC" id="Qzo-ts-m7E"/>
                         <outlet property="failureView" destination="wTs-xi-OVo" id="Vo5-E4-gSc"/>
                         <outlet property="qrStepContainer" destination="AHR-w2-HRb" id="wbB-We-uLp"/>
+                        <outlet property="spinner" destination="s8k-h2-MK2" id="Uhz-f8-Lq4"/>
+                        <outlet property="tick" destination="VzB-rD-cYp" id="jdY-Xh-VCU"/>
                         <outlet property="workingLabel" destination="c2O-KE-tQT" id="iCA-dO-1v8"/>
                         <outlet property="workingQRImage" destination="7fq-fa-4uO" id="Gwf-Pg-nbo"/>
                         <outlet property="workingView" destination="g3D-fC-DsM" id="4gE-BD-lzw"/>
@@ -130,14 +133,29 @@
                                         <constraint firstAttribute="width" secondItem="7fq-fa-4uO" secondAttribute="height" multiplier="1:1" id="ulN-V1-WVh"/>
                                     </constraints>
                                 </imageView>
+                                <view hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VzB-rD-cYp" customClass="CBLSelectionIndicatorView">
+                                    <rect key="frame" x="125.5" y="178.5" width="50" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="zKi-lQ-xsS"/>
+                                        <constraint firstAttribute="width" constant="50" id="zce-Mf-jAp"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="selected" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderThickness">
+                                            <real key="value" value="0.0"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
                             </subviews>
                             <constraints>
                                 <constraint firstItem="c2O-KE-tQT" firstAttribute="leading" secondItem="oLT-Jo-rUh" secondAttribute="leading" constant="30" id="Caa-OK-DVk"/>
                                 <constraint firstItem="7fq-fa-4uO" firstAttribute="centerX" secondItem="oLT-Jo-rUh" secondAttribute="centerX" id="Er1-Ws-a2P"/>
                                 <constraint firstAttribute="bottom" secondItem="c2O-KE-tQT" secondAttribute="bottom" id="UMo-44-8wh"/>
+                                <constraint firstItem="s8k-h2-MK2" firstAttribute="centerX" secondItem="VzB-rD-cYp" secondAttribute="centerX" id="cc9-G5-wUy"/>
                                 <constraint firstItem="s8k-h2-MK2" firstAttribute="top" secondItem="7fq-fa-4uO" secondAttribute="bottom" constant="25" id="hgd-Zs-iTz"/>
                                 <constraint firstAttribute="trailing" secondItem="c2O-KE-tQT" secondAttribute="trailing" constant="30" id="mio-QR-hdy"/>
                                 <constraint firstItem="c2O-KE-tQT" firstAttribute="top" secondItem="s8k-h2-MK2" secondAttribute="bottom" constant="20" id="n0n-zr-3vi"/>
+                                <constraint firstItem="s8k-h2-MK2" firstAttribute="centerY" secondItem="VzB-rD-cYp" secondAttribute="centerY" id="rLk-z7-OzL"/>
                                 <constraint firstItem="7fq-fa-4uO" firstAttribute="top" secondItem="oLT-Jo-rUh" secondAttribute="top" id="rmb-V3-RHi"/>
                                 <constraint firstItem="s8k-h2-MK2" firstAttribute="centerX" secondItem="oLT-Jo-rUh" secondAttribute="centerX" id="taC-Xs-ETm"/>
                             </constraints>
