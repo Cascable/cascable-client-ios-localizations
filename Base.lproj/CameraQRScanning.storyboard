@@ -27,7 +27,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="G8h-l2-OUX"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                         <state key="normal" title="Cancel"/>
                                         <connections>
                                             <action selector="cancel:" destination="Yih-Pg-MRO" eventType="touchUpInside" id="Fzt-bw-NOg"/>
