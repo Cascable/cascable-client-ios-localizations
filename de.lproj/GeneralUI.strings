@@ -825,22 +825,22 @@
 // ------------------------------------------------------------
 
 /* The text shown in the button to start QR code scanning. */
-"QRScanningStartTitle" = "Scan QR Code…";
+"QRScanningStartTitle" = "QR-Code scannen…";
 
 /* The text shown when the iOS device has no camera or access is denied. */
-"QRScanningDeviceCameraAccessFailedDescription" = "Cascable could not access your %@'s camera.\n\nPlease make sure Cascable has permission to to access the camera in your privacy settings.";
+"QRScanningDeviceCameraAccessFailedDescription" = "Cascable konnte nicht auf die Kamera Ihres %@s zugreifen.\n\nStellen Sie bitte in Ihren Privatsphäre-Einstellungen sicher, dass Cascable auf die Kamera zugreifen darf.";
 
 /* Text shown while joining a WiFi network. */
-"QRScanningJoinWiFiNetworkTitle" = "Connecting to your camera's WiFi network…";
+"QRScanningJoinWiFiNetworkTitle" = "Verbindung zum WLAN der Kamera wird hergestellt…";
 
 /* Text shown while connecting to a camera. */
-"QRScanningConnectingToCameraTitle" = "Waiting for your camera to connect…";
+"QRScanningConnectingToCameraTitle" = "Warte auf Verbindung mit der Kamera…";
 
 /* Text shown when the iOS device can't join the camera's network. */
-"QRScanningJoinWiFiNetworkFailedDescription" = "Your %@ could not connect to your camera's WiFi network.";
+"QRScanningJoinWiFiNetworkFailedDescription" = "Ihr %@ konnte sich nicht mit dem WLAN der Kamera verbinden.";
 
 /* Text shown when the WiFi network is joined but the camera can't be found or connection failed. */
-"QRScanningConnectToCameraFailedDescription" = "Cascable could not connect to your camera. Double-check that the camera is correctly configured and that WiFi is enabled and waiting for a connection.";
+"QRScanningConnectToCameraFailedDescription" = "Cascable konnte sich nicht mit Ihrer Kamera verbinden. Stellen Sie bitte sicher, dass das WLAN der Kamera aktiviert und bereit für die Verbindung ist.";
 
 // ------------------------------------------------------------
 //     Tutorial Videos
