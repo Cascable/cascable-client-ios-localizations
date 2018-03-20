@@ -50,15 +50,17 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e51-oR-xjz">
-                                <rect key="frame" x="30.5" y="246.5" width="260" height="78"/>
+                                <rect key="frame" x="30" y="246.5" width="260" height="155.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="aYW-Lz-eal">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Thank you for updating to Cascable 3.2!
+                                <string key="text">Thank you for updating to Cascable 3.4!
 
-This is a major update to Cascable which adds Shutter Robot Recipes, a new UI for iPhone users, and more.</string>
+This update to Cascable adds support for new Sony cameras, including the α7R III, α9, and more.
+
+Additionally, using Cascable's new Quick Connect feature, you can instantly connect to any camera that has a QR code on its screen!</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -162,8 +164,8 @@ This is a major update to Cascable which adds Shutter Robot Recipes, a new UI fo
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shutter Robot Recipes" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ZC-Bh-GeY">
-                                <rect key="frame" x="35" y="40" width="250.5" height="31.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quick Connect" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ZC-Bh-GeY">
+                                <rect key="frame" x="77" y="40" width="167" height="31.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -172,17 +174,15 @@ This is a major update to Cascable which adds Shutter Robot Recipes, a new UI fo
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEU-Kg-jDC">
-                                <rect key="frame" x="30.5" y="275.5" width="260" height="186.5"/>
+                                <rect key="frame" x="30" y="255.5" width="260" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="5Co-iV-ImL">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Cascable 3.2 adds Shutter Robot Recipes, the most powerful camera automation tool available for mobile photographers. 
+                                <string key="text">Cascable 3.4 adds Quick Connect, a new feature that allows you to instantly connect to any supported camera that has a QR on its screen when WiFi is activated.
 
-Using Recipes, you assemble a series of commands together in whichever way you'd like, then run them against your camera.
-
-For more information on Recipes, see the included tutorial video, the in-app Help Center, or the Cascable website.</string>
+Simply scan your camera's QR code and Cascable will connect to your camera's WiFi network — no more switching to Settings and fiddling around with networks!</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -209,13 +209,11 @@ For more information on Recipes, see the included tutorial video, the in-app Hel
                                     <segue destination="VTa-aR-8qN" kind="show" id="K65-gm-Rgb"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="750" verticalHuggingPriority="750" image="RecipesFirstRun" translatesAutoresizingMaskIntoConstraints="NO" id="Ew4-67-9L4">
-                                <rect key="frame" x="20" y="81.5" width="280" height="184"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="750" verticalHuggingPriority="750" image="QRFirstRun" translatesAutoresizingMaskIntoConstraints="NO" id="Ew4-67-9L4">
+                                <rect key="frame" x="100" y="91.5" width="120" height="144"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="347" id="2oR-3H-z9d">
-                                        <variation key="widthClass=compact" constant="280"/>
-                                    </constraint>
+                                    <constraint firstAttribute="width" constant="120" id="2oR-3H-z9d"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -225,9 +223,7 @@ For more information on Recipes, see the included tutorial video, the in-app Hel
                             <constraint firstItem="cGq-qj-Wb6" firstAttribute="centerX" secondItem="662-TK-s3R" secondAttribute="centerX" id="Ozs-uJ-JGB"/>
                             <constraint firstAttribute="centerX" secondItem="1ZC-Bh-GeY" secondAttribute="centerX" id="PvZ-xx-HIA"/>
                             <constraint firstItem="Ew4-67-9L4" firstAttribute="centerX" secondItem="662-TK-s3R" secondAttribute="centerX" id="ZCW-HS-eyx"/>
-                            <constraint firstItem="Ew4-67-9L4" firstAttribute="top" secondItem="1ZC-Bh-GeY" secondAttribute="bottom" constant="20" id="bBG-An-vk6">
-                                <variation key="widthClass=compact" constant="10"/>
-                            </constraint>
+                            <constraint firstItem="Ew4-67-9L4" firstAttribute="top" secondItem="1ZC-Bh-GeY" secondAttribute="bottom" constant="20" id="bBG-An-vk6"/>
                             <constraint firstAttribute="bottomMargin" secondItem="cGq-qj-Wb6" secondAttribute="bottom" constant="50" id="gab-To-oXc">
                                 <variation key="widthClass=compact" constant="30"/>
                             </constraint>
@@ -235,9 +231,7 @@ For more information on Recipes, see the included tutorial video, the in-app Hel
                             <constraint firstItem="1ZC-Bh-GeY" firstAttribute="top" secondItem="lDM-b8-0gP" secondAttribute="bottom" constant="40" id="rbd-wt-mmz">
                                 <variation key="widthClass=compact" constant="20"/>
                             </constraint>
-                            <constraint firstItem="zEU-Kg-jDC" firstAttribute="top" secondItem="Ew4-67-9L4" secondAttribute="bottom" constant="20" id="uxS-hS-gN9">
-                                <variation key="widthClass=compact" constant="10"/>
-                            </constraint>
+                            <constraint firstItem="zEU-Kg-jDC" firstAttribute="top" secondItem="Ew4-67-9L4" secondAttribute="bottom" constant="20" id="uxS-hS-gN9"/>
                         </constraints>
                     </view>
                     <connections>
@@ -277,7 +271,7 @@ For more information on Recipes, see the included tutorial video, the in-app Hel
                                         <variation key="widthClass=compact" constant="280"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Cascable 3.2 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.
+                                <string key="text">Cascable 3.4 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.
 
 If you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?
 
@@ -443,7 +437,7 @@ Enjoy!</string>
     <resources>
         <image name="AboutIcon" width="150" height="150"/>
         <image name="InstagramLogo" width="44" height="44"/>
-        <image name="RecipesFirstRun" width="347" height="184"/>
+        <image name="QRFirstRun" width="144" height="144"/>
         <image name="TwitterLogo" width="44" height="44"/>
     </resources>
 </document>
