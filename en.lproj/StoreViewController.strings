@@ -2,20 +2,23 @@
 /* Class = "UILabel"; text = "The Cascable store is not available at the moment. Please check your network connection. If connected to a camera, you may need to disconnect to reach a network with Internet connectivity."; ObjectID = "3ss-hP-gbE"; */
 "3ss-hP-gbE.text" = "The Cascable store is not available at the moment. Please check your network connection. If connected to a camera, you may need to disconnect to reach a network with Internet connectivity.";
 
-/* Class = "UILabel"; text = "Upgrade to Cascable Pro!"; ObjectID = "85y-wF-KNG"; */
-"85y-wF-KNG.text" = "Upgrade to Cascable Pro!";
+/* Class = "UIButton"; normalTitle = "Terms and Privacy Policy"; ObjectID = "GDM-LV-4vK"; */
+"GDM-LV-4vK.normalTitle" = "Terms and Privacy Policy";
 
-/* Class = "UILabel"; text = "Cascable Pro subscriptions will renew within 24 hours before the subscription period ends, and you will be charged through your iTunes account. You can manage your subscription in Account Settings."; ObjectID = "N9a-5g-1J5"; */
-"N9a-5g-1J5.text" = "Cascable Pro subscriptions will renew within 24 hours before the subscription period ends, and you will be charged through your iTunes account. You can manage your subscription in Account Settings.";
-
-/* Class = "UILabel"; text = "Cascable Pro provides powerful shutter automation, RAW image support, night mode, geotagging tools and much more."; ObjectID = "VXB-2Q-Ad4"; */
-"VXB-2Q-Ad4.text" = "Cascable Pro provides powerful shutter automation, RAW image support, night mode, geotagging tools and much more.";
+/* Class = "UILabel"; text = "Cascable Pro subscriptions will renew within 24 hours before the subscription period ends, and you will be charged through your iTunes account.\n\nIf you purchase a new Cascable Pro subscription during a free trial, you will forfeit any free trial period remaining from your first subscription.\n\nYou can manage and cancel your subscription in your iTunes Account Settings at any time."; ObjectID = "QlX-Ep-Kyp"; */
+"QlX-Ep-Kyp.text" = "Cascable Pro subscriptions will renew within 24 hours before the subscription period ends, and you will be charged through your iTunes account.\n\nIf you purchase a new Cascable Pro subscription during a free trial, you will forfeit any free trial period remaining from your first subscription.\n\nYou can manage and cancel your subscription in your iTunes Account Settings at any time.";
 
 /* Class = "UILabel"; text = "Thank you for supporting Cascable! Your purchase helps support a small, independent company. We couldn't do it without you!"; ObjectID = "XBi-WY-554"; */
 "XBi-WY-554.text" = "Thank you for supporting Cascable! Your purchase helps support a small, independent company. We couldn't do it without you!";
+
+/* Class = "UILabel"; text = "Cascable Pro provides powerful shutter automation, RAW image support, night mode, geotagging tools and much more."; ObjectID = "bBR-rE-0TM"; */
+"bBR-rE-0TM.text" = "Cascable Pro provides powerful shutter automation, RAW image support, night mode, geotagging tools and much more.";
 
 /* Class = "UILabel"; text = "You're upgraded to Cascable Pro!"; ObjectID = "dXK-jg-Fsr"; */
 "dXK-jg-Fsr.text" = "You're upgraded to Cascable Pro!";
 
 /* Class = "UILabel"; text = "The Cascable store is taking a long time to load. You may need to disconnect from your camera's WiFi network."; ObjectID = "eWf-Rq-vh9"; */
 "eWf-Rq-vh9.text" = "The Cascable store is taking a long time to load. You may need to disconnect from your camera's WiFi network.";
+
+/* Class = "UILabel"; text = "Upgrade to Cascable Pro!"; ObjectID = "ydd-AC-yDZ"; */
+"ydd-AC-yDZ.text" = "Upgrade to Cascable Pro!";
