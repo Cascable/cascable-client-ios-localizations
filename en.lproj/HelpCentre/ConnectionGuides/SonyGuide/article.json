@@ -1,6 +1,6 @@
 {
-    "title" : "Sony Connection Guide",
+    "title" : "Sony (With PlayMemories)",
     "id": "se.cascable.client.help.sony-connection",
-    "icon": "SonyHelpArticleIcon",
+    "icon": "SonyWithPlayMemoriesHelpArticleIcon",
     "category": "se.cascable.client.help.category.getting-connected",
 }
