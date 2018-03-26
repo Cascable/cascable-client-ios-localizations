@@ -842,6 +842,12 @@
 /* Text shown when the WiFi network is joined but the camera can't be found or connection failed. */
 "QRScanningConnectToCameraFailedDescription" = "Cascable konnte sich nicht mit Ihrer Kamera verbinden. Stellen Sie bitte sicher, dass das WLAN der Kamera aktiviert und bereit für die Verbindung ist.";
 
+/* Title to alert the user they must be in portrait to scan QR codes. */
+"QRScanningPortraitOnlyAlertTitle" = "Bitte drehen Sie Ihr %@";
+
+/* Message to alert the user they must be in portrait to scan QR codes. */
+"QRScanningPortraitOnlyAlertMessage" = "Ihr %@ muss im Hochformat sein, um QR-Codes zu scannen.";
+
 // ------------------------------------------------------------
 //     Tutorial Videos
 // ------------------------------------------------------------

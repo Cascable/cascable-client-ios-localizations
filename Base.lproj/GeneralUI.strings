@@ -850,6 +850,12 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Text shown when the WiFi network is joined but the camera can't be found or connection failed. */
 "QRScanningConnectToCameraFailedDescription" = "Cascable could not connect to your camera. Double-check that the camera is correctly configured and that WiFi is enabled and waiting for a connection.";
 
+/* Title to alert the user they must be in portrait to scan QR codes. */
+"QRScanningPortraitOnlyAlertTitle" = "Please Rotate Your %@";
+
+/* Message to alert the user they must be in portrait to scan QR codes. */
+"QRScanningPortraitOnlyAlertMessage" = "Your %@ needs to be in portrait to scan QR codes.";
+
 // ------------------------------------------------------------
 //     Tutorial Videos
 // ------------------------------------------------------------
