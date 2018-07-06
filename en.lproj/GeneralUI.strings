@@ -680,6 +680,9 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 /* Title for the 'Night Mode' setting. */
 "NightModeSettingTitle" = "Night Mode";
 
+/* Title for the 'Prefer Framerate over Quality' setting. */
+"FastLVSettingTitle" = "Prefer High Framerate";
+
 /* Title for the settings section for focus peaking. */
 "FocusPeakingSettingsTitle" = "Focus Peaking";
 

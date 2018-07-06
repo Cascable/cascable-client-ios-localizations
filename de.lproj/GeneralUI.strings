@@ -674,6 +674,9 @@
 /* Title for the 'Night Mode' setting. */
 "NightModeSettingTitle" = "Nachtmodus";
 
+/* Title for the 'Prefer Framerate over Quality' setting. */
+"FastLVSettingTitle" = "Framerate über Qualität";
+
 /* Title for the settings section for focus peaking. */
 "FocusPeakingSettingsTitle" = "Fokus-Peaking";
 
