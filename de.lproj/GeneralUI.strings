@@ -675,10 +675,10 @@
 "NightModeSettingTitle" = "Nachtmodus";
 
 /* Title for the 'Prefer Framerate over Quality' setting. */
-"FastLVSettingTitle" = "Framerate über Qualität";
+"FastLVSettingTitle" = "Hohe Bildwiederholungsrate";
 
 /* Description of the 'Prefer Framerate over Quality' setting. */
-"FastLVDescription" = "If enabled and supported by your camera, Cascable will reduce live view quality to achieve a higher frame rate. Supported by Nikon, some Canon, and some Sony models.";
+"FastLVDescription" = "Falls aktiviert (und von Ihrer Kamera unterstützt), wird Cascable die Qualität der Vorschau reduzieren, um eine höhere Bildwiederholungsrate zu erreichen. Diese Funktion wird von Nikon-, einigen Canon- und einigen Sony-Modellen unterstützt.";
 
 /* Title for the settings section for focus peaking. */
 "FocusPeakingSettingsTitle" = "Fokus-Peaking";
