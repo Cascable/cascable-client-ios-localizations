@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZN2-am-Zmm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZN2-am-Zmm">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -50,17 +49,17 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e51-oR-xjz">
-                                <rect key="frame" x="30" y="246.5" width="260" height="155.5"/>
+                                <rect key="frame" x="30" y="246.5" width="260" height="171"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="aYW-Lz-eal">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Thank you for updating to Cascable 3.4!
+                                <mutableString key="text">Thank you for updating to Cascable 3.5!
 
-This update to Cascable adds support for new Sony cameras, including the α7R III, α9, and more.
+This update to Cascable adds support for new Fujifilm and Canon cameras, including the new Canon RAW format — CR3.
 
-Additionally, using Cascable's new Quick Connect feature, you can instantly connect to any camera that has a QR code on its screen!</string>
+Additionally, optimisations have been made to live view for a faster and more responsive experience, and a new option for high-framerate live view has been added!</mutableString>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -95,7 +94,7 @@ Additionally, using Cascable's new Quick Connect feature, you can instantly conn
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                         </variation>
                                         <connections>
-                                            <segue destination="3Hm-m9-Uay" kind="show" id="ilS-Yr-AIL"/>
+                                            <segue destination="VTa-aR-8qN" kind="show" id="T3r-Ga-SAd"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NP-z9-ZaH">
@@ -152,97 +151,6 @@ Additionally, using Cascable's new Quick Connect feature, you can instantly conn
             </objects>
             <point key="canvasLocation" x="129.375" y="332.74647887323943"/>
         </scene>
-        <!--Recipes-->
-        <scene sceneID="NKo-8z-P4m">
-            <objects>
-                <viewController id="3Hm-m9-Uay" userLabel="Recipes" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lDM-b8-0gP"/>
-                        <viewControllerLayoutGuide type="bottom" id="ruE-rJ-ePT"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="662-TK-s3R">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quick Connect" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ZC-Bh-GeY">
-                                <rect key="frame" x="77" y="40" width="167" height="31.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEU-Kg-jDC">
-                                <rect key="frame" x="30" y="255.5" width="260" height="140"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="495" id="5Co-iV-ImL">
-                                        <variation key="widthClass=compact" constant="260"/>
-                                    </constraint>
-                                </constraints>
-                                <string key="text">Cascable 3.4 adds Quick Connect, a new feature that allows you to instantly connect to any supported camera that has a QR on its screen when WiFi is activated.
-
-Simply scan your camera's QR code and Cascable will connect to your camera's WiFi network — no more switching to Settings and fiddling around with networks!</string>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
-                                </variation>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGq-qj-Wb6" customClass="CBLPillButton">
-                                <rect key="frame" x="85" y="502" width="150" height="36"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="JMY-kJ-PI7"/>
-                                    <constraint firstAttribute="height" constant="42" id="f6I-FD-Kn4">
-                                        <variation key="widthClass=compact" constant="36"/>
-                                    </constraint>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <state key="normal" title="Continue →">
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="VTa-aR-8qN" kind="show" id="K65-gm-Rgb"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="750" verticalHuggingPriority="750" image="QRFirstRun" translatesAutoresizingMaskIntoConstraints="NO" id="Ew4-67-9L4">
-                                <rect key="frame" x="100" y="91.5" width="120" height="144"/>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="2oR-3H-z9d"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="1ZC-Bh-GeY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="662-TK-s3R" secondAttribute="leading" constant="20" id="Gqm-vI-qoO"/>
-                            <constraint firstItem="cGq-qj-Wb6" firstAttribute="centerX" secondItem="662-TK-s3R" secondAttribute="centerX" id="Ozs-uJ-JGB"/>
-                            <constraint firstAttribute="centerX" secondItem="1ZC-Bh-GeY" secondAttribute="centerX" id="PvZ-xx-HIA"/>
-                            <constraint firstItem="Ew4-67-9L4" firstAttribute="centerX" secondItem="662-TK-s3R" secondAttribute="centerX" id="ZCW-HS-eyx"/>
-                            <constraint firstItem="Ew4-67-9L4" firstAttribute="top" secondItem="1ZC-Bh-GeY" secondAttribute="bottom" constant="20" id="bBG-An-vk6"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="cGq-qj-Wb6" secondAttribute="bottom" constant="50" id="gab-To-oXc">
-                                <variation key="widthClass=compact" constant="30"/>
-                            </constraint>
-                            <constraint firstAttribute="centerX" secondItem="zEU-Kg-jDC" secondAttribute="centerX" id="iKz-pK-VtT"/>
-                            <constraint firstItem="1ZC-Bh-GeY" firstAttribute="top" secondItem="lDM-b8-0gP" secondAttribute="bottom" constant="40" id="rbd-wt-mmz">
-                                <variation key="widthClass=compact" constant="20"/>
-                            </constraint>
-                            <constraint firstItem="zEU-Kg-jDC" firstAttribute="top" secondItem="Ew4-67-9L4" secondAttribute="bottom" constant="20" id="uxS-hS-gN9"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <segue destination="hLI-x9-vXs" kind="unwind" identifier="unwindToStart" unwindAction="unwindToStart:" id="T5K-ES-Jx0"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YwB-Tw-paF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="hLI-x9-vXs" userLabel="Exit" sceneMemberID="exit"/>
-            </objects>
-            <point key="canvasLocation" x="1236" y="333"/>
-        </scene>
         <!--All Done!-->
         <scene sceneID="C8t-5W-jzu">
             <objects>
@@ -271,7 +179,7 @@ Simply scan your camera's QR code and Cascable will connect to your camera's WiF
                                         <variation key="widthClass=compact" constant="280"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Cascable 3.4 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.
+                                <string key="text">Cascable 3.5 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.
 
 If you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?
 
@@ -359,7 +267,7 @@ Enjoy!</string>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="on Instagram" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8w-Sj-KC2">
-                                                <rect key="frame" x="159.5" y="67" width="80" height="16"/>
+                                                <rect key="frame" x="160" y="67" width="79.5" height="16"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -431,13 +339,12 @@ Enjoy!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eqh-Pz-nes" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2214.375" y="332.74647887323943"/>
+            <point key="canvasLocation" x="887" y="333"/>
         </scene>
     </scenes>
     <resources>
         <image name="AboutIcon" width="150" height="150"/>
         <image name="InstagramLogo" width="44" height="44"/>
-        <image name="QRFirstRun" width="144" height="144"/>
         <image name="TwitterLogo" width="44" height="44"/>
     </resources>
 </document>
