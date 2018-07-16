@@ -683,6 +683,9 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 /* Title for the 'Prefer Framerate over Quality' setting. */
 "FastLVSettingTitle" = "Prefer High Framerate";
 
+/* Description of the 'Prefer Framerate over Quality' setting. */
+"FastLVDescription" = "If enabled and supported by your camera, Cascable will reduce live view quality to achieve a higher frame rate. Supported by Nikon, some Canon, and some Sony models.";
+
 /* Title for the settings section for focus peaking. */
 "FocusPeakingSettingsTitle" = "Focus Peaking";
 
