@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vRk-f0-bDY">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Recipes Basic User Input View Controller-->
+        <scene sceneID="iTV-8e-bfK">
+            <objects>
+                <viewController id="vRk-f0-bDY" customClass="RecipesBasicUserInputViewController" customModule="Cascable" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VTH-N6-k83">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waiting to Continue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uPe-cF-7A9">
+                                <rect key="frame" x="89" y="269.5" width="198" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3a-V3-IRB">
+                                <rect key="frame" x="146.5" y="597" width="83" height="30"/>
+                                <state key="normal" title="Stop Recipe"/>
+                                <connections>
+                                    <action selector="stopButtonPressed:" destination="vRk-f0-bDY" eventType="touchUpInside" id="MKz-hH-tG4"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To continue the recipe, tap &quot;Continue Recipe&quot;." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lCT-rB-Uhb">
+                                <rect key="frame" x="59.5" y="316" width="255.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g16-Y8-xhE" customClass="CBLPillButton">
+                                <rect key="frame" x="97.5" y="372" width="180" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="1i2-et-i2P"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="4gx-69-5dC"/>
+                                </constraints>
+                                <state key="normal" title="Continue Recipe  →"/>
+                                <connections>
+                                    <action selector="continueButtonPressed:" destination="vRk-f0-bDY" eventType="touchUpInside" id="TZk-Jt-qfc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lCT-rB-Uhb" firstAttribute="top" secondItem="uPe-cF-7A9" secondAttribute="bottom" constant="20" id="CLk-dP-Z2a"/>
+                            <constraint firstItem="uPe-cF-7A9" firstAttribute="centerX" secondItem="VTH-N6-k83" secondAttribute="centerX" id="Ksh-nI-Syg"/>
+                            <constraint firstItem="lCT-rB-Uhb" firstAttribute="centerY" secondItem="VTH-N6-k83" secondAttribute="centerY" id="R81-9Z-bOt"/>
+                            <constraint firstItem="lCT-rB-Uhb" firstAttribute="centerX" secondItem="VTH-N6-k83" secondAttribute="centerX" id="Xe6-3o-57v"/>
+                            <constraint firstItem="g16-Y8-xhE" firstAttribute="top" secondItem="lCT-rB-Uhb" secondAttribute="bottom" constant="20" id="XkG-PO-Akd"/>
+                            <constraint firstItem="g16-Y8-xhE" firstAttribute="centerX" secondItem="VTH-N6-k83" secondAttribute="centerX" id="YRs-va-6zK"/>
+                            <constraint firstItem="L3a-V3-IRB" firstAttribute="centerX" secondItem="VTH-N6-k83" secondAttribute="centerX" id="awH-T1-fzv"/>
+                            <constraint firstItem="Yju-wd-lWw" firstAttribute="bottom" secondItem="L3a-V3-IRB" secondAttribute="bottom" constant="40" id="bdD-RE-yO5"/>
+                            <constraint firstItem="Yju-wd-lWw" firstAttribute="trailing" secondItem="lCT-rB-Uhb" secondAttribute="trailing" constant="60" id="fkk-fq-p6l"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Yju-wd-lWw"/>
+                    </view>
+                    <connections>
+                        <outlet property="continueButton" destination="g16-Y8-xhE" id="MyC-en-JBQ"/>
+                        <outlet property="stopButton" destination="L3a-V3-IRB" id="7sp-xK-121"/>
+                        <outletCollection property="labels" destination="uPe-cF-7A9" collectionClass="NSMutableArray" id="rzk-OQ-XK2"/>
+                        <outletCollection property="labels" destination="lCT-rB-Uhb" collectionClass="NSMutableArray" id="xEA-tV-hOj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GTz-n7-IOa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141.59999999999999" y="198.35082458770617"/>
+        </scene>
+    </scenes>
+</document>
