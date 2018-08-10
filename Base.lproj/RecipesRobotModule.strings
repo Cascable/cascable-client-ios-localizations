@@ -42,6 +42,17 @@
 "RecipeLogStartDateHeader" = "Start";
 "RecipeLogEndDateHeader" = "End";
 
+// ------ Wait For Input UI ------
+
+"RecipeWFIDefaultMessage" = "To continue the recipe, tap \"Continue Recipe\".";
+"RecipeWFIBLENoAccessoryTitle" = "Not connected to a Cascable Bluetooth input accessory.";
+"RecipeWFIBLESearchingTitle" = "Searching for Bluetooth accessory…";
+"RecipeWFIBLEConnectedTitle" = "Connected to %@.";
+"RecipeWFIBLEConnectedNoNameTitle" = "Connected to a Cascable Bluetooth input accessory.";
+"RecipeWFIBLEConnectionPromptTitle" = "Connect to %@?";
+"RecipeWFIBLEConnectionPromptNamePlaceholder" = "input device";
+"RecipeWFIBLEConnectionPromptMessage" = "This input device appears to be different to the previously connected device.";
+
 // ------ Warnings: General ------
 
 "NoRecipeChosenWarningTitle" = "No Recipe Chosen";
