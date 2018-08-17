@@ -159,10 +159,10 @@
             </objects>
             <point key="canvasLocation" x="889" y="198"/>
         </scene>
-        <!--View Controller-->
+        <!--Recipes Basic User Input Device Searching View Controller-->
         <scene sceneID="yEm-da-lBP">
             <objects>
-                <viewController id="WQJ-g8-SKZ" sceneMemberID="viewController">
+                <viewController id="WQJ-g8-SKZ" customClass="RecipesBasicUserInputDeviceSearchingViewController" customModule="Cascable" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0sr-nx-NCi">
                         <rect key="frame" x="0.0" y="0.0" width="280" height="280"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -172,13 +172,13 @@
                                 <color key="color" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </activityIndicatorView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Searching for input accessories…" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3x-4A-fF3">
-                                <rect key="frame" x="16" y="40.5" width="248" height="41"/>
+                                <rect key="frame" x="20" y="40.5" width="240" height="41"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USB and Bluetooth keyboards do not count as Cascable input accessories and can be used without connecting to them here." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P4R-sC-B3O">
-                                <rect key="frame" x="16" y="188.5" width="248" height="39.5"/>
+                                <rect key="frame" x="20" y="188.5" width="240" height="39.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -191,10 +191,16 @@
                             <constraint firstItem="6JT-r6-Oq1" firstAttribute="centerY" secondItem="0sr-nx-NCi" secondAttribute="centerY" id="V5z-Le-tYu"/>
                             <constraint firstItem="6JT-r6-Oq1" firstAttribute="top" secondItem="B3x-4A-fF3" secondAttribute="bottom" constant="40" id="WuZ-ke-ge1"/>
                             <constraint firstItem="B3x-4A-fF3" firstAttribute="centerX" secondItem="0sr-nx-NCi" secondAttribute="centerX" id="uPs-jc-o55"/>
-                            <constraint firstItem="P4R-sC-B3O" firstAttribute="leading" secondItem="0sr-nx-NCi" secondAttribute="leadingMargin" id="zb1-tP-KOz"/>
-                            <constraint firstItem="B3x-4A-fF3" firstAttribute="leading" secondItem="0sr-nx-NCi" secondAttribute="leadingMargin" id="zji-ZT-eKr"/>
+                            <constraint firstItem="P4R-sC-B3O" firstAttribute="leading" secondItem="0sr-nx-NCi" secondAttribute="leading" constant="20" id="zb1-tP-KOz"/>
+                            <constraint firstItem="B3x-4A-fF3" firstAttribute="leading" secondItem="0sr-nx-NCi" secondAttribute="leading" constant="20" id="zji-ZT-eKr"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="gvB-O1-KGs"/>
                     </view>
+                    <connections>
+                        <outlet property="spinner" destination="6JT-r6-Oq1" id="a2t-FP-KKi"/>
+                        <outlet property="subtitleLabel" destination="P4R-sC-B3O" id="Z2H-2m-8K8"/>
+                        <outlet property="titleLabel" destination="B3x-4A-fF3" id="Luo-lF-tNL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r1i-wK-ULm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -208,8 +214,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="280" height="280"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connected to input accessory" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5D-Au-QZb">
-                                <rect key="frame" x="16" y="91.5" width="248" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connected to accessory" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5D-Au-QZb">
+                                <rect key="frame" x="20" y="91.5" width="240" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -222,7 +228,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cascable Button on RaspberryPi Win10 IoT" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6M-aT-TdF">
-                                <rect key="frame" x="16" y="122" width="248" height="36"/>
+                                <rect key="frame" x="20" y="122" width="240" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -231,53 +237,72 @@
                         <constraints>
                             <constraint firstItem="T5D-Au-QZb" firstAttribute="centerX" secondItem="eNe-16-HHi" secondAttribute="centerX" id="Kbb-uZ-Sd7"/>
                             <constraint firstAttribute="bottomMargin" secondItem="54R-jz-wZB" secondAttribute="bottom" constant="20" id="NCw-1z-SMd"/>
-                            <constraint firstItem="T5D-Au-QZb" firstAttribute="leading" secondItem="eNe-16-HHi" secondAttribute="leadingMargin" id="Pth-oy-hlH"/>
-                            <constraint firstItem="y6M-aT-TdF" firstAttribute="leading" secondItem="eNe-16-HHi" secondAttribute="leadingMargin" id="PxQ-SS-gbu"/>
+                            <constraint firstItem="T5D-Au-QZb" firstAttribute="leading" secondItem="eNe-16-HHi" secondAttribute="leading" constant="20" id="Pth-oy-hlH"/>
+                            <constraint firstItem="y6M-aT-TdF" firstAttribute="leading" secondItem="eNe-16-HHi" secondAttribute="leading" constant="20" id="PxQ-SS-gbu"/>
                             <constraint firstItem="54R-jz-wZB" firstAttribute="centerX" secondItem="eNe-16-HHi" secondAttribute="centerX" id="TJm-RS-JfO"/>
                             <constraint firstItem="y6M-aT-TdF" firstAttribute="centerY" secondItem="eNe-16-HHi" secondAttribute="centerY" id="bdq-bQ-oKQ"/>
                             <constraint firstItem="y6M-aT-TdF" firstAttribute="centerX" secondItem="eNe-16-HHi" secondAttribute="centerX" id="nPf-qh-7tZ"/>
                             <constraint firstItem="y6M-aT-TdF" firstAttribute="top" secondItem="T5D-Au-QZb" secondAttribute="bottom" constant="10" id="tdK-K3-DxN"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="0J7-ct-zjn"/>
                     </view>
                     <connections>
                         <outlet property="deviceNameLabel" destination="y6M-aT-TdF" id="beX-rW-buf"/>
                         <outlet property="disconnectButton" destination="54R-jz-wZB" id="kRG-25-K1j"/>
+                        <outlet property="titleLabel" destination="T5D-Au-QZb" id="vuN-4s-6yv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RhY-WB-m4N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1642" y="219"/>
         </scene>
-        <!--View Controller-->
+        <!--Recipes Basic User InputBLE Unavailable View Controller-->
         <scene sceneID="zx6-KQ-ALe">
             <objects>
-                <viewController id="LdE-DE-et2" sceneMemberID="viewController">
+                <viewController id="LdE-DE-et2" customClass="RecipesBasicUserInputBLEUnavailableViewController" customModule="Cascable" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WRZ-jW-eQj">
                         <rect key="frame" x="0.0" y="0.0" width="280" height="280"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bluetooth Unavailable" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ka6-N7-rcv">
-                                <rect key="frame" x="16" y="91.5" width="248" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make sure that Bluetooth is turned on in the Settings app." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfM-ma-asL">
-                                <rect key="frame" x="16" y="122" width="248" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C2Q-Ch-QdC">
+                                <rect key="frame" x="20" y="107" width="240" height="66.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make sure that Bluetooth is turned on in the Settings app." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfM-ma-asL">
+                                        <rect key="frame" x="0.0" y="30.5" width="240" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bluetooth Unavailable" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ka6-N7-rcv">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ka6-N7-rcv" firstAttribute="leading" secondItem="C2Q-Ch-QdC" secondAttribute="leading" id="2nb-jB-EyA"/>
+                                    <constraint firstAttribute="trailing" secondItem="qfM-ma-asL" secondAttribute="trailing" id="AMx-yQ-bg8"/>
+                                    <constraint firstItem="ka6-N7-rcv" firstAttribute="top" secondItem="C2Q-Ch-QdC" secondAttribute="top" id="DlJ-Ip-jgZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="qfM-ma-asL" secondAttribute="bottom" id="NMn-6T-cBm"/>
+                                    <constraint firstItem="qfM-ma-asL" firstAttribute="leading" secondItem="C2Q-Ch-QdC" secondAttribute="leading" id="cco-GN-mcF"/>
+                                    <constraint firstAttribute="trailing" secondItem="ka6-N7-rcv" secondAttribute="trailing" id="nx9-vx-PhE"/>
+                                    <constraint firstAttribute="trailing" secondItem="qfM-ma-asL" secondAttribute="trailing" id="qs6-N9-rBd"/>
+                                    <constraint firstItem="qfM-ma-asL" firstAttribute="top" secondItem="ka6-N7-rcv" secondAttribute="bottom" constant="10" id="vB0-LU-sdf"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="qfM-ma-asL" firstAttribute="top" secondItem="ka6-N7-rcv" secondAttribute="bottom" constant="10" id="CWf-0Z-DWW"/>
-                            <constraint firstItem="ka6-N7-rcv" firstAttribute="leading" secondItem="WRZ-jW-eQj" secondAttribute="leadingMargin" id="DXv-xC-8jm"/>
-                            <constraint firstItem="qfM-ma-asL" firstAttribute="centerY" secondItem="WRZ-jW-eQj" secondAttribute="centerY" id="F4I-p3-NyK"/>
-                            <constraint firstItem="qfM-ma-asL" firstAttribute="leading" secondItem="WRZ-jW-eQj" secondAttribute="leadingMargin" id="Uge-qv-Ykf"/>
-                            <constraint firstItem="ka6-N7-rcv" firstAttribute="centerX" secondItem="WRZ-jW-eQj" secondAttribute="centerX" id="dZE-kC-0UB"/>
-                            <constraint firstItem="qfM-ma-asL" firstAttribute="centerX" secondItem="WRZ-jW-eQj" secondAttribute="centerX" id="mfj-Nb-TGC"/>
+                            <constraint firstItem="C2Q-Ch-QdC" firstAttribute="leading" secondItem="WRZ-jW-eQj" secondAttribute="leading" constant="20" id="IwE-Px-UQk"/>
+                            <constraint firstItem="C2Q-Ch-QdC" firstAttribute="centerX" secondItem="WRZ-jW-eQj" secondAttribute="centerX" id="plE-Z9-Q8j"/>
+                            <constraint firstItem="C2Q-Ch-QdC" firstAttribute="centerY" secondItem="WRZ-jW-eQj" secondAttribute="centerY" id="zBd-5z-hIh"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="0aM-3I-Eab"/>
                     </view>
+                    <connections>
+                        <outlet property="subtitleLabel" destination="qfM-ma-asL" id="TOA-r1-9eb"/>
+                        <outlet property="titleLabel" destination="ka6-N7-rcv" id="dWK-U7-TdI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gZa-QW-iG5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
