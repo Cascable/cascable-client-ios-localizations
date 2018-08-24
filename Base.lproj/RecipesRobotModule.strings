@@ -75,6 +75,9 @@
 "RequiresBulbWarningTitle" = "Requires Bulb";
 "RequiresBulbWarningDescription" = "The recipe requires the camera be set to take bulb exposures.";
 
+"RequiresBurstWarningTitle" = "Requires Burst Exposures";
+"RequiresBurstWarningDescription" = "The recipe requires the camera be set to take burst exposures.";
+
 "RequiresChangeableShutterSpeedTitle" = "Requires Configurable Shutter Speed";
 "RequiresChangeableShutterSpeedDescription" = "The recipe requires the camera be set to allow changes to shutter speed. Place the camera's exposure mode to Shutter Priority or Manual.";
 
