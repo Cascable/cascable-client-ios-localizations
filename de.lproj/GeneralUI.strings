@@ -1033,6 +1033,9 @@
 /* Title of the screen that pops up when previewing an image. */
 "ShotPreviewTitle" = "Bildvorschau";
 
+/* Title of the screen that pops up when previewing an image when the camera name is available. */
+"ShotPreviewWithCameraNameTitle" = "Vorschau von %@";
+
 // ------------------------------------------------------------
 //     Remote Control: Popups and Controls
 // ------------------------------------------------------------
