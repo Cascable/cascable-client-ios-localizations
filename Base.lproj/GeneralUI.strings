@@ -696,8 +696,11 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 /* Section title for the 'Apply Focus Peaking' section of ''Focus Peaking'. */
 "ApplyWhenFocusPeakingSectionTitle" = "Apply Focus Peaking";
 
+/* Section title for the 'Highlight Color' section of ''Focus Peaking'. */
+"FocusPeakingColorSectionTitle" = "Highlight Color";
+
 /* Section footer for the 'Apply Focus Peaking' section of ''Focus Peaking'. */
-"ApplyWhenFocusPeakingSectionFooter" = "Focus Peaking draws a red highlight at the areas of the viewfinder image with sharp edges.";
+"ApplyWhenFocusPeakingSectionFooter" = "Focus Peaking draws a highlight at the areas of the viewfinder image with sharp edges.";
 
 /* Title for the settings section for reviewing photos. */
 "ReviewSettingsTitle" = "Photo Review";

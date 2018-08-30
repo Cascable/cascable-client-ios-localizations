@@ -690,8 +690,11 @@
 /* Section title for the 'Apply Focus Peaking' section of ''Focus Peaking'. */
 "ApplyWhenFocusPeakingSectionTitle" = "Fokus-Peaking anwenden";
 
+/* Section title for the 'Highlight Color' section of ''Focus Peaking'. */
+"FocusPeakingColorSectionTitle" = "Hervorhebungsfarbe";
+
 /* Section footer for the 'Apply Focus Peaking' section of ''Focus Peaking'. */
-"ApplyWhenFocusPeakingSectionFooter" = "Fokus-Peaking zeichnet eine rote Hervorhebung mit scharfen Kanten um den Bereich des Suchfensterbilds.";
+"ApplyWhenFocusPeakingSectionFooter" = "Fokus-Peaking zeichnet eine Hervorhebung mit scharfen Kanten um den Bereich des Suchfensterbilds.";
 
 /* Title for the settings section for reviewing photos. */
 "ReviewSettingsTitle" = "Schnellansicht";
