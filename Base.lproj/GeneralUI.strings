@@ -705,6 +705,9 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 /* Title for the 'Review Photos After Shooting' setting. */
 "ReviewPhotosAfterShootingTitle" = "Review Shot Photos";
 
+/* Title for the 'Auto-Save Previews' setting. */
+"AutoSavePhotoReviewTitle" = "Auto-Save Previews";
+
 /* Section title for the 'Automatically Dismiss' section of 'Review Photos After Shooting' */
 "AutoDismissPhotoReviewSectionTitle" = "Automatically Dismiss";
 

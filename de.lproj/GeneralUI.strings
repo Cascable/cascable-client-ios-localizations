@@ -699,6 +699,9 @@
 /* Title for the 'Review Photos After Shooting' setting. */
 "ReviewPhotosAfterShootingTitle" = "Erstellte Fotos ansehen";
 
+/* Title for the 'Auto-Save Previews' setting. */
+"AutoSavePhotoReviewTitle" = "Automatisch speichern";
+
 /* Section title for the 'Automatically Dismiss' section of 'Review Photos After Shooting' */
 "AutoDismissPhotoReviewSectionTitle" = "Automatisch verwerfen";
 
