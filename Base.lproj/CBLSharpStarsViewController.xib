@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -27,172 +27,185 @@
                 <outlet property="sensorSizeLabel" destination="3Ib-6d-AmX" id="ico-Pp-ama"/>
                 <outlet property="sensorSizeSlider" destination="33g-Dq-qfs" id="xpU-gy-F0u"/>
                 <outlet property="sensorSizeTitleLabel" destination="QBQ-Vx-cnR" id="Bdi-81-uId"/>
-                <outlet property="view" destination="2u3-SH-2HX" id="gPA-Qf-ezB"/>
-                <outletCollection property="activeControls" destination="wwc-iv-DdL" id="hr7-uf-D9x"/>
-                <outletCollection property="activeControls" destination="33g-Dq-qfs" id="Kdq-PP-ogY"/>
-                <outletCollection property="titleLabels" destination="ITo-tM-QwE" id="ud5-sP-dkf"/>
+                <outlet property="view" destination="bq7-4i-Mxa" id="RLf-Lb-kcU"/>
                 <outletCollection property="titleLabels" destination="QBQ-Vx-cnR" id="ybw-hm-Kh8"/>
+                <outletCollection property="subTitleLabels" destination="27b-Uc-uht" id="u3b-89-kj0"/>
+                <outletCollection property="titleLabels" destination="23h-4R-CUK" id="FeV-hQ-xP4"/>
+                <outletCollection property="titleLabels" destination="ITo-tM-QwE" id="ud5-sP-dkf"/>
+                <outletCollection property="activeControls" destination="33g-Dq-qfs" id="Kdq-PP-ogY"/>
+                <outletCollection property="subTitleLabels" destination="3Ib-6d-AmX" id="qW3-5F-4D7"/>
                 <outletCollection property="subTitleLabels" destination="jCv-ul-YNA" id="hsC-ON-l5p"/>
                 <outletCollection property="subTitleLabels" destination="xZ0-OY-bfb" id="mKR-Sl-nra"/>
-                <outletCollection property="titleLabels" destination="23h-4R-CUK" id="FeV-hQ-xP4"/>
-                <outletCollection property="subTitleLabels" destination="3Ib-6d-AmX" id="qW3-5F-4D7"/>
-                <outletCollection property="subTitleLabels" destination="27b-Uc-uht" id="u3b-89-kj0"/>
+                <outletCollection property="activeControls" destination="wwc-iv-DdL" id="hr7-uf-D9x"/>
             </connections>
         </placeholder>
-        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" id="2u3-SH-2HX">
+        <view contentMode="scaleToFill" id="bq7-4i-Mxa">
             <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i5M-Pr-FkT">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="409.33333333333331"/>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2u3-SH-2HX">
+                    <rect key="frame" x="0.0" y="44" width="375" height="734"/>
                     <subviews>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sharp Stars calculates the longest shutter speed you can use at night before stars appear blurry due to the Earth’s rotation." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jCv-ul-YNA">
-                            <rect key="frame" x="20" y="20.000000000000004" width="335" height="50.333333333333343"/>
-                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                            <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                            <variation key="widthClass=compact">
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                            </variation>
-                        </label>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Focal Length" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITo-tM-QwE">
-                            <rect key="frame" x="19.999999999999993" y="90.333333333333329" width="112.33333333333331" height="24"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                            <variation key="widthClass=compact">
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                            </variation>
-                        </label>
-                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="wwc-iv-DdL" customClass="CBLBigThumbSlider">
-                            <rect key="frame" x="18" y="124.33333333333331" width="339" height="31"/>
-                            <connections>
-                                <action selector="focalLengthChanged:" destination="-1" eventType="valueChanged" id="JRt-1R-4mq"/>
-                            </connections>
-                        </slider>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40mm" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27b-Uc-uht">
-                            <rect key="frame" x="20" y="158.33333333333334" width="57" height="24"/>
-                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
-                            <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                            <variation key="widthClass=compact">
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
-                            </variation>
-                        </label>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sensor Size" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QBQ-Vx-cnR">
-                            <rect key="frame" x="20" y="202.33333333333334" width="102" height="24"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                            <variation key="widthClass=compact">
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                            </variation>
-                        </label>
-                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="33g-Dq-qfs" customClass="CBLBigThumbSlider">
-                            <rect key="frame" x="18" y="236.33333333333334" width="339" height="31.000000000000028"/>
-                            <connections>
-                                <action selector="sensorSizeChanged:" destination="-1" eventType="valueChanged" id="IwO-JA-Y36"/>
-                            </connections>
-                        </slider>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Micro Four-Thirds (2,0x Crop Factor)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Ib-6d-AmX">
-                            <rect key="frame" x="20" y="271" width="335" height="20.333333333333314"/>
-                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
-                            <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                            <variation key="widthClass=compact">
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                            </variation>
-                        </label>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3bQ-Xo-YMK" customClass="CBLHairlineDividerView">
-                            <rect key="frame" x="87.333333333333314" y="311.33333333333331" width="200" height="1"/>
+                        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i5M-Pr-FkT">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="408.33333333333331"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sharp Stars calculates the longest shutter speed you can use at night before stars appear blurry due to the Earth’s rotation." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jCv-ul-YNA">
+                                    <rect key="frame" x="20" y="20.000000000000004" width="335" height="50.333333333333343"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                    <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="widthClass=compact">
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                    </variation>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Focal Length" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITo-tM-QwE">
+                                    <rect key="frame" x="19.999999999999993" y="90.333333333333343" width="112.33333333333331" height="24"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="widthClass=compact">
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    </variation>
+                                </label>
+                                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="wwc-iv-DdL" customClass="CBLBigThumbSlider">
+                                    <rect key="frame" x="18" y="124.33333333333334" width="339" height="31"/>
+                                    <connections>
+                                        <action selector="focalLengthChanged:" destination="-1" eventType="valueChanged" id="JRt-1R-4mq"/>
+                                    </connections>
+                                </slider>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40mm" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27b-Uc-uht">
+                                    <rect key="frame" x="20" y="158.33333333333334" width="57" height="24"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                    <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="widthClass=compact">
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                    </variation>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sensor Size" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QBQ-Vx-cnR">
+                                    <rect key="frame" x="20" y="202.33333333333334" width="102" height="24"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="widthClass=compact">
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    </variation>
+                                </label>
+                                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="33g-Dq-qfs" customClass="CBLBigThumbSlider">
+                                    <rect key="frame" x="18" y="236.33333333333331" width="339" height="31"/>
+                                    <connections>
+                                        <action selector="sensorSizeChanged:" destination="-1" eventType="valueChanged" id="IwO-JA-Y36"/>
+                                    </connections>
+                                </slider>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Micro Four-Thirds (2,0x Crop Factor)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Ib-6d-AmX">
+                                    <rect key="frame" x="20" y="270.33333333333331" width="335" height="20"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                    <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="widthClass=compact">
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                    </variation>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3bQ-Xo-YMK" customClass="CBLHairlineDividerView">
+                                    <rect key="frame" x="87.666666666666686" y="310.33333333333331" width="200" height="1"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="enM-Qy-BqL"/>
+                                        <constraint firstAttribute="width" constant="350" id="ih0-45-Zda">
+                                            <variation key="widthClass=compact" constant="200"/>
+                                        </constraint>
+                                    </constraints>
+                                </view>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maximum Shutter Speed" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZ0-OY-bfb">
+                                    <rect key="frame" x="80.333333333333329" y="321.33333333333331" width="214.33333333333337" height="24"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="widthClass=compact">
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    </variation>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15,0 seconds" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23h-4R-CUK">
+                                    <rect key="frame" x="85.666666666666686" y="345.33333333333331" width="204" height="43"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="60"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="widthClass=compact">
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="36"/>
+                                    </variation>
+                                </label>
+                            </subviews>
                             <constraints>
-                                <constraint firstAttribute="height" constant="1" id="enM-Qy-BqL"/>
-                                <constraint firstAttribute="width" constant="350" id="ih0-45-Zda">
-                                    <variation key="widthClass=compact" constant="200"/>
+                                <constraint firstItem="33g-Dq-qfs" firstAttribute="leading" secondItem="wwc-iv-DdL" secondAttribute="leading" id="4Lh-7f-THn"/>
+                                <constraint firstItem="33g-Dq-qfs" firstAttribute="leading" secondItem="3Ib-6d-AmX" secondAttribute="leading" id="7dh-4Y-k46"/>
+                                <constraint firstItem="33g-Dq-qfs" firstAttribute="trailing" secondItem="wwc-iv-DdL" secondAttribute="trailing" id="9dw-XV-ZPv"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QBQ-Vx-cnR" secondAttribute="trailing" constant="20" id="DYL-gv-dSG"/>
+                                <constraint firstItem="23h-4R-CUK" firstAttribute="top" secondItem="xZ0-OY-bfb" secondAttribute="bottom" constant="10" id="Epz-ZC-jfU">
+                                    <variation key="widthClass=compact" constant="0.0"/>
                                 </constraint>
+                                <constraint firstAttribute="bottom" secondItem="23h-4R-CUK" secondAttribute="bottom" constant="20" id="Ha2-sc-e56"/>
+                                <constraint firstItem="33g-Dq-qfs" firstAttribute="top" secondItem="QBQ-Vx-cnR" secondAttribute="bottom" constant="10" id="JU3-Is-JKb">
+                                    <variation key="widthClass=compact" constant="10"/>
+                                </constraint>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="27b-Uc-uht" secondAttribute="trailing" constant="20" id="JjB-Vb-QzQ"/>
+                                <constraint firstItem="3Ib-6d-AmX" firstAttribute="trailing" secondItem="33g-Dq-qfs" secondAttribute="trailing" id="KMJ-Cj-fJB"/>
+                                <constraint firstItem="27b-Uc-uht" firstAttribute="leading" secondItem="wwc-iv-DdL" secondAttribute="leading" id="KW1-st-78J"/>
+                                <constraint firstAttribute="centerX" secondItem="3bQ-Xo-YMK" secondAttribute="centerX" id="Kdg-6B-EH8"/>
+                                <constraint firstItem="3Ib-6d-AmX" firstAttribute="top" secondItem="33g-Dq-qfs" secondAttribute="bottom" constant="4" placeholder="YES" id="Kqe-it-ylF"/>
+                                <constraint firstItem="xZ0-OY-bfb" firstAttribute="top" secondItem="3bQ-Xo-YMK" secondAttribute="bottom" constant="40" id="L2q-vp-10c">
+                                    <variation key="widthClass=compact" constant="10"/>
+                                </constraint>
+                                <constraint firstItem="wwc-iv-DdL" firstAttribute="trailing" secondItem="jCv-ul-YNA" secondAttribute="trailing" id="MD1-fE-40L"/>
+                                <constraint firstAttribute="centerX" secondItem="23h-4R-CUK" secondAttribute="centerX" id="SEC-Tr-IXM"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ITo-tM-QwE" secondAttribute="trailing" constant="20" id="U3F-s0-5Nj"/>
+                                <constraint firstItem="wwc-iv-DdL" firstAttribute="leading" secondItem="ITo-tM-QwE" secondAttribute="leading" id="Uag-5L-KLI"/>
+                                <constraint firstItem="33g-Dq-qfs" firstAttribute="leading" secondItem="QBQ-Vx-cnR" secondAttribute="leading" id="UhY-YE-9WE"/>
+                                <constraint firstItem="jCv-ul-YNA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="WO0-mg-3wj">
+                                    <variation key="widthClass=compact" constant="20"/>
+                                </constraint>
+                                <constraint firstItem="ITo-tM-QwE" firstAttribute="top" secondItem="jCv-ul-YNA" secondAttribute="bottom" constant="40" id="Wem-ay-860">
+                                    <variation key="widthClass=compact" constant="20"/>
+                                </constraint>
+                                <constraint firstItem="QBQ-Vx-cnR" firstAttribute="top" secondItem="27b-Uc-uht" secondAttribute="bottom" constant="30" id="d29-m0-ge5">
+                                    <variation key="widthClass=compact" constant="20"/>
+                                </constraint>
+                                <constraint firstItem="jCv-ul-YNA" firstAttribute="leading" secondItem="ITo-tM-QwE" secondAttribute="leading" id="eph-Rt-lk6"/>
+                                <constraint firstItem="3bQ-Xo-YMK" firstAttribute="top" secondItem="3Ib-6d-AmX" secondAttribute="bottom" constant="40" id="fD7-dk-6uy">
+                                    <variation key="widthClass=compact" constant="20"/>
+                                </constraint>
+                                <constraint firstItem="wwc-iv-DdL" firstAttribute="top" secondItem="ITo-tM-QwE" secondAttribute="bottom" constant="10" id="lLp-HW-fcp">
+                                    <variation key="widthClass=compact" constant="10"/>
+                                </constraint>
+                                <constraint firstItem="jCv-ul-YNA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="mFS-eW-HmV">
+                                    <variation key="widthClass=compact" constant="20"/>
+                                </constraint>
+                                <constraint firstAttribute="trailing" secondItem="jCv-ul-YNA" secondAttribute="trailing" constant="40" id="mxb-iy-vzP">
+                                    <variation key="widthClass=compact" constant="20"/>
+                                </constraint>
+                                <constraint firstAttribute="centerX" secondItem="xZ0-OY-bfb" secondAttribute="centerX" id="x7i-Hr-hZj"/>
+                                <constraint firstItem="27b-Uc-uht" firstAttribute="top" secondItem="wwc-iv-DdL" secondAttribute="bottom" constant="4" id="xre-WB-eMJ"/>
                             </constraints>
                         </view>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maximum Shutter Speed" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZ0-OY-bfb">
-                            <rect key="frame" x="80.666666666666671" y="322.33333333333331" width="214.33333333333331" height="24"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                            <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                            <variation key="widthClass=compact">
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                            </variation>
-                        </label>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15,0 seconds" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23h-4R-CUK">
-                            <rect key="frame" x="85.999999999999986" y="346.33333333333331" width="203.66666666666663" height="43"/>
-                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="60"/>
-                            <nil key="highlightedColor"/>
-                            <variation key="widthClass=compact">
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="36"/>
-                            </variation>
-                        </label>
                     </subviews>
                     <constraints>
-                        <constraint firstItem="33g-Dq-qfs" firstAttribute="leading" secondItem="wwc-iv-DdL" secondAttribute="leading" id="4Lh-7f-THn"/>
-                        <constraint firstItem="33g-Dq-qfs" firstAttribute="leading" secondItem="3Ib-6d-AmX" secondAttribute="leading" id="7dh-4Y-k46"/>
-                        <constraint firstItem="33g-Dq-qfs" firstAttribute="trailing" secondItem="wwc-iv-DdL" secondAttribute="trailing" id="9dw-XV-ZPv"/>
-                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QBQ-Vx-cnR" secondAttribute="trailing" constant="20" id="DYL-gv-dSG"/>
-                        <constraint firstItem="23h-4R-CUK" firstAttribute="top" secondItem="xZ0-OY-bfb" secondAttribute="bottom" constant="10" id="Epz-ZC-jfU">
-                            <variation key="widthClass=compact" constant="0.0"/>
-                        </constraint>
-                        <constraint firstAttribute="bottom" secondItem="23h-4R-CUK" secondAttribute="bottom" constant="20" id="Ha2-sc-e56"/>
-                        <constraint firstItem="33g-Dq-qfs" firstAttribute="top" secondItem="QBQ-Vx-cnR" secondAttribute="bottom" constant="10" id="JU3-Is-JKb">
-                            <variation key="widthClass=compact" constant="10"/>
-                        </constraint>
-                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="27b-Uc-uht" secondAttribute="trailing" constant="20" id="JjB-Vb-QzQ"/>
-                        <constraint firstItem="3Ib-6d-AmX" firstAttribute="trailing" secondItem="33g-Dq-qfs" secondAttribute="trailing" id="KMJ-Cj-fJB"/>
-                        <constraint firstItem="27b-Uc-uht" firstAttribute="leading" secondItem="wwc-iv-DdL" secondAttribute="leading" id="KW1-st-78J"/>
-                        <constraint firstAttribute="centerX" secondItem="3bQ-Xo-YMK" secondAttribute="centerX" id="Kdg-6B-EH8"/>
-                        <constraint firstItem="3Ib-6d-AmX" firstAttribute="top" secondItem="33g-Dq-qfs" secondAttribute="bottom" constant="4" placeholder="YES" id="Kqe-it-ylF"/>
-                        <constraint firstItem="xZ0-OY-bfb" firstAttribute="top" secondItem="3bQ-Xo-YMK" secondAttribute="bottom" constant="40" id="L2q-vp-10c">
-                            <variation key="widthClass=compact" constant="10"/>
-                        </constraint>
-                        <constraint firstItem="wwc-iv-DdL" firstAttribute="trailing" secondItem="jCv-ul-YNA" secondAttribute="trailing" id="MD1-fE-40L"/>
-                        <constraint firstAttribute="centerX" secondItem="23h-4R-CUK" secondAttribute="centerX" id="SEC-Tr-IXM"/>
-                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ITo-tM-QwE" secondAttribute="trailing" constant="20" id="U3F-s0-5Nj"/>
-                        <constraint firstItem="wwc-iv-DdL" firstAttribute="leading" secondItem="ITo-tM-QwE" secondAttribute="leading" id="Uag-5L-KLI"/>
-                        <constraint firstItem="33g-Dq-qfs" firstAttribute="leading" secondItem="QBQ-Vx-cnR" secondAttribute="leading" id="UhY-YE-9WE"/>
-                        <constraint firstItem="jCv-ul-YNA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="WO0-mg-3wj">
-                            <variation key="widthClass=compact" constant="20"/>
-                        </constraint>
-                        <constraint firstItem="ITo-tM-QwE" firstAttribute="top" secondItem="jCv-ul-YNA" secondAttribute="bottom" constant="40" id="Wem-ay-860">
-                            <variation key="widthClass=compact" constant="20"/>
-                        </constraint>
-                        <constraint firstItem="QBQ-Vx-cnR" firstAttribute="top" secondItem="27b-Uc-uht" secondAttribute="bottom" constant="30" id="d29-m0-ge5">
-                            <variation key="widthClass=compact" constant="20"/>
-                        </constraint>
-                        <constraint firstItem="jCv-ul-YNA" firstAttribute="leading" secondItem="ITo-tM-QwE" secondAttribute="leading" id="eph-Rt-lk6"/>
-                        <constraint firstItem="3bQ-Xo-YMK" firstAttribute="top" secondItem="3Ib-6d-AmX" secondAttribute="bottom" constant="40" id="fD7-dk-6uy">
-                            <variation key="widthClass=compact" constant="20"/>
-                        </constraint>
-                        <constraint firstItem="wwc-iv-DdL" firstAttribute="top" secondItem="ITo-tM-QwE" secondAttribute="bottom" constant="10" id="lLp-HW-fcp">
-                            <variation key="widthClass=compact" constant="10"/>
-                        </constraint>
-                        <constraint firstItem="jCv-ul-YNA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="mFS-eW-HmV">
-                            <variation key="widthClass=compact" constant="20"/>
-                        </constraint>
-                        <constraint firstAttribute="trailing" secondItem="jCv-ul-YNA" secondAttribute="trailing" constant="40" id="mxb-iy-vzP">
-                            <variation key="widthClass=compact" constant="20"/>
-                        </constraint>
-                        <constraint firstAttribute="centerX" secondItem="xZ0-OY-bfb" secondAttribute="centerX" id="x7i-Hr-hZj"/>
-                        <constraint firstItem="27b-Uc-uht" firstAttribute="top" secondItem="wwc-iv-DdL" secondAttribute="bottom" constant="4" id="xre-WB-eMJ"/>
+                        <constraint firstItem="i5M-Pr-FkT" firstAttribute="leading" secondItem="2u3-SH-2HX" secondAttribute="leading" id="7LL-hG-hbI"/>
+                        <constraint firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="XLI-V4-Nh6"/>
+                        <constraint firstItem="i5M-Pr-FkT" firstAttribute="leading" secondItem="wWr-Fd-e6u" secondAttribute="leading" id="Zq7-4b-0KW"/>
+                        <constraint firstItem="i5M-Pr-FkT" firstAttribute="trailing" secondItem="wWr-Fd-e6u" secondAttribute="trailing" id="sN5-Tu-Mvr"/>
+                        <constraint firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="u5H-YO-9TV"/>
+                        <constraint firstItem="i5M-Pr-FkT" firstAttribute="top" secondItem="2u3-SH-2HX" secondAttribute="top" id="vDV-uq-3Js"/>
+                        <constraint firstItem="i5M-Pr-FkT" firstAttribute="top" secondItem="wWr-Fd-e6u" secondAttribute="top" id="y4a-x0-gNw"/>
                     </constraints>
-                </view>
+                    <viewLayoutGuide key="safeArea" id="wWr-Fd-e6u"/>
+                </scrollView>
             </subviews>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="XLI-V4-Nh6"/>
-                <constraint firstItem="i5M-Pr-FkT" firstAttribute="leading" secondItem="wWr-Fd-e6u" secondAttribute="leading" id="Zq7-4b-0KW"/>
-                <constraint firstItem="i5M-Pr-FkT" firstAttribute="trailing" secondItem="wWr-Fd-e6u" secondAttribute="trailing" id="sN5-Tu-Mvr"/>
-                <constraint firstItem="i5M-Pr-FkT" firstAttribute="width" secondItem="wWr-Fd-e6u" secondAttribute="width" id="uk2-lJ-osA"/>
-                <constraint firstItem="i5M-Pr-FkT" firstAttribute="top" secondItem="2u3-SH-2HX" secondAttribute="top" id="vDV-uq-3Js"/>
+                <constraint firstItem="2u3-SH-2HX" firstAttribute="top" secondItem="UIE-GE-iTg" secondAttribute="top" id="ElH-ZJ-ZZ5"/>
+                <constraint firstItem="UIE-GE-iTg" firstAttribute="trailing" secondItem="2u3-SH-2HX" secondAttribute="trailing" id="GPb-IL-i12"/>
+                <constraint firstItem="UIE-GE-iTg" firstAttribute="bottom" secondItem="2u3-SH-2HX" secondAttribute="bottom" id="h29-Tf-FBJ"/>
+                <constraint firstItem="2u3-SH-2HX" firstAttribute="leading" secondItem="UIE-GE-iTg" secondAttribute="leading" id="xj7-2I-d4M"/>
             </constraints>
-            <nil key="simulatedStatusBarMetrics"/>
-            <viewLayoutGuide key="safeArea" id="wWr-Fd-e6u"/>
-            <point key="canvasLocation" x="416" y="461"/>
-        </scrollView>
+            <viewLayoutGuide key="safeArea" id="UIE-GE-iTg"/>
+            <point key="canvasLocation" x="1136.8" y="459.60591133004925"/>
+        </view>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <navigationController modalPresentationStyle="formSheet" id="RHM-kz-Z9r" customClass="ThemeableNavigationController" customModule="Cascable" customModuleProvider="target">
             <value key="contentSizeForViewInPopover" type="size" width="480" height="300"/>
@@ -297,6 +310,7 @@
                                 <variation key="widthClass=compact" constant="0.0"/>
                             </constraint>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="VKm-Wa-eX7"/>
                     </view>
                     <navigationItem key="navigationItem" title="Save Preset" id="wTX-HU-EgX">
                         <barButtonItem key="leftBarButtonItem" title="Cancel" id="sii-4c-RTP">
