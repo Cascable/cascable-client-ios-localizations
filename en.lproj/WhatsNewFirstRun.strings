@@ -1,0 +1,45 @@
+
+/* Class = "UIButton"; normalTitle = "Continue  →"; ObjectID = "52q-bz-tgm"; */
+"52q-bz-tgm.normalTitle" = "Continue  →";
+
+/* Class = "UILabel"; text = "Cascable 3.6 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.\n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!"; ObjectID = "9Bs-PF-Jvn"; */
+"9Bs-PF-Jvn.text" = "Cascable 3.6 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.\n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!";
+
+/* Class = "UIButton"; normalTitle = "Skip Tour"; ObjectID = "9NP-z9-ZaH"; */
+"9NP-z9-ZaH.normalTitle" = "Skip Tour";
+
+/* Class = "UILabel"; text = "In this update, Recipes gets a number of powerful new features!\n\nThe new Burst Shots block allows you to take burst exposures.\n\nThe new Move Focus block allows you to directly manipulate focus distance.\n\nThe new Wait For Input block allows you to pause your recipe until you're ready for it to continue, accepting input from on-screen buttons, a connected keyboard, or an external Bluetooth accessory."; ObjectID = "D49-pX-lG6"; */
+"D49-pX-lG6.text" = "In this update, Recipes gets a number of powerful new features!\n\nThe new Burst Shots block allows you to take burst exposures.\n\nThe new Move Focus block allows you to directly manipulate focus distance.\n\nThe new Wait For Input block allows you to pause your recipe until you're ready for it to continue, accepting input from on-screen buttons, a connected keyboard, or an external Bluetooth accessory.";
+
+/* Class = "UILabel"; text = "…and much more!"; ObjectID = "DkA-ou-F8n"; */
+"DkA-ou-F8n.text" = "…and much more!";
+
+/* Class = "UIViewController"; title = "Welcome"; ObjectID = "G3P-g9-PCa"; */
+"G3P-g9-PCa.title" = "Welcome";
+
+/* Class = "UILabel"; text = "Recipes Improvements"; ObjectID = "GgT-kT-cnX"; */
+"GgT-kT-cnX.text" = "Recipes Improvements";
+
+/* Class = "UIButton"; normalTitle = "Get Started  →"; ObjectID = "Wr9-Wd-JN8"; */
+"Wr9-Wd-JN8.normalTitle" = "Get Started  →";
+
+/* Class = "UILabel"; text = "on Twitter"; ObjectID = "dgL-Vh-5m6"; */
+"dgL-Vh-5m6.text" = "on Twitter";
+
+/* Class = "UILabel"; text = "Thank you for updating to Cascable 3.6!\n\nThis update adds the ability to save previews shown via the Photo Review feature into Cascable's photo library, including a \"Save Automatically\" option in Photo Review settings.\n\nAdditionally, it's now possible to customize the highlight color used by Focus Peaking.\n\nTap \"Get Started\" to learn about exciting additions to Recipes!"; ObjectID = "e51-oR-xjz"; */
+"e51-oR-xjz.text" = "Thank you for updating to Cascable 3.6!\n\nThis update adds the ability to save previews shown via the Photo Review feature into Cascable's photo library, including a \"Save Automatically\" option in Photo Review settings.\n\nAdditionally, it's now possible to customize the highlight color used by Focus Peaking.\n\nTap \"Get Started\" to learn about exciting additions to Recipes!";
+
+/* Class = "UILabel"; text = "on Instagram"; ObjectID = "e8w-Sj-KC2"; */
+"e8w-Sj-KC2.text" = "on Instagram";
+
+/* Class = "UIButton"; normalTitle = "Start Using Cascable"; ObjectID = "gTH-Fo-vxd"; */
+"gTH-Fo-vxd.normalTitle" = "Start Using Cascable";
+
+/* Class = "UILabel"; text = "What's new in Cascable?"; ObjectID = "l3x-YS-zoX"; */
+"l3x-YS-zoX.text" = "What's new in Cascable?";
+
+/* Class = "UIButton"; normalTitle = "@CascableApp"; ObjectID = "rcf-wD-q7K"; */
+"rcf-wD-q7K.normalTitle" = "@CascableApp";
+
+/* Class = "UIButton"; normalTitle = "@CascableApp"; ObjectID = "uTL-Tw-2wS"; */
+"uTL-Tw-2wS.normalTitle" = "@CascableApp";

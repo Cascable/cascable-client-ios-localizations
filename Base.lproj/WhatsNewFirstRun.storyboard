@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZN2-am-Zmm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZN2-am-Zmm">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -49,17 +47,19 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e51-oR-xjz">
-                                <rect key="frame" x="30" y="246.5" width="260" height="171"/>
+                                <rect key="frame" x="30" y="246.5" width="260" height="202"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="aYW-Lz-eal">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <mutableString key="text">Thank you for updating to Cascable 3.5!
+                                <string key="text">Thank you for updating to Cascable 3.6!
 
-This update to Cascable adds support for new Fujifilm and Canon cameras, including the new Canon RAW format — CR3.
+This update adds the ability to save previews shown via the Photo Review feature into Cascable's photo library, including a "Save Automatically" option in Photo Review settings.
 
-Additionally, optimisations have been made to live view for a faster and more responsive experience, and a new option for high-framerate live view has been added!</mutableString>
+Additionally, it's now possible to customize the highlight color used by Focus Peaking.
+
+Tap "Get Started" to learn about exciting additions to Recipes!</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -94,11 +94,11 @@ Additionally, optimisations have been made to live view for a faster and more re
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                         </variation>
                                         <connections>
-                                            <segue destination="VTa-aR-8qN" kind="show" id="T3r-Ga-SAd"/>
+                                            <segue destination="EHq-wR-6OJ" kind="show" id="elN-6f-6Lx"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NP-z9-ZaH">
-                                        <rect key="frame" x="44.5" y="46" width="60" height="29"/>
+                                        <rect key="frame" x="44" y="46" width="60" height="29"/>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                         <state key="normal" title="Skip Tour">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -152,6 +152,94 @@ Additionally, optimisations have been made to live view for a faster and more re
             <point key="canvasLocation" x="129.375" y="332.74647887323943"/>
         </scene>
         <!--All Done!-->
+        <scene sceneID="o7c-4b-1ab">
+            <objects>
+                <viewController id="EHq-wR-6OJ" userLabel="All Done!" customClass="CBLFirstRunViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lDF-uM-y2r"/>
+                        <viewControllerLayoutGuide type="bottom" id="NQ3-vm-jUj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OI1-dA-9Bn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipes Improvements" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GgT-kT-cnX">
+                                <rect key="frame" x="33" y="202" width="254.5" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D49-pX-lG6">
+                                <rect key="frame" x="20" y="253.5" width="280" height="217.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="495" id="cVk-5t-Mk9">
+                                        <variation key="widthClass=compact" constant="280"/>
+                                    </constraint>
+                                </constraints>
+                                <string key="text">In this update, Recipes gets a number of powerful new features!
+
+The new Burst Shots block allows you to take burst exposures.
+
+The new Move Focus block allows you to directly manipulate focus distance.
+
+The new Wait For Input block allows you to pause your recipe until you're ready for it to continue, accepting input from on-screen buttons, a connected keyboard, or an external Bluetooth accessory.</string>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52q-bz-tgm" customClass="CBLPillButton">
+                                <rect key="frame" x="86" y="502" width="148" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="148" id="ID2-Q1-gas"/>
+                                    <constraint firstAttribute="height" constant="42" id="h2T-yy-SXH">
+                                        <variation key="widthClass=compact" constant="36"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <state key="normal" title="Continue  →">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="VTa-aR-8qN" kind="show" id="E3C-kI-Djh"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RecipesFace" translatesAutoresizingMaskIntoConstraints="NO" id="ldL-I2-Btl">
+                                <rect key="frame" x="70" y="50" width="180" height="132"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GgT-kT-cnX" firstAttribute="top" secondItem="ldL-I2-Btl" secondAttribute="bottom" constant="20" id="2tw-QR-ZRZ"/>
+                            <constraint firstItem="NQ3-vm-jUj" firstAttribute="top" secondItem="52q-bz-tgm" secondAttribute="bottom" constant="50" id="3er-23-jc6">
+                                <variation key="widthClass=compact" constant="30"/>
+                            </constraint>
+                            <constraint firstAttribute="centerX" secondItem="52q-bz-tgm" secondAttribute="centerX" id="4Qv-Ay-JdO"/>
+                            <constraint firstAttribute="centerX" secondItem="GgT-kT-cnX" secondAttribute="centerX" id="64W-AA-Djf"/>
+                            <constraint firstItem="ldL-I2-Btl" firstAttribute="centerX" secondItem="OI1-dA-9Bn" secondAttribute="centerX" id="Bu9-WY-zzk"/>
+                            <constraint firstAttribute="centerX" secondItem="D49-pX-lG6" secondAttribute="centerX" id="mRL-X2-U8Z"/>
+                            <constraint firstItem="ldL-I2-Btl" firstAttribute="top" secondItem="lDF-uM-y2r" secondAttribute="bottom" constant="70" id="u0A-GP-jJD">
+                                <variation key="widthClass=compact" constant="30"/>
+                            </constraint>
+                            <constraint firstItem="D49-pX-lG6" firstAttribute="top" secondItem="GgT-kT-cnX" secondAttribute="bottom" constant="40" id="x4S-Ug-Hn6">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aba-so-3hk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="911" y="333"/>
+        </scene>
+        <!--All Done!-->
         <scene sceneID="C8t-5W-jzu">
             <objects>
                 <viewController id="VTa-aR-8qN" userLabel="All Done!" customClass="CBLFirstRunViewController" sceneMemberID="viewController">
@@ -164,7 +252,7 @@ Additionally, optimisations have been made to live view for a faster and more re
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="…and much more!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkA-ou-F8n">
-                                <rect key="frame" x="60" y="40" width="200.5" height="31.5"/>
+                                <rect key="frame" x="60.5" y="40" width="199" height="31.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -179,7 +267,7 @@ Additionally, optimisations have been made to live view for a faster and more re
                                         <variation key="widthClass=compact" constant="280"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Cascable 3.5 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.
+                                <string key="text">Cascable 3.6 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.
 
 If you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?
 
@@ -216,7 +304,7 @@ Enjoy!</string>
                                 <rect key="frame" x="37.5" y="251.5" width="245" height="230.5"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7th-Og-Tav">
-                                        <rect key="frame" x="0.0" y="74.5" width="245" height="83"/>
+                                        <rect key="frame" x="0.0" y="74" width="245" height="83"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcf-wD-q7K">
                                                 <rect key="frame" x="0.0" y="41" width="92" height="28"/>
@@ -246,7 +334,7 @@ Enjoy!</string>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceX-r7-ydY">
-                                                <rect key="frame" x="176.5" y="0.0" width="44" height="44"/>
+                                                <rect key="frame" x="177" y="0.0" width="44" height="44"/>
                                                 <state key="normal" image="InstagramLogo">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -267,13 +355,13 @@ Enjoy!</string>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="on Instagram" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8w-Sj-KC2">
-                                                <rect key="frame" x="160" y="67" width="79.5" height="16"/>
+                                                <rect key="frame" x="159.5" y="67" width="79.5" height="16"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gwY-Mx-v3W" customClass="CBLHairlineDividerView">
-                                                <rect key="frame" x="122" y="21" width="1" height="41.5"/>
+                                                <rect key="frame" x="122" y="20.5" width="1" height="41.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="1" id="3Ex-PS-sWh"/>
                                                 </constraints>
@@ -339,12 +427,13 @@ Enjoy!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eqh-Pz-nes" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="887" y="333"/>
+            <point key="canvasLocation" x="1682" y="333"/>
         </scene>
     </scenes>
     <resources>
         <image name="AboutIcon" width="150" height="150"/>
         <image name="InstagramLogo" width="44" height="44"/>
+        <image name="RecipesFace" width="180" height="132"/>
         <image name="TwitterLogo" width="44" height="44"/>
     </resources>
 </document>
