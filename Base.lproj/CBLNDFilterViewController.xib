@@ -215,10 +215,6 @@
             </navigationBar>
             <viewControllers>
                 <viewController id="oen-O7-QjY">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="SLd-fP-u3d"/>
-                        <viewControllerLayoutGuide type="bottom" id="yka-ja-htg"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Gyb-bs-k1E">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -293,6 +289,7 @@
                             </constraint>
                             <constraint firstItem="3NT-Lx-TJZ" firstAttribute="trailing" secondItem="mkC-NF-oOi" secondAttribute="trailing" id="RsW-aT-hJs"/>
                             <constraint firstItem="Isi-s1-pJX" firstAttribute="leading" secondItem="3NT-Lx-TJZ" secondAttribute="leading" id="UxB-O7-cAT"/>
+                            <constraint firstItem="QWj-nk-d1j" firstAttribute="top" secondItem="1ep-JO-jOI" secondAttribute="top" constant="20" id="VUG-Bx-xSR"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QWj-nk-d1j" secondAttribute="trailing" constant="20" id="Ygg-3W-MBx"/>
                             <constraint firstItem="3Yz-Hd-GWD" firstAttribute="leading" secondItem="QWj-nk-d1j" secondAttribute="leading" id="Yn9-Hp-RO8"/>
                             <constraint firstItem="mkC-NF-oOi" firstAttribute="top" secondItem="3NT-Lx-TJZ" secondAttribute="bottom" constant="9" id="aZf-3q-qDz">
@@ -303,7 +300,6 @@
                             </constraint>
                             <constraint firstItem="3NT-Lx-TJZ" firstAttribute="trailing" secondItem="vy8-1J-IJE" secondAttribute="trailing" id="k3J-91-YKD"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3Yz-Hd-GWD" secondAttribute="trailing" constant="20" id="l5t-JJ-gUD"/>
-                            <constraint firstItem="QWj-nk-d1j" firstAttribute="top" secondItem="SLd-fP-u3d" secondAttribute="bottom" constant="20" id="sPZ-gF-Fgy"/>
                             <constraint firstItem="3NT-Lx-TJZ" firstAttribute="leading" secondItem="vy8-1J-IJE" secondAttribute="leading" id="tC7-Ar-CRb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1ep-JO-jOI"/>

@@ -215,10 +215,6 @@
             </navigationBar>
             <viewControllers>
                 <viewController id="oen-O7-QjY">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="SLd-fP-u3d"/>
-                        <viewControllerLayoutGuide type="bottom" id="yka-ja-htg"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Gyb-bs-k1E">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -288,6 +284,7 @@
                             <constraint firstItem="3Yz-Hd-GWD" firstAttribute="top" secondItem="vy8-1J-IJE" secondAttribute="bottom" constant="40" id="AjE-8i-0De">
                                 <variation key="widthClass=compact" constant="20"/>
                             </constraint>
+                            <constraint firstItem="QWj-nk-d1j" firstAttribute="top" secondItem="VKm-Wa-eX7" secondAttribute="top" constant="20" id="BrY-Ln-xbS"/>
                             <constraint firstItem="vy8-1J-IJE" firstAttribute="top" secondItem="QWj-nk-d1j" secondAttribute="bottom" constant="8" id="DP2-kc-Pb6"/>
                             <constraint firstItem="mkC-NF-oOi" firstAttribute="baseline" secondItem="Isi-s1-pJX" secondAttribute="baseline" id="KpJ-VQ-2nl"/>
                             <constraint firstAttribute="trailing" secondItem="vy8-1J-IJE" secondAttribute="trailing" constant="40" id="OhA-MM-KRi">
@@ -302,7 +299,6 @@
                             <constraint firstItem="QWj-nk-d1j" firstAttribute="leading" secondItem="Gyb-bs-k1E" secondAttribute="leading" constant="40" id="fZx-Iv-tLP">
                                 <variation key="widthClass=compact" constant="20"/>
                             </constraint>
-                            <constraint firstItem="QWj-nk-d1j" firstAttribute="top" secondItem="SLd-fP-u3d" secondAttribute="bottom" constant="20" id="hzg-Oc-JLs"/>
                             <constraint firstItem="3NT-Lx-TJZ" firstAttribute="trailing" secondItem="vy8-1J-IJE" secondAttribute="trailing" constant="-20" id="k3J-91-YKD">
                                 <variation key="widthClass=compact" constant="0.0"/>
                             </constraint>
