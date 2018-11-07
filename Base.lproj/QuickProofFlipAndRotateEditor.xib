@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -42,7 +42,7 @@
                                 <rect key="frame" x="30" y="8" width="388" height="35"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jha-Ad-jPY" customClass="CBLTintableBackgroundButton">
-                                        <rect key="frame" x="0.0" y="0.0" width="24" height="35"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="35"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                         <color key="tintColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         <state key="normal" image="QuickProofFlipHorizontal"/>
@@ -51,7 +51,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fe-vo-thI" customClass="CBLTintableBackgroundButton">
-                                        <rect key="frame" x="121.5" y="0.0" width="24" height="35"/>
+                                        <rect key="frame" x="122.5" y="0.0" width="20" height="35"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="tintColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         <state key="normal" image="QuickProofFlipVertical"/>
@@ -60,7 +60,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRx-i2-7DP" customClass="CBLTintableBackgroundButton">
-                                        <rect key="frame" x="242.5" y="0.0" width="24" height="35"/>
+                                        <rect key="frame" x="245.5" y="0.0" width="20" height="35"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="tintColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         <state key="normal" image="QuickProofRotateCW"/>
@@ -69,7 +69,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nkz-8o-RMa" customClass="CBLTintableBackgroundButton">
-                                        <rect key="frame" x="364" y="0.0" width="24" height="35"/>
+                                        <rect key="frame" x="368" y="0.0" width="20" height="35"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="tintColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         <state key="normal" image="QuickProofRotateCCW"/>
@@ -78,14 +78,18 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="500" id="C2V-VX-WSE"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="AZF-qm-xjT" secondAttribute="trailing" constant="30" id="3Iv-1k-Ptn"/>
+                            <constraint firstAttribute="trailing" secondItem="AZF-qm-xjT" secondAttribute="trailing" priority="750" constant="30" id="3Iv-1k-Ptn"/>
                             <constraint firstItem="Ged-JA-V24" firstAttribute="leading" secondItem="vLJ-nf-BjL" secondAttribute="leading" id="5Rk-zK-GhW"/>
                             <constraint firstItem="AZF-qm-xjT" firstAttribute="top" secondItem="vLJ-nf-BjL" secondAttribute="top" constant="8" id="FaJ-zl-Ojr"/>
                             <constraint firstItem="Ged-JA-V24" firstAttribute="top" secondItem="vLJ-nf-BjL" secondAttribute="top" id="Hvv-W1-OWC"/>
-                            <constraint firstItem="AZF-qm-xjT" firstAttribute="leading" secondItem="vLJ-nf-BjL" secondAttribute="leading" constant="30" id="hNg-GT-yaO"/>
+                            <constraint firstItem="AZF-qm-xjT" firstAttribute="centerX" secondItem="vLJ-nf-BjL" secondAttribute="centerX" id="IUm-gJ-nQO"/>
+                            <constraint firstItem="AZF-qm-xjT" firstAttribute="leading" secondItem="vLJ-nf-BjL" secondAttribute="leading" priority="750" constant="30" id="hNg-GT-yaO"/>
                             <constraint firstAttribute="bottom" secondItem="AZF-qm-xjT" secondAttribute="bottom" constant="8" id="o9j-Si-wS3"/>
                             <constraint firstAttribute="trailing" secondItem="Ged-JA-V24" secondAttribute="trailing" id="rEt-lJ-P1F"/>
                         </constraints>
@@ -107,9 +111,9 @@
         </view>
     </objects>
     <resources>
-        <image name="QuickProofFlipHorizontal" width="24" height="24"/>
-        <image name="QuickProofFlipVertical" width="24" height="24"/>
-        <image name="QuickProofRotateCCW" width="24" height="24"/>
-        <image name="QuickProofRotateCW" width="24" height="24"/>
+        <image name="QuickProofFlipHorizontal" width="20" height="20"/>
+        <image name="QuickProofFlipVertical" width="20" height="20"/>
+        <image name="QuickProofRotateCCW" width="20" height="20"/>
+        <image name="QuickProofRotateCW" width="20" height="20"/>
     </resources>
 </document>
