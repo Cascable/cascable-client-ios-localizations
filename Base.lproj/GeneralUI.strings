@@ -55,6 +55,9 @@
 /* An example title for saving 'Sharp Stars' presets. Format <Camera> with <lens>. */
 "ExampleSharpStarsFilterPresetName" = "6D with 16-35mm";
 
+/* Title for the sensor with a 2,7x crop factor. */
+"CropFactor27Label" = "One Inch";
+
 /* Title for the sensor with a 2,0x crop factor. */
 "CropFactor20Label" = "Micro Four-Thirds";
 
