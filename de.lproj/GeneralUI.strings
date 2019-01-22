@@ -1355,6 +1355,12 @@
 /* Description for a problem caused by a duration being set to zero. Ex: 'Self Timer cannot have a zero duration.'. */
 "ShutterRobotConfigurationZeroDurationDescription" = "Die Dauer von %@ darf nicht Null sein.";
 
+/* Title for a problem caused by the camera not supporting exposure control. */
+"ShutterRobotExposureControlNotSupportedTitle" = "Nicht unterstützte Kamera";
+
+/* Description for a problem caused by the camera not supporting exposure control. */
+"ShutterRobotExposureControlNotSupportedDescription" = "Die derzeit angeschlossene Kamera unterstützt keine Steuerung Belichtungseinstellungen über WLAN.";
+
 /* Title for a problem caused by the camera's shutter drive being in self-timer. */
 "ShutterRobotConfigurationIncompatibleDriveModeTitle" = "Verschlussbetriebskonflikt";
 

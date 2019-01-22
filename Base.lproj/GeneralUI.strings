@@ -1367,6 +1367,12 @@ Try removing some photos from your camera, inserting a larger storage card or re
 /* Description for a problem caused by a duration being set to zero. Ex: 'Self Timer cannot have a zero duration.'. */
 "ShutterRobotConfigurationZeroDurationDescription" = "%@ cannot have a zero duration.";
 
+/* Title for a problem caused by the camera not supporting exposure control. */
+"ShutterRobotExposureControlNotSupportedTitle" = "Unsupported camera";
+
+/* Description for a problem caused by the camera not supporting exposure control. */
+"ShutterRobotExposureControlNotSupportedDescription" = "The currently connected camera does not support controlling exposure settings via WiFi.";
+
 /* Title for a problem caused by the camera's shutter drive being in self-timer. */
 "ShutterRobotConfigurationIncompatibleDriveModeTitle" = "Shutter drive conflict";
 

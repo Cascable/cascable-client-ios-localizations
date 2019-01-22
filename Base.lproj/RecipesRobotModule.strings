@@ -78,6 +78,9 @@
 "RequiresBurstWarningTitle" = "Requires Burst Exposures";
 "RequiresBurstWarningDescription" = "The recipe requires the camera be set to take burst exposures.";
 
+"RequiresChangeableExposureInCameraTitle" = "Requires Configurable Exposure";
+"RequiresChangeableExposureInCameraDescription" = "The recipe requires that camera allows changes to exposure settings, which is not supported by the currently connected camera.";
+
 "RequiresChangeableShutterSpeedTitle" = "Requires Configurable Shutter Speed";
 "RequiresChangeableShutterSpeedDescription" = "The recipe requires the camera be set to allow changes to shutter speed. Place the camera's exposure mode to Shutter Priority or Manual.";
 
