@@ -1046,6 +1046,12 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Description of the remote control warning that live view is still starting. */
 "RemoteUnavailableEVFStartingDescription" = "Live View is currently starting. This should only take a few seconds.";
 
+/* Title of the remote control warning that it's not supported by the camera. */
+"RemoteUnavailableNotSupportedTitle" = "Not Supported By Camera";
+
+/* Description of the remote control warning that it's not supported by the camera. */
+"RemoteUnavailableNotSupportedDescription" = "Remote control is not available because your camera doesn't support remote control via WiFi.";
+
 /* 'Start Live View' button title. */
 "StartLiveViewTitle" = "Start Live View";
 
@@ -1061,6 +1067,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 
 /* Warning text when a property can't be set. Ex: 'Shutter speed cannot be set with the camera's mode dial in its current position.'. */
 "ReadOnlyAEPropertyTitle" = "%@ cannot be set with the camera's mode dial in its current position.";
+
+/* Warning text when a property can't be set. */
+"NotSupportedPropertyTitle" = "%@ cannot be set via WiFi on this camera.";
 
 /* Title of the 'Overlays' popup. */
 "OverlaysPopupTitle" = "Overlays";

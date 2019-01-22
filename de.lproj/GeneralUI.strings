@@ -1036,6 +1036,12 @@
 /* Description of the remote control warning that live view is still starting. */
 "RemoteUnavailableEVFStartingDescription" = "Live-Ansicht startet gerade. Dies sollte nur ein paar Sekunden dauern.";
 
+/* Title of the remote control warning that it's not supported by the camera. */
+"RemoteUnavailableNotSupportedTitle" = "Wird nicht von der Kamera unterstützt";
+
+/* Description of the remote control warning that it's not supported by the camera. */
+"RemoteUnavailableNotSupportedDescription" = "Fernbedienung ist nicht verfügbar, da Ihre Kamera Fernbedienung über WLAN nicht unterstützt.";
+
 /* 'Start Live View' button title. */
 "StartLiveViewTitle" = "Live-Ansicht starten";
 
@@ -1051,6 +1057,9 @@
 
 /* Warning text when a property can't be set. Ex: 'Shutter speed cannot be set with the camera's mode dial in its current position.'. */
 "ReadOnlyAEPropertyTitle" = "%@ kann nicht gewählt werden, wenn das Modus-Wahlrad der Kamera in der aktuellen Position steht.";
+
+/* Warning text when a property can't be set. */
+"NotSupportedPropertyTitle" = "%@ kann bei dieser Kamera nicht über WLAN eingestellt werden.";
 
 /* Title of the 'Overlays' popup. */
 "OverlaysPopupTitle" = "Überlagerungen";
