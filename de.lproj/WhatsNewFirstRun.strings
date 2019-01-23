@@ -1,6 +1,6 @@
 
-/* Class = "UILabel"; text = "Cascable 3.7 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.\n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!"; ObjectID = "9Bs-PF-Jvn"; */
-"9Bs-PF-Jvn.text" = "Cascable 3.7 hat überall in der App viele kleinere Funktionen hinzubekommen. Eine vollständige und detaillierte Liste finden Sie auf der Cascable-Website.\n\nMöchten Sie die aktuellsten News und neuesten Fotos vom Cascable-Team erhalten? Folgen Sie uns auf Twitter und Instagram!\n\nViel Spaß!";
+/* Class = "UILabel"; text = "Cascable 3.8 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.\n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!"; ObjectID = "9Bs-PF-Jvn"; */
+"9Bs-PF-Jvn.text" = "Cascable 3.8 hat überall in der App viele kleinere Funktionen hinzubekommen. Eine vollständige und detaillierte Liste finden Sie auf der Cascable-Website.\n\nMöchten Sie die aktuellsten News und neuesten Fotos vom Cascable-Team erhalten? Folgen Sie uns auf Twitter und Instagram!\n\nViel Spaß!";
 
 /* Class = "UIButton"; normalTitle = "Skip Tour"; ObjectID = "9NP-z9-ZaH"; */
 "9NP-z9-ZaH.normalTitle" = "Einführung überspringen";
@@ -18,7 +18,7 @@
 "dgL-Vh-5m6.text" = "auf Twitter";
 
 /* Class = "UILabel"; text = "Thank you for updating to Cascable 3.7!\n\nThis update adds support for the new 2018 iPad Pro models, and Cascable looks great on the new edge-to-edge displays.\n\nCascable 3.7 also introduces a completely rebuilt integration with the Files app, making it much easier to work with large photo libraries."; ObjectID = "e51-oR-xjz"; */
-"e51-oR-xjz.text" = "Danke, dass Sie auf Cascable 3.7 aktualisiert haben!\n\nDieses Update fügt Unterstützung für die neuen 2018 iPad Pro-Modelle hinzu und Cascable sieht auf den neuen Displays hervorragend aus.\n\nCascable 3.7 führt außerdem eine vollständig neu aufgebaute Integration in die Files-App ein, die die Arbeit mit großen Fotobibliotheken erheblich vereinfacht.";
+"e51-oR-xjz.text" = "Danke, dass Sie auf Cascable 3.8 aktualisiert haben!\n\nDieses Update begrüßt die Canon PowerShot-Reihe der Cascable-Familie und fügt fast 40 Kameras zu unserer Liste der unterstützten Kameras hinzu!\n\nCascable 3.8 enthält auch einige Verbesserungen in der App.";
 
 /* Class = "UILabel"; text = "on Instagram"; ObjectID = "e8w-Sj-KC2"; */
 "e8w-Sj-KC2.text" = "bei Instagram";

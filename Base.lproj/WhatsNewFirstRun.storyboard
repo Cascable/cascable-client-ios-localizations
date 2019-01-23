@@ -47,17 +47,17 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e51-oR-xjz">
-                                <rect key="frame" x="30" y="246.5" width="260" height="155.5"/>
+                                <rect key="frame" x="30" y="246.5" width="260" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="aYW-Lz-eal">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Thank you for updating to Cascable 3.7!
+                                <string key="text">Thank you for updating to Cascable 3.8!
 
-This update adds support for the new 2018 iPad Pro models, and Cascable looks great on the new edge-to-edge displays.
+This update welcomes the Canon PowerShot range to the Cascable family, adding nearly 40 cameras to our supported cameras list!
 
-Cascable 3.7 also introduces a completely rebuilt integration with the Files app, making it much easier to work with large photo libraries.</string>
+Cascable 3.8 also contains a number of improvements thoughout the app.</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -177,7 +177,7 @@ Cascable 3.7 also introduces a completely rebuilt integration with the Files app
                                         <variation key="widthClass=compact" constant="280"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Cascable 3.7 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.
+                                <string key="text">Cascable 3.8 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.
 
 If you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?
 
@@ -337,7 +337,7 @@ Enjoy!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eqh-Pz-nes" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="864" y="333"/>
+            <point key="canvasLocation" x="862.5" y="332.74647887323943"/>
         </scene>
     </scenes>
     <resources>
