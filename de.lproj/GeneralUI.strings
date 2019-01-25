@@ -733,7 +733,7 @@
 "MultiVariantCopySettingsHeader" = "Beim Kopieren von RAW- & JPEG-Fotos";
 
 /* The footer text of the 'When Copying RAW+JPEG…' settings section */
-"MultiVariantCopySettingsFooter" = "Wenn Sie aus dem RAW-/JPEG-Paar nur eine Datei kopiert haben, können Sie mit Cascable die andere Datei auch später noch herunterladen.\n\nFujifilm, ältere PowerShot, und einige ältere Panasonic-Kameras unterstützen keinen Zugriff auf RAW-Datein, während sie über WLAN bedient werden.";
+"MultiVariantCopySettingsFooter" = "Wenn Sie aus dem RAW-/JPEG-Paar nur eine Datei kopiert haben, können Sie mit Cascable die andere Datei auch später noch herunterladen.\n\nFujifilm, IXUS/ELPH, ältere PowerShot, und einige ältere Panasonic-Kameras unterstützen keinen Zugriff auf RAW-Datein, während sie über WLAN bedient werden.";
 
 /* Titles for the various file downloading options. */
 "MultiVariantDownloadChoice0Title" = "Jedes Mal fragen";
