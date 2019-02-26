@@ -16,6 +16,8 @@
 "SonySpeedPriorityDriveModeLabel" = "H+";
 "SonyMotionShotDriveModeLabel" = "M";
 
+"NikonHighSpeedExtendedDriveModeLabel" = "H+";
+
 "BlankDriveModeLabel" = "";
 "GenericSilentDriveModeLabel" = "S";
 "GenericLowSpeedDriveModeLabel" = "L";
@@ -42,6 +44,7 @@
 "OlympusCWB3Label" = "C3";
 "OlympusCWB4Label" = "C4";
 "CanonAutoWhitePriorityLabel" = "AWP";
+"NikonAutoNaturalLightLabel" = "NL";
 
 "ExplicitKelvinWhiteBalanceLabel" = "K";
 "Custom1WBLabel" = "C1";
