@@ -1,6 +1,6 @@
 
-/* Class = "UILabel"; text = "Cascable 3.8 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.\n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!"; ObjectID = "9Bs-PF-Jvn"; */
-"9Bs-PF-Jvn.text" = "Cascable 3.8 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.\n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!";
+/* Class = "UILabel"; text = "Cascable 3.9 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.\n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!"; ObjectID = "9Bs-PF-Jvn"; */
+"9Bs-PF-Jvn.text" = "Cascable 3.9 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.\n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!";
 
 /* Class = "UIButton"; normalTitle = "Skip Tour"; ObjectID = "9NP-z9-ZaH"; */
 "9NP-z9-ZaH.normalTitle" = "Skip Tour";
@@ -17,8 +17,8 @@
 /* Class = "UILabel"; text = "on Twitter"; ObjectID = "dgL-Vh-5m6"; */
 "dgL-Vh-5m6.text" = "on Twitter";
 
-/* Class = "UILabel"; text = "Thank you for updating to Cascable 3.8!\n\nThis update welcomes the Canon PowerShot range to the Cascable family, adding nearly 40 cameras to our supported cameras list!\n\nCascable 3.8 also contains a number of improvements thoughout the app."; ObjectID = "e51-oR-xjz"; */
-"e51-oR-xjz.text" = "Thank you for updating to Cascable 3.8!\n\nThis update welcomes the Canon PowerShot, IXUS and ELPH ranges to the Cascable family, adding nearly 40 cameras to our supported cameras list!\n\nCascable 3.8 also contains a number of improvements thoughout the app.";
+/* Class = "UILabel"; text = "Thank you for updating to Cascable 3.9!\n\nThis update welcomes the Nikon Z6 and Z7 to the Cascable family!\n\nCascable 3.9 also contains a number of improvements thoughout the app."; ObjectID = "e51-oR-xjz"; */
+"e51-oR-xjz.text" = "Thank you for updating to Cascable 3.9!\n\nThis update welcomes the Nikon Z6 and Z7 to the Cascable family!\n\nCascable 3.9 also contains a number of improvements thoughout the app.";
 
 /* Class = "UILabel"; text = "on Instagram"; ObjectID = "e8w-Sj-KC2"; */
 "e8w-Sj-KC2.text" = "on Instagram";
