@@ -636,31 +636,6 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 "FirstRunCalculationsSubTitleShort" = "The Calculations panel contains helpful tools to assist with tricky exposure situations.";
 
 // ------------------------------------------------------------
-//     Coupon Exchange
-// ------------------------------------------------------------
-
-/* Title of the "Claim discount" button in purchases */
-"ClaimTransferDiscountTitle" = "Claim Cascable Transfer Discount…";
-
-/* Title of the 'Email Address Required' error dialog. */
-"EmailAddressRequiredTitle" = "Email Address Required";
-
-/* Placeholder text for the email field. */
-"EmailFieldPlaceholder" = "Your email address";
-
-/* Description text of the 'Email Address Required' error dialog. */
-"EmailAddressRequiredDescription" = "We need your email address to send you your discount coupon. It won't be used for any other purpose.";
-
-/* Title of the coupon exchange failed error dialog. */
-"CouponExchangeFailedTitle" = "Discount Check Failed";
-
-/* Description text of the coupon exchange failed error dialog when the server fails. */
-"CouponExchangedFailedServerFailureDescription" = "A problem occurred while trying to check your eligibility for the Cascable Transfer discount. If this continues, please contact Cascable support.";
-
-/* Description text of the coupon exchange failed error dialog when there's a network failure or similar. */
-"CouponExchangedFailedNetworkFailureDescription" = "A problem occurred while trying to check your eligibility for the Cascable Transfer discount. Please double-check your internet connection. If you are connected to a camera, you may need to disconnect from the camera and connect to a WiFi network that has internet connectivity.\n\nIf this issue persists, please contact Cascable support.";
-
-// ------------------------------------------------------------
 //     Settings
 // ------------------------------------------------------------
 
