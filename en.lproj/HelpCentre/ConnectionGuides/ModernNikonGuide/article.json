@@ -1,0 +1,6 @@
+{
+    "title" : "Nikon (With SnapBridge)",
+    "id": "se.cascable.client.help.nikon-connection-snapbridge",
+    "icon": "NikonSnapBridgeHelpArticleIcon",
+    "category": "se.cascable.client.help.category.getting-connected",
+}
