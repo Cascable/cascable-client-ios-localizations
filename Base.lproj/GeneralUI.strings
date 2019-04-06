@@ -755,7 +755,7 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 To have Cascable notify you when disconnecting from your camera in the background, you must allow notifications for Cascable in the Notifications section of the Settings app.";
 
 /* Title for 'Open Settings App' button. */
-"SwitchToiOSSettingAppTitle" = "Open Settings App";
+"SwitchToiOSSettingAppTitle" = "Settings App";
 
 /* Title for 'Use Custom Themes?' dialog. */
 "UseCustomThemeConfirmationTitle" = "Use Custom Themes?";

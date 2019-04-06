@@ -747,7 +747,7 @@
 "NotificationsNotAvailableAlertDescription" = "Mitteilungen für Cascable sind in den iOS Einstellungen deaktiviert.\n\nDamit Cascable Ihnen mitteilen kann, wenn die Verbindung zu Ihrer Kamera verloren geht, müssen Sie Mitteilungen für Cascable in der Einstellungen App > Mitteilungen zulassen.";
 
 /* Title for 'Open Settings App' button. */
-"SwitchToiOSSettingAppTitle" = "Einstellungen App öffnen";
+"SwitchToiOSSettingAppTitle" = "Einstellungen";
 
 /* Title for 'Use Custom Themes?' dialog. */
 "UseCustomThemeConfirmationTitle" = "Eigene Themes verwenden?";
