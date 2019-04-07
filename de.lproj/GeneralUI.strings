@@ -339,6 +339,12 @@
 /* Batch delete summary. Ex: 'This will PERMANENTLY delete 12 files from your camera. This will not affect the files copied to your iPad.'. */
 "BatchDeleteWithoutSizeSummaryDescription_Plural" = "Hiermit werden %@ Fotos DAUERHAFT von Ihrer Kamera gelöscht. Die auf Ihr %@ kopierten Fotos sind nicht betroffen.";
 
+/* Batch delete summary. Ex: 'This will PERMANENTLY delete 1 photo from "On this iPad"' */
+"KondoBatchDeleteSummaryDescription" = "Hiermit wird %@ Foto DAUERHAFT von \"%@\" gelöscht.";
+
+/* Batch delete summary. Ex: 'This will PERMANENTLY delete 14 photos from "On this iPad"' */
+"KondoBatchDeleteSummaryDescription_Plural" = "Hiermit werden %@ Fotos DAUERHAFT von \"%@\" gelöscht";
+
 /* Batch delete confirm button title. */
 "BatchDeleteConfirmTitle" = "Foto löschen";
 

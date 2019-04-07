@@ -339,6 +339,12 @@
 /* Batch delete summary. Ex: 'This will PERMANENTLY delete 12 files from your camera. This will not affect the files copied to your iPad.'. */
 "BatchDeleteWithoutSizeSummaryDescription_Plural" = "This will PERMANENTLY delete %@ photos from your camera. This will not affect the photos copied to your %@.";
 
+/* Batch delete summary. Ex: 'This will PERMANENTLY delete 1 photo from "On this iPad"' */
+"KondoBatchDeleteSummaryDescription" = "This will PERMANENTLY delete %@ photo from \"%@\".";
+
+/* Batch delete summary. Ex: 'This will PERMANENTLY delete 14 photos from "On this iPad"' */
+"KondoBatchDeleteSummaryDescription_Plural" = "This will PERMANENTLY delete %@ photos from \"%@\".";
+
 /* Batch delete confirm button title. */
 "BatchDeleteConfirmTitle" = "Delete Photo";
 
