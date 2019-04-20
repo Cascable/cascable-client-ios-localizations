@@ -1039,8 +1039,17 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Title of the screen that pops up when previewing an image. */
 "ShotPreviewTitle" = "Image Preview";
 
+/* File name for a saved preview. Includes a date stamp. */
+"ShotPreviewForSavingName" = "Preview_%@";
+
 /* Title of the screen that pops up when previewing an image when the camera name is available. */
 "ShotPreviewWithCameraNameTitle" = "Preview from %@";
+
+/* File name for a saved preview. Includes a date stamp. */
+"ShotPreviewWithCameraForSavingName" = "Preview_%@_%@";
+
+/* Title of the screen that pops up when previewing an image when the file name is available. */
+"ShotPreviewWithFileNameTitle" = "Preview of %@";
 
 // ------------------------------------------------------------
 //     Remote Control: Popups and Controls

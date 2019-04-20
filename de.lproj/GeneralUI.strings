@@ -1029,8 +1029,17 @@
 /* Title of the screen that pops up when previewing an image. */
 "ShotPreviewTitle" = "Bildvorschau";
 
+/* File name for a saved preview. Includes a date stamp. */
+"ShotPreviewForSavingName" = "Vorschau_%@";
+
 /* Title of the screen that pops up when previewing an image when the camera name is available. */
 "ShotPreviewWithCameraNameTitle" = "Vorschau von %@";
+
+/* File name for a saved preview. Includes a date stamp. */
+"ShotPreviewWithCameraForSavingName" = "Vorschau_%@_%@";
+
+/* Title of the screen that pops up when previewing an image when the file name is available. */
+"ShotPreviewWithFileNameTitle" = "Vorschau von %@";
 
 // ------------------------------------------------------------
 //     Remote Control: Popups and Controls
