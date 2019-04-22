@@ -348,8 +348,8 @@
 /* Batch delete confirm button title. */
 "BatchDeleteConfirmTitle" = "Delete Photo";
 
-/* Batch delete with multiple files confirm button title.  Ex: 'Delete 3 Files'. */
-"BatchDeleteConfirmTitle_Plural" = "Delete %@ Photos";
+/* Batch delete with multiple files confirm button title.  Ex: 'Delete Files'. */
+"BatchDeleteConfirmTitle_Plural" = "Delete Photos";
 
 /* Batch delete extra warning alert countdown title. Ex: 'Available in 5…'. */
 "BatchDeleteSomeFilesNotLocalConfirmationCountdownTitle" = "Available in %@…";
