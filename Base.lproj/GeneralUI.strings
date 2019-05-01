@@ -275,6 +275,9 @@
 /* Title of the Copy Queue screen. */
 "CopyQueueTitle" = "Copy Queue";
 
+/* Title of the "Nothing Copying" state. */
+"CopyQueueNothingCopyingTitle" = "Nothing copying.";
+
 /* Title of the copy queue section for the currently copying image. */
 "CopyQueueCurrentOperationSectionTitle" = "Copying";
 
