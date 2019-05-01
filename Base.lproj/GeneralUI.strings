@@ -139,6 +139,211 @@
 "StopCopyingTitle" = "Stop Copying";
 
 // ------------------------------------------------------------
+//     Files Mode: Storage List
+// ------------------------------------------------------------
+
+/* For example: "On this iPad" */
+"CascableInternalImageStoreName" = "On this %@";
+
+/* Title for the storage area for previews saved from the camera. */
+"CascableSavedPreviewStoreName" = "Saved Previews";
+
+/* Title for the storage list section for on-camera storage. */
+"OnCameraStorageSectionTitle" = "Camera Storage";
+
+/* Title for the storage list section for storage inside the iOS device. */
+"InternalDeviceStorageSectionTitle" = "Internal Storage";
+
+/* Title for the storage list section for storage outside the iOS device - USB drives, etc. */
+"ExternalDeviceStorageSectionTitle" = "External Storage";
+
+/* Title for the copying section of the storage list. */
+"QueueStorageSectionTitle" = "Copying";
+
+/* Storage list footer label. */
+"StorageListFooter" = "%@ item";
+"StorageListFooter_Plural" = "%@ items";
+
+/* Name of a camera source when the name itself cannot be found. */
+"UnknownCameraNameSourceTitle" = "Camera";
+
+/* Subtitle in the storage list for a memory card in slot 1 of a camera. */
+"Slot1Title" = "Slot 1";
+
+/* Subtitle in the storage list for a memory card in slot 2 of a camera. */
+"Slot2Title" = "Slot 2";
+
+// ------------------------------------------------------------
+//     Files Mode: iXpand Drive
+// ------------------------------------------------------------
+
+/* The name of an iXpand drive in the storage list. */
+"iXpandDriveName" = "iXpand Drive";
+
+/* Title of the "iXpand Drive Busy" alert. */
+"BusyiXpandWarningTitle" = "iXpand Drive Busy";
+
+/* Message of the "iXpand Drive Busy" alert. */
+"BusyiXpandWarningMessage" = "The connected iXpand drive is currently in use by another application, and cannot be used by Cascable. Finish any operations with your iXpand drive in other apps then return to Cascable to use it.";
+
+/* Message explaining that only photos in the "Cascable" folder on an iXpand drive will be shown. */
+"iXpandLimitedBreadthDescription" = "Cascable displays photos in the \"Cascable\" folder on your iXpand Drive. This folder will be created for you automatically.";
+
+// ------------------------------------------------------------
+//     Files Mode: Loading Content
+// ------------------------------------------------------------
+
+/* Label shown when loading content. */
+"LoadingContentTitle" = "Loading…";
+
+/* Message shown when the device has no photos available and there's no error (i.e., it's just empty). */
+"NoContentTitle" = "This device doesn't have any photos available. Get shooting!";
+
+/* Message shown when the device has no photos available and there is more information available. */
+"NoContentWithElaborationTitle" = "This device doesn't have any photos available in Cascable.\n\n%@";
+
+/* Label shown when content cannot be shown. */
+"CannotShotContentTitle" = "Cannot Show Content";
+
+/* Message shown when content cannot be shown and there is no specific information as to why. */
+"CannotShowContentGenericDescription" = "A problem occurred when attempting to load content from this device. Please disconnect and reconnect it to try again.";
+
+/* Message shown when content cannot be shown and there is additional information as to why. */
+"CannotShowContentWithReasonDescription" = "A problem occurred when attempting to load content from this device.\n\n%@";
+
+/* Label shown when a camera doesn't allow access to its storage. */
+"CameraNoFileSystemAccessTitle" = "No Access";
+
+/* Message shown when a camera doesn't allow access to its storage. */
+"CameraNoFileSystemAccessDescription" = "This camera doesn't appear to allow access to its storage devices over Wi-Fi.";
+
+// ------------------------------------------------------------
+//     Files Mode: Copy Destination Picker
+// ------------------------------------------------------------
+
+/* Title for the copy destination picker. E.g. "Copy 2 items to" */
+"PickerPopoverCopyItemsTitle" = "Copy %@ item to";
+"PickerPopoverCopyItemsTitle_Plural" = "Copy %@ items to";
+
+/* Title for the copy destination picker when using drag-and-drop. */
+"PickerPopoverDropItemsTitle" = "Destination";
+
+/* Titles of the cancel, delete and share copy actions. */
+"PickerPopoverCancelActionTitle" = "Cancel";
+"PickerPopoverDeleteActionTitle" = "Delete";
+"PickerPopoverShareActionTitle" = "Share";
+
+/* Title of the "External App" destination, used when drag-and-dropping to a second app. */
+"DragAndDropDestinationTitle" = "External App";
+
+// ------------------------------------------------------------
+//     Files Mode: Storage Links
+// ------------------------------------------------------------
+
+/* Title used when a storage link is not available. */
+"StorageLinkUnavailableFormatter" = "%@ (unavailable)";
+
+/* Title of the 'Create Storage Link' dialog. */
+"StorageLinkCreationTitle" = "Create Storage Link";
+
+/* Explaination of the 'Create Storage Link' dialog. */
+"StorageLinkCreationDescription" = "Photos will automatically be copied from the source to the destination as long as a link is active between them.";
+
+/* Title of the FROM column header when creating a storage link. IMPORTANT: This string must be short. */
+"SourceLinkFromColumnHeading" = "FROM";
+
+/* Title of the TO column header when creating a storage link. IMPORTANT: This string must be short. */
+"SourceLinkToColumnHeading" = "TO";
+
+/* Title of the button to create a storage link. */
+"SourceLinkCreateButtonTitle" = "Create Link";
+
+// ------------------------------------------------------------
+//     Files Mode: Sorting
+// ------------------------------------------------------------
+
+"DateSortKeyTitle" = "Date";
+"NameSortKeyTitle" = "Name";
+"RatingSortKeyTitle" = "Rating";
+"SizeSortKeyTitle" = "File Size";
+"KindSortKeyTitle" = "Kind";
+
+// ------------------------------------------------------------
+//     Files Mode: Copy Queue
+// ------------------------------------------------------------
+
+/* Title of the Copy Queue screen. */
+"CopyQueueTitle" = "Copy Queue";
+
+/* Title of the copy queue section for the currently copying image. */
+"CopyQueueCurrentOperationSectionTitle" = "Copying";
+
+/* Title of the copy queue section for the list of pending images. */
+"CopyQueuePendingOperationsSectionTitle" = "%@ Pending";
+
+/* Footer of the copy queue. */
+"CopyQueueFooter" = "%@ item";
+"CopyQueueFooter_Plural" = "%@ items";
+
+/* Error text for when an image can't be copied due to its source or destination disappearing. */
+"CopyQueueSourceDisappearedFailureDescription" = "Either the source or destination is no longer available.";
+
+/* Title for the "to <destination>" (i.e., "to iXpand Drive") label. */
+"CopyOperationDestinationDescriptionFormatter" = "to %@";
+
+/* Title of the "Preparing…" copy state. */
+"CopyOperationPreparingStatusTitle" = "Preparing…";
+
+/* Title of the "Pending" copy state. */
+"CopyOperationPendingStatusTitle" = "Pending";
+
+/* Title of the "Cancelled" copy state. */
+"CopyOperationCancelledStatusTitle" = "Cancelled";
+
+/* Title of the "Copied" copy state. */
+"CopyOperationCopiedStatusTitle" = "Copied";
+
+/* Title of the "Failed" copy state. E.g., "Failed: Not enough free space." */
+"CopyOperationFailedStatusTitle" = "Failed: %@";
+
+/* Title of the "Clear Pending…" button in the copy queue. */
+"CopyQueueCancelAllButtonTitle" = "Clear Pending…";
+
+/* Title of the "Clear Pending Copies?" dialog box. */
+"ClearAllConfirmationTitle" = "Clear Pending Copies?";
+
+/* Message in the "Clear Pending Copies?" dialog box. */
+"ClearAllConfirmationMessage" = "This will remove all pending copies from the queue.";
+
+/* Title of the "Don't Clear" button in the "Clear Pending Copies?" dialog box. */
+"ClearAllConfirmationCancelTitle" = "Don't Clear";
+
+/* Title of the "Clear All" button in the "Clear Pending Copies?" dialog box. */
+"ClearAllConfirmationConfirmTitle" = "Clear All";
+
+// ------------------------------------------------------------
+//     Files Mode: Upgrading Database
+// ------------------------------------------------------------
+
+/* Title of the "Upgrade Required" dialog for upgrading the photos database. */
+"KondoMigrationRequiredTitle" = "Upgrade Required";
+
+/* Message of the "Upgrade Required" dialog for upgrading the photos database. */
+"KondoMigrationRequiredMessage" = "In order to continue, Cascable must upgrade your photo database. This will only take a few seconds.";
+
+/* Title of the "Upgrading…" label when upgrading the photos database. */
+"KondoMigrationInProgressTitle" = "Upgrading…";
+
+/* Title of the "Upgrade complete!" label when upgrading the photos database. */
+"KondoMigrationCompleteMessage" = "Upgrade complete!";
+
+/* Title of the "Upgrade Failed" dialog when upgrading the photos database. */
+"KondoMigrationFailedTitle" = "Upgrade Failed";
+
+/* Message of the "Upgrade Failed" dialog when upgrading the photos database. Format token is for the device name (i.e., "…free up some space on your iPhone, then try again.") */
+"KondoMigrationFailedMessage" = "A problem occurred while upgrading your photo database. Don't worry — your photos are still safe! Please free up some space on your %@, then try again.";
+
+// ------------------------------------------------------------
 //     Files Mode: Information Labels
 // ------------------------------------------------------------
 
@@ -195,6 +400,24 @@
 
 /* Compact footer of the device view, including number of items selected. Ex: '1 of 12 items selected'. */
 "ItemsSelectedFormatter_Plural" = "%@ of %@ items selected";
+
+/* The footer text of the image list containing the item count. Ex: '1 item'. */
+"FooterItemsOnlyFormatter" = "%@ item";
+
+/* The footer text of the image list containing the item count. Ex: '2 items'. */
+"FooterItemsOnlyFormatter_Plural" = "%@ items";
+
+/* The footer text of the image list containing the free space in shots. Ex: '1 shot available'. */
+"FooterShotsAvailableOnlyFormatter" = "%@ shot available";
+
+/* The footer text of the image list containing the free space in shots. Ex: '2 shots available'. */
+"FooterShotsAvailableOnlyFormatter_Plural" = "%@ shots available";
+
+/* The footer text of the image list containing the free space in bytes/megabytes/etc. Ex: '12 MB available'. */
+"FooterBytesAvailableOnlyFormatter" = "%@ available";
+
+/* The formatter for combining an item count and a free space count. */
+"FooterItemsAndAvailableFormatter" = "%@, %@";
 
 /* Label to show the photo is a RAW+JPEG pair. */
 "RAWPlusJPEGFileTypeLabel" = "RAW+JPEG";
@@ -713,11 +936,19 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 "AutoDismissPhotoReviewSetting4Title" = "After 4 seconds";
 "AutoDismissPhotoReviewSetting8Title" = "After 8 seconds";
 
+/* Title for the 'External Display' section of the settings. */
 "ExternalDisplaySettingsTitle" = "External Display";
+
+/* Title for the setting to enable using a dedicated external display. */
+"EnableExternalDisplaySettingTitle" = "Dedicated External Display";
+
+/* An explanation of what the 'External Display' setting does. */
 "ExternalDisplaySettingsDescription" = "When enabled, photos viewed fullscreen (including those from Photo Review) will also be displayed in a dedicated viewer on a display connected via AirPlay or physical cable.";
 
-"EnableExternalDisplaySettingTitle" = "Dedicated External Display";
+/* Title of the setting to show metadata (shutter speed, etc) on an exernal display. */
 "ExternalDisplayShowMetadataSettingTitle" = "Show Metadata";
+
+/* Title of the setting to show a histogram on an exernal display. */
 "ExternalDisplayShowHistogramSettingTitle" = "Show Histogram";
 
 /* The title of 'When Copying RAW+JPEG…' settings section. */
