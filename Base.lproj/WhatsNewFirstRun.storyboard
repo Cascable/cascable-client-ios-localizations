@@ -774,15 +774,15 @@ Using storage links, you can also link your iXpand to Cascable's storage for ins
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYR-Xe-VOn">
-                                <rect key="frame" x="30" y="282.5" width="260" height="124.5"/>
+                                <rect key="frame" x="30" y="282.5" width="260" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="440" id="5RB-kP-6kM">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Cascable is now more flexible — customise your layout between an image-dense grid or a list showing metadata too, and adjust thumbnail size, sort order, and more!
+                                <string key="text">Cascable is now more flexible — customise your layout between an image-dense grid or a list that includes image metadata, and adjust thumbnail size, sort order, and more!
 
-On iPad, choose between split or single screen for easy copying and management or more photos onscreen.</string>
+On iPad, choose between split or single screen for easy copying and management between multiple sources or more photos onscreen.</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
