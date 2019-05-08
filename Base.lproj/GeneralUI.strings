@@ -57,6 +57,9 @@
 /* Placeholder text when there's no usage notes to show. */
 "CompatibilityNoUsageNotesPlaceholder" = "No usage notes.";
 
+/* Shown when there are no search results. */
+"NoSearchResultsTitle" = "No Results";
+
 // ------------------------------------------------------------
 //     Calculations Mode: General
 // ------------------------------------------------------------
