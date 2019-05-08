@@ -30,6 +30,37 @@
 "SensorSize" = "%@ (%@x crop factor)";
 
 // ------------------------------------------------------------
+//     Camera Compatibility Table
+// ------------------------------------------------------------
+
+/* The title of the "Control & Automation" section in the camera compatibility table. Should remain short. */
+"ControlAndAutomationCompatibilityTitle" = "Control & Automation";
+
+/* The title of the "Photo Review" section in the camera compatibility table. Should remain short. */
+"PhotoReviewCompatibilityTitle" = "Photo Review";
+
+/* The title of the "Wireless Tethering" section in the camera compatibility table. Should remain short. */
+"WirelessTetheringCompatibilityTitle" = "Wireless Tethering";
+
+/* The title of the "Storage Access" section in the camera compatibility table. Should remain short. */
+"StorageAccessCompatibilityTitle" = "Storage Access";
+
+/* The title of the "RAW" section in the camera compatibility table. Should remain short. */
+"RAWCompatibilityTitle" = "RAW";
+
+/* Title of the "Features" section header when viewing a camera's supported features. */
+"CompatibilityDetailFeaturesSectionTitle" = "Features";
+
+/* Title of the "Usage Notes" section header when viewing a camera's supported features. IMPORTANT: These will always be in English, so perhaps "Usage Notes (English)" would be appropriate. */
+"CompatibilityUsageNotesSectionTitle" = "Usage Notes";
+
+/* Placeholder text when there's no usage notes to show. */
+"CompatibilityNoUsageNotesPlaceholder" = "No usage notes.";
+
+/* Shown when there are no search results. */
+"NoSearchResultsTitle" = "No Results";
+
+// ------------------------------------------------------------
 //     Calculations Mode: General
 // ------------------------------------------------------------
 
