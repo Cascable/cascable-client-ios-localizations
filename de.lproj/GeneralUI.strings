@@ -1063,11 +1063,14 @@
 /* Title of the 'Lock Viewfinder Orientation' option. */
 "LockViewfinderOrientationTitle" = "Suchfenster-Ausrichtung sperren";
 
-/* Title of the 'Rotate Viewfinder Image' option. */
+/* Title of the 'Rotate Viewfinder' option. */
 "RotateViewfinderTitle" = "Suchfenster drehen";
 
 /* Title of the 'Show Highlight Warning' option. */
 "ShowHighlightWarningTitle" = "Belichtungswarnung anzeigen";
+
+/* Title of the 'Flip Viewfinder (Selfie Mode)' option. */
+"FlipViewfinderImageTitle" = "Suchfenster spiegeln (Selfie-Modus)";
 
 /* Title of the 'Histogram' section of the overlays popup. */
 "HistogramSectionTitle" = "Histogramm";

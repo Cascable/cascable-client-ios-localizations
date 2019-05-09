@@ -1345,11 +1345,14 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Title of the 'Lock Viewfinder Orientation' option. */
 "LockViewfinderOrientationTitle" = "Lock Viewfinder Orientation";
 
-/* Title of the 'Rotate Viewfinder Image' option. */
-"RotateViewfinderTitle" = "Rotate Viewfinder Image";
+/* Title of the 'Rotate Viewfinder' option. */
+"RotateViewfinderTitle" = "Rotate Viewfinder";
 
 /* Title of the 'Show Highlight Warning' option. */
 "ShowHighlightWarningTitle" = "Show Highlight Warning";
+
+/* Title of the 'Flip Viewfinder (Selfie Mode)' option. */
+"FlipViewfinderImageTitle" = "Flip Viewfinder (Selfie Mode)";
 
 /* Title of the 'Histogram' section of the overlays popup. */
 "HistogramSectionTitle" = "Histogram";
