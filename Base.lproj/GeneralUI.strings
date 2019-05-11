@@ -602,6 +602,9 @@
 /* Batch delete summary. Ex: 'This will PERMANENTLY delete 14 photos from "On this iPad"' */
 "KondoBatchDeleteSummaryDescription_Plural" = "This will PERMANENTLY delete %@ photos from \"%@\".";
 
+/* Extra warning appended to the batch delete summary if the camera will always delete both files in a RAW+JPEG pair. */
+"LinkedImagesWillBeDeletedDescription_Suffix" = "WARNING: This camera will delete both files from a RAW+JPEG pair even if you only choose one of the files.";
+
 /* Batch delete confirm button title. */
 "BatchDeleteConfirmTitle" = "Delete Photo";
 
