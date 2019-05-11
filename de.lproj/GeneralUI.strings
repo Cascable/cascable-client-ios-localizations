@@ -903,6 +903,9 @@
 /* Title of the "Restore Purchases…" button. Should follow Apple guidelines for this process. */
 "RestorePurchasesButtonTitle" = "Einkäufe wiederherstellen …";
 
+/* Short title of the "Restore Purchases…" button. Should follow Apple guidelines for this process. */
+"RestorePurchasesShortButtonTitle" = "Wiederherstellen …";
+
 /* Title of the "Manage Subscriptions…" button. */
 "ManageSubscriptionsRowTitle" = "Abos verwalten …";
 

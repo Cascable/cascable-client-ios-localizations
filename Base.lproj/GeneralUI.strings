@@ -1186,6 +1186,9 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Title of the "Restore Purchases…" button. Should follow Apple guidelines for this process. */
 "RestorePurchasesButtonTitle" = "Restore Purchases…";
 
+/* Short title of the "Restore Purchases…" button. Should follow Apple guidelines for this process. */
+"RestorePurchasesShortButtonTitle" = "Restore…";
+
 /* Title of the "Manage Subscriptions…" button. */
 "ManageSubscriptionsRowTitle" = "Manage Subscriptions…";
 
