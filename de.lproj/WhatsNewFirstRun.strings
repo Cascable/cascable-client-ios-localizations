@@ -1,45 +1,24 @@
 
-/* Class = "UIButton"; normalTitle = "Continue  →"; ObjectID = "1so-zZ-DiP"; */
-"1so-zZ-DiP.normalTitle" = "Continue  →";
-
-/* Class = "UILabel"; text = "For cameras that support wireless tethering in Cascable, the experience is much faster and smoother. New images appear instantly, and Photo Review now works throughout the app.\n\nSupport for external screens has also improved — connecting your iPhone or iPad to a display via cable or AirPlay instantly converts it into a wireless monitor for your images as you shoot!"; ObjectID = "7du-wq-q4d"; */
-"7du-wq-q4d.text" = "For cameras that support wireless tethering in Cascable, the experience is much faster and smoother. New images appear instantly, and Photo Review now works throughout the app.\n\nSupport for external screens has also improved — connecting your iPhone or iPad to a display via cable or AirPlay instantly converts it into a wireless monitor for your images as you shoot!";
-
-/* Class = "UILabel"; text = "Cascable 4.0 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.\n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!"; ObjectID = "9Bs-PF-Jvn"; */
-"9Bs-PF-Jvn.text" = "Cascable 4.0 hat überall in der App viele kleinere Funktionen hinzubekommen. Eine vollständige und detaillierte Liste finden Sie auf der Cascable-Website.\n\nMöchten Sie die aktuellsten News und neuesten Fotos vom Cascable-Team erhalten? Folgen Sie uns auf Twitter und Instagram!\n\nViel Spaß!";
+/* Class = "UILabel"; text = "Cascable 3.9 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.\n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!"; ObjectID = "9Bs-PF-Jvn"; */
+"9Bs-PF-Jvn.text" = "Cascable 3.9 hat überall in der App viele kleinere Funktionen hinzubekommen. Eine vollständige und detaillierte Liste finden Sie auf der Cascable-Website.\n\nMöchten Sie die aktuellsten News und neuesten Fotos vom Cascable-Team erhalten? Folgen Sie uns auf Twitter und Instagram!\n\nViel Spaß!";
 
 /* Class = "UIButton"; normalTitle = "Skip Tour"; ObjectID = "9NP-z9-ZaH"; */
 "9NP-z9-ZaH.normalTitle" = "Einführung überspringen";
 
-/* Class = "UIButton"; normalTitle = "Continue  →"; ObjectID = "BeV-lp-aeh"; */
-"BeV-lp-aeh.normalTitle" = "Continue  →";
-
-/* Class = "UIButton"; normalTitle = "Continue  →"; ObjectID = "Ccz-El-vhK"; */
-"Ccz-El-vhK.normalTitle" = "Continue  →";
-
 /* Class = "UILabel"; text = "…and much more!"; ObjectID = "DkA-ou-F8n"; */
 "DkA-ou-F8n.text" = "… und vieles mehr!";
-
-/* Class = "UILabel"; text = "Cascable's new storage links allow you to automatically copy images from your camera to a chosen destination as they become available.\n\nFor cameras that support wireless tethering, this means hands-free, instant importing!"; ObjectID = "E2p-7s-WAT"; */
-"E2p-7s-WAT.text" = "Cascable's new storage links allow you to automatically copy images from your camera to a chosen destination as they become available.\n\nFor cameras that support wireless tethering, this means hands-free, instant importing!";
 
 /* Class = "UIViewController"; title = "Welcome"; ObjectID = "G3P-g9-PCa"; */
 "G3P-g9-PCa.title" = "Willkommen";
 
-/* Class = "UILabel"; text = "External Storage with SanDisk iXpand"; ObjectID = "HKB-lo-UFU"; */
-"HKB-lo-UFU.text" = "External Storage with SanDisk iXpand";
-
 /* Class = "UIButton"; normalTitle = "Continue  →"; ObjectID = "Wr9-Wd-JN8"; */
-"Wr9-Wd-JN8.normalTitle" = "Continue  →";
-
-/* Class = "UILabel"; text = "Greatly Improved Wireless Tethering"; ObjectID = "Xhd-OS-wmU"; */
-"Xhd-OS-wmU.text" = "Greatly Improved Wireless Tethering";
+"Wr9-Wd-JN8.normalTitle" = "Loslegen  →";
 
 /* Class = "UILabel"; text = "on Twitter"; ObjectID = "dgL-Vh-5m6"; */
 "dgL-Vh-5m6.text" = "auf Twitter";
 
-/* Class = "UILabel"; text = "Thank you for updating to Cascable 4.0!\n\nCascable 4.0 is one of the largest updates in Cascable's history, and completely revamps the photo management tools for a significantly improved workflow.\n\nAutomatic importing, external storage with SanDisk iXpand, better wireless tethering, support for image ratings, and much much more await!"; ObjectID = "e51-oR-xjz"; */
-"e51-oR-xjz.text" = "Thank you for updating to Cascable 4.0!\n\nCascable 4.0 is one of the largest updates in Cascable's history, and completely revamps the photo management tools for a significantly improved workflow.\n\nAutomatic importing, external storage with SanDisk iXpand, better wireless tethering, support for image ratings, and much much more await!";
+/* Class = "UILabel"; text = "Thank you for updating to Cascable 3.9!\n\nThis update welcomes the Nikon Z6 and Z7 to the Cascable family!\n\nCascable 3.9 also contains a number of improvements thoughout the app."; ObjectID = "e51-oR-xjz"; */
+"e51-oR-xjz.text" = "Danke, dass Sie auf Cascable 3.9 aktualisiert haben!\n\nDieses Update begrüßt die Nikon Z6 und Z7 in der Cascable-Familie!\n\nCascable 3.9 enthält auch einige Verbesserungen in der App.";
 
 /* Class = "UILabel"; text = "on Instagram"; ObjectID = "e8w-Sj-KC2"; */
 "e8w-Sj-KC2.text" = "bei Instagram";
@@ -47,35 +26,11 @@
 /* Class = "UIButton"; normalTitle = "Start Using Cascable"; ObjectID = "gTH-Fo-vxd"; */
 "gTH-Fo-vxd.normalTitle" = "Cascable nutzen";
 
-/* Class = "UILabel"; text = "Cascable now supports the SanDisk iXpand USB storage drive for added flexibility and storage options.\n\nUsing storage links, you can also link your iXpand to Cascable's storage for instant and automatic backups, or even directly to your camera!"; ObjectID = "h86-a9-Awt"; */
-"h86-a9-Awt.text" = "Cascable now supports the SanDisk iXpand USB storage drive for added flexibility and storage options.\n\nUsing storage links, you can also link your iXpand to Cascable's storage for instant and automatic backups, or even directly to your camera!";
-
-/* Class = "UILabel"; text = "View on-camera image ratings (where supported by the camera), and apply IPTC ratings to images once they're inside Cascable."; ObjectID = "kRI-Sh-dWo"; */
-"kRI-Sh-dWo.text" = "View on-camera image ratings (where supported by the camera), and apply IPTC ratings to images once they're inside Cascable.";
-
 /* Class = "UILabel"; text = "What's new in Cascable?"; ObjectID = "l3x-YS-zoX"; */
 "l3x-YS-zoX.text" = "Neu in Cascable?";
-
-/* Class = "UILabel"; text = "Cascable is now more flexible — customise your layout between an image-dense grid or a list that includes image metadata, and adjust thumbnail size, sort order, and more!\n\nOn iPad, choose between split or single screen for easy copying and management between multiple sources or more photos onscreen."; ObjectID = "mYR-Xe-VOn"; */
-"mYR-Xe-VOn.text" = "Cascable is now more flexible — customise your layout between an image-dense grid or a list that includes image metadata, and adjust thumbnail size, sort order, and more!\n\nOn iPad, choose between split or single screen for easy copying and management between multiple sources or more photos onscreen.";
-
-/* Class = "UIButton"; normalTitle = "Continue  →"; ObjectID = "mdZ-sm-EoX"; */
-"mdZ-sm-EoX.normalTitle" = "Continue  →";
 
 /* Class = "UIButton"; normalTitle = "@CascableApp"; ObjectID = "rcf-wD-q7K"; */
 "rcf-wD-q7K.normalTitle" = "@CascableApp";
 
-/* Class = "UILabel"; text = "Increased Workflow Flexibility"; ObjectID = "rlN-BN-L6F"; */
-"rlN-BN-L6F.text" = "Increased Workflow Flexibility";
-
-/* Class = "UIButton"; normalTitle = "Continue  →"; ObjectID = "tQP-eG-JIZ"; */
-"tQP-eG-JIZ.normalTitle" = "Continue  →";
-
 /* Class = "UIButton"; normalTitle = "@CascableApp"; ObjectID = "uTL-Tw-2wS"; */
 "uTL-Tw-2wS.normalTitle" = "@CascableApp";
-
-/* Class = "UILabel"; text = "Automatic Importing with Storage Links"; ObjectID = "v7V-Vu-nvd"; */
-"v7V-Vu-nvd.text" = "Automatic Importing with Storage Links";
-
-/* Class = "UILabel"; text = "View and Apply Image Ratings"; ObjectID = "yyj-db-0Wu"; */
-"yyj-db-0Wu.text" = "View and Apply Image Ratings";
