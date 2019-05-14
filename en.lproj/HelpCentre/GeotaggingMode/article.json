@@ -1,7 +1,0 @@
-{
-    "title" : "Geotagging",
-    "id": "se.cascable.client.help.geotagging",
-    "icon": "GeotaggingHelpArticleIcon",
-    "category": "se.cascable.client.help.category.using",
-    "sort-hint" : 5
-}

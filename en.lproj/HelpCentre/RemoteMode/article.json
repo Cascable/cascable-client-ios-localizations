@@ -1,7 +1,0 @@
-{
-    "title" : "Remote Control",
-    "id": "se.cascable.client.help.remote-mode",
-    "icon": "RemoteControlHelpArticleIcon",
-    "category": "se.cascable.client.help.category.using",
-    "sort-hint" : 1
-}

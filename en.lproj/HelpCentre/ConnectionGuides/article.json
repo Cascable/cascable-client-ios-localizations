@@ -1,8 +1,0 @@
-{
-    "title" : "Connection Guides",
-    "id": "se.cascable.client.help.connection-guides",
-    "icon": "ConnectionHelpArticleIcon",
-    "category": "se.cascable.client.help.category.getting-connected",
-    "sort-hint": 1,
-    "is-container-article": true
-}
