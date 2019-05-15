@@ -322,6 +322,11 @@
 /* Error text for when an image can't be copied due to its source or destination disappearing. */
 "CopyQueueSourceDisappearedFailureDescription" = "Either the source or destination is no longer available.";
 
+/* Body of the notification shown when copies fail due to a source or a  destination disappearing.
+ Example: "12 images were removed from the copy queue because iXpand Drive is no longer available. */
+"CopyQueueSourceDisappearedNotificationBody" = "%@ image was removed from the copy queue because %@ is no longer available.";
+"CopyQueueSourceDisappearedNotificationBody_Plural" = "%@ images were removed from the copy queue because %@ is no longer available.";
+
 /* Title for the "to <destination>" (i.e., "to iXpand Drive") label. */
 "CopyOperationDestinationDescriptionFormatter" = "to %@";
 
