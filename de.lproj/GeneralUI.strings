@@ -324,8 +324,8 @@
 
 /* Body of the notification shown when copies fail due to a source or a  destination disappearing.
  Example: "12 images were removed from the copy queue because iXpand Drive is no longer available. */
-"CopyQueueSourceDisappearedNotificationBody" = "%@ image was removed from the copy queue because %@ is no longer available.";
-"CopyQueueSourceDisappearedNotificationBody_Plural" = "%@ images were removed from the copy queue because %@ is no longer available.";
+"CopyQueueSourceDisappearedNotificationBody" = "%@ Bild wurde aus der Kopierwarteschlange entfernt, da %@ nicht mehr verfügbar ist.";
+"CopyQueueSourceDisappearedNotificationBody_Plural" = "%@ Bilder wurden aus der Kopierwarteschlange entfernt, da %@ nicht mehr verfügbar ist.";
 
 /* Title for the "to <destination>" (i.e., "to iXpand Drive") label. */
 "CopyOperationDestinationDescriptionFormatter" = "nach %@";
