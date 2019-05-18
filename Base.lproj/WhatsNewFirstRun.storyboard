@@ -47,7 +47,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e51-oR-xjz">
-                                <rect key="frame" x="30" y="246.5" width="260" height="171"/>
+                                <rect key="frame" x="30" y="246.5" width="260" height="155.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="440" id="aYW-Lz-eal">
                                         <variation key="widthClass=compact" constant="260"/>
@@ -57,7 +57,7 @@
 
 Cascable 4.0 is one of the largest updates in Cascable's history, and completely revamps the photo management tools for a significantly improved workflow.
 
-Automatic importing, external storage with SanDisk iXpand, better wireless tethering, support for image ratings, and much much more await!</string>
+Automatic importing, better wireless tethering, support for image ratings, and much much more await!</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -482,7 +482,7 @@ Support for external screens has also improved — connecting your iPhone or iPa
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                         </variation>
                                         <connections>
-                                            <segue destination="kLP-di-aHC" kind="show" id="7FN-GW-USu"/>
+                                            <segue destination="ST2-0w-0JQ" kind="show" id="pef-2L-Lo1"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -550,7 +550,7 @@ For cameras that support wireless tethering, this means hands-free, instant impo
         <!--First Run View Controller-->
         <scene sceneID="0m6-1H-kpB">
             <objects>
-                <viewController id="kLP-di-aHC" customClass="CBLFirstRunViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ixpand" id="kLP-di-aHC" customClass="CBLFirstRunViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="f0M-D7-T7K"/>
                         <viewControllerLayoutGuide type="bottom" id="v0A-4K-9qu"/>
@@ -867,4 +867,7 @@ On iPad, choose between split or single screen for easy copying and management b
         <image name="InstagramLogo" width="44" height="44"/>
         <image name="TwitterLogo" width="44" height="44"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="gZn-m0-jpb"/>
+    </inferredMetricsTieBreakers>
 </document>
