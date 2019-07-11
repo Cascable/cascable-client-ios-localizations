@@ -1216,6 +1216,16 @@
 /* Purchase button main title for a one week trial. */
 "PurchaseButtonOneWeekTrialHeadline" = "Eine Woche KOSTENLOSE Demo!";
 
+/* Purchase button titles when the trial duration is being pulled from the server. In English, the pluralised versions are the same. */
+"PurchaseButtonDayTrialFormatter" = "%@ Tag KOSTENLOSE Demo!";
+"PurchaseButtonDayTrialFormatter_Plural" = "%@ Tage KOSTENLOSE Demo!";
+"PurchaseButtonWeekTrialFormatter" = "%@ Woche KOSTENLOSE Demo!";
+"PurchaseButtonWeekTrialFormatter_Plural" = "%@ Wochen KOSTENLOSE Demo!";
+"PurchaseButtonMonthTrialFormatter" = "%@ Monat KOSTENLOSE Demo!";
+"PurchaseButtonMonthTrialFormatter_Plural" = "%@ Monate KOSTENLOSE Demo!";
+"PurchaseButtonYearTrialFormatter" = "%@ Jahr KOSTENLOSE Demo!";
+"PurchaseButtonYearTrialFormatter_Plural" = "%@ Jahre KOSTENLOSE Demo!";
+
 /* Purchase button main title for a monthly subscription. */
 "PurchaseButtonMonthlySubscriptionNoTrialHeadline" = "Monatliches Abonnement";
 

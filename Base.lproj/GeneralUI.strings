@@ -1224,6 +1224,16 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Purchase button main title for a one week trial. */
 "PurchaseButtonOneWeekTrialHeadline" = "One week FREE trial!";
 
+/* Purchase button titles when the trial duration is being pulled from the server. In English, the pluralised versions are the same. */
+"PurchaseButtonDayTrialFormatter" = "%@ day FREE trial!";
+"PurchaseButtonDayTrialFormatter_Plural" = "%@ day FREE trial!";
+"PurchaseButtonWeekTrialFormatter" = "%@ week FREE trial!";
+"PurchaseButtonWeekTrialFormatter_Plural" = "%@ week FREE trial!";
+"PurchaseButtonMonthTrialFormatter" = "%@ month FREE trial!";
+"PurchaseButtonMonthTrialFormatter_Plural" = "%@ month FREE trial!";
+"PurchaseButtonYearTrialFormatter" = "%@ year FREE trial!";
+"PurchaseButtonYearTrialFormatter_Plural" = "%@ year FREE trial!";
+
 /* Purchase button main title for a monthly subscription. */
 "PurchaseButtonMonthlySubscriptionNoTrialHeadline" = "Monthly Subscription";
 
