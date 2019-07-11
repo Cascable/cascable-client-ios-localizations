@@ -20,5 +20,8 @@
 /* Class = "UILabel"; text = "The Cascable store is taking a long time to load. You may need to disconnect from your camera's WiFi network."; ObjectID = "eWf-Rq-vh9"; */
 "eWf-Rq-vh9.text" = "Der Cascable Store benötigt lange zum Laden. Eventuell müssen Sie die WLAN-Verbindung zu Ihrer Kamera trennen.";
 
+/* Class = "UILabel"; text = "Your subscription has expired."; ObjectID = "ujW-cu-PgL"; */
+"ujW-cu-PgL.text" = "Ihr Abonnement ist abgelaufen.";
+
 /* Class = "UILabel"; text = "Upgrade to Cascable Pro!"; ObjectID = "ydd-AC-yDZ"; */
 "ydd-AC-yDZ.text" = "Upgrade auf Cascable Pro!";
