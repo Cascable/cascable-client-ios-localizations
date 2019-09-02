@@ -922,6 +922,9 @@
 
 /* Title for the 'Night Mode' setting. */
 "NightModeSettingTitle" = "Nachtmodus";
+"NightModeAutoSetting" = "Auto";
+"NightModeDarkSetting" = "Dunkel";
+"NightModeLightSetting" = "Licht";
 
 /* Title for the 'Prefer Framerate over Quality' setting. */
 "FastLVSettingTitle" = "Hohe Bildwiederholungsrate";

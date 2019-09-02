@@ -927,7 +927,10 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 "AlwaysShowAEModeSettingTitle" = "Always Show Shooting Mode";
 
 /* Title for the 'Night Mode' setting. */
-"NightModeSettingTitle" = "Night Mode";
+"NightModeSettingTitle" = "Dark Mode";
+"NightModeAutoSetting" = "Auto";
+"NightModeDarkSetting" = "Dark";
+"NightModeLightSetting" = "Light";
 
 /* Title for the 'Prefer Framerate over Quality' setting. */
 "FastLVSettingTitle" = "Prefer High Framerate";
