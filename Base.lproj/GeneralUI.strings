@@ -1794,7 +1794,7 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 "SomeCamerasAvailableTitle" = "%@ Available";
 
 /* Footer text of the connection popup. Ex: '…connected to the same network as your iPad'. */
-"ConnectionHelpDescription" = "Make sure your camera is switched on and connected to the same network as your %@.";
+"ConnectionHelpDescription" = "Make sure your camera is switched on and your %@ is connected to its network.";
 
 /* Extended footer text for when the device is connected to WiFi. Ex: 'Your iPad is connected to the WiFi network named "My Cool WiFi".'. */
 "ConnectionNetworkDescription" = "Your %@ is connected to the WiFi network named \"%@\".";
