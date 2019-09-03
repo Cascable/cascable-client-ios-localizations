@@ -932,6 +932,9 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 "NightModeDarkSetting" = "Dark";
 "NightModeLightSetting" = "Light";
 
+/* Footer that explains paid users can choose theme independently of the system one. */
+"NightModeUnavailableFooter" = "With Cascable Pro, you can choose your preferred theme independently of the device setting.";
+
 /* Title for the 'Prefer Framerate over Quality' setting. */
 "FastLVSettingTitle" = "Prefer High Framerate";
 
