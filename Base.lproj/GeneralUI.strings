@@ -1764,13 +1764,13 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 "AvailableCamerasTitle" = "Available Cameras";
 
 /* Title of the alert informing the user of a connection failure. */
-"ConnectionFailureTitle" = "Connection Failure";
+"ConnectionFailureTitle" = "New Camera Pairing Needed";
 
 /* Description of the alert informing the user of a connection failure. */
-"ConnectionFailureMessage" = "The connection to your camera failed. Please switch your camera off and on again then try connecting again. If the problem persists, please repeat the pairing procedure on your camera to set up a new session for Cascable.";
+"ConnectionFailureMessage" = "Your camera didn't allow Cascable to connect. This is usually because it's paired with another app or device — create a new pairing on your camera for Cascable on this device and try again.";
 
 /* Description of the alert informing the user of a connection failure to a Fuji camera. */
-"FujiConnectionFailureMessage" = "The connection to your camera was rejected. If your camera has been used with a different app or iOS device, restart the camera, enable WiFi, then press the \"OK - CHANGE\" button to set up a new pairing and try again. If the problem persists, please contact us for support.";
+"FujiConnectionFailureMessage" = "Your camera didn't allow Cascable to connect. This is usually because it's paired with another app or device — restart the camera, enable WiFi, then press the \"OK - CHANGE\" button to set up a new pairing and try again. If the problem persists, please contact us for support.";
 
 /* Title of the alert informing the user that the camera pairing was cancelled on-camera. */
 "PairingCancelledTitle" = "Pairing Cancelled";
