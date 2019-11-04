@@ -182,11 +182,14 @@
 /* Title for the storage list section for on-camera storage. */
 "OnCameraStorageSectionTitle" = "Camera Storage";
 
-/* Title for the storage list section for storage inside the iOS device. */
-"InternalDeviceStorageSectionTitle" = "Internal Storage";
+/* Title for the storage list section for storage inside the app itself. */
+"InternalDeviceStorageSectionTitle" = "In-App Storage";
 
-/* Title for the storage list section for storage outside the iOS device - USB drives, etc. */
-"ExternalDeviceStorageSectionTitle" = "External Storage";
+/* Title for the storage list section for storage outside app - USB drives, etc. */
+"ExternalDeviceStorageSectionTitle" = "Other Storage";
+
+/* Title for the button to remove a storage entry when removal does NOT delete any files. */
+"RemoveOtherStorageButtonTitle" = "Remove";
 
 /* Title for the copying section of the storage list. */
 "QueueStorageSectionTitle" = "Copying";
