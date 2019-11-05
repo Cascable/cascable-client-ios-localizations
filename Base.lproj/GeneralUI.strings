@@ -191,6 +191,12 @@
 /* Title for the button to remove a storage entry when removal does NOT delete any files. */
 "RemoveOtherStorageButtonTitle" = "Remove";
 
+/* Subtitle of a folder storage provider that's only local on the device. i.e. "On this iPad". */
+"OnDeviceExternalStorageSubtitleFormatter" = "On this %@";
+
+/* Subtitle of a folder storage provider that's on an external storage device. i.e. "On Daniel's SSD". */
+"DriveExternalStorageSubtitleFormatter" = "On %@";
+
 /* Title for the copying section of the storage list. */
 "QueueStorageSectionTitle" = "Copying";
 
