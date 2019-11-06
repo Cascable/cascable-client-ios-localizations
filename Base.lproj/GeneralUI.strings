@@ -191,6 +191,12 @@
 /* Title for the button to add a storage folder. */
 "AddOtherStorageButtonTitle" = "Add Folder…";
 
+/* Error messages for not being able to use a folder. */
+"AddFolderFailedTitle" = "Cannot Add Folder";
+"AddFolderFailedAlreadyExists" = "Cascable is already using the chosen folder. Tap the folder in the source list to see its contents.";
+"AddFolderFailedPermissionDenied" = "Cascable was denied access to the chosen folder. Please make sure Cascable has permission in Settings → Privacy → Files and Folders, then try again.";
+"AddFolderFailedNotSupported" = "Using folders directly within Cascable is not supported by the current iOS version. Please update to at least iOS 13 and try again.";
+
 /* Title for the button to remove a storage entry when removal does NOT delete any files. */
 "RemoveOtherStorageButtonTitle" = "Remove";
 
