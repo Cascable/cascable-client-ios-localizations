@@ -185,6 +185,9 @@
 /* Title for the storage list section for storage inside the app itself. */
 "InternalDeviceStorageSectionTitle" = "Cascable Speicher";
 
+/* Title for the button to add a storage folder. */
+"AddOtherStorageButtonTitle" = "Ordner hinzufügen…";
+
 /* Title for the storage list section for storage outside app - USB drives, etc. */
 "ExternalDeviceStorageSectionTitle" = "Andere Speicher";
 

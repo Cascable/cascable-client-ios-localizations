@@ -188,6 +188,9 @@
 /* Title for the storage list section for storage outside app - USB drives, etc. */
 "ExternalDeviceStorageSectionTitle" = "Other Storage";
 
+/* Title for the button to add a storage folder. */
+"AddOtherStorageButtonTitle" = "Add Folder…";
+
 /* Title for the button to remove a storage entry when removal does NOT delete any files. */
 "RemoveOtherStorageButtonTitle" = "Remove";
 
