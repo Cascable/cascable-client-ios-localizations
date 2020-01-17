@@ -458,6 +458,12 @@
 /* The footer text of the image list containing the item count. Ex: '2 items'. */
 "FooterItemsOnlyFormatter_Plural" = "%@ Objekte";
 
+/* The footer text of the image list containing the item count. Ex: '1 of 1 item'. */
+"FooterItemSubsetFormatter" = "%@ von %@ Objekt";
+
+/* The footer text of the image list containing the item count. Ex: '1 of 2 items'. */
+"FooterItemSubsetFormatter_Plural" = "%@ von %@ Objekte";
+
 /* The footer text of the image list containing the free space in shots. Ex: '1 shot available'. */
 "FooterShotsAvailableOnlyFormatter" = "%@ Aufnahme verfügbar";
 
