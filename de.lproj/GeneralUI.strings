@@ -301,6 +301,10 @@
 /* Title of the button to create a storage link. */
 "SourceLinkCreateButtonTitle" = "Verbindung herstellen";
 
+/* Title of the storage link filtering picker for "All" image types. */
+"SourceLinkAllTypesTitle" = "Alle";
+
+
 // ------------------------------------------------------------
 //     Files Mode: Sorting
 // ------------------------------------------------------------
@@ -732,7 +736,7 @@
 "FilterThisYearTitle" = "Dieses Jahr";
 
 /* Titles for new filetype filters. */
-"FilterAnyFileTypeTitle" = "Beliebiger Dateityp";
+"FilterAnyFileTypeTitle" = "Alle Dateitypen";
 "FilterCustomFileTypeTitle" = "Maßgeschneidert (%@)";
 
 /* 'Is Anywhere' device location filter title. */

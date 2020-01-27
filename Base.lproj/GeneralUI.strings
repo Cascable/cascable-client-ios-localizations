@@ -307,6 +307,9 @@
 /* Title of the button to create a storage link. */
 "SourceLinkCreateButtonTitle" = "Create Link";
 
+/* Title of the storage link filtering picker for "All" image types. */
+"SourceLinkAllTypesTitle" = "All";
+
 // ------------------------------------------------------------
 //     Files Mode: Sorting
 // ------------------------------------------------------------
