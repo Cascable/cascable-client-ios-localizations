@@ -735,6 +735,18 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 /* 'Taken This Week' creation date filter title. */
 "FilterSelectThisWeekTimespanTitle" = "Taken This Week";
 
+/* Titles for new date filters. */
+"FilterAnyDateTitle" = "Any date";
+"FilterTodayTitle" = "Today";
+"FilterPastSevenDaysTitle" = "Past 7 days";
+"FilterPastFourWeeksTitle" = "Past 4 weeks";
+"FilterThisMonthTitle" = "This month";
+"FilterThisYearTitle" = "This year";
+
+/* Titles for new filetype filters. */
+"FilterAnyFileTypeTitle" = "Any file type";
+"FilterCustomFileTypeTitle" = "Custom (%@)";
+
 /* 'Is Anywhere' device location filter title. */
 "FilterSelectAnyDeviceLocationTitle" = "Is Anywhere";
 

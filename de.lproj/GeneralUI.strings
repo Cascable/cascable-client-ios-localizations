@@ -723,6 +723,18 @@
 /* 'Taken This Week' creation date filter title. */
 "FilterSelectThisWeekTimespanTitle" = "Diese Woche erstellt";
 
+/* Titles for new date filters. */
+"FilterAnyDateTitle" = "Jedes Datum";
+"FilterTodayTitle" = "Heute";
+"FilterPastSevenDaysTitle" = "Letzte 7 Tage";
+"FilterPastFourWeeksTitle" = "Letzte 4 Wochen";
+"FilterThisMonthTitle" = "Diesen Monat";
+"FilterThisYearTitle" = "Dieses Jahr";
+
+/* Titles for new filetype filters. */
+"FilterAnyFileTypeTitle" = "Beliebiger Dateityp";
+"FilterCustomFileTypeTitle" = "Maßgeschneidert (%@)";
+
 /* 'Is Anywhere' device location filter title. */
 "FilterSelectAnyDeviceLocationTitle" = "Irgendwo";
 
