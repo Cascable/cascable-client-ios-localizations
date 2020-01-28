@@ -697,7 +697,7 @@
 "SaveToCameraRollFailedDescription" = "Cascable konnte die markierten Fotos nicht in Ihren Aufnahmen sichern.\n\nDamit Sie Fotos in Ihre Aufnahmen sichern können, muss Cascable in der Einstellungen-App Zugriff auf Ihre Fotos-App erhalten.";
 
 // ------------------------------------------------------------
-//     Files Mode: Filtering
+//     Files Mode: Filtering and UI Config
 // ------------------------------------------------------------
 
 /* 'Select All' button title. */
@@ -738,6 +738,10 @@
 /* Titles for new filetype filters. */
 "FilterAnyFileTypeTitle" = "Alle Dateitypen";
 "FilterCustomFileTypeTitle" = "Maßgeschneidert (%@)";
+
+/* Titles for thumbnail layouts */
+"LayoutGridTitle" = "Raster";
+"LayoutListTitle" = "Liste";
 
 /* 'Is Anywhere' device location filter title. */
 "FilterSelectAnyDeviceLocationTitle" = "Irgendwo";

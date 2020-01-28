@@ -708,7 +708,7 @@ Are you sure you want to proceed?";
 To save photos to your camera roll, you must allow Cascable access to Photos in the Settings app.";
 
 // ------------------------------------------------------------
-//     Files Mode: Filtering
+//     Files Mode: Filtering and UI Config
 // ------------------------------------------------------------
 
 /* 'Select All' button title. */
@@ -749,6 +749,10 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 /* Titles for new filetype filters. */
 "FilterAnyFileTypeTitle" = "Any file type";
 "FilterCustomFileTypeTitle" = "Custom (%@)";
+
+/* Titles for thumbnail layouts */
+"LayoutGridTitle" = "Grid";
+"LayoutListTitle" = "List";
 
 /* 'Is Anywhere' device location filter title. */
 "FilterSelectAnyDeviceLocationTitle" = "Is Anywhere";
