@@ -1314,6 +1314,9 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Title for the button that deselects all items. */
 "DeselectAllTitle" = "Deselect All";
 
+/* Title for the button that selects all items when space is at a premium. */
+"SelectAllShortTitle" = "All";
+
 /* Title for the button that selects a single item. */
 "SelectTitle" = "Select";
 

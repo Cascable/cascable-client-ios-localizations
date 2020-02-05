@@ -1301,6 +1301,9 @@
 /* Title for the button that deselects all items. */
 "DeselectAllTitle" = "Keine";
 
+/* Title for the button that selects all items when space is at a premium. */
+"SelectAllShortTitle" = "Alle";
+
 /* Title for the button that selects a single item. */
 "SelectTitle" = "Auswählen";
 
