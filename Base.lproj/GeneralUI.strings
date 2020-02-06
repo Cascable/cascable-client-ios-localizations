@@ -310,6 +310,20 @@
 /* Title of the storage link filtering picker for "All" image types. */
 "SourceLinkAllTypesTitle" = "All";
 
+/* Title of the alert presented when a storage link finds images to copy between sessions. */
+"SourceLinkSessionGapAlertTitle" = "New Photos To Copy";
+
+/* Message action of the alert presented when a storage link finds images to copy between sessions. */
+"SourceLinkSessionGapAlertMessage" = "There is %@ new photo on \"%@\" that matches the Storage Link to \"%@\". Would you like to copy this photo now?";
+"SourceLinkSessionGapAlertMessage_Plural" = "There are %@ new photos on \"%@\" that matches the Storage Link to \"%@\". Would you like to copy these photos now?";
+
+/* "Cancel" action of the alert presented when a storage link finds images to copy between sessions. */
+"SourceLinkSessionGapAlertCancelButtonTitle" = "Don't Copy";
+
+/* "Confirm" action of the alert presented when a storage link finds images to copy between sessions. */
+"SourceLinkSessionGapAlertConfirmButtonTitle" = "Copy %@ Photo";
+"SourceLinkSessionGapAlertConfirmButtonTitle_Plural" = "Copy %@ Photos";
+
 // ------------------------------------------------------------
 //     Files Mode: Sorting
 // ------------------------------------------------------------
