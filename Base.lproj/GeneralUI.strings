@@ -315,7 +315,7 @@
 
 /* Message action of the alert presented when a storage link finds images to copy between sessions. */
 "SourceLinkSessionGapAlertMessage" = "There is %@ new photo on \"%@\" that matches the Storage Link to \"%@\". Would you like to copy this photo now?";
-"SourceLinkSessionGapAlertMessage_Plural" = "There are %@ new photos on \"%@\" that matches the Storage Link to \"%@\". Would you like to copy these photos now?";
+"SourceLinkSessionGapAlertMessage_Plural" = "There are %@ new photos on \"%@\" that match the Storage Link to \"%@\". Would you like to copy these photos now?";
 
 /* "Cancel" action of the alert presented when a storage link finds images to copy between sessions. */
 "SourceLinkSessionGapAlertCancelButtonTitle" = "Don't Copy";
