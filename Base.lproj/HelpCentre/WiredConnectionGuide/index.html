@@ -1,0 +1,51 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0" />
+<meta charset="UTF-8">
+<title>Working with Wired Cameras</title>
+<script src="../common/common.js"></script>
+<link rel="stylesheet" type="text/css" href="../common/styles.css">
+<link rel="stylesheet" type="text/css" href="../common/light.css">
+</head>
+<body>
+
+<p>If you are running iOS 13.2 or higher, Cascable supports importing images from any PTP/MTP standards-compliant camera connected to your iPhone, iPad, or iPod touch via USB.</p>
+
+<p>Once your camera is configured correctly and connected, Cascable should detect and connect to it within a few seconds.</p>
+
+<div class="figure-box"><strong>Note:</strong> Due to the large number of USB cameras out there, we don't have a definitive compatibility list. However, if your camera is standards-compliant, it should work well. RAW support will depend on iOS' compatibility with your camera's RAW images — see <a href="https://services.cascable.se/go?location=apple-latest-raw-compatibility">Apple's RAW support</a> article for details.</div>
+
+<h3>Making Sure Your Camera Is Set Up Correctly</h3>
+
+<p>When connecting your camera to your iOS device, it must be in <strong>PTP</strong>, <strong>MTP</strong>, or <strong>Tethering</strong> mode for Cascable to be able to detect it as a wired camera.</p>
+
+<div class="figure-box"><strong>Note:</strong> Cascable can only import images from USB-connected cameras, and can't remote control them. This is a limitation in iOS that we hope will be eased in future iOS versions.</div>
+
+<p>Some cameras will ask you what USB mode to use when connecting them, and some need you to manually change their USB mode setting in their menus. If your camera doesn't have this setting (most Canon and Nikon models don't), they'll usually only support PTP/MTP mode, which is the correct mode for Cascable.</p>
+
+<p>We have included screenshots of the setting from various cameras below. Consult your camera's manual for detailed instructions.</p>
+
+<p class="center"> <img class="retina" width="900" src="fuji-usb-modes.png" alt="Fuji USB Modes" style="max-width: 90%; margin-bottom: 10px; border-radius: 20px;"><br/><em>Fujifilm</em></p>
+
+<p class="center"> <img class="retina" width="900" src="olympus-usb-modes.png" alt="Olympus USB Modes" style="max-width: 90%; margin-bottom: 10px; border-radius: 20px;"><br/><em>Olympus</em></p>
+
+<p class="center"> <img class="retina" width="900" src="panasonic-usb-modes.png" alt="Pansonic USB Modes" style="max-width: 90%; margin-bottom: 10px; border-radius: 20px;"><br/><em>Pansonic</em></p>
+
+<p class="center"> <img class="retina" width="900" src="sony-usb-modes.png" alt="Sony USB Modes" style="max-width: 90%; margin-bottom: 10px; border-radius: 20px;"><br/><em>Sony</em></p>
+
+<h3>Physically Connecting Your Camera</h3>
+
+<p>How you physically connect your camera to your iOS device will depend on the both the connector your camera has, and the connector your iOS device has. Some common examples can be found below.</p>
+
+<h4>iPad Pro with USB-C</h4>
+
+<p>If you have an iPad with USB-C, you can connect your camera either directly with a USB-C cable if the camera also has USB-C, or via a USB-C to USB-A (female) adapter and the cable that came with your camera if it doesn't. Apple sells a USB-C to USB-A (female) adapter, but any high-quality, standards-compliant adapter should work.</p>
+
+<h4>iPhone, iPad and iPod touch with Lightning</h4>
+
+<p>If your iOS device has a Lightning connector, you must use a Lightning to USB-A (female) adapter, then the cable that came with your camera. The <a href="https://services.cascable.se/go?location=apple-camera-connection-kit">Apple Camera Connection Kit</a> contains such an adapter, and there are third-party alternatives.</p>
+
+<p>If your camera came with a USB-C to USB-C cable, you can purchase a USB-A to USB-C cable from many reputable electronics retailers.</p>
+
+</body>
+</html>

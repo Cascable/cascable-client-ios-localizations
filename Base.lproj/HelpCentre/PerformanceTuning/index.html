@@ -2,7 +2,7 @@
 <head>
 <meta name="viewport" content="initial-scale=1.0" />
 <meta charset="UTF-8">
-<title>Performance Tuning</title>
+<title>WiFi Performance Tuning</title>
 <script src="../common/common.js"></script>
 <link rel="stylesheet" type="text/css" href="../common/styles.css">
 <link rel="stylesheet" type="text/css" href="../common/light.css">
@@ -13,6 +13,12 @@
 <div class="figure-box"><strong>Note:</strong> Some cameras have a relatively low viewfinder framerate even in perfect conditions, particularly those with high resolution viewfinder images<!--. You can see the expected performance of your camera&rsquo;s viewfinder in Cascable by looking at its <a href="">Cascable data sheet</a>-->.</div>
 
 <p>If you&rsquo;re <!--still -->encountering problems, this page contains some useful information to help performance troubleshooting.</p>
+
+<h3>Bluetooth Can Greatly Impact Performance</h3>
+
+<p>When communicating wirelessly, Cascable exlusively uses WiFi. Due to the close proximity of the Bluetooth and WiFi antennas in both iOS devices and in cameras, Bluetooth can cause a large amount of interference with your camera's WiFi network in some situations.</p>
+
+<p>To ensure this isn't happening, turn off Bluetooth on both your camera and iOS device for the best performance. On the iOS device, do this in the Settings app — disabling Bluetooth in Control Center only disconnects devices; it doesn't actually turn off Bluetooth itself.</p>
 
 <h3>For Best Performance, Use An Existing Network</h3>
 
