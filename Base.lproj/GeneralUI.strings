@@ -189,13 +189,13 @@
 "ExternalDeviceStorageSectionTitle" = "Other Storage";
 
 /* Title for the button to add a storage folder. */
-"AddOtherStorageButtonTitle" = "Add Folder…";
+"AddOtherStorageButtonTitle" = "Add Storage Location…";
 
 /* Error messages for not being able to use a folder. */
-"AddFolderFailedTitle" = "Cannot Add Folder";
-"AddFolderFailedAlreadyExists" = "Cascable is already using the chosen folder. Tap the folder in the source list to see its contents.";
-"AddFolderFailedPermissionDenied" = "Cascable was denied access to the chosen folder. Please make sure Cascable has permission in Settings → Privacy → Files and Folders, then try again.";
-"AddFolderFailedNotSupported" = "Using folders directly within Cascable is not supported by the current iOS version. Please update to at least iOS 13 and try again.";
+"AddFolderFailedTitle" = "Cannot Add Storage Location";
+"AddFolderFailedAlreadyExists" = "Cascable is already using the chosen location. Tap the location in the source list to see its contents.";
+"AddFolderFailedPermissionDenied" = "Cascable was denied access to the chosen location. Please make sure Cascable has permission in Settings → Privacy → Files and Folders, then try again.";
+"AddFolderFailedNotSupported" = "Using external locations directly within Cascable is not supported by the current iOS version. Please update to at least iOS 13 and try again.";
 
 /* Title for the button to remove a storage entry when removal does NOT delete any files. */
 "RemoveOtherStorageButtonTitle" = "Remove";
@@ -264,7 +264,7 @@
 "CameraNoFileSystemAccessTitle" = "No Access";
 
 /* Message shown when a camera doesn't allow access to its storage. */
-"CameraNoFileSystemAccessDescription" = "This camera doesn't appear to allow access to its storage devices over Wi-Fi.";
+"CameraNoFileSystemAccessDescription" = "This camera doesn't appear to allow access to its storage cards, or it has no storage cards inserted.";
 
 // ------------------------------------------------------------
 //     Files Mode: Copy Destination Picker
@@ -1391,6 +1391,12 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 
 /* Description of the remote control warning that it's not supported by the camera. */
 "RemoteUnavailableNotSupportedDescription" = "Remote control is not available because your camera doesn't support remote control via WiFi.";
+
+/* Title of the remote control warning that it's not supported due to being connected by USB. */
+"RemoteUnavailableWiredNotSupportedTitle" = "Not Supported Via USB";
+
+/* Description of the remote control warning that it's not supported due to being connected by USB. */
+"RemoteUnavailableWiredNotSupportedDescription" = "Remote control is not available due to restrictions in how apps can communicate over USB in iOS.\nIf your camera is supported over WiFi, connect to it via WiFi to remote control it.";
 
 /* 'Start Live View' button title. */
 "StartLiveViewTitle" = "Start Live View";
