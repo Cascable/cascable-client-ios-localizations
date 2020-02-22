@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZN2-am-Zmm">
-    <device id="retina4_0" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZN2-am-Zmm">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -37,8 +35,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's new in Cascable?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3x-YS-zoX">
-                                <rect key="frame" x="20" y="195" width="280.5" height="31.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's New in Cascable?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3x-YS-zoX">
+                                <rect key="frame" x="17.5" y="175" width="285" height="32"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -47,17 +45,17 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e51-oR-xjz">
-                                <rect key="frame" x="30" y="246.5" width="260" height="171"/>
+                                <rect key="frame" x="30" y="227" width="260" height="186.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="440" id="aYW-Lz-eal">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Thank you for updating to Cascable 4.0!
+                                <string key="text">Thank you for updating to Cascable 4.2!
 
-Cascable 4.0 is one of the largest updates in Cascable's history, and completely revamps the photo management tools for a significantly improved workflow.
+Cascable 4.2 focuses on further improving your photo management workflow by adding support for wired cameras, external USB storage, photo filter and search, and much more.
 
-Automatic importing, external storage with SanDisk iXpand, better wireless tethering, support for image ratings, and much much more await!</string>
+Additionally, it adds support for a number of new camera models, and adds manual focus stepping on supported cameras — great for macro photography!</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -66,7 +64,7 @@ Automatic importing, external storage with SanDisk iXpand, better wireless tethe
                                 </variation>
                             </label>
                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AboutIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Y9H-Or-uKy">
-                                <rect key="frame" x="97.5" y="50" width="125" height="125"/>
+                                <rect key="frame" x="97.5" y="30" width="125" height="125"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="FAY-yF-wk6">
                                         <variation key="widthClass=compact" constant="125"/>
@@ -92,7 +90,7 @@ Automatic importing, external storage with SanDisk iXpand, better wireless tethe
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                         </variation>
                                         <connections>
-                                            <segue destination="ZYZ-of-OdU" kind="show" id="o3M-LI-oh2"/>
+                                            <segue destination="ST2-0w-0JQ" kind="show" id="zhk-jA-MBG"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NP-z9-ZaH">
@@ -162,7 +160,7 @@ Automatic importing, external storage with SanDisk iXpand, better wireless tethe
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="…and much more!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkA-ou-F8n">
-                                <rect key="frame" x="60.5" y="40" width="199" height="31.5"/>
+                                <rect key="frame" x="60.5" y="20" width="199" height="31.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -171,13 +169,13 @@ Automatic importing, external storage with SanDisk iXpand, better wireless tethe
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Bs-PF-Jvn">
-                                <rect key="frame" x="30" y="91.5" width="260" height="155.5"/>
+                                <rect key="frame" x="30" y="71.5" width="260" height="155.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="6M5-DT-2MP">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Cascable 4.0 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.
+                                <string key="text">Cascable 4.2 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.
 
 If you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?
 
@@ -211,10 +209,10 @@ Enjoy!</string>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xmc-kg-pTZ">
-                                <rect key="frame" x="37.5" y="267" width="245" height="215"/>
+                                <rect key="frame" x="37.5" y="247" width="245" height="235"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7th-Og-Tav">
-                                        <rect key="frame" x="0.0" y="66" width="245" height="83"/>
+                                        <rect key="frame" x="0.0" y="76" width="245" height="83"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcf-wD-q7K">
                                                 <rect key="frame" x="0.0" y="41" width="92" height="28"/>
@@ -328,6 +326,7 @@ Enjoy!</string>
                             <constraint firstAttribute="centerX" secondItem="gTH-Fo-vxd" secondAttribute="centerX" id="qY7-Rf-2My"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="4Dg-U2-9EI"/>
                     <connections>
                         <outletCollection property="tintableButtons" destination="D3d-KS-ogv" collectionClass="NSMutableArray" id="obJ-n5-hVu"/>
                         <outletCollection property="tintableButtons" destination="ceX-r7-ydY" collectionClass="NSMutableArray" id="Zl9-O8-xAD"/>
@@ -337,7 +336,7 @@ Enjoy!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eqh-Pz-nes" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2421" y="1121"/>
+            <point key="canvasLocation" x="1658" y="1121"/>
         </scene>
         <!--First Run View Controller-->
         <scene sceneID="1t0-KE-Roe">
@@ -351,8 +350,8 @@ Enjoy!</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Greatly Improved Wireless Tethering" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhd-OS-wmU">
-                                <rect key="frame" x="57" y="40" width="206.5" height="62.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image Import From Wired Cameras" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhd-OS-wmU">
+                                <rect key="frame" x="51.5" y="20" width="217" height="62.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -378,7 +377,7 @@ Enjoy!</string>
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                         </variation>
                                         <connections>
-                                            <segue destination="prN-1p-0nK" kind="show" id="CPh-r4-gWN"/>
+                                            <segue destination="kLP-di-aHC" kind="show" id="fgE-Sm-tE9"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -391,24 +390,24 @@ Enjoy!</string>
                                     <constraint firstAttribute="bottom" secondItem="Ccz-El-vhK" secondAttribute="bottom" id="gKQ-nB-ivH"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FourFirstRunExternalDisplay" translatesAutoresizingMaskIntoConstraints="NO" id="ZrK-vh-ugy">
-                                <rect key="frame" x="15" y="122.5" width="290" height="160"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FourFirstRunWiredCamera" translatesAutoresizingMaskIntoConstraints="NO" id="ZrK-vh-ugy">
+                                <rect key="frame" x="40" y="102.5" width="240" height="120"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="gO7-gM-yxp">
-                                        <variation key="widthClass=compact" constant="160"/>
-                                    </constraint>
+                                    <constraint firstAttribute="height" constant="120" id="gO7-gM-yxp"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7du-wq-q4d">
-                                <rect key="frame" x="30" y="302.5" width="260" height="171"/>
+                                <rect key="frame" x="30" y="242.5" width="260" height="155.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="440" id="3cg-F3-RLn">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">For cameras that support wireless tethering in Cascable, the experience is much faster and smoother. New images appear instantly, and Photo Review now works throughout the app.
+                                <string key="text">On iOS 13.2 and higher, Cascable can import images from cameras connected to your iOS device via USB.
 
-Support for external screens has also improved — connecting your iPhone or iPad to a display via cable or AirPlay instantly converts it into a wireless monitor for your images as you shoot!</string>
+As with other storage locations, wired cameras work with Cascable's suite of tools, including Storage Links.
+
+For details on working with wired cameras, see our updated guides.</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -438,10 +437,11 @@ Support for external screens has also improved — connecting your iPhone or iPa
                             <constraint firstItem="ZrK-vh-ugy" firstAttribute="centerX" secondItem="Jay-XJ-nSB" secondAttribute="centerX" id="wGU-EB-GOM"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="m1j-hj-jth"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bN4-78-0M6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2421" y="333"/>
+            <point key="canvasLocation" x="894" y="333"/>
         </scene>
         <!--First Run View Controller-->
         <scene sceneID="A4R-cP-hZI">
@@ -455,8 +455,8 @@ Support for external screens has also improved — connecting your iPhone or iPa
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Automatic Importing with Storage Links" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7V-Vu-nvd">
-                                <rect key="frame" x="43.5" y="40" width="233" height="62.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Improved Storage Links" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7V-Vu-nvd">
+                                <rect key="frame" x="84" y="20" width="152" height="62.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -482,7 +482,7 @@ Support for external screens has also improved — connecting your iPhone or iPa
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                         </variation>
                                         <connections>
-                                            <segue destination="kLP-di-aHC" kind="show" id="7FN-GW-USu"/>
+                                            <segue destination="v1c-IA-haz" kind="show" id="SXJ-tW-Qru"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -496,7 +496,7 @@ Support for external screens has also improved — connecting your iPhone or iPa
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FourFirstRunStorageLink" translatesAutoresizingMaskIntoConstraints="NO" id="3bM-3O-eQp">
-                                <rect key="frame" x="15" y="122.5" width="290" height="160"/>
+                                <rect key="frame" x="15" y="102.5" width="290" height="160"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="4K8-uA-Slg">
                                         <variation key="widthClass=compact" constant="160"/>
@@ -504,15 +504,15 @@ Support for external screens has also improved — connecting your iPhone or iPa
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E2p-7s-WAT">
-                                <rect key="frame" x="30" y="302.5" width="260" height="124.5"/>
+                                <rect key="frame" x="30" y="282.5" width="260" height="155.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="440" id="ROy-E4-hh4">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Cascable's new storage links allow you to automatically copy images from your camera to a chosen destination as they become available.
+                                <string key="text">Storage Links have been improved to work in between sessions, allowing them to work with photos taken while you were away from Cascable. This makes for a great automatic backup tool!
 
-For cameras that support wireless tethering, this means hands-free, instant importing!</string>
+Additionally, Storage Links can now be configured to filter by file type, so they can copy only JPEG photos, only RAW photos, or everything.</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -542,10 +542,11 @@ For cameras that support wireless tethering, this means hands-free, instant impo
                             </constraint>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="GFL-gf-qKP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6hT-YS-Fsf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="894" y="333"/>
+            <point key="canvasLocation" x="129" y="1121"/>
         </scene>
         <!--First Run View Controller-->
         <scene sceneID="0m6-1H-kpB">
@@ -559,8 +560,8 @@ For cameras that support wireless tethering, this means hands-free, instant impo
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="External Storage with SanDisk iXpand" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKB-lo-UFU">
-                                <rect key="frame" x="39" y="40" width="242.5" height="62.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Widely Expanded Storage Options" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKB-lo-UFU">
+                                <rect key="frame" x="59.5" y="20" width="201.5" height="62.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -586,7 +587,7 @@ For cameras that support wireless tethering, this means hands-free, instant impo
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                         </variation>
                                         <connections>
-                                            <segue destination="ST2-0w-0JQ" kind="show" id="gZn-m0-jpb"/>
+                                            <segue destination="ZYZ-of-OdU" kind="show" id="TwU-xj-QfP"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -599,24 +600,24 @@ For cameras that support wireless tethering, this means hands-free, instant impo
                                     <constraint firstItem="1so-zZ-DiP" firstAttribute="leading" secondItem="YtH-cw-0Ny" secondAttribute="leading" id="htz-eF-zln"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FourFirstRuniXpand" translatesAutoresizingMaskIntoConstraints="NO" id="XOJ-Ju-hOK">
-                                <rect key="frame" x="15" y="122.5" width="290" height="160"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FourFirstRunExternalStorage" translatesAutoresizingMaskIntoConstraints="NO" id="XOJ-Ju-hOK">
+                                <rect key="frame" x="27" y="102.5" width="266" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="hde-nh-gG8">
-                                        <variation key="widthClass=compact" constant="160"/>
+                                    <constraint firstAttribute="height" constant="250" id="hde-nh-gG8">
+                                        <variation key="widthClass=compact" constant="200"/>
                                     </constraint>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h86-a9-Awt">
-                                <rect key="frame" x="30" y="302.5" width="260" height="124.5"/>
+                                <rect key="frame" x="30" y="322.5" width="260" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="440" id="QfJ-gl-Iv1">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Cascable now supports the SanDisk iXpand USB storage drive for added flexibility and storage options.
+                                <string key="text">On iOS 13 and higher, Cascable can work directly with storage locations outside of the app, including other locations on your device and USB-attached storage such as flash drives and USB SSDs.
 
-Using storage links, you can also link your iXpand to Cascable's storage for instant and automatic backups, or even directly to your camera!</string>
+All of these storage locations work with Cascable's suite of tools, including Storage Links.</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -646,111 +647,11 @@ Using storage links, you can also link your iXpand to Cascable's storage for ins
                             <constraint firstAttribute="centerX" secondItem="HKB-lo-UFU" secondAttribute="centerX" id="yaT-kM-Mag"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Thm-Hc-QRK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="phF-LX-B5l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1658" y="333"/>
-        </scene>
-        <!--First Run View Controller-->
-        <scene sceneID="YEc-Ed-Sbu">
-            <objects>
-                <viewController id="prN-1p-0nK" customClass="CBLFirstRunViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="CX5-cZ-bnn"/>
-                        <viewControllerLayoutGuide type="bottom" id="hLs-dQ-qFs"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="AYd-8L-Cll">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View and Apply Image Ratings" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyj-db-0Wu">
-                                <rect key="frame" x="70.5" y="40" width="179" height="62.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                </variation>
-                            </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ze-kk-k68">
-                                <rect key="frame" x="86" y="512" width="148" height="36"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mdZ-sm-EoX" customClass="CBLPillButton">
-                                        <rect key="frame" x="0.0" y="0.0" width="148" height="36"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="42" id="Noj-j2-1EE">
-                                                <variation key="widthClass=compact" constant="36"/>
-                                            </constraint>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                        <state key="normal" title="Continue  →">
-                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <variation key="widthClass=compact">
-                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                                        </variation>
-                                        <connections>
-                                            <segue destination="v1c-IA-haz" kind="show" id="Kiw-ZK-hCU"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstItem="mdZ-sm-EoX" firstAttribute="leading" secondItem="7Ze-kk-k68" secondAttribute="leading" id="6dQ-fy-FLh"/>
-                                    <constraint firstAttribute="bottom" secondItem="mdZ-sm-EoX" secondAttribute="bottom" id="Jm6-VC-tcY"/>
-                                    <constraint firstAttribute="trailing" secondItem="mdZ-sm-EoX" secondAttribute="trailing" id="Pdn-yM-nlN"/>
-                                    <constraint firstItem="mdZ-sm-EoX" firstAttribute="top" secondItem="7Ze-kk-k68" secondAttribute="top" id="Qb9-vH-vDb"/>
-                                    <constraint firstAttribute="width" constant="148" id="fLG-cH-Pi2"/>
-                                </constraints>
-                            </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FourFirstRunRating" translatesAutoresizingMaskIntoConstraints="NO" id="SU0-ED-gb4">
-                                <rect key="frame" x="15" y="122.5" width="290" height="160"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="NVE-hp-1Ra">
-                                        <variation key="widthClass=compact" constant="160"/>
-                                    </constraint>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View on-camera image ratings (where supported by the camera), and apply IPTC ratings to images once they're inside Cascable." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRI-Sh-dWo">
-                                <rect key="frame" x="30" y="282.5" width="260" height="62.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="440" id="xDx-ye-p9G">
-                                        <variation key="widthClass=compact" constant="260"/>
-                                    </constraint>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
-                                </variation>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="kRI-Sh-dWo" secondAttribute="centerX" id="698-BO-Md4"/>
-                            <constraint firstItem="SU0-ED-gb4" firstAttribute="top" secondItem="yyj-db-0Wu" secondAttribute="bottom" constant="40" id="7sP-ap-hEp">
-                                <variation key="widthClass=compact" constant="20"/>
-                            </constraint>
-                            <constraint firstItem="SU0-ED-gb4" firstAttribute="centerX" secondItem="AYd-8L-Cll" secondAttribute="centerX" id="AfX-fk-Od4"/>
-                            <constraint firstItem="yyj-db-0Wu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="AYd-8L-Cll" secondAttribute="leading" constant="30" id="Fel-Un-ct5"/>
-                            <constraint firstAttribute="centerX" secondItem="yyj-db-0Wu" secondAttribute="centerX" id="JFu-Xy-yit"/>
-                            <constraint firstItem="kRI-Sh-dWo" firstAttribute="top" secondItem="SU0-ED-gb4" secondAttribute="bottom" constant="20" id="LAL-Cd-E5H">
-                                <variation key="widthClass=compact" constant="0.0"/>
-                            </constraint>
-                            <constraint firstItem="hLs-dQ-qFs" firstAttribute="top" secondItem="7Ze-kk-k68" secondAttribute="bottom" constant="30" id="UCU-pg-PVF">
-                                <variation key="widthClass=compact" constant="20"/>
-                            </constraint>
-                            <constraint firstItem="7Ze-kk-k68" firstAttribute="centerX" secondItem="AYd-8L-Cll" secondAttribute="centerX" id="fdA-WC-0Bh"/>
-                            <constraint firstItem="yyj-db-0Wu" firstAttribute="top" secondItem="CX5-cZ-bnn" secondAttribute="bottom" constant="40" id="nuo-Tx-DNE">
-                                <variation key="widthClass=compact" constant="20"/>
-                            </constraint>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vFN-NC-Tia" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="896" y="1121"/>
+            <point key="canvasLocation" x="1657.5" y="332.74647887323943"/>
         </scene>
         <!--First Run View Controller-->
         <scene sceneID="iFT-t8-eYF">
@@ -764,8 +665,8 @@ Using storage links, you can also link your iXpand to Cascable's storage for ins
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Increased Workflow Flexibility" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlN-BN-L6F">
-                                <rect key="frame" x="47" y="40" width="226.5" height="62.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photo Filtering and Search" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlN-BN-L6F">
+                                <rect key="frame" x="76.5" y="20" width="167" height="62.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -774,15 +675,15 @@ Using storage links, you can also link your iXpand to Cascable's storage for ins
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYR-Xe-VOn">
-                                <rect key="frame" x="30" y="282.5" width="260" height="140"/>
+                                <rect key="frame" x="30" y="262.5" width="260" height="93.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="440" id="5RB-kP-6kM">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Cascable is now more flexible — customise your layout between an image-dense grid or a list that includes image metadata, and adjust thumbnail size, sort order, and more!
+                                <string key="text">Cascable is more flexible than ever before, adding filtering and search to your workflow.
 
-On iPad, choose between split or single screen for easy copying and management between multiple sources or more photos onscreen.</string>
+Finding the right photos has never been easier!</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -822,7 +723,7 @@ On iPad, choose between split or single screen for easy copying and management b
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FourFirstRunFlexibility" translatesAutoresizingMaskIntoConstraints="NO" id="9cg-qS-YDc">
-                                <rect key="frame" x="15" y="112.5" width="290" height="160"/>
+                                <rect key="frame" x="15" y="92.5" width="290" height="160"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="8zj-Rv-vVQ">
                                         <variation key="widthClass=compact" constant="160"/>
@@ -851,19 +752,19 @@ On iPad, choose between split or single screen for easy copying and management b
                             </constraint>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="k01-rk-Sas"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5vU-qp-CVl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1657.5" y="1120.7746478873239"/>
+            <point key="canvasLocation" x="893" y="1121"/>
         </scene>
     </scenes>
     <resources>
         <image name="AboutIcon" width="150" height="150"/>
-        <image name="FourFirstRunExternalDisplay" width="290" height="200"/>
+        <image name="FourFirstRunExternalStorage" width="266" height="278"/>
         <image name="FourFirstRunFlexibility" width="290" height="200"/>
-        <image name="FourFirstRunRating" width="290" height="200"/>
         <image name="FourFirstRunStorageLink" width="290" height="200"/>
-        <image name="FourFirstRuniXpand" width="290" height="200"/>
+        <image name="FourFirstRunWiredCamera" width="240" height="120"/>
         <image name="InstagramLogo" width="44" height="44"/>
         <image name="TwitterLogo" width="44" height="44"/>
     </resources>
