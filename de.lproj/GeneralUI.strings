@@ -185,11 +185,17 @@
 /* Title for the storage list section for storage inside the app itself. */
 "InternalDeviceStorageSectionTitle" = "Cascable Speicher";
 
-/* Title for the button to add a storage folder. */
-"AddOtherStorageButtonTitle" = "Ordner hinzufügen…";
-
 /* Title for the storage list section for storage outside app - USB drives, etc. */
 "ExternalDeviceStorageSectionTitle" = "Andere Speicher";
+
+/* Title for the button to add a storage folder. */
+"AddOtherStorageButtonTitle" = "Speicherort hinzufügen…";
+
+/* Error messages for not being able to use a folder. */
+"AddFolderFailedTitle" = "Speicherort kann nicht hinzugefügt werden";
+"AddFolderFailedAlreadyExists" = "Cascable verwendet bereits den ausgewählten Standort. Tippen Sie auf den Speicherort in der Quellliste, um dessen Inhalt anzuzeigen.";
+"AddFolderFailedPermissionDenied" = "Cascable wurde der Zugriff auf den ausgewählten Standort verweigert. Stellen Sie sicher, dass Cascable über die Berechtigung Einstellungen → Datenschutz → Dateien und Ordner verfügt, und versuchen Sie es erneut.";
+"AddFolderFailedNotSupported" = "Die Verwendung externer Speicherorte direkt in Cascable wird von der aktuellen iOS-Version nicht unterstützt. Bitte aktualisieren Sie auf mindestens iOS 13 und versuchen Sie es erneut.";
 
 /* Title for the button to remove a storage entry when removal does NOT delete any files. */
 "RemoveOtherStorageButtonTitle" = "Entfernen";
@@ -258,7 +264,7 @@
 "CameraNoFileSystemAccessTitle" = "Kein Zugriff";
 
 /* Message shown when a camera doesn't allow access to its storage. */
-"CameraNoFileSystemAccessDescription" = "Die Kamera ermöglicht anscheinend keinen Zugriff auf ihre Speichergeräte per WLAN.";
+"CameraNoFileSystemAccessDescription" = "Die Kamera ermöglicht anscheinend keinen Zugriff auf ihre Speichergeräte.";
 
 // ------------------------------------------------------------
 //     Files Mode: Copy Destination Picker
@@ -304,6 +310,19 @@
 /* Title of the storage link filtering picker for "All" image types. */
 "SourceLinkAllTypesTitle" = "Alle";
 
+/* Title of the alert presented when a storage link finds images to copy between sessions. */
+"SourceLinkSessionGapAlertTitle" = "Neue Fotos zum Kopieren";
+
+/* Message action of the alert presented when a storage link finds images to copy between sessions. */
+"SourceLinkSessionGapAlertMessage" = "Es gibt %@ neues Foto auf \"%@\" das dem Speicherverbindung zu \"%@\" entspricht. Möchten Sie dieses Foto jetzt kopieren?";
+"SourceLinkSessionGapAlertMessage_Plural" = "Es gibt %@ neue Fotos auf \"%@\" die dem Speicherverbindung zu \"%@\". Möchten Sie diese Fotos jetzt kopieren?";
+
+/* "Cancel" action of the alert presented when a storage link finds images to copy between sessions. */
+"SourceLinkSessionGapAlertCancelButtonTitle" = "Nicht kopieren";
+
+/* "Confirm" action of the alert presented when a storage link finds images to copy between sessions. */
+"SourceLinkSessionGapAlertConfirmButtonTitle" = "%@ Foto kopieren";
+"SourceLinkSessionGapAlertConfirmButtonTitle_Plural" = "Kopieren %@ Fotos";
 
 // ------------------------------------------------------------
 //     Files Mode: Sorting
@@ -1362,6 +1381,12 @@
 
 /* Description of the remote control warning that it's not supported by the camera. */
 "RemoteUnavailableNotSupportedDescription" = "Fernbedienung ist nicht verfügbar, da Ihre Kamera Fernbedienung über WLAN nicht unterstützt.";
+
+/* Title of the remote control warning that it's not supported due to being connected by USB. */
+"RemoteUnavailableWiredNotSupportedTitle" = "Wird über USB nicht unterstützt";
+
+/* Description of the remote control warning that it's not supported due to being connected by USB. */
+"RemoteUnavailableWiredNotSupportedDescription" = "Die Fernbedienung ist aufgrund von Einschränkungen bei der Kommunikation von Apps über USB unter iOS nicht verfügbar.\nWenn Ihre Kamera über WLAN unterstützt wird, stellen Sie eine Verbindung über WLAN her, um sie fernzusteuern.";
 
 /* 'Start Live View' button title. */
 "StartLiveViewTitle" = "Live-Ansicht starten";
