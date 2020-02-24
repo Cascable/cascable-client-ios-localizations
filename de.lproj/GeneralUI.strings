@@ -251,6 +251,9 @@
 /* Message shown when the device has no photos available and there is more information available. */
 "NoContentWithElaborationTitle" = "Dieses Gerät hat keine verfügbaren Fotos in Cascable.";
 
+/* Message shown when the device has no photos available due to filters hiding content. */
+"NoContentDueToFilterTitle" = "Alle Fotos dieses Speicherorts werden aufgrund aktiver Filter ausgeblendet.";
+
 /* Label shown when content cannot be shown. */
 "CannotShotContentTitle" = "Inhalt kann nicht dargestellt werden";
 

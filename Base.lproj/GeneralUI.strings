@@ -246,10 +246,13 @@
 "LoadingContentTitle" = "Loading…";
 
 /* Message shown when the device has no photos available and there's no error (i.e., it's just empty). */
-"NoContentTitle" = "This device doesn't have any photos available. Get shooting!";
+"NoContentTitle" = "This storage location doesn't have any photos available. Get shooting!";
 
 /* Message shown when the device has no photos available and there is more information available. */
-"NoContentWithElaborationTitle" = "This device doesn't have any photos available in Cascable.\n\n%@";
+"NoContentWithElaborationTitle" = "This storage location doesn't have any photos available in Cascable.\n\n%@";
+
+/* Message shown when the device has no photos available due to filters hiding content. */
+"NoContentDueToFilterTitle" = "All of this storage location's photos are hidden due to active filters.";
 
 /* Label shown when content cannot be shown. */
 "CannotShotContentTitle" = "Cannot Show Content";
