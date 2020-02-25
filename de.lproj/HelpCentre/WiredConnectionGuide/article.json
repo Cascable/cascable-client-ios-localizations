@@ -1,0 +1,7 @@
+{
+    "title" : "Kabelgebundene Kameras",
+    "id": "se.cascable.client.help.getting-connected-wired",
+    "icon": "WiredConnectionHelpArticleIcon",
+    "category": "se.cascable.client.help.category.getting-connected",
+    "sort-hint": 6
+}
