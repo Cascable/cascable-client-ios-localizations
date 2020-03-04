@@ -1396,10 +1396,10 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 "RemoteUnavailableNotSupportedDescription" = "Remote control is not available because your camera doesn't support remote control via WiFi.";
 
 /* Title of the remote control warning that it's not supported due to being connected by USB. */
-"RemoteUnavailableWiredNotSupportedTitle" = "Not Supported Via USB";
+"RemoteUnavailableWiredNotSupportedTitle" = "No Remote Control via USB";
 
 /* Description of the remote control warning that it's not supported due to being connected by USB. */
-"RemoteUnavailableWiredNotSupportedDescription" = "Remote control is not available due to restrictions in how apps can communicate over USB in iOS.\nIf your camera is supported over WiFi, connect to it via WiFi to remote control it.";
+"RemoteUnavailableWiredNotSupportedDescription" = "Remote control is not available due to restrictions in how apps can communicate over USB in iOS.\n\nIf your camera is supported over WiFi, connect to it via WiFi to remote control it.\n\nTo import photos from this camera, switch to the Photos section of Cascable.";
 
 /* 'Start Live View' button title. */
 "StartLiveViewTitle" = "Start Live View";

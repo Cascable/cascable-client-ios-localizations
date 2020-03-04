@@ -1389,7 +1389,7 @@
 "RemoteUnavailableWiredNotSupportedTitle" = "Wird über USB nicht unterstützt";
 
 /* Description of the remote control warning that it's not supported due to being connected by USB. */
-"RemoteUnavailableWiredNotSupportedDescription" = "Die Fernbedienung ist aufgrund von Einschränkungen bei der Kommunikation von Apps über USB unter iOS nicht verfügbar.\nWenn Ihre Kamera über WLAN unterstützt wird, stellen Sie eine Verbindung über WLAN her, um sie fernzusteuern.";
+"RemoteUnavailableWiredNotSupportedDescription" = "Die Fernbedienung ist aufgrund von Einschränkungen bei der Kommunikation von Apps über USB unter iOS nicht verfügbar.\n\nWenn Ihre Kamera über WLAN unterstützt wird, stellen Sie eine Verbindung über WLAN her, um sie fernzusteuern.";
 
 /* 'Start Live View' button title. */
 "StartLiveViewTitle" = "Live-Ansicht starten";
