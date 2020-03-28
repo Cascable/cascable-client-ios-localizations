@@ -17,7 +17,7 @@
 
 <h3>Making Sure Your Camera Is Set Up Correctly</h3>
 
-<p>When connecting your camera to your iOS device, it must be in <strong>PTP</strong>, <strong>MTP</strong>, or <strong>Tethering</strong> mode for Cascable to be able to detect it as a wired camera.</p>
+<p>When connecting your camera to your iOS device, it must be in <strong>PTP</strong>, <strong>MTP</strong>, <strong>PictBridge</strong>, or <strong>Tethering</strong> mode for Cascable to be able to detect it as a wired camera.</p>
 
 <div class="figure-box"><strong>Note:</strong> Cascable can only import images from USB-connected cameras, and can't remote control them. This is a limitation in iOS that we hope will be eased in future iOS versions.</div>
 
@@ -46,6 +46,18 @@
 <p>If your iOS device has a Lightning connector, you must use a Lightning to USB-A (female) adapter, then the cable that came with your camera. The <a href="https://services.cascable.se/go?location=apple-camera-connection-kit">Apple Lightning to USB Camera Adapter</a> is such an adapter, and there are third-party alternatives.</p>
 
 <p>If your camera came with a USB-C to USB-C cable, you can purchase a USB-A to USB-C cable from many reputable electronics retailers.</p>
+
+<h3>Troubleshooting</h3>
+
+<p>If your camera isn't being detected by Cascable, or it is and you're getting a <strong>No Access</strong> error, try the following steps:</p>
+
+<ul>
+	<li>If your camera has more than one mode that seems to match the ones required for Cascable, try each one. For example, some cameras have both a <strong>Tether</strong> and a <strong>PictBridge</strong> mode, but will only work with Cascable in <strong>PictBridge</strong> mode.</li>
+
+	<li>Make sure Cascable is up-to-date.</li>
+
+	<li>Make sure iOS is up-to-date. iOS' camera support is always evolving, and updating your iOS may improve compatibility.</li>
+</ul>
 
 </body>
 </html>
