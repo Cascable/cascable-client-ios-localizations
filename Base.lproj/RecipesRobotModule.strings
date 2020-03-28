@@ -98,3 +98,6 @@
 
 "RequiresChangeableFocusTitle" = "Requires Direct Focus Manipulation";
 "RequiresChangeableFocusDescription" = "The recipe requires that the camera allows direct focus manipulation. This is currently only supported by Canon EOS and Nikon cameras.";
+
+"RequiresAutoFocusTitle" = "Requires Autofocus";
+"RequiresAutoFocusDescription" = "The recipe requires that the camera's focus mode is an autofocus mode. Place the camera's focus mode to a non-manual setting.";
