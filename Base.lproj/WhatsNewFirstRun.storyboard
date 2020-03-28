@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZN2-am-Zmm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZN2-am-Zmm">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -51,9 +51,9 @@
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Thank you for updating to Cascable 4.2!
+                                <string key="text">Thank you for updating to Cascable 5.0!
 
-Cascable 4.2 focuses on further improving your photo management workflow by adding support for wired cameras, external USB storage, photo filter and search, and much more.
+Cascable 5.0 focuses on further improving your photo management workflow by adding support for wired cameras, external USB storage, photo filter and search, and much more.
 
 Additionally, it adds support for a number of new camera models, and adds manual focus stepping on supported cameras — great for macro photography!</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
@@ -175,7 +175,7 @@ Additionally, it adds support for a number of new camera models, and adds manual
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Cascable 4.2 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.
+                                <string key="text">Cascable 5.0 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.
 
 If you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?
 

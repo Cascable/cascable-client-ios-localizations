@@ -5,8 +5,8 @@
 /* Class = "UILabel"; text = "On iOS 13.2 and higher, Cascable can import images from cameras connected to your iOS device via USB.\n\nAs with other storage locations, wired cameras work with Cascable's suite of tools, including Storage Links.\n\nFor details on working with wired cameras, see our updated guides."; ObjectID = "7du-wq-q4d"; */
 "7du-wq-q4d.text" = "Unter iOS 13.2 und höher kann Cascable Bilder von Kameras importieren, die über USB mit Ihrem iOS-Gerät verbunden sind.\n\nWie bei anderen Speicherorten funktionieren kabelgebundene Kameras mit den Tools von Cascable, einschließlich Speicherverbindungen.\n\nEinzelheiten zur Arbeit mit kabelgebundenen Kameras finden Sie in unseren aktualisierten Handbüchern.";
 
-/* Class = "UILabel"; text = "Cascable 4.2 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.\n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!"; ObjectID = "9Bs-PF-Jvn"; */
-"9Bs-PF-Jvn.text" = "Cascable 4.2 hat überall in der App viele kleinere Funktionen hinzubekommen. Eine vollständige und detaillierte Liste finden Sie auf der Cascable-Website.\n\nMöchten Sie aktuelle News und die neuesten Fotos vom Cascable-Team erhalten? Folgen Sie uns auf Twitter und Instagram!\n\nViel Spaß!";
+/* Class = "UILabel"; text = "Cascable 5.0 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.\n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!"; ObjectID = "9Bs-PF-Jvn"; */
+"9Bs-PF-Jvn.text" = "Cascable 5.0 hat überall in der App viele kleinere Funktionen hinzubekommen. Eine vollständige und detaillierte Liste finden Sie auf der Cascable-Website.\n\nMöchten Sie aktuelle News und die neuesten Fotos vom Cascable-Team erhalten? Folgen Sie uns auf Twitter und Instagram!\n\nViel Spaß!";
 
 /* Class = "UIButton"; normalTitle = "Skip Tour"; ObjectID = "9NP-z9-ZaH"; */
 "9NP-z9-ZaH.normalTitle" = "Einführung überspringen";
@@ -38,8 +38,8 @@
 /* Class = "UILabel"; text = "on Twitter"; ObjectID = "dgL-Vh-5m6"; */
 "dgL-Vh-5m6.text" = "auf Twitter";
 
-/* Class = "UILabel"; text = "Thank you for updating to Cascable 4.2!\n\nCascable 4.2 focuses on further improving your photo management workflow by adding support for wired cameras, external USB storage, photo filter and search, and much more.\n\nAdditionally, it adds support for a number of new camera models, and adds manual focus stepping on supported cameras — great for macro photography!"; ObjectID = "e51-oR-xjz"; */
-"e51-oR-xjz.text" = "Danke für Ihr Update auf Cascable 4.2!\n\nCascable 4.2 konzentriert sich auf die weitere Verbesserung Ihres Fotoverwaltungs-Workflows, indem Unterstützung für kabelgebundene Kameras, externen USB-Speicher, Fotofilter und -suche und vieles mehr hinzugefügt wird.\n\nDarüber hinaus werden eine Reihe neuer Kameramodelle unterstützt und die unterstützten Kameras manuell fokussiert - ideal für die Makrofotografie!";
+/* Class = "UILabel"; text = "Thank you for updating to Cascable 5.0!\n\nCascable 5.0 focuses on further improving your photo management workflow by adding support for wired cameras, external USB storage, photo filter and search, and much more.\n\nAdditionally, it adds support for a number of new camera models, and adds manual focus stepping on supported cameras — great for macro photography!"; ObjectID = "e51-oR-xjz"; */
+"e51-oR-xjz.text" = "Danke für Ihr Update auf Cascable 5.0!\n\nCascable 5.0 konzentriert sich auf die weitere Verbesserung Ihres Fotoverwaltungs-Workflows, indem Unterstützung für kabelgebundene Kameras, externen USB-Speicher, Fotofilter und -suche und vieles mehr hinzugefügt wird.\n\nDarüber hinaus werden eine Reihe neuer Kameramodelle unterstützt und die unterstützten Kameras manuell fokussiert - ideal für die Makrofotografie!";
 
 /* Class = "UILabel"; text = "on Instagram"; ObjectID = "e8w-Sj-KC2"; */
 "e8w-Sj-KC2.text" = "bei Instagram";
