@@ -761,6 +761,11 @@
 "FilterAnyFileTypeTitle" = "Alle Dateitypen";
 "FilterCustomFileTypeTitle" = "Maßgeschneidert (%@)";
 
+/* Titles for rating filters */
+"RatingFilterNoRatingTitle" = "Alle Sterne";
+"RatingFilterStarTitle" = "%@ Stern";
+"RatingFilterStarTitle_Plural" = "%@ Sterne";
+
 /* Titles for thumbnail layouts */
 "LayoutGridTitle" = "Raster";
 "LayoutListTitle" = "Liste";

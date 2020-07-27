@@ -767,6 +767,11 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 "FilterAnyFileTypeTitle" = "Any file type";
 "FilterCustomFileTypeTitle" = "Custom (%@)";
 
+/* Titles for rating filters */
+"RatingFilterNoRatingTitle" = "Any rating";
+"RatingFilterStarTitle" = "%@ star";
+"RatingFilterStarTitle_Plural" = "%@ stars";
+
 /* Titles for thumbnail layouts */
 "LayoutGridTitle" = "Grid";
 "LayoutListTitle" = "List";
