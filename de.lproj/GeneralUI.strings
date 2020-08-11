@@ -1221,6 +1221,9 @@
 /* 'PRO' button prefix for 'Upgrade to PRO' buttons. Must be short. */
 "UpgradeToProButtonPrefixTitle" = "Upgrade auf";
 
+/* 'PRO' button prefix for 'Upgrade to PRO' buttons in constrained areas. Must be very short. */
+"UpgradeToProButtonShortPrefixTitle" = "Upgrade";
+
 /* Explanation of needing to make a purchase to remote preview photos. */
 "RemotePreviewUnavailableDescription" = "Die Vorschau von Fotos direkt auf Ihrer Kamera ist eine Funktion von Cascable Pro.";
 
@@ -1365,6 +1368,9 @@
 
 /* Title of the remote control feature. */
 "RemoteTitle" = "Fernbedienung";
+
+/* Title of the remote control feature in size-constrained environments. */
+"RemoteShortTitle" = "Fernbedie.";
 
 /* Title of the remote control warning that no camera is connected. */
 "RemoteUnavailableNoConnectionTitle" = "Keine Kamera verbunden";
