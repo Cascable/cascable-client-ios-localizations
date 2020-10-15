@@ -16,6 +16,7 @@
 "SonySpeedPriorityDriveModeLabel" = "H+";
 "SonyMotionShotDriveModeLabel" = "M";
 
+"CanonHighSpeedPlusDriveModeLabel" = "H+";
 "NikonHighSpeedExtendedDriveModeLabel" = "H+";
 
 "BlankDriveModeLabel" = "";
