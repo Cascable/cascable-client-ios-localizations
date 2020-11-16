@@ -994,6 +994,9 @@
 /* Footer that explains paid users can choose theme independently of the system one. */
 "NightModeUnavailableFooter" = "Mit Cascable Pro können Sie Ihr bevorzugtes Thema unabhängig von der Geräteeinstellung auswählen.";
 
+/* Title for the 'Volume Button Shutter' setting. */
+"ShutterButtonOnVolumeSettingTitle" = "Volume-Auslöser";
+
 /* Title for the 'Prefer Framerate over Quality' setting. */
 "FastLVSettingTitle" = "Hohe Bildwiederholungsrate";
 
