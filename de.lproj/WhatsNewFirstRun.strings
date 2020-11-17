@@ -2,11 +2,11 @@
 /* Class = "UIButton"; normalTitle = "Continue  →"; ObjectID = "1so-zZ-DiP"; */
 "1so-zZ-DiP.normalTitle" = "Weiter  →";
 
-/* Class = "UILabel"; text = "On iOS 13.2 and higher, Cascable can import images from cameras connected to your iOS device via USB.\n\nAs with other storage locations, wired cameras work with Cascable's suite of tools, including Storage Links.\n\nFor details on working with wired cameras, see our updated guides."; ObjectID = "7du-wq-q4d"; */
-"7du-wq-q4d.text" = "Unter iOS 13.2 und höher kann Cascable Bilder von Kameras importieren, die über USB mit Ihrem iOS-Gerät verbunden sind.\n\nWie bei anderen Speicherorten funktionieren kabelgebundene Kameras mit den Tools von Cascable, einschließlich Speicherverbindungen.\n\nEinzelheiten zur Arbeit mit kabelgebundenen Kameras finden Sie in unseren aktualisierten Handbüchern.";
+/* Class = "UILabel"; text = "On iOS 14.2 and higher, Cascable can fully remote control Canon EOS cameras via USB on all iOS devices — iPhone, iPad, and iPod touch. A world first for iOS apps!\n\nCascable also now fully supports the EOS R5 and R6 cameras, both via USB and WiFi.\n\nFor details on working with wired cameras, see our updated guides."; ObjectID = "7du-wq-q4d"; */
+"7du-wq-q4d.text" = "Unter iOS 14.2 und höher kann Cascable Canon EOS-Kameras auf allen iOS-Geräten - iPhone, iPad und iPod touch - über USB vollständig fernsteuern. Eine Weltneuheit für iOS-Apps!\n\nCascable unterstützt jetzt auch die EOS R5- und R6-Kameras vollständig, sowohl über USB als auch über WLAN.\n\nEinzelheiten zur Arbeit mit kabelgebundenen Kameras finden Sie in unseren aktualisierten Handbüchern.";
 
-/* Class = "UILabel"; text = "Cascable 5.0 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.\n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!"; ObjectID = "9Bs-PF-Jvn"; */
-"9Bs-PF-Jvn.text" = "Cascable 5.0 hat überall in der App viele kleinere Funktionen hinzubekommen. Eine vollständige und detaillierte Liste finden Sie auf der Cascable-Website.\n\nMöchten Sie aktuelle News und die neuesten Fotos vom Cascable-Team erhalten? Folgen Sie uns auf Twitter und Instagram!\n\nViel Spaß!";
+/* Class = "UILabel"; text = "Cascable 5.2 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.\n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!"; ObjectID = "9Bs-PF-Jvn"; */
+"9Bs-PF-Jvn.text" = "Cascable 5.2 hat überall in der App viele kleinere Funktionen hinzubekommen. Eine vollständige und detaillierte Liste finden Sie auf der Cascable-Website.\n\nMöchten Sie aktuelle News und die neuesten Fotos vom Cascable-Team erhalten? Folgen Sie uns auf Twitter und Instagram!\n\nViel Spaß!";
 
 /* Class = "UIButton"; normalTitle = "Skip Tour"; ObjectID = "9NP-z9-ZaH"; */
 "9NP-z9-ZaH.normalTitle" = "Einführung überspringen";
@@ -20,26 +20,26 @@
 /* Class = "UILabel"; text = "…and much more!"; ObjectID = "DkA-ou-F8n"; */
 "DkA-ou-F8n.text" = "… und vieles mehr!";
 
-/* Class = "UILabel"; text = "Storage Links have been improved to work in between sessions, allowing them to work with photos taken while you were away from Cascable. This makes for a great automatic backup tool!\n\nAdditionally, Storage Links can now be configured to filter by file type, so they can copy only JPEG photos, only RAW photos, or everything."; ObjectID = "E2p-7s-WAT"; */
-"E2p-7s-WAT.text" = "Die Speicherverbindungen wurden für die Arbeit zwischen Sitzungen verbessert, sodass sie mit Fotos arbeiten können, die Sie außerhalb von Cascable aufgenommen haben. Dies ist ein großartiges automatisches Backup-Tool!\n\nAußerdem können Speicherverbindung jetzt so konfiguriert werden, dass sie nach Dateityp filtern, sodass nur JPEG-Fotos, nur RAW-Fotos oder alles kopiert werden können.";
+/* Class = "UILabel"; text = "Small but frequently requested, you can now trigger your camera's shutter with the volume buttons on your iOS device."; ObjectID = "E2p-7s-WAT"; */
+"E2p-7s-WAT.text" = "Klein, aber häufig angefordert, können Sie jetzt den Auslöser Ihrer Kamera mit den Lautstärketasten Ihres iOS-Geräts auslösen.";
 
 /* Class = "UIViewController"; title = "Welcome"; ObjectID = "G3P-g9-PCa"; */
 "G3P-g9-PCa.title" = "Willkommen";
 
-/* Class = "UILabel"; text = "Widely Expanded Storage Options"; ObjectID = "HKB-lo-UFU"; */
-"HKB-lo-UFU.text" = "Weit verbreitete Speicheroptionen";
+/* Class = "UILabel"; text = "Support for HEIF Images"; ObjectID = "HKB-lo-UFU"; */
+"HKB-lo-UFU.text" = "Unterstützung für HEIF-Bilder";
 
 /* Class = "UIButton"; normalTitle = "Continue  →"; ObjectID = "Wr9-Wd-JN8"; */
 "Wr9-Wd-JN8.normalTitle" = "Weiter  →";
 
-/* Class = "UILabel"; text = "Image Import From Wired Cameras"; ObjectID = "Xhd-OS-wmU"; */
-"Xhd-OS-wmU.text" = "Fotoimport von kabelgebundenen Kameras";
+/* Class = "UILabel"; text = "Fully Featured USB Control & Import"; ObjectID = "Xhd-OS-wmU"; */
+"Xhd-OS-wmU.text" = "Voll ausgestattete USB-Steuerung und -Import";
 
 /* Class = "UILabel"; text = "on Twitter"; ObjectID = "dgL-Vh-5m6"; */
 "dgL-Vh-5m6.text" = "auf Twitter";
 
-/* Class = "UILabel"; text = "Thank you for updating to Cascable 5.0!\n\nCascable 5.0 focuses on further improving your photo management workflow by adding support for wired cameras, external USB storage, photo filter and search, and much more.\n\nAdditionally, it adds support for a number of new camera models, and adds manual focus stepping on supported cameras — great for macro photography!"; ObjectID = "e51-oR-xjz"; */
-"e51-oR-xjz.text" = "Danke für Ihr Update auf Cascable 5.0!\n\nCascable 5.0 konzentriert sich auf die weitere Verbesserung Ihres Fotoverwaltungs-Workflows, indem Unterstützung für kabelgebundene Kameras, externen USB-Speicher, Fotofilter und -suche und vieles mehr hinzugefügt wird.\n\nDarüber hinaus werden eine Reihe neuer Kameramodelle unterstützt und die unterstützten Kameras manuell fokussiert - ideal für die Makrofotografie!";
+/* Class = "UILabel"; text = "Thank you for updating to Cascable 5.2!\n\nCascable 5.2 is the first app in the world to offer fully-featured USB remote control and tethering on iOS!\n\nCurrently this is only available for Canon EOS cameras, but we'll be expanding support as time goes on. You can continue to import images from other cameras via USB as before.\n\nCascable 5.2 also adds support for HEIF images, the EOS R5 and R6, and more!"; ObjectID = "e51-oR-xjz"; */
+"e51-oR-xjz.text" = "Vielen Dank für das Update auf Cascable 5.2! Cascable 5.2 ist die erste App der Welt, die eine voll funktionsfähige USB-Fernbedienung und Tethering für iOS bietet!\n\nDerzeit ist dies nur für Canon EOS-Kameras verfügbar, aber wir werden den Support im Laufe der Zeit erweitern.\n\nCascable 5.2 bietet außerdem Unterstützung für HEIF-Bilder, die EOS R5 und R6 und mehr!";
 
 /* Class = "UILabel"; text = "on Instagram"; ObjectID = "e8w-Sj-KC2"; */
 "e8w-Sj-KC2.text" = "bei Instagram";
@@ -47,20 +47,14 @@
 /* Class = "UIButton"; normalTitle = "Start Using Cascable"; ObjectID = "gTH-Fo-vxd"; */
 "gTH-Fo-vxd.normalTitle" = "Cascable nutzen";
 
-/* Class = "UILabel"; text = "On iOS 13 and higher, Cascable can work directly with storage locations outside of the app, including other locations on your device and USB-attached storage such as flash drives and USB SSDs.\n\nAll of these storage locations work with Cascable's suite of tools, including Storage Links."; ObjectID = "h86-a9-Awt"; */
-"h86-a9-Awt.text" = "Unter iOS 13 und höher kann Cascable direkt mit Speicherorten außerhalb der App arbeiten, einschließlich anderer Speicherorte auf Ihrem Gerät und über USB angeschlossenen Speicher wie Flash-Laufwerke und USB-SSDs.\n\nAlle diese Speicherorte funktionieren mit der Tool-Suite von Cascable, einschließlich Speicherverbindung.";
+/* Class = "UILabel"; text = "Cascable now fully supports HEIF — you can view, manage and edit HEIF images just like other image formats.\n\nStorage Links have also been expanded to allow automatic copying of your HEIF images as they're being shot.\n\nThe newest camera models are starting to shoot HEIF, and with Cascable you'll be ready!"; ObjectID = "h86-a9-Awt"; */
+"h86-a9-Awt.text" = "Cascable unterstützt HEIF jetzt vollständig - Sie können HEIF-Bilder wie andere Bildformate anzeigen, verwalten und bearbeiten.\n\nDie Speicherlinks wurden ebenfalls erweitert, um das automatische Kopieren Ihrer HEIF-Bilder während der Aufnahme zu ermöglichen.";
 
 /* Class = "UILabel"; text = "What's New in Cascable?"; ObjectID = "l3x-YS-zoX"; */
 "l3x-YS-zoX.text" = "Neu in Cascable?";
 
-/* Class = "UILabel"; text = "Cascable is more flexible than ever before, adding filtering and search to your workflow.\n\nFinding the right photos has never been easier!"; ObjectID = "mYR-Xe-VOn"; */
-"mYR-Xe-VOn.text" = "Cascable ist flexibler als je zuvor und fügt Ihrem Workflow Filterung und Suche hinzu.\n\nEs war noch nie einfacher, die richtigen Fotos zu finden!";
-
 /* Class = "UIButton"; normalTitle = "@CascableApp"; ObjectID = "rcf-wD-q7K"; */
 "rcf-wD-q7K.normalTitle" = "@CascableApp";
-
-/* Class = "UILabel"; text = "Photo Filtering and Search"; ObjectID = "rlN-BN-L6F"; */
-"rlN-BN-L6F.text" = "Fotofilterung und -suche";
 
 /* Class = "UIButton"; normalTitle = "Continue  →"; ObjectID = "tQP-eG-JIZ"; */
 "tQP-eG-JIZ.normalTitle" = "Weiter  →";
@@ -68,5 +62,5 @@
 /* Class = "UIButton"; normalTitle = "@CascableApp"; ObjectID = "uTL-Tw-2wS"; */
 "uTL-Tw-2wS.normalTitle" = "@CascableApp";
 
-/* Class = "UILabel"; text = "Improved Storage Links"; ObjectID = "v7V-Vu-nvd"; */
-"v7V-Vu-nvd.text" = "Verbesserte Speicherverbindungen";
+/* Class = "UILabel"; text = "Trigger Shots With The Volume Button"; ObjectID = "v7V-Vu-nvd"; */
+"v7V-Vu-nvd.text" = "Trigger Shots mit der Lautstärketaste";
