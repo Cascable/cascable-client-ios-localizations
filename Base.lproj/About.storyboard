@@ -330,22 +330,25 @@ Made (mostly) in Sweden</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" allowsInlineMediaPlayback="NO" mediaPlaybackRequiresUserAction="NO" mediaPlaybackAllowsAirPlay="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eh1-da-4RK">
+                            <wkWebView contentMode="scaleToFill" allowsLinkPreview="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I41-Ed-eAJ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="1024"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <dataDetectorType key="dataDetectorTypes"/>
-                            </webView>
+                                <wkWebViewConfiguration key="configuration" allowsAirPlayForMediaPlayback="NO" allowsPictureInPictureMediaPlayback="NO" suppressesIncrementalRendering="YES">
+                                    <dataDetectorTypes key="dataDetectorTypes"/>
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences" javaScriptEnabled="NO"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Eh1-da-4RK" firstAttribute="top" secondItem="jss-fW-J7x" secondAttribute="top" id="6bz-Oo-QJl"/>
-                            <constraint firstItem="5E1-Kt-06v" firstAttribute="top" secondItem="Eh1-da-4RK" secondAttribute="bottom" id="lMv-ls-i8b"/>
-                            <constraint firstItem="Eh1-da-4RK" firstAttribute="leading" secondItem="jss-fW-J7x" secondAttribute="leading" id="xsX-9b-H7Y"/>
-                            <constraint firstAttribute="trailing" secondItem="Eh1-da-4RK" secondAttribute="trailing" id="y7g-9u-RRU"/>
+                            <constraint firstAttribute="trailing" secondItem="I41-Ed-eAJ" secondAttribute="trailing" id="25x-j8-x83"/>
+                            <constraint firstItem="I41-Ed-eAJ" firstAttribute="top" secondItem="ycS-cy-rWH" secondAttribute="bottom" id="Pzr-Id-oSY"/>
+                            <constraint firstItem="I41-Ed-eAJ" firstAttribute="leading" secondItem="jss-fW-J7x" secondAttribute="leading" id="Zap-yw-Msf"/>
+                            <constraint firstAttribute="bottom" secondItem="I41-Ed-eAJ" secondAttribute="bottom" id="rlS-ZV-DgZ"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="webView" destination="Eh1-da-4RK" id="tsB-RI-mrS"/>
+                        <outlet property="webView" destination="I41-Ed-eAJ" id="Vid-Ve-Qz1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DTE-O4-YUk" userLabel="First Responder" sceneMemberID="firstResponder"/>
