@@ -1,0 +1,52 @@
+/* 
+  ConnectionGuide.strings
+  Cascable
+
+  Created by Daniel Kennett (Cascable) on 2021-02-18.
+  Copyright © 2021 Cascable AB. All rights reserved.
+*/
+
+"ReconnectTitle" = "Reconnect";
+"ConnectToCameraTitle" = "Connect to camera…";
+"ConnectToOtherTitle" = "Connect to other…";
+"CameraAtIPAddressFormatter" = "%@ camera at %@.";
+"CameraViaMethodFormatter" = "%@ camera via %@.";
+
+// -----
+
+"CameraChoiceSectionTitle" = "Which camera do you have?";
+"MethodChoiceSectionTitle" = "How would you like to connect?";
+
+// -----
+
+"ConnectionMethodQRCode" = "WiFi — Scan QR Code";
+"ConnectionMethodQRCodeShort" = "QR Code";
+"ConnectionMethodQRCodeShortInSentence" = "QR code";
+
+"ConnectionMethodWiFiManual" = "WiFi — Manually Join Network";
+"ConnectionMethodWiFiManualShort" = "WiFi";
+"ConnectionMethodWiFiManualShortInSentence" = "WiFi";
+
+"ConnectionMethodIPAddress" = "WiFi — Enter IP Address";
+"ConnectionMethodIPAddressShort" = "IP Address";
+"ConnectionMethodIPAddressShortInSentence" = "IP address";
+
+"ConnectionMethodNetworkAuto" = "Network — Automatic Discovery";
+"ConnectionMethodNetworkAutoShort" = "Network";
+"ConnectionMethodNetworkAutoShortInSentence" = "network";
+
+"ConnectionMethodNetworkIPAddress" = "Network — Enter IP Address";
+"ConnectionMethodNetworkIPAddressShort" = "IP Address";
+"ConnectionMethodNetworkIPAddressShortInSentence" = "IP address";
+
+"ConnectionMethodUSB" = "USB";
+"ConnectionMethodUSBShort" = "USB";
+"ConnectionMethodUSBShortInSentence" = "USB";
+
+// -----
+
+"SupportLevelEverything" = "Supports remote control, automation, and image transfer.";
+"SupportLevelImageTransferOnly" = "Supports image transfer only.";
+"SupportLevelVariable" = "Feature availability may be limited depending on camera model.";
+
+
