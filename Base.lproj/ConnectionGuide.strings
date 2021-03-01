@@ -23,7 +23,7 @@
 "ConnectionMethodQRCodeShort" = "QR Code";
 "ConnectionMethodQRCodeShortInSentence" = "QR code";
 
-"ConnectionMethodWiFiManual" = "WiFi — Manually Join Network";
+"ConnectionMethodWiFiManual" = "WiFi — Discover on Network";
 "ConnectionMethodWiFiManualShort" = "WiFi";
 "ConnectionMethodWiFiManualShortInSentence" = "WiFi";
 
@@ -43,10 +43,29 @@
 "ConnectionMethodUSBShort" = "USB";
 "ConnectionMethodUSBShortInSentence" = "USB";
 
+"USBNotSupportedSuffix" = " — Requires Newer iOS";
+"ConnectViaUSBBigTitle" = "Connect via\nUSB";
+
 // -----
 
 "SupportLevelEverything" = "Supports remote control, automation, and image transfer.";
 "SupportLevelImageTransferOnly" = "Supports image transfer only.";
 "SupportLevelVariable" = "Feature availability may be limited depending on camera model.";
+
+// -----
+
+"GenericUSBInstructions" = "Connect the camera to your iOS device using the appropriate adapter, then turn on the camera.\n\nIf the camera presents a “USB mode” choice, choose the option that mentions PTP, MTP, or tethering.";
+
+"CanonUSBInstructions" = "Connect the camera to your iOS device using the appropriate adapter, then turn on the camera.\n\nIf the camera is not detected within a few seconds, try setting the camera’s WiFi to “Disable”. Some Canon cameras disable their USB ports if WiFi is enabled, even if WiFi isn’t being used.";
+
+"GenericQRInstructions" = "Follow the WiFi connection setup steps of your camera until you see the connection QR code. Scan the code here, and Cascable will do the rest!";
+
+"CanonIPInstructions" = "Follow the network setup steps of the camera to connect in “Connect to smartphone” mode to the same network as your iOS device.\n\nOnce connected, enter the IP address of the camera (which should be displayed on the camera's screen) here, then tap “Connect”.";
+
+"GenericIPInstructions" = "Follow the network setup steps of the camera to connect to the same network as your iOS device.\n\nOnce connected, enter the IP address of the camera (which should be displayed on the camera's screen) here, then tap “Connect”.";
+
+"WiFiAutodetectWithPairingInstructions" = "Follow the network setup steps of the camera to either create a new WiFi network or join the same network as your iOS device. If the camera has pairing, you'll need to create a new pairing for Cascable on this device.\n\nIf the camera created a new WiFi network, go to the Settings app on this device and join that new WiFi network, then return to Cascable.\n\nOnce the camera and this device are on the same network, Cascable should detect and connect to the camera within a few seconds.";
+
+"WiFiAutodetectWithoutPairingInstructions" = "Follow the network setup steps of the camera to either create a new WiFi network or join the same network as your iOS device.\n\nIf the camera created a new WiFi network, go to the Settings app on this device and join that new WiFi network, then return to Cascable.\n\nOnce the camera and this device are on the same network, Cascable should detect and connect to the camera within a few seconds.";
 
 
