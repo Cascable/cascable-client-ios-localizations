@@ -1827,6 +1827,30 @@
 /* Title of the alert informing the user of a connection failure. */
 "ConnectionFailureTitle" = "Verbindungsfehler";
 
+/* Title of the alert informing the user that USB isn't supported. */
+"ConnectionFailureUSBTooOldTitle" = "USB wird nicht unterstützt";
+
+/* Description of the alert informing the user that USB isn't supported. */
+"ConnectionFailureUSBTooOldMessage" = "USB-Verbindungen erfordern iOS 14.2 oder höher. Bitte aktualisieren Sie Ihr iOS auf die neueste Version.";
+
+/* Title of the alert informing the user that permission was denied. */
+"ConnectionFailureNoPermissionTitle" = "Zugang verweigert";
+
+/* Description of the alert informing the user that permission was denied. */
+"ConnectionFailureNoPermissionMessage" = "Cascable hat keine Berechtigung von iOS, diesen Vorgang auszuführen. Bitte öffnen Sie Ihre Einstellungen-App und erteilen Sie Cascable die Berechtigung.";
+
+/* Title of the alert informing the user that no camera was found. */
+"ConnectionFailureNotFoundTitle" = "Kamera nicht gefunden";
+
+/* Description of the alert informing the user that no camera was found. */
+"ConnectionFailureNotFoundMessage" = "Eine Kamera konnte nicht gefunden werden. Stellen Sie sicher, dass Ihr iOS-Gerät und Ihre Kamera für einander sichtbar sind, und versuchen Sie es erneut.";
+
+/* Description of the alert for a connection failure after an IP address was entered. */
+"ConnectionFailureManualIPMessage" = "Unter der angegebenen IP-Adresse konnte keine Verbindung zu einer Kamera hergestellt werden. Überprüfen Sie die eingegebene IP-Adresse und stellen Sie sicher, dass die Kamera für Verbindungen bereit ist. Wenn für Ihre Kamera eine Gerätekopplung erforderlich ist, müssen Sie möglicherweise eine neue Kopplung für Ihre Kamera erstellen.";
+
+/* Title of the alert informing the user of a connection failure and we're reasonably confident it's due to pairing. */
+"ConnectionFailurePairingWarningTitle" = "Verbindungsfehler";
+
 /* Description of the alert informing the user of a connection failure. */
 "ConnectionFailureMessage" = "Verbindung zur Kamera fehlgeschlagen. Schalten Sie die Kamera aus und wieder ein und versuchen Sie es erneut. Sollte das Problem bestehen bleiben, wiederholen Sie das Pairing auf Ihrer Kamera, um eine neue Session für Cascable zu erstellen.";
 

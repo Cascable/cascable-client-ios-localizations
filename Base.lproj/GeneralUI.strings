@@ -1847,7 +1847,31 @@ Rotate your camera's mode dial away from the \"B\" position. If your mode dial d
 "AvailableCamerasTitle" = "Available Cameras";
 
 /* Title of the alert informing the user of a connection failure. */
-"ConnectionFailureTitle" = "New Camera Pairing Needed";
+"ConnectionFailureTitle" = "Connection Failed";
+
+/* Title of the alert informing the user that USB isn't supported. */
+"ConnectionFailureUSBTooOldTitle" = "USB Not Supported";
+
+/* Description of the alert informing the user that USB isn't supported. */
+"ConnectionFailureUSBTooOldMessage" = "USB connections require iOS 14.2 or higher. Please update your iOS to the latest version.";
+
+/* Title of the alert informing the user that permission was denied. */
+"ConnectionFailureNoPermissionTitle" = "Permission Denied";
+
+/* Description of the alert informing the user that permission was denied. */
+"ConnectionFailureNoPermissionMessage" = "Cascable does not have permission from iOS to perform this operation. Please open your Settings app and grant permission to Cascable.";
+
+/* Title of the alert informing the user that no camera was found. */
+"ConnectionFailureNotFoundTitle" = "Camera Not Found";
+
+/* Description of the alert informing the user that no camera was found. */
+"ConnectionFailureNotFoundMessage" = "A camera could not be found. Make sure that your iOS device and camera are visible to each other, then try again.";
+
+/* Description of the alert for a connection failure after an IP address was entered. */
+"ConnectionFailureManualIPMessage" = "Could not connect to a camera at the given IP address. Double-check the entered address, and that the camera is ready for connections. If your camera requires device pairing, you may need to create a new pairing on your camera.";
+
+/* Title of the alert informing the user of a connection failure and we're reasonably confident it's due to pairing. */
+"ConnectionFailurePairingWarningTitle" = "New Camera Pairing Needed";
 
 /* Description of the alert informing the user of a connection failure. */
 "ConnectionFailureMessage" = "Your camera didn't allow Cascable to connect. This is usually because it's paired with another app or device — create a new pairing on your camera for Cascable on this device and try again.";
