@@ -1,0 +1,21 @@
+
+"Camera" = "Colin";
+"Camera-Dark" = "Colin (Dark)";
+"Camera-Light" = "Colin (Light)";
+
+"Classic" = "Classic";
+"Classic-Dark" = "Classic (Dark)";
+"Classic-Light" = "Classic (Light)";
+
+"Lens" = "Lens";
+"Lens-Dark" = "Lens (Dark)";
+"Lens-Light" = "Lens (Light)";
+
+"Modern" = "Modern";
+"Modern-Dark" = "Modern (Dark)";
+"Modern-Light" = "Modern (Light)";
+
+"IconPickerTitle" = "App Icon";
+"MatchSystemIconVariantSubtitle" = "Match app theme";
+"LightIconVariantSubtitle" = "Light";
+"DarkIconVariantSubtitle" = "Dark";
