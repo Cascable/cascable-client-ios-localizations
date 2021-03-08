@@ -1,0 +1,21 @@
+
+"Camera" = "Colin";
+"Camera-Dark" = "Colin (Dunkel)";
+"Camera-Light" = "Colin (Licht)";
+
+"Classic" = "Klassisch";
+"Classic-Dark" = "Klassisch (Dunkel)";
+"Classic-Light" = "Klassisch (Licht)";
+
+"Lens" = "Linse";
+"Lens-Dark" = "Linse (Dunkel)";
+"Lens-Light" = "Linse (Licht)";
+
+"Modern" = "Modern";
+"Modern-Dark" = "Modern (Dunkel)";
+"Modern-Light" = "Modern (Licht)";
+
+"IconPickerTitle" = "App-Symbol";
+"MatchSystemIconVariantSubtitle" = "Mit App-Thema";
+"LightIconVariantSubtitle" = "Licht";
+"DarkIconVariantSubtitle" = "Dunkel";
