@@ -45,6 +45,8 @@
 
 "USBNotSupportedSuffix" = " — Requires Newer iOS";
 "ConnectViaUSBBigTitle" = "Connect via\nUSB";
+"ConnectViaNetworkBigTitle" = "Discover camera\non network";
+"SearchingForCameraBigTitle" = "Searching for\ncamera…";
 
 // -----
 
