@@ -44,9 +44,9 @@
 "ConnectionMethodUSBShortInSentence" = "USB";
 
 "USBNotSupportedSuffix" = " — Requires Newer iOS";
-"ConnectViaUSBBigTitle" = "Connect via\nUSB";
-"ConnectViaNetworkBigTitle" = "Discover camera\non network";
-"SearchingForCameraBigTitle" = "Searching for\ncamera…";
+"ConnectViaUSBBigTitle" = "Connect via USB";
+"ConnectViaNetworkBigTitle" = "Discover camera on network";
+"SearchingForCameraBigTitle" = "Searching for camera…";
 
 // -----
 
