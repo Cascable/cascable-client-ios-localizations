@@ -56,6 +56,22 @@
 
 // -----
 
+"OtherCameraModelName" = "Other";
+
+// -----
+
+"EOSCameraModelSubtitle" = "EOS SLR cameras, EOS M and EOS R mirrorless cameras.";
+"PowerShotCameraModelSubtitle" = "PowerShot compact cameras.";
+"FujiCameraModelSubtitle" = "X, X-T, and X-Pro series cameras.";
+"NikonCameraModelSubtitle" = "D series SLR and Z series mirrorless cameras.";
+"OlympusCameraModelSubtitle" = "OM-D, PEN, and TG series cameras.";
+"PanasonicCameraModelSubtitle" = "LUMIX series cameras.";
+"PhaseOneCameraModelSubtitle" = "IQ4 150MP cameras.";
+"SonyCameraModelSubtitle" = "Alpha and RX cameras.";
+"OtherCameraModelSubtitle" = "Cameras not mentioned above.";
+
+// -----
+
 "GenericUSBInstructions" = "Connect the camera to your iOS device using the appropriate adapter, then turn on the camera.\n\nIf the camera presents a “USB mode” choice, choose the option that mentions PTP, MTP, or tethering.";
 
 "CanonUSBInstructions" = "Connect the camera to your iOS device using the appropriate adapter, then turn on the camera.\n\nIf the camera is not detected within a few seconds, try setting the camera’s WiFi to “Disable”. Some Canon cameras disable their USB ports if WiFi is enabled, even if WiFi isn’t being used.";
