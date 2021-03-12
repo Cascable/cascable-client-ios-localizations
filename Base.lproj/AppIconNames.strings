@@ -15,6 +15,10 @@
 "Modern-Dark" = "Modern (Dark)";
 "Modern-Light" = "Modern (Light)";
 
+"PhaseOne" = "Phase One";
+"PhaseOne-Dark" = "Phase One (Dark)";
+"PhaseOne-Light" = "Phase One (Light)";
+
 "IconPickerTitle" = "App Icon";
 "MatchSystemIconVariantSubtitle" = "Match app theme";
 "LightIconVariantSubtitle" = "Light";
