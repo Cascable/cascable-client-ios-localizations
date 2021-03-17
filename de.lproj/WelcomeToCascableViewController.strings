@@ -8,8 +8,8 @@
 /* Class = "UIButton"; normalTitle = "View Tutorial"; ObjectID = "ZQR-9a-gue"; */
 "ZQR-9a-gue.normalTitle" = "Tutorial ansehen";
 
-/* Class = "UILabel"; text = "Searching for your camera"; ObjectID = "ddQ-Wt-q0A"; */
-"ddQ-Wt-q0A.text" = "Nach Ihrer Kamera suchen …";
+/* Class = "UILabel"; text = "Connect to your camera"; ObjectID = "ddQ-Wt-q0A"; */
+"ddQ-Wt-q0A.text" = "Eine Verbindung mit der Kamera …";
 
 /* Class = "UILabel"; text = "Cascable"; ObjectID = "erO-sq-HbD"; */
 "erO-sq-HbD.text" = "Cascable";
