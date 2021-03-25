@@ -1455,14 +1455,26 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Title of the 'Lock Viewfinder Orientation' option. */
 "LockViewfinderOrientationTitle" = "Lock Viewfinder Orientation";
 
+/* Title of the 'Lock Orientation' option. */
+"LockViewfinderOrientationShortTitle" = "Lock Orientation";
+
 /* Title of the 'Rotate Viewfinder' option. */
 "RotateViewfinderTitle" = "Rotate Viewfinder";
+
+/* Title of the 'Rotate' option. */
+"RotateViewfinderShortTitle" = "Rotate";
 
 /* Title of the 'Show Highlight Warning' option. */
 "ShowHighlightWarningTitle" = "Show Highlight Warning";
 
+/* Title of the 'Highlight Warning' option. */
+"ShowHighlightWarningShortTitle" = "Highlight Warning";
+
 /* Title of the 'Flip Image (Selfie Mode)' option. */
 "FlipViewfinderImageTitle" = "Flip Viewfinder (Selfie Mode)";
+
+/* Title of the 'Flip (Selfie Mode)' option. */
+"FlipViewfinderImageShortTitle" = "Flip (Selfie Mode)";
 
 /* Title of the 'Histogram' section of the overlays popup. */
 "HistogramSectionTitle" = "Histogram";
@@ -1470,11 +1482,17 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Title of the 'Show Histogram' option. */
 "HistogramVisibleTitle" = "Show Histogram";
 
+/* Title of the 'Histogram' option. */
+"HistogramVisibleShortTitle" = "Histogram";
+
 /* Title of the 'Grid' section of the overlays popup. */
 "GridSectionTitle" = "Grid";
 
 /* Title of the 'Show Grid' option. */
 "GridVisibleTitle" = "Show Grid";
+
+/* Title of the 'Grid' option. */
+"GridVisibleShortTitle" = "Grid";
 
 /* Title of the 'Vertical Line' option of the grid. Ex: '1 Vertical Line'. */
 "GridVerticalLinesRowTitle" = "%@ Vertical Line";
@@ -1482,11 +1500,17 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Title of the 'Vertical Line' option of the grid. Ex: '3 Vertical Lines'. */
 "GridVerticalLinesRowTitle_Plural" = "%@ Vertical Lines";
 
+/* Title of the 'Vertical Lines' option of the grid, without formatting. */
+"GridVerticalLinesShortTitle" = "Vertical Lines";
+
 /* Title of the 'Horizontal Line' option of the grid. Ex: '1 Horizontal Line'. */
 "GridHorizontalLinesRowTitle" = "%@ Horizontal Line";
 
 /* Title of the 'Horizontal Line' option of the grid. Ex: '3 Horizontal Lines'. */
 "GridHorizontalLinesRowTitle_Plural" = "%@ Horizontal Lines";
+
+/* Title of the 'Horizontal Lines' option of the grid, without formatting. */
+"GridHorizontalLinesShortTitle" = "Horizontal Lines";
 
 /* Title of the focusing popup. */
 "FocusConfigurationTitle" = "Focusing";

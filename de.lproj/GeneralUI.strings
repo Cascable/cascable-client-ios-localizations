@@ -1445,14 +1445,26 @@
 /* Title of the 'Lock Viewfinder Orientation' option. */
 "LockViewfinderOrientationTitle" = "Suchfenster-Ausrichtung sperren";
 
+/* Title of the 'Lock Orientation' option. */
+"LockViewfinderOrientationShortTitle" = "Drehung sperren";
+
 /* Title of the 'Rotate Viewfinder' option. */
 "RotateViewfinderTitle" = "Suchfenster drehen";
+
+/* Title of the 'Rotate' option. */
+"RotateViewfinderShortTitle" = "Drehen";
 
 /* Title of the 'Show Highlight Warning' option. */
 "ShowHighlightWarningTitle" = "Belichtungswarnung anzeigen";
 
+/* Title of the 'Highlight Warning' option. */
+"ShowHighlightWarningShortTitle" = "Belichtungswarnung";
+
 /* Title of the 'Flip Viewfinder (Selfie Mode)' option. */
 "FlipViewfinderImageTitle" = "Suchfenster spiegeln (Selfiemodus)";
+
+/* Title of the 'Flip (Selfie Mode)' option. */
+"FlipViewfinderImageShortTitle" = "Spiegeln (Selfiemodus)";
 
 /* Title of the 'Histogram' section of the overlays popup. */
 "HistogramSectionTitle" = "Histogramm";
@@ -1460,11 +1472,17 @@
 /* Title of the 'Show Histogram' option. */
 "HistogramVisibleTitle" = "Histogramm anzeigen";
 
+/* Title of the 'Histogram' option. */
+"HistogramVisibleShortTitle" = "Histogramm";
+
 /* Title of the 'Grid' section of the overlays popup. */
 "GridSectionTitle" = "Raster";
 
 /* Title of the 'Show Grid' option. */
 "GridVisibleTitle" = "Raster einblenden";
+
+/* Title of the 'Grid' option. */
+"GridVisibleShortTitle" = "Raster";
 
 /* Title of the 'Vertical Line' option of the grid. Ex: '1 Vertical Line'. */
 "GridVerticalLinesRowTitle" = "%@ vertikale Linie";
@@ -1472,11 +1490,17 @@
 /* Title of the 'Vertical Line' option of the grid. Ex: '3 Vertical Lines'. */
 "GridVerticalLinesRowTitle_Plural" = "%@ vertikale Linien";
 
+/* Title of the 'Vertical Lines' option of the grid, without formatting. */
+"GridVerticalLinesShortTitle" = "Vertikale Linien";
+
 /* Title of the 'Horizontal Line' option of the grid. Ex: '1 Horizontal Line'. */
 "GridHorizontalLinesRowTitle" = "%@ horizontale Linie";
 
 /* Title of the 'Horizontal Line' option of the grid. Ex: '3 Horizontal Lines'. */
 "GridHorizontalLinesRowTitle_Plural" = "%@ horizontale Linien";
+
+/* Title of the 'Horizontal Lines' option of the grid, without formatting. */
+"GridHorizontalLinesShortTitle" = "Horizontale Linien";
 
 /* Title of the focusing popup. */
 "FocusConfigurationTitle" = "Fokussierung";
