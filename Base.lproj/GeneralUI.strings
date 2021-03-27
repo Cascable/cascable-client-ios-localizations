@@ -1606,6 +1606,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Title of the 'Duration' self timer setting. */
 "TimerRobotDurationTitle" = "Duration";
 
+/* An explanation of the interval setting. */
+"TimerRobotDurationDetails" = "The duration is the time between pressing the shutter button and the photo being taken.";
+
 /* Title of the 'Audible Countdown' self timer setting. */
 "TimerRobotAudibleCountdownTitle" = "Audible Countdown";
 
@@ -1622,8 +1625,14 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Title of the 'Shot Duration' self timer setting. */
 "BulbRobotDurationTitle" = "Shot Duration";
 
+/* An explanation of the duration setting. */
+"BulbRobotDurationDetails" = "Shot duration is the time the shutter will be held open for each shot.";
+
 /* Title of the "Time between shots" bulb timer module. */
 "BulbRobotTimeBetweenShotsTitle" = "Time Between Shots";
+
+/* An explanation of the time between shots setting. */
+"BulbRobotTimeBetweenShotsDetails" = "The time between closing the shutter for one shot and opening it again for the next.\n\nMake sure to give your camera enough time to process an exposure and get for the next one — this can be longer than the exposure duration itself for some cameras, depending on the camera's settings. See your camera's user manual for more information.";
 
 // ------------------------------------------------------------
 //     Shutter Robot: Intervalometer
@@ -1637,6 +1646,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 
 /* Title of the 'Interval' setting of the intervalometer module. */
 "IntervalometerRobotIntervalTitle" = "Interval";
+
+/* An explanation of the interval setting. */
+"IntervalometerRobotIntervalDetails" = "The interval is the time between the start of each shot. Make sure to give your camera enough time to get ready again between shots, otherwise shots may be missed.\n\nIf you are using longer shutter speeds, you need to account for them in your interval. For example, if you have a one second shutter speed and want a five second gap between each shot, the interval should be set to six seconds.";
 
 /* Title of the 'Stop' setting of the intervalometer module. */
 "IntervalometerRobotDisengageTitle" = "Stop";
