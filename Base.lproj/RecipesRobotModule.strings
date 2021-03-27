@@ -36,6 +36,7 @@
 "RecipeLogsListNoLogsLongTitle" = "When you run recipes, logs of the ten most recent runs will be available here.";
 "RecipeLogsListSubtitle" = "Run with %@ on %@.";
 "RecipeLogsListNoLogsTitle" = "No Recipe Runs Available";
+"RecipeLogsFailureTitle" = "Unable to load log.";
 
 "RecipeLogTitleHeader" = "%@ on %@";
 "RecipeLogRecipeNameHeader" = "Recipe";
