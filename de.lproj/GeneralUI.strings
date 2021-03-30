@@ -1514,6 +1514,9 @@
 /* String placed in the space where the content for the feature (i.e., choosing which autofocus mode to use) would be. */
 "CameraFeatureNotAvailableContentPlaceholder" = "Nicht in Cascable einstellbar";
 
+/* Placeholder title for the situation when the user is expecting a list of choices for a camera setting. */
+"NoChoicesAvailableTitle" = "Keine Auswahl verfügbar.";
+
 // ------------------------------------------------------------
 //     Shutter Robot: General
 // ------------------------------------------------------------

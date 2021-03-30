@@ -1524,6 +1524,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* String placed in the space where the content for the feature (i.e., choosing which autofocus mode to use) would be. */
 "CameraFeatureNotAvailableContentPlaceholder" = "Not settable within Cascable.";
 
+/* Placeholder title for the situation when the user is expecting a list of choices for a camera setting. */
+"NoChoicesAvailableTitle" = "No choices available.";
+
 // ------------------------------------------------------------
 //     Shutter Robot: General
 // ------------------------------------------------------------
