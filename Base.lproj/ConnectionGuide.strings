@@ -9,6 +9,7 @@
 "ReconnectTitle" = "Reconnect";
 "ConnectToCameraTitle" = "Connect to camera…";
 "ConnectToOtherTitle" = "Connect to other…";
+"ConnectToOtherSubtitle" = "Search for another camera.";
 "CameraAtIPAddressFormatter" = "%@ camera at %@.";
 "CameraViaMethodFormatter" = "%@ camera via %@.";
 
