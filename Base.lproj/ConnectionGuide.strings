@@ -8,8 +8,11 @@
 
 "ReconnectTitle" = "Reconnect";
 "ConnectToCameraTitle" = "Connect to camera…";
+"ConnectToCameraSubtitle" = "Connect to your camera via USB or WiFi (depending on model).";
 "ConnectToOtherTitle" = "Connect to other…";
 "ConnectToOtherSubtitle" = "Search for another camera.";
+"ConnectNewTitle" = "Connect new";
+"ConnectNewSubtitle" = "Search for another camera.";
 "CameraAtIPAddressFormatter" = "%@ camera at %@.";
 "CameraViaMethodFormatter" = "%@ camera via %@.";
 
