@@ -1582,6 +1582,8 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* 'Quick Settings' Quick Setting title. */
 "QuickSettingsQuickSettingTitle" = "Quick Settings";
 
+"QuickSettingOnlyOneEntryTitle" = "The camera doesn't allow changes to this setting via Cascable.\n\nLook for a dial or switch on the camera body to change the setting.";
+
 // ------------------------------------------------------------
 //     Shutter Robot: General
 // ------------------------------------------------------------
