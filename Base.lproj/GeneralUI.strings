@@ -1467,8 +1467,14 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Shutter speed value prefix in "simple" terms (no special characters etc). */
 "ShutterSpeedPropertySimpleAdornmentPrefix" = "1/";
 
-/* Shutter speed value suffix in "simple" terms (no special characters etc). */
-"ShutterSpeedPropertySimpleAdornmentSuffix" = "s";
+/* Shutter speed value suffix in seconds for "simple" terms (no special characters etc). */
+"ShutterSpeedPropertySimpleAdornmentSecondsSuffix" = "s";
+
+/* Shutter speed value suffix in minutes for "simple" terms (no special characters etc). */
+"ShutterSpeedPropertySimpleAdornmentMinutesSuffix" = "m";
+
+/* Shutter speed value suffix in hours for "simple" terms (no special characters etc). */
+"ShutterSpeedPropertySimpleAdornmentHoursSuffix" = "h";
 
 /* Short title for the 'Exposure Compensation' property. */
 "ExposureCompensationPropertyShortTitle" = "EV";
