@@ -1,5 +1,5 @@
 {
-    "title" : "Show Tutorial",
+    "title" : "First Welcome",
     "id": "se.cascable.client.help.special.tutorial",
     "icon": "TutorialHelpArticleIcon",
     "category": "se.cascable.client.help.category.welcome"
