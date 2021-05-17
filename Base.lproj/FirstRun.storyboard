@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZN2-am-Zmm">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZN2-am-Zmm">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,7 +13,6 @@
                 <navigationController modalPresentationStyle="pageSheet" navigationBarHidden="YES" id="ZN2-am-Zmm" sceneMemberID="viewController">
                     <nil key="simulatedStatusBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Nbj-pM-e9b">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -26,7 +21,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2pL-xg-Pre" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="130" y="-577"/>
+            <point key="canvasLocation" x="-703" y="331"/>
         </scene>
         <!--Welcome-->
         <scene sceneID="zK8-pb-TWa">
@@ -41,27 +36,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Cascable" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3x-YS-zoX">
-                                <rect key="frame" x="62" y="175" width="251" height="31.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <rect key="frame" x="60" y="175" width="255" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e51-oR-xjz">
-                                <rect key="frame" x="57.5" y="216.5" width="260" height="62.5"/>
+                                <rect key="frame" x="57.5" y="216.5" width="260" height="109"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="aYW-Lz-eal">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Cascable is your photography assistant. To get you started, we'll explain the basics and ask you some questions on how you'd like to use Cascable.</string>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <string key="text">Thank you for using Cascable!
+
+Cascable is your photography assistant. To get you started, we'll ask you a couple of quick questions on how you'd like to use Cascable, then you'll be able to get right into it and connect to your camera!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 </variation>
                             </label>
                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AboutIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Y9H-Or-uKy">
@@ -73,67 +70,50 @@
                                     <constraint firstAttribute="width" secondItem="Y9H-Or-uKy" secondAttribute="height" multiplier="1:1" id="T6q-vc-55n"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First, let's take a quick tour of Cascable's main functions. You can take a tour again at any time from the Help menu." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hay-5R-Q3N">
-                                <rect key="frame" x="57.5" y="289" width="260" height="47"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can see this again at any time from the Help menu." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hay-5R-Q3N">
+                                <rect key="frame" x="57.5" y="335.5" width="260" height="31.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="tWd-WM-H4W">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 </variation>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXi-v8-9jx">
-                                <rect key="frame" x="98.5" y="562" width="178" height="85"/>
+                                <rect key="frame" x="98.5" y="611" width="178" height="36"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wr9-Wd-JN8" customClass="CBLPillButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wr9-Wd-JN8" customClass="CBLPillButton">
                                         <rect key="frame" x="0.0" y="0.0" width="178" height="36"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="178" id="Q63-MR-0sq"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="178" id="Q63-MR-0sq"/>
                                             <constraint firstAttribute="height" constant="42" id="dfM-ee-gUm">
                                                 <variation key="widthClass=compact" constant="36"/>
                                             </constraint>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="Get Started  →">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <variation key="widthClass=compact">
-                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         </variation>
                                         <connections>
-                                            <segue destination="3Hm-m9-Uay" kind="show" id="ilS-Yr-AIL"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NP-z9-ZaH">
-                                        <rect key="frame" x="59.5" y="46" width="60" height="29"/>
-                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                        <state key="normal" title="Skip Tour">
-                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <variation key="widthClass=compact">
-                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                                        </variation>
-                                        <connections>
-                                            <segue destination="64p-sF-5MF" kind="show" id="2dZ-45-i3I"/>
+                                            <segue destination="64p-sF-5MF" kind="show" id="N5N-Vv-Afy"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="9NP-z9-ZaH" secondAttribute="bottom" constant="10" id="6ug-Ik-Ijy"/>
-                                    <constraint firstAttribute="trailing" secondItem="Wr9-Wd-JN8" secondAttribute="trailing" id="8Rq-eN-LmL"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Wr9-Wd-JN8" secondAttribute="trailing" id="8Rq-eN-LmL"/>
                                     <constraint firstAttribute="centerX" secondItem="Wr9-Wd-JN8" secondAttribute="centerX" id="9y1-ka-O4R"/>
+                                    <constraint firstAttribute="bottom" secondItem="Wr9-Wd-JN8" secondAttribute="bottom" id="NbC-q4-tv5"/>
                                     <constraint firstItem="Wr9-Wd-JN8" firstAttribute="top" secondItem="aXi-v8-9jx" secondAttribute="top" id="Tgy-XH-z9h"/>
                                     <constraint firstItem="Wr9-Wd-JN8" firstAttribute="leading" secondItem="aXi-v8-9jx" secondAttribute="leading" id="jcC-zE-naS"/>
-                                    <constraint firstItem="9NP-z9-ZaH" firstAttribute="top" secondItem="Wr9-Wd-JN8" secondAttribute="bottom" constant="20" id="mYI-L7-cSp">
-                                        <variation key="widthClass=compact" constant="10"/>
-                                    </constraint>
-                                    <constraint firstAttribute="centerX" secondItem="9NP-z9-ZaH" secondAttribute="centerX" id="wfB-AV-ijV"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -172,236 +152,6 @@
             </objects>
             <point key="canvasLocation" x="130" y="333"/>
         </scene>
-        <!--Screens-->
-        <scene sceneID="NKo-8z-P4m">
-            <objects>
-                <viewController id="3Hm-m9-Uay" userLabel="Screens" customClass="CBLFirstRunTutorialViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lDM-b8-0gP"/>
-                        <viewControllerLayoutGuide type="bottom" id="ruE-rJ-ePT"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="662-TK-s3R">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DeviceWireframe" translatesAutoresizingMaskIntoConstraints="NO" id="tJj-J2-8o4">
-                                <rect key="frame" x="92.5" y="115.5" width="190" height="389"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Screen Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ZC-Bh-GeY">
-                                <rect key="frame" x="119" y="20" width="137" height="31.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                </variation>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QJ5-aQ-aEr" customClass="CBLPillButton">
-                                <rect key="frame" x="307" y="524.66666666666663" width="150" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="42" id="tRP-BA-TN4">
-                                        <variation key="widthClass=compact" constant="36"/>
-                                    </constraint>
-                                    <constraint firstAttribute="width" constant="150" id="xXp-XT-RSO"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <state key="normal" title=" Continue →">
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
-                                    <mask key="constraints">
-                                        <exclude reference="tRP-BA-TN4"/>
-                                        <exclude reference="xXp-XT-RSO"/>
-                                    </mask>
-                                </variation>
-                                <connections>
-                                    <action selector="tapNext:" destination="3Hm-m9-Uay" eventType="touchUpInside" id="Gxm-1O-WpO"/>
-                                </connections>
-                            </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O1b-xf-eaa" userLabel="Screen">
-                                <rect key="frame" x="105.5" y="162.5" width="164" height="294"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEU-Kg-jDC">
-                                <rect key="frame" x="47.5" y="61.5" width="280" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="700" id="5Co-iV-ImL">
-                                        <variation key="widthClass=compact" constant="280"/>
-                                    </constraint>
-                                    <constraint firstAttribute="height" constant="42" id="r8H-N6-Cbz">
-                                        <variation key="widthClass=compact" constant="34"/>
-                                    </constraint>
-                                </constraints>
-                                <string key="text">Up to two lines of description for the currently displayed screen.
-(Line 2)</string>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
-                                </variation>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHQ-iV-3KP">
-                                <rect key="frame" x="-43" y="528.66666666666663" width="150" height="29"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <state key="normal" title="← Previous">
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                                </variation>
-                                <connections>
-                                    <action selector="tapPrevious:" destination="3Hm-m9-Uay" eventType="touchUpInside" id="Ej9-N9-8yN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eqe-9D-ewq" customClass="CBLPillButton">
-                                <rect key="frame" x="292.5" y="292" width="45" height="36"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="42" id="BE6-vw-SBl">
-                                        <variation key="widthClass=compact" constant="36"/>
-                                    </constraint>
-                                    <constraint firstAttribute="width" constant="75" id="iyI-6h-slS">
-                                        <variation key="widthClass=compact" constant="45"/>
-                                    </constraint>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <state key="normal" title="→">
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="BE6-vw-SBl"/>
-                                        <exclude reference="iyI-6h-slS"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
-                                    <mask key="constraints">
-                                        <include reference="BE6-vw-SBl"/>
-                                        <include reference="iyI-6h-slS"/>
-                                    </mask>
-                                </variation>
-                                <connections>
-                                    <action selector="tapNext:" destination="3Hm-m9-Uay" eventType="touchUpInside" id="61y-ba-ImC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6z-db-tNJ" customClass="CBLPillButton">
-                                <rect key="frame" x="37.5" y="292" width="45" height="36"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="42" id="hE8-2l-kf6">
-                                        <variation key="widthClass=compact" constant="36"/>
-                                    </constraint>
-                                    <constraint firstAttribute="width" constant="75" id="lmv-Nl-Qr1">
-                                        <variation key="widthClass=compact" constant="45"/>
-                                    </constraint>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <state key="normal" title="←">
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="hE8-2l-kf6"/>
-                                        <exclude reference="lmv-Nl-Qr1"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
-                                    <mask key="constraints">
-                                        <include reference="hE8-2l-kf6"/>
-                                        <include reference="lmv-Nl-Qr1"/>
-                                    </mask>
-                                </variation>
-                                <connections>
-                                    <action selector="tapPrevious:" destination="3Hm-m9-Uay" eventType="touchUpInside" id="g4g-K8-JR9"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="QJ5-aQ-aEr" firstAttribute="width" secondItem="mHQ-iV-3KP" secondAttribute="width" id="073-1G-n4J"/>
-                            <constraint firstItem="zEU-Kg-jDC" firstAttribute="top" secondItem="1ZC-Bh-GeY" secondAttribute="bottom" constant="20" id="4L9-oJ-QLp">
-                                <variation key="widthClass=compact" constant="10"/>
-                            </constraint>
-                            <constraint firstAttribute="centerX" secondItem="tJj-J2-8o4" secondAttribute="centerX" id="7GA-Zk-GUw"/>
-                            <constraint firstItem="O1b-xf-eaa" firstAttribute="bottom" secondItem="tJj-J2-8o4" secondAttribute="bottom" constant="-28" id="LwK-Zs-jpN">
-                                <variation key="widthClass=compact" constant="-48"/>
-                            </constraint>
-                            <constraint firstItem="Eqe-9D-ewq" firstAttribute="centerY" secondItem="tJj-J2-8o4" secondAttribute="centerY" id="Opi-w8-sNV"/>
-                            <constraint firstItem="O1b-xf-eaa" firstAttribute="leading" secondItem="tJj-J2-8o4" secondAttribute="leading" constant="56" id="Oxf-dM-emN">
-                                <variation key="widthClass=compact" constant="13"/>
-                            </constraint>
-                            <constraint firstAttribute="centerX" secondItem="1ZC-Bh-GeY" secondAttribute="centerX" id="PvZ-xx-HIA"/>
-                            <constraint firstItem="tJj-J2-8o4" firstAttribute="top" secondItem="zEU-Kg-jDC" secondAttribute="bottom" constant="50" id="RxL-rS-8G1">
-                                <variation key="widthClass=compact" constant="20"/>
-                            </constraint>
-                            <constraint firstItem="O1b-xf-eaa" firstAttribute="trailing" secondItem="tJj-J2-8o4" secondAttribute="trailing" constant="-55" id="UXN-Qj-cXj">
-                                <variation key="widthClass=compact" constant="-13"/>
-                            </constraint>
-                            <constraint firstItem="mHQ-iV-3KP" firstAttribute="baseline" secondItem="QJ5-aQ-aEr" secondAttribute="baseline" id="Udn-wJ-m2D"/>
-                            <constraint firstItem="Eqe-9D-ewq" firstAttribute="leading" secondItem="tJj-J2-8o4" secondAttribute="trailing" constant="10" id="VJa-De-MLi"/>
-                            <constraint firstItem="QJ5-aQ-aEr" firstAttribute="leading" secondItem="mHQ-iV-3KP" secondAttribute="trailing" constant="200" id="ZOL-hL-qpN"/>
-                            <constraint firstAttribute="centerX" secondItem="zEU-Kg-jDC" secondAttribute="centerX" id="iKz-pK-VtT"/>
-                            <constraint firstItem="d6z-db-tNJ" firstAttribute="centerY" secondItem="tJj-J2-8o4" secondAttribute="centerY" id="kCS-ku-vRP"/>
-                            <constraint firstItem="tJj-J2-8o4" firstAttribute="leading" secondItem="d6z-db-tNJ" secondAttribute="trailing" constant="10" id="kq8-v4-owX"/>
-                            <constraint firstItem="O1b-xf-eaa" firstAttribute="top" secondItem="tJj-J2-8o4" secondAttribute="top" constant="28" id="mGS-8G-c3T">
-                                <variation key="widthClass=compact" constant="47"/>
-                            </constraint>
-                            <constraint firstItem="QJ5-aQ-aEr" firstAttribute="leading" secondItem="tJj-J2-8o4" secondAttribute="centerX" constant="100" id="ppD-j5-2C6"/>
-                            <constraint firstItem="1ZC-Bh-GeY" firstAttribute="top" secondItem="lDM-b8-0gP" secondAttribute="bottom" constant="40" id="rbd-wt-mmz">
-                                <variation key="widthClass=compact" constant="20"/>
-                            </constraint>
-                            <constraint firstItem="QJ5-aQ-aEr" firstAttribute="top" secondItem="tJj-J2-8o4" secondAttribute="bottom" constant="40" id="wZk-Ny-lMU">
-                                <variation key="widthClass=compact" constant="20"/>
-                            </constraint>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="Eqe-9D-ewq"/>
-                                <exclude reference="d6z-db-tNJ"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="kq8-v4-owX"/>
-                                <exclude reference="kCS-ku-vRP"/>
-                                <exclude reference="Opi-w8-sNV"/>
-                                <exclude reference="VJa-De-MLi"/>
-                            </mask>
-                        </variation>
-                        <variation key="widthClass=compact">
-                            <mask key="subviews">
-                                <exclude reference="QJ5-aQ-aEr"/>
-                                <exclude reference="mHQ-iV-3KP"/>
-                                <include reference="Eqe-9D-ewq"/>
-                                <include reference="d6z-db-tNJ"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="kq8-v4-owX"/>
-                                <exclude reference="Udn-wJ-m2D"/>
-                                <exclude reference="073-1G-n4J"/>
-                                <exclude reference="ZOL-hL-qpN"/>
-                                <exclude reference="ppD-j5-2C6"/>
-                                <exclude reference="wZk-Ny-lMU"/>
-                                <include reference="kCS-ku-vRP"/>
-                                <include reference="Opi-w8-sNV"/>
-                                <include reference="VJa-De-MLi"/>
-                            </mask>
-                        </variation>
-                    </view>
-                    <connections>
-                        <outlet property="screenContainer" destination="O1b-xf-eaa" id="21s-IK-IgJ"/>
-                        <outlet property="subTitleLabel" destination="zEU-Kg-jDC" id="T7O-Rw-ejI"/>
-                        <outlet property="titleLabel" destination="1ZC-Bh-GeY" id="BzX-7w-PeL"/>
-                        <outlet property="wireframeImageView" destination="tJj-J2-8o4" id="TxE-ec-slW"/>
-                        <segue destination="64p-sF-5MF" kind="show" identifier="showNotificationPermissions" id="y2n-9M-f52"/>
-                        <segue destination="hLI-x9-vXs" kind="unwind" identifier="unwindToStart" unwindAction="unwindToStart:" id="T5K-ES-Jx0"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YwB-Tw-paF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="hLI-x9-vXs" userLabel="Exit" sceneMemberID="exit"/>
-            </objects>
-            <point key="canvasLocation" x="1263.75" y="333"/>
-        </scene>
         <!--Notification Permissions-->
         <scene sceneID="moS-a2-mDP">
             <objects>
@@ -414,83 +164,86 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notifications" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KgJ-Oy-9xx">
-                                <rect key="frame" x="115" y="20" width="145" height="31.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status Notifications" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KgJ-Oy-9xx">
+                                <rect key="frame" x="71" y="20" width="233" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avd-i8-4VS">
-                                <rect key="frame" x="57.5" y="71.5" width="260" height="62.5"/>
+                                <rect key="frame" x="57.5" y="71.5" width="260" height="93.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="DKp-AE-woS">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Cascable will maintain a connection to your camera when you're using other apps. However, it might have to disconnect after a long period of time.</string>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <string key="text">Cascable will maintain a connection to your camera and continue tasks when you're using other apps. However, it might have to disconnect or stop those tasks after a period of time when in the background.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you like, Cascable can notify you when it has to disconnect from your camera in the background." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NiC-RM-rQE">
-                                <rect key="frame" x="57.5" y="144" width="260" height="47"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NiC-RM-rQE">
+                                <rect key="frame" x="57.5" y="175" width="260" height="109"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="495" id="ygN-2b-gdJ">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <string key="text">If you like, Cascable can notify you when it has to disconnect from your camera or stop other tasks while in the background.
+
+Notifications are generated on your device, and are only used to inform you about the status of tasks you're running.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZE-IP-z7j" customClass="CBLPillButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZE-IP-z7j" customClass="CBLPillButton">
                                 <rect key="frame" x="62.5" y="562" width="250" height="36"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="310" id="8jy-Yq-EtB">
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="310" id="8jy-Yq-EtB">
                                         <variation key="widthClass=compact" constant="250"/>
                                     </constraint>
                                     <constraint firstAttribute="height" constant="42" id="R7c-rV-Lis">
                                         <variation key="widthClass=compact" constant="36"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <state key="normal" title="Show Disconnection Notifications">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Show Status Notifications">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 </variation>
                                 <connections>
                                     <action selector="enableNotifications:" destination="64p-sF-5MF" eventType="touchUpInside" id="JGV-53-GjZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7QS-WU-wUI">
-                                <rect key="frame" x="109" y="608" width="157" height="29"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7QS-WU-wUI">
+                                <rect key="frame" x="107.5" y="608" width="160" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Don't Show Notifications">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 </variation>
                                 <connections>
                                     <segue destination="VTa-aR-8qN" kind="show" identifier="enableNotificationsComplete" id="Q3d-zX-Pfe"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tbi-hu-nJ8">
-                                <rect key="frame" x="127.5" y="211" width="120" height="331"/>
+                                <rect key="frame" x="95" y="304" width="185" height="238"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CameraDisconnectedFace" translatesAutoresizingMaskIntoConstraints="NO" id="vkM-xe-Hlj">
-                                        <rect key="frame" x="0.0" y="121.5" width="120" height="88"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TalkingFace" translatesAutoresizingMaskIntoConstraints="NO" id="vkM-xe-Hlj">
+                                        <rect key="frame" x="0.0" y="64" width="185" height="110"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -602,10 +355,11 @@
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="jFz-ST-HVe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K2b-iP-bza" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2418" y="333"/>
+            <point key="canvasLocation" x="966" y="332"/>
         </scene>
         <!--All Done!-->
         <scene sceneID="C8t-5W-jzu">
@@ -620,12 +374,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Done!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkA-ou-F8n">
-                                <rect key="frame" x="135.5" y="20" width="104" height="31.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <rect key="frame" x="134.5" y="20" width="106.5" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Bs-PF-Jvn">
@@ -640,29 +394,29 @@
 If you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?
 
 Enjoy!</string>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTH-Fo-vxd" customClass="CBLPillButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTH-Fo-vxd" customClass="CBLPillButton">
                                 <rect key="frame" x="97.5" y="591" width="180" height="36"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="18I-El-H2O">
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="18I-El-H2O">
                                         <variation key="widthClass=compact" constant="180"/>
                                     </constraint>
                                     <constraint firstAttribute="height" constant="42" id="lbD-JQ-Nn6">
                                         <variation key="widthClass=compact" constant="36"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Start Using Cascable">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 </variation>
                                 <connections>
                                     <action selector="closeFirstRun:" destination="VTa-aR-8qN" eventType="touchUpInside" id="Lo5-PJ-KoV"/>
@@ -672,9 +426,9 @@ Enjoy!</string>
                                 <rect key="frame" x="65" y="216" width="245" height="355"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2bp-WN-6YJ">
-                                        <rect key="frame" x="0.0" y="136.5" width="245" height="83"/>
+                                        <rect key="frame" x="0.0" y="136" width="245" height="83"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ts-Ae-y57">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ts-Ae-y57">
                                                 <rect key="frame" x="0.0" y="41" width="92" height="28"/>
                                                 <state key="normal" title="@CascableApp">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -693,7 +447,7 @@ Enjoy!</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7C-iy-dah">
-                                                <rect key="frame" x="24.5" y="0.0" width="44" height="44"/>
+                                                <rect key="frame" x="24" y="0.0" width="44" height="44"/>
                                                 <state key="normal" image="TwitterLogo">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -702,7 +456,7 @@ Enjoy!</string>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ici-9n-LR1">
-                                                <rect key="frame" x="176.5" y="0.0" width="44" height="44"/>
+                                                <rect key="frame" x="177" y="0.0" width="44" height="44"/>
                                                 <state key="normal" image="InstagramLogo">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -710,7 +464,7 @@ Enjoy!</string>
                                                     <action selector="openInstagram:" destination="VTa-aR-8qN" eventType="touchUpInside" id="fUM-gW-aJv"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XnR-P6-5b5">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XnR-P6-5b5">
                                                 <rect key="frame" x="153" y="41" width="92" height="28"/>
                                                 <state key="normal" title="@CascableApp">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -723,13 +477,13 @@ Enjoy!</string>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="on Instagram" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vpI-Ex-VFj">
-                                                <rect key="frame" x="159.5" y="67" width="80" height="16"/>
+                                                <rect key="frame" x="159.5" y="67" width="79.5" height="16"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lHo-7c-839" customClass="CBLHairlineDividerView">
-                                                <rect key="frame" x="122" y="20" width="1" height="41.5"/>
+                                                <rect key="frame" x="122" y="21" width="1" height="41.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="1" id="Sqz-jg-Ssu"/>
                                                 </constraints>
@@ -788,6 +542,7 @@ Enjoy!</string>
                             </constraint>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="NJP-sB-rQU"/>
                     <connections>
                         <outletCollection property="tintableButtons" destination="T7C-iy-dah" collectionClass="NSMutableArray" id="XYP-QJ-pqw"/>
                         <outletCollection property="tintableButtons" destination="5Ts-Ae-y57" collectionClass="NSMutableArray" id="Q4L-Qo-Bwg"/>
@@ -797,18 +552,15 @@ Enjoy!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eqh-Pz-nes" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3612" y="333"/>
+            <point key="canvasLocation" x="1778" y="331"/>
         </scene>
     </scenes>
     <resources>
         <image name="AboutIcon" width="150" height="150"/>
         <image name="CameraDisconnectedFace" width="120" height="88"/>
-        <image name="DeviceWireframe" width="190" height="389"/>
         <image name="FirstRunNotificationBubbleiPad" width="201" height="66"/>
         <image name="InstagramLogo" width="44" height="44"/>
+        <image name="TalkingFace" width="185" height="110"/>
         <image name="TwitterLogo" width="44" height="44"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="y2n-9M-f52"/>
-    </inferredMetricsTieBreakers>
 </document>
