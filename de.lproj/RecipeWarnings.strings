@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "There are problems with your recipe that may cause undesirable results or block it from running altogether. You can review the problems below."; ObjectID = "CHy-Wr-PfX"; */
+"CHy-Wr-PfX.text" = "There are problems with your recipe that may cause undesirable results or block it from running altogether. You can review the problems below.";
+
+/* Class = "UILabel"; text = "There are one or more variables missing."; ObjectID = "RZc-Me-qlz"; */
+"RZc-Me-qlz.text" = "There are one or more variables missing.";
+
+/* Class = "UINavigationItem"; title = "Recipe Problems"; ObjectID = "jxl-Vg-Fvq"; */
+"jxl-Vg-Fvq.title" = "Recipe Problems";
+
+/* Class = "UILabel"; text = "Missing Variable"; ObjectID = "uKl-JP-Hiy"; */
+"uKl-JP-Hiy.text" = "Missing Variable";

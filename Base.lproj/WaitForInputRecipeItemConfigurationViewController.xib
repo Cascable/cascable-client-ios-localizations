@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WaitForInputRecipeItemConfigurationViewController" customModule="Cascable" customModuleProvider="target">
+            <connections>
+                <outlet property="allowRemoteCancelSwitch" destination="d1o-Fe-aoa" id="cgL-yi-ROy"/>
+                <outlet property="messageField" destination="gXR-5d-JjY" id="2Gh-BH-rnW"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="labels" destination="5Qj-DI-y4M" collectionClass="NSMutableArray" id="n5v-Bv-m4V"/>
+                <outletCollection property="labels" destination="3tu-7O-jia" collectionClass="NSMutableArray" id="WoV-wq-XTb"/>
+                <outletCollection property="labels" destination="iVp-EJ-8zz" collectionClass="NSMutableArray" id="kCB-JI-7YH"/>
+                <outletCollection property="labels" destination="YFy-4T-dke" collectionClass="NSMutableArray" id="9Z0-KE-gUa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hl-zY-jrd">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FA0-s4-Pp0">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="338"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Default message" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gXR-5d-JjY">
+                                    <rect key="frame" x="43" y="99" width="234" height="34"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <connections>
+                                        <action selector="messageDidChange:" destination="-1" eventType="editingChanged" id="FIu-aq-eqp"/>
+                                        <outlet property="delegate" destination="-1" id="8R4-Oe-pw8"/>
+                                    </connections>
+                                </textField>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When executed, this block will wait until a button is tapped to continue execution, showing the following message:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Qj-DI-y4M">
+                                    <rect key="frame" x="23" y="24" width="274" height="55"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d1o-Fe-aoa">
+                                    <rect key="frame" x="43" y="228" width="51" height="31"/>
+                                    <connections>
+                                        <action selector="switchDidChange:" destination="-1" eventType="valueChanged" id="jZ8-1R-8v2"/>
+                                    </connections>
+                                </switch>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accessories can stop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVp-EJ-8zz">
+                                    <rect key="frame" x="104" y="233" width="162" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In addition to on-screen buttons, input can be provided by connected keyboards and other Bluetooth accessories." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tu-7O-jia">
+                                    <rect key="frame" x="23" y="153" width="270.5" height="55"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="On-screen prompts will always have the option to stop the recipe." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YFy-4T-dke">
+                                    <rect key="frame" x="23" y="279" width="261" height="36"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="3tu-7O-jia" firstAttribute="leading" secondItem="5Qj-DI-y4M" secondAttribute="leading" id="574-iB-U3P"/>
+                                <constraint firstItem="5Qj-DI-y4M" firstAttribute="leading" secondItem="FA0-s4-Pp0" secondAttribute="leading" constant="23" id="9i3-4v-JHL"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3tu-7O-jia" secondAttribute="trailing" constant="23" id="G8a-gM-P7X"/>
+                                <constraint firstItem="gXR-5d-JjY" firstAttribute="top" secondItem="5Qj-DI-y4M" secondAttribute="bottom" constant="20" id="I1Y-GQ-ZaN"/>
+                                <constraint firstItem="d1o-Fe-aoa" firstAttribute="leading" secondItem="3tu-7O-jia" secondAttribute="leading" constant="20" id="Kgc-GZ-nNk"/>
+                                <constraint firstItem="3tu-7O-jia" firstAttribute="top" secondItem="gXR-5d-JjY" secondAttribute="bottom" constant="20" id="Lag-Fp-5sF"/>
+                                <constraint firstItem="gXR-5d-JjY" firstAttribute="leading" secondItem="5Qj-DI-y4M" secondAttribute="leading" constant="20" id="Ndf-r5-8cg"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="YFy-4T-dke" secondAttribute="trailing" constant="23" id="ODi-TF-VCv"/>
+                                <constraint firstItem="d1o-Fe-aoa" firstAttribute="top" secondItem="3tu-7O-jia" secondAttribute="bottom" constant="20" id="Q40-kV-hOZ"/>
+                                <constraint firstItem="YFy-4T-dke" firstAttribute="leading" secondItem="3tu-7O-jia" secondAttribute="leading" id="QKq-3h-KRG"/>
+                                <constraint firstAttribute="bottom" secondItem="YFy-4T-dke" secondAttribute="bottom" constant="23" id="Te2-rg-JJ1"/>
+                                <constraint firstAttribute="trailing" secondItem="5Qj-DI-y4M" secondAttribute="trailing" constant="23" id="VXc-cg-6X5"/>
+                                <constraint firstItem="iVp-EJ-8zz" firstAttribute="centerY" secondItem="d1o-Fe-aoa" secondAttribute="centerY" id="b9N-sP-Bt3"/>
+                                <constraint firstItem="YFy-4T-dke" firstAttribute="top" secondItem="d1o-Fe-aoa" secondAttribute="bottom" constant="20" id="d75-BE-Wql"/>
+                                <constraint firstItem="iVp-EJ-8zz" firstAttribute="leading" secondItem="d1o-Fe-aoa" secondAttribute="trailing" constant="12" id="fap-KX-4Ng"/>
+                                <constraint firstItem="gXR-5d-JjY" firstAttribute="centerX" secondItem="FA0-s4-Pp0" secondAttribute="centerX" id="noI-KT-geR"/>
+                                <constraint firstItem="5Qj-DI-y4M" firstAttribute="top" secondItem="FA0-s4-Pp0" secondAttribute="top" constant="24" id="x8F-6T-XW5"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="FA0-s4-Pp0" secondAttribute="bottom" id="1yS-9S-6Nf"/>
+                        <constraint firstAttribute="trailing" secondItem="FA0-s4-Pp0" secondAttribute="trailing" id="GTo-6i-If6"/>
+                        <constraint firstItem="FA0-s4-Pp0" firstAttribute="leading" secondItem="7hl-zY-jrd" secondAttribute="leading" id="awy-zu-Xpw"/>
+                        <constraint firstItem="FA0-s4-Pp0" firstAttribute="top" secondItem="7hl-zY-jrd" secondAttribute="top" id="mXV-E3-HXH"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="7hl-zY-jrd" secondAttribute="bottom" id="GQc-UX-Teh"/>
+                <constraint firstItem="7hl-zY-jrd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Jar-I0-kHc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7hl-zY-jrd" secondAttribute="trailing" id="Ud3-GN-5Wb"/>
+                <constraint firstItem="FA0-s4-Pp0" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="jym-x7-52V"/>
+                <constraint firstItem="7hl-zY-jrd" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="kug-R8-0mb"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

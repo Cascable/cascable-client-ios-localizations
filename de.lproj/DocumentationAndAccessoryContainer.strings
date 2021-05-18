@@ -1,0 +1,15 @@
+
+/* Class = "UINavigationItem"; title = "Documentation"; ObjectID = "LtH-9c-dFj"; */
+"LtH-9c-dFj.title" = "Documentation";
+
+/* Class = "UITableViewController"; title = "Block Picker"; ObjectID = "Sqq-D5-YMI"; */
+"Sqq-D5-YMI.title" = "Block Picker";
+
+/* Class = "UILabel"; text = "Executes contained blocks the specified number of times."; ObjectID = "Wzw-pz-gMy"; */
+"Wzw-pz-gMy.text" = "Executes contained blocks the specified number of times.";
+
+/* Class = "UILabel"; text = "Repeat"; ObjectID = "dGb-xJ-ZwO"; */
+"dGb-xJ-ZwO.text" = "Repeat";
+
+/* Class = "UILabel"; text = "Nothing selected."; ObjectID = "pgL-30-3yo"; */
+"pgL-30-3yo.text" = "Nothing selected.";

@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "In addition to on-screen buttons, input can be provided by connected keyboards and other Bluetooth accessories."; ObjectID = "3tu-7O-jia"; */
+"3tu-7O-jia.text" = "In addition to on-screen buttons, input can be provided by connected keyboards and other Bluetooth accessories.";
+
+/* Class = "UILabel"; text = "When executed, this block will wait until a button is tapped to continue execution, showing the following message:"; ObjectID = "5Qj-DI-y4M"; */
+"5Qj-DI-y4M.text" = "When executed, this block will wait until a button is tapped to continue execution, showing the following message:";
+
+/* Class = "UILabel"; text = "On-screen prompts will always have the option to stop the recipe."; ObjectID = "YFy-4T-dke"; */
+"YFy-4T-dke.text" = "On-screen prompts will always have the option to stop the recipe.";
+
+/* Class = "UITextField"; placeholder = "Default message"; ObjectID = "gXR-5d-JjY"; */
+"gXR-5d-JjY.placeholder" = "Default message";
+
+/* Class = "UILabel"; text = "Accessories can stop"; ObjectID = "iVp-EJ-8zz"; */
+"iVp-EJ-8zz.text" = "Accessories can stop";

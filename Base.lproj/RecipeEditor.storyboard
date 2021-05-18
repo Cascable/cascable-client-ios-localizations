@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vvf-wx-F7s">
+    <device id="ipad10_5" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--DocumentationAndAccessoryContainer-->
+        <scene sceneID="tnR-Hu-VT1">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DocumentationAndAccessoryContainer" id="ltX-VQ-u6U" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="8NM-oi-RKt"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ejv-Cm-Wtp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="590" y="-512"/>
+        </scene>
+        <!--Themeable Navigation Controller-->
+        <scene sceneID="U3X-OP-DZf">
+            <objects>
+                <navigationController storyboardIdentifier="itemPicker" id="epZ-37-g6V" customClass="ThemeableNavigationController" customModule="Cascable" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="APH-ov-Gij">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ltX-VQ-u6U" kind="relationship" relationship="rootViewController" id="g0R-zA-vow"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PQl-As-XTz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="68" y="-511"/>
+        </scene>
+        <!--Recipe Editor View Controller-->
+        <scene sceneID="ugl-GP-ror">
+            <objects>
+                <viewController id="Vvf-wx-F7s" customClass="RecipeEditorViewController" customModule="Cascable" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Aid-63-vx8">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="bsR-Uj-dBH"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HQ3-VF-gnF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-708" y="-166"/>
+        </scene>
+        <!--Themeable Navigation Controller-->
+        <scene sceneID="0WD-9U-LhV">
+            <objects>
+                <navigationController storyboardIdentifier="editor" id="ohh-gb-2yM" customClass="ThemeableNavigationController" customModule="Cascable" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U3V-2h-xep">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="6km-ec-G7z" kind="relationship" relationship="rootViewController" id="Tec-iJ-WQ7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7MY-e1-ChA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76" y="150"/>
+        </scene>
+        <!--Recipe View Controller-->
+        <scene sceneID="3LX-MX-sCf">
+            <objects>
+                <tableViewController id="6km-ec-G7z" customClass="RecipeViewController" customModule="Cascable" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="GEK-Qu-5oV">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <connections>
+                            <outlet property="dataSource" destination="6km-ec-G7z" id="rrh-fD-5cj"/>
+                            <outlet property="delegate" destination="6km-ec-G7z" id="XIt-eh-QRl"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="WKt-un-rTY">
+                        <barButtonItem key="leftBarButtonItem" title="Close" id="pzs-7x-rhG">
+                            <connections>
+                                <action selector="closeDocument:" destination="6km-ec-G7z" id="bLz-Km-gO5"/>
+                            </connections>
+                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Simulate" id="J1I-AC-Avu">
+                                <connections>
+                                    <action selector="beginSimulationIfPossible:" destination="6km-ec-G7z" id="Yhr-Ag-dA1"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="NoVariableIcon" id="5n9-I6-2O1">
+                                <connections>
+                                    <action selector="showWarnings:" destination="6km-ec-G7z" id="WpU-e2-DQo"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="add" id="SRr-I3-b3K">
+                                <connections>
+                                    <action selector="showPicker:" destination="6km-ec-G7z" id="bka-aj-mVR"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="addItemButton" destination="SRr-I3-b3K" id="5fh-o7-sfB"/>
+                        <outlet property="noItemsLabel" destination="baD-fa-4Nc" id="CDP-Hf-XDR"/>
+                        <outlet property="noItemsOverlay" destination="UTj-Qe-zvd" id="zZ2-0s-2eE"/>
+                        <outlet property="runSimulationButton" destination="J1I-AC-Avu" id="XX9-Ci-bGw"/>
+                        <outlet property="showWarningsButton" destination="5n9-I6-2O1" id="REn-c7-OAI"/>
+                        <segue destination="BA6-sa-Th0" kind="presentation" identifier="beginSimulation" id="nE3-xg-6dj"/>
+                        <segue destination="ghJ-Dq-y73" kind="presentation" identifier="showWarnings" id="Hpe-ax-wbZ"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mHn-IH-xep" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="UTj-Qe-zvd">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drag items here to build your program." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baD-fa-4Nc">
+                            <rect key="frame" x="37.5" y="-4" width="165" height="36"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="gfQ-l0-3CB"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="baD-fa-4Nc" firstAttribute="centerX" secondItem="UTj-Qe-zvd" secondAttribute="centerX" id="Oda-sn-IMU"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="baD-fa-4Nc" secondAttribute="trailing" constant="20" id="feo-Iz-Bj0"/>
+                        <constraint firstItem="baD-fa-4Nc" firstAttribute="centerY" secondItem="gfQ-l0-3CB" secondAttribute="centerY" constant="-50" id="sLL-V8-1WL"/>
+                    </constraints>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="787" y="150"/>
+        </scene>
+        <!--MagicSimulation-->
+        <scene sceneID="fJz-fK-kUH">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MagicSimulation" id="BA6-sa-Th0" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a6A-Sh-Kf9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1269" y="-133"/>
+        </scene>
+        <!--RecipeWarnings-->
+        <scene sceneID="mGO-wN-lpo">
+            <objects>
+                <viewControllerPlaceholder storyboardName="RecipeWarnings" id="ghJ-Dq-y73" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="84m-kd-RRm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1269" y="-61"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="NoVariableIcon" width="19" height="16"/>
+    </resources>
+</document>

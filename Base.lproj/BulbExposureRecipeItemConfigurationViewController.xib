@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BulbExposureRecipeItemConfigurationViewController" customModule="MagicRobotUI" customModuleProvider="target">
+            <connections>
+                <outlet property="skipAfSwitch" destination="eaF-g1-RGH" id="5GS-5j-4dH"/>
+                <outlet property="variableView" destination="lEr-wr-Qa7" id="GO1-xs-4T0"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="labels" destination="mtD-Oi-W5e" collectionClass="NSMutableArray" id="AfT-CS-nr8"/>
+                <outletCollection property="labels" destination="dca-fA-VE9" collectionClass="NSMutableArray" id="pSD-US-YhL"/>
+                <outletCollection property="labels" destination="4M0-HO-s2I" collectionClass="NSMutableArray" id="E0N-43-FFH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTb-mW-mVa">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lv8-nX-4CQ">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="314.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When executed, this block will perform a bulb exposure." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mtD-Oi-W5e">
+                                    <rect key="frame" x="23" y="24" width="315" height="42.5"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lEr-wr-Qa7" customClass="VariableView" customModule="MagicRobotUI" customModuleProvider="target">
+                                    <rect key="frame" x="67.5" y="266.5" width="240" height="24"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="24" placeholder="YES" id="ekj-qK-Ng1"/>
+                                        <constraint firstAttribute="width" constant="240" placeholder="YES" id="sS1-qL-dHL"/>
+                                    </constraints>
+                                </view>
+                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eaF-g1-RGH">
+                                    <rect key="frame" x="43" y="86.5" width="51" height="31"/>
+                                    <connections>
+                                        <action selector="skipAfSwitchChanged:" destination="-1" eventType="valueChanged" id="w2a-ya-NoM"/>
+                                    </connections>
+                                </switch>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skip autofocus if able" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dca-fA-VE9">
+                                    <rect key="frame" x="104" y="91.5" width="164.5" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4M0-HO-s2I">
+                                    <rect key="frame" x="23" y="138" width="304" height="108.5"/>
+                                    <string key="text">Some cameras will always autofocus before taking a shot.
+
+The exposure will be for the duration of the variable:</string>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="4M0-HO-s2I" firstAttribute="leading" secondItem="mtD-Oi-W5e" secondAttribute="leading" id="5YY-K2-6aV"/>
+                                <constraint firstItem="eaF-g1-RGH" firstAttribute="leading" secondItem="mtD-Oi-W5e" secondAttribute="leading" constant="20" id="9Ld-Ka-TRQ"/>
+                                <constraint firstItem="dca-fA-VE9" firstAttribute="leading" secondItem="eaF-g1-RGH" secondAttribute="trailing" constant="12" id="BAT-ii-9FD"/>
+                                <constraint firstItem="lEr-wr-Qa7" firstAttribute="centerX" secondItem="Lv8-nX-4CQ" secondAttribute="centerX" id="D1V-2t-lF4"/>
+                                <constraint firstItem="mtD-Oi-W5e" firstAttribute="leading" secondItem="Lv8-nX-4CQ" secondAttribute="leading" constant="23" id="IWT-Ep-qVb"/>
+                                <constraint firstItem="mtD-Oi-W5e" firstAttribute="top" secondItem="Lv8-nX-4CQ" secondAttribute="top" constant="24" id="WKq-7E-plo"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="4M0-HO-s2I" secondAttribute="trailing" constant="23" id="Wva-c8-PVC"/>
+                                <constraint firstItem="dca-fA-VE9" firstAttribute="centerY" secondItem="eaF-g1-RGH" secondAttribute="centerY" id="YeW-lH-zc5"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lEr-wr-Qa7" secondAttribute="trailing" constant="23" id="gl4-Uj-FQ5"/>
+                                <constraint firstItem="4M0-HO-s2I" firstAttribute="top" secondItem="eaF-g1-RGH" secondAttribute="bottom" constant="20" id="jHr-yn-c4f"/>
+                                <constraint firstItem="lEr-wr-Qa7" firstAttribute="top" secondItem="4M0-HO-s2I" secondAttribute="bottom" constant="20" id="maP-uC-GXf"/>
+                                <constraint firstItem="lEr-wr-Qa7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mtD-Oi-W5e" secondAttribute="leading" id="o1Y-YY-m5v"/>
+                                <constraint firstAttribute="bottom" secondItem="lEr-wr-Qa7" secondAttribute="bottom" constant="24" id="rfR-Zb-UPz"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mtD-Oi-W5e" secondAttribute="trailing" constant="23" id="tox-2n-d3V"/>
+                                <constraint firstItem="eaF-g1-RGH" firstAttribute="top" secondItem="mtD-Oi-W5e" secondAttribute="bottom" constant="20" id="xS9-gf-dNW"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Lv8-nX-4CQ" firstAttribute="leading" secondItem="RTb-mW-mVa" secondAttribute="leading" id="93j-Kq-dng"/>
+                        <constraint firstItem="Lv8-nX-4CQ" firstAttribute="top" secondItem="RTb-mW-mVa" secondAttribute="top" id="AEp-do-539"/>
+                        <constraint firstAttribute="trailing" secondItem="Lv8-nX-4CQ" secondAttribute="trailing" id="mG6-ue-fZt"/>
+                        <constraint firstAttribute="bottom" secondItem="Lv8-nX-4CQ" secondAttribute="bottom" id="t47-Ir-1Nv"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="RTb-mW-mVa" secondAttribute="trailing" id="0pE-Lf-leG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="RTb-mW-mVa" secondAttribute="bottom" id="9rc-Rl-u6D"/>
+                <constraint firstItem="RTb-mW-mVa" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="ak0-QB-sHr"/>
+                <constraint firstItem="Lv8-nX-4CQ" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="fK3-hs-wuY"/>
+                <constraint firstItem="RTb-mW-mVa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="zm3-CV-eu5"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

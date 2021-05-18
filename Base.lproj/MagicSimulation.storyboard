@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wbf-Bf-hO0">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Themeable Navigation Controller-->
+        <scene sceneID="4Vi-rg-nuE">
+            <objects>
+                <navigationController storyboardIdentifier="MagicSimulationEntry" modalPresentationStyle="formSheet" id="wbf-Bf-hO0" customClass="ThemeableNavigationController" customModule="MagicRobotUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="G7Z-0P-QFS">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="sAb-NZ-prz" kind="relationship" relationship="rootViewController" id="CME-uu-dDK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1ZV-kA-RZW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-338" y="146"/>
+        </scene>
+        <!--Simulation Setup-->
+        <scene sceneID="xPh-uN-FPL">
+            <objects>
+                <viewController title="Simulation Setup" id="sAb-NZ-prz" customClass="SimulationSetupViewController" customModule="MagicRobotUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AnZ-Uj-ZIH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To simulate your recipe, choose your desired camera exposure mode, then tap &quot;Run Simulation&quot;." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3T-vZ-ft1">
+                                <rect key="frame" x="24" y="87" width="328" height="64.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="t0w-UQ-MT5">
+                                <rect key="frame" x="42.5" y="212" width="290" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ns-XZ-G3I" customClass="TintableBackgroundButton" customModule="MagicRobotUI" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="QnS-jb-rS3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <state key="normal" title="Auto">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="alternateColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="onlyApplyAlternateColorToText" value="NO"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="auto:" destination="sAb-NZ-prz" eventType="touchUpInside" id="5p6-Wd-LIK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9Z-k2-0Yd" customClass="TintableBackgroundButton" customModule="MagicRobotUI" customModuleProvider="target">
+                                        <rect key="frame" x="100" y="0.0" width="50" height="50"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <state key="normal" title="A">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="alternateColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="onlyApplyAlternateColorToText" value="NO"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="aperturePrio:" destination="sAb-NZ-prz" eventType="touchUpInside" id="15U-pF-VMz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PxP-uH-p7n" customClass="TintableBackgroundButton" customModule="MagicRobotUI" customModuleProvider="target">
+                                        <rect key="frame" x="170" y="0.0" width="50" height="50"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <state key="normal" title="S">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="alternateColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="onlyApplyAlternateColorToText" value="NO"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="shutterPrio:" destination="sAb-NZ-prz" eventType="touchUpInside" id="B9n-Gx-uv6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAl-Xe-l1q" customClass="TintableBackgroundButton" customModule="MagicRobotUI" customModuleProvider="target">
+                                        <rect key="frame" x="240" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="9xA-94-8n3"/>
+                                            <constraint firstAttribute="width" secondItem="hAl-Xe-l1q" secondAttribute="height" multiplier="1:1" id="qBB-hF-8FV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <state key="normal" title="M">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="alternateColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="onlyApplyAlternateColorToText" value="NO"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="manual:" destination="sAb-NZ-prz" eventType="touchUpInside" id="3ug-Xk-223"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="hAl-Xe-l1q" firstAttribute="height" secondItem="PxP-uH-p7n" secondAttribute="height" id="1Fs-sd-pEl"/>
+                                    <constraint firstItem="PxP-uH-p7n" firstAttribute="height" secondItem="m9Z-k2-0Yd" secondAttribute="height" id="djJ-R1-Um3"/>
+                                    <constraint firstItem="m9Z-k2-0Yd" firstAttribute="height" secondItem="8ns-XZ-G3I" secondAttribute="height" id="nYi-IM-3DC"/>
+                                    <constraint firstItem="PxP-uH-p7n" firstAttribute="width" secondItem="hAl-Xe-l1q" secondAttribute="width" id="qQk-4H-uMe"/>
+                                    <constraint firstItem="PxP-uH-p7n" firstAttribute="width" secondItem="m9Z-k2-0Yd" secondAttribute="width" id="wLb-DK-LNG"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera Exposure Mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FXe-1h-XBG">
+                                <rect key="frame" x="24" y="171.5" width="190.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19o-kf-udb">
+                                <rect key="frame" x="128" y="292" width="120" height="33"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <state key="normal" title="Run Simulation"/>
+                                <connections>
+                                    <action selector="runSimulation:" destination="sAb-NZ-prz" eventType="touchUpInside" id="dgo-q6-pkH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FXe-1h-XBG" firstAttribute="leading" secondItem="aeL-He-0Kc" secondAttribute="leading" constant="24" id="GBX-yf-1eH"/>
+                            <constraint firstItem="19o-kf-udb" firstAttribute="centerX" secondItem="AnZ-Uj-ZIH" secondAttribute="centerX" id="NPo-DU-TfB"/>
+                            <constraint firstItem="l3T-vZ-ft1" firstAttribute="leading" secondItem="aeL-He-0Kc" secondAttribute="leading" constant="24" id="NiY-j0-WMY"/>
+                            <constraint firstItem="l3T-vZ-ft1" firstAttribute="top" secondItem="aeL-He-0Kc" secondAttribute="top" constant="23" id="Ye8-WR-fhz"/>
+                            <constraint firstItem="19o-kf-udb" firstAttribute="top" secondItem="t0w-UQ-MT5" secondAttribute="bottom" constant="30" id="evp-g9-bJP"/>
+                            <constraint firstItem="t0w-UQ-MT5" firstAttribute="centerX" secondItem="AnZ-Uj-ZIH" secondAttribute="centerX" id="mqh-yU-vGg"/>
+                            <constraint firstItem="FXe-1h-XBG" firstAttribute="top" secondItem="l3T-vZ-ft1" secondAttribute="bottom" constant="20" id="muv-ca-9RV"/>
+                            <constraint firstAttribute="trailing" secondItem="l3T-vZ-ft1" secondAttribute="trailing" constant="23" id="qMW-Gl-hzG"/>
+                            <constraint firstItem="t0w-UQ-MT5" firstAttribute="top" secondItem="FXe-1h-XBG" secondAttribute="bottom" constant="20" id="rlQ-J4-xfa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aeL-He-0Kc"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Simulation Setup" id="5DM-T6-Db0">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="BPL-rr-vKZ">
+                            <connections>
+                                <action selector="cancel:" destination="sAb-NZ-prz" id="QaW-zg-mP6"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="aperturePrioButton" destination="m9Z-k2-0Yd" id="fSV-qZ-Um2"/>
+                        <outlet property="autoButton" destination="8ns-XZ-G3I" id="eSN-6r-tAO"/>
+                        <outlet property="commitButton" destination="19o-kf-udb" id="aB8-Dk-Smn"/>
+                        <outlet property="manualButton" destination="hAl-Xe-l1q" id="pZ1-V0-TVT"/>
+                        <outlet property="shutterPrioButton" destination="PxP-uH-p7n" id="273-41-BrD"/>
+                        <outletCollection property="themeableLabels" destination="l3T-vZ-ft1" collectionClass="NSMutableArray" id="JVu-Fw-wM1"/>
+                        <outletCollection property="themeableLabels" destination="FXe-1h-XBG" collectionClass="NSMutableArray" id="Zi2-lt-ZE3"/>
+                        <segue destination="cXt-G2-mOb" kind="show" identifier="executeSimulation" id="GX7-UZ-TaN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ycu-9B-5xG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="405.60000000000002" y="144.3778110944528"/>
+        </scene>
+        <!--Running Simulation…-->
+        <scene sceneID="WR8-2s-epQ">
+            <objects>
+                <viewController title="Running Simulation…" id="cXt-G2-mOb" customClass="SimulationRunnerViewController" customModule="MagicRobotUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WgS-Cp-QmM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="HG0-UC-YYJ">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HG0-UC-YYJ" firstAttribute="centerY" secondItem="WgS-Cp-QmM" secondAttribute="centerY" id="9fm-4G-s27"/>
+                            <constraint firstItem="HG0-UC-YYJ" firstAttribute="centerX" secondItem="WgS-Cp-QmM" secondAttribute="centerX" id="AFX-Xy-d8z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2Vo-El-wgU"/>
+                    </view>
+                    <connections>
+                        <outlet property="spinner" destination="HG0-UC-YYJ" id="SOC-nF-AxB"/>
+                        <segue destination="u3q-XJ-2rx" kind="show" identifier="showResults" id="RvJ-XC-KKz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aZE-m8-UHH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1202" y="145"/>
+        </scene>
+        <!--Simulation Results-->
+        <scene sceneID="sSU-q4-0m8">
+            <objects>
+                <tableViewController title="Simulation Results" id="u3q-XJ-2rx" customClass="SimulationResultsViewController" customModule="MagicRobotUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="WYZ-hV-LrR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <connections>
+                            <outlet property="dataSource" destination="u3q-XJ-2rx" id="xh7-uV-J39"/>
+                            <outlet property="delegate" destination="u3q-XJ-2rx" id="ALE-jG-Ggl"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Simulation Results" id="zDJ-8q-RyF">
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="0vY-SP-sIm">
+                            <connections>
+                                <action selector="close:" destination="u3q-XJ-2rx" id="YKU-nd-D4P"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9tM-2S-YnO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1950" y="145"/>
+        </scene>
+    </scenes>
+</document>

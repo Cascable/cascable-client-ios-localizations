@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MoveFocusRecipeItemConfigurationViewController" customModule="Cascable" customModuleProvider="target">
+            <connections>
+                <outlet property="amountTableView" destination="lC9-L9-Vbs" id="8Ub-jA-xnY"/>
+                <outlet property="amountTableViewHeightConstraint" destination="vhF-yj-Noj" id="7QA-eL-uR4"/>
+                <outlet property="directionTableView" destination="QFX-4b-cu6" id="ksr-jE-dPY"/>
+                <outlet property="directionTableViewHeightConstraint" destination="pNd-sx-D7Q" id="End-1h-P3l"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="labels" destination="HPq-kn-bbw" collectionClass="NSMutableArray" id="CfZ-iD-XNs"/>
+                <outletCollection property="labels" destination="O5k-Wv-MFB" collectionClass="NSMutableArray" id="rf5-qP-ENs"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OAw-nl-xYU">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f10-CT-0NI">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="520"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When executed, this block will move the camera's focus distance:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPq-kn-bbw">
+                                    <rect key="frame" x="23" y="24" width="329" height="36"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="1000" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" contentViewInsetsToSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFX-4b-cu6">
+                                    <rect key="frame" x="0.0" y="68" width="375" height="60"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="60" id="pNd-sx-D7Q"/>
+                                    </constraints>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="1T4-gv-wvO"/>
+                                        <outlet property="delegate" destination="-1" id="2FY-gO-ucS"/>
+                                    </connections>
+                                </tableView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The focus distance will be moved:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5k-Wv-MFB">
+                                    <rect key="frame" x="23" y="140" width="219" height="17"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="1000" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" contentViewInsetsToSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lC9-L9-Vbs">
+                                    <rect key="frame" x="0.0" y="165" width="375" height="60"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="60" id="vhF-yj-Noj"/>
+                                    </constraints>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="ykX-Qr-dHs"/>
+                                        <outlet property="delegate" destination="-1" id="s0i-KG-8M2"/>
+                                    </connections>
+                                </tableView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jqh-Qy-wij">
+                                    <rect key="frame" x="23" y="233" width="329" height="264"/>
+                                    <attributedString key="attributedText">
+                                        <fragment content="Important:">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="systemBold" size="17"/>
+                                                <font key="NSOriginalFont" metaFont="systemBold" size="17"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment>
+                                            <string key="content"> At this time, this block is only supported by Canon EOS, Nikon, and Phase One cameras.
+
+Ensure that autofocus is enabled and not in a continuous focusing mode.
+
+The time it takes a focus movement to complete depends on the amount moved and the particular lens you have. Make sure you add a wait block after this one to allow the operation to complete before the recipe continues.</string>
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="17"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="lC9-L9-Vbs" firstAttribute="top" secondItem="O5k-Wv-MFB" secondAttribute="bottom" constant="8" id="50l-Cb-PvX"/>
+                                <constraint firstAttribute="trailing" secondItem="QFX-4b-cu6" secondAttribute="trailing" id="6n6-md-VjP"/>
+                                <constraint firstAttribute="trailing" secondItem="HPq-kn-bbw" secondAttribute="trailing" constant="23" id="96w-r5-aHs"/>
+                                <constraint firstAttribute="trailing" secondItem="lC9-L9-Vbs" secondAttribute="trailing" id="E0U-Tm-IRS"/>
+                                <constraint firstAttribute="trailing" secondItem="Jqh-Qy-wij" secondAttribute="trailing" constant="23" id="Ybt-PM-Em4"/>
+                                <constraint firstItem="QFX-4b-cu6" firstAttribute="leading" secondItem="f10-CT-0NI" secondAttribute="leading" id="bnV-9s-Vq9"/>
+                                <constraint firstItem="Jqh-Qy-wij" firstAttribute="leading" secondItem="O5k-Wv-MFB" secondAttribute="leading" id="d2y-ju-fDG"/>
+                                <constraint firstItem="HPq-kn-bbw" firstAttribute="leading" secondItem="f10-CT-0NI" secondAttribute="leading" constant="23" id="efq-ME-Lss"/>
+                                <constraint firstItem="Jqh-Qy-wij" firstAttribute="top" secondItem="lC9-L9-Vbs" secondAttribute="bottom" constant="8" id="hab-mb-9Xm"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="O5k-Wv-MFB" secondAttribute="trailing" constant="23" id="hct-5n-ypH"/>
+                                <constraint firstItem="HPq-kn-bbw" firstAttribute="top" secondItem="f10-CT-0NI" secondAttribute="top" constant="24" id="reG-Fd-Wiu"/>
+                                <constraint firstAttribute="bottom" secondItem="Jqh-Qy-wij" secondAttribute="bottom" constant="23" id="wQe-Zy-nJu"/>
+                                <constraint firstItem="O5k-Wv-MFB" firstAttribute="top" secondItem="QFX-4b-cu6" secondAttribute="bottom" constant="12" id="xho-pd-jan"/>
+                                <constraint firstItem="O5k-Wv-MFB" firstAttribute="leading" secondItem="HPq-kn-bbw" secondAttribute="leading" id="xpT-j7-WXk"/>
+                                <constraint firstItem="QFX-4b-cu6" firstAttribute="top" secondItem="HPq-kn-bbw" secondAttribute="bottom" constant="8" id="yDc-ac-Kry"/>
+                                <constraint firstItem="lC9-L9-Vbs" firstAttribute="leading" secondItem="f10-CT-0NI" secondAttribute="leading" id="zNk-Sm-HLh"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="f10-CT-0NI" firstAttribute="leading" secondItem="OAw-nl-xYU" secondAttribute="leading" id="9JZ-5g-kNi"/>
+                        <constraint firstItem="f10-CT-0NI" firstAttribute="top" secondItem="OAw-nl-xYU" secondAttribute="top" id="ois-VF-1OJ"/>
+                        <constraint firstAttribute="bottom" secondItem="f10-CT-0NI" secondAttribute="bottom" id="q19-Ac-pqJ"/>
+                        <constraint firstAttribute="trailing" secondItem="f10-CT-0NI" secondAttribute="trailing" id="zgj-8m-1zk"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="OAw-nl-xYU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Mhn-hF-a6f"/>
+                <constraint firstItem="f10-CT-0NI" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="Rh5-Uf-aGO"/>
+                <constraint firstItem="OAw-nl-xYU" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="aJD-9R-NRp"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="OAw-nl-xYU" secondAttribute="trailing" id="r2y-Zl-61h"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="OAw-nl-xYU" secondAttribute="bottom" id="zs6-ol-wN3"/>
+            </constraints>
+            <point key="canvasLocation" x="-53.5" y="48.5"/>
+        </view>
+    </objects>
+</document>

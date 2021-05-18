@@ -1,0 +1,33 @@
+/* 
+  RecipeItemTemplateDocumentation.strings
+  Magic Robot
+
+  Created by Daniel Kennett on 2017-10-13.
+  Copyright © 2017 Cascable AB. All rights reserved.
+*/
+
+"NoDocumentation" = "No documentation available.";
+
+"RepeatRecipeItemTemplate" = "Executes contained blocks the specified number of times.";
+
+"WaitFixedDurationRecipeItemTemplate" = "Waits a fixed amount of time before continuing.";
+
+"WaitVariableDurationRecipeItemTemplate" = "Waits a variable amount of time before continuing.";
+
+"TakeShotRecipeItemTemplate" = "Takes a single shot. If the camera has autofocus enabled and the block is not configured to skip it, autofocus will be engaged before the shot is taken.";
+
+"BulbExposureRecipeItemTemplate" = "Performs a bulb exposure for the duration of the specified variable. If the camera has autofocus enabled and the block is not configured to skip it, autofocus will be engaged before the shutter is opened.";
+
+"BurstExposureRecipeItemTemplate" = "Performs a burst of exposures for the duration of the specified variable. If the camera has autofocus enabled and the block is not configured to skip it, autofocus will be engaged before the shutter is opened.";
+
+"DoubleVariableInitialiserTemplate" = "A variable representing a duration of time. Can be used in conjunction with wait blocks to add pauses in between shots or to vary the length of a bulb exposure.";
+
+"ChangeDurationVariableRecipeItemTemplate" = "Changes a variable's value by adding, subtracting, multiplying or dividing.";
+
+"ChangeCameraVariableRecipeItemTemplate" = "Changes the camera's exposure setting by the specified number of stops.";
+
+"MoveFocusRecipeItemTemplate" = "Moves the camera's focus distance closer to or further away from the camera. Requires that the camera supports this feature, and that autofocus is enabled and not in a continuous focusing mode.";
+
+"WaitForInputRecipeItemTemplate" = "Waits until the recipe is manually allowed to continue, either by tapping a button on the screen or by pressing a key on a connected keyboard or Bluetooth accessory.";
+
+"AutoFocusFixedDurationRecipeItemTemplate" = "Instructs the camera to engage autofocus for the configured duration.";
