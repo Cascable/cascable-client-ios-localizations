@@ -7,6 +7,7 @@
 */
 
 "ReconnectTitle" = "Reconnect";
+"ConnectButtonTitle" = "Connect";
 "ConnectToCameraTitle" = "Connect to camera…";
 "ConnectToCameraSubtitle" = "Connect to your camera via USB or WiFi (depending on model).";
 "ConnectToOtherTitle" = "Connect to other…";
@@ -15,6 +16,11 @@
 "ConnectNewSubtitle" = "Search for another camera.";
 "CameraAtIPAddressFormatter" = "%@ camera at %@.";
 "CameraViaMethodFormatter" = "%@ camera via %@.";
+
+// -----
+
+"InvalidQRCodeTitle" = "Invalid QR Code";
+"InvalidQRCodeMessage" = "The code you scanned does not contain connection information for a camera.";
 
 // -----
 
