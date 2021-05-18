@@ -11,9 +11,6 @@
 /* Class = "UIViewController"; title = "Welcome"; ObjectID = "G4P-g9-PCa"; */
 "G4P-g9-PCa.title" = "Willkommen";
 
-/* Class = "UILabel"; text = "Status Notifications"; ObjectID = "KgJ-Oy-9xx"; */
-"KgJ-Oy-9xx.text" = "Status Notifications";
-
 /* Class = "UIButton"; normalTitle = "Get Started  →"; ObjectID = "Wr9-Wd-JN9"; */
 "Wr9-Wd-JN9.normalTitle" = "Loslegen  →";
 
