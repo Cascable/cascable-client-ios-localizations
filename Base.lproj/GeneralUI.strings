@@ -1591,6 +1591,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* 'Tethering Mode' Quick Setting title. */
 "TetheringModeQuickSettingTitle" = "Tethering Mode";
 
+/* 'Live View Settings' Quick Setting title. */
+"LiveViewSettingsQuickSettingTitle" = "Live View Settings";
+
 /* 'Quick Settings' Quick Setting title. */
 "QuickSettingsQuickSettingTitle" = "Quick Settings";
 
