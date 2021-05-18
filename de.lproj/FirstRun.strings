@@ -5,9 +5,6 @@
 /* Class = "UIButton"; normalTitle = "Don't Show Notifications"; ObjectID = "7QS-WU-wUI"; */
 "7QS-WU-wUI.normalTitle" = "Keine Mitteilungen anzeigen";
 
-/* Class = "UILabel"; text = "You're all ready to connect to your camera and start shooting. \n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!"; ObjectID = "4Bs-PF-Jvn"; */
-"4Bs-PF-Jvn.text" = "You're all ready to connect to your camera and start shooting. \n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!";
-
 /* Class = "UILabel"; text = "All Done!"; ObjectID = "	"; */
 "DkA-ou-F9n.text" = "Fertig!";
 
@@ -17,26 +14,14 @@
 /* Class = "UILabel"; text = "Status Notifications"; ObjectID = "KgJ-Oy-9xx"; */
 "KgJ-Oy-9xx.text" = "Status Notifications";
 
-/* Class = "UILabel"; text = "If you like, Cascable can notify you when it has to disconnect from your camera or stop other tasks while in the background.\n\nNotifications are generated on your device, and are only used to inform you about the status of tasks you're running."; ObjectID = "NiC-RM-rQE"; */
-"NiC-RM-rQE.text" = "If you like, Cascable can notify you when it has to disconnect from your camera or stop other tasks while in the background.\n\nNotifications are generated on your device, and are only used to inform you about the status of tasks you're running.";
-
 /* Class = "UIButton"; normalTitle = "Get Started  →"; ObjectID = "Wr9-Wd-JN9"; */
 "Wr9-Wd-JN9.normalTitle" = "Loslegen  →";
 
 /* Class = "UIButton"; normalTitle = "@CascableApp"; ObjectID = "XnR-P6-5b5"; */
 "XnR-P6-5b5.normalTitle" = "@CascableApp";
 
-/* Class = "UILabel"; text = "Cascable will maintain a connection to your camera and continue tasks when you're using other apps. However, it might have to disconnect or stop those tasks after a period of time when in the background."; ObjectID = "avd-i8-4VS"; */
-"avd-i8-4VS.text" = "Cascable will maintain a connection to your camera and continue tasks when you're using other apps. However, it might have to disconnect or stop those tasks after a period of time when in the background.";
-
-/* Class = "UILabel"; text = "Thank you for using Cascable!\n\nCascable is your photography assistant. To get you started, we'll ask you a couple of quick questions on how you'd like to use Cascable, then you'll be able to get right into it and connect to your camera!"; ObjectID = "e52-oR-xjz"; */
-"e52-oR-xjz.text" = "Thank you for using Cascable!\n\nCascable is your photography assistant. To get you started, we'll ask you a couple of quick questions on how you'd like to use Cascable, then you'll be able to get right into it and connect to your camera!";
-
 /* Class = "UIButton"; normalTitle = "Start Using Cascable"; ObjectID = "hTH-Fo-vxd"; */
 "hTH-Fo-vxd.normalTitle" = "Cascable nutzen";
-
-/* Class = "UILabel"; text = "You can see this again at any time from the Help menu."; ObjectID = "hay-5R-Q3N"; */
-"hay-5R-Q3N.text" = "You can see this again at any time from the Help menu.";
 
 /* Class = "UILabel"; text = "Welcome to Cascable"; ObjectID = "l4x-YS-zoX"; */
 "l4x-YS-zoX.text" = "Willkommen bei Cascable";
@@ -46,6 +31,3 @@
 
 /* Class = "UILabel"; text = "on Instagram"; ObjectID = "vpI-Ex-VFj"; */
 "vpI-Ex-VFj.text" = "auf Instagram";
-
-/* Class = "UIButton"; normalTitle = "Show Status Notifications"; ObjectID = "zZE-IP-z7j"; */
-"zZE-IP-z7j.normalTitle" = "Show Status Notifications";

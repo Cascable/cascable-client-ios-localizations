@@ -1,9 +1,1 @@
 
-/* Class = "UILabel"; text = "Some cameras will always autofocus before taking a shot.\n\nThe burst will continue for the duration of the variable:"; ObjectID = "4M0-HO-s2I"; */
-"4M0-HO-s2I.text" = "Some cameras will always autofocus before taking a shot.\n\nThe burst will continue for the duration of the variable:";
-
-/* Class = "UILabel"; text = "Skip autofocus if able"; ObjectID = "dca-fA-VE9"; */
-"dca-fA-VE9.text" = "Skip autofocus if able";
-
-/* Class = "UILabel"; text = "When executed, this block will perform a burst of exposures."; ObjectID = "mtD-Oi-W5e"; */
-"mtD-Oi-W5e.text" = "When executed, this block will perform a burst of exposures.";
