@@ -7,8 +7,14 @@
 */
 
 "DefaultRecipeName" = "Recipe";
+"RecipesEditorShortTitle" = "Recipes";
+"RecipesEditorTitle" = "Recipes Editor";
 
 // Errors
+
+"RecipeLoadFailureTitle" = "Couldn't Open Recipe";
+"RecipeLoadFailureGenericDescription" = "The Recipe could not be loaded as it appears to be damaged.";
+"RecipeLoadFailureTooNewDescription" = "The Recipe was created with a newer version of Recipes than this version of Cascable supports. Please update Cascable to the newest version.";
 
 "RecipeDocumentDamagedTitle" = "The document appears to be damaged.";
 "RecipeDocumentTooNewTitle" = "The document was created with a newer version of Cascable.";
