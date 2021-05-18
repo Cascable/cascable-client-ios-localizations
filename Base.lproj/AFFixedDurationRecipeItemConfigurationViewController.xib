@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AFFixedDurationRecipeItemConfigurationViewController" customModule="MagicRobotUI" customModuleProvider="target">
             <connections>
-                <outlet property="label" destination="wYm-y0-wBp" id="WNW-mi-0cq"/>
+                <outlet property="label" destination="wYm-y2-wBp" id="WNW-mi-0cq"/>
                 <outlet property="picker" destination="czh-6x-ssy" id="HpS-JQ-ocr"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -24,16 +23,16 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FA0-s4-Pp0">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="282.5"/>
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="276"/>
                             <subviews>
                                 <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="czh-6x-ssy" customClass="DurationPickerView" customModule="MagicRobotUI" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="66.5" width="375" height="216"/>
+                                    <rect key="frame" x="0.0" y="60" width="375" height="216"/>
                                     <connections>
                                         <outlet property="durationDelegate" destination="-1" id="ZmX-L2-qXm"/>
                                     </connections>
                                 </pickerView>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When executed, this block will instruct the camera to perform autofocus for at most:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYm-y0-wBp">
-                                    <rect key="frame" x="23" y="24" width="327" height="42.5"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When executed, this block will instruct the camera to perform autofocus for at most:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYm-y2-wBp">
+                                    <rect key="frame" x="23" y="24" width="328.5" height="36"/>
                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
@@ -41,13 +40,13 @@
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wYm-y0-wBp" secondAttribute="trailing" constant="23" id="CxH-dl-6U9"/>
-                                <constraint firstItem="wYm-y0-wBp" firstAttribute="top" secondItem="FA0-s4-Pp0" secondAttribute="top" constant="24" id="E0M-bR-RY0"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wYm-y2-wBp" secondAttribute="trailing" constant="23" id="CxH-dl-6U9"/>
+                                <constraint firstItem="wYm-y2-wBp" firstAttribute="top" secondItem="FA0-s4-Pp0" secondAttribute="top" constant="24" id="E0M-bR-RY0"/>
                                 <constraint firstItem="czh-6x-ssy" firstAttribute="leading" secondItem="FA0-s4-Pp0" secondAttribute="leading" id="Hm6-h7-NjC"/>
                                 <constraint firstAttribute="trailing" secondItem="czh-6x-ssy" secondAttribute="trailing" id="b8a-bt-tmV"/>
-                                <constraint firstItem="czh-6x-ssy" firstAttribute="top" secondItem="wYm-y0-wBp" secondAttribute="bottom" id="jcC-SZ-c4t"/>
+                                <constraint firstItem="czh-6x-ssy" firstAttribute="top" secondItem="wYm-y2-wBp" secondAttribute="bottom" id="jcC-SZ-c4t"/>
                                 <constraint firstAttribute="bottom" secondItem="czh-6x-ssy" secondAttribute="bottom" id="opF-eb-YfZ"/>
-                                <constraint firstItem="wYm-y0-wBp" firstAttribute="leading" secondItem="FA0-s4-Pp0" secondAttribute="leading" constant="23" id="ssK-gI-xJ8"/>
+                                <constraint firstItem="wYm-y2-wBp" firstAttribute="leading" secondItem="FA0-s4-Pp0" secondAttribute="leading" constant="23" id="ssK-gI-xJ8"/>
                             </constraints>
                         </view>
                     </subviews>
@@ -59,6 +58,7 @@
                     </constraints>
                 </scrollView>
             </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="7hl-zY-jrd" secondAttribute="bottom" id="GQc-UX-Teh"/>
@@ -67,7 +67,6 @@
                 <constraint firstItem="FA0-s4-Pp0" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="jym-x7-52V"/>
                 <constraint firstItem="7hl-zY-jrd" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="kug-R8-0mb"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="33.5" y="54.5"/>
         </view>
     </objects>

@@ -14,11 +14,11 @@
 /* Class = "UILabel"; text = "on Twitter for\nquick feedback"; ObjectID = "U4f-wL-hRP"; */
 "U4f-wL-hRP.text" = "auf Twitter für\nschnelles Feedback";
 
-/* Class = "UILabel"; text = "Feedback"; ObjectID = "YXG-Ah-Rdx"; */
-"YXG-Ah-Rdx.text" = "Feedback";
+/* Class = "UILabel"; text = "Feedback"; ObjectID = "YXG-Bh-Rdx"; */
+"YXG-Bh-Rdx.text" = "Feedback";
 
-/* Class = "UIViewController"; title = "Feedback"; ObjectID = "bmc-L7-UCt"; */
-"bmc-L7-UCt.title" = "Feedback";
+/* Class = "UIViewController"; title = "Feedback"; ObjectID = "bmc-L8-UCt"; */
+"bmc-L8-UCt.title" = "Feedback";
 
 /* Class = "UINavigationItem"; title = "Feedback"; ObjectID = "fIZ-vY-XL9"; */
 "fIZ-vY-XL9.title" = "Feedback";
@@ -26,11 +26,11 @@
 /* Class = "UIButton"; normalTitle = "hi@cascable.se"; ObjectID = "iMf-cK-vRk"; */
 "iMf-cK-vRk.normalTitle" = "hi@cascable.se";
 
-/* Class = "UILabel"; text = "Cascable is made by a small company in the Swedish countryside, just south of Stockholm. We pride ourselves in making software that is a joy to use and puts the user first.\n\nFeedback is welcome! We do read every email, but are not able to respond to them all. Thank you for understanding."; ObjectID = "mNv-Ln-jFW"; */
-"mNv-Ln-jFW.text" = "Cascable kommt von einer kleinen Softwareschmiede in Schweden, südlich von Stockholm. Es ist unser Ziel, Software zu schreiben, deren Nutzung eine Freude ist und den Nutzer in den Mittelpunkt rückt.\n\nIhr Feedback ist uns wichtig! Wir lesen jede E-Mail, können jedoch nicht immer alles beantworten. Danke für Ihr Verständnis.";
+/* Class = "UILabel"; text = "Cascable is made by a small company in the Swedish countryside, just south of Stockholm. We pride ourselves in making software that is a joy to use and puts the user first.\n\nFeedback is welcome! We do read every email, but are not able to respond to them all. Thank you for understanding."; ObjectID = "mNv-Mn-jFW"; */
+"mNv-Mn-jFW.text" = "Cascable kommt von einer kleinen Softwareschmiede in Schweden, südlich von Stockholm. Es ist unser Ziel, Software zu schreiben, deren Nutzung eine Freude ist und den Nutzer in den Mittelpunkt rückt.\n\nIhr Feedback ist uns wichtig! Wir lesen jede E-Mail, können jedoch nicht immer alles beantworten. Danke für Ihr Verständnis.";
 
 /* Class = "UILabel"; text = "I can't connect to my camera!"; ObjectID = "nPq-gm-2Q8"; */
 "nPq-gm-2Q8.text" = "Ich kann keine Verbindung zu meiner Kamera herstellen!";
 
-/* Class = "UILabel"; text = "FAQ"; ObjectID = "tN9-gX-wOq"; */
-"tN9-gX-wOq.text" = "FAQ";
+/* Class = "UILabel"; text = "FAQ"; ObjectID = "tN9-gX-w1q"; */
+"tN9-gX-w1q.text" = "FAQ";

@@ -15,7 +15,7 @@
             <connections>
                 <outlet property="addButton" destination="xtd-t5-lHr" id="9PX-DO-lL2"/>
                 <outlet property="divideButton" destination="wNV-ai-ZLq" id="xrj-Cc-5oP"/>
-                <outlet property="label" destination="mtD-Oi-W5e" id="w6Z-dm-SPH"/>
+                <outlet property="label" destination="mtD-Oi-W8e" id="w6Z-dm-SPH"/>
                 <outlet property="multiplyButton" destination="MyO-Eu-Zn4" id="taJ-bS-LoP"/>
                 <outlet property="subtractButton" destination="Meq-Si-n1f" id="y7e-0j-1G6"/>
                 <outlet property="valueField" destination="e25-rC-JDt" id="woD-v3-fTV"/>
@@ -34,7 +34,7 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lv8-nX-4CQ">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="273"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When executed, this block will apply the following operation to the variable:" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mtD-Oi-W5e">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When executed, this block will apply the following operation to the variable:" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mtD-Oi-W8e">
                                     <rect key="frame" x="23" y="24" width="310.5" height="42.5"/>
                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                     <nil key="textColor"/>
@@ -129,19 +129,19 @@
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstItem="lEr-wr-Qa7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mtD-Oi-W5e" secondAttribute="leading" id="GGr-W5-oNC"/>
+                                <constraint firstItem="lEr-wr-Qa7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mtD-Oi-W8e" secondAttribute="leading" id="GGr-W5-oNC"/>
                                 <constraint firstItem="e25-rC-JDt" firstAttribute="centerX" secondItem="Lv8-nX-4CQ" secondAttribute="centerX" id="GbA-LR-2jT"/>
-                                <constraint firstItem="mtD-Oi-W5e" firstAttribute="leading" secondItem="Lv8-nX-4CQ" secondAttribute="leading" constant="23" id="IWT-Ep-qVb"/>
-                                <constraint firstItem="lEr-wr-Qa7" firstAttribute="top" secondItem="mtD-Oi-W5e" secondAttribute="bottom" constant="17.5" id="Shf-GA-h2e"/>
+                                <constraint firstItem="mtD-Oi-W8e" firstAttribute="leading" secondItem="Lv8-nX-4CQ" secondAttribute="leading" constant="23" id="IWT-Ep-qVb"/>
+                                <constraint firstItem="lEr-wr-Qa7" firstAttribute="top" secondItem="mtD-Oi-W8e" secondAttribute="bottom" constant="17.5" id="Shf-GA-h2e"/>
                                 <constraint firstAttribute="bottom" secondItem="e25-rC-JDt" secondAttribute="bottom" constant="24" id="Vw6-6t-3SG"/>
-                                <constraint firstItem="mtD-Oi-W5e" firstAttribute="top" secondItem="Lv8-nX-4CQ" secondAttribute="top" constant="24" id="WKq-7E-plo"/>
+                                <constraint firstItem="mtD-Oi-W8e" firstAttribute="top" secondItem="Lv8-nX-4CQ" secondAttribute="top" constant="24" id="WKq-7E-plo"/>
                                 <constraint firstItem="hUx-pA-Vac" firstAttribute="centerX" secondItem="Lv8-nX-4CQ" secondAttribute="centerX" id="XfF-GC-M02"/>
                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lEr-wr-Qa7" secondAttribute="trailing" constant="23" id="gl4-Uj-FQ5"/>
                                 <constraint firstItem="hUx-pA-Vac" firstAttribute="top" secondItem="lEr-wr-Qa7" secondAttribute="bottom" constant="30" id="hFO-6b-L4N"/>
                                 <constraint firstItem="e25-rC-JDt" firstAttribute="top" secondItem="hUx-pA-Vac" secondAttribute="bottom" constant="25" id="hRC-bj-3b9"/>
-                                <constraint firstItem="e25-rC-JDt" firstAttribute="leading" secondItem="mtD-Oi-W5e" secondAttribute="leading" constant="20" id="ppq-Vc-TbR"/>
+                                <constraint firstItem="e25-rC-JDt" firstAttribute="leading" secondItem="mtD-Oi-W8e" secondAttribute="leading" constant="20" id="ppq-Vc-TbR"/>
                                 <constraint firstItem="lEr-wr-Qa7" firstAttribute="centerX" secondItem="Lv8-nX-4CQ" secondAttribute="centerX" id="t47-MZ-efX"/>
-                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mtD-Oi-W5e" secondAttribute="trailing" constant="23" id="tox-2n-d3V"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mtD-Oi-W8e" secondAttribute="trailing" constant="23" id="tox-2n-d3V"/>
                             </constraints>
                         </view>
                     </subviews>

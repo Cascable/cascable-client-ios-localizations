@@ -12,7 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RepeatRecipeItemConfigurationViewController" customModule="MagicRobotUI" customModuleProvider="target">
             <connections>
-                <outlet property="label" destination="HPq-kn-bbw" id="7as-ou-lLc"/>
+                <outlet property="label" destination="HPq-kn-cbw" id="7as-ou-lLc"/>
                 <outlet property="tableView" destination="QFX-4b-cu6" id="ghq-4U-vP8"/>
                 <outlet property="tableViewHeightConstraint" destination="pNd-sx-D7Q" id="7Kx-mM-YR7"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -29,7 +29,7 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f10-CT-0NI">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="112.5"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This block will repeat all contained blocks:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPq-kn-bbw">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This block will repeat all contained blocks:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPq-kn-cbw">
                                     <rect key="frame" x="23" y="24" width="329" height="20.5"/>
                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                     <nil key="textColor"/>
@@ -50,12 +50,12 @@
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="trailing" secondItem="QFX-4b-cu6" secondAttribute="trailing" id="6n6-md-VjP"/>
-                                <constraint firstAttribute="trailing" secondItem="HPq-kn-bbw" secondAttribute="trailing" constant="23" id="96w-r5-aHs"/>
+                                <constraint firstAttribute="trailing" secondItem="HPq-kn-cbw" secondAttribute="trailing" constant="23" id="96w-r5-aHs"/>
                                 <constraint firstAttribute="bottom" secondItem="QFX-4b-cu6" secondAttribute="bottom" id="Tfl-rd-AbK"/>
                                 <constraint firstItem="QFX-4b-cu6" firstAttribute="leading" secondItem="f10-CT-0NI" secondAttribute="leading" id="bnV-9s-Vq9"/>
-                                <constraint firstItem="HPq-kn-bbw" firstAttribute="leading" secondItem="f10-CT-0NI" secondAttribute="leading" constant="23" id="efq-ME-Lss"/>
-                                <constraint firstItem="HPq-kn-bbw" firstAttribute="top" secondItem="f10-CT-0NI" secondAttribute="top" constant="24" id="reG-Fd-Wiu"/>
-                                <constraint firstItem="QFX-4b-cu6" firstAttribute="top" secondItem="HPq-kn-bbw" secondAttribute="bottom" constant="8" id="yDc-ac-Kry"/>
+                                <constraint firstItem="HPq-kn-cbw" firstAttribute="leading" secondItem="f10-CT-0NI" secondAttribute="leading" constant="23" id="efq-ME-Lss"/>
+                                <constraint firstItem="HPq-kn-cbw" firstAttribute="top" secondItem="f10-CT-0NI" secondAttribute="top" constant="24" id="reG-Fd-Wiu"/>
+                                <constraint firstItem="QFX-4b-cu6" firstAttribute="top" secondItem="HPq-kn-cbw" secondAttribute="bottom" constant="8" id="yDc-ac-Kry"/>
                             </constraints>
                         </view>
                     </subviews>

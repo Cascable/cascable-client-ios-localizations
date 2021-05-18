@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -10,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WaitVariableDurationRecipeItemConfigurationViewController" customModule="Cascable" customModuleProvider="target">
             <connections>
-                <outlet property="label" destination="mtD-Oi-W5e" id="3dl-Je-lgl"/>
+                <outlet property="label" destination="mtD-Oi-W6e" id="3dl-Je-lgl"/>
                 <outlet property="variableView" destination="lEr-wr-Qa7" id="GO1-xs-4T0"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -26,7 +25,7 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lv8-nX-4CQ">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="125.5"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When executed, this block will wait for the value of the variable:" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mtD-Oi-W5e">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When executed, this block will wait for the value of the variable:" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mtD-Oi-W6e">
                                     <rect key="frame" x="23" y="24" width="329" height="36"/>
                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                     <nil key="textColor"/>
@@ -42,14 +41,14 @@
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstItem="mtD-Oi-W5e" firstAttribute="leading" secondItem="Lv8-nX-4CQ" secondAttribute="leading" constant="23" id="IWT-Ep-qVb"/>
-                                <constraint firstItem="lEr-wr-Qa7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mtD-Oi-W5e" secondAttribute="leading" id="KjO-zd-wRl"/>
+                                <constraint firstItem="mtD-Oi-W6e" firstAttribute="leading" secondItem="Lv8-nX-4CQ" secondAttribute="leading" constant="23" id="IWT-Ep-qVb"/>
+                                <constraint firstItem="lEr-wr-Qa7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mtD-Oi-W6e" secondAttribute="leading" id="KjO-zd-wRl"/>
                                 <constraint firstItem="lEr-wr-Qa7" firstAttribute="centerX" secondItem="Lv8-nX-4CQ" secondAttribute="centerX" id="MN2-uz-9gJ"/>
-                                <constraint firstItem="lEr-wr-Qa7" firstAttribute="top" secondItem="mtD-Oi-W5e" secondAttribute="bottom" constant="17.5" id="Shf-GA-h2e"/>
-                                <constraint firstItem="mtD-Oi-W5e" firstAttribute="top" secondItem="Lv8-nX-4CQ" secondAttribute="top" constant="24" id="WKq-7E-plo"/>
+                                <constraint firstItem="lEr-wr-Qa7" firstAttribute="top" secondItem="mtD-Oi-W6e" secondAttribute="bottom" constant="17.5" id="Shf-GA-h2e"/>
+                                <constraint firstItem="mtD-Oi-W6e" firstAttribute="top" secondItem="Lv8-nX-4CQ" secondAttribute="top" constant="24" id="WKq-7E-plo"/>
                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lEr-wr-Qa7" secondAttribute="trailing" constant="23" id="gl4-Uj-FQ5"/>
                                 <constraint firstAttribute="bottom" secondItem="lEr-wr-Qa7" secondAttribute="bottom" constant="24" id="rfR-Zb-UPz"/>
-                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mtD-Oi-W5e" secondAttribute="trailing" constant="23" id="tox-2n-d3V"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mtD-Oi-W6e" secondAttribute="trailing" constant="23" id="tox-2n-d3V"/>
                             </constraints>
                         </view>
                     </subviews>

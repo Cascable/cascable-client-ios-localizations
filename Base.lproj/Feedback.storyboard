@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bmc-L7-UCt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bmc-L8-UCt">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -9,7 +9,7 @@
         <!--Feedback-->
         <scene sceneID="cDs-fA-g6M">
             <objects>
-                <viewController title="Feedback" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="formSheet" id="bmc-L7-UCt" customClass="CBLFeedbackViewController" sceneMemberID="viewController">
+                <viewController title="Feedback" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="formSheet" id="bmc-L8-UCt" customClass="CBLFeedbackViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tMt-A7-dgW"/>
                         <viewControllerLayoutGuide type="bottom" id="aPt-Ac-uai"/>
@@ -24,13 +24,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z9N-Zn-peE" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="768" height="587.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXG-Ah-Rdx">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXG-Bh-Rdx">
                                                 <rect key="frame" x="281.5" y="30" width="204" height="53"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNv-Ln-jFW">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNv-Mn-jFW">
                                                 <rect key="frame" x="30" y="110" width="707.5" height="101.5"/>
                                                 <string key="text">Cascable is made by a small company in the Swedish countryside, just south of Stockholm. We pride ourselves in making software that is a joy to use and puts the user first.
 
@@ -54,7 +54,7 @@ Feedback is welcome! We do read every email, but are not able to respond to them
                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                         </variation>
                                                         <connections>
-                                                            <action selector="openTwitter:" destination="bmc-L7-UCt" eventType="touchUpInside" id="KCb-px-iOE"/>
+                                                            <action selector="openTwitter:" destination="bmc-L8-UCt" eventType="touchUpInside" id="KCb-px-iOE"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4f-wL-hRP">
@@ -71,7 +71,7 @@ quick feedback</string>
                                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="openTwitter:" destination="bmc-L7-UCt" eventType="touchUpInside" id="pgK-Pb-5Ju"/>
+                                                            <action selector="openTwitter:" destination="bmc-L8-UCt" eventType="touchUpInside" id="pgK-Pb-5Ju"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wrL-wb-cT7">
@@ -80,7 +80,7 @@ quick feedback</string>
                                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="sendEmail:" destination="bmc-L7-UCt" eventType="touchUpInside" id="ywJ-Mf-HaM"/>
+                                                            <action selector="sendEmail:" destination="bmc-L8-UCt" eventType="touchUpInside" id="ywJ-Mf-HaM"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMf-cK-vRk">
@@ -92,7 +92,7 @@ quick feedback</string>
                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                         </variation>
                                                         <connections>
-                                                            <action selector="sendEmail:" destination="bmc-L7-UCt" eventType="touchUpInside" id="gyw-XY-5v7"/>
+                                                            <action selector="sendEmail:" destination="bmc-L8-UCt" eventType="touchUpInside" id="gyw-XY-5v7"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OtA-KQ-yKs">
@@ -133,7 +133,7 @@ private feedback</string>
                                                     <constraint firstItem="U4f-wL-hRP" firstAttribute="top" secondItem="5gZ-dT-9QR" secondAttribute="bottom" constant="-2" id="zo8-Zg-PIq"/>
                                                 </constraints>
                                             </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FAQ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tN9-gX-wOq">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FAQ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tN9-gX-w1q">
                                                 <rect key="frame" x="364" y="392" width="39" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -166,21 +166,21 @@ If you're having trouble with this, please read through the Getting Connected gu
                                         </subviews>
                                         <constraints>
                                             <constraint firstAttribute="centerX" secondItem="UJe-QY-DSd" secondAttribute="centerX" id="0hS-Sn-Go4"/>
-                                            <constraint firstItem="mNv-Ln-jFW" firstAttribute="leading" secondItem="4u3-lC-IXA" secondAttribute="leading" id="158-TE-sEX"/>
-                                            <constraint firstItem="mNv-Ln-jFW" firstAttribute="leading" secondItem="z9N-Zn-peE" secondAttribute="leading" constant="30" id="3ea-vb-zlX"/>
-                                            <constraint firstAttribute="centerX" secondItem="YXG-Ah-Rdx" secondAttribute="centerX" id="3v8-uM-FcR"/>
-                                            <constraint firstItem="YXG-Ah-Rdx" firstAttribute="top" secondItem="z9N-Zn-peE" secondAttribute="top" constant="30" id="48a-MD-Mkn"/>
-                                            <constraint firstItem="mNv-Ln-jFW" firstAttribute="top" secondItem="z9N-Zn-peE" secondAttribute="top" constant="110" id="HI5-aG-2It">
+                                            <constraint firstItem="mNv-Mn-jFW" firstAttribute="leading" secondItem="4u3-lC-IXA" secondAttribute="leading" id="158-TE-sEX"/>
+                                            <constraint firstItem="mNv-Mn-jFW" firstAttribute="leading" secondItem="z9N-Zn-peE" secondAttribute="leading" constant="30" id="3ea-vb-zlX"/>
+                                            <constraint firstAttribute="centerX" secondItem="YXG-Bh-Rdx" secondAttribute="centerX" id="3v8-uM-FcR"/>
+                                            <constraint firstItem="YXG-Bh-Rdx" firstAttribute="top" secondItem="z9N-Zn-peE" secondAttribute="top" constant="30" id="48a-MD-Mkn"/>
+                                            <constraint firstItem="mNv-Mn-jFW" firstAttribute="top" secondItem="z9N-Zn-peE" secondAttribute="top" constant="110" id="HI5-aG-2It">
                                                 <variation key="widthClass=compact" constant="30"/>
                                             </constraint>
                                             <constraint firstAttribute="bottom" secondItem="4u3-lC-IXA" secondAttribute="bottom" constant="30" id="JDW-jn-fJq"/>
-                                            <constraint firstItem="UJe-QY-DSd" firstAttribute="top" secondItem="mNv-Ln-jFW" secondAttribute="bottom" constant="40" id="KlT-95-RBS"/>
-                                            <constraint firstItem="tN9-gX-wOq" firstAttribute="top" secondItem="UJe-QY-DSd" secondAttribute="bottom" constant="40" id="NnB-DB-oWI"/>
-                                            <constraint firstAttribute="centerX" secondItem="mNv-Ln-jFW" secondAttribute="centerX" id="Way-e7-Gfb"/>
-                                            <constraint firstItem="nPq-gm-2Q8" firstAttribute="top" secondItem="tN9-gX-wOq" secondAttribute="bottom" constant="10" id="a5E-In-sZ2"/>
+                                            <constraint firstItem="UJe-QY-DSd" firstAttribute="top" secondItem="mNv-Mn-jFW" secondAttribute="bottom" constant="40" id="KlT-95-RBS"/>
+                                            <constraint firstItem="tN9-gX-w1q" firstAttribute="top" secondItem="UJe-QY-DSd" secondAttribute="bottom" constant="40" id="NnB-DB-oWI"/>
+                                            <constraint firstAttribute="centerX" secondItem="mNv-Mn-jFW" secondAttribute="centerX" id="Way-e7-Gfb"/>
+                                            <constraint firstItem="nPq-gm-2Q8" firstAttribute="top" secondItem="tN9-gX-w1q" secondAttribute="bottom" constant="10" id="a5E-In-sZ2"/>
                                             <constraint firstItem="4u3-lC-IXA" firstAttribute="top" secondItem="nPq-gm-2Q8" secondAttribute="bottom" constant="10" id="ceb-sv-13p"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nPq-gm-2Q8" secondAttribute="trailing" constant="30" id="e0I-dJ-eXV"/>
-                                            <constraint firstAttribute="centerX" secondItem="tN9-gX-wOq" secondAttribute="centerX" id="mj6-CR-Rhm"/>
+                                            <constraint firstAttribute="centerX" secondItem="tN9-gX-w1q" secondAttribute="centerX" id="mj6-CR-Rhm"/>
                                             <constraint firstAttribute="width" constant="768" placeholder="YES" id="p3t-8L-zye"/>
                                             <constraint firstItem="nPq-gm-2Q8" firstAttribute="leading" secondItem="4u3-lC-IXA" secondAttribute="leading" id="tHT-76-BUC"/>
                                             <constraint firstAttribute="centerX" secondItem="4u3-lC-IXA" secondAttribute="centerX" id="wUf-H9-gAs"/>
@@ -192,7 +192,7 @@ If you're having trouble with this, please read through the Getting Connected gu
                                         </variation>
                                         <variation key="widthClass=compact">
                                             <mask key="subviews">
-                                                <exclude reference="YXG-Ah-Rdx"/>
+                                                <exclude reference="YXG-Bh-Rdx"/>
                                             </mask>
                                             <mask key="constraints">
                                                 <include reference="e0I-dJ-eXV"/>
@@ -219,7 +219,7 @@ If you're having trouble with this, please read through the Getting Connected gu
                     <navigationItem key="navigationItem" title="Feedback" id="fIZ-vY-XL9">
                         <barButtonItem key="rightBarButtonItem" title="Done" style="done" id="Pbr-6h-fAr">
                             <connections>
-                                <action selector="close:" destination="bmc-L7-UCt" id="Tfa-FK-80h"/>
+                                <action selector="close:" destination="bmc-L8-UCt" id="Tfa-FK-80h"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -231,13 +231,13 @@ If you're having trouble with this, please read through the Getting Connected gu
                     <connections>
                         <outlet property="contentView" destination="z9N-Zn-peE" id="k0b-Xb-mtP"/>
                         <outlet property="divider" destination="iiK-AY-dlg" id="SJG-rZ-CTg"/>
-                        <outlet property="feedbackTitleLabel" destination="YXG-Ah-Rdx" id="yrJ-Pd-KJT"/>
+                        <outlet property="feedbackTitleLabel" destination="YXG-Bh-Rdx" id="yrJ-Pd-KJT"/>
                         <outlet property="firstParagraphTopConstraint" destination="HI5-aG-2It" id="8ZS-Gv-1xz"/>
                         <outlet property="scrollView" destination="XlA-yb-NCe" id="19R-Cw-Jh7"/>
-                        <outletCollection property="headerLabels" destination="YXG-Ah-Rdx" id="eiL-Eu-ifW"/>
-                        <outletCollection property="headerLabels" destination="tN9-gX-wOq" id="De3-f8-oZa"/>
+                        <outletCollection property="headerLabels" destination="YXG-Bh-Rdx" id="eiL-Eu-ifW"/>
+                        <outletCollection property="headerLabels" destination="tN9-gX-w1q" id="De3-f8-oZa"/>
                         <outletCollection property="headerLabels" destination="nPq-gm-2Q8" id="1Fv-D1-jh8"/>
-                        <outletCollection property="normalLabels" destination="mNv-Ln-jFW" id="8aY-1x-bSC"/>
+                        <outletCollection property="normalLabels" destination="mNv-Mn-jFW" id="8aY-1x-bSC"/>
                         <outletCollection property="normalLabels" destination="4u3-lC-IXA" id="ES4-KH-lCH"/>
                         <outletCollection property="greyLabels" destination="U4f-wL-hRP" id="pDg-4U-IiC"/>
                         <outletCollection property="greyLabels" destination="OtA-KQ-yKs" id="e5M-aJ-Eui"/>
