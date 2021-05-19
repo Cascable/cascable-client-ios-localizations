@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,16 +24,36 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ngo-kZ-frd">
+                    <rect key="frame" x="30" y="20" width="354" height="67"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal">
+                        <imageReference key="image" image="chevron.down" catalog="system" symbolScale="large" renderingMode="template"/>
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="20" scale="large" weight="bold"/>
+                    </state>
+                    <connections>
+                        <action selector="dismissButtonTapped:" destination="laS-T6-TMb" eventType="touchUpInside" id="E9o-Mv-yDJ"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="q7T-gP-jhE"/>
             <constraints>
+                <constraint firstItem="q7T-gP-jhE" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nIV-5b-QlQ" secondAttribute="trailing" constant="65" id="6De-zW-HHB"/>
                 <constraint firstItem="nIV-5b-QlQ" firstAttribute="leading" secondItem="q7T-gP-jhE" secondAttribute="leading" constant="30" id="8kW-dh-Htj"/>
+                <constraint firstItem="Ngo-kZ-frd" firstAttribute="bottom" secondItem="nIV-5b-QlQ" secondAttribute="bottom" id="Hft-xG-MvQ"/>
+                <constraint firstItem="q7T-gP-jhE" firstAttribute="trailing" secondItem="Ngo-kZ-frd" secondAttribute="trailing" constant="30" id="MFX-Af-NnI"/>
+                <constraint firstItem="Ngo-kZ-frd" firstAttribute="top" secondItem="nIV-5b-QlQ" secondAttribute="top" id="Y2k-L8-QTD"/>
                 <constraint firstItem="q7T-gP-jhE" firstAttribute="bottom" secondItem="nIV-5b-QlQ" secondAttribute="bottom" constant="20" id="dfA-pM-atW"/>
+                <constraint firstItem="Ngo-kZ-frd" firstAttribute="leading" secondItem="nIV-5b-QlQ" secondAttribute="leading" id="lSs-XL-ulg"/>
             </constraints>
             <connections>
+                <outlet property="button" destination="Ngo-kZ-frd" id="esp-J1-28f"/>
                 <outlet property="label" destination="nIV-5b-QlQ" id="eX3-jm-3dY"/>
             </connections>
             <point key="canvasLocation" x="121.73913043478262" y="88.058035714285708"/>
         </collectionReusableView>
     </objects>
+    <resources>
+        <image name="chevron.down" catalog="system" width="128" height="72"/>
+    </resources>
 </document>
