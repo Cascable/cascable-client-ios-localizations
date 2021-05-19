@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZN2-am-Zmm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZN2-am-Zmm">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="G3P-g9-PCa" kind="relationship" relationship="rootViewController" id="wgD-4D-jAI"/>
+                        <segue destination="lQ5-ro-kKr" kind="relationship" relationship="rootViewController" id="pbE-Ia-jRi"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2pL-xg-Pre" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,130 +24,128 @@
             <point key="canvasLocation" x="-645" y="333"/>
         </scene>
         <!--Welcome-->
-        <scene sceneID="zK8-pb-TWa">
+        <scene sceneID="9ng-KS-dpP">
             <objects>
-                <viewController title="Welcome" modalPresentationStyle="formSheet" id="G3P-g9-PCa" customClass="CBLFirstWelcomeFirstRunViewController" sceneMemberID="viewController">
+                <viewController title="Welcome" modalPresentationStyle="formSheet" id="lQ5-ro-kKr" customClass="CBLFirstWelcomeFirstRunViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lvH-E3-Qq3"/>
-                        <viewControllerLayoutGuide type="bottom" id="g9B-sW-tIS"/>
+                        <viewControllerLayoutGuide type="top" id="cSx-is-LwY"/>
+                        <viewControllerLayoutGuide type="bottom" id="MaV-MD-EEq"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="3Kf-n0-sLc">
+                    <view key="view" contentMode="scaleToFill" id="Y78-85-WzE">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's New in Cascable?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="l3x-YS-zoX">
-                                <rect key="frame" x="17.5" y="175" width="285" height="32"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's new in Cascable?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="DEF-Zf-XLI">
+                                <rect key="frame" x="12.5" y="175" width="295" height="32"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e51-oR-xjz">
-                                <rect key="frame" x="30" y="227" width="260" height="217.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ree-zb-u7k">
+                                <rect key="frame" x="30" y="227" width="260" height="171"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="440" id="aYW-Lz-eal">
+                                    <constraint firstAttribute="width" constant="440" id="RdC-ix-uMJ">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Thank you for updating to Cascable 5.2!
+                                <string key="text">Thank you for updating to Cascable 6.0!
 
-Cascable 5.2 is the first app in the world to offer fully-featured USB remote control and tethering on iOS!
+Cascable 6.0 revamps its core camera connection and control experience, providing a greatly improved connection and remote control workflow.
 
-Currently this is only available for Canon EOS cameras, but we'll be expanding support as time goes on. You can continue to import images from other cameras via USB as before.
-
-Cascable 5.2 also adds support for HEIF images, the EOS R5 and R6, and more!</string>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+Cascable also now supports the Phase One IQ4 digital back, allowing you to work with its 150MP RAW images directly on your iOS device.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 </variation>
                             </label>
-                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AboutIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Y9H-Or-uKy">
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AboutIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Hm0-Vm-PZC">
                                 <rect key="frame" x="97.5" y="30" width="125" height="125"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="FAY-yF-wk6">
+                                    <constraint firstAttribute="width" constant="150" id="WW7-LO-Ef7">
                                         <variation key="widthClass=compact" constant="125"/>
                                     </constraint>
-                                    <constraint firstAttribute="width" secondItem="Y9H-Or-uKy" secondAttribute="height" multiplier="1:1" id="T6q-vc-55n"/>
+                                    <constraint firstAttribute="width" secondItem="Hm0-Vm-PZC" secondAttribute="height" multiplier="1:1" id="d1G-kZ-BHP"/>
                                 </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXi-v8-9jx">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qKk-11-ktJ">
                                 <rect key="frame" x="86" y="463" width="148" height="85"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wr9-Wd-JN8" customClass="CBLPillButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayG-fj-b7R" customClass="CBLPillButton">
                                         <rect key="frame" x="0.0" y="0.0" width="148" height="36"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="42" id="dfM-ee-gUm">
+                                            <constraint firstAttribute="height" constant="42" id="jGp-ZR-8PV">
                                                 <variation key="widthClass=compact" constant="36"/>
                                             </constraint>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="Continue  →">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <variation key="widthClass=compact">
-                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         </variation>
                                         <connections>
-                                            <segue destination="ST2-0w-0JQ" kind="show" id="zhk-jA-MBG"/>
+                                            <segue destination="Aen-GP-j4v" kind="show" id="wJL-Uf-8MS"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NP-z9-ZaH">
-                                        <rect key="frame" x="44" y="46" width="60" height="29"/>
-                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPL-5u-5le">
+                                        <rect key="frame" x="43.5" y="46" width="61" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="Skip Tour">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <variation key="widthClass=compact">
-                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         </variation>
                                         <connections>
-                                            <action selector="closeFirstRun:" destination="G3P-g9-PCa" eventType="touchUpInside" id="qbS-yO-MHa"/>
+                                            <action selector="closeFirstRun:" destination="lQ5-ro-kKr" eventType="touchUpInside" id="5Wl-SY-fpB"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="9NP-z9-ZaH" secondAttribute="bottom" constant="10" id="6ug-Ik-Ijy"/>
-                                    <constraint firstAttribute="trailing" secondItem="Wr9-Wd-JN8" secondAttribute="trailing" id="8Rq-eN-LmL"/>
-                                    <constraint firstItem="Wr9-Wd-JN8" firstAttribute="top" secondItem="aXi-v8-9jx" secondAttribute="top" id="Tgy-XH-z9h"/>
-                                    <constraint firstAttribute="width" constant="148" id="ZVy-Tc-1Hx"/>
-                                    <constraint firstItem="Wr9-Wd-JN8" firstAttribute="leading" secondItem="aXi-v8-9jx" secondAttribute="leading" id="jcC-zE-naS"/>
-                                    <constraint firstItem="9NP-z9-ZaH" firstAttribute="top" secondItem="Wr9-Wd-JN8" secondAttribute="bottom" constant="20" id="mYI-L7-cSp">
+                                    <constraint firstAttribute="bottom" secondItem="sPL-5u-5le" secondAttribute="bottom" constant="10" id="Jgd-iS-WWs"/>
+                                    <constraint firstItem="ayG-fj-b7R" firstAttribute="top" secondItem="qKk-11-ktJ" secondAttribute="top" id="Na6-Oo-eb2"/>
+                                    <constraint firstAttribute="width" constant="148" id="Uff-ot-zol"/>
+                                    <constraint firstAttribute="centerX" secondItem="sPL-5u-5le" secondAttribute="centerX" id="ZpJ-x9-P47"/>
+                                    <constraint firstItem="ayG-fj-b7R" firstAttribute="leading" secondItem="qKk-11-ktJ" secondAttribute="leading" id="dT7-f6-hGK"/>
+                                    <constraint firstItem="sPL-5u-5le" firstAttribute="top" secondItem="ayG-fj-b7R" secondAttribute="bottom" constant="20" id="jH1-X2-TiD">
                                         <variation key="widthClass=compact" constant="10"/>
                                     </constraint>
-                                    <constraint firstAttribute="centerX" secondItem="9NP-z9-ZaH" secondAttribute="centerX" id="wfB-AV-ijV"/>
+                                    <constraint firstAttribute="trailing" secondItem="ayG-fj-b7R" secondAttribute="trailing" id="puK-gU-LA5"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Y9H-Or-uKy" firstAttribute="width" secondItem="Y9H-Or-uKy" secondAttribute="height" multiplier="1:1" id="2Gc-QH-DQ6"/>
-                            <constraint firstItem="Y9H-Or-uKy" firstAttribute="top" secondItem="lvH-E3-Qq3" secondAttribute="bottom" constant="70" id="6Gx-ce-zv4">
+                            <constraint firstItem="DEF-Zf-XLI" firstAttribute="top" secondItem="Hm0-Vm-PZC" secondAttribute="bottom" constant="20" id="1L4-gf-X7Z"/>
+                            <constraint firstItem="Hm0-Vm-PZC" firstAttribute="top" secondItem="cSx-is-LwY" secondAttribute="bottom" constant="70" id="4Yy-b4-Z8S">
                                 <variation key="widthClass=compact" constant="30"/>
                             </constraint>
-                            <constraint firstItem="g9B-sW-tIS" firstAttribute="top" secondItem="aXi-v8-9jx" secondAttribute="bottom" constant="30" id="H08-wc-tCO">
+                            <constraint firstAttribute="centerX" secondItem="qKk-11-ktJ" secondAttribute="centerX" id="5ws-R8-xj9"/>
+                            <constraint firstAttribute="centerX" secondItem="Hm0-Vm-PZC" secondAttribute="centerX" id="6xs-E4-XQW"/>
+                            <constraint firstItem="MaV-MD-EEq" firstAttribute="top" secondItem="qKk-11-ktJ" secondAttribute="bottom" constant="30" id="gbA-ad-mT1">
                                 <variation key="widthClass=compact" constant="20"/>
                             </constraint>
-                            <constraint firstAttribute="centerX" secondItem="Y9H-Or-uKy" secondAttribute="centerX" id="Usg-wv-Sn5"/>
-                            <constraint firstAttribute="centerX" secondItem="e51-oR-xjz" secondAttribute="centerX" id="WPn-fi-cpH"/>
-                            <constraint firstAttribute="centerX" secondItem="l3x-YS-zoX" secondAttribute="centerX" id="XoP-Ls-G9W"/>
-                            <constraint firstAttribute="centerX" secondItem="aXi-v8-9jx" secondAttribute="centerX" id="suR-NW-9Ao"/>
-                            <constraint firstItem="l3x-YS-zoX" firstAttribute="top" secondItem="Y9H-Or-uKy" secondAttribute="bottom" constant="20" id="tdj-ef-JnL"/>
-                            <constraint firstItem="e51-oR-xjz" firstAttribute="top" secondItem="l3x-YS-zoX" secondAttribute="bottom" constant="20" id="yBF-0p-eW6"/>
+                            <constraint firstAttribute="centerX" secondItem="DEF-Zf-XLI" secondAttribute="centerX" id="gea-rf-nm6"/>
+                            <constraint firstItem="ree-zb-u7k" firstAttribute="top" secondItem="DEF-Zf-XLI" secondAttribute="bottom" constant="20" id="lEt-6A-z12"/>
+                            <constraint firstItem="Hm0-Vm-PZC" firstAttribute="width" secondItem="Hm0-Vm-PZC" secondAttribute="height" multiplier="1:1" id="rUH-w8-AhL"/>
+                            <constraint firstAttribute="centerX" secondItem="ree-zb-u7k" secondAttribute="centerX" id="wVH-u1-Ocm"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="qHR-UW-jcB"/>
+                    <navigationItem key="navigationItem" id="wlx-tR-uDH"/>
                     <connections>
-                        <outlet property="iconImageView" destination="Y9H-Or-uKy" id="wQu-3s-H4p"/>
+                        <outlet property="iconImageView" destination="Hm0-Vm-PZC" id="Y4b-aB-XDr"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="b0S-TM-LeV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4qi-Vb-9nk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="129.375" y="332.74647887323943"/>
+            <point key="canvasLocation" x="128" y="333"/>
         </scene>
         <!--All Done!-->
         <scene sceneID="C8t-5W-jzu">
@@ -162,12 +160,12 @@ Cascable 5.2 also adds support for HEIF images, the EOS R5 and R6, and more!</st
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="…and much more!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkA-ou-F8n">
-                                <rect key="frame" x="61.5" y="20" width="197" height="31.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <rect key="frame" x="56" y="20" width="208" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Bs-PF-Jvn">
@@ -177,16 +175,16 @@ Cascable 5.2 also adds support for HEIF images, the EOS R5 and R6, and more!</st
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Cascable 5.2 has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.
+                                <string key="text">This update has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.
 
 If you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?
 
 Enjoy!</string>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTH-Fo-vxd" customClass="CBLPillButton">
@@ -199,12 +197,12 @@ Enjoy!</string>
                                         <variation key="widthClass=compact" constant="36"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Start Using Cascable">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 </variation>
                                 <connections>
                                     <action selector="closeFirstRun:" destination="VTa-aR-8qN" eventType="touchUpInside" id="Lo5-PJ-KoV"/>
@@ -338,329 +336,222 @@ Enjoy!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eqh-Pz-nes" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="893" y="1121"/>
+            <point key="canvasLocation" x="893" y="1083"/>
         </scene>
         <!--First Run View Controller-->
-        <scene sceneID="1t0-KE-Roe">
+        <scene sceneID="AQN-rI-eSP">
             <objects>
-                <viewController id="ST2-0w-0JQ" customClass="CBLFirstRunViewController" sceneMemberID="viewController">
+                <viewController id="Aen-GP-j4v" customClass="CBLFirstRunViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="2u8-53-dKk"/>
-                        <viewControllerLayoutGuide type="bottom" id="8ov-fB-mNg"/>
+                        <viewControllerLayoutGuide type="top" id="wY7-jH-qEq"/>
+                        <viewControllerLayoutGuide type="bottom" id="aPy-fa-2Ga"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Jay-XJ-nSB">
+                    <view key="view" contentMode="scaleToFill" id="R11-IH-cyd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fully Featured USB Control &amp; Import" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhd-OS-wmU">
-                                <rect key="frame" x="50.5" y="20" width="219" height="62.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Revamped Remote Control" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xf-g0-5dU">
+                                <rect key="frame" x="68" y="20" width="184" height="62.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
                                 </variation>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iLw-Yv-RSP">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g0H-RN-39J">
                                 <rect key="frame" x="86" y="512" width="148" height="36"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ccz-El-vhK" customClass="CBLPillButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gki-mv-bZ6" customClass="CBLPillButton">
                                         <rect key="frame" x="0.0" y="0.0" width="148" height="36"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="42" id="CAN-RF-AmY">
+                                            <constraint firstAttribute="height" constant="42" id="gny-rF-jUP">
                                                 <variation key="widthClass=compact" constant="36"/>
                                             </constraint>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="Continue  →">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <variation key="widthClass=compact">
-                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         </variation>
                                         <connections>
-                                            <segue destination="kLP-di-aHC" kind="show" id="fgE-Sm-tE9"/>
+                                            <segue destination="wLI-Gc-MUS" kind="show" id="bLH-b9-3bh"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="148" id="8B8-9D-Jdu"/>
-                                    <constraint firstItem="Ccz-El-vhK" firstAttribute="top" secondItem="iLw-Yv-RSP" secondAttribute="top" id="H7u-Hh-yIW"/>
-                                    <constraint firstAttribute="trailing" secondItem="Ccz-El-vhK" secondAttribute="trailing" id="KQK-Gr-3a5"/>
-                                    <constraint firstItem="Ccz-El-vhK" firstAttribute="leading" secondItem="iLw-Yv-RSP" secondAttribute="leading" id="Rgy-bj-1V2"/>
-                                    <constraint firstAttribute="bottom" secondItem="Ccz-El-vhK" secondAttribute="bottom" id="gKQ-nB-ivH"/>
+                                    <constraint firstAttribute="bottom" secondItem="Gki-mv-bZ6" secondAttribute="bottom" id="R3J-Zt-aIJ"/>
+                                    <constraint firstItem="Gki-mv-bZ6" firstAttribute="leading" secondItem="g0H-RN-39J" secondAttribute="leading" id="iV5-HG-rho"/>
+                                    <constraint firstAttribute="trailing" secondItem="Gki-mv-bZ6" secondAttribute="trailing" id="qmg-dX-sMz"/>
+                                    <constraint firstItem="Gki-mv-bZ6" firstAttribute="top" secondItem="g0H-RN-39J" secondAttribute="top" id="vTU-ZQ-QuU"/>
+                                    <constraint firstAttribute="width" constant="148" id="wtz-2N-D6m"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FirstRunWiredCamera" translatesAutoresizingMaskIntoConstraints="NO" id="ZrK-vh-ugy">
-                                <rect key="frame" x="40" y="102.5" width="240" height="120"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FirstRunNewRemote" translatesAutoresizingMaskIntoConstraints="NO" id="BVq-D2-RQO">
+                                <rect key="frame" x="20" y="102.5" width="280" height="190"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="gO7-gM-yxp"/>
+                                    <constraint firstAttribute="height" constant="190" id="fh9-w1-2iD"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7du-wq-q4d">
-                                <rect key="frame" x="30" y="242.5" width="260" height="155.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bg-nG-lkh">
+                                <rect key="frame" x="30" y="302.5" width="260" height="140"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="440" id="3cg-F3-RLn">
+                                    <constraint firstAttribute="width" constant="440" id="5H5-Os-DPy">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">On iOS 14.2 and higher, Cascable can fully remote control Canon EOS cameras via USB on all iOS devices — iPhone, iPad, and iPod touch. A world first for iOS apps!
+                                <string key="text">Cascable 6.0 has a completely new remote control, providing an at-a-glance overview of all of your camera's exposure settings, and quick access to anything else you need.
 
-Cascable also now fully supports the EOS R5 and R6 cameras, both via USB and WiFi.
-
-For details on working with wired cameras, see our updated guides.</string>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+You'll also find a smoother, faster feel, better battery life, and less clutter on top of your live view image.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="7du-wq-q4d" firstAttribute="top" secondItem="ZrK-vh-ugy" secondAttribute="bottom" constant="40" id="2P2-Xk-hJh">
+                            <constraint firstItem="BVq-D2-RQO" firstAttribute="top" secondItem="4xf-g0-5dU" secondAttribute="bottom" constant="40" id="FKo-dV-iyT">
                                 <variation key="widthClass=compact" constant="20"/>
                             </constraint>
-                            <constraint firstItem="ZrK-vh-ugy" firstAttribute="top" secondItem="Xhd-OS-wmU" secondAttribute="bottom" constant="40" id="DQI-Xu-uRb">
+                            <constraint firstItem="4xf-g0-5dU" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="R11-IH-cyd" secondAttribute="leading" constant="20" id="LB6-PA-Kca"/>
+                            <constraint firstAttribute="centerX" secondItem="4xf-g0-5dU" secondAttribute="centerX" id="Nwg-9t-Jks"/>
+                            <constraint firstItem="BVq-D2-RQO" firstAttribute="leading" secondItem="R11-IH-cyd" secondAttribute="leading" constant="20" id="PZR-Oo-mhF"/>
+                            <constraint firstItem="aPy-fa-2Ga" firstAttribute="top" secondItem="g0H-RN-39J" secondAttribute="bottom" constant="30" id="TiM-m4-vMQ">
                                 <variation key="widthClass=compact" constant="20"/>
                             </constraint>
-                            <constraint firstItem="8ov-fB-mNg" firstAttribute="top" secondItem="iLw-Yv-RSP" secondAttribute="bottom" constant="30" id="DkB-IW-9dx">
+                            <constraint firstItem="g0H-RN-39J" firstAttribute="centerX" secondItem="R11-IH-cyd" secondAttribute="centerX" id="YiT-eQ-Au6"/>
+                            <constraint firstItem="BVq-D2-RQO" firstAttribute="centerX" secondItem="R11-IH-cyd" secondAttribute="centerX" id="n7W-mE-FdU"/>
+                            <constraint firstItem="4xf-g0-5dU" firstAttribute="top" secondItem="wY7-jH-qEq" secondAttribute="bottom" constant="40" id="wgM-6p-gEu">
                                 <variation key="widthClass=compact" constant="20"/>
                             </constraint>
-                            <constraint firstAttribute="centerX" secondItem="7du-wq-q4d" secondAttribute="centerX" id="EHh-GP-0ZP"/>
-                            <constraint firstItem="Xhd-OS-wmU" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Jay-XJ-nSB" secondAttribute="leading" constant="20" id="b0Z-sd-b06"/>
-                            <constraint firstItem="Xhd-OS-wmU" firstAttribute="top" secondItem="2u8-53-dKk" secondAttribute="bottom" constant="40" id="nWp-lH-pRK">
-                                <variation key="widthClass=compact" constant="20"/>
+                            <constraint firstAttribute="centerX" secondItem="0bg-nG-lkh" secondAttribute="centerX" id="xv3-hK-zWB"/>
+                            <constraint firstItem="0bg-nG-lkh" firstAttribute="top" secondItem="BVq-D2-RQO" secondAttribute="bottom" constant="20" id="yWw-fR-0WV">
+                                <variation key="widthClass=compact" constant="10"/>
                             </constraint>
-                            <constraint firstItem="iLw-Yv-RSP" firstAttribute="centerX" secondItem="Jay-XJ-nSB" secondAttribute="centerX" id="tgH-Mu-fbW"/>
-                            <constraint firstAttribute="centerX" secondItem="Xhd-OS-wmU" secondAttribute="centerX" id="tnG-Dc-h17"/>
-                            <constraint firstItem="ZrK-vh-ugy" firstAttribute="centerX" secondItem="Jay-XJ-nSB" secondAttribute="centerX" id="wGU-EB-GOM"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="m1j-hj-jth"/>
+                    <navigationItem key="navigationItem" id="bV5-bJ-cEH"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bN4-78-0M6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gxz-7w-Hv9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="894" y="333"/>
+            <point key="canvasLocation" x="893" y="333"/>
         </scene>
         <!--First Run View Controller-->
-        <scene sceneID="A4R-cP-hZI">
+        <scene sceneID="zv9-Af-xrL">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6hT-YS-Fsf" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="ZYZ-of-OdU" customClass="CBLFirstRunViewController" sceneMemberID="viewController">
+                <viewController id="wLI-Gc-MUS" customClass="CBLFirstRunViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="oKd-ds-8jD"/>
-                        <viewControllerLayoutGuide type="bottom" id="qbk-7a-f5p"/>
+                        <viewControllerLayoutGuide type="top" id="YEr-it-3Rp"/>
+                        <viewControllerLayoutGuide type="bottom" id="vMs-qB-JXO"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="adb-ol-AEG">
+                    <view key="view" contentMode="scaleToFill" id="VFF-U1-31A">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trigger Shots With The Volume Button" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7V-Vu-nvd">
-                                <rect key="frame" x="30" y="20" width="260" height="62.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phase One IQ4 150MP Support" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0s-bw-TZ1">
+                                <rect key="frame" x="67" y="20" width="186" height="62.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
                                 </variation>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L9D-qW-QRJ">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oK2-xD-4MV">
                                 <rect key="frame" x="86" y="512" width="148" height="36"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tQP-eG-JIZ" customClass="CBLPillButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLg-2C-fgO" customClass="CBLPillButton">
                                         <rect key="frame" x="0.0" y="0.0" width="148" height="36"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="42" id="Dn8-Jc-18S">
+                                            <constraint firstAttribute="height" constant="42" id="ZE9-6y-hsn">
                                                 <variation key="widthClass=compact" constant="36"/>
                                             </constraint>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="Continue  →">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <variation key="widthClass=compact">
-                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         </variation>
                                         <connections>
-                                            <segue destination="VTa-aR-8qN" kind="show" id="uPb-49-iKj"/>
+                                            <segue destination="VTa-aR-8qN" kind="show" id="BSE-PS-Pgv"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="tQP-eG-JIZ" secondAttribute="trailing" id="24B-dL-tod"/>
-                                    <constraint firstAttribute="width" constant="148" id="7PZ-oF-vpp"/>
-                                    <constraint firstAttribute="bottom" secondItem="tQP-eG-JIZ" secondAttribute="bottom" id="RHn-rl-pnD"/>
-                                    <constraint firstItem="tQP-eG-JIZ" firstAttribute="top" secondItem="L9D-qW-QRJ" secondAttribute="top" id="vPM-rk-Vax"/>
-                                    <constraint firstItem="tQP-eG-JIZ" firstAttribute="leading" secondItem="L9D-qW-QRJ" secondAttribute="leading" id="x2u-mV-jBm"/>
+                                    <constraint firstAttribute="width" constant="148" id="1nn-ui-Wuv"/>
+                                    <constraint firstAttribute="trailing" secondItem="PLg-2C-fgO" secondAttribute="trailing" id="XXc-VM-Yvw"/>
+                                    <constraint firstItem="PLg-2C-fgO" firstAttribute="leading" secondItem="oK2-xD-4MV" secondAttribute="leading" id="aIf-SA-5gR"/>
+                                    <constraint firstItem="PLg-2C-fgO" firstAttribute="top" secondItem="oK2-xD-4MV" secondAttribute="top" id="rG9-6d-7iO"/>
+                                    <constraint firstAttribute="bottom" secondItem="PLg-2C-fgO" secondAttribute="bottom" id="uYk-B4-Ybb"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FirstRunVolumeShutter" translatesAutoresizingMaskIntoConstraints="NO" id="3bM-3O-eQp">
-                                <rect key="frame" x="31.5" y="102.5" width="257" height="160"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PhaseOneIQ4Camera" translatesAutoresizingMaskIntoConstraints="NO" id="9FK-Vf-APh">
+                                <rect key="frame" x="20" y="102.5" width="280" height="190"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="4K8-uA-Slg">
-                                        <variation key="widthClass=compact" constant="160"/>
-                                    </constraint>
+                                    <constraint firstAttribute="height" constant="190" id="ECj-zj-gPX"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Small but frequently requested, you can now trigger your camera's shutter with the volume buttons on your iOS device." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E2p-7s-WAT">
-                                <rect key="frame" x="30" y="282.5" width="260" height="47"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ts4-yC-4y0">
+                                <rect key="frame" x="30" y="302.5" width="260" height="140"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="440" id="ROy-E4-hh4">
+                                    <constraint firstAttribute="width" constant="440" id="rNG-JY-bTw">
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <string key="text">Cascable 6.0 supports the medium-format Phase One IQ4 150MP digital back with both the XT and XF camera systems via WiFi or Ethernet.
+
+And, thanks to a special collaboration with Phase One, Cascable's Pro features are unlocked free-of-charge for Phase One users!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="L9D-qW-QRJ" firstAttribute="centerX" secondItem="adb-ol-AEG" secondAttribute="centerX" id="BzU-3E-4kr"/>
-                            <constraint firstAttribute="centerX" secondItem="v7V-Vu-nvd" secondAttribute="centerX" id="HdQ-K4-06a"/>
-                            <constraint firstItem="v7V-Vu-nvd" firstAttribute="top" secondItem="oKd-ds-8jD" secondAttribute="bottom" constant="40" id="KUN-Fm-rG8">
+                            <constraint firstItem="Ts4-yC-4y0" firstAttribute="top" secondItem="9FK-Vf-APh" secondAttribute="bottom" constant="20" id="2bV-zn-FQM">
+                                <variation key="widthClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="9FK-Vf-APh" firstAttribute="top" secondItem="g0s-bw-TZ1" secondAttribute="bottom" constant="40" id="Bgd-Zp-Odb">
                                 <variation key="widthClass=compact" constant="20"/>
                             </constraint>
-                            <constraint firstAttribute="centerX" secondItem="E2p-7s-WAT" secondAttribute="centerX" id="TFG-Rv-AmB"/>
-                            <constraint firstItem="E2p-7s-WAT" firstAttribute="top" secondItem="3bM-3O-eQp" secondAttribute="bottom" constant="40" id="XUd-Cn-hMt">
+                            <constraint firstItem="vMs-qB-JXO" firstAttribute="top" secondItem="oK2-xD-4MV" secondAttribute="bottom" constant="30" id="Eff-Y4-wKm">
                                 <variation key="widthClass=compact" constant="20"/>
                             </constraint>
-                            <constraint firstItem="v7V-Vu-nvd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="adb-ol-AEG" secondAttribute="leading" constant="30" id="cRn-JE-JaF"/>
-                            <constraint firstItem="3bM-3O-eQp" firstAttribute="centerX" secondItem="adb-ol-AEG" secondAttribute="centerX" id="h3y-fw-GCb"/>
-                            <constraint firstItem="3bM-3O-eQp" firstAttribute="top" secondItem="v7V-Vu-nvd" secondAttribute="bottom" constant="40" id="pEs-Vg-60M">
+                            <constraint firstItem="9FK-Vf-APh" firstAttribute="centerX" secondItem="VFF-U1-31A" secondAttribute="centerX" id="H0n-iK-OYA"/>
+                            <constraint firstItem="g0s-bw-TZ1" firstAttribute="top" secondItem="YEr-it-3Rp" secondAttribute="bottom" constant="40" id="U81-J5-SMd">
                                 <variation key="widthClass=compact" constant="20"/>
                             </constraint>
-                            <constraint firstItem="qbk-7a-f5p" firstAttribute="top" secondItem="L9D-qW-QRJ" secondAttribute="bottom" constant="30" id="qPp-NS-gQX">
-                                <variation key="widthClass=compact" constant="20"/>
-                            </constraint>
+                            <constraint firstItem="g0s-bw-TZ1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="VFF-U1-31A" secondAttribute="leading" constant="20" id="UKV-es-Tnk"/>
+                            <constraint firstItem="9FK-Vf-APh" firstAttribute="leading" secondItem="VFF-U1-31A" secondAttribute="leading" constant="20" id="eta-t7-6V4"/>
+                            <constraint firstAttribute="centerX" secondItem="g0s-bw-TZ1" secondAttribute="centerX" id="rcu-Sz-4Ah"/>
+                            <constraint firstItem="oK2-xD-4MV" firstAttribute="centerX" secondItem="VFF-U1-31A" secondAttribute="centerX" id="uCe-TP-6j5"/>
+                            <constraint firstAttribute="centerX" secondItem="Ts4-yC-4y0" secondAttribute="centerX" id="uOn-WZ-H2B"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="GFL-gf-qKP"/>
+                    <navigationItem key="navigationItem" id="mRI-yf-aUe"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tXB-kn-KEK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="129" y="1121"/>
-        </scene>
-        <!--First Run View Controller-->
-        <scene sceneID="0m6-1H-kpB">
-            <objects>
-                <viewController id="kLP-di-aHC" customClass="CBLFirstRunViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="f0M-D7-T7K"/>
-                        <viewControllerLayoutGuide type="bottom" id="v0A-4K-9qu"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kZo-Z1-BYC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Support for HEIF Images" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKB-lo-UFU">
-                                <rect key="frame" x="89.5" y="20" width="141" height="62.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                </variation>
-                            </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YtH-cw-0Ny">
-                                <rect key="frame" x="86" y="512" width="148" height="36"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1so-zZ-DiP" customClass="CBLPillButton">
-                                        <rect key="frame" x="0.0" y="0.0" width="148" height="36"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="42" id="oFW-Ce-dMb">
-                                                <variation key="widthClass=compact" constant="36"/>
-                                            </constraint>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                        <state key="normal" title="Continue  →">
-                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <variation key="widthClass=compact">
-                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                                        </variation>
-                                        <connections>
-                                            <segue destination="ZYZ-of-OdU" kind="show" id="TwU-xj-QfP"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="1so-zZ-DiP" secondAttribute="trailing" id="1Hu-co-WrZ"/>
-                                    <constraint firstItem="1so-zZ-DiP" firstAttribute="top" secondItem="YtH-cw-0Ny" secondAttribute="top" id="Bo0-NZ-GEy"/>
-                                    <constraint firstAttribute="width" constant="148" id="IMS-z8-hfe"/>
-                                    <constraint firstAttribute="bottom" secondItem="1so-zZ-DiP" secondAttribute="bottom" id="bjs-V1-ytT"/>
-                                    <constraint firstItem="1so-zZ-DiP" firstAttribute="leading" secondItem="YtH-cw-0Ny" secondAttribute="leading" id="htz-eF-zln"/>
-                                </constraints>
-                            </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FirstRunHEIF" translatesAutoresizingMaskIntoConstraints="NO" id="XOJ-Ju-hOK">
-                                <rect key="frame" x="-87.5" y="102.5" width="495" height="200"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="hde-nh-gG8">
-                                        <variation key="widthClass=compact" constant="200"/>
-                                    </constraint>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h86-a9-Awt">
-                                <rect key="frame" x="30" y="322.5" width="260" height="171"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="440" id="QfJ-gl-Iv1">
-                                        <variation key="widthClass=compact" constant="260"/>
-                                    </constraint>
-                                </constraints>
-                                <string key="text">Cascable now fully supports HEIF — you can view, manage and edit HEIF images just like other image formats.
-
-Storage Links have also been expanded to allow automatic copying of your HEIF images as they're being shot.
-
-The newest camera models are starting to shoot HEIF, and with Cascable you'll be ready!</string>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
-                                </variation>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="HKB-lo-UFU" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="kZo-Z1-BYC" secondAttribute="leading" constant="30" id="6fh-fF-8Dq"/>
-                            <constraint firstItem="XOJ-Ju-hOK" firstAttribute="top" secondItem="HKB-lo-UFU" secondAttribute="bottom" constant="20" id="8Pj-b5-OhX">
-                                <variation key="widthClass=compact" constant="20"/>
-                            </constraint>
-                            <constraint firstItem="h86-a9-Awt" firstAttribute="top" secondItem="XOJ-Ju-hOK" secondAttribute="bottom" constant="20" id="ETY-ur-MGs">
-                                <variation key="widthClass=compact" constant="20"/>
-                            </constraint>
-                            <constraint firstAttribute="centerX" secondItem="h86-a9-Awt" secondAttribute="centerX" id="J7j-Ai-rmn"/>
-                            <constraint firstItem="HKB-lo-UFU" firstAttribute="top" secondItem="f0M-D7-T7K" secondAttribute="bottom" constant="40" id="K6f-l3-Gm1">
-                                <variation key="widthClass=compact" constant="20"/>
-                            </constraint>
-                            <constraint firstItem="YtH-cw-0Ny" firstAttribute="centerX" secondItem="kZo-Z1-BYC" secondAttribute="centerX" id="OPQ-ss-yVD"/>
-                            <constraint firstItem="XOJ-Ju-hOK" firstAttribute="centerX" secondItem="kZo-Z1-BYC" secondAttribute="centerX" id="YKl-aa-tgY"/>
-                            <constraint firstItem="v0A-4K-9qu" firstAttribute="top" secondItem="YtH-cw-0Ny" secondAttribute="bottom" constant="30" id="gxa-F9-gC5">
-                                <variation key="widthClass=compact" constant="20"/>
-                            </constraint>
-                            <constraint firstAttribute="centerX" secondItem="HKB-lo-UFU" secondAttribute="centerX" id="yaT-kM-Mag"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="Thm-Hc-QRK"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="phF-LX-B5l" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1657.5" y="332.74647887323943"/>
+            <point key="canvasLocation" x="128" y="1083"/>
         </scene>
     </scenes>
     <resources>
         <image name="AboutIcon" width="150" height="150"/>
-        <image name="FirstRunHEIF" width="495" height="604.5"/>
-        <image name="FirstRunVolumeShutter" width="257" height="132"/>
-        <image name="FirstRunWiredCamera" width="240" height="120"/>
+        <image name="FirstRunNewRemote" width="536" height="388.5"/>
         <image name="InstagramLogo" width="44" height="44"/>
+        <image name="PhaseOneIQ4Camera" width="707" height="423"/>
         <image name="TwitterLogo" width="44" height="44"/>
     </resources>
 </document>
