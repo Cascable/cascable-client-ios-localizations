@@ -57,7 +57,7 @@
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="EOS SLR cameras, EOS M and EOS R mirrorless cameras." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZwA-IH-wcG">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="EOS SLR cameras, EOS M and EOS R mirrorless cameras." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZwA-IH-wcG">
                                                                     <rect key="frame" x="0.0" y="22.5" width="294" height="36"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                     <color key="textColor" systemColor="secondaryLabelColor"/>
@@ -161,7 +161,10 @@
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ggg-Hs-PWF">
                                                 <rect key="frame" x="30" y="30" width="232" height="48"/>
-                                                <state key="normal" image="Back"/>
+                                                <state key="normal">
+                                                    <imageReference key="image" image="chevron.left" catalog="system" symbolScale="large" renderingMode="template"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="20" scale="large" weight="bold"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="backButtonTapped:" destination="6z8-bB-PNd" eventType="touchUpInside" id="Pb5-bz-3jU"/>
                                                     <action selector="backButtonTapped:" destination="IWs-K5-Yi4" eventType="touchUpInside" id="ewG-4p-jOi"/>
@@ -209,7 +212,6 @@
                                                             <constraint firstAttribute="bottom" secondItem="VxP-fb-60Z" secondAttribute="bottom" id="SAc-7h-Yxd"/>
                                                             <constraint firstAttribute="trailing" secondItem="VxP-fb-60Z" secondAttribute="trailing" id="aAb-81-mBe"/>
                                                             <constraint firstItem="VxP-fb-60Z" firstAttribute="leading" secondItem="iDr-XR-jhg" secondAttribute="leading" id="itY-pp-yyb"/>
-                                                            <constraint firstItem="VxP-fb-60Z" firstAttribute="centerX" secondItem="iDr-XR-jhg" secondAttribute="centerX" id="rnP-vv-wBm"/>
                                                         </constraints>
                                                     </view>
                                                 </subviews>
@@ -313,7 +315,10 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rmc-Hq-3QE">
                                                 <rect key="frame" x="30" y="30" width="232" height="48"/>
-                                                <state key="normal" image="Back"/>
+                                                <state key="normal">
+                                                    <imageReference key="image" image="chevron.left" catalog="system" symbolScale="large" renderingMode="template"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="20" scale="large" weight="bold"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="backButtonTapped:" destination="lwJ-F2-6RA" eventType="touchUpInside" id="Gvq-WM-PEg"/>
                                                     <action selector="backButtonTapped:" destination="6z8-bB-PNd" eventType="touchUpInside" id="O3M-Y6-3iY"/>
@@ -508,7 +513,10 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rom-aT-naZ">
                                                 <rect key="frame" x="30" y="30" width="232" height="48"/>
-                                                <state key="normal" image="Back"/>
+                                                <state key="normal">
+                                                    <imageReference key="image" image="chevron.left" catalog="system" symbolScale="large" renderingMode="template"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="20" scale="large" weight="bold"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="backButtonTapped:" destination="lwJ-F2-6RA" eventType="touchUpInside" id="At9-6E-7NI"/>
                                                 </connections>
@@ -762,9 +770,9 @@ Please make sure Cascable has permission to to access the camera in your privacy
         </scene>
     </scenes>
     <resources>
-        <image name="Back" width="13" height="21"/>
         <image name="CameraDisconnectedFace" width="120" height="88"/>
         <image name="CanonHelpArticleIcon" width="29" height="29"/>
+        <image name="chevron.left" catalog="system" width="96" height="128"/>
         <image name="chevron.right.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

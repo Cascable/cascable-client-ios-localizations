@@ -38,7 +38,7 @@
             </subviews>
             <viewLayoutGuide key="safeArea" id="q7T-gP-jhE"/>
             <constraints>
-                <constraint firstItem="q7T-gP-jhE" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nIV-5b-QlQ" secondAttribute="trailing" constant="65" id="6De-zW-HHB"/>
+                <constraint firstItem="q7T-gP-jhE" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nIV-5b-QlQ" secondAttribute="trailing" constant="70" id="6De-zW-HHB"/>
                 <constraint firstItem="nIV-5b-QlQ" firstAttribute="leading" secondItem="q7T-gP-jhE" secondAttribute="leading" constant="30" id="8kW-dh-Htj"/>
                 <constraint firstItem="Ngo-kZ-frd" firstAttribute="bottom" secondItem="nIV-5b-QlQ" secondAttribute="bottom" id="Hft-xG-MvQ"/>
                 <constraint firstItem="q7T-gP-jhE" firstAttribute="trailing" secondItem="Ngo-kZ-frd" secondAttribute="trailing" constant="30" id="MFX-Af-NnI"/>
