@@ -1001,7 +1001,7 @@
 "FastLVSettingTitle" = "Hohe Bildwiederholungsrate";
 
 /* Description of the 'Prefer Framerate over Quality' setting. */
-"FastLVDescription" = "Falls aktiviert (und von Ihrer Kamera unterstützt), wird Cascable die Qualität der Vorschau reduzieren, um eine höhere Bildwiederholungsrate zu erreichen. Diese Funktion wird von Nikon-, einigen Canon- und einigen Sony-Modellen unterstützt.";
+"FastLVDescription" = "Falls aktiviert (und von Ihrer Kamera unterstützt), wird Cascable die Qualität der Vorschau reduzieren, um eine höhere Bildwiederholungsrate zu erreichen. Diese Funktion wird von Nikon-, Phase One-, einigen Canon- und einigen Sony-Modellen unterstützt.";
 
 /* Title for the settings section for focus peaking. */
 "FocusPeakingSettingsTitle" = "Fokus-Peaking";
