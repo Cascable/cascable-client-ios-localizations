@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StoreViewController">
             <connections>
                 <outlet property="availableContentView" destination="ThB-6a-50h" id="aSF-0s-vLS"/>
-                <outlet property="buttonStackView" destination="zIK-dX-IuA" id="Hsw-xT-vns"/>
                 <outlet property="contentContainer" destination="o7V-3X-PKu" id="Oxr-fL-mPb"/>
                 <outlet property="legaleseLeftConstraint" destination="GCF-vQ-MOE" id="JCc-u2-wY6"/>
                 <outlet property="loadingContainer" destination="XCR-ov-e5P" id="B8T-jj-05b"/>
@@ -22,8 +19,11 @@
                 <outlet property="loadingErrorView" destination="bLr-1g-gRG" id="qb8-lo-dv4"/>
                 <outlet property="loadingIndicator" destination="78S-Rk-MAw" id="06n-ah-ksN"/>
                 <outlet property="loadingSlowWarningLabel" destination="eWf-Rq-vh9" id="aew-Ka-Bpk"/>
+                <outlet property="nonSubscriptionButtonStackView" destination="BA0-jM-qlr" id="i1f-md-PVB"/>
+                <outlet property="nonSubscriptionHeader" destination="jgD-k7-IA3" id="VH1-ka-Sho"/>
                 <outlet property="purchasedContainer" destination="PgT-mL-Kkh" id="Jso-PL-G88"/>
                 <outlet property="purchasedImageView" destination="UCX-IQ-0yR" id="8Y6-7L-6tO"/>
+                <outlet property="subscriptionButtonStackView" destination="zIK-dX-IuA" id="PxU-dx-0Yq"/>
                 <outlet property="subscriptionExpiredView" destination="Wjj-Jy-YwI" id="Ph8-8j-dnB"/>
                 <outlet property="termsButton" destination="GDM-LV-4vK" id="9wn-aI-OHh"/>
                 <outlet property="upsellCarouselContainer" destination="C28-Qx-0nk" id="uG4-iw-EKN"/>
@@ -35,11 +35,11 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o7V-3X-PKu">
-                    <rect key="frame" x="0.0" y="194" width="375" height="473"/>
+                    <rect key="frame" x="0.0" y="194" width="375" height="453"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SqA-lJ-iz3" customClass="CBLHairlineDividerView">
@@ -91,7 +91,7 @@
                             </constraints>
                             <string key="text">The Cascable store is not available at the moment. Please check your network connection. If connected to a camera, you may need to disconnect to reach a network with Internet connectivity.</string>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <color key="textColor" systemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
@@ -149,19 +149,19 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You're upgraded to Cascable Pro!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXK-jg-Fsr">
-                    <rect key="frame" x="57.5" y="30" width="266.5" height="21"/>
+                    <rect key="frame" x="77.5" y="30" width="226" height="17"/>
                     <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank you for supporting Cascable! Your purchase helps support a small, independent company. We couldn't do it without you!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XBi-WY-554">
-                    <rect key="frame" x="43.5" y="59" width="294.5" height="50.5"/>
+                    <rect key="frame" x="43.5" y="55" width="294.5" height="50.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PurchasedFace" translatesAutoresizingMaskIntoConstraints="NO" id="UCX-IQ-0yR">
-                    <rect key="frame" x="130.5" y="139.5" width="120" height="124"/>
+                    <rect key="frame" x="130.5" y="135.5" width="120" height="124"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -184,28 +184,28 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YPH-Mm-of9">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="500"/>
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="571"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upgrade to Cascable Pro!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydd-AC-yDZ">
-                            <rect key="frame" x="85.5" y="20" width="204.5" height="20.5"/>
+                            <rect key="frame" x="101.5" y="20" width="172.5" height="17"/>
                             <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cascable Pro provides powerful shutter automation, RAW image support, night mode, geotagging tools and much more." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bBR-rE-0TM">
-                            <rect key="frame" x="40" y="48.5" width="295" height="43"/>
+                            <rect key="frame" x="40" y="45" width="295" height="43"/>
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zIK-dX-IuA">
-                            <rect key="frame" x="20" y="111.5" width="335" height="180"/>
+                            <rect key="frame" x="20" y="108" width="335" height="100"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wjj-Jy-YwI">
-                                    <rect key="frame" x="78" y="0.0" width="179" height="180"/>
+                                    <rect key="frame" x="78" y="0.0" width="179" height="100"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your subscription has expired." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ujW-cu-PgL">
-                                            <rect key="frame" x="0.0" y="0.0" width="179" height="170"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="179" height="90"/>
                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -221,11 +221,17 @@
                                 </view>
                             </subviews>
                             <constraints>
-                                <constraint firstAttribute="height" constant="180" placeholder="YES" id="cBP-bk-Rcu"/>
+                                <constraint firstAttribute="height" constant="100" placeholder="YES" id="cBP-bk-Rcu"/>
                             </constraints>
                         </stackView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prefer no subscriptions?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgD-k7-IA3">
+                            <rect key="frame" x="115.5" y="228" width="144.5" height="14.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QlX-Ep-Kyp">
-                            <rect key="frame" x="40" y="311.5" width="295" height="119.5"/>
+                            <rect key="frame" x="40" y="382.5" width="295" height="119.5"/>
                             <string key="text">Cascable Pro subscriptions will renew within 24 hours before the subscription period ends, and you will be charged through your iTunes account.
 
 If you purchase a new Cascable Pro subscription during a free trial, you will forfeit any free trial period remaining from your first subscription.
@@ -235,31 +241,46 @@ You can manage and cancel your subscription in your iTunes Account Settings at a
                             <color key="textColor" white="0.098931206597222224" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GDM-LV-4vK">
-                            <rect key="frame" x="107" y="451" width="161" height="29"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GDM-LV-4vK">
+                            <rect key="frame" x="107" y="522" width="161" height="29"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <state key="normal" title="Terms and Privacy Policy"/>
                             <connections>
                                 <action selector="showTerms:" destination="-1" eventType="touchUpInside" id="KDt-Wf-X2k"/>
                             </connections>
                         </button>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="BA0-jM-qlr">
+                            <rect key="frame" x="20" y="262.5" width="335" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" placeholder="YES" id="Nyn-hv-FfS"/>
+                            </constraints>
+                        </stackView>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="GDM-LV-4vK" firstAttribute="top" secondItem="QlX-Ep-Kyp" secondAttribute="bottom" constant="20" id="33O-9V-Lcu"/>
                         <constraint firstItem="bBR-rE-0TM" firstAttribute="top" secondItem="ydd-AC-yDZ" secondAttribute="bottom" constant="8" id="38q-gD-hV2"/>
+                        <constraint firstItem="ujW-cu-PgL" firstAttribute="top" secondItem="YPH-Mm-of9" secondAttribute="top" constant="108" id="4hf-yl-5Js"/>
                         <constraint firstItem="GDM-LV-4vK" firstAttribute="centerX" secondItem="YPH-Mm-of9" secondAttribute="centerX" id="59t-6c-jeR"/>
+                        <constraint firstItem="BA0-jM-qlr" firstAttribute="top" secondItem="jgD-k7-IA3" secondAttribute="bottom" constant="20" id="DKG-jm-Lm7"/>
+                        <constraint firstAttribute="trailing" secondItem="BA0-jM-qlr" secondAttribute="trailing" constant="20" id="E1y-zl-5Cm"/>
                         <constraint firstItem="QlX-Ep-Kyp" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="YPH-Mm-of9" secondAttribute="leading" constant="40" id="GCF-vQ-MOE"/>
                         <constraint firstItem="zIK-dX-IuA" firstAttribute="leading" secondItem="YPH-Mm-of9" secondAttribute="leading" constant="20" id="Gz0-lf-vvG"/>
                         <constraint firstItem="bBR-rE-0TM" firstAttribute="centerX" secondItem="YPH-Mm-of9" secondAttribute="centerX" id="MCs-8A-GSA"/>
                         <constraint firstItem="ydd-AC-yDZ" firstAttribute="centerX" secondItem="YPH-Mm-of9" secondAttribute="centerX" id="Nr0-0f-8J5"/>
+                        <constraint firstItem="jgD-k7-IA3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="YPH-Mm-of9" secondAttribute="leading" constant="20" id="RyW-Ex-3un"/>
                         <constraint firstAttribute="bottom" secondItem="GDM-LV-4vK" secondAttribute="bottom" constant="20" id="ZRd-Xe-nma"/>
                         <constraint firstItem="QlX-Ep-Kyp" firstAttribute="centerX" secondItem="YPH-Mm-of9" secondAttribute="centerX" id="cNi-cx-5XC"/>
                         <constraint firstItem="bBR-rE-0TM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="YPH-Mm-of9" secondAttribute="leading" constant="40" id="d5v-oL-5dk"/>
                         <constraint firstItem="ydd-AC-yDZ" firstAttribute="top" secondItem="YPH-Mm-of9" secondAttribute="top" constant="20" id="ehk-dg-LGQ"/>
+                        <constraint firstAttribute="trailing" secondItem="ujW-cu-PgL" secondAttribute="trailing" constant="98" id="fRU-6z-dqN"/>
+                        <constraint firstItem="ujW-cu-PgL" firstAttribute="leading" secondItem="YPH-Mm-of9" secondAttribute="leading" constant="98" id="hPA-27-dn8"/>
                         <constraint firstAttribute="trailing" secondItem="zIK-dX-IuA" secondAttribute="trailing" constant="20" id="jFo-8e-73N"/>
+                        <constraint firstItem="BA0-jM-qlr" firstAttribute="leading" secondItem="YPH-Mm-of9" secondAttribute="leading" constant="20" id="o8O-qs-JAd"/>
                         <constraint firstItem="zIK-dX-IuA" firstAttribute="top" secondItem="bBR-rE-0TM" secondAttribute="bottom" constant="20" id="oNh-5f-KBg"/>
-                        <constraint firstItem="QlX-Ep-Kyp" firstAttribute="top" secondItem="zIK-dX-IuA" secondAttribute="bottom" constant="20" id="uEP-zs-Yde"/>
+                        <constraint firstItem="jgD-k7-IA3" firstAttribute="top" secondItem="zIK-dX-IuA" secondAttribute="bottom" constant="20" id="oWS-9E-dEB"/>
+                        <constraint firstItem="jgD-k7-IA3" firstAttribute="centerX" secondItem="YPH-Mm-of9" secondAttribute="centerX" id="rEB-PI-PiO"/>
+                        <constraint firstItem="QlX-Ep-Kyp" firstAttribute="top" secondItem="BA0-jM-qlr" secondAttribute="bottom" constant="20" id="rjp-2m-LVe"/>
                     </constraints>
                 </view>
             </subviews>
@@ -277,5 +298,8 @@ You can manage and cancel your subscription in your iTunes Account Settings at a
     <resources>
         <image name="CameraDisconnectedFace" width="120" height="88"/>
         <image name="PurchasedFace" width="120" height="124"/>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

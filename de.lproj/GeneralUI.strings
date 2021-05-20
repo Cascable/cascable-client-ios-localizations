@@ -1251,6 +1251,9 @@
 /* Product subtitle when the user is subscribed with a monthly subscription. */
 "OfflineProductMonthlySubscriptionSubtitle" = "Abonnement aktiv.";
 
+/* Product subtitle when the user is subscribed with a yearly subscription. */
+"OfflineProductYearlySubscriptionSubtitle" = "Abonnement aktiv.";
+
 /* Title of the "Purchases" section of the settings section of the app. */
 "PurchasesSettingsSectionTitle" = "Einkäufe";
 
@@ -1309,17 +1312,26 @@
 /* Purchase button main title for a quarterly subscription. */
 "PurchaseButtonQuarterlySubscriptionNoTrialHeadline" = "Vierteljährliches Abonnement";
 
+/* Purchase button main title for a yearly subscription. */
+"PurchaseButtonYearlySubscriptionNoTrialHeadline" = "Jahresabonnement";
+
 /* Purchase button sub-title for a monthly subscription. E.g.: "then $2.99 per month". */
 "PurchaseButtonMonthlySubscriptionSubheadline" = "danach %@ pro Monat";
 
 /* Purchase button sub-title for a quarterly subscription. E.g.: "then $1.99 every three months". */
 "PurchaseButtonQuarterlySubscriptionSubheadline" = "danach %@ pro drei Monat";
 
+/* Purchase button sub-title for a yearly subscription. E.g.: "then $19.99 per year". */
+"PurchaseButtonYearlySubscriptionSubheadline" = "danach %@ pro Jahr";
+
 /* Purchase button sub-title for a monthly subscription without a trial. E.g.: "$2.99 per month". */
 "PurchaseButtonMonthlySubscriptionNoTrialSubheadline" = "%@ pro Monat";
 
 /* Purchase button sub-title for a quarterly subscription without a trial. E.g.: "$1.99 every three months". */
 "PurchaseButtonQuarterlySubscriptionNoTrialSubheadline" = "%@ pro drei Monat";
+
+/* Purchase button sub-title for a yearly subscription without a trial. E.g.: "$19.99 per year". */
+"PurchaseButtonYearlySubscriptionNoTrialSubheadline" = "%@ pro Jahr";
 
 // ------------------------------------------------------------
 //     Managing Selection

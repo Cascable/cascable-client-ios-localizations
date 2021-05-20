@@ -1259,6 +1259,9 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Product subtitle when the user is subscribed with a monthly subscription. */
 "OfflineProductMonthlySubscriptionSubtitle" = "Subscription active.";
 
+/* Product subtitle when the user is subscribed with a yearly subscription. */
+"OfflineProductYearlySubscriptionSubtitle" = "Subscription active.";
+
 /* Title of the "Purchases" section of the settings section of the app. */
 "PurchasesSettingsSectionTitle" = "Purchases";
 
@@ -1317,17 +1320,26 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 /* Purchase button main title for a quarterly subscription. */
 "PurchaseButtonQuarterlySubscriptionNoTrialHeadline" = "Quarterly Subscription";
 
+/* Purchase button main title for a yearly subscription. */
+"PurchaseButtonYearlySubscriptionNoTrialHeadline" = "Yearly Subscription";
+
 /* Purchase button sub-title for a monthly subscription. E.g.: "then $2.99 per month". */
 "PurchaseButtonMonthlySubscriptionSubheadline" = "then %@ per month";
 
 /* Purchase button sub-title for a quarterly subscription. E.g.: "then $1.99 every three months". */
 "PurchaseButtonQuarterlySubscriptionSubheadline" = "then %@ every three months";
 
+/* Purchase button sub-title for a yearly subscription. E.g.: "then $19.99 per year". */
+"PurchaseButtonYearlySubscriptionSubheadline" = "then %@ per year";
+
 /* Purchase button sub-title for a monthly subscription without a trial. E.g.: "$2.99 per month". */
 "PurchaseButtonMonthlySubscriptionNoTrialSubheadline" = "%@ per month";
 
 /* Purchase button sub-title for a quarterly subscription without a trial. E.g.: "$1.99 every three months". */
 "PurchaseButtonQuarterlySubscriptionNoTrialSubheadline" = "%@ every three months";
+
+/* Purchase button sub-title for a yearly subscription without a trial. E.g.: "$19.99 per year". */
+"PurchaseButtonYearlySubscriptionNoTrialSubheadline" = "%@ per year";
 
 // ------------------------------------------------------------
 //     Managing Selection
