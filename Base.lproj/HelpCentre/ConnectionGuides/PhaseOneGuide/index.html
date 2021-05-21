@@ -1,0 +1,60 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0" />
+<meta charset="UTF-8">
+<title>Phase One Connection Guide</title>
+<script src="../../common/common.js"></script>
+<link rel="stylesheet" type="text/css" href="../../common/styles.css">
+<link rel="stylesheet" type="text/css" href="../../common/light.css">
+</head>
+<body>
+<h3>Before We Start</h3>
+<ol>
+	<li>Make sure your camera is <a href="#" onclick='showPageWithIdentifier("se.cascable.client.help.supported-cameras");'>supported by Cascable</a>.</li>
+	<li>Check that your camera's firmware is up-to-date.</li>
+	<li>Check that Cascable is up-to-date.</li>
+</ol>
+
+<hr>
+
+<h3>Connection Methods</h3>
+
+<p>There are a number of ways to connect your Phase One IQ4 digital back with Cascable on your iOS device. In ascending order of performance, they are:</p>
+
+<ul>
+    <li>Create a WiFi access point from the camera and connect your iOS device to it.</li>
+    <li>Connect both the camera and your iOS device to the same WiFi network.</li>
+    <li>Connect the camera via Ethernet to a network that's bridged to a WiFi network the iOS device is connected to.</li>
+    <li>Connect both the camera and iOS device to the same Ethernet network (either via a network switch or directly).</li>
+</ul>
+
+<p>Connecting your iOS device to an ethernet network is fully supported by iOS on both Lightning and USB-C devices, but will require the purchase of additional adapter(s). For USB-C devices such as newer iPad models, a supported USB-C Ethernet adapter will work. For Lightning devices such as the iPhone, iPod touch, and older iPad models, an adapter like Belkin's <a href="https://www.belkin.com/us/adapters/ethernet/ethernet-power-adapter-with-lightning-connector/p/p-f8j227/">Ethernet + Power Adapter with Lightning Connector</a> will work, as will a powered Lightning to USB-A adapter paired with a supported USB-A Ethernet adapter.</p>
+
+<p>For detailed information on setting up the networking features of your IQ4 digital back, see the <a href="https://www.phaseone.com/en/SupportMain/Manuals/Manuals_DigitalBacks">IQ4 System Manual</a>.</p>
+
+<h3>Connecting To Cascable</h3>
+
+<p>For the easiest connection experience, we recommend turning on the <strong>Bonjour Enable</strong> setting in your IQ4 digital back's <strong>Network Settings</strong>. This will allow Cascable to automatically discover your camera without having to type in an IP address in most circumstances. Turning on <strong>Bonjour Enabled At Power On</strong> will have the camera automatically turn on Bonjour each time it's powered on — otherwise, you'll need to turn it on each time you want to connect to Cascable.</p>
+
+<p class="center"> <img class="retina" src="iq4-network-settings-bonjour.png" alt="Phase One IQ4 Network Settings" style="max-width: 90%;"></p>
+
+<p>If you don't want to use Bonjour, or your network environment means it can't be used, you can always connect by entering your camera's IP address into Cascable instead. To find the camera's IP address, swipe down from the top edge of the rear touch screen to reveal the <strong>Status Menu</strong>, then check the <strong>Ethernet Connection</strong> or <strong>WiFi Connection</strong> panels for the IP address.</p>
+
+<p><strong>Note:</strong> When looking for the camera's IP address, make sure you use the IP address for the network connection on the camera's side. For example, if you're connecting your camera via Ethernet to a network bridged to WiFi for your iOS device, look for the camera's Ethernet IP address.</p>
+
+<p class="center"> <img class="retina" src="iq4-status-wifi-and-ethernet.png" alt="Phase One Status Menu" style="max-width: 90%;"></p>
+
+<p>Once your iOS device and camera are connected to the same network, launch Cascable, choose <strong>Phase One</strong> in the connection menu, then choose either <strong>Network — Automatic Discovery</strong> if your camera's <strong>Bonjour Enable</strong> setting is turned on, or <strong>Network — Enter IP Address</strong> to manually enter the camera's IP address.</p>
+
+<p>Cascable should then connect to your camera within a few moments. After a successful connection, Cascable will save your connection details (including IP address, if entered manually) for one-tap connection next time.</p>
+
+<p class="center"> <img class="retina" src="phase-one-connection-guide.png" style="max-width: 90%;"></p>
+
+<hr>
+
+<h3>Still Stuck?</h3>
+
+<p>If you're still stuck, head over to the <a href="http://cascable.se">Cascable Website</a> and we'll help you out.</p>
+
+</body>
+</html>
