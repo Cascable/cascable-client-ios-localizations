@@ -1,3 +1,5 @@
+/* Class = "UILabel"; text = "You're all ready to connect to your camera and start shooting. \n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!"; ObjectID = "4Bs-PF-Jvn"; */
+"4Bs-PF-Jvn.text" = "Sie sind jetzt bereit, sich mit Ihrer Kamera zu verbinden und mit dem Fotografieren zu beginnen. \n\nWenn Sie auf dem Laufenden zu Neuigkeiten und Fotos des Cascable-Teams bleiben möchten, können Sie uns auf Twitter und Instagram folgen.\n\nViel Spaß!";
 
 /* Class = "UIButton"; normalTitle = "@CascableApp"; ObjectID = "5Ts-Ae-y57"; */
 "5Ts-Ae-y57.normalTitle" = "@CascableApp";
@@ -5,11 +7,38 @@
 /* Class = "UIButton"; normalTitle = "Don't Show Notifications"; ObjectID = "7QS-WU-wUI"; */
 "7QS-WU-wUI.normalTitle" = "Keine Mitteilungen anzeigen";
 
-/* Class = "UILabel"; text = "All Done!"; ObjectID = "	"; */
+/* Class = "UILabel"; text = "Cascable will maintain a connection to your camera and continue tasks when you're using other apps. However, it might have to disconnect or stop those tasks after a period of time when in the background."; ObjectID = "avd-i8-4VS"; */
+"avd-i8-4VS.text" = "Wenn Sie andere Apps verwenden, hält Cascable die Verbindung zu Ihrer Kamera aufrecht und führt weiter Aufgaben aus. Es kann jedoch sein, dass diese Aufgaben nach einer gewissen Zeit im Hintergrund unterbrochen oder beendet werden müssen.";
+
+/* Class = "UILabel"; text = "All Done!"; ObjectID = "DkA-ou-F9n"; */
 "DkA-ou-F9n.text" = "Fertig!";
+
+/* Class = "UILabel"; text = "Thank you for using Cascable!\n\nCascable is your photography assistant. To get you started, we'll ask you a couple of quick questions on how you'd like to use Cascable, then you'll be able to get right into it and connect to your camera!"; ObjectID = "e52-oR-xjz"; */
+"e52-oR-xjz.text" = "Danke, dass Sie Cascable benutzen!\n\nCascable ist Ihr Fotografie-Assistent. Um zu starten, stellen wir Ihnen ein paar kurze Fragen zur Nutzung von Cascable, dann können Sie direkt loslegen und sich mit Ihrer Kamera verbinden!";
 
 /* Class = "UIViewController"; title = "Welcome"; ObjectID = "G4P-g9-PCa"; */
 "G4P-g9-PCa.title" = "Willkommen";
+
+/* Class = "UILabel"; text = "You can see this again at any time from the Help menu."; ObjectID = "hay-5R-Q3N"; */
+"hay-5R-Q3N.text" = "Sie können dies jederzeit über das Hilfe-Menü einsehen.";
+
+/* Class = "UIButton"; normalTitle = "Start Using Cascable"; ObjectID = "hTH-Fo-vxd"; */
+"hTH-Fo-vxd.normalTitle" = "Cascable nutzen";
+
+/* Class = "UILabel"; text = "Status Notifications"; ObjectID = "KgJ-Oy-9xx"; */
+"KgJ-Oy-9xx.text" = "Status-Benachrichtigungen";
+
+/* Class = "UILabel"; text = "Welcome to Cascable"; ObjectID = "l4x-YS-zoX"; */
+"l4x-YS-zoX.text" = "Willkommen bei Cascable";
+
+/* Class = "UILabel"; text = "If you like, Cascable can notify you when it has to disconnect from your camera or stop other tasks while in the background.\n\nNotifications are generated on your device, and are only used to inform you about the status of tasks you're running."; ObjectID = "NiC-RM-rQE"; */
+"NiC-RM-rQE.text" = "Auf Wunsch kann Sie Cascable benachrichtigen, wenn die Verbindung zur Kamera getrennt oder andere Aufgaben im Hintergrund beendet werden müssen.\n\nBenachrichtigungen werden auf Ihrem Gerät angezeigt und dienen lediglich dazu, über den Status von gerade ausgeführten Aufgaben zu informieren.";
+
+/* Class = "UILabel"; text = "on Twitter"; ObjectID = "qKa-BW-wtu"; */
+"qKa-BW-wtu.text" = "auf Twitter";
+
+/* Class = "UILabel"; text = "on Instagram"; ObjectID = "vpI-Ex-VFj"; */
+"vpI-Ex-VFj.text" = "auf Instagram";
 
 /* Class = "UIButton"; normalTitle = "Get Started  →"; ObjectID = "Wr9-Wd-JN9"; */
 "Wr9-Wd-JN9.normalTitle" = "Loslegen  →";
@@ -17,14 +46,6 @@
 /* Class = "UIButton"; normalTitle = "@CascableApp"; ObjectID = "XnR-P6-5b5"; */
 "XnR-P6-5b5.normalTitle" = "@CascableApp";
 
-/* Class = "UIButton"; normalTitle = "Start Using Cascable"; ObjectID = "hTH-Fo-vxd"; */
-"hTH-Fo-vxd.normalTitle" = "Cascable nutzen";
+/* Class = "UIButton"; normalTitle = "Show Status Notifications"; ObjectID = "zZE-IP-z7j"; */
+"zZE-IP-z7j.normalTitle" = "Status-Benachrichtigungen anzeigen";
 
-/* Class = "UILabel"; text = "Welcome to Cascable"; ObjectID = "l4x-YS-zoX"; */
-"l4x-YS-zoX.text" = "Willkommen bei Cascable";
-
-/* Class = "UILabel"; text = "on Twitter"; ObjectID = "qKa-BW-wtu"; */
-"qKa-BW-wtu.text" = "auf Twitter";
-
-/* Class = "UILabel"; text = "on Instagram"; ObjectID = "vpI-Ex-VFj"; */
-"vpI-Ex-VFj.text" = "auf Instagram";

@@ -1,4 +1,3 @@
-
 /* Class = "UIButton"; normalTitle = "More Information…"; ObjectID = "3Kq-es-wBM"; */
 "3Kq-es-wBM.normalTitle" = "Details …";
 
@@ -17,27 +16,6 @@
 /* Class = "UIViewController"; title = "Licenses"; ObjectID = "AXt-16-gAc"; */
 "AXt-16-gAc.title" = "Lizenzen";
 
-/* Class = "UIButton"; normalTitle = "Terms and Privacy Policy"; ObjectID = "JgT-h3-eOZ"; */
-"JgT-h3-eOZ.normalTitle" = "Nutzungsbedingungen und Datenschutz";
-
-/* Class = "UILabel"; text = "Version 1.0"; ObjectID = "MNI-Tc-mVv"; */
-"MNI-Tc-mVv.text" = "Version 1.0";
-
-/* Class = "UILabel"; text = "Producer"; ObjectID = "NWL-Ln-TxG"; */
-"NWL-Ln-TxG.text" = "Produzent";
-
-/* Class = "UILabel"; text = "Second Unit Director"; ObjectID = "RMZ-Em-0AF"; */
-"RMZ-Em-0AF.text" = "Second Unit Director";
-
-/* Class = "UILabel"; text = "© 2015-2021 Cascable AB\nMade (mostly) in Sweden"; ObjectID = "UIk-sQ-QCT"; */
-"UIk-sQ-QCT.text" = "© 2015-2021 Cascable AB\nProgrammiert in Schweden";
-
-/* Class = "UILabel"; text = "Design"; ObjectID = "UUO-fb-CL6"; */
-"UUO-fb-CL6.text" = "Design";
-
-/* Class = "UILabel"; text = "Cascable"; ObjectID = "YXG-Ah-Rdx"; */
-"YXG-Ah-Rdx.text" = "Cascable";
-
 /* Class = "UIViewController"; title = "About Cascable"; ObjectID = "bmc-L7-UCt"; */
 "bmc-L7-UCt.title" = "Über Cascable";
 
@@ -47,11 +25,33 @@
 /* Class = "UILabel"; text = "The PDCo"; ObjectID = "i1M-J1-8hM"; */
 "i1M-J1-8hM.text" = "The PDCo";
 
+/* Class = "UIButton"; normalTitle = "Terms and Privacy Policy"; ObjectID = "JgT-h3-eOZ"; */
+"JgT-h3-eOZ.normalTitle" = "Nutzungsbedingungen und Datenschutz";
+
+/* Class = "UILabel"; text = "Version 1.0"; ObjectID = "MNI-Tc-mVv"; */
+"MNI-Tc-mVv.text" = "Version 1.0";
+
 /* Class = "UILabel"; text = "Cascable contains open-source components."; ObjectID = "mNv-Ln-jFW"; */
 "mNv-Ln-jFW.text" = "Cascable enthält Open-Source Komponenten.";
+
+/* Class = "UILabel"; text = "Producer"; ObjectID = "NWL-Ln-TxG"; */
+"NWL-Ln-TxG.text" = "Produzent";
+
+/* Class = "UILabel"; text = "Second Unit Director"; ObjectID = "RMZ-Em-0AF"; */
+"RMZ-Em-0AF.text" = "Second Unit Director";
 
 /* Class = "UILabel"; text = "Credits"; ObjectID = "tN9-gX-wOq"; */
 "tN9-gX-wOq.text" = "Danksagungen";
 
+/* Class = "UILabel"; text = "© 2015-2021 Cascable AB\nMade (mostly) in Sweden"; ObjectID = "UIk-sQ-QCT"; */
+"UIk-sQ-QCT.text" = "© 2015-2021 Cascable AB\nProgrammiert in Schweden";
+
+/* Class = "UILabel"; text = "Design"; ObjectID = "UUO-fb-CL6"; */
+"UUO-fb-CL6.text" = "Design";
+
 /* Class = "UILabel"; text = "Daniel Kennett"; ObjectID = "yGE-mC-BfR"; */
 "yGE-mC-BfR.text" = "Daniel Kennett";
+
+/* Class = "UILabel"; text = "Cascable"; ObjectID = "YXG-Ah-Rdx"; */
+"YXG-Ah-Rdx.text" = "Cascable";
+

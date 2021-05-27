@@ -1,1 +1,54 @@
+/* Class = "UILabel"; text = "Cascable 6.0 has a completely new remote control, providing an at-a-glance overview of all of your camera's exposure settings, and quick access to anything else you need.\n\nYou'll also find a smoother, faster feel, better battery life, and less clutter on top of your live view image."; ObjectID = "0bg-nG-lkh"; */
+"0bg-nG-lkh.text" = "Cascable 6.0 verfügt über eine völlig neuartige Fernbedienung mit einer übersichtlichen Darstellung aller Belichtungseinstellungen der Kamera sowie schnellem Zugriff auf alle anderen benötigten Funktionen.\n\nGenießen Sie dabei ein ruhigeres, schnelleres Handling, eine bessere Akkulaufzeit und ein übersichtlicheres Live-View-Bild.";
+
+/* Class = "UILabel"; text = "Revamped Remote Control"; ObjectID = "4xf-g0-5dU"; */
+"4xf-g0-5dU.text" = "Neu entwickelte Fernbedienung";
+
+/* Class = "UILabel"; text = "This update has many smaller additions throughout the app. You can find a full and detailed list on the Cascable website.\n\nIf you'd like to keep up-to-date with the latest news and photos from the Cascable team, why not join us on Twitter and Instagram?\n\nEnjoy!"; ObjectID = "9Bs-PF-Jvn"; */
+"9Bs-PF-Jvn.text" = "Cascable 5.2 hat überall in der App viele kleinere Funktionen hinzubekommen. Eine vollständige und detaillierte Liste finden Sie auf der Cascable-Website.\n\nMöchten Sie aktuelle News und die neuesten Fotos vom Cascable-Team erhalten? Folgen Sie uns auf Twitter und Instagram!\n\nViel Spaß!";
+
+/* Class = "UIButton"; normalTitle = "Continue  →"; ObjectID = "ayG-fj-b7R"; */
+"ayG-fj-b7R.normalTitle" = "Weiter  →";
+
+/* Class = "UILabel"; text = "What's new in Cascable?"; ObjectID = "DEF-Zf-XLI"; */
+"DEF-Zf-XLI.text" = "Neu in Cascable?";
+
+/* Class = "UILabel"; text = "on Twitter"; ObjectID = "dgL-Vh-5m6"; */
+"dgL-Vh-5m6.text" = "auf Twitter";
+
+/* Class = "UILabel"; text = "…and much more!"; ObjectID = "DkA-ou-F8n"; */
+"DkA-ou-F8n.text" = "… und vieles mehr!";
+
+/* Class = "UILabel"; text = "on Instagram"; ObjectID = "e8w-Sj-KC2"; */
+"e8w-Sj-KC2.text" = "bei Instagram";
+
+/* Class = "UILabel"; text = "Phase One IQ4 150MP Support"; ObjectID = "g0s-bw-TZ1"; */
+"g0s-bw-TZ1.text" = "Unterstützt Phase One IQ4 150MP";
+
+/* Class = "UIButton"; normalTitle = "Continue  →"; ObjectID = "Gki-mv-bZ6"; */
+"Gki-mv-bZ6.normalTitle" = "Weiter  →";
+
+/* Class = "UIButton"; normalTitle = "Start Using Cascable"; ObjectID = "gTH-Fo-vxd"; */
+"gTH-Fo-vxd.normalTitle" = "Cascable nutzen";
+
+/* Class = "UIViewController"; title = "Welcome"; ObjectID = "lQ5-ro-kKr"; */
+"lQ5-ro-kKr.title" = "Willkommen";
+
+/* Class = "UIButton"; normalTitle = "Continue  →"; ObjectID = "PLg-2C-fgO"; */
+"PLg-2C-fgO.normalTitle" = "Weiter  →";
+
+/* Class = "UIButton"; normalTitle = "@CascableApp"; ObjectID = "rcf-wD-q7K"; */
+"rcf-wD-q7K.normalTitle" = "@CascableApp";
+
+/* Class = "UILabel"; text = "Thank you for updating to Cascable 6.0!\n\nCascable 6.0 revamps its core camera connection and control experience, providing a greatly improved connection and remote control workflow.\n\nCascable also now supports the Phase One IQ4 digital back, allowing you to work with its 150MP RAW images directly on your iOS device."; ObjectID = "ree-zb-u7k"; */
+"ree-zb-u7k.text" = "Vielen Dank, dass Sie auf Cascable 6.0 aktualisiert haben!\n\nCascable 6.0 optimiert den Kernbereich der Kameraverbindung & -steuerung und bietet so einen stark verbesserten Verbindungs- und Fernsteuerungsablauf.\n\nCascable unterstützt jetzt auch das Digitalrückteil Phase One IQ4, sodass Sie dank dessen 150 MP nun RAW-Bilder direkt auf Ihrem iOS-Gerät bearbeiten können.";
+
+/* Class = "UIButton"; normalTitle = "Skip Tour"; ObjectID = "sPL-5u-5le"; */
+"sPL-5u-5le.normalTitle" = "Einführung überspringen";
+
+/* Class = "UILabel"; text = "Cascable 6.0 supports the medium-format Phase One IQ4 150MP digital back with both the XT and XF camera systems via WiFi or Ethernet.\n\nAnd, thanks to a special collaboration with Phase One, Cascable's Pro features are unlocked free-of-charge for Phase One users!"; ObjectID = "Ts4-yC-4y0"; */
+"Ts4-yC-4y0.text" = "Cascable 6.0 unterstützt das mittelformatige Digitalrückteil Phase One IQ4 150MP sowohl mit XT- als auch mit den XF-Kamerasystemen über WLAN oder Ethernet.\n\nUnd dank der exklusiven Zusammenarbeit mit Phase One sind die Pro-Funktionen von Cascable für Phase One Anwender kostenlos freigeschaltet!";
+
+/* Class = "UIButton"; normalTitle = "@CascableApp"; ObjectID = "uTL-Tw-2wS"; */
+"uTL-Tw-2wS.normalTitle" = "@CascableApp";
 

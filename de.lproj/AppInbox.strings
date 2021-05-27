@@ -1,4 +1,3 @@
-
 /* Class = "UILabel"; text = "Label"; ObjectID = "5PU-bi-z6c"; */
 "5PU-bi-z6c.text" = "Beschreibung";
 
@@ -8,17 +7,18 @@
 /* Class = "UITableViewController"; title = "Cascable Inbox"; ObjectID = "FJP-FJ-I5w"; */
 "FJP-FJ-I5w.title" = "Cascable Posteingang";
 
-/* Class = "UILabel"; text = "Label"; ObjectID = "LMP-QO-9Ds"; */
-"LMP-QO-9Ds.text" = "Beschreibung";
-
-/* Class = "UIBarButtonItem"; title = "Mark All As Read"; ObjectID = "QN9-Qh-91e"; */
-"QN9-Qh-91e.title" = "Alle als gelesen markieren";
-
 /* Class = "UIViewController"; title = "Inbox Item Title"; ObjectID = "jOd-J0-dKL"; */
 "jOd-J0-dKL.title" = "Inbox Item Title";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LMP-QO-9Ds"; */
+"LMP-QO-9Ds.text" = "Beschreibung";
 
 /* Class = "UILabel"; text = "The announcements channel contains updates, news and tips straight from Cascable HQ."; ObjectID = "qiJ-SV-6R9"; */
 "qiJ-SV-6R9.text" = "Der Bereich Ankündigungen enthält Updates, Neuigkeiten und Tipps direkt aus dem Cascable HQ.";
 
+/* Class = "UIBarButtonItem"; title = "Mark All As Read"; ObjectID = "QN9-Qh-91e"; */
+"QN9-Qh-91e.title" = "Alle als gelesen markieren";
+
 /* Class = "UINavigationItem"; title = "Announcements"; ObjectID = "yZW-An-lac"; */
 "yZW-An-lac.title" = "Ankündigungen";
+

@@ -1,1 +1,9 @@
+/* Class = "UIButton"; normalTitle = "Create & Edit Recipes"; ObjectID = "BKq-Oo-Azv"; */
+"BKq-Oo-Azv.normalTitle" = "Recipes erstellen & bearbeiten";
+
+/* Class = "UILabel"; text = "With the Recipes Editor, you can build your own camera automations to run in Shutter Robot."; ObjectID = "NdL-dR-0Oc"; */
+"NdL-dR-0Oc.text" = "Mit dem Recipe-Editor können Sie Ihre eigenen Kamera-Automationen erstellen, um sie im Shutter Robot auszuführen.";
+
+/* Class = "UIButton"; normalTitle = "Tutorial Video"; ObjectID = "t2c-W7-SXe"; */
+"t2c-W7-SXe.normalTitle" = "Video-Anleitung";
 

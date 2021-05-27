@@ -1,1 +1,6 @@
+/* Class = "UILabel"; text = "When executed, this block will move the camera's focus distance:"; ObjectID = "HPq-kn-bbw"; */
+"HPq-kn-bbw.text" = "Wenn dieser Block ausgeführt wird, verschiebt er den Fokusabstand der Kamera:";
+
+/* Class = "UILabel"; text = "The focus distance will be moved:"; ObjectID = "O5k-Wv-MFB"; */
+"O5k-Wv-MFB.text" = "Der Fokusabstand wird verschoben:";
 

@@ -1,1 +1,178 @@
+/* (No Comment) */
+"CameraAtIPAddressFormatter" = "%@ Kamera bei %@.";
+
+/* ----- */
+"CameraChoiceSectionTitle" = "Welche Kamera haben Sie?";
+
+/* (No Comment) */
+"CameraViaMethodFormatter" = "%@ Kamera über %@.";
+
+/* (No Comment) */
+"CanonIPInstructions" = "Folgen Sie den Schritten zur Netzwerkeinrichtung der Kamera, um sich im Modus „Mit Smartphone verbinden“ mit demselben Netzwerk wie das iOS-Gerät zu verbinden. Wenn die Kamera über Pairing verfügt, muss auf diesem Gerät ein neues Pairing für Cascable erstellt werden.\n\nNach der Verbindung geben Sie hier die IP-Adresse der Kamera ein (die auf dem Kameradisplay angezeigt werden sollte) und tippen dann auf „Verbinden“.\n\nWeitere Details finden Sie in unseren Verbindungsleitfäden oder in der Bedienungsanleitung der Kamera.";
+
+/* (No Comment) */
+"CanonUSBInstructions" = "Schließen Sie Ihre Kamera über den entsprechenden Adapter an Ihr iOS-Gerät an und schalten Sie die Kamera ein.\n\nWenn die Kamera nicht innerhalb weniger Sekunden erkannt wird, versuchen Sie das WLAN der Kamera auf „Deaktivieren“ zu stellen. Einige Canon-Kameras deaktivieren bei aktiviertem WLAN ihre USB-Anschlüsse, selbst wenn kein WLAN verwendet wird.\n\nWeitere Details finden Sie in unseren Verbindungsleitfäden oder in der Bedienungsanleitung der Kamera.";
+
+/* (No Comment) */
+"ConnectButtonTitle" = "Verbinden";
+
+/* (No Comment) */
+"ConnectionMethodIPAddress" = "WLAN — IP Adresse eingeben";
+
+/* (No Comment) */
+"ConnectionMethodIPAddressShort" = "IP-Adresse";
+
+/* (No Comment) */
+"ConnectionMethodIPAddressShortInSentence" = "IP-Adresse";
+
+/* (No Comment) */
+"ConnectionMethodNetworkAuto" = "Netzwerk – automatische Erkennung";
+
+/* (No Comment) */
+"ConnectionMethodNetworkAutoShort" = "Netzwerk";
+
+/* (No Comment) */
+"ConnectionMethodNetworkAutoShortInSentence" = "Netzwerk";
+
+/* (No Comment) */
+"ConnectionMethodNetworkIPAddress" = "Netzwerk — IP-Adresse eingeben";
+
+/* (No Comment) */
+"ConnectionMethodNetworkIPAddressShort" = "IP-Adresse";
+
+/* (No Comment) */
+"ConnectionMethodNetworkIPAddressShortInSentence" = "IP-Adresse";
+
+/* ----- */
+"ConnectionMethodQRCode" = "WLAN — QR-Code scannen";
+
+/* (No Comment) */
+"ConnectionMethodQRCodeShort" = "QR-Code";
+
+/* (No Comment) */
+"ConnectionMethodQRCodeShortInSentence" = "QR-Code";
+
+/* (No Comment) */
+"ConnectionMethodUSB" = "USB";
+
+/* (No Comment) */
+"ConnectionMethodUSBShort" = "USB";
+
+/* (No Comment) */
+"ConnectionMethodUSBShortInSentence" = "USB";
+
+/* (No Comment) */
+"ConnectionMethodWiFiManual" = "WLAN — Im Netzwerk finden";
+
+/* (No Comment) */
+"ConnectionMethodWiFiManualShort" = "WLAN ";
+
+/* (No Comment) */
+"ConnectionMethodWiFiManualShortInSentence" = "WLAN";
+
+/* (No Comment) */
+"ConnectNewSubtitle" = "Nach einer anderen Kamera suchen.";
+
+/* (No Comment) */
+"ConnectNewTitle" = "Neu verbinden";
+
+/* (No Comment) */
+"ConnectToCameraSubtitle" = "Verbinden Sie sich über USB oder WLAN mit Ihrer Kamera (je nach Modell).";
+
+/* (No Comment) */
+"ConnectToCameraTitle" = "Mit Kamera verbinden...";
+
+/* (No Comment) */
+"ConnectToOtherSubtitle" = "Nach einer anderen Kamera suchen.";
+
+/* (No Comment) */
+"ConnectToOtherTitle" = "Mit anderen verbinden...";
+
+/* (No Comment) */
+"ConnectViaNetworkBigTitle" = "Kamera im Netzwerk erkennen";
+
+/* (No Comment) */
+"ConnectViaUSBBigTitle" = "Über USB verbinden";
+
+/* ----- */
+"EOSCameraModelSubtitle" = "EOS SLR-Kameras sowie spiegellose EOS M und EOS R Kameras.";
+
+/* (No Comment) */
+"FujiCameraModelSubtitle" = "Kameras der Serien X, X-T und X-Pro.";
+
+/* (No Comment) */
+"GenericIPInstructions" = "Folgen Sie den Schritten zur Netzwerkeinrichtung der Kamera, um sich mit demselben Netzwerk wie das iOS-Gerät zu verbinden.\n\nNach der Verbindung geben Sie hier die IP-Adresse der Kamera ein (die auf dem Kameradisplay angezeigt werden sollte) und tippen dann auf „Verbinden“.\n\nWeitere Details finden Sie in unseren Verbindungsleitfäden oder in der Bedienungsanleitung der Kamera.";
+
+/* (No Comment) */
+"GenericQRInstructions" = "Folgen sie den Schritten zur Einrichtung der WLAN-Verbindung der Kamera, bis der QR-Code für die Verbindung zu sehen ist. Scannen Sie hier den Code und Cascable erledigt den Rest!\n\nWeitere Details finden Sie in unseren Verbindungsleitfäden oder in der Bedienungsanleitung der Kamera.";
+
+/* ----- */
+"GenericUSBInstructions" = "Schließen Sie Ihre Kamera über den entsprechenden Adapter an Ihr iOS-Gerät an und schalten Sie die Kamera ein.\n\nWenn die Kamera einen „USB-Modus“ anbietet, wählen Sie eine Option mit PTP, MTP oder Tethering.\n\nWeitere Details finden Sie in unseren Verbindungsleitfäden oder in der Bedienungsanleitung der Kamera.";
+
+/* (No Comment) */
+"InvalidQRCodeMessage" = "Der Code, den Sie gescannt haben, enthält keine Verbindungsinformationen für eine Kamera.";
+
+/* ----- */
+"InvalidQRCodeTitle" = "Ungültiger QR-Code";
+
+/* (No Comment) */
+"MethodChoiceSectionTitle" = "Wie möchten Sie sich verbinden?";
+
+/* (No Comment) */
+"NikonCameraModelSubtitle" = "SLR-Kameras der D-Serie und spiegellose Kameras der Z-Serie.";
+
+/* (No Comment) */
+"OlympusCameraModelSubtitle" = "Kameras der Serien OM-D, PEN und TG.";
+
+/* ----- */
+"OtherCameraModelName" = "Andere";
+
+/* (No Comment) */
+"OtherCameraModelSubtitle" = "Kameras, die oben nicht angegeben sind.";
+
+/* (No Comment) */
+"PanasonicCameraModelSubtitle" = "Kameras der LUMIX-Serie.";
+
+/* (No Comment) */
+"PhaseOneCameraModelSubtitle" = "IQ4 150MP Kameras.";
+
+/* (No Comment) */
+"PhaseOneNetworkAutodetectInstructions" = "Folgen Sie den Schritten zur Netzwerkeinrichtung der Kamera, um ein neues WLAN-Netzwerk zu erstellen, sich mit einem bestehenden zu verbinden oder die Kamera über Ethernet mit einem Netzwerk zu verknüpfen, auf welches dieses iOS-Gerät zugreifen kann. Stellen Sie außerdem sicher, dass die Einstellung „Bonjour Enable“ auf der Kamera aktiviert ist.\n\nWenn die Kamera ein neues WLAN-Netzwerk erstellt hat, gehen Sie auf diesem Gerät in die App „Einstellungen“, verbinden es mit diesem neuen WLAN-Netzwerk und kehren anschließend zurück zu Cascable.\n\nSobald sich die Kamera und dieses Gerät im selben Netzwerk befinden, sollte Cascable die Kamera innerhalb weniger Sekunden erkennen und sich mit ihr verbinden.\n\nWeitere Details finden Sie in unseren Verbindungsleitfäden oder in der Gebrauchsanweisung der Kamera.";
+
+/* (No Comment) */
+"PhaseOneNetworkByIPInstructions" = "Folgen Sie den Schritten zur Netzwerkeinrichtung der Kamera, um ein neues WLAN-Netzwerk zu erstellen, sich mit einem bestehenden zu verbinden oder die Kamera über Ethernet mit einem Netzwerk zu verknüpfen, auf welches dieses iOS-Gerät zugreifen kann.\n\nSobald die Verbindung hergestellt ist, geben Sie hier die IP-Adresse der Kamera ein (die im Statusmenü der Kamera angezeigt wird) und tippen dann auf „Verbinden“.\n\nWeitere Details finden Sie in unseren Verbindungsleitfäden oder in der Gebrauchsanweisung der Kamera.";
+
+/* (No Comment) */
+"PowerShotCameraModelSubtitle" = "PowerShot-Kompaktkameras.";
+
+/* ConnectionGuide.strings
+  Cascable
+
+  Created by Daniel Kennett (Cascable) on 2021-02-18.
+  Copyright © 2021 Cascable AB. All rights reserved. */
+"ReconnectTitle" = "Erneut verbinden";
+
+/* (No Comment) */
+"SearchingForCameraBigTitle" = "Suche nach Kamera...";
+
+/* (No Comment) */
+"SonyCameraModelSubtitle" = "Alpha- und RX-Kameras.";
+
+/* ----- */
+"SupportLevelEverything" = "Unterstützt Fernsteuerung, Automatisierung und Bildübertragung.";
+
+/* (No Comment) */
+"SupportLevelImageTransferOnly" = "Unterstützt nur Bildübertragung.";
+
+/* (No Comment) */
+"SupportLevelVariable" = "Die Verfügbarkeit der Funktionen kann je nach Kameramodell eingeschränkt sein.";
+
+/* (No Comment) */
+"USBNotSupportedSuffix" = " — benötigt neueres iOS";
+
+/* (No Comment) */
+"WiFiAutodetectWithoutPairingInstructions" = "Folgen Sie den Schritten zur Netzwerkeinrichtung der Kamera, um entweder ein neues WLAN-Netzwerk zu erstellen oder sich mit dem gleichen Netzwerk wie Ihr iOS-Gerät zu verbinden.\n\nWenn die Kamera ein neues WLAN-Netzwerk erstellt hat, gehen Sie in die Einstellungs-App auf diesem Gerät, verbinden sich mit diesem neuen WLAN-Netzwerk und kehren anschließend zurück zu Cascable.\n\nSobald sich die Kamera und dieses Gerät im selben Netzwerk befinden, sollte Cascable die Kamera innerhalb weniger Sekunden erkennen und sich mit ihr verbinden.\n\nWeitere Details finden Sie in unseren Verbindungsleitfäden oder in der Bedienungsanleitung der Kamera.";
+
+/* (No Comment) */
+"WiFiAutodetectWithPairingInstructions" = "Folgen Sie den Schritten zur Netzwerkeinrichtung der Kamera, um entweder ein neues WLAN-Netzwerk zu erstellen oder sich mit dem gleichen Netzwerk wie Ihr iOS-Gerät zu verbinden. Wenn die Kamera über Pairing verfügt, muss auf diesem Gerät ein neues Pairing für Cascable erstellt werden.\n\nWenn die Kamera ein neues WLAN-Netzwerk erstellt hat, gehen Sie in die Einstellungs-App auf diesem Gerät, verbinden sich mit diesem neuen WLAN-Netzwerk und kehren anschließend zurück zu Cascable.\n\nSobald sich die Kamera und dieses Gerät im selben Netzwerk befinden, sollte Cascable die Kamera innerhalb weniger Sekunden erkennen und sich mit ihr verbinden.\n\nWeitere Details finden Sie in unseren Verbindungsleitfäden oder in der Bedienungsanleitung der Kamera.";
 

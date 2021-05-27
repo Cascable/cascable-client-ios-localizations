@@ -1,6 +1,6 @@
-
 /* Class = "UILabel"; text = "The first description text. It can be a short-ish paragraph, since it'll wrap nicely. Up to three lines is probably the sensible limit."; ObjectID = "J54-iF-6BW"; */
 "J54-iF-6BW.text" = "Erste Beschreibung. Dies kann ein kurzer Absatz sein. Bis zu drei Zeilen sollten ein gutes Maß sein.";
 
 /* Class = "UILabel"; text = "A Succinct Title"; ObjectID = "o0j-tX-rrc"; */
 "o0j-tX-rrc.text" = "Ein prägnanter Titel";
+

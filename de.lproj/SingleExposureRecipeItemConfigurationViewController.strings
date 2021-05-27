@@ -1,1 +1,9 @@
+/* Class = "UILabel"; text = "Some cameras will always autofocus before taking a shot."; ObjectID = "4We-3F-vep"; */
+"4We-3F-vep.text" = "Einige Kameras schalten immer auf Autofokus, bevor sie eine Aufnahme erstellen.";
+
+/* Class = "UILabel"; text = "Skip autofocus if able"; ObjectID = "5Xm-R6-hTh"; */
+"5Xm-R6-hTh.text" = "Autofokus falls möglich vermeiden";
+
+/* Class = "UILabel"; text = "When executed, this block will perform a single exposure."; ObjectID = "mtD-Oi-W9e"; */
+"mtD-Oi-W9e.text" = "Wenn dieser Block ausgeführt wird, erstellt er eine Einzelaufnahme.";
 

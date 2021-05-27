@@ -1,3 +1,8 @@
+/* Class = "UILabel"; text = "1 stop (0,9ND)"; ObjectID = "3Ib-6d-AmX"; */
+"3Ib-6d-AmX.text" = "1 Stufe (0,9ND)";
+
+/* Class = "UILabel"; text = "Shutter Speed Range"; ObjectID = "3Yz-Hd-GWD"; */
+"3Yz-Hd-GWD.text" = "Verschlusszeitbereich";
 
 /* Class = "UILabel"; text = "15,0 seconds"; ObjectID = "23h-4R-CUK"; */
 "23h-4R-CUK.text" = "15,0 Sekunden";
@@ -5,29 +10,23 @@
 /* Class = "UILabel"; text = "1/250th"; ObjectID = "27b-Uc-uht"; */
 "27b-Uc-uht.text" = "1/250";
 
-/* Class = "UILabel"; text = "1 stop (0,9ND)"; ObjectID = "3Ib-6d-AmX"; */
-"3Ib-6d-AmX.text" = "1 Stufe (0,9ND)";
-
-/* Class = "UILabel"; text = "Shutter Speed Range"; ObjectID = "3Yz-Hd-GWD"; */
-"3Yz-Hd-GWD.text" = "Verschlusszeitbereich";
-
-/* Class = "UILabel"; text = "Initial Shutter Speed"; ObjectID = "ITo-tM-QwE"; */
-"ITo-tM-QwE.text" = "Erste Verschlusszeit";
-
 /* Class = "UILabel"; text = "30 sec"; ObjectID = "Isi-s1-pJX"; */
 "Isi-s1-pJX.text" = "30 Sek.";
 
-/* Class = "UILabel"; text = "Filter Density"; ObjectID = "QBQ-Vx-cnR"; */
-"QBQ-Vx-cnR.text" = "Filterdichte";
-
-/* Class = "UILabel"; text = "Title"; ObjectID = "QWj-nk-d1j"; */
-"QWj-nk-d1j.text" = "Titel";
+/* Class = "UILabel"; text = "Initial Shutter Speed"; ObjectID = "ITo-tM-QwE"; */
+"ITo-tM-QwE.text" = "Erste Verschlusszeit";
 
 /* Class = "UILabel"; text = "The Neutral Density Calculator helps you calculate the correct shutter speed to use when using a neutral density filter."; ObjectID = "jCv-ul-YNA"; */
 "jCv-ul-YNA.text" = "Der Neutraldichterechner hilft Ihnen bei der Berechnung der richtigen Verschlusszeit bei Einsatz eines Neutraldichtefilters.";
 
 /* Class = "UILabel"; text = "1/8000th"; ObjectID = "mkC-NF-oOi"; */
 "mkC-NF-oOi.text" = "1/8000";
+
+/* Class = "UILabel"; text = "Filter Density"; ObjectID = "QBQ-Vx-cnR"; */
+"QBQ-Vx-cnR.text" = "Filterdichte";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "QWj-nk-d1j"; */
+"QWj-nk-d1j.text" = "Titel";
 
 /* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "sii-4c-RTP"; */
 "sii-4c-RTP.title" = "Abbrechen";
@@ -43,3 +42,4 @@
 
 /* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "z2w-Jc-yrN"; */
 "z2w-Jc-yrN.title" = "Sichern";
+

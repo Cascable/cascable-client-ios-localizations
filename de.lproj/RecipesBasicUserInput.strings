@@ -1,0 +1,39 @@
+/* Class = "UIButton"; normalTitle = "Disconnect"; ObjectID = "54R-jz-wZB"; */
+"54R-jz-wZB.normalTitle" = "Trennen";
+
+/* Class = "UILabel"; text = "Searching for input accessories…"; ObjectID = "B3x-4A-fF3"; */
+"B3x-4A-fF3.text" = "Suche nach Eingabezubehör...";
+
+/* Class = "UIButton"; normalTitle = "Continue Recipe  →"; ObjectID = "g16-Y8-xhE"; */
+"g16-Y8-xhE.normalTitle" = "Recipe fortsetzen →";
+
+/* Class = "UILabel"; text = "Bluetooth Unavailable"; ObjectID = "ka6-N7-rcv"; */
+"ka6-N7-rcv.text" = "Bluetooth nicht verfügbar";
+
+/* Class = "UIButton"; normalTitle = "Stop Recipe"; ObjectID = "L3a-V3-IRB"; */
+"L3a-V3-IRB.normalTitle" = "Recipe anhalten";
+
+/* Class = "UILabel"; text = "To continue the recipe, tap \"Continue Recipe\"."; ObjectID = "lCT-rB-Uhb"; */
+"lCT-rB-Uhb.text" = "Um das Recipe fortzusetzen, tippen Sie auf „Recipe fortsetzen“.";
+
+/* Class = "UILabel"; text = "Not connected to a Cascable Bluetooth input accessory."; ObjectID = "lMN-66-Vnj"; */
+"lMN-66-Vnj.text" = "Nicht mit einem Bluetooth-Eingangszubehör für Cascable verbunden.";
+
+/* Class = "UILabel"; text = "USB and Bluetooth keyboards do not count as Cascable input accessories and can be used without connecting to them here."; ObjectID = "P4R-sC-B3O"; */
+"P4R-sC-B3O.text" = "USB- und Bluetooth-Tastaturen zählen nicht zum Cascable-Eingabezubehör und können verwendet werden, ohne sie hier zu verbinden.";
+
+/* Class = "UILabel"; text = "Make sure that Bluetooth is turned on in the Settings app, and that Cascable has permission to use it."; ObjectID = "qfM-ma-asL"; */
+"qfM-ma-asL.text" = "Vergewissern Sie sich, dass in der Einstellungs-App Bluetooth eingeschaltet ist und Cascable die Erlaubnis hat, es zu verwenden.";
+
+/* Class = "UIButton"; normalTitle = "Manage…"; ObjectID = "smZ-X9-AHs"; */
+"smZ-X9-AHs.normalTitle" = "Ausführen...";
+
+/* Class = "UILabel"; text = "Connected to accessory"; ObjectID = "T5D-Au-QZb"; */
+"T5D-Au-QZb.text" = "Mit Zubehör verbunden";
+
+/* Class = "UILabel"; text = "Waiting to Continue"; ObjectID = "uPe-cF-7A9"; */
+"uPe-cF-7A9.text" = "Warten auf nächsten Schritt";
+
+/* Class = "UILabel"; text = "Cascable Button on RaspberryPi Win10 IoT"; ObjectID = "y6M-aT-TdF"; */
+"y6M-aT-TdF.text" = "Cascable-Schaltfläche auf dem RaspberryPi Win10 IoT";
+

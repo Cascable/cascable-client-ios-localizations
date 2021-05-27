@@ -51,7 +51,7 @@
                                         <action selector="switchDidChange:" destination="-1" eventType="valueChanged" id="jZ8-1R-8v2"/>
                                     </connections>
                                 </switch>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accessories can stop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVp-EJ-8zz">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accessories can stop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iVp-EJ-8zz">
                                     <rect key="frame" x="104" y="233" width="162" height="21"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="textColor"/>
@@ -72,6 +72,7 @@
                             </subviews>
                             <constraints>
                                 <constraint firstItem="3tu-7O-jia" firstAttribute="leading" secondItem="5Qj-DI-y4M" secondAttribute="leading" id="574-iB-U3P"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="iVp-EJ-8zz" secondAttribute="trailing" constant="20" id="8Bs-4n-NgO"/>
                                 <constraint firstItem="5Qj-DI-y4M" firstAttribute="leading" secondItem="FA0-s4-Pp0" secondAttribute="leading" constant="23" id="9i3-4v-JHL"/>
                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3tu-7O-jia" secondAttribute="trailing" constant="23" id="G8a-gM-P7X"/>
                                 <constraint firstItem="gXR-5d-JjY" firstAttribute="top" secondItem="5Qj-DI-y4M" secondAttribute="bottom" constant="20" id="I1Y-GQ-ZaN"/>

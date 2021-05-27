@@ -1,2 +1,39 @@
-/* Localized versions of Info.plist keys */
+/* (No Comment) */
+"Cascable Shutter Robot Recipe" = "Cascable Shutter Robot Recipe";
+
+/* (No Comment) */
+"Geotagging" = "Geotagging";
+
+/* (No Comment) */
+"GPX File" = "GPX-Datei";
+
+/* Privacy - Bluetooth Always Usage Description */
+"NSBluetoothAlwaysUsageDescription" = "Bluetooth wird zur Kommunikation mit Zubehör verwendet, das über Ferninformationen in ein laufendes Recipe eingreifen kann.";
+
+/* Privacy - Bluetooth Peripheral Usage Description */
+"NSBluetoothPeripheralUsageDescription" = "Bluetooth wird zur Kommunikation mit Zubehör verwendet, das über Ferninformationen in ein laufendes Recipe eingreifen kann.";
+
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "Cascable nutzt die eingebaute Kamera Ihres iOS-Geräts, um QR-Codes zu scannen und kann sich über USB mit Ihrer Kamera verbinden, um mit dieser zu kommunizieren.";
+
+/* Privacy - Local Network Usage Description */
+"NSLocalNetworkUsageDescription" = "Cascable benötigt Zugriff auf das lokale Netzwerk, um mit den Kameras über WLAN zu kommunizieren.";
+
+/* Privacy - Location When In Use Usage Description */
+"NSLocationWhenInUseUsageDescription" = "Wenn die Standortverfolgung aktiviert ist, speichert Cascable Ihren Standortverlauf über die Zeit, um die Fotos automatisch mit Geotags zu versehen. Auf Ihren Standort wird nur zugegriffen, solange die Standortverfolgung in Cascable aktiviert ist.";
+
+/* Privacy - Photo Library Usage Description */
+"NSPhotoLibraryUsageDescription" = "Cascable benötigt Zugriff auf Ihre Fotobibliothek, um Fotos darin abzuspeichern. Cascable greift nicht auf bestehende Fotos in Ihrer Bibliothek zu.";
+
+/* (No Comment) */
+"Phase One RAW image" = "Phase-One-RAW-Bild";
+
+/* (No Comment) */
+"Photos" = "Fotos";
+
+/* (No Comment) */
+"Recipes Editor" = "Recipes-Editor";
+
+/* (No Comment) */
+"Remote Control" = "Fernbedienung";
 

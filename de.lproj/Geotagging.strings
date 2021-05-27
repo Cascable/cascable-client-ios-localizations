@@ -1,9 +1,14 @@
-
 /* Class = "UILabel"; text = "The original timestamp of this photo is 14:45:34 on May 20th, 2017."; ObjectID = "1gn-bm-cKu"; */
 "1gn-bm-cKu.text" = "Der ursprüngliche Zeitstempel dieses Fotos ist 14:45:34 am 20. Mai 2017.";
 
 /* Class = "UINavigationItem"; title = "Timezone Adjust"; ObjectID = "856-O3-PjU"; */
 "856-O3-PjU.title" = "Zeitzonenanpassung";
+
+/* Class = "UILabel"; text = "Session"; ObjectID = "ayN-eg-nOl"; */
+"ayN-eg-nOl.text" = "Session";
+
+/* Class = "UILabel"; text = "\"Walking in Yosemite\" takes place between 18:36 and 19:57."; ObjectID = "f5s-El-fdl"; */
+"f5s-El-fdl.text" = "„Wandern in Yosemite\" findet statt zwischen 18:36 und 19:57.";
 
 /* Class = "UILabel"; text = "4 hours"; ObjectID = "G4y-yU-kAz"; */
 "G4y-yU-kAz.text" = "4 Stunden";
@@ -14,44 +19,39 @@
 /* Class = "UIButton"; normalTitle = "Start"; ObjectID = "JQU-wE-dVM"; */
 "JQU-wE-dVM.normalTitle" = "Starten";
 
-/* Class = "UIButton"; normalTitle = "Tag Manually"; ObjectID = "LL8-7W-a7z"; */
-"LL8-7W-a7z.normalTitle" = "Manuell taggen";
-
-/* Class = "UILabel"; text = "Recorded tracks"; ObjectID = "QGa-FC-eZ2"; */
-"QGa-FC-eZ2.text" = "Aufgezeichnete Routen";
-
-/* Class = "UILabel"; text = "The adjusted timestamp of this photo will be 18:45:34 on May 20th, 2017."; ObjectID = "TP7-f3-rvS"; */
-"TP7-f3-rvS.text" = "Der neue Zeitstempel dieses Fotos ist 18:45:34 am 20. Mai 2017.";
-
-/* Class = "UILabel"; text = "You have no images to tag!"; ObjectID = "TjQ-Y8-G8X"; */
-"TjQ-Y8-G8X.text" = "Keine Fotos zum Taggen!";
-
-/* Class = "UILabel"; text = "Session"; ObjectID = "ayN-eg-nOl"; */
-"ayN-eg-nOl.text" = "Session";
-
-/* Class = "UILabel"; text = "\"Walking in Yosemite\" takes place between 18:36 and 19:57."; ObjectID = "f5s-El-fdl"; */
-"f5s-El-fdl.text" = "„Wandern in Yosemite\" findet statt zwischen 18:36 und 19:57.";
-
 /* Class = "UILabel"; text = "You have no tracks!"; ObjectID = "jvg-br-hMD"; */
 "jvg-br-hMD.text" = "Sie haben keine Routen!";
 
 /* Class = "UILabel"; text = "Not Tracking Location"; ObjectID = "lBd-Tw-OZ3"; */
 "lBd-Tw-OZ3.text" = "Standort wird nicht getrackt";
 
+/* Class = "UIButton"; normalTitle = "Tag Manually"; ObjectID = "LL8-7W-a7z"; */
+"LL8-7W-a7z.normalTitle" = "Manuell taggen";
+
 /* Class = "UINavigationItem"; title = "Session Title"; ObjectID = "nI6-E1-nfh"; */
 "nI6-E1-nfh.title" = "Sessiontitel";
-
-/* Class = "UIBarButtonItem"; title = "Apply"; ObjectID = "qEQ-zo-m7M"; */
-"qEQ-zo-m7M.title" = "Anwenden";
-
-/* Class = "UILabel"; text = "You have no images to tag!"; ObjectID = "qNA-pF-78i"; */
-"qNA-pF-78i.text" = "Sie haben keine Fotos zum Taggen!";
 
 /* Class = "UIButton"; normalTitle = "View Tracks"; ObjectID = "qbo-iC-O3Z"; */
 "qbo-iC-O3Z.normalTitle" = "Routen ansehen";
 
+/* Class = "UIBarButtonItem"; title = "Apply"; ObjectID = "qEQ-zo-m7M"; */
+"qEQ-zo-m7M.title" = "Anwenden";
+
+/* Class = "UILabel"; text = "Recorded tracks"; ObjectID = "QGa-FC-eZ2"; */
+"QGa-FC-eZ2.text" = "Aufgezeichnete Routen";
+
+/* Class = "UILabel"; text = "You have no images to tag!"; ObjectID = "qNA-pF-78i"; */
+"qNA-pF-78i.text" = "Sie haben keine Fotos zum Taggen!";
+
 /* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "r9N-pS-bi9"; */
 "r9N-pS-bi9.title" = "Abbrechen";
 
+/* Class = "UILabel"; text = "You have no images to tag!"; ObjectID = "TjQ-Y8-G8X"; */
+"TjQ-Y8-G8X.text" = "Keine Fotos zum Taggen!";
+
+/* Class = "UILabel"; text = "The adjusted timestamp of this photo will be 18:45:34 on May 20th, 2017."; ObjectID = "TP7-f3-rvS"; */
+"TP7-f3-rvS.text" = "Der neue Zeitstempel dieses Fotos ist 18:45:34 am 20. Mai 2017.";
+
 /* Class = "UILabel"; text = "Select and drag photos to the map"; ObjectID = "zKg-CH-tII"; */
 "zKg-CH-tII.text" = "Wählen und ziehen Sie Fotos auf die Karte";
+

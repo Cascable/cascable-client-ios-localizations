@@ -1,1 +1,193 @@
+/* (No Comment) */
+"ChosenRecipeLoadFailureGenericDescription" = "Das Recipe konnte nicht geladen werden, da es anscheinend beschädigt ist.";
+
+/* (No Comment) */
+"ChosenRecipeLoadFailureTitle" = "Konnte Recipe nicht öffnen";
+
+/* (No Comment) */
+"ChosenRecipeLoadFailureTooNewDescription" = "Das Recipe wurde mit einer neueren Recipeversion erstellt als diese von Cascable unterstützte. Bitte aktualisieren Sie Cascable auf die neueste Version.";
+
+/* (No Comment) */
+"ChosenRecipeNoneTitle" = "Ohne";
+
+/* ------ Choosing Recipes ------ */
+"ChosenRecipePropertyTitle" = "Recipe";
+
+/* (No Comment) */
+"CreateTitle" = "Erstellen";
+
+/* (No Comment) */
+"DefaultNewRecipeName" = "Neues Recipe";
+
+/* (No Comment) */
+"FallbackModuleWarningDescription" = "Recipe benötigt iOS 11 oder höher, um ausgeführt werden zu können. Bitte aktualisieren Sie Ihr Gerät.";
+
+/* ------ Warnings: Recipe Requirements ------ */
+"FallbackModuleWarningTitle" = "Benötigt iOS 11";
+
+/* (No Comment) */
+"NewRecipeNameMessage" = "Das Recipe kann später in der Datei-App umbenannt werden.";
+
+/* ------ Creating Recipes ------ */
+"NewRecipeNameTitle" = "Neuer Recipename";
+
+/* (No Comment) */
+"NoCameraWarningDescription" = "Das Recipe benötigt eine angeschlossene Kamera, um ausgeführt zu werden.";
+
+/* (No Comment) */
+"NoCameraWarningTitle" = "Keine Kamera";
+
+/* (No Comment) */
+"NoRecipeChosenWarningDescription" = "Es wurde noch kein Recipe ausgewählt.";
+
+/* ------ Warnings: General ------ */
+"NoRecipeChosenWarningTitle" = "Kein Recipe ausgewählt";
+
+/* (No Comment) */
+"RecipeLogCameraNameHeader" = "Kamera";
+
+/* (No Comment) */
+"RecipeLogEndDateHeader" = "Ende";
+
+/* (No Comment) */
+"RecipeLogRecipeNameHeader" = "Recipe";
+
+/* (No Comment) */
+"RecipeLogsFailureTitle" = "Protokoll kann nicht geladen werden.";
+
+/* (No Comment) */
+"RecipeLogsListNoLogsLongTitle" = "Werden Recipes ausgeführt, sind hier die Protokolle der letzten zehn Ausführungen verfügbar.";
+
+/* (No Comment) */
+"RecipeLogsListNoLogsTitle" = "Keine Recipe-Ausführungen verfügbar";
+
+/* (No Comment) */
+"RecipeLogsListSubtitle" = "Ausführen mit %@ auf %@.";
+
+/* (No Comment) */
+"RecipeLogsPropertySubTitle" = "%@";
+
+/* (No Comment) */
+"RecipeLogsPropertySubTitle_Plural" = "%@";
+
+/* ------ Logs ------ */
+"RecipeLogsPropertyTitle" = "Vorherige Ausführungen";
+
+/* (No Comment) */
+"RecipeLogStartDateHeader" = "Starten";
+
+/* (No Comment) */
+"RecipeLogTitleHeader" = "%@ auf %@";
+
+/* (No Comment) */
+"RecipeNameFieldPlaceholder" = "Einen Namen eingeben";
+
+/* (No Comment) */
+"RecipesModuleRequiresiOS11SubTitle" = "⚠️ Erfordert iOS 11.";
+
+/* (No Comment) */
+"RecipesModuleSubTitle" = "Führen Sie eigene benutzerdefinierte Recipes aus.";
+
+/* RecipesRobotModule.strings
+  Cascable
+
+  Created by Daniel Kennett on 2017-12-04.
+  Copyright © 2017 Cascable AB. All rights reserved. */
+"RecipesModuleTitle" = "Recipes";
+
+/* (No Comment) */
+"RecipeUnableToExecuteWarningDescription" = "Das Recipe hat Konfigurationsprobleme, die verhindern, dass es ausgeführt werden kann. Öffnen Sie das Recipe im Recipe-Editor für weitere Informationen.";
+
+/* (No Comment) */
+"RecipeUnableToExecuteWarningTitle" = "Falsch konfiguriertes Recipe";
+
+/* (No Comment) */
+"RecipeWFIBLEConnectedNoNameTitle" = "Angeschlossen an ein Bluetooth-Eingangszubehör von Cascable.";
+
+/* (No Comment) */
+"RecipeWFIBLEConnectedTitle" = "Verbunden mit %@.";
+
+/* (No Comment) */
+"RecipeWFIBLEConnectionPromptMessage" = "Dieses Eingabegerät scheint ein anderes zu sein als das zuvor verbundene Gerät.";
+
+/* (No Comment) */
+"RecipeWFIBLEConnectionPromptNamePlaceholder" = "Eingabegerät";
+
+/* (No Comment) */
+"RecipeWFIBLEConnectionPromptTitle" = "Verbunden mit %@?";
+
+/* (No Comment) */
+"RecipeWFIBLENoAccessoryTitle" = "Nicht mit einem Bluetooth-Eingangszubehör von Cascable verbunden.";
+
+/* (No Comment) */
+"RecipeWFIBLESearchingTitle" = "Suche nach Bluetooth-Zubehör...";
+
+/* ------ Wait For Input UI ------ */
+"RecipeWFIDefaultMessage" = "Um das Recipe fortzusetzen, bitte auf „Recipe fortsetzen“ tippen.";
+
+/* (No Comment) */
+"RequiresAutoFocusDescription" = "Das Recipe setzt voraus, dass der Fokusmodus der Kamera ein Autofokusmodus ist. Stellen Sie den Fokusmodus der Kamera auf eine nicht manuelle Einstellung.";
+
+/* (No Comment) */
+"RequiresAutoFocusTitle" = "Erfordert Autofokus";
+
+/* (No Comment) */
+"RequiresBulbWarningDescription" = "Für das Recipe muss die Kamera auf Bulb eingestellt sein.";
+
+/* (No Comment) */
+"RequiresBulbWarningTitle" = "Erfordert Langzeitbelichtung (Bulb)";
+
+/* (No Comment) */
+"RequiresBurstWarningDescription" = "Das Recipe setzt voraus, dass die Kamera auf Serienaufnahme eingestellt ist.";
+
+/* (No Comment) */
+"RequiresBurstWarningTitle" = "Erfordert Serienaufnahmen";
+
+/* (No Comment) */
+"RequiresChangeableApertureDescription" = "Das Recipe setzt voraus, dass die Kamera so eingestellt ist, dass Änderungen der Blende möglich sind. Stellen Sie den Belichtungsmodus der Kamera auf Blendenpriorität oder Manuell.";
+
+/* (No Comment) */
+"RequiresChangeableApertureTitle" = "Erfordert konfigurierbare Blende";
+
+/* (No Comment) */
+"RequiresChangeableEVDescription" = "Das Recipe setzt eine Kameraeinstellung voraus, die Änderungen der Belichtungskorrektur zulässt. Stellen Sie den Belichtungsmodus der Kamera auf Manuell, oder aktivieren Sie die ISO-Automatik.";
+
+/* (No Comment) */
+"RequiresChangeableEVTitle" = "Erfordert eine konfigurierbare Belichtungskorrektur";
+
+/* (No Comment) */
+"RequiresChangeableExposureInCameraDescription" = "Das Recipe setzt voraus, dass die Kamera Änderungen an den Belichtungseinstellungen zulässt, was von der aktuell verbundenen Kamera nicht unterstützt wird.";
+
+/* (No Comment) */
+"RequiresChangeableExposureInCameraTitle" = "Erfordert konfigurierbare Belichtung";
+
+/* (No Comment) */
+"RequiresChangeableFocusDescription" = "Das Recipe setzt voraus, dass die Kamera eine manuelle Fokuseinstellung erlaubt. Dies wird derzeit nur von Kameras der Marken Canon EOS und Nikon unterstützt.";
+
+/* (No Comment) */
+"RequiresChangeableFocusTitle" = "Erfordert manuelle Fokuseinstellung";
+
+/* (No Comment) */
+"RequiresChangeableISODescription" = "Das Recipe setzt voraus, dass die Kamera so eingestellt ist, dass Änderungen des ISO-Wertes möglich sind.";
+
+/* (No Comment) */
+"RequiresChangeableISOTitle" = "Erfordert konfigurierbare ISO-Einstellung";
+
+/* (No Comment) */
+"RequiresChangeableShutterSpeedDescription" = "Das Recipe setzt voraus, dass die Kamera so eingestellt ist, dass Änderungen der Belichtungszeit möglich sind. Stellen Sie den Belichtungsmodus der Kamera auf Blendenautomatik oder Manuell ein.";
+
+/* (No Comment) */
+"RequiresChangeableShutterSpeedTitle" = "Erfordert eine konfigurierbare Belichtungszeit";
+
+/* (No Comment) */
+"RequiresChangeableSmartExposureDescription" = "Das Recipe setzt voraus, dass die Kamera so eingestellt ist, dass sie Änderungen an der Belichtung zulässt, entweder durch Belichtungskorrektur oder Belichtungszeit.";
+
+/* (No Comment) */
+"RequiresChangeableSmartExposureTitle" = "Erfordert konfigurierbare Belichtung";
+
+/* (No Comment) */
+"RequiresNotBulbWarningDescription" = "Das Recipe setzt voraus, dass die Kamera nicht für Langzeitbelichtungen eingestellt ist.";
+
+/* (No Comment) */
+"RequiresNotBulbWarningTitle" = "Nicht kompatibel mit Langzeitbelichtungen";
 

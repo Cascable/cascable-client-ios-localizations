@@ -1,1 +1,43 @@
+/* (No Comment) */
+"AutoFocusFixedDurationRecipeItemTemplate" = "Weist die Kamera an, den Autofokus für die eingestellte Dauer zu aktivieren.";
+
+/* (No Comment) */
+"BulbExposureRecipeItemTemplate" = "Führt eine Langzeitbelichtung für die Dauer der angegebenen Variable durch. Wenn die Kamera den Autofokus aktiviert hat und der Block nicht so konfiguriert ist, dass er ihn überspringt, wird der Autofokus aktiviert, bevor der Shutter geöffnet wird.";
+
+/* (No Comment) */
+"BurstExposureRecipeItemTemplate" = "Führt eine Serienaufnahme für die Dauer der angegebenen Variable durch. Wenn die Kamera den Autofokus aktiviert hat und der Block nicht so konfiguriert ist, dass er ihn überspringt, wird der Autofokus aktiviert, bevor der Shutter geöffnet wird.";
+
+/* (No Comment) */
+"ChangeCameraVariableRecipeItemTemplate" = "Ändert die Belichtungseinstellung der Kamera um die angegebene Anzahl von Stufen.";
+
+/* (No Comment) */
+"ChangeDurationVariableRecipeItemTemplate" = "Ändert den Wert einer Variable durch Addieren, Subtrahieren, Multiplizieren oder Dividieren.";
+
+/* (No Comment) */
+"DoubleVariableInitialiserTemplate" = "Eine Variable, die für eine Zeitdauer steht. Kann in Verbindung mit Warteblöcken verwendet werden, um Pausen zwischen den Aufnahmen hinzuzufügen oder um die Dauer einer Langzeitbelichtung zu variieren.";
+
+/* (No Comment) */
+"MoveFocusRecipeItemTemplate" = "Bewegt den Schärfebereich der Kamera näher an die Kamera heran oder weiter weg von ihr. Erfordert, dass die Kamera diese Funktion unterstützt, der Autofokus aktiviert ist und sich nicht in einem kontinuierlichen Scharfstellmodus befindet.";
+
+/* RecipeItemTemplateDocumentation.strings
+  Magic Robot
+
+  Created by Daniel Kennett on 2017-10-13.
+  Copyright © 2017 Cascable AB. All rights reserved. */
+"NoDocumentation" = "Keine Dokumentation verfügbar.";
+
+/* (No Comment) */
+"RepeatRecipeItemTemplate" = "Führt die enthaltenen Blöcke in der angegebenen Anzahl aus.";
+
+/* (No Comment) */
+"TakeShotRecipeItemTemplate" = "Erstellt eine Einzelaufnahme. Wenn die Kamera den Autofokus aktiviert hat und der Block nicht so konfiguriert ist, dass er ihn überspringt, wird der Autofokus aktiviert, bevor die Aufnahme erstellt wird.";
+
+/* (No Comment) */
+"WaitFixedDurationRecipeItemTemplate" = "Wartet eine bestimmte Zeit vor dem Fortfahren.";
+
+/* (No Comment) */
+"WaitForInputRecipeItemTemplate" = "Wartet, bis das Recipe manuell fortgesetzt werden kann, entweder durch Antippen einer Taste auf dem Display oder durch Drücken einer Taste auf einer angeschlossenen Tastatur oder einem Bluetooth-Zubehör.";
+
+/* (No Comment) */
+"WaitVariableDurationRecipeItemTemplate" = "Wartet eine variable Zeitspanne vor dem Fortfahren.";
 

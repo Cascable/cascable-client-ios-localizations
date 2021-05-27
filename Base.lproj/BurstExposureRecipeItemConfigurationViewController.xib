@@ -48,7 +48,7 @@
                                         <action selector="skipAfSwitchChanged:" destination="-1" eventType="valueChanged" id="w2a-ya-NoM"/>
                                     </connections>
                                 </switch>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skip autofocus if able" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dca-fA-VE9">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skip autofocus if able" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dca-fA-VE9">
                                     <rect key="frame" x="104" y="85" width="163.5" height="21"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="textColor"/>
@@ -76,6 +76,7 @@ The burst will continue for the duration of the variable:</string>
                                 <constraint firstItem="dca-fA-VE9" firstAttribute="centerY" secondItem="eaF-g1-RGH" secondAttribute="centerY" id="YeW-lH-zc5"/>
                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lEr-wr-Qa7" secondAttribute="trailing" constant="23" id="gl4-Uj-FQ5"/>
                                 <constraint firstItem="4M0-HO-s2I" firstAttribute="top" secondItem="eaF-g1-RGH" secondAttribute="bottom" constant="20" id="jHr-yn-c4f"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dca-fA-VE9" secondAttribute="trailing" constant="20" id="llG-1U-hOb"/>
                                 <constraint firstItem="lEr-wr-Qa7" firstAttribute="top" secondItem="4M0-HO-s2I" secondAttribute="bottom" constant="20" id="maP-uC-GXf"/>
                                 <constraint firstItem="lEr-wr-Qa7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mtD-Oi-W5e" secondAttribute="leading" id="o1Y-YY-m5v"/>
                                 <constraint firstAttribute="bottom" secondItem="lEr-wr-Qa7" secondAttribute="bottom" constant="24" id="rfR-Zb-UPz"/>

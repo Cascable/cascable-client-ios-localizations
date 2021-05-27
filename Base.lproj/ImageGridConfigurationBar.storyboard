@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="w5e-gz-wYE">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Image Grid Configuration Bar-->
+        <scene sceneID="0yA-Yb-AAJ">
+            <objects>
+                <viewController id="w5e-gz-wYE" customClass="ImageGridConfigurationBar" customModule="Cascable" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jLf-cc-iuR">
+                        <rect key="frame" x="0.0" y="0.0" width="630" height="88"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="On9-gC-bWe" customClass="CBLHairlineDividerView">
+                                <rect key="frame" x="0.0" y="87" width="630" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="P91-l3-8rt"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="topLeft" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="ZON-yQ-cwi" userLabel="Top Stack View">
+                                <rect key="frame" x="8" y="0.0" width="614" height="44"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KLI-cy-Ii5">
+                                        <rect key="frame" x="0.0" y="1" width="167" height="42"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6X-Ya-DYI">
+                                                <rect key="frame" x="1" y="1" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="er7-qn-8PQ"/>
+                                                    <constraint firstAttribute="width" secondItem="x6X-Ya-DYI" secondAttribute="height" multiplier="1:1" id="kch-CD-qy0"/>
+                                                </constraints>
+                                                <state key="normal" image="LayoutPickerGrid"/>
+                                                <connections>
+                                                    <action selector="layoutPickerButtonTapped:" destination="w5e-gz-wYE" eventType="touchUpInside" id="5TL-yB-yyH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEP-2M-kgr">
+                                                <rect key="frame" x="41" y="1" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="lEP-2M-kgr" secondAttribute="height" multiplier="1:1" id="26F-r3-X60"/>
+                                                    <constraint firstAttribute="height" constant="40" id="bmZ-e3-U0X"/>
+                                                </constraints>
+                                                <state key="normal" image="LayoutPickerSmallAndLargeSize"/>
+                                                <connections>
+                                                    <action selector="layoutSizeButtonTapped:" destination="w5e-gz-wYE" eventType="touchUpInside" id="hdQ-lV-Bm6"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BwQ-fH-5Vi">
+                                                <rect key="frame" x="89" y="1" width="77" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="EC6-zo-p0D"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <inset key="contentEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="-6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="File Size" image="SortDescendingIndicatorArrow"/>
+                                                <connections>
+                                                    <action selector="sortButtonTapped:" destination="w5e-gz-wYE" eventType="touchUpInside" id="d2I-ii-pYZ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="x6X-Ya-DYI" firstAttribute="leading" secondItem="KLI-cy-Ii5" secondAttribute="leading" constant="1" id="8dC-Vn-2eU"/>
+                                            <constraint firstItem="x6X-Ya-DYI" firstAttribute="top" secondItem="KLI-cy-Ii5" secondAttribute="top" constant="1" id="GCw-UU-iV1"/>
+                                            <constraint firstItem="lEP-2M-kgr" firstAttribute="leading" secondItem="x6X-Ya-DYI" secondAttribute="trailing" id="IeR-jj-jRo"/>
+                                            <constraint firstAttribute="bottom" secondItem="lEP-2M-kgr" secondAttribute="bottom" constant="1" id="Ju1-fW-2hW"/>
+                                            <constraint firstItem="BwQ-fH-5Vi" firstAttribute="leading" secondItem="lEP-2M-kgr" secondAttribute="trailing" constant="8" id="MGv-iN-bmJ"/>
+                                            <constraint firstItem="BwQ-fH-5Vi" firstAttribute="top" secondItem="KLI-cy-Ii5" secondAttribute="top" constant="1" id="YvR-Zf-0dy"/>
+                                            <constraint firstAttribute="trailing" secondItem="BwQ-fH-5Vi" secondAttribute="trailing" constant="1" id="gL2-ct-PhO"/>
+                                            <constraint firstAttribute="bottom" secondItem="x6X-Ya-DYI" secondAttribute="bottom" constant="1" id="q6S-Oc-kzU"/>
+                                            <constraint firstAttribute="bottom" secondItem="BwQ-fH-5Vi" secondAttribute="bottom" constant="1" id="v02-uI-KVV"/>
+                                            <constraint firstItem="lEP-2M-kgr" firstAttribute="top" secondItem="KLI-cy-Ii5" secondAttribute="top" constant="1" id="ygy-3i-FUd"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" horizontalCompressionResistancePriority="1" translatesAutoresizingMaskIntoConstraints="NO" id="O6N-gA-aD9" userLabel="Separator">
+                                        <rect key="frame" x="179" y="0.0" width="0.0" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" id="dYg-5t-o6W"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ze-oB-zKK">
+                                        <rect key="frame" x="191" y="2" width="107" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="K2S-77-jBS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <inset key="contentEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="-6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Any file type" image="ForTim"/>
+                                        <connections>
+                                            <action selector="fileTypeButtonPushed:" destination="w5e-gz-wYE" eventType="touchUpInside" id="Sg6-Bf-By9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="590-Wb-4Zs">
+                                        <rect key="frame" x="310" y="2" width="81" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="BkB-lP-wki"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <inset key="contentEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="-6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Any date" image="ForTim"/>
+                                        <connections>
+                                            <action selector="dateRangeButtonPushed:" destination="w5e-gz-wYE" eventType="touchUpInside" id="lRV-0f-xxH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6V7-se-cfe">
+                                        <rect key="frame" x="403" y="2" width="91" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="D3B-vT-s56"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <inset key="contentEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="-6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Any rating" image="ForTim"/>
+                                        <connections>
+                                            <action selector="ratingButtonPushed:" destination="w5e-gz-wYE" eventType="touchUpInside" id="JyW-pd-ZIB"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="16" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="TI7-r9-HTM" customClass="ImageGridSearchField" customModule="Cascable" customModuleProvider="target">
+                                        <rect key="frame" x="506" y="5" width="108" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="Dih-GG-eLR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="search" smartDashesType="no" smartQuotesType="no"/>
+                                        <connections>
+                                            <action selector="searchFieldValueChanged" destination="w5e-gz-wYE" eventType="editingChanged" id="HJp-vN-Id5"/>
+                                            <outlet property="delegate" destination="w5e-gz-wYE" id="XHd-KC-guI"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="TI7-r9-HTM" firstAttribute="width" secondItem="ZON-yQ-cwi" secondAttribute="width" multiplier="0.3" priority="749" id="DfH-0X-mEJ"/>
+                                    <constraint firstAttribute="height" constant="44" id="Vq9-iy-Rgu"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="MtW-0J-EJf" userLabel="Bottom Stack View">
+                                <rect key="frame" x="159.5" y="44" width="303" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8l-VI-ret">
+                                        <rect key="frame" x="0.0" y="2" width="107" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="1nq-OX-DYQ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <inset key="contentEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="-6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Any file type" image="ForTim"/>
+                                        <connections>
+                                            <action selector="fileTypeButtonPushed:" destination="w5e-gz-wYE" eventType="touchUpInside" id="Sr4-lY-vhn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4J-Ul-XHP">
+                                        <rect key="frame" x="119" y="2" width="81" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="baY-YM-lWc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <inset key="contentEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="-6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Any date" image="ForTim"/>
+                                        <connections>
+                                            <action selector="dateRangeButtonPushed:" destination="w5e-gz-wYE" eventType="touchUpInside" id="gCY-dU-85e"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEy-sl-DOg">
+                                        <rect key="frame" x="212" y="2" width="91" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="3KU-xI-egi"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <inset key="contentEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="-6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Any rating" image="ForTim"/>
+                                        <connections>
+                                            <action selector="ratingButtonPushed:" destination="w5e-gz-wYE" eventType="touchUpInside" id="oAa-ss-6G5"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="gOK-rO-jai"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iHF-cy-BMc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="iHF-cy-BMc" firstAttribute="trailing" secondItem="ZON-yQ-cwi" secondAttribute="trailing" constant="8" id="K4f-qq-OOC"/>
+                            <constraint firstItem="MtW-0J-EJf" firstAttribute="centerX" secondItem="jLf-cc-iuR" secondAttribute="centerX" constant="-4" id="RZD-BU-Lxm"/>
+                            <constraint firstItem="ZON-yQ-cwi" firstAttribute="top" secondItem="jLf-cc-iuR" secondAttribute="top" id="Szo-Kl-zoa"/>
+                            <constraint firstItem="On9-gC-bWe" firstAttribute="leading" secondItem="jLf-cc-iuR" secondAttribute="leading" id="fGU-iV-vrR"/>
+                            <constraint firstAttribute="bottom" secondItem="On9-gC-bWe" secondAttribute="bottom" id="mQS-HR-MI7"/>
+                            <constraint firstItem="ZON-yQ-cwi" firstAttribute="leading" secondItem="iHF-cy-BMc" secondAttribute="leading" constant="8" id="p0u-hp-ZZL"/>
+                            <constraint firstItem="MtW-0J-EJf" firstAttribute="top" secondItem="ZON-yQ-cwi" secondAttribute="bottom" id="tVr-4t-tQ0"/>
+                            <constraint firstAttribute="trailing" secondItem="On9-gC-bWe" secondAttribute="trailing" id="zDM-Da-zJJ"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="630" height="88"/>
+                    <connections>
+                        <outlet property="bottomBarHeightConstraint" destination="gOK-rO-jai" id="g72-8R-hbz"/>
+                        <outlet property="bottomDivider" destination="On9-gC-bWe" id="rGA-zs-iXy"/>
+                        <outlet property="compactDateRangeButton" destination="Q4J-Ul-XHP" id="OvF-KV-vM5"/>
+                        <outlet property="compactFileTypeButton" destination="F8l-VI-ret" id="KsW-AG-N0r"/>
+                        <outlet property="compactRatingButton" destination="bEy-sl-DOg" id="LTh-s5-6WX"/>
+                        <outlet property="dateRangeButton" destination="590-Wb-4Zs" id="bqR-pB-9n9"/>
+                        <outlet property="fileTypeButton" destination="9ze-oB-zKK" id="y3e-Iq-iAF"/>
+                        <outlet property="layoutPickerButton" destination="x6X-Ya-DYI" id="X71-bI-TG2"/>
+                        <outlet property="layoutSizeButton" destination="lEP-2M-kgr" id="qQi-Gr-l0V"/>
+                        <outlet property="ratingButton" destination="6V7-se-cfe" id="M3L-Ca-1Vy"/>
+                        <outlet property="searchField" destination="TI7-r9-HTM" id="4Zd-XR-pUc"/>
+                        <outlet property="sortButton" destination="BwQ-fH-5Vi" id="T9k-TZ-HNn"/>
+                        <outlet property="topBarHeightConstraint" destination="Vq9-iy-Rgu" id="5yB-iL-3lb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xdI-xg-pe4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76.811594202898561" y="79.6875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ForTim" width="11" height="5"/>
+        <image name="LayoutPickerGrid" width="19" height="19"/>
+        <image name="LayoutPickerSmallAndLargeSize" width="24" height="24"/>
+        <image name="SortDescendingIndicatorArrow" width="11" height="16"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

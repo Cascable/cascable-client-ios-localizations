@@ -1,8 +1,24 @@
-"se.cascable.client.help.category.getting-connected" = "Verbinden";
-"se.cascable.client.help.category.feedback" = "Feedback";
-"se.cascable.client.help.category.files-mode" = "Fotomanagement";
-"se.cascable.client.help.category.remote-mode" = "Fernbedienung";
+/* (No Comment) */
 "se.cascable.client.help.category.about" = "Info";
-"se.cascable.client.help.category.welcome" = "Willkommen";
+
+/* (No Comment) */
 "se.cascable.client.help.category.cascable-pro" = "Cascable ★Pro";
+
+/* (No Comment) */
+"se.cascable.client.help.category.feedback" = "Feedback";
+
+/* (No Comment) */
+"se.cascable.client.help.category.files-mode" = "Fotomanagement";
+
+/* (No Comment) */
+"se.cascable.client.help.category.getting-connected" = "Verbinden";
+
+/* (No Comment) */
+"se.cascable.client.help.category.remote-mode" = "Fernbedienung";
+
+/* (No Comment) */
 "se.cascable.client.help.category.using" = "Verwenden von Cascable";
+
+/* (No Comment) */
+"se.cascable.client.help.category.welcome" = "Willkommen";
+

@@ -1,3 +1,5 @@
+/* Class = "UILabel"; text = "Tap the Shutter Robot icon in the toolbar to get started."; ObjectID = "dFg-o7-4SG"; */
+"dFg-o7-4SG.text" = "Tippen Sie auf das Shutter Robot Symbol in der Symbolleiste.";
 
 /* Class = "UILabel"; text = "Shutter Robot is not running."; ObjectID = "HAp-3i-LnO"; */
 "HAp-3i-LnO.text" = "Shutter Robot ist nicht aktiv.";
@@ -5,5 +7,3 @@
 /* Class = "UILabel"; text = "Label"; ObjectID = "Tme-kf-Cx9"; */
 "Tme-kf-Cx9.text" = "Beschreibung";
 
-/* Class = "UILabel"; text = "Tap the Shutter Robot icon in the toolbar to get started."; ObjectID = "dFg-o7-4SG"; */
-"dFg-o7-4SG.text" = "Tippen Sie auf das Shutter Robot Symbol in der Symbolleiste.";

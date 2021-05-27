@@ -1,1 +1,9 @@
+/* Class = "UILabel"; text = "Some cameras will always autofocus before taking a shot.\n\nThe exposure will be for the duration of the variable:"; ObjectID = "4M1-HO-s2I"; */
+"4M1-HO-s2I.text" = "Einige Kameras schalten immer auf Autofokus, bevor sie eine Aufnahme erstellen. \n\nDie Belichtung wird ausgeführt für die Dauer der Variablen:";
+
+/* Class = "UILabel"; text = "Skip autofocus if able"; ObjectID = "dcb-fA-VE9"; */
+"dcb-fA-VE9.text" = "Autofokus falls möglich vermeiden";
+
+/* Class = "UILabel"; text = "When executed, this block will perform a bulb exposure."; ObjectID = "mtD-Oi-W7e"; */
+"mtD-Oi-W7e.text" = "Wenn dieser Block ausgeführt wird, wird eine Langzeitbelichtung vorgenommen.";
 

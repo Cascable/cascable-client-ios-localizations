@@ -1,1 +1,484 @@
+/* (No Comment) */
+"ActionsSectionTitle" = "Aktionen";
+
+/* (No Comment) */
+"ALargeAmountTitle" = "Eine große Anzahl";
+
+/* (No Comment) */
+"AMediumAmountTitle" = "Eine mittelgroße Anzahl";
+
+/* (No Comment) */
+"ASmallAmountTitle" = "Eine kleine Anzahl";
+
+/* (No Comment) */
+"BulbShotBlockDetailedName" = "Langzeitbelichtung für";
+
+/* (No Comment) */
+"BulbShotBlockName" = "Langzeitbelichtung";
+
+/* (No Comment) */
+"BulbShotEndLogTitle" = "Beendete Langzeitbelichtung";
+
+/* (No Comment) */
+"BulbShotStartLogTitle" = "Begonnene Langzeitbelichtung";
+
+/* I.e. "Waited 10 sec" */
+"BulbShotWaitLogSubtitle" = "%@ gewartet.";
+
+/* I.e. "Waited for <variable name>" */
+"BulbShotWaitLogTitle" = "Gewartet auf";
+
+/* (No Comment) */
+"BurstShotsBlockDetailedName" = "Serienaufnahme für";
+
+/* (No Comment) */
+"BurstShotsBlockName" = "Serienaufnahmen";
+
+/* (No Comment) */
+"BurstShotsEndLogTitle" = "Beendete Serienbelichtung";
+
+/* (No Comment) */
+"BurstShotsStartLogTitle" = "Gestartete Serienbelichtung";
+
+/* I.e. "Waited 10 sec" */
+"BurstShotsWaitLogSubtitle" = "%@ gewartet.";
+
+/* I.e. "Waited for <variable name>" */
+"BurstShotsWaitLogTitle" = "Gewartet auf";
+
+/* (No Comment) */
+"CameraVariableApertureShortTitle" = "Blende";
+
+/* (No Comment) */
+"CameraVariableApertureTitle" = "Blende";
+
+/* (No Comment) */
+"CameraVariableAtLimitLogEntrySubtitle" = "Der vorhandene Wert von %@ ist für diese Einstellung bereits am Maximum.";
+
+/* (No Comment) */
+"CameraVariableAtLimitLogEntryTitlePrefix" = "Änderung nicht möglich.";
+
+/* (No Comment) */
+"CameraVariableBlockTitleDecreasePrefix" = "Verringern";
+
+/* (No Comment) */
+"CameraVariableBlockTitleIncreasePrefix" = "Erhöhen";
+
+/* (No Comment) */
+"CameraVariableBlockTitleSuffix" = "um %@";
+
+/* (No Comment) */
+"CameraVariableExposureCompensationShortTitle" = "EV";
+
+/* (No Comment) */
+"CameraVariableExposureCompensationTitle" = "Belichtungskorrektur";
+
+/* (No Comment) */
+"CameraVariableFailedLogEntrySubtitle" = "Die aktuellen Kameraeinstellungen erlauben es nicht, diesen Wert zu ändern.";
+
+/* (No Comment) */
+"CameraVariableFailedLogEntryTitlePrefix" = "Änderung fehlgeschlagen";
+
+/* (No Comment) */
+"CameraVariableFailedLogEntryTitleSuffix" = "um %@";
+
+/* (No Comment) */
+"CameraVariableISOShortTitle" = "ISO";
+
+/* (No Comment) */
+"CameraVariableISOTitle" = "ISO";
+
+/* (No Comment) */
+"CameraVariableLogEntryLimitedChangeSubtitle" = "Wert geändert von %@ auf %@ (begrenzt durch Kamera).";
+
+/* (No Comment) */
+"CameraVariableLogEntryLimitedChangeTitlePrefix" = "Geändert";
+
+/* (No Comment) */
+"CameraVariableLogEntryLimitedChangeTitleSuffix" = "um %@";
+
+/* (No Comment) */
+"CameraVariableLogEntrySubtitle" = "Wert von %@ auf %@ geändert.";
+
+/* (No Comment) */
+"CameraVariableLogEntryTitlePrefix" = "Geändert";
+
+/* (No Comment) */
+"CameraVariableLogEntryTitleSuffix" = "um %@";
+
+/* (No Comment) */
+"CameraVariableShutterSpeedShortTitle" = "Shutter";
+
+/* (No Comment) */
+"CameraVariableShutterSpeedTitle" = "Verschlusszeit";
+
+/* (No Comment) */
+"CameraVariableSmartExposureShortTitle" = "Intelligente EV";
+
+/* (No Comment) */
+"CameraVariableSmartExposureTitle" = "Intelligente Belichtung";
+
+/* (No Comment) */
+"CannotRunRecipeMessage" = "Das Recipe verursacht schwerwiegende Probleme, die verhindern, dass es ausgeführt werden kann.";
+
+/* (No Comment) */
+"CannotRunRecipeTitle" = "Recipe kann nicht ausgeführt werden";
+
+/* Blocks: Exposure Settings */
+"ChangeCameraVariableBlockTitle" = "Belichtungseinstellung ändern";
+
+/* (No Comment) */
+"ChangeDurationAddOperatorTitle" = "Hinzufügen";
+
+/* (No Comment) */
+"ChangeDurationBlockTitle" = "Variable für Dauer ändern";
+
+/* (No Comment) */
+"ChangeDurationDivideOperatorTitle" = "Teilen";
+
+/* (No Comment) */
+"ChangeDurationLogSubtitle" = "Wert von %@ auf %@ geändert.";
+
+/* (No Comment) */
+"ChangeDurationLogTitlePrefixAdd" = "Hinzugefügt %@ zu";
+
+/* (No Comment) */
+"ChangeDurationLogTitlePrefixDivide" = "Geteilt";
+
+/* (No Comment) */
+"ChangeDurationLogTitlePrefixMultiply" = "Multiplizieren";
+
+/* (No Comment) */
+"ChangeDurationLogTitlePrefixSubtract" = "Subtrahiert %@ von";
+
+/* (No Comment) */
+"ChangeDurationLogTitleSuffixDivide" = "um %@";
+
+/* (No Comment) */
+"ChangeDurationLogTitleSuffixMultiply" = "um %@";
+
+/* (No Comment) */
+"ChangeDurationMultiplyOperatorTitle" = "Multiplizieren";
+
+/* (No Comment) */
+"ChangeDurationSubtractOperatorTitle" = "Subtrahieren";
+
+/* (No Comment) */
+"ChangeDurationTitlePrefixAdd" = "%@ addieren zu";
+
+/* (No Comment) */
+"ChangeDurationTitlePrefixSubtract" = "%@ subtrahieren von";
+
+/* (No Comment) */
+"ChangeDurationTitleSuffixMultiplyDivide" = "um %@";
+
+/* (No Comment) */
+"ConflictingShotTypesWarningMessage" = "Das Recipe enthält mehr als eine Aufnahmeart (Standard, Langzeit oder Serie). Ein Recipe kann nur Aktionsblöcke mit einer dieser Arten enthalten.";
+
+/* Warnings */
+"ConflictingShotTypesWarningTitle" = "Aufnahmearten, die Konflikte verursachen";
+
+/* Recipes.strings
+  Cascable
+
+  Created by Daniel Kennett (Cascable) on 2021-05-18.
+  Copyright © 2021 Cascable AB. All rights reserved. */
+"DefaultRecipeName" = "Recipe";
+
+/* (No Comment) */
+"DurationPickerMinuteLabel" = "Minute";
+
+/* (No Comment) */
+"DurationPickerMinutesLabel" = "Minuten";
+
+/* (No Comment) */
+"DurationPickerSecondLabel" = "Sekunde";
+
+/* (No Comment) */
+"DurationPickerSecondsLabel" = "Sekunden";
+
+/* I.e. "<Varable name> starts at 10 sec" */
+"DurationVariableDetailedTitleSuffix" = "beginnt bei %@";
+
+/* (No Comment) */
+"DurationVariableLogSubtitle" = "Wert beginnt bei %@.";
+
+/* (No Comment) */
+"DurationVariableLogTitlePrefix" = "Einstellen";
+
+/* (No Comment) */
+"DurationVariableLogTitleSuffix" = "zum Startwert";
+
+/* (No Comment) */
+"DurationVariableTitle" = "Variable für Dauer";
+
+/* (No Comment) */
+"HalfStopTitle" = "½ Stufe";
+
+/* (No Comment) */
+"MissingVariablesWarningMessage" = "Einem oder mehreren Blöcke, die Variablen benötigen, wurde keine Variable zugewiesen. Überprüfen Sie das Recipe auf Blöcke, die in ihrer Variablenliste „Keine Variable“ anzeigen und weisen Sie diesen eine Variable zu.";
+
+/* (No Comment) */
+"MissingVariablesWarningTitle" = "Fehlende Variablen";
+
+/* Format value may be "towards camera" or "towards infinity" */
+"MoveFocusBlockDetailedTitle" = "Fokus verschieben %@";
+
+/* Blocks: Move Focus */
+"MoveFocusBlockTitle" = "Fokus verschieben";
+
+/* (No Comment) */
+"MoveFocusErrorLogSubtitleCameraFailure" = "Der Fokusmodus ist kontinuierlich, die Bewegung wird vom aktuellen Objektiv nicht unterstützt oder das Objektiv kann sich nicht weiter bewegen.";
+
+/* (No Comment) */
+"MoveFocusErrorLogSubtitleDisallowed" = "Die aktuellen Kameraeinstellungen erlauben diesen Vorgang nicht.";
+
+/* (No Comment) */
+"MoveFocusErrorLogSubtitleUnsupported" = "Die Kamera unterstützt diese Funktion nicht.";
+
+/* (No Comment) */
+"MoveFocusErrorLogTitle" = "Fokus kann nicht verschoben werden";
+
+/* (No Comment) */
+"MoveFocusLargeAmountTitle" = "eine große Anzahl";
+
+/* I.e., "Focus moved towards camera by a small amount." */
+"MoveFocusLogSubtitle" = "Fokus %@ um %@ verschoben.";
+
+/* (No Comment) */
+"MoveFocusLogTitle" = "Fokus verschoben";
+
+/* (No Comment) */
+"MoveFocusMediumAmountTitle" = "eine mittelgroße Anzahl";
+
+/* (No Comment) */
+"MoveFocusSmallAmountTitle" = "eine kleine Anzahl";
+
+/* (No Comment) */
+"MoveFocusTowardsCameraTitle" = "Richtung Kamera";
+
+/* (No Comment) */
+"MoveFocusTowardsInfinityTitle" = "Richtung unendlich";
+
+/* (No Comment) */
+"NoItemsPlaceholderCompact" = "Tippen Sie auf die Schaltfläche „+“, um mit der Erstellung Ihres Recipes zu beginnen.";
+
+/* (No Comment) */
+"NoItemsPlaceholderiPad" = "Ziehen Sie Elemente hierher, um Ihr Recipe zu erstellen.";
+
+/* (No Comment) */
+"NoShotsWarningMessage" = "Das Recipe hat keine Einzelfoto-, Serienfoto- oder Langzeitbelichtungs-Blöcke und kann daher auch keine Bilder erzeugen.";
+
+/* (No Comment) */
+"NoShotsWarningTitle" = "Keine Aufnahmen";
+
+/* (No Comment) */
+"NoVariableTitle" = "Keine Variable";
+
+/* (No Comment) */
+"NoWaitBetweenShotsWarningMessage" = "Das Recipe nimmt mehr als eine Einzelaufnahme, Serienaufnahme oder Langzeitbelichtung ohne einen Warteblock dazwischen auf. Aufgrund der Zykluszeiten der Kamera werden Back-to-Back-Aufnahmen oft schon nach der ersten Aufnahme fehlschlagen, wenn Ihr Recipe nicht einen Moment zwischen den Aufnahmen wartet.";
+
+/* (No Comment) */
+"NoWaitBetweenShotsWarningTitle" = "Back-To-Back-Aufnahmen";
+
+/* (No Comment) */
+"OneThirdStopTitle" = "⅓ Stufe";
+
+/* I.e. "Autofocus for 10 sec". */
+"PerformAutofocusBlockDetailedName" = "Autofokus für %@";
+
+/* (No Comment) */
+"PerformAutofocusBlockName" = "Autofokus ausführen";
+
+/* (No Comment) */
+"PerformAutofocusEndLogTitle" = "Autofokus beenden";
+
+/* (No Comment) */
+"PerformAutofocusStartLogTitle" = "Autofokus starten";
+
+/* I.e. "Waited for 10 sec" */
+"PerformAutofocusWaitLogTitle" = "Gewartet auf %@";
+
+/* (No Comment) */
+"ProgramFlowSectionTitle" = "Programmfluss";
+
+/* (No Comment) */
+"ProgramSectionTitle" = "Variablen";
+
+/* (No Comment) */
+"RecipeDocumentDamagedTitle" = "Das Dokument scheint beschädigt zu sein.";
+
+/* (No Comment) */
+"RecipeDocumentModelDamagedTitle" = "Das Dokumentmodell konnte nicht geladen werden.";
+
+/* (No Comment) */
+"RecipeDocumentTooNewTitle" = "Das Dokument wurde mit einer neueren Version von Cascable erstellt.";
+
+/* (No Comment) */
+"RecipeLoadFailureGenericDescription" = "Das Recipe konnte nicht geladen werden, da es beschädigt zu sein scheint.";
+
+/* Errors */
+"RecipeLoadFailureTitle" = "Konnte das Recipe nicht öffnen";
+
+/* (No Comment) */
+"RecipeLoadFailureTooNewDescription" = "Das Recipe wurde mit einer neueren Recipe-Version erstellt, als diese Version von Cascable unterstützt. Bitte aktualisieren Sie Cascable auf die neueste Version.";
+
+/* (No Comment) */
+"RecipesEditorShortTitle" = "Recipes";
+
+/* (No Comment) */
+"RecipesEditorTitle" = "Recipe-Editor";
+
+/* (No Comment) */
+"RecipeShortHoursSuffix" = " Std.";
+
+/* (No Comment) */
+"RecipeShortMinutesSuffix" = " min";
+
+/* Formatting */
+"RecipeShortSecondsSuffix" = " s";
+
+/* (No Comment) */
+"RepeatBlockRepeatTitleFinite" = "Einmal wiederholen";
+
+/* (No Comment) */
+"RepeatBlockRepeatTitleFinite_Plural" = "%@ Mal wiederholen";
+
+/* (No Comment) */
+"RepeatBlockRepeatTitleInfinite" = "Wiederholen bis zum Abbruch";
+
+/* Blocks: Repeat */
+"RepeatBlockTitle" = "Wiederholen";
+
+/* (No Comment) */
+"SetDurationBlockDetailedTitle" = "Variable <%@> auf %@ einstellen";
+
+/* Blocks: Durations */
+"SetDurationBlockTitle" = "Variablenzeitraum einstellen";
+
+/* (No Comment) */
+"SetDurationLogSubtitle" = "Neuer Wert beträgt %@.";
+
+/* Part of the sentence "Set <variable name>". */
+"SetDurationLogTitlePrefix" = "Einstellen";
+
+/* (No Comment) */
+"SimulatedCameraName" = "Kamerasimulation";
+
+/* (No Comment) */
+"StopPickerHalfStopLabel" = "1/2";
+
+/* (No Comment) */
+"StopPickerNoThirdStopLabel" = "0/3";
+
+/* (No Comment) */
+"StopPickerStopLabel" = "Stufe";
+
+/* (No Comment) */
+"StopPickerStopsLabel" = "Stufen";
+
+/* (No Comment) */
+"StopPickerThirdStopLabel" = "1/3";
+
+/* (No Comment) */
+"StopPickerTwoThirdStopLabel" = "2/3";
+
+/* Blocks: Shots */
+"TakeShotBlockName" = "Aufnahme erstellen";
+
+/* (No Comment) */
+"TakeShotLogTitle" = "Einzelaufnahme erstellt";
+
+/* i.e., "1 time" */
+"TimesSuffixTitle" = "Mal";
+
+/* i.e., "12 times" */
+"TimesSuffixTitle_Plural" = "Mal";
+
+/* (No Comment) */
+"TowardsCameraTitle" = "In Richtung Kamera";
+
+/* (No Comment) */
+"TowardsInfinityTitle" = "In Richtung Unendlichkeit";
+
+/* (No Comment) */
+"TwoThirdsStopTitle" = "⅔ einer Stufe";
+
+/* (No Comment) */
+"UnboundVariableChangeWarningMessage" = "Das Recipe enthält einen Block zur Änderung von Variablen oder Kameraeinstellungen innerhalb eines „%@“-Blocks. Dies kann zu Problemen führen, falls das Recipe über einen längeren Zeitraum ausgeführt wird.";
+
+/* (No Comment) */
+"UnboundVariableChangeWarningTitle" = "Ungebundene Variable ändern";
+
+/* (No Comment) */
+"UnnamedVariableName" = "Unbenannte Variable";
+
+/* (No Comment) */
+"UnreachableBlocksWarningMessage" = "Das Recipe enthält einen „%@“-Block, der sich nicht am Ende des Programms befindet. Blöcke, die nach einem „%@“-Block platziert werden, können nicht ausgeführt werden.";
+
+/* (No Comment) */
+"UnreachableBlocksWarningTitle" = "Unzugängliche Blöcke";
+
+/* i.e., "12 times" */
+"UntilCancelledTitle" = "Bis zum Abbruch";
+
+/* (No Comment) */
+"ValueAndHalfStopsTitle" = "%@½ Stufen";
+
+/* (No Comment) */
+"ValueAndOneThirdStopsTitle" = "%@⅓ Stufen";
+
+/* (No Comment) */
+"ValueAndTwoThirdsStopsTitle" = "%@⅔ Stufen";
+
+/* UI */
+"VariablesAndSettingsSectionTitle" = "Variablen & Einstellungen";
+
+/* (No Comment) */
+"VariablesSectionTitle" = "Variablen";
+
+/* Blocks: Variables */
+"VariableTitle" = "Variable";
+
+/* I.e., "Wait for 12 sec" */
+"WaitFixedDurationBlockDetailedTitle" = "Warten auf %@";
+
+/* I.e., "Waited for 12 sec" */
+"WaitFixedDurationBlockLogTitle" = "Gewartet auf %@";
+
+/* Blocks: Waits */
+"WaitFixedDurationBlockTitle" = "Festgelegten Zeitraum warten";
+
+/* Blocks: Wait For Input */
+"WaitForInputBlockTitle" = "Warten auf Eingabe";
+
+/* (No Comment) */
+"WaitForInputLogSubtitleContinued" = "Das Recipe konnte fortgesetzt werden.";
+
+/* (No Comment) */
+"WaitForInputLogSubtitleStopped" = "Recipe wurde angehalten.";
+
+/* (No Comment) */
+"WaitForInputLogTitle" = "Auf Benutzereingabe gewartet";
+
+/* (No Comment) */
+"WaitVariableDurationBlockDetailedTitle" = "Warten";
+
+/* I.e., "Waited 12 sec" */
+"WaitVariableDurationBlockLogSubtitle" = "Gewartet %@.";
+
+/* I.e., "Waited for <variable name>" */
+"WaitVariableDurationBlockLogTitlePrefix" = "Gewartet auf";
+
+/* (No Comment) */
+"WaitVariableDurationBlockTitle" = "Variable für die Wartedauer";
+
+/* (No Comment) */
+"WholeStopsTitle" = "1 Stufe";
+
+/* (No Comment) */
+"WholeStopsTitle_Plural" = "%@ Stufen";
+
+/* (No Comment) */
+"ZeroStopsTitle" = "0 Stufen";
 

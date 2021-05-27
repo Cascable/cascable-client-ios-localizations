@@ -1,25 +1,57 @@
-
+/* (No Comment) */
 "Camera" = "Colin";
+
+/* (No Comment) */
 "Camera-Dark" = "Colin (Dunkel)";
+
+/* (No Comment) */
 "Camera-Light" = "Colin (Licht)";
 
+/* (No Comment) */
 "Classic" = "Klassisch";
+
+/* (No Comment) */
 "Classic-Dark" = "Klassisch (Dunkel)";
+
+/* (No Comment) */
 "Classic-Light" = "Klassisch (Licht)";
 
+/* (No Comment) */
+"DarkIconVariantSubtitle" = "Dunkel";
+
+/* (No Comment) */
+"IconPickerTitle" = "App-Symbol";
+
+/* (No Comment) */
 "Lens" = "Linse";
+
+/* (No Comment) */
 "Lens-Dark" = "Linse (Dunkel)";
+
+/* (No Comment) */
 "Lens-Light" = "Linse (Licht)";
 
+/* (No Comment) */
+"LightIconVariantSubtitle" = "Licht";
+
+/* (No Comment) */
+"MatchSystemIconVariantSubtitle" = "Mit App-Thema";
+
+/* (No Comment) */
 "Modern" = "Modern";
+
+/* (No Comment) */
 "Modern-Dark" = "Modern (Dunkel)";
+
+/* (No Comment) */
 "Modern-Light" = "Modern (Licht)";
 
+/* (No Comment) */
 "PhaseOne" = "Phase One";
+
+/* (No Comment) */
 "PhaseOne-Dark" = "Phase One (Dunkel)";
+
+/* (No Comment) */
 "PhaseOne-Light" = "Phase One (Licht)";
 
-"IconPickerTitle" = "App-Symbol";
-"MatchSystemIconVariantSubtitle" = "Mit App-Thema";
-"LightIconVariantSubtitle" = "Licht";
-"DarkIconVariantSubtitle" = "Dunkel";

@@ -1,21 +1,8 @@
-
 /* Class = "UILabel"; text = "By far our most frequent question involves problems with connecting to a camera. \n\nIf you're having trouble with this, please read through the Getting Connected guide for your camera — following the troubleshooting steps there will fix your problems in the vast majority of cases."; ObjectID = "4u3-lC-IXA"; */
 "4u3-lC-IXA.text" = "Zu den am häufigsten gestellten Fragen gehören Fragen zum Verbinden mit einer Kamera.\n\nWenn Sie damit ebenfalls Probleme haben, lesen Sie bitte zunächst im Handbuch der Kamera das Kapitel zum Herstellen einer Verbindung sowie die Fehlerbehebung durch – hierdurch wird bereits die Mehrheit der Fälle behoben.";
 
 /* Class = "UIButton"; normalTitle = "@CascableApp"; ObjectID = "5gZ-dT-9QR"; */
 "5gZ-dT-9QR.normalTitle" = "@CascableApp";
-
-/* Class = "UILabel"; text = "by email for\nprivate feedback"; ObjectID = "OtA-KQ-yKs"; */
-"OtA-KQ-yKs.text" = "per E-Mail für\nprivates Feedback";
-
-/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "Pbr-6h-fAr"; */
-"Pbr-6h-fAr.title" = "Fertig";
-
-/* Class = "UILabel"; text = "on Twitter for\nquick feedback"; ObjectID = "U4f-wL-hRP"; */
-"U4f-wL-hRP.text" = "auf Twitter für\nschnelles Feedback";
-
-/* Class = "UILabel"; text = "Feedback"; ObjectID = "YXG-Bh-Rdx"; */
-"YXG-Bh-Rdx.text" = "Feedback";
 
 /* Class = "UIViewController"; title = "Feedback"; ObjectID = "bmc-L8-UCt"; */
 "bmc-L8-UCt.title" = "Feedback";
@@ -32,5 +19,18 @@
 /* Class = "UILabel"; text = "I can't connect to my camera!"; ObjectID = "nPq-gm-2Q8"; */
 "nPq-gm-2Q8.text" = "Ich kann keine Verbindung zu meiner Kamera herstellen!";
 
+/* Class = "UILabel"; text = "by email for\nprivate feedback"; ObjectID = "OtA-KQ-yKs"; */
+"OtA-KQ-yKs.text" = "per E-Mail für\nprivates Feedback";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "Pbr-6h-fAr"; */
+"Pbr-6h-fAr.title" = "Fertig";
+
 /* Class = "UILabel"; text = "FAQ"; ObjectID = "tN9-gX-w1q"; */
 "tN9-gX-w1q.text" = "FAQ";
+
+/* Class = "UILabel"; text = "on Twitter for\nquick feedback"; ObjectID = "U4f-wL-hRP"; */
+"U4f-wL-hRP.text" = "auf Twitter für\nschnelles Feedback";
+
+/* Class = "UILabel"; text = "Feedback"; ObjectID = "YXG-Bh-Rdx"; */
+"YXG-Bh-Rdx.text" = "Feedback";
+

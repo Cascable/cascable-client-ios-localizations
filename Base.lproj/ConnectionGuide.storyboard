@@ -199,6 +199,7 @@
                                                                     <constraint firstAttribute="height" constant="42" id="nnp-BT-lbN"/>
                                                                 </constraints>
                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                                                 <state key="normal" title="Retry Connection">
                                                                     <color key="titleColor" systemColor="systemBlueColor"/>
                                                                 </state>
@@ -238,6 +239,7 @@
                                             <constraint firstItem="cAX-oa-cRH" firstAttribute="top" secondItem="E8e-4i-4vS" secondAttribute="bottom" constant="20" id="249-Q7-P38"/>
                                             <constraint firstItem="oJC-Qw-VGk" firstAttribute="leading" secondItem="lKk-Z7-IRe" secondAttribute="leading" id="2yN-il-d2S"/>
                                             <constraint firstItem="Ggg-Hs-PWF" firstAttribute="top" secondItem="Z7k-67-7H0" secondAttribute="top" id="6tF-Mu-qfx"/>
+                                            <constraint firstItem="cAX-oa-cRH" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="b4L-6q-Q8r" secondAttribute="leading" constant="20" id="8I4-SN-iDO"/>
                                             <constraint firstItem="oJC-Qw-VGk" firstAttribute="centerX" secondItem="b4L-6q-Q8r" secondAttribute="centerX" id="8lv-gd-qxP"/>
                                             <constraint firstAttribute="trailing" secondItem="gYE-iB-NRH" secondAttribute="trailing" constant="30" id="9B1-2L-byz"/>
                                             <constraint firstItem="E8e-4i-4vS" firstAttribute="top" secondItem="Z7k-67-7H0" secondAttribute="bottom" constant="30" id="BWh-4S-rnr"/>

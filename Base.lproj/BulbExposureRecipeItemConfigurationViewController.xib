@@ -2,12 +2,13 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BulbExposureRecipeItemConfigurationViewController" customModule="MagicRobotUI" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BulbExposureRecipeItemConfigurationViewController" customModule="Cascable" customModuleProvider="target">
             <connections>
                 <outlet property="skipAfSwitch" destination="eaF-g1-RGH" id="5GS-5j-4dH"/>
                 <outlet property="variableView" destination="lEr-wr-Qa7" id="GO1-xs-4T0"/>
@@ -34,7 +35,7 @@
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lEr-wr-Qa7" customClass="VariableView" customModule="MagicRobotUI" customModuleProvider="target">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lEr-wr-Qa7" customClass="VariableView" customModule="Cascable" customModuleProvider="target">
                                     <rect key="frame" x="67.5" y="244" width="240" height="24"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="24" placeholder="YES" id="ekj-qK-Ng1"/>
@@ -47,7 +48,7 @@
                                         <action selector="skipAfSwitchChanged:" destination="-1" eventType="valueChanged" id="w2a-ya-NoM"/>
                                     </connections>
                                 </switch>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skip autofocus if able" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcb-fA-VE9">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skip autofocus if able" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dcb-fA-VE9">
                                     <rect key="frame" x="104" y="85" width="163.5" height="21"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="textColor"/>
@@ -67,6 +68,7 @@ The exposure will be for the duration of the variable:</string>
                             <constraints>
                                 <constraint firstItem="4M1-HO-s2I" firstAttribute="leading" secondItem="mtD-Oi-W7e" secondAttribute="leading" id="5YY-K2-6aV"/>
                                 <constraint firstItem="eaF-g1-RGH" firstAttribute="leading" secondItem="mtD-Oi-W7e" secondAttribute="leading" constant="20" id="9Ld-Ka-TRQ"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dcb-fA-VE9" secondAttribute="trailing" constant="20" id="AZw-97-GdS"/>
                                 <constraint firstItem="dcb-fA-VE9" firstAttribute="leading" secondItem="eaF-g1-RGH" secondAttribute="trailing" constant="12" id="BAT-ii-9FD"/>
                                 <constraint firstItem="lEr-wr-Qa7" firstAttribute="centerX" secondItem="Lv8-nX-4CQ" secondAttribute="centerX" id="D1V-2t-lF4"/>
                                 <constraint firstItem="mtD-Oi-W7e" firstAttribute="leading" secondItem="Lv8-nX-4CQ" secondAttribute="leading" constant="23" id="IWT-Ep-qVb"/>

@@ -1,0 +1,30 @@
+/* Class = "UINavigationItem"; title = "Storage"; ObjectID = "C3A-Xe-Tve"; */
+"C3A-Xe-Tve.title" = "Speicher";
+
+/* Class = "UIButton"; normalTitle = "Clear"; ObjectID = "dPm-0P-pz6"; */
+"dPm-0P-pz6.normalTitle" = "Löschen";
+
+/* Class = "UILabel"; text = "Copy Queue"; ObjectID = "e4E-56-8WJ"; */
+"e4E-56-8WJ.text" = "Kopierwarteschlange";
+
+/* Class = "UIBarButtonItem"; title = "Storage"; ObjectID = "Gzm-Dl-X1g"; */
+"Gzm-Dl-X1g.title" = "Speicher";
+
+/* Class = "UITableViewController"; title = "Storage"; ObjectID = "LbK-VL-ztP"; */
+"LbK-VL-ztP.title" = "Speicher";
+
+/* Class = "UILabel"; text = "Cannot Display Content"; ObjectID = "PwP-Qe-900"; */
+"PwP-Qe-900.text" = "Inhalt kann nicht angezeigt werden";
+
+/* Class = "UILabel"; text = "A problem occurred when attempting to load content from this device. Please disconnect and reconnect it to try again."; ObjectID = "ULb-Lq-AP7"; */
+"ULb-Lq-AP7.text" = "Beim Laden des Inhalts von diesem Gerät ist ein Problem aufgetreten. Trennen und verbinden Sie es erneut.";
+
+/* Class = "UILabel"; text = "On- Camera Storage"; ObjectID = "VUe-xq-UBD"; */
+"VUe-xq-UBD.text" = "Kameraspeicher";
+
+/* Class = "UILabel"; text = "Linked to: iXpand Drive"; ObjectID = "WJM-Zg-i4x"; */
+"WJM-Zg-i4x.text" = "Verbunden mit: iXpand Drive";
+
+/* Class = "UILabel"; text = "Add Folder…"; ObjectID = "ysv-e7-fGe"; */
+"ysv-e7-fGe.text" = "Ordner hinzufügen...";
+

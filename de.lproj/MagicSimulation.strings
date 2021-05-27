@@ -1,1 +1,39 @@
+/* Class = "UINavigationItem"; title = "Simulation Setup"; ObjectID = "5DM-T6-Db0"; */
+"5DM-T6-Db0.title" = "Simulationseinstellungen";
+
+/* Class = "UIButton"; normalTitle = "Auto"; ObjectID = "8ns-XZ-G3I"; */
+"8ns-XZ-G3I.normalTitle" = "Auto";
+
+/* Class = "UIButton"; normalTitle = "Run Simulation"; ObjectID = "19o-kf-udb"; */
+"19o-kf-udb.normalTitle" = "Simulation ausführen";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "BPL-rr-vKZ"; */
+"BPL-rr-vKZ.title" = "Abbrechen";
+
+/* Class = "UIViewController"; title = "Running Simulation…"; ObjectID = "cXt-G2-mOb"; */
+"cXt-G2-mOb.title" = "Simulation wird ausgeführt...";
+
+/* Class = "UILabel"; text = "Camera Exposure Mode"; ObjectID = "FXe-1h-XBG"; */
+"FXe-1h-XBG.text" = "Kamera-Belichtungsmodus";
+
+/* Class = "UIButton"; normalTitle = "M"; ObjectID = "hAl-Xe-l1q"; */
+"hAl-Xe-l1q.normalTitle" = "M";
+
+/* Class = "UILabel"; text = "To simulate your recipe, choose your desired camera exposure mode, then tap \"Run Simulation\"."; ObjectID = "l3T-vZ-ft1"; */
+"l3T-vZ-ft1.text" = "Um Ihr Recipe zu simulieren, wählen Sie den gewünschten Kamera-Belichtungsmodus und tippen dann auf „Simulation ausführen“.";
+
+/* Class = "UIButton"; normalTitle = "A"; ObjectID = "m9Z-k2-0Yd"; */
+"m9Z-k2-0Yd.normalTitle" = "A";
+
+/* Class = "UIButton"; normalTitle = "S"; ObjectID = "PxP-uH-p7n"; */
+"PxP-uH-p7n.normalTitle" = "S";
+
+/* Class = "UIViewController"; title = "Simulation Setup"; ObjectID = "sAb-NZ-prz"; */
+"sAb-NZ-prz.title" = "Simulationseinstellungen";
+
+/* Class = "UITableViewController"; title = "Simulation Results"; ObjectID = "u3q-XJ-2rx"; */
+"u3q-XJ-2rx.title" = "Simulationsergebnisse";
+
+/* Class = "UINavigationItem"; title = "Simulation Results"; ObjectID = "zDJ-8q-RyF"; */
+"zDJ-8q-RyF.title" = "Simulationsergebnisse";
 

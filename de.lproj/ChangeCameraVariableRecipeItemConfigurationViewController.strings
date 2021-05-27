@@ -1,1 +1,6 @@
+/* Class = "UILabel"; text = "When executed, this block will change the following setting:"; ObjectID = "HPq-kn-dbw"; */
+"HPq-kn-dbw.text" = "Wenn dieser Block ausgeführt wird, wird die folgende Einstellung geändert:";
+
+/* Class = "UILabel"; text = "The setting will be changed by:"; ObjectID = "O6k-Wv-MFB"; */
+"O6k-Wv-MFB.text" = "Die Einstellung wird geändert durch:";
 

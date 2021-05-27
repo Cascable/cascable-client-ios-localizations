@@ -1,73 +1,153 @@
-/* 
-  IconLabels.strings
+/* (No Comment) */
+"BulbAEModeLabel" = "B";
+
+/* (No Comment) */
+"CanonADEPLabel" = "ADEP";
+
+/* (No Comment) */
+"CanonAutoWhitePriorityLabel" = "AWP";
+
+/* (No Comment) */
+"CanonDEPLabel" = "DEP";
+
+/* (No Comment) */
+"CanonGreenLabel" = "G";
+
+/* (No Comment) */
+"CanonHighSpeedPlusDriveModeLabel" = "H+";
+
+/* (No Comment) */
+"CanonLockLabel" = "L";
+
+/* (No Comment) */
+"CanonPhotoInMovieLabel" = "PIM";
+
+/* (No Comment) */
+"Custom1WBLabel" = "C1";
+
+/* (No Comment) */
+"Custom2WBLabel" = "C2";
+
+/* (No Comment) */
+"Custom3WBLabel" = "C3";
+
+/* (No Comment) */
+"Custom4WBLabel" = "C4";
+
+/* (No Comment) */
+"Custom5WBLabel" = "C5";
+
+/* (No Comment) */
+"ExplicitKelvinWhiteBalanceLabel" = "K";
+
+/* (No Comment) */
+"GenericAutomaticLabel" = "A";
+
+/* (No Comment) */
+"GenericBracketingLabel" = "BKT";
+
+/* (No Comment) */
+"GenericCustomLabel" = "C";
+
+/* (No Comment) */
+"GenericHighSpeedDriveModeLabel" = "H";
+
+/* (No Comment) */
+"GenericLowSpeedDriveModeLabel" = "L";
+
+/* (No Comment) */
+"GenericMediumSpeedDriveModeLabel" = "M";
+
+/* (No Comment) */
+"GenericSilentDriveModeLabel" = "S";
+
+/* (No Comment) */
+"GenericTenSecondDriveModeLabel" = "10";
+
+/* (No Comment) */
+"GenericTwelveSecondDriveModeLabel" = "12";
+
+/* (No Comment) */
+"GenericTwoSecondDriveModeLabel" = "2";
+
+/* (No Comment) */
+"HDRLabel" = "HDR";
+
+/* (No Comment) */
+"NikonAutoNaturalLightLabel" = "NL";
+
+/* (No Comment) */
+"NikonEffectsLabel" = "E";
+
+/* (No Comment) */
+"NikonHighSpeedExtendedDriveModeLabel" = "H+";
+
+/* (No Comment) */
+"NikonUser1Label" = "U1";
+
+/* (No Comment) */
+"NikonUser2Label" = "U2";
+
+/* (No Comment) */
+"NikonUser3Label" = "U3";
+
+/* (No Comment) */
+"OlympusARTLabel" = "ART";
+
+/* (No Comment) */
+"OlympusCustomTimerDriveModeLabel" = "C";
+
+/* (No Comment) */
+"OlympusCWB1Label" = "C1";
+
+/* (No Comment) */
+"OlympusCWB2Label" = "C2";
+
+/* (No Comment) */
+"OlympusCWB3Label" = "C3";
+
+/* (No Comment) */
+"OlympusCWB4Label" = "C4";
+
+/* (No Comment) */
+"OlympusLowVibrationDriveModeLabel" = "♢";
+
+/* IconLabels.strings
   Cascable
 
   Created by Daniel Kennett on 20/05/16.
   Copyright © 2016 Cascable AB. All rights reserved.
 
-  These strings must be short (3-4 chars max).
- */
-
+  These strings must be short (3-4 chars max). */
 "OlympusSilentDriveModeLabel" = "♡";
-"OlympusLowVibrationDriveModeLabel" = "♢";
-"OlympusCustomTimerDriveModeLabel" = "C";
 
-"SonyBurstDriveModeLabel" = "B";
-"SonySpeedPriorityDriveModeLabel" = "H+";
-"SonyMotionShotDriveModeLabel" = "M";
+/* (No Comment) */
+"Panasonic4KBurstDriveModeLabel" = "4K";
 
-"CanonHighSpeedPlusDriveModeLabel" = "H+";
-"NikonHighSpeedExtendedDriveModeLabel" = "H+";
+/* (No Comment) */
+"Panasonic4KBurstStartStopDriveModeLabel" = "4K\nS/S";
 
-"BlankDriveModeLabel" = "";
-"GenericSilentDriveModeLabel" = "S";
-"GenericLowSpeedDriveModeLabel" = "L";
-"GenericMediumSpeedDriveModeLabel" = "M";
-"GenericHighSpeedDriveModeLabel" = "H";
+/* (No Comment) */
+"Panasonic4KPreBurstDriveModeLabel" = "4K\nPRE";
 
-"GenericTenSecondDriveModeLabel" = "10";
-"GenericTwelveSecondDriveModeLabel" = "12";
-"GenericTwoSecondDriveModeLabel" = "2";
+/* (No Comment) */
+"PanasonicSuperHighSpeedDriveModeLabel" = "SH";
+
+/* (No Comment) */
 "PanasonicTenSecondThreeShotDriveModeLabel" = "10";
 
-"Panasonic4KBurstDriveModeLabel" = "4K";
-"Panasonic4KBurstStartStopDriveModeLabel" = "4K\nS/S";
-"Panasonic4KPreBurstDriveModeLabel" = "4K\nPRE";
-"PanasonicSuperHighSpeedDriveModeLabel" = "SH";
+/* (No Comment) */
+"SonyBurstDriveModeLabel" = "B";
+
+/* (No Comment) */
+"SonyMotionShotDriveModeLabel" = "M";
+
+/* (No Comment) */
+"SonySpeedPriorityDriveModeLabel" = "H+";
+
+/* (No Comment) */
+"SonySuperiorAutoLabel" = "A+";
 
 /* Used when we encounter a value we don't have a label for. In English, it's "C" for "Custom". */
 "UnknownValueFallbackLabel" = "C";
-"GenericAutomaticLabel" = "A";
-"GenericCustomLabel" = "C";
-
-"OlympusCWB1Label" = "C1";
-"OlympusCWB2Label" = "C2";
-"OlympusCWB3Label" = "C3";
-"OlympusCWB4Label" = "C4";
-"CanonAutoWhitePriorityLabel" = "AWP";
-"NikonAutoNaturalLightLabel" = "NL";
-
-"ExplicitKelvinWhiteBalanceLabel" = "K";
-"Custom1WBLabel" = "C1";
-"Custom2WBLabel" = "C2";
-"Custom3WBLabel" = "C3";
-"Custom4WBLabel" = "C4";
-"Custom5WBLabel" = "C5";
-
-"BulbAEModeLabel" = "B";
-"HDRLabel" = "HDR";
-"SonySuperiorAutoLabel" = "A+";
-"NikonUser1Label" = "U1";
-"NikonUser2Label" = "U2";
-"NikonUser3Label" = "U3";
-"NikonEffectsLabel" = "E";
-
-"CanonPhotoInMovieLabel" = "PIM";
-"CanonADEPLabel" = "ADEP";
-"CanonDEPLabel" = "DEP";
-"CanonLockLabel" = "L";
-"CanonGreenLabel" = "G";
-"OlympusARTLabel" = "ART";
-"GenericBracketingLabel" = "BKT";
-
 

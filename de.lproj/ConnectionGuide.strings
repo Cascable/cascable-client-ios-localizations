@@ -1,1 +1,60 @@
+/* Class = "UIButton"; accessibilityLabel = "Connect"; ObjectID = "8Nm-Wa-ov2"; */
+"8Nm-Wa-ov2.accessibilityLabel" = "Verbinden";
+
+/* Class = "UILabel"; text = "Connect via QR code"; ObjectID = "9I0-zB-5cn"; */
+"9I0-zB-5cn.text" = "Verbinden über QR-Code";
+
+/* Class = "UILabel"; text = "Cascable could not access your iOS device's camera. \n\nPlease make sure Cascable has permission to to access the camera in your privacy settings."; ObjectID = "au8-9r-vKe"; */
+"au8-9r-vKe.text" = "Cascable konnte nicht auf die Kamera des iOS-Geräts zugreifen. \n\nBitte stellen Sie sicher, dass Cascable in den Privatsphäre-Einstellungen die Erlaubnis erhält, auf die Kamera zuzugreifen.";
+
+/* Class = "UILabel"; text = "Instructions"; ObjectID = "B5H-zj-Ber"; */
+"B5H-zj-Ber.text" = "Anweisungen";
+
+/* Class = "UILabel"; text = "Enter IP Address"; ObjectID = "d5e-Xk-kx8"; */
+"d5e-Xk-kx8.text" = "IP-Adresse eingeben";
+
+/* Class = "UILabel"; text = "<Instructions placeholder>"; ObjectID = "dwr-dJ-X7l"; */
+"dwr-dJ-X7l.text" = "<Instructions placeholder>";
+
+/* Class = "UILabel"; text = "Discover camera on network"; ObjectID = "E8e-4i-4vS"; */
+"E8e-4i-4vS.text" = "Kamera im Netzwerk erkennen";
+
+/* Class = "UIButton"; normalTitle = "Open Settings"; ObjectID = "ffA-j2-WUx"; */
+"ffA-j2-WUx.normalTitle" = "Einstellungen öffnen";
+
+/* Class = "UILabel"; text = "Camera Family"; ObjectID = "g0Y-xJ-SBl"; */
+"g0Y-xJ-SBl.text" = "Kamerafamilie";
+
+/* Class = "UILabel"; text = "Instructions"; ObjectID = "hNd-mE-j4r"; */
+"hNd-mE-j4r.text" = "Anweisungen";
+
+/* Class = "UILabel"; text = "Instructions"; ObjectID = "lKk-Z7-IRe"; */
+"lKk-Z7-IRe.text" = "Anweisungen";
+
+/* Class = "UITextField"; placeholder = "192.168.0.1"; ObjectID = "noa-bb-vN8"; */
+"noa-bb-vN8.placeholder" = "192.168.0.1";
+
+/* Class = "UILabel"; text = "Canon"; ObjectID = "nUd-4s-02H"; */
+"nUd-4s-02H.text" = "Canon";
+
+/* Class = "UILabel"; text = "<Instructions placeholder>"; ObjectID = "OJC-DY-C9I"; */
+"OJC-DY-C9I.text" = "<Instructions placeholder>";
+
+/* Class = "UILabel"; text = "<Instructions placeholder>"; ObjectID = "oJC-Qw-VGk"; */
+"oJC-Qw-VGk.text" = "<Instructions placeholder>";
+
+/* Class = "UILabel"; text = "Connect via IP address"; ObjectID = "QqW-vh-ZOc"; */
+"QqW-vh-ZOc.text" = "Verbinden über IP-Adresse";
+
+/* Class = "UILabel"; text = "Camera Family"; ObjectID = "uwb-24-0Hd"; */
+"uwb-24-0Hd.text" = "Kamerafamilie";
+
+/* Class = "UIButton"; normalTitle = "Retry Connection"; ObjectID = "VxP-fb-60Z"; */
+"VxP-fb-60Z.normalTitle" = "Verbindung erneut versuchen";
+
+/* Class = "UILabel"; text = "Camera Family"; ObjectID = "WDi-rY-8MG"; */
+"WDi-rY-8MG.text" = "Kamerafamilie";
+
+/* Class = "UILabel"; text = "EOS SLR cameras, EOS M and EOS R mirrorless cameras."; ObjectID = "ZwA-IH-wcG"; */
+"ZwA-IH-wcG.text" = "EOS Spiegelreflexkameras, spiegellose EOS M und EOS R Kameras.";
 

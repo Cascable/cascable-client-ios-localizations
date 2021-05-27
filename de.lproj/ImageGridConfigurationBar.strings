@@ -1,0 +1,24 @@
+/* Class = "UIButton"; normalTitle = "Any rating"; ObjectID = "6V7-se-cfe"; */
+"6V7-se-cfe.normalTitle" = "Alle Sterne";
+
+/* Class = "UIButton"; normalTitle = "Any file type"; ObjectID = "9ze-oB-zKK"; */
+"9ze-oB-zKK.normalTitle" = "Alle Dateitypen";
+
+/* Class = "UIButton"; normalTitle = "Any date"; ObjectID = "590-Wb-4Zs"; */
+"590-Wb-4Zs.normalTitle" = "Jedes Datum";
+
+/* Class = "UIButton"; normalTitle = "Any rating"; ObjectID = "bEy-sl-DOg"; */
+"bEy-sl-DOg.normalTitle" = "Alle Sterne";
+
+/* Class = "UIButton"; normalTitle = "File Size"; ObjectID = "BwQ-fH-5Vi"; */
+"BwQ-fH-5Vi.normalTitle" = "Dateigröße";
+
+/* Class = "UIButton"; normalTitle = "Any file type"; ObjectID = "F8l-VI-ret"; */
+"F8l-VI-ret.normalTitle" = "Alle Dateitypen";
+
+/* Class = "UIButton"; normalTitle = "Any date"; ObjectID = "Q4J-Ul-XHP"; */
+"Q4J-Ul-XHP.normalTitle" = "Jedes Datum";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "TI7-r9-HTM"; */
+"TI7-r9-HTM.placeholder" = "Suchen";
+

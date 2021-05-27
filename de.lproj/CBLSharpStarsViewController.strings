@@ -1,3 +1,8 @@
+/* Class = "UILabel"; text = "Micro Four-Thirds (2,0x Crop Factor)"; ObjectID = "4Ib-6d-AmX"; */
+"4Ib-6d-AmX.text" = "Micro Four-Thirds (2,0x Formatfaktor)";
+
+/* Class = "UILabel"; text = "Focal Length Range"; ObjectID = "4Yz-Hd-GWD"; */
+"4Yz-Hd-GWD.text" = "Brennweitenbereich";
 
 /* Class = "UILabel"; text = "15,0 seconds"; ObjectID = "24h-4R-CUK"; */
 "24h-4R-CUK.text" = "15,0 Sekunden";
@@ -5,29 +10,23 @@
 /* Class = "UILabel"; text = "40mm"; ObjectID = "28b-Uc-uht"; */
 "28b-Uc-uht.text" = "40mm";
 
-/* Class = "UILabel"; text = "Micro Four-Thirds (2,0x Crop Factor)"; ObjectID = "4Ib-6d-AmX"; */
-"4Ib-6d-AmX.text" = "Micro Four-Thirds (2,0x Formatfaktor)";
-
-/* Class = "UILabel"; text = "Focal Length Range"; ObjectID = "4Yz-Hd-GWD"; */
-"4Yz-Hd-GWD.text" = "Brennweitenbereich";
+/* Class = "UILabel"; text = "40mm"; ObjectID = "Isi-s2-pJX"; */
+"Isi-s2-pJX.text" = "40mm";
 
 /* Class = "UILabel"; text = "Focal Length"; ObjectID = "ITp-tM-QwE"; */
 "ITp-tM-QwE.text" = "Brennweite";
 
-/* Class = "UILabel"; text = "40mm"; ObjectID = "Isi-s2-pJX"; */
-"Isi-s2-pJX.text" = "40mm";
+/* Class = "UILabel"; text = "Sharp Stars calculates the longest shutter speed you can use at night before stars appear blurry due to the Earth’s rotation."; ObjectID = "kCv-ul-YNA"; */
+"kCv-ul-YNA.text" = "Scharfe Sterne berechnet die längste nutzbare Verschlusszeit bei Nacht, bevor die Sterne aufgrund der Erddrehung verschwimmen.";
+
+/* Class = "UILabel"; text = "40mm"; ObjectID = "nkC-NF-oOi"; */
+"nkC-NF-oOi.text" = "40mm";
 
 /* Class = "UILabel"; text = "Sensor Size"; ObjectID = "QAQ-Vx-cnR"; */
 "QAQ-Vx-cnR.text" = "Sensorgröße";
 
 /* Class = "UILabel"; text = "Title"; ObjectID = "QWj-nk-d2j"; */
 "QWj-nk-d2j.text" = "Titel";
-
-/* Class = "UILabel"; text = "Sharp Stars calculates the longest shutter speed you can use at night before stars appear blurry due to the Earth’s rotation."; ObjectID = "kCv-ul-YNA"; */
-"kCv-ul-YNA.text" = "Scharfe Sterne berechnet die längste nutzbare Verschlusszeit bei Nacht, bevor die Sterne aufgrund der Erddrehung verschwimmen.";
-
-/* Class = "UILabel"; text = "40mm"; ObjectID = "	"; */
-"nkC-NF-oOi.text" = "40mm";
 
 /* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "sii-5c-RTP"; */
 "sii-5c-RTP.title" = "Abbrechen";
@@ -43,3 +42,4 @@
 
 /* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "z3w-Jc-yrN"; */
 "z3w-Jc-yrN.title" = "Sichern";
+
