@@ -1293,7 +1293,7 @@ To have Cascable notify you when disconnecting from your camera in the backgroun
 "PurchasesMadeHeader" = "Thank you for supporting Cascable! Your purchase helps support a small, independent company. We couldn't do it without you!";
 
 /* Purchase button main title for a one-time purchase. */
-"PurchaseButtonOneTimePurchaseHeadline" = "One-time Purchase";
+"PurchaseButtonOneTimePurchaseHeadline" = "Non-Subscription Purchase";
 
 /* Purchase button main title for a discounted upgrade. */
 "PurchaseButtonDiscountedUpgradeHeadline" = "Discounted Upgrade";

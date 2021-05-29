@@ -1299,7 +1299,7 @@
 "PurchaseButtonMonthTrialFormatter_Plural" = "%@ Monate KOSTENLOSE Demo!";
 
 /* Purchase button main title for a one-time purchase. */
-"PurchaseButtonOneTimePurchaseHeadline" = "Einmaliger Kauf";
+"PurchaseButtonOneTimePurchaseHeadline" = "Nicht-Abonnement-Kauf";
 
 /* Purchase button main title for a one week trial. */
 "PurchaseButtonOneWeekTrialHeadline" = "Eine Woche KOSTENLOSE Demo!";
