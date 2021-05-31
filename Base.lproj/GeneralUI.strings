@@ -1012,9 +1012,14 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 /* Title for the settings section for focus peaking. */
 "FocusPeakingSettingsTitle" = "Focus Peaking";
 
-/* Titles for the various applicatoin options for Focus Peaking. */
-"ApplyFocusPeaking0Title" = "Always";
-"ApplyFocusPeaking1Title" = "When shooting in MF";
+/* Titles for the various application options for Focus Peaking. */
+"FocusPeakingOnTitle" = "On";
+"ApplyFocusPeakingWhenInMFTitle" = "When shooting in MF";
+"ApplyFocusPeakingOffTitle" = "Off";
+
+"FocusPeakingOnShortTitle" = "On";
+"ApplyFocusPeakingWhenInMFShortTitle" = "In MF";
+"ApplyFocusPeakingOffShortTitle" = "Off";
 
 /* Section title for the 'Apply Focus Peaking' section of ''Focus Peaking'. */
 "ApplyWhenFocusPeakingSectionTitle" = "Apply Focus Peaking";
