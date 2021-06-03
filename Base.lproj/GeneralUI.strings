@@ -1478,6 +1478,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Aperture value prefix in "simple" terms (no special characters etc). */
 "AperturePropertyValueSimpleAdornmentPrefix" = "f/";
 
+/* EV zero value prefix in "simple" terms (no special characters etc). */
+"ExposureCompensationZeroValueSimpleAdornmentPrefix" = "±";
+
 /* Short title for the 'Shutter Speed' property. */
 "ShutterSpeedPropertyShortTitle" = "Shutter";
 
