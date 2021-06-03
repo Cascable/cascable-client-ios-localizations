@@ -1007,7 +1007,7 @@ To save photos to your camera roll, you must allow Cascable access to Photos in 
 "FastLVSettingTitle" = "Prefer High Framerate";
 
 /* Description of the 'Prefer Framerate over Quality' setting. */
-"FastLVDescription" = "If enabled and supported by your camera, Cascable will reduce live view quality to achieve a higher frame rate. Supported by Nikon, Phase One, some Canon, and some Sony models.";
+"FastLVDescription" = "If enabled and supported by your camera, Cascable will reduce live view quality to achieve a higher frame rate. Supported by Nikon, Phase One, some Canon, and some Sony models.\n\nChanges to this setting will be applied the next time live view starts.";
 
 /* Title for the settings section for focus peaking. */
 "FocusPeakingSettingsTitle" = "Focus Peaking";
@@ -1618,6 +1618,22 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 "QuickSettingsQuickSettingTitle" = "Quick Settings";
 
 "QuickSettingOnlyOneEntryTitle" = "The camera doesn't allow changes to this setting via Cascable.\n\nLook for a dial or switch on the camera body to change the setting.";
+
+/* 'Remote Control Settings' setting title. */
+"RemoteControlSettingsTitle" = "Remote Control Settings";
+
+/* 'Remote Settings' setting title — used in areas of limited width. */
+"RemoteControlSettingsShortTitle" = "Remote Settings";
+
+/* Title of the 'Control Bar Layout' settings panel. */
+"ControlBarLayoutSettingsTitle" = "Control Bar Layout";
+
+/* Title of the 'Layout' settings panel — used in areas of limited width. */
+"ControlBarLayoutSettingsShortTitle" = "Layout";
+
+"ControlBarLayoutPreferLeftTitle" = "Prefer Left";
+"ControlBarLayoutPreferRightTitle" = "Prefer Right";
+"ControlBarLayoutSettingFooter" = "When displaying control bars vertically, Cascable can adjust the layout to suit your preference.";
 
 // ------------------------------------------------------------
 //     Shutter Robot: General
