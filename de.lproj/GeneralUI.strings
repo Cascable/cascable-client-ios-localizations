@@ -349,6 +349,21 @@
 /* The title of the "Control & Automation" section in the camera compatibility table. Should remain short. */
 "ControlAndAutomationCompatibilityTitle" = "Steuerung & Automation";
 
+/* (No Comment) */
+"ControlBarLayoutPreferLeftTitle" = "Links bevorzugen";
+
+/* (No Comment) */
+"ControlBarLayoutPreferRightTitle" = "Rechts bevorzugen";
+
+/* (No Comment) */
+"ControlBarLayoutSettingFooter" = "Wenn Sie die Steuerungsleisten vertikal anzeigen, kann Cascable das Layout entsprechend Ihren Präferenzen anpassen.";
+
+/* Title of the 'Layout' settings panel — used in areas of limited width. */
+"ControlBarLayoutSettingsShortTitle" = "Layout";
+
+/* Title of the 'Control Bar Layout' settings panel. */
+"ControlBarLayoutSettingsTitle" = "Steuerungsleisten-Layout";
+
 /* Compact footer of the device view, including number of items being copied. Ex: 'Copying 1 of 1 item'. */
 "CopyingXofYFormatter" = "%@ von %@ Objekt kopieren";
 
@@ -580,6 +595,9 @@
 
 /* Short title for the 'Exposure Compensation' property. */
 "ExposureCompensationPropertyShortTitle" = "EV";
+
+/* EV zero value prefix in "simple" terms (no special characters etc). */
+"ExposureCompensationZeroValueSimpleAdornmentPrefix" = "±";
 
 /* Edit tool titles */
 "ExposureEditToolTitle" = "Belichtung";
@@ -1453,6 +1471,12 @@
 
 /* 'Get in touch' button title. */
 "ReducedFunctionalityGetInTouchButtonTitle" = "Kontakt aufnehmen";
+
+/* 'Remote Settings' setting title — used in areas of limited width. */
+"RemoteControlSettingsShortTitle" = "Fernbedienungseinstellungen";
+
+/* 'Remote Control Settings' setting title. */
+"RemoteControlSettingsTitle" = "Fernbedienungseinstellungen";
 
 /* Title of the 'Remote Mode' help page button in the help menu. */
 "RemoteModeHelpPageName" = "Fernbedienung";
