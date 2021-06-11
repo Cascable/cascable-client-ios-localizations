@@ -134,7 +134,7 @@
 "PanasonicCameraModelSubtitle" = "Kameras der LUMIX-Serie.";
 
 /* (No Comment) */
-"PhaseOneCameraModelSubtitle" = "IQ4 150MP Kameras.";
+"PhaseOneCameraModelSubtitle" = "IQ4 Kameras.";
 
 /* (No Comment) */
 "PhaseOneNetworkAutodetectInstructions" = "Folgen Sie den Schritten zur Netzwerkeinrichtung der Kamera, um ein neues WLAN-Netzwerk zu erstellen, sich mit einem bestehenden zu verbinden oder die Kamera über Ethernet mit einem Netzwerk zu verknüpfen, auf welches dieses iOS-Gerät zugreifen kann. Stellen Sie außerdem sicher, dass die Einstellung „Bonjour Enable“ auf der Kamera aktiviert ist.\n\nWenn die Kamera ein neues WLAN-Netzwerk erstellt hat, gehen Sie auf diesem Gerät in die App „Einstellungen“, verbinden es mit diesem neuen WLAN-Netzwerk und kehren anschließend zurück zu Cascable.\n\nSobald sich die Kamera und dieses Gerät im selben Netzwerk befinden, sollte Cascable die Kamera innerhalb weniger Sekunden erkennen und sich mit ihr verbinden.\n\nWeitere Details finden Sie in unseren Verbindungsleitfäden oder in der Gebrauchsanweisung der Kamera.";

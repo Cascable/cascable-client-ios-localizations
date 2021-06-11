@@ -55,7 +55,7 @@
 
 Cascable 6.0 revamps its core camera connection and control experience, providing a greatly improved connection and remote control workflow.
 
-Cascable also now supports the Phase One IQ4 digital back, allowing you to work with its 150MP RAW images directly on your iOS device.</string>
+Cascable also now supports the Phase One IQ4 digital back, allowing you to work with its up to 150MP RAW images directly on your iOS device.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -454,8 +454,8 @@ You'll also find a smoother, faster feel, better battery life, and less clutter 
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phase One IQ4 150MP Support" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0s-bw-TZ1">
-                                <rect key="frame" x="67" y="20" width="186" height="62.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phase One IQ4 Support" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0s-bw-TZ1">
+                                <rect key="frame" x="88" y="20" width="144.5" height="62.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -507,7 +507,7 @@ You'll also find a smoother, faster feel, better battery life, and less clutter 
                                         <variation key="widthClass=compact" constant="260"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Cascable 6.0 supports the medium-format Phase One IQ4 150MP digital back with both the XT and XF camera systems via WiFi or Ethernet.
+                                <string key="text">Cascable 6.0 supports the medium-format Phase One IQ4 digital back with both the XT and XF camera systems via WiFi or Ethernet.
 
 And, thanks to a special collaboration with Phase One, Cascable's Pro features are unlocked free-of-charge for Phase One users!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -533,7 +533,7 @@ And, thanks to a special collaboration with Phase One, Cascable's Pro features a
                             <constraint firstItem="g0s-bw-TZ1" firstAttribute="top" secondItem="YEr-it-3Rp" secondAttribute="bottom" constant="40" id="U81-J5-SMd">
                                 <variation key="widthClass=compact" constant="20"/>
                             </constraint>
-                            <constraint firstItem="g0s-bw-TZ1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="VFF-U1-31A" secondAttribute="leading" constant="20" id="UKV-es-Tnk"/>
+                            <constraint firstItem="g0s-bw-TZ1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="VFF-U1-31A" secondAttribute="leading" constant="40" id="UKV-es-Tnk"/>
                             <constraint firstItem="9FK-Vf-APh" firstAttribute="leading" secondItem="VFF-U1-31A" secondAttribute="leading" constant="20" id="eta-t7-6V4"/>
                             <constraint firstAttribute="centerX" secondItem="g0s-bw-TZ1" secondAttribute="centerX" id="rcu-Sz-4Ah"/>
                             <constraint firstItem="oK2-xD-4MV" firstAttribute="centerX" secondItem="VFF-U1-31A" secondAttribute="centerX" id="uCe-TP-6j5"/>
