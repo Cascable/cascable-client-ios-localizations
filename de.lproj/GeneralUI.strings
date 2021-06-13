@@ -1478,6 +1478,9 @@
 /* 'Remote Control Settings' setting title. */
 "RemoteControlSettingsTitle" = "Fernbedienungseinstellungen";
 
+/* Title of the button that disables tethering mode. */
+"RemoteDisableTetheringModeTitle" = "Tethering-Modus deaktivieren";
+
 /* Title of the 'Remote Mode' help page button in the help menu. */
 "RemoteModeHelpPageName" = "Fernbedienung";
 

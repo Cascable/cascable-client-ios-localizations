@@ -1414,6 +1414,9 @@ We'd love to make Cascable fully support your camera, so please get in touch to 
 /* Description of the remote control warning that tethering mode is enabled. */
 "RemoteUnavailableTetheringModeDescription" = "Disable tethering mode to view the camera's live view feed.";
 
+/* Title of the button that disables tethering mode. */
+"RemoteDisableTetheringModeTitle" = "Disable Tethering Mode";
+
 /* Title of the remote control warning that live view is disabled. */
 "RemoteUnavailableEVFNotCorrectTitle" = "Live View Stopped";
 
