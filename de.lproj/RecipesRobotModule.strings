@@ -162,7 +162,7 @@
 "RequiresChangeableExposureInCameraTitle" = "Erfordert konfigurierbare Belichtung";
 
 /* (No Comment) */
-"RequiresChangeableFocusDescription" = "Das Recipe setzt voraus, dass die Kamera eine manuelle Fokuseinstellung erlaubt. Dies wird derzeit nur von Kameras der Marken Canon EOS und Nikon unterstützt.";
+"RequiresChangeableFocusDescription" = "Das Recipe setzt voraus, dass die Kamera eine manuelle Fokuseinstellung erlaubt. Dies wird derzeit nur von Kameras der Marken Canon EOS, Nikon, und Phase One unterstützt.";
 
 /* (No Comment) */
 "RequiresChangeableFocusTitle" = "Erfordert manuelle Fokuseinstellung";
